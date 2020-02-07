@@ -1,0 +1,31 @@
+
+-------------------------------------------------------------------------
+
+add char before after
+
+before
+
+Search: ^
+Replace: <your_request>
+
+after
+Search: $
+Replace: <your_request>
+
+-------------------------------------------------------------------------
+
+remove duplicates
+
+Edit > Line Operations > Sort Lines Lexicographically Ascending
+
+Search: ^(.+?)\R(\1\R?)+
+Replace: \1\r\n
+
+-------------------------------------------------------------------------
+
+all data in one line
+
+Search: (\h*\R)+
+Replace: \x20
+
+-------------------------------------------------------------------------
