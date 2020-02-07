@@ -5,7 +5,7 @@
 
 ---
 
-* [SELECT]()
+* [SELECT](https://github.com/ttltrk/TTT/blob/master/SQL/SELECT/SELECT.sql)
 * [SELECT DISTINCT]()
 * [SELECT TOP]()
 * [WHERE]()
