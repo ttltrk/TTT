@@ -1,0 +1,10 @@
+
+---------------------------------------------------------
+
+ctrl-f >> replace
+ctr-a >> mark all
+alt-x >> run all
+ctr-enter >> run the marked query
+ctrl+shift+f >> optimizing queries
+
+---------------------------------------------------------
