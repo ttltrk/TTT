@@ -20,10 +20,10 @@
 
 * [DS](https://github.com/ttltrk/TTT/tree/master/DS/DS.md)
 * [DO](https://github.com/ttltrk/TTT/tree/master/DO/DO.md)
+* [TOOLS](https://github.com/ttltrk/TTT/tree/master/TOOLS/TOOLS.md)
 
 ---
 
-* [TOOLS](https://github.com/ttltrk/TTT/tree/master/TOOLS/TOOLS.md)
 * [LAN](https://github.com/ttltrk/TTT/tree/master/LAN/LAN.md)
 
 ---
