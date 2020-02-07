@@ -5,7 +5,14 @@
 
 ---
 
-* [t1]()
-* [t2]()
+* [standard]()
+* [shell scripts]()
+* [cron]()
+* [profile]()
+* [sftp]()
+* [archive]()
+* [ssh]()
+* [ip]()
+* [vi]()
 
 ---
