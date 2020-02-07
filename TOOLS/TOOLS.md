@@ -1,7 +1,7 @@
 
 ---
 
-### M - TOOLS
+### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - TOOLS
 
 ---
 
