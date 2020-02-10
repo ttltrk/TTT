@@ -5,7 +5,7 @@
 
 ---
 
-* [commands](https://github.com/ttltrk/TTT/blob/master/DO/CMD/CMD.txt)
+* [commands](https://github.com/ttltrk/TTT/blob/master/DO/CMD/CMD.md)
 * [xxx]()
 
 ---
