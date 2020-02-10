@@ -20,6 +20,7 @@ The data returned is stored in a result table, called the result-set.
 SELECT * FROM trk_test_01;
 ```
 
+```
 personid|lastname|firstname|address |city   |
 --------|--------|---------|--------|-------|
        1|trk     |ttl      |Hlavna 5|TNO    |
@@ -28,6 +29,7 @@ personid|lastname|firstname|address |city   |
        6|kawhi   |leo      |canada  |toronto|
        4|bbking  |bbe      |hemp    |ams    |
        5|petofi  |alex     |var     |BP     |
+```
 
 ---
 
@@ -35,6 +37,7 @@ personid|lastname|firstname|address |city   |
 SELECT * FROM trk_test_02;
 ```
 
+```
 systemid|dep       |city|
 --------|----------|----|
        1|ITOPS     |BA  |
@@ -44,6 +47,7 @@ systemid|dep       |city|
        5|ITOPS     |BP  |
        6|ITOPS     |LN  |
        7|DEVOPS    |NYC |
+```
 
 ---
 
@@ -51,6 +55,7 @@ systemid|dep       |city|
 SELECT personid, lastname FROM trk_test_01;
 ```
 
+```
 personid|lastname|
 --------|--------|
        1|trk     |
@@ -59,6 +64,7 @@ personid|lastname|
        6|kawhi   |
        4|bbking  |
        5|petofi  |
+```
 
 ---
 
@@ -66,6 +72,7 @@ personid|lastname|
 SELECT lastname FROM (SELECT * FROM trk_test_01) AS lname; --select from select
 ```
 
+```
 lastname|
 --------|
 trk     |
@@ -74,5 +81,6 @@ ewong   |
 kawhi   |
 bbking  |
 petofi  |
+```
 
 ---
