@@ -9,7 +9,7 @@
 
 ---
 
-* [standard](https://github.com/ttltrk/TTT/blob/master/STANDARD/STANDARD.md)
+* [standard](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/STANDARD.md)
 * [shell scripts]()
 * [cron]()
 * [profile]()
