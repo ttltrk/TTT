@@ -11,9 +11,11 @@
 
 kiirja a file tartalmat
 
-```
+```sh
 cat file_name.txt
+```
 
+```sh
 ttltrk-mbp:TEST attilatorok$ cat test3.txt
 elso sor
 masodik sor
@@ -26,9 +28,11 @@ az utolso otodik sor
 
 szamozva kiirja a file tartalmat
 
-```
+```sh
 cat -n file_name.txt
+```
 
+```sh
 ttltrk-mbp:TEST attilatorok$ cat -n test3.txt
      1	elso sor
      2	masodik sor
@@ -42,9 +46,11 @@ ttltrk-mbp:TEST attilatorok$
 
 szamozva kiirja a file tartalmat a 3.ik sortol
 
-```
+```sh
 cat -n file_name.txt | more +3
+```
 
+```sh
 ttltrk-mbp:TEST attilatorok$ cat -n test3.txt | more +3
      3  harmadik sor
      4  negyedik sor es
@@ -55,9 +61,11 @@ ttltrk-mbp:TEST attilatorok$ cat -n test3.txt | more +3
 
 fileok tartalmat (1-2) osszefuzi (a 3.ik-ba)
 
-```
+```sh
 cat file_name_1.txt file_name_2.txt > file_name_3.txt
+```
 
+```sh
 ttltrk-mbp:TEST attilatorok$ cat t1.txt
 t1 - elso sora
 ttltrk-mbp:TEST attilatorok$ cat t2.txt
