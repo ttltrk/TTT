@@ -5,6 +5,8 @@
 
 ---
 
+
+
 ### Python
 
 ---
@@ -18,7 +20,7 @@
 * [PRINT FORMATTING]()
 * [LOGICAL CONTROL]()
 * [LOOPS]()
-* [KETWORDS]()
+* [KEYWORDS]()
 * [GENERATORS]()
 * [TRY EXCEPT]()
 * [DATES]()
