@@ -13,6 +13,8 @@
 The SELECT TOP clause is used to specify the number of records to return.
 ```
 
+---
+
 ```sql
 SELECT TOP 3 * FROM trk_test_01;
 ```
