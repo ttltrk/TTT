@@ -42,5 +42,6 @@ Operators in The WHERE Clause
 BETWEEN	Between a certain range
 LIKE	Search for a pattern
 IN	To specify multiple possible values for a column
+```
 
- ```
+---
