@@ -10,7 +10,7 @@
 ---
 
 * [alias](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/ALIAS/ALIAS.md)
-* [cat]()
+* [cat](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/CAT/CAT.md)
 * [chgrp]()
 * [clear]()
 * [chmod]()
