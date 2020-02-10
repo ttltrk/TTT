@@ -1,12 +1,16 @@
 
 ---
 
-### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - SQL
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
+
+---
+
+### SQL
 
 ---
 
 * [SELECT](https://github.com/ttltrk/TTT/blob/master/SQL/SELECT/SELECT.md)
-* [SELECT DISTINCT]()
+* [SELECT DISTINCT](https://github.com/ttltrk/TTT/blob/master/SQL/SELECT_DISTINCT/SELECT_DISTINCT.md)
 * [SELECT TOP]()
 * [WHERE]()
 * [AND, OR, NOT]()
