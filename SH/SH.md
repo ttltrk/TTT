@@ -5,7 +5,7 @@
 
 ---
 
-* [standard]()
+* [standard](https://github.com/ttltrk/TTT/blob/master/STANDARD/STANDARD.md)
 * [shell scripts]()
 * [cron]()
 * [profile]()
