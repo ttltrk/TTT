@@ -1,11 +1,15 @@
 
 ---
 
-### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [Shell]() -
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [SH](https://github.com/ttltrk/TTT/blob/master/SH/SH.md)
 
 ---
 
-* [alias]()
+### STANDARD
+
+---
+
+* [alias](https://github.com/ttltrk/TTT/blob/master/STANDARD/ALIAS/ALIAS.md)
 * [cat]()
 * [chgrp]()
 * [clear]()
