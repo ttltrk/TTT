@@ -9,7 +9,7 @@
 
 ---
 
-* [COMMENTS]()
+* [COMMENTS](https://github.com/ttltrk/TTT/blob/master/PY/COMMENTS/COMMENTS.md)
 * [VARIABLES]()
 * [DATA TYPES]()
 * [NUMBERS]()
