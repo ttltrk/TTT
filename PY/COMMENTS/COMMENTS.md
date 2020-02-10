@@ -27,31 +27,27 @@ Comments can be used to prevent execution when testing code.
 ```py
 #This is a comment
 print("Hello, World!")
-```
 
-```
+>>>
 Hello, World!
+>>>
 ```
-
----
 
 ```py
 print("Hello, World!") #This is a comment
-```
 
-```
+>>>
 Hello, World!
+>>>
 ```
-
----
 
 ```py
 #print("Hello, World!")
 print("Cheers, Mate!")
-```
 
-```
+>>>
 Cheers, Mate!
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -68,10 +64,10 @@ more than just one line
 """
 
 print("Hello, World!")
-```
 
-```
+>>>
 Hello, World!
+>>>
 ```
 
 <a href='#^'>^^^</a>
