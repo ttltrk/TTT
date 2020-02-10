@@ -19,7 +19,9 @@ and sometimes you only want to list the different (distinct) values.
 SELECT DISTINCT city FROM trk_test_02;
 SELECT COUNT(DISTINCT city) FROM trk_test_02;
 SELECT COUNT(city) FROM trk_test_02;
+```
 
+```sql
 --only even numbers
 SELECT DISTINCT personid FROM trk_test_01 WHERE Mod(personid,2)=0;
 
