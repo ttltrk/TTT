@@ -488,3 +488,86 @@ Template parsing error: template: :1: unexpected unclosed action in command
 
 C:\Users\AttilaTorok>
 ```
+
+```
+C:\Users\AttilaTorok>docker network ls
+NETWORK ID          NAME                DRIVER              SCOPE
+60b56822dc3f        bridge              bridge              local
+88e3a44dbd66        host                host                local
+a0ca6542eaa2        none                null                local
+
+C:\Users\AttilaTorok>docker network inspect bridge
+[
+    {
+        "Name": "bridge",
+        "Id": "60b56822dc3f44282db275b6faf1ae5c6494cca36449518050b45b68ea8a22af",
+        "Created": "2020-02-12T06:06:17.534518473Z",
+
+        ...
+
+        ...
+
+        ...
+
+```
+
+```
+C:\Users\AttilaTorok>docker network create my_app_net
+c7d067b71d2b7ee561e9fc31500297001b52af2c6f8ef216d57ee5f56cc5ebf2
+
+C:\Users\AttilaTorok>docker network ls
+NETWORK ID          NAME                DRIVER              SCOPE
+60b56822dc3f        bridge              bridge              local
+88e3a44dbd66        host                host                local
+c7d067b71d2b        my_app_net          bridge              local
+a0ca6542eaa2        none                null                local
+
+C:\Users\AttilaTorok>
+```
+
+```
+C:\Users\AttilaTorok>docker container run -d --name new_nginx --network my_app_net nginx
+06517d5ff9825b768a37d0fe241a087568cb2548be547ddb154c1342228bf087
+
+C:\Users\AttilaTorok>docker network inspect my_app_net
+[
+    {
+        "Name": "my_app_net",
+        "Id": "c7d067b71d2b7ee561e9fc31500297001b52af2c6f8ef216d57ee5f56cc5ebf2",
+        "Created": "2020-02-12T13:26:49.531859798Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.18.0.0/16",
+                    "Gateway": "172.18.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "06517d5ff9825b768a37d0fe241a087568cb2548be547ddb154c1342228bf087": {
+                "Name": "new_nginx",
+                "EndpointID": "9fd5488e352c333730be3b82155342e16db3255f7519617803b7b2a29f66467f",
+                "MacAddress": "02:42:ac:12:00:02",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
+
+C:\Users\AttilaTorok>
+```
