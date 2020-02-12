@@ -475,3 +475,16 @@ This apk has coffee making abilities.
 ```
 
 ---
+
+```
+C:\Users\AttilaTorok>docker container run -p 80:80 --name webhost -d nginx
+411031eee3669fe9ed916b6b78f09f51525080a71ff3bfead5fdd0031d215545
+
+C:\Users\AttilaTorok>docker container port webhost
+80/tcp -> 0.0.0.0:80
+
+C:\Users\AttilaTorok>docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+Template parsing error: template: :1: unexpected unclosed action in command
+
+C:\Users\AttilaTorok>
+```
