@@ -1,6 +1,13 @@
 
------------------------------------------------------------
+---
 
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [Languages](https://github.com/ttltrk/TTT/blob/master/LAN/LAN.md) - [SPA](https://github.com/ttltrk/TTT/blob/master/LAN/SPA/SPA.md)
+
+---
+
+### Intro
+
+```
 The man - El hombre
 The women - La mujer
 The boy -  El nino
@@ -13,9 +20,11 @@ I'm - Yo
 You - Tu
 He - El
 She - Ella
+```
 
------------------------------------------------------------
+---
 
+```
 I'm a boy.
 Yo soy un niño
 
@@ -37,14 +46,18 @@ El es un nino.
 He eats apple.
 El come manzanas.
 the milk - la leche
+```
 
------------------------------------------------------------
+---
 
+```
 I eat, you eat, he eats.
 Yo como, tú comes, él come.
+```
 
------------------------------------------------------------
+---
 
+```
 Do you drink water?
 Tu bebes agua?
 
@@ -59,5 +72,6 @@ Tu comes manzanas?
 
 The woman drinks water.
 La mujer bebe agua.
+```
 
------------------------------------------------------------
+---

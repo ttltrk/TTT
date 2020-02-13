@@ -7,6 +7,8 @@
 
 ### Animals
 
+---
+
 ```
 The fly is eating bread.
 Die Fliege frisst brot.
