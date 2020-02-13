@@ -1,11 +1,15 @@
 
 ---
 
-### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - Languages
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
 
 ---
 
-* [GER]()
+### Languages
+
+---
+
+* [GER](https://github.com/ttltrk/TTT/blob/master/LAN/GER/GER.md)
 * [FRA]()
 * [SPA]()
 
