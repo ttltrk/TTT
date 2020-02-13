@@ -18,35 +18,20 @@ chaqueta = jacket
 sombrero = hat
 gris = gray
 marron = brown
-este = this 
+este = this
 ```
 
 ---
 
 ```
-I want this dress.
-You quiero este vestido.
-
-Yo necesito una camiseta.
-I need a t-shirt.
-
-I want to buy clothes.
-You quiero comprar ropa.
-
-Este sombrero.
-This hat.
-
-I want to buy a jacket.
-Yo quiero comprar una chaqueta.
-
-Gray or brown?
-Gris o marron.
-
-Yes, this hat.
-Si, este sombrero.
-
-A brown dress.
-Un vestido marron.
+You quiero este vestido. = I want this dress.
+Yo necesito una camiseta. = I need a t-shirt.
+You quiero comprar ropa. = I want to buy clothes.
+Este sombrero. = This hat.
+Yo quiero comprar una chaqueta. = I want to buy a jacket.
+Gris o marron. = Gray or brown?
+Si, este sombrero. = Yes, this hat.
+Un vestido marron. = A brown dress.
 ```
 
 ---
