@@ -5,9 +5,15 @@
 
 ---
 
-### CAT
+<h3 id='^'>CAT</h3>
 
 ---
+
+* <a href='#basics'>Basics</a></br>
+
+---
+
+<h3 id='basics'>Basics</h3>
 
 kiirja a file tartalmat
 
@@ -23,8 +29,6 @@ harmadik sor
 negyedik sor es
 az utolso otodik sor
 ```
-
----
 
 szamozva kiirja a file tartalmat
 
@@ -42,8 +46,6 @@ ttltrk-mbp:TEST attilatorok$ cat -n test3.txt
 ttltrk-mbp:TEST attilatorok$
 ```
 
----
-
 szamozva kiirja a file tartalmat a 3.ik sortol
 
 ```sh
@@ -56,8 +58,6 @@ ttltrk-mbp:TEST attilatorok$ cat -n test3.txt | more +3
      4  negyedik sor es
      5  az utolso otodik sor
 ```
-
----
 
 fileok tartalmat (1-2) osszefuzi (a 3.ik-ba)
 

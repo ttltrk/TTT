@@ -5,30 +5,29 @@
 
 ---
 
-<h3 id='^'>ALIAS</h3>
+<h3 id='^'>ECHO</h3>
 
 ---
 
-* <a href='#basics'>Basics</a></br>
+* <a href='#'></a></br>
+* <a href='#'></a></br>
 
 ---
 
-<h3 id='basics'>Basics</h3>
+<h3 id=''></h3>
 
 ```sh
-cd ~
-ls -la
-vi .profile
 
-alias la="ls -la"
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id=''></h3>
+
 ```sh
-$ la
-la: not found
-$
-$ alias la="ls -la"
-$ la
+
 ```
 
 <a href='#^'>^^^</a>
