@@ -9,7 +9,7 @@
 
 ---
 
-* <a href='#basics'>Bsics</a></br>
+* <a href='#basics'>Basics</a></br>
 * <a href='#'></a></br>
 
 ---
