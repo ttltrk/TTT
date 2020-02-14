@@ -9,15 +9,15 @@
 
 ---
 
-* <a href='#'></a></br>
+* <a href='#basics'>Bsics</a></br>
 * <a href='#'></a></br>
 
 ---
 
-<h3 id=''></h3>
+<h3 id='basics'>Basics</h3>
 
 ```sh
-
+chmod 777 file_dir
 ```
 
 <a href='#^'>^^^</a>
