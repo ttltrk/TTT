@@ -19,6 +19,16 @@ sombrero = hat
 gris = gray
 marron = brown
 este = this
+differente = different
+falda = skirt
+barato = cheap
+caro = expensive
+abrigo = coat
+cartera = purse
+cinturon = belt
+cómoda = comfortable
+reloj = watch
+Demasiado = too
 ```
 
 ---
@@ -34,4 +44,25 @@ Si, este sombrero. = Yes, this hat.
 Un vestido marron. = A brown dress.
 ```
 
+```
+Un sombrero differente. = A different hat.
+Una falda azul. = A blue skirt.
+Un vestido barato. = A cheap dress.
+Un sombrero caro. = An expensive hat.
+Este sombrero. = That hat.
+Un sombrero barato. = A cheap hat.
+Un abrigo rojo. = A red coat.
+Un abrigo caro. = An expensive coat.
+```
+
+```
+You necesito una cartera. = I need a purse.
+Mi chaqueta favorita. = My favorite jacket.
+Un cinturon caro. = An expensive belt.
+Yo quiero ropa cómoda. = I want comfortable clothes.
+Un regalo para mi hija. = A gift for my daughter.
+Demasiado elegante. = Too elegant.
+Una cartera azul. = A blue purse.
+Yo quiero un reloj. = I want a watch.
+```
 ---
