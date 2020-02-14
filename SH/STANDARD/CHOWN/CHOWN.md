@@ -20,6 +20,13 @@
 chown user:group file_name
 ```
 
+or
+
+```
+it is enough to create a new folder as a newOwner and copy the requested files there as a newOwner
+and the ownership will be automatically changed
+```
+
 <a href='#^'>^^^</a>
 
 ---
