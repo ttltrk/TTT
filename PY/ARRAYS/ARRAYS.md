@@ -14,6 +14,4 @@
 - [Tuple](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/TUPLE.md)
 - [Dictionary](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT.md)
 
-<a href='#^'>^^^</a>
-
 ---
