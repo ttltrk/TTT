@@ -46,8 +46,19 @@ print(fruits)
 
 <h3 id='clear'>clear()</h3>
 
-```py
+```
+Removes all the elements from the list
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry', 'orange']
+fruits.clear()
+
+print(fruits)
+
+>>>
+[]
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -56,8 +67,19 @@ print(fruits)
 
 <h3 id='copy'>copy()</h3>
 
-```py
+```
+Returns a copy of the list
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry', 'orange']
+x = fruits.copy()
+
+print(x)
+
+>>>
+['apple', 'banana', 'cherry', 'orange']
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -66,8 +88,22 @@ print(fruits)
 
 <h3 id='count'>count()</h3>
 
-```py
+```
+Returns the number of elements with the specified value
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry', 'apple']
+x = fruits.count("cherry")
+y = fruits.count('apple')
+
+print(x)
+print(y)
+
+>>>
+1
+2
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -76,8 +112,21 @@ print(fruits)
 
 <h3 id='extend'>extend()</h3>
 
-```py
+```
+Add the elements of a list (or any iterable), to the end of the current list
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+cars = ['Ford', 'BMW', 'Volvo']
+
+fruits.extend(cars)
+
+print(fruits)
+
+>>>
+['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -86,8 +135,23 @@ print(fruits)
 
 <h3 id='index'>index()</h3>
 
-```py
+```
+Returns the index of the first element with the specified value
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+
+a = fruits.index('apple')
+x = fruits.index("cherry")
+
+print(a)
+print(x)
+
+>>>
+0
+2
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -96,8 +160,21 @@ print(fruits)
 
 <h3 id='insert'>insert()</h3>
 
-```py
+```
+Adds an element at the specified position
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.insert(1, "orange")
+fruits.insert(0, "szia")
+
+print(fruits)
+
+>>>
+['szia', 'apple', 'orange', 'banana', 'cherry']
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -106,8 +183,19 @@ print(fruits)
 
 <h3 id='pop'>pop()</h3>
 
-```py
+```
+Removes the element at the specified position
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+fruits.pop(1)
+
+print(fruits)
+
+>>>
+['apple', 'cherry']
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -116,8 +204,20 @@ print(fruits)
 
 <h3 id='remove'>remove()</h3>
 
-```py
+```
+Removes the first item with the specified value
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.remove("banana")
+
+print(fruits)
+
+>>>
+['apple', 'cherry']
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -126,8 +226,19 @@ print(fruits)
 
 <h3 id='reverse'>reverse()</h3>
 
-```py
+```
+Reverses the order of the list
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+fruits.reverse()
+
+print(fruits)
+
+>>>
+['cherry', 'banana', 'apple']
+>>>
 ```
 
 <a href='#^'>^^^</a>
@@ -136,8 +247,19 @@ print(fruits)
 
 <h3 id='sort'>sort()</h3>
 
-```py
+```
+Sorts the list
+```
 
+```py
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort()
+
+print(cars)
+
+>>>
+['BMW', 'Ford', 'Volvo']
+>>>
 ```
 
 <a href='#^'>^^^</a>
