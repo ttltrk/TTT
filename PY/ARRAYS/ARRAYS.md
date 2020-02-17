@@ -9,26 +9,10 @@
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
+- [List](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/LIST/LIST.md)
+- [Set](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/SET/SET.md)
+- [Tuple](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/TUPLE.md)
+- [Dictionary](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT.md)
 
 <a href='#^'>^^^</a>
 
