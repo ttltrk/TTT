@@ -9,27 +9,10 @@
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+- [List Basics](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/LIST/LIST_BASICS/LIST_BASICS.md)
+- [List Methods](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/LIST/LIST_METH/LIST_METH.md)
+- [List Comprehension](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/LIST/LIST_COMP/LIST_COMP.md)
+- []()
+- []()
 
 ---
