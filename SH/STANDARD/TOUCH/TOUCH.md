@@ -9,12 +9,12 @@
 
 ---
 
-* <a href='#'>create 4 files</a></br>
+* <a href='#create4'>create 4 files</a></br>
 * <a href='#'></a></br>
 
 ---
 
-<h3 id=''>create 4 files</h3>
+<h3 id='create4'>create 4 files</h3>
 
 ```sh
 create 4 files
