@@ -40,6 +40,6 @@
 * [tty](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TTY/TTY.md)
 * [unzip](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/UNZIP/UNZIP.md)
 * [wc](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/WC/WC.md)
-* []()
+
 
 ---
