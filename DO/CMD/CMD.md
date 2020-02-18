@@ -1,6 +1,27 @@
 
 ---
 
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [DO](https://github.com/ttltrk/TTT/blob/master/DO/DO.md)
+
+---
+
+<h3 id='^'>Docker mastery</h3>
+
+---
+
+* <a href='#'></a></br>
+* <a href='#'></a></br>
+* <a href='#'></a></br>
+* <a href='#'></a></br>
+* <a href='#'></a></br>
+* <a href='#'></a></br>
+* <a href='#'></a></br>
+* <a href='#doc_Net_dns'>Docker Networks: DNS and How containers find each other</a></br>
+
+---
+
+<h3 id='sec1'>sec1</h3>
+
 ```
 docker version
 docker info
@@ -10,6 +31,12 @@ docker //list of commands
 ```
 if using docker toolbox type in the IP addreess >> http://192.168.99.100
 ```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='sec2'>sec2</h3>
 
 ```
 docker container run --publish 80:80 nginx //starting the nginx webserver
@@ -105,6 +132,12 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 C:\Users\AttilaTorok>
 ```
 
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='sec3'>sec3</h3>
+
 ```
 mongo start
 
@@ -136,7 +169,11 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 C:\Users\AttilaTorok>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec4'>sec4</h3>
 
 ```
 docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql //run mysql container
@@ -154,7 +191,11 @@ C:\Users\AttilaTorok>
 docker container logs db //check the logs - you can find the password in the logs - GENERATED ROOT PASSWORD:
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec5'>sec5</h3>
 
 ```
 docker container run -d --name webserver -p 8080:80 httpd //run webserver
@@ -280,7 +321,11 @@ mongo               latest              8e89dfef54ff        8 days ago          
 C:\Users\AttilaTorok>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec6'>sec6</h3>
 
 ```
 docker container top - process list in one container
@@ -316,7 +361,11 @@ C:\Users\AttilaTorok>
 docker container inspect mysql //json array about how the mysql was started
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec7'>sec7</h3>
 
 ```
 docker container run -it //start new container interactively
@@ -403,7 +452,11 @@ ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec8'>sec8</h3>
 
 ```
 C:\Users\AttilaTorok>docker container exec -it mysql bash
@@ -422,7 +475,11 @@ ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec9'>sec9</h3>
 
 ```
 C:\Users\AttilaTorok>docker pull alpine
@@ -474,7 +531,11 @@ This apk has coffee making abilities.
 / #
 ```
 
+<a href='#^'>^^^</a>
+
 ---
+
+<h3 id='sec10'>sec10</h3>
 
 ```
 C:\Users\AttilaTorok>docker container run -p 80:80 --name webhost -d nginx
@@ -571,3 +632,23 @@ C:\Users\AttilaTorok>docker network inspect my_app_net
 
 C:\Users\AttilaTorok>
 ```
+
+<a href='#^'>^^^</a>
+
+---
+
+<h3 id='doc_Net_dns'>Docker Networks: DNS and How containers find each other</h3>
+
+```
+C:\Users\AttilaTorok>docker container run -d --name my_nginx --network my_app_net nginx
+3cdec9d65880219f4bbd4f1256de3d1cd5ddae4d2930b016662661b133b353f0
+
+C:\Users\AttilaTorok>docker container exec -it my_nginx ping new_nginx
+OCI runtime exec failed: exec failed: container_linux.go:346: starting container process caused "exec: \"ping\": executable file not found in $PATH": unknown
+
+C:\Users\AttilaTorok>
+```
+
+<a href='#^'>^^^</a>
+
+---

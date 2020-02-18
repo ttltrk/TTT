@@ -5,6 +5,6 @@
 
 ---
 
-* [commands](https://github.com/ttltrk/TTT/blob/master/DO/CMD/CMD.md)
+* [Docker mastery](https://github.com/ttltrk/TTT/blob/master/DO/CMD/CMD.md)
 
 ---
