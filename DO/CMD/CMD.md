@@ -9,8 +9,10 @@
 
 ---
 
-* <a href='#sec1'>sec1</a></br>
-* <a href='#sec2'>sec2</a></br>
+#### Creating and Using Containers
+
+* <a href='#config'>Configuration</a></br>
+* <a href='#start_nginx'>Starting an Nginx  Web Server</a></br>
 * <a href='#sec3'>sec3</a></br>
 * <a href='#sec4'>sec4</a></br>
 * <a href='#sec5'>sec5</a></br>
@@ -34,7 +36,11 @@
 
 ---
 
-<h3 id='sec1'>sec1</h3>
+## Creating and Using Containers
+
+---
+
+<h3 id='config'>Configuration</h3>
 
 ```
 docker version
@@ -50,7 +56,7 @@ if using docker toolbox type in the IP addreess >> http://192.168.99.100
 
 ---
 
-<h3 id='sec2'>sec2</h3>
+<h3 id='start_nginx'>Starting an Nginx  Web Server</h3>
 
 ```
 docker container run --publish 80:80 nginx //starting the nginx webserver
