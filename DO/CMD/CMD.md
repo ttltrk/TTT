@@ -9,10 +9,10 @@
 
 ---
 
-#### Creating and Using Containers
+#### 03 - Creating and Using Containers
 
-* <a href='#config'>Configuration</a></br>
-* <a href='#start_nginx'>Starting an Nginx  Web Server</a></br>
+* <a href='#config'>3.1 - Configuration</a></br>
+* <a href='#start_nginx'>3.2 - Starting an Nginx  Web Server</a></br>
 * <a href='#sec3'>sec3</a></br>
 * <a href='#sec4'>sec4</a></br>
 * <a href='#sec5'>sec5</a></br>
@@ -24,7 +24,7 @@
 * <a href='#doc_Net_dns'>Docker Networks: DNS and How containers find each other</a></br>
 * <a href='#DNS_RR_TEST'>DNS Round Robin Test</a></br>
 
-#### Container Images
+#### 04 - Container Images
 
 * <a href='#'></a></br>
 * <a href='#'></a></br>
@@ -36,11 +36,11 @@
 
 ---
 
-## Creating and Using Containers
+### 03 - Creating and Using Containers
 
 ---
 
-<h3 id='config'>Configuration</h3>
+<h3 id='config'>3.1 - Configuration</h3>
 
 ```
 docker version
@@ -56,7 +56,7 @@ if using docker toolbox type in the IP addreess >> http://192.168.99.100
 
 ---
 
-<h3 id='start_nginx'>Starting an Nginx  Web Server</h3>
+<h3 id='start_nginx'>3.2 - Starting an Nginx  Web Server</h3>
 
 ```
 docker container run --publish 80:80 nginx //starting the nginx webserver
