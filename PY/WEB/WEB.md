@@ -9,27 +9,6 @@
 
 ---
 
-* <a href='#'>Flask</a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+- [Flask](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK.md)
 
 ---
