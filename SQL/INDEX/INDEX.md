@@ -26,9 +26,22 @@ The users cannot see the indexes, they are just used to speed up searches/querie
 ```sql
 SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
 
+>>>
+schemaname|tablename  |indexname       |tablespace|indexdef                                                                         |
+----------|-----------|----------------|----------|---------------------------------------------------------------------------------|
+public    |trk_test_01|trk_test_01_pkey|          |CREATE UNIQUE INDEX trk_test_01_pkey ON public.trk_test_01 USING btree (personid)|
+>>>
+
 CREATE INDEX idx_lastname ON trk_test_01 (lastname);
 
 SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
+
+>>>
+schemaname|tablename  |indexname       |tablespace|indexdef                                                                         |
+----------|-----------|----------------|----------|---------------------------------------------------------------------------------|
+public    |trk_test_01|trk_test_01_pkey|          |CREATE UNIQUE INDEX trk_test_01_pkey ON public.trk_test_01 USING btree (personid)|
+public    |trk_test_01|idx_lastname    |          |CREATE INDEX idx_lastname ON public.trk_test_01 USING btree (lastname)           |
+>>>
 ```
 
 [^^^](#index)
@@ -38,9 +51,24 @@ SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
 #### DROP_INDEX
 
 ```sql
+SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
+
+>>>
+schemaname|tablename  |indexname       |tablespace|indexdef                                                                         |
+----------|-----------|----------------|----------|---------------------------------------------------------------------------------|
+public    |trk_test_01|trk_test_01_pkey|          |CREATE UNIQUE INDEX trk_test_01_pkey ON public.trk_test_01 USING btree (personid)|
+public    |trk_test_01|idx_lastname    |          |CREATE INDEX idx_lastname ON public.trk_test_01 USING btree (lastname)           |
+>>>
+
 DROP INDEX idx_lastname;
 
 SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
+
+>>>
+schemaname|tablename  |indexname       |tablespace|indexdef                                                                         |
+----------|-----------|----------------|----------|---------------------------------------------------------------------------------|
+public    |trk_test_01|trk_test_01_pkey|          |CREATE UNIQUE INDEX trk_test_01_pkey ON public.trk_test_01 USING btree (personid)|
+>>>
 ```
 
 [^^^](#index)
