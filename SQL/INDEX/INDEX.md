@@ -5,42 +5,44 @@
 
 ---
 
-<h3 id='^'>INDEX</h3>
+### INDEX
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+[CREATE_INDEX](#CREATE_INDEX)
+[DROP_INDEX](#DROP_INDEX)
 
 ---
-
-<h3 id=''></h3>
-
-```sql
 
 ```
-
-<a href='#^'>^^^</a>
+Indexes are used to retrieve data from the database very fast.
+The users cannot see the indexes, they are just used to speed up searches/queries.
+```
 
 ---
 
-<h3 id=''></h3>
+#### CREATE_INDEX
 
 ```sql
+SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
 
+CREATE INDEX idx_lastname ON trk_test_01 (lastname);
+
+SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#index)
 
 ---
 
-<h3 id=''></h3>
+#### DROP_INDEX
 
 ```sql
+DROP INDEX idx_lastname;
 
+SELECT * FROM pg_indexes WHERE tablename NOT LIKE 'pg%';
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#index)
 
 ---
