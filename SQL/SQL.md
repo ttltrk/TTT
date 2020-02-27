@@ -34,5 +34,6 @@
 * [GROUP BY](https://github.com/ttltrk/TTT/blob/master/SQL/GROUP_BY/GROUP_BY.md)
 * [INDEX](https://github.com/ttltrk/TTT/blob/master/SQL/INDEX/INDEX.md)
 * [CASE](https://github.com/ttltrk/TTT/blob/master/SQL/CASE/CASE.md)
+* [VIEW](https://github.com/ttltrk/TTT/blob/master/SQL/VIEW/VIEW.md)
 
 ---
