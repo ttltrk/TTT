@@ -18,6 +18,7 @@ In SQL, a view is a virtual table based on the result set of an SQL statement.
 * [CREATE_VIEW](#CREATE_VIEW)
 * [CREATE_OR_REPLACE_VIEW](#CREATE_OR_REPLACE_VIEW)
 * [DROP_VIEW](#DROP_VIEW)
+* [DISTINGUISH_TABLE_VS_VIEW](#DISTINGUISH_TABLE_VS_VIEW)
 
 ---
 
@@ -115,6 +116,16 @@ SELECT * FROM US_Cust;
 SQL Error [42P01]: ERROR: relation "us_cust" does not exist
   Position: 15
 >>>
+```
+
+[^^^](#VIEW)
+
+---
+
+#### DISTINGUISH_TABLE_VS_VIEW
+
+```SQL
+SELECT * FROM information_schema.tables;
 ```
 
 [^^^](#VIEW)
