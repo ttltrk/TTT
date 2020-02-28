@@ -5,42 +5,58 @@
 
 ---
 
-<h3 id='^'>INSERT INTO</h3>
+### INSERT_INTO
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```sql
 
 ```
-
-<a href='#^'>^^^</a>
+The INSERT INTO statement is used to insert new records in a table.
+```
 
 ---
 
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sql
+select * from trk_test_01;
 
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       6|kawhi   |leo      |canada  |toronto|
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+>>>
 ```
 
-<a href='#^'>^^^</a>
+```SQL
+INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
+VALUES(7, 'ray', 'brent', 'still', 'GER');
+```
+
+```SQL
+select * from trk_test_01;
+
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       6|kawhi   |leo      |canada  |toronto|
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+       7|ray     |brent    |still   |GER    |
+>>>
+```
+
+[^^^](#INSERT_INTO)
 
 ---
