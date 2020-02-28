@@ -38,8 +38,6 @@ personid|lastname|firstname|address |city   |
 >>>
 ```
 
----
-
 ```sql
 SELECT * FROM trk_test_02;
 
@@ -56,8 +54,6 @@ systemid|dep       |city|
 >>>
 ```
 
----
-
 ```sql
 SELECT personid, lastname FROM trk_test_01;
 
@@ -72,6 +68,8 @@ personid|lastname|
        5|petofi  |
 >>>
 ```
+
+[^^^](#SELECT)
 
 ---
 
@@ -91,5 +89,7 @@ bbking  |
 petofi  |
 >>>
 ```
+
+[^^^](#SELECT)
 
 ---
