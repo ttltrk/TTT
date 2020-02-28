@@ -5,42 +5,78 @@
 
 ---
 
-<h3 id='^'>MIN MAX</h3>
+### MIN_MAX
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```sql
 
 ```
-
-<a href='#^'>^^^</a>
+The MIN() function returns the smallest value of the selected column.
+The MAX() function returns the largest value of the selected column.
+```
 
 ---
 
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
+* [MIN](#MIN)
+* [MAX](#MAX)
 
 ---
 
-<h3 id=''></h3>
+#### MIN
 
 ```sql
+SELECT systemid FROM trk_test_02;
 
+>>>
+systemid|
+--------|
+       1|
+       2|
+       3|
+       4|
+       5|
+       6|
+       7|
+>>>
+
+SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
+
+>>>
+smallestsysid|
+-------------|
+            1|
+>>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#MIN_MAX)
+
+---
+
+#### MAX
+
+```sql
+SELECT systemid FROM trk_test_02;
+
+>>>
+systemid|
+--------|
+       1|
+       2|
+       3|
+       4|
+       5|
+       6|
+       7|
+>>>
+
+SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
+
+>>>
+smallestsysid|
+-------------|
+            7|
+>>>
+```
+
+[^^^](#MIN_MAX)
 
 ---
