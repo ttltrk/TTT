@@ -34,14 +34,10 @@ personid|lastname|firstname|address |city   |
        5|petofi  |alex     |var     |BP     |
        6|kawhi   |leo      |canada  |toronto|
 >>>
-```
 
-```SQL
 INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
 VALUES(7, 'ray', 'brent', 'still', 'GER');
-```
 
-```SQL
 select * from trk_test_01 order by personid;
 
 >>>
