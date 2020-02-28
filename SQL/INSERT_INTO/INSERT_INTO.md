@@ -22,7 +22,7 @@ The INSERT INTO statement is used to insert new records in a table.
 #### BASICS
 
 ```sql
-select * from trk_test_01;
+select * from trk_test_01 order by personid;
 
 >>>
 personid|lastname|firstname|address |city   |
@@ -30,9 +30,9 @@ personid|lastname|firstname|address |city   |
        1|trk     |ttl      |Hlavna 5|TNO    |
        2|doe     |jon      |CA      |GS     |
        3|ewong   |samatha  |SFR     |Dallas |
-       6|kawhi   |leo      |canada  |toronto|
        4|bbking  |bbe      |hemp    |ams    |
        5|petofi  |alex     |var     |BP     |
+       6|kawhi   |leo      |canada  |toronto|
 >>>
 ```
 
@@ -42,7 +42,7 @@ VALUES(7, 'ray', 'brent', 'still', 'GER');
 ```
 
 ```SQL
-select * from trk_test_01;
+select * from trk_test_01 order by personid;
 
 >>>
 personid|lastname|firstname|address |city   |
@@ -50,9 +50,9 @@ personid|lastname|firstname|address |city   |
        1|trk     |ttl      |Hlavna 5|TNO    |
        2|doe     |jon      |CA      |GS     |
        3|ewong   |samatha  |SFR     |Dallas |
-       6|kawhi   |leo      |canada  |toronto|
        4|bbking  |bbe      |hemp    |ams    |
        5|petofi  |alex     |var     |BP     |
+       6|kawhi   |leo      |canada  |toronto|
        7|ray     |brent    |still   |GER    |
 >>>
 ```
