@@ -5,15 +5,25 @@
 
 ---
 
-<h3 id='^'>AND OR NOT</h3>
+#### AND_OR_NOT
 
 ---
 
-* <a href='#basics'>Basics</a></br>
+```
+The WHERE clause can be combined with AND, OR, and NOT operators.
+The AND and OR operators are used to filter records based on more than one condition:
+The AND operator displays a record if all the conditions separated by AND are TRUE.
+The OR operator displays a record if any of the conditions separated by OR is TRUE.
+The NOT operator displays a record if the condition(s) is NOT TRUE.
+```
 
 ---
 
-<h3 id='basics'>Basics</h3>
+* [BASICS](#BASICS)
+
+---
+
+#### BASICS
 
 ```sql
 SELECT * FROM trk_test_02;
@@ -90,6 +100,6 @@ systemid|dep       |city|
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#AND_OR_NOT)
 
 ---
