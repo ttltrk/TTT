@@ -74,6 +74,7 @@ systemid|dep       |city|
        5|ITOPS     |BP  |
        6|ITOPS     |LN  |
        7|DEVOPS    |NYC |
+       8|ARCHITECT |GER |
 >>>
 
 SELECT * FROM trk_test_01 WHERE city IN (SELECT city FROM trk_test_02);
@@ -82,6 +83,7 @@ SELECT * FROM trk_test_01 WHERE city IN (SELECT city FROM trk_test_02);
 personid|lastname|firstname|address|city|
 --------|--------|---------|-------|----|
        5|petofi  |alex     |var    |BP  |
+       7|jockey  |brent    |still  |GER |
 >>>
 ```
 
