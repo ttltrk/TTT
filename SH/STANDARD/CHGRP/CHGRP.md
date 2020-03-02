@@ -5,31 +5,26 @@
 
 ---
 
-<h3 id='^'>CHGRP</h3>
+### CHGRP
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```sh
 
 ```
-
-<a href='#^'>^^^</a>
+Change the group of the file
+```
 
 ---
 
-<h3 id=''></h3>
+* [BASICS](#BASICS)
+
+---
+
+#### BASICS
 
 ```sh
-
+chgrp groupname file_name
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#CHGRP)
 
 ---
