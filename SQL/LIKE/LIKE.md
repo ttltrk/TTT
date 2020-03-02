@@ -183,6 +183,20 @@ bbking  |
 #### FIRST_AND_LAST_CHARS
 
 ```sql
+select lastname from trk_test_01;
+
+>>>
+lastname|
+--------|
+trk     |
+doe     |
+ewong   |
+kawhi   |
+bbking  |
+petofi  |
+jockey  |
+>>>
+
 SELECT lastname FROM trk_test_01 WHERE lastname LIKE 'e%g';
 
 >>>
@@ -199,6 +213,20 @@ ewong   |
 #### WITHOUT_D_AS_FIRST
 
 ```sql
+select lastname from trk_test_01;
+
+>>>
+lastname|
+--------|
+trk     |
+doe     |
+ewong   |
+kawhi   |
+bbking  |
+petofi  |
+jockey  |
+>>>
+
 SELECT lastname FROM trk_test_01 WHERE lastname NOT LIKE 'd%';
 
 >>>
