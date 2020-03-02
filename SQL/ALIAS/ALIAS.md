@@ -4,42 +4,52 @@
 
 ---
 
-<h3 id='^'>ALIAS</h3>
+### ALIAS
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```sql
 
 ```
 
-<a href='#^'>^^^</a>
+```
 
 ---
 
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sql
+SELECT personid, firstname FROM trk_test_01;
 
+>>>
+personid|firstname|
+--------|---------|
+       1|ttl      |
+       2|jon      |
+       3|samatha  |
+       6|leo      |
+       4|bbe      |
+       5|alex     |
+       7|brent    |
+>>>
+
+SELECT personid AS PI, firstname AS FI FROM trk_test_01;
+
+>>>
+pi|fi     |
+--|-------|
+ 1|ttl    |
+ 2|jon    |
+ 3|samatha|
+ 6|leo    |
+ 4|bbe    |
+ 5|alex   |
+ 7|brent  |
+>>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#ALIAS)
 
 ---
