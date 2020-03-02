@@ -1,35 +1,15 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [PY](https://github.com/ttltrk/TTT/blob/master/PY/PY.md) - [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/ARRAYS.md)
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [PY](https://github.com/ttltrk/TTT/blob/master/PY/PY.md) - [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT.md)
 
 ---
 
-<h3 id='^'>Dictionary</h3>
+#### DICTIONARY
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+* [BASICS]()
+* [DICTIONARY_METHOD](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_METH/DICT_METH.md)
 
 ---

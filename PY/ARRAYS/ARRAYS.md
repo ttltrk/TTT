@@ -5,7 +5,7 @@
 
 ---
 
-<h3 id='^'>ARRAYS</h3>
+### ARRAYS
 
 ---
 
