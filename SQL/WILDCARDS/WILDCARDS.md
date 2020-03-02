@@ -15,8 +15,8 @@ A wildcard character is used to substitute one or more characters in a string.
 
 ---
 
-* [%]()
-* [_]()
+* [%](#%)
+* [_](#_)
 
 ---
 
