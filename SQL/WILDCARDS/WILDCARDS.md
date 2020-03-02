@@ -5,42 +5,60 @@
 
 ---
 
-<h3 id='^'>WILDCARDS</h3>
+### WILDCARDS
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+```
+A wildcard character is used to substitute one or more characters in a string.
+```
 
 ---
 
-<h3 id=''></h3>
+* [%]()
+* [_]()
+* [[charlist]]()
+* [[!charlist]]()
+
+
+---
+
+###
 
 ```sql
 
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#WILDCARDS)
 
 ---
 
-<h3 id=''></h3>
+###
 
 ```sql
 
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#WILDCARDS)
 
 ---
 
-<h3 id=''></h3>
+###
 
 ```sql
 
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#WILDCARDS)
+
+---
+
+###
+
+```sql
+
+```
+
+[^^^](#WILDCARDS)
 
 ---
