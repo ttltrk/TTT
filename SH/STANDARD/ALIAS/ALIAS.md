@@ -5,15 +5,15 @@
 
 ---
 
-<h3 id='^'>ALIAS</h3>
+### ALIAS
 
 ---
 
-* <a href='#basics'>Basics</a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id='basics'>Basics</h3>
+#### BASICS
 
 ```sh
 cd ~
@@ -31,6 +31,6 @@ $ alias la="ls -la"
 $ la
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#ALIAS)
 
 ---

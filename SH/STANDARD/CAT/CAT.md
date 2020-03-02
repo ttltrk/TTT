@@ -5,17 +5,24 @@
 
 ---
 
-<h3 id='^'>CAT</h3>
+### CAT
 
 ---
 
-* <a href='#basics'>Basics</a></br>
+```
+It reads data from the file and gives their content as output. It helps us to create, view, concatenate files.
+```
 
 ---
 
-<h3 id='basics'>Basics</h3>
+* [READ_THE_CONTENT](#READ_THE_CONTENT)
+* [READ_THE_CONTENT_WITH_LINENUMS](#READ_THE_CONTENT_WITH_LINENUMS)
+* [READ_THE_CONTENT_FROM_3RD_LINE](#READ_THE_CONTENT_FROM_3RD_LINE)
+* [CONCATENATE_TWO_FILES_INTO_THE_3RD](#CONCATENATE_TWO_FILES_INTO_THE_3RD)
 
-kiirja a file tartalmat
+---
+
+#### READ_THE_CONTENT
 
 ```sh
 cat file_name.txt
@@ -30,7 +37,11 @@ negyedik sor es
 az utolso otodik sor
 ```
 
-szamozva kiirja a file tartalmat
+[^^^](#CAT)
+
+---
+
+#### READ_THE_CONTENT_WITH_LINENUMS
 
 ```sh
 cat -n file_name.txt
@@ -46,7 +57,11 @@ ttltrk-mbp:TEST attilatorok$ cat -n test3.txt
 ttltrk-mbp:TEST attilatorok$
 ```
 
-szamozva kiirja a file tartalmat a 3.ik sortol
+[^^^](#CAT)
+
+---
+
+#### READ_THE_CONTENT_FROM_3RD_LINE
 
 ```sh
 cat -n file_name.txt | more +3
@@ -59,7 +74,11 @@ ttltrk-mbp:TEST attilatorok$ cat -n test3.txt | more +3
      5  az utolso otodik sor
 ```
 
-fileok tartalmat (1-2) osszefuzi (a 3.ik-ba)
+[^^^](#CAT)
+
+---
+
+#### CONCATENATE_TWO_FILES_INTO_THE_3RD
 
 ```sh
 cat file_name_1.txt file_name_2.txt > file_name_3.txt
@@ -80,5 +99,7 @@ t2 - elso sora
 t2 - masodik sora
 ttltrk-mbp:TEST attilatorok$
 ```
+
+[^^^](#CAT)
 
 ---
