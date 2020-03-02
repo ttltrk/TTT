@@ -183,7 +183,13 @@ bbking  |
 #### FIRST_AND_LAST_CHARS
 
 ```sql
+SELECT lastname FROM trk_test_01 WHERE lastname LIKE 'e%g';
 
+>>>
+lastname|
+--------|
+ewong   |
+>>>
 ```
 
 [^^^](#LIKE)
@@ -193,7 +199,18 @@ bbking  |
 #### WITHOUT_D_AS_FIRST
 
 ```sql
+SELECT lastname FROM trk_test_01 WHERE lastname NOT LIKE 'd%';
 
+>>>
+lastname|
+--------|
+trk     |
+ewong   |
+kawhi   |
+bbking  |
+petofi  |
+jockey  |
+>>>
 ```
 
 [^^^](#LIKE)
