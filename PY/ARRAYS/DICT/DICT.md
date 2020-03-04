@@ -9,7 +9,7 @@
 
 ---
 
-* [BASICS]()
+* [BASICS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_BASICS/DICT_BASICS.md)
 * [DICTIONARY_METHOD](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_METH/DICT_METH.md)
 
 ---
