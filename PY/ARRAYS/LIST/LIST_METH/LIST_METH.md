@@ -5,25 +5,31 @@
 
 ---
 
-<h3 id='^'>List Methods</h3>
+### LIST_METHODS
 
 ---
 
-* <a href='#append'>append()</a></br>
-* <a href='#clear'>clear()</a></br>
-* <a href='#copy'>copy()</a></br>
-* <a href='#count'>count()</a></br>
-* <a href='#extend'>extend()</a></br>
-* <a href='#index'>index()</a></br>
-* <a href='#insert'>insert()</a></br>
-* <a href='#pop'>pop()</a></br>
-* <a href='#remove'>remove()</a></br>
-* <a href='#reverse'>reverse()</a></br>
-* <a href='#sort'>sort()</a></br>
+```
+
+```
 
 ---
 
-<h3 id='append'>append()</h3>
+* [append](#append)
+* [clear](#clear)
+* [copy](#copy)
+* [count](#count)
+* [extend](#extend)
+* [index](#index)
+* [insert](#insert)
+* [pop](#pop)
+* [remove](#remove)
+* [reverse](#reverse)
+* [sort](#sort)
+
+---
+
+#### append
 
 ```
 Adds an element at the end of the list
@@ -40,11 +46,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='clear'>clear()</h3>
+#### clear
 
 ```
 Removes all the elements from the list
@@ -61,11 +67,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='copy'>copy()</h3>
+#### copy
 
 ```
 Returns a copy of the list
@@ -82,11 +88,11 @@ print(x)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='count'>count()</h3>
+#### count
 
 ```
 Returns the number of elements with the specified value
@@ -106,11 +112,11 @@ print(y)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='extend'>extend()</h3>
+#### extend
 
 ```
 Add the elements of a list (or any iterable), to the end of the current list
@@ -129,11 +135,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='index'>index()</h3>
+#### index
 
 ```
 Returns the index of the first element with the specified value
@@ -154,11 +160,11 @@ print(x)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='insert'>insert()</h3>
+#### insert
 
 ```
 Adds an element at the specified position
@@ -177,11 +183,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='pop'>pop()</h3>
+#### pop
 
 ```
 Removes the element at the specified position
@@ -198,11 +204,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='remove'>remove()</h3>
+#### remove
 
 ```
 Removes the first item with the specified value
@@ -220,11 +226,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='reverse'>reverse()</h3>
+#### reverse
 
 ```
 Reverses the order of the list
@@ -241,11 +247,11 @@ print(fruits)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---
 
-<h3 id='sort'>sort()</h3>
+#### sort 
 
 ```
 Sorts the list
@@ -262,6 +268,6 @@ print(cars)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_METHODS)
 
 ---

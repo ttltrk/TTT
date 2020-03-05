@@ -5,7 +5,7 @@
 
 ---
 
-### DICTIONARY_METHOD
+### DICTIONARY_METHODS
 
 ---
 
