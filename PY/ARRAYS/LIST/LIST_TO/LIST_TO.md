@@ -5,22 +5,22 @@
 
 ---
 
-<h3 id='^'>List to...</h3>
+### LIST_TO
 
 ---
 
-* <a href='#lst2str'>List to String</a></br>
-* <a href='#lst2tup'>List to Tuple</a></br>
-* <a href='#lst2dict'>List to Dictionary</a></br>
-* <a href='#2lstintodict'>Two List into a Dictionary</a></br>
-* <a href='#lst2set'>List to Set</a></br>
-* <a href='#strintlst'>String to int in List</a></br>
-* <a href='#strlst2intlst'>String list to int List</a></br>
-* <a href='#join2lst'>Join two Lists</a></br>
+* [LIST_TO_STRING](#LIST_TO_STRING)
+* [LIST_TO_TUPLE](#LIST_TO_TUPLE)
+* [LIST_TO_DICTIONARY](#LIST_TO_DICTIONARY)
+* [TWO_LIST_INTO_DICTIONARY](#TWO_LIST_INTO_DICTIONARY)
+* [LIST_TO_SET](#LIST_TO_SET)
+* [STRING_TO_INT_IN_LIST](#STRING_TO_INT_IN_LIST)
+* [STRING_LIST_TO_INT_LIST](#STRING_LIST_TO_INT_LIST)
+* [JOIN_TWO_LISTS](#JOIN_TWO_LISTS)
 
 ---
 
-<h3 id='lst2str'>List to String</h3>
+#### LIST_TO_STRING
 
 ```py
 list1 = ['1', '2', '3']
@@ -42,11 +42,11 @@ print(str4)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='lst2tup'>List to Tuple</h3>
+#### LIST_TO_TUPLE
 
 ```py
 l = [4,5,6]
@@ -61,11 +61,11 @@ print(t)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='lst2dict'>List to Dictionary</h3>
+#### LIST_TO_DICTIONARY
 
 ```py
 l = ['bi','double','duo','two']
@@ -79,11 +79,11 @@ print(d)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='2lstintodict'>Two List into a Dictionary</h3>
+#### TWO_LIST_INTO_DICTIONARY
 
 ```py
 #create two lists
@@ -121,11 +121,11 @@ print(letter_count('ssziaa'))
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='lst2set'>List to Set</h3>
+#### LIST_TO_SET
 
 ```py
 l1 = ['bi','double','duo','two']
@@ -143,11 +143,11 @@ print(s2)
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='strintlst'>String to int in List</h3>
+#### STRING_TO_INT_IN_LIST
 
 ```py
 def sum_mix(arr):
@@ -165,11 +165,11 @@ print(sum_mix([8, 0, 0, '8', 15, 7, 2, 3, '7', 8, '6', 7]))
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='strlst2intlst'>String list to int List</h3>
+#### STRING_LIST_TO_INT_LIST
 
 ```py
 def scoreboard(string):
@@ -221,11 +221,11 @@ print(scoreboard("The score is two nil"))
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
 
-<h3 id='join2lst'>Join two Lists</h3>
+#### JOIN_TWO_LISTS
 
 ```py
 def add_length(str_):
@@ -253,6 +253,6 @@ print(add_length('apple banana hey'))
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LIST_TO)
 
 ---
