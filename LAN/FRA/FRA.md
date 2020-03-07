@@ -9,6 +9,6 @@
 
 ---
 
-- [Intro]()
+- [Basics](https://github.com/ttltrk/TTT/blob/master/LAN/FRA/BASICS/BASICS.md)
 
 ---
