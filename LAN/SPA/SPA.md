@@ -15,5 +15,6 @@
 - [Restaurant](https://github.com/ttltrk/TTT/blob/master/LAN/SPA/RESTAURANT/RESTAURANT.md)
 - [Family](https://github.com/ttltrk/TTT/blob/master/LAN/SPA/FAMILY/FAMILY.md)
 - [Shopping](https://github.com/ttltrk/TTT/blob/master/LAN/SPA/SHOPPING/SHOPPING.md)
+- [People](https://github.com/ttltrk/TTT/blob/master/LAN/SPA/PEOPLE/PEOPLE.md)
 
 ---
