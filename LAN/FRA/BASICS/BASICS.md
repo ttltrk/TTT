@@ -10,7 +10,9 @@
 ---
 
 ```
-
+une femme - a woman
+Je suis une femme. - Iam a woman.
+une fille et un garcon - a girl and a boy
 ```
 
 ---
