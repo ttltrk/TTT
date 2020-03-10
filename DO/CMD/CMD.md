@@ -13,9 +13,9 @@
 
 * [CONFIGURATION](#CONFIGURATION)
 * [STARTING_NGINX](#STARTING_NGINX)
-* <a href='#sec3'>sec3</a></br>
-* <a href='#sec4'>sec4</a></br>
-* <a href='#sec5'>sec5</a></br>
+* [JUST_A_PROCESS](#JUST_A_PROCESS)
+* [MANAGE_MULTIPLE_CONTAINERS](#MANAGE_MULTIPLE_CONTAINERS)
+* [CLI_PROCESSING_MONITORING](#CLI_PROCESSING_MONITORING)
 * <a href='#sec6'>sec6</a></br>
 * <a href='#sec7'>sec7</a></br>
 * <a href='#sec8'>sec8</a></br>
@@ -236,18 +236,22 @@ C:\Users\AttilaTorok>
 
 ---
 
-<h3 id='sec3'>sec3</h3>
+#### JUST_A_PROCESS
+
+**mongo start**
 
 ```
-mongo start
-
 C:\Users\AttilaTorok>docker run --name mongo -d mongo
 Unable to find image 'mongo:latest' locally
 latest: Pulling from library/mongo
 5c939e3a4d10: Pull complete                                                                                             c63719cdbe7a: Pull complete                                                                                             19a861ea6baf: Pull complete                                                                                             651c9d2d6c4f: Pull complete                                                                                             85155c6d5fac: Pull complete                                                                                             85fb0780fd97: Pull complete                                                                                             85b3b1a901f5: Pull complete                                                                                             6a882e007bb6: Pull complete                                                                                             f7806503a70f: Pull complete                                                                                             5732cde4308d: Pull complete                                                                                             8f892a804391: Pull complete                                                                                             afc61ce39de5: Pull complete                                                                                             ffc30d4b370e: Pull complete                                                                                             Digest: sha256:48a59166d81b41da82cedc8e57223cfc7b6314dc34e8a571dc12f2fc35ac9258
 Status: Downloaded newer image for mongo:latest
 57f58f39a3c8ec35fb0cd1d18c21c536a48a889d3409d71f4f1bbdfae633238e
+```
 
+**list out processes**
+
+```
 C:\Users\AttilaTorok>docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED              STATUS              PORTS               NAMES
 57f58f39a3c8        mongo               "docker-entrypoint.s…"   About a minute ago   Up About a minute   27017/tcp           mongo
@@ -259,7 +263,11 @@ PID                 USER                TIME                COMMAND
 C:\Users\AttilaTorok>ps -ef | grep mongod
        0   4352      1  0   Feb 03 con  0:45 mongod
 AttilaTo   8436  12848  0 13:23:38 con  0:00 grep  mongod
+```
 
+**stop mongo**
+
+```
 C:\Users\AttilaTorok>docker stop mongo
 mongo
 
@@ -273,12 +281,19 @@ C:\Users\AttilaTorok>
 
 ---
 
-<h3 id='sec4'>sec4</h3>
+#### MANAGE_MULTIPLE_CONTAINERS
+
+**run mysql container**
 
 ```
-docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql //run mysql container
-//-d = detach -p = port -e = env variables
+docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
 
+-d = detach
+-p = port
+-e = env variables
+```
+
+```
 C:\Users\AttilaTorok>docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes mysql
 Unable to find image 'mysql:latest' locally
 latest: Pulling from library/mysql
@@ -287,18 +302,18 @@ Status: Downloaded newer image for mysql:latest
 a2dad48568d8b2b71e7f0c50bdd34288621c698c085b022ffad02e010ce27711
 
 C:\Users\AttilaTorok>
-
-docker container logs db //check the logs - you can find the password in the logs - GENERATED ROOT PASSWORD:
 ```
 
-[^^^](#DOCKER_MASTERY)
-
----
-
-<h3 id='sec5'>sec5</h3>
+**check the logs - you can find the password in the logs - GENERATED ROOT PASSWORD**
 
 ```
-docker container run -d --name webserver -p 8080:80 httpd //run webserver
+docker container logs db
+```
+
+**run webserver**
+
+```
+docker container run -d --name webserver -p 8080:80 httpd
 
 C:\Users\AttilaTorok>docker container run -d --name webserver -p 8080:80 httpd
 Unable to find image 'httpd:latest' locally
@@ -308,8 +323,10 @@ Status: Downloaded newer image for httpd:latest
 644924a77b99613dfed62b6a846f48c58d727107c7c91fbb323b810035f6ec0e
 ```
 
+**start nginx**
+
 ```
-docker container run -d --name proxy -p 80:80 nginx //start nginx
+docker container run -d --name proxy -p 80:80 nginx
 
 C:\Users\AttilaTorok>docker container run -d --name proxy -p 80:80 nginx
 7354d78355acf5a0b4c6cacafe7628b97098f83dc4adb4ea5ce937d8506305d9
@@ -323,9 +340,9 @@ a2dad48568d8        mysql               "docker-entrypoint.s…"   10 minutes ag
 C:\Users\AttilaTorok>
 ```
 
-```
-check the ports
+**check the ports**
 
+```
 curl localhost:8080
 curl localhost:80
 curl localhost:3306
@@ -368,9 +385,9 @@ Warning: <FILE>" to save to a file.
 C:\Users\AttilaTorok>
 ```
 
-```
-stop and remove the processes
+**stop and remove the processes**
 
+```
 C:\Users\AttilaTorok>docker container ls
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
 7354d78355ac        nginx               "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes        0.0.0.0:80->80/tcp                  proxy
@@ -408,9 +425,9 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 C:\Users\AttilaTorok>
 ```
 
-```
-check the images
+**check the images**
 
+```
 C:\Users\AttilaTorok>docker image ls
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 nginx               latest              2073e0bcb60e        3 days ago          127MB
@@ -425,13 +442,27 @@ C:\Users\AttilaTorok>
 
 ---
 
-<h3 id='sec6'>sec6</h3>
+#### CLI_PROCESSING_MONITORING
+
+**process list in one container**
 
 ```
-docker container top - process list in one container
-docker container inspect - details of one container config
-docker container stats - performance stats for all containers
+docker container top
+```
 
+**details of one container config**
+
+```
+docker container inspect
+```
+
+**performance stats for all containers**
+
+```
+docker container stats
+```
+
+```
 C:\Users\AttilaTorok>docker container run -d --name nginx nginx
 3f2233a67e0f867f8da303c3f3774c0a2f0dfac1b79dd8fc0a0e7881880942bd
 
@@ -455,7 +486,7 @@ PID                 USER                TIME                COMMAND
 C:\Users\AttilaTorok>
 ```
 
----
+**json array about how the mysql was started**
 
 ```
 docker container inspect mysql //json array about how the mysql was started
