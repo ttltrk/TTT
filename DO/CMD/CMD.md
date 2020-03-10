@@ -71,15 +71,35 @@ if using docker toolbox type in the IP addreess >> http://192.168.99.100
 
 #### STARTING_NGINX
 
+starting the nginx webserver
+
 ```
-docker container run --publish 80:80 nginx //starting the nginx webserver
+docker container run --publish 80:80 nginx
 ctr+c //stop
+```
 
-docker container run --publish 80:80 --detach nginx //starting the nginx webserver in the background
-docker container run --publish 80:80 --detach --name webhost nginx //starting the nginx webserver in the background and specify name
+starting the nginx webserver in the background
 
-docker container ls //list out your containers
-docker container stop <CONTAINER ID> // stop the server
+```
+docker container run --publish 80:80 --detach nginx
+```
+
+starting the nginx webserver in the background and specify name
+
+```
+docker container run --publish 80:80 --detach --name webhost nginx
+```
+
+list out your containers
+
+```
+docker container ls
+```
+
+stop the server
+
+```
+docker container stop <CONTAINER ID>
 ```
 
 ```
@@ -109,8 +129,10 @@ d60c2c5e5ed0        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
+logfile
+
 ```
-docker container logs webhost //logfile
+docker container logs webhost
 
 C:\Users\AttilaTorok>docker container logs webhost
 172.17.0.1 - - [04/Feb/2020:11:49:06 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" "-"
@@ -129,8 +151,10 @@ C:\Users\AttilaTorok>docker container logs webhost
 C:\Users\AttilaTorok>
 ```
 
+process running inside the container
+
 ```
-docker container top webhost //process running inside the container
+docker container top webhost
 
 C:\Users\AttilaTorok>docker container top webhost
 PID                 USER                TIME                COMMAND
@@ -140,8 +164,51 @@ PID                 USER                TIME                COMMAND
 C:\Users\AttilaTorok>
 ```
 
+help
+
 ```
-docker container rm -f bbe //remove running container
+C:\Users\AttilaTorok>docker container --help
+
+Usage:  docker container COMMAND
+
+Manage containers
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  exec        Run a command in a running container
+  export      Export a container's filesystem as a tar archive
+  inspect     Display detailed information on one or more containers
+  kill        Kill one or more running containers
+  logs        Fetch the logs of a container
+  ls          List containers
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  prune       Remove all stopped containers
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  run         Run a command in a new container
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Run 'docker container COMMAND --help' for more information on a command.
+
+C:\Users\AttilaTorok>
+```
+
+remove running container
+
+```
+docker container rm -f bbe
 
 C:\Users\AttilaTorok>docker container ls -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                         PORTS                NAMES
