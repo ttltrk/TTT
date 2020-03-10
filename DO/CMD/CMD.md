@@ -71,32 +71,32 @@ if using docker toolbox type in the IP addreess >> http://192.168.99.100
 
 #### STARTING_NGINX
 
-starting the nginx webserver
+**starting the nginx webserver**
 
 ```
 docker container run --publish 80:80 nginx
 ctr+c //stop
 ```
 
-starting the nginx webserver in the background
+**starting the nginx webserver in the background**
 
 ```
 docker container run --publish 80:80 --detach nginx
 ```
 
-starting the nginx webserver in the background and specify name
+**starting the nginx webserver in the background and specify name**
 
 ```
 docker container run --publish 80:80 --detach --name webhost nginx
 ```
 
-list out your containers
+**list out your containers**
 
 ```
 docker container ls
 ```
 
-stop the server
+**stop the server**
 
 ```
 docker container stop <CONTAINER ID>
@@ -129,7 +129,7 @@ d60c2c5e5ed0        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
-logfile
+**logfile**
 
 ```
 docker container logs webhost
@@ -151,7 +151,7 @@ C:\Users\AttilaTorok>docker container logs webhost
 C:\Users\AttilaTorok>
 ```
 
-process running inside the container
+**process running inside the container**
 
 ```
 docker container top webhost
@@ -164,7 +164,7 @@ PID                 USER                TIME                COMMAND
 C:\Users\AttilaTorok>
 ```
 
-help
+**help**
 
 ```
 C:\Users\AttilaTorok>docker container --help
@@ -205,7 +205,7 @@ Run 'docker container COMMAND --help' for more information on a command.
 C:\Users\AttilaTorok>
 ```
 
-remove running container
+**remove running container**
 
 ```
 docker container rm -f bbe
