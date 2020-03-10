@@ -69,7 +69,7 @@ if using docker toolbox type in the IP addreess >> http://192.168.99.100
 
 ---
 
-#### STARTING_NGINX
+#### **STARTING_NGINX**
 
 **starting the nginx webserver**
 
