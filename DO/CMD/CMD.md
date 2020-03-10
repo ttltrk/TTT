@@ -5,14 +5,14 @@
 
 ---
 
-<h3 id='^'>Docker mastery</h3>
+### DOCKER_MASTERY
 
 ---
 
 #### 03 - Creating and Using Containers
 
-* <a href='#config'>3.1 - Configuration</a></br>
-* <a href='#start_nginx'>3.2 - Starting an Nginx  Web Server</a></br>
+* [CONFIGURATION](#CONFIGURATION)
+* [STARTING_NGINX](#STARTING_NGINX)
 * <a href='#sec3'>sec3</a></br>
 * <a href='#sec4'>sec4</a></br>
 * <a href='#sec5'>sec5</a></br>
@@ -21,8 +21,8 @@
 * <a href='#sec8'>sec8</a></br>
 * <a href='#sec9'>sec9</a></br>
 * <a href='#sec10'>sec10</a></br>
-* <a href='#doc_Net_dns'>Docker Networks: DNS and How containers find each other</a></br>
-* <a href='#DNS_RR_TEST'>DNS Round Robin Test</a></br>
+* [HOW_CONTAINERS_FIND_EACH_OTHERS](#HOW_CONTAINERS_FIND_EACH_OTHERS)
+* [DNS_ROUND_ROBIN_TEST](#DNS_ROUND_ROBIN_TEST)
 
 #### 04 - Container Images
 
@@ -53,11 +53,7 @@
 
 ---
 
-### 03 - Creating and Using Containers
-
----
-
-<h3 id='config'>3.1 - Configuration</h3>
+#### CONFIGURATION
 
 ```
 docker version
@@ -69,11 +65,11 @@ docker //list of commands
 if using docker toolbox type in the IP addreess >> http://192.168.99.100
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
-<h3 id='start_nginx'>3.2 - Starting an Nginx  Web Server</h3>
+#### STARTING_NGINX
 
 ```
 docker container run --publish 80:80 nginx //starting the nginx webserver
@@ -169,7 +165,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -206,7 +202,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -228,7 +224,7 @@ C:\Users\AttilaTorok>
 docker container logs db //check the logs - you can find the password in the logs - GENERATED ROOT PASSWORD:
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -358,7 +354,7 @@ mongo               latest              8e89dfef54ff        8 days ago          
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -398,7 +394,7 @@ C:\Users\AttilaTorok>
 docker container inspect mysql //json array about how the mysql was started
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -489,7 +485,7 @@ ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -512,7 +508,7 @@ ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -568,7 +564,7 @@ This apk has coffee making abilities.
 / #
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
@@ -670,11 +666,11 @@ C:\Users\AttilaTorok>docker network inspect my_app_net
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
-<h3 id='doc_Net_dns'>Docker Networks: DNS and How containers find each other</h3>
+#### HOW_CONTAINERS_FIND_EACH_OTHERS
 
 ```
 C:\Users\AttilaTorok>docker container run -d --name my_nginx --network my_app_net nginx
@@ -686,11 +682,11 @@ OCI runtime exec failed: exec failed: container_linux.go:346: starting container
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
 
-<h3 id='DNS_RR_TEST'>DNS Round Robin Test</h3>
+#### DNS_ROUND_ROBIN_TEST
 
 ```
 C:\Users\AttilaTorok>docker network create dude
@@ -790,146 +786,6 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 C:\Users\AttilaTorok>
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#DOCKER_MASTERY)
 
 ---
