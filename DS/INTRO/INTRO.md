@@ -34,8 +34,10 @@ WebSphere Application Server (WAS)
 ```
   - Administrator:
     Configures DataStage projects and specifies DataStage user roles.
+
   - Designer:
     Creates DataStage jobs that are compiled into executable programs.
+
   - Director:
     Used to run and monitor the DataStage jobs, although this can also be done in Designer
 ```
@@ -49,6 +51,7 @@ WebSphere Application Server (WAS)
 ```
   - Parallel engine:
     Runs parallel jobs
+
   - Server engine:
     Runs server jobs, Runs job sequences
 ```
@@ -65,11 +68,13 @@ WebSphere Application Server (WAS)
   Built-in capability for pipeline and partition parallelism
   Compiled into OSH
     Executable script viewable in Designer and the log
+
 - Server jobs
   Executed by the DataStage Server engine
   Use a different set of stages than parallel jobs
   No built-in capability for partition parallelism
   Runtime monitoring in the job log
+
 - Job sequences (batch jobs, controlling jobs)
   A server job that runs and controls jobs and other activities
   Can run both parallel jobs and other job sequences
@@ -84,16 +89,19 @@ WebSphere Application Server (WAS)
 
 ```
 - Stages
+
     Passive stages (E and L of ETL)
       Read data
       Write data
       Examples: Sequential File, DB2, Oracle, Peek stages
+
     Processor (active) stages (T of ETL)
       Transform data (Transformer stage)
       Filter data (Transformer stage)
       Aggregate data (Aggregator stage)
       Generate data (Row Generator stage)
       Merge data (Join, Lookup stages)
+
 - Links
   "Pipes” through which the data moves from stage-to-stage
 ```
@@ -107,7 +115,9 @@ WebSphere Application Server (WAS)
 ```
 - Determines the degree of parallelism (number of partitions) of jobs
   that use it
+
 - Every job runs under a configure file
+
 - Each DataStage project has a default configuration file
     Specified by the $APT_CONFIG_FILE job parameter
     Individual jobs can run under different configuration files than the project default
