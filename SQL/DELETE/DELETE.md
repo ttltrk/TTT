@@ -4,42 +4,55 @@
 
 ---
 
-<h3 id='^'>DELETE</h3>
+### DELETE
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```sql
 
 ```
-
-<a href='#^'>^^^</a>
+The DELETE statement is used to delete existing records in a table.
+```
 
 ---
 
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+### BASICS
 
-```sql
+```SQL
+SELECT * FROM trk_test_01;
 
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       6|kawhi   |leo      |canada  |toronto|
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+       7|jockey  |brent    |still   |GER    |
+       8|aaa     |bbbb     |cccc    |ddddd  |
+>>>
+
+DELETE FROM trk_test_01 WHERE firstname ='bbbb';
+
+SELECT * FROM trk_test_01;
+
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       6|kawhi   |leo      |canada  |toronto|
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+       7|jockey  |brent    |still   |GER    |
+>>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#DELETE)
 
 ---
