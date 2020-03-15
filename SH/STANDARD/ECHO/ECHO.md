@@ -5,31 +5,49 @@
 
 ---
 
-<h3 id='^'>ECHO</h3>
+### ECHO
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [CREATE_UPDATE_FILE](#CREATE_UPDATE_FILE)
+* [APPEND_TXT](#APPEND_TXT)
 
 ---
 
-<h3 id=''></h3>
+#### CREATE_UPDATE_FILE
 
 ```sh
+echo "this is some text" > temp.txt
+cat temp.txt
 
+>>>
+this is some text
+>>>
+
+echo "this is some other text" > temp.txt
+cat temp.txt
+
+>>>
+this is some other text
+>>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#ECHO)
 
 ---
 
-<h3 id=''></h3>
+#### APPEND_TXT
 
 ```sh
+echo "this is appended text" >> temp.txt
+cat temp.txt
 
+>>>
+this is some other text
+this is appended text
+>>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#ECHO)
 
 ---
