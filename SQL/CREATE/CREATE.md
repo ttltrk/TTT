@@ -4,42 +4,26 @@
 
 ---
 
-<h3 id='^'>CREATE</h3>
+### CREATE
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+[BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sql
-
+CREATE TABLE trk (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#CREATE)
 
 ---
