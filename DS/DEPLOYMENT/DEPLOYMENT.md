@@ -11,7 +11,7 @@
 
 * [INFORMATION_SERVER_DOMAIN](#INFORMATION_SERVER_DOMAIN)
 * [SERVER_START_UP](#SERVER_START_UP)
-* [STARTING_IS_ON_LINUX](#STARTING_IS_ON_LINUX)
+* [STARTING_CHECK_ON_LINUX](#STARTING_IS_ON_LINUX)
 * [](#)
 * [](#)
 
@@ -63,30 +63,14 @@
 
 ---
 
-#### STARTING_IS_ON_LINUX
+#### STARTING_CHECK_ON_LINUX
 
 ```
+Change to the AppServer/bin directory
+    Run the startServer.sh script
 
-```
-
-[^^^](#DEPLOYMENT)
-
----
-
-####
-
-```
-
-```
-
-[^^^](#DEPLOYMENT)
-
----
-
-####
-
-```
-
+You can also check the status of the Metadata Server using the command
+    ./serverStatus.sh server1.
 ```
 
 [^^^](#DEPLOYMENT)
