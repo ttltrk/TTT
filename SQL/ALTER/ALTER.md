@@ -4,42 +4,79 @@
 
 ---
 
-<h3 id='^'>ALTER</h3>
+### ALTER
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```sql
 
 ```
-
-<a href='#^'>^^^</a>
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+```
 
 ---
 
-<h3 id=''></h3>
-
-```sql
-
-```
-
-<a href='#^'>^^^</a>
+* [ADD_COLUMN](#ADD_COLUMN)
+* [DROP_COLUMN](#DROP_COLUMN)
+* [MODIFY_COLUMN](#MODIFY_COLUMN)
+* [MODIFY_TABLENAME](#MODIFY_TABLENAME)
 
 ---
 
-<h3 id=''></h3>
-
-```sql
+#### ADD_COLUMN
 
 ```
+To add a column in a table, use the following syntax
+```
 
-<a href='#^'>^^^</a>
+```sql
+ALTER TABLE trk_test_02
+ADD city varchar(255);
+```
+
+[^^^](#ALTER)
+
+---
+
+#### DROP_COLUMN
+
+```
+To delete a column in a table, use the following syntax
+```
+
+```sql
+ALTER TABLE Customers
+DROP COLUMN Email;
+```
+
+[^^^](#ALTER)
+
+---
+
+#### MODIFY_COLUMN
+
+```
+To change a column name use the following syntax
+```
+
+```sql
+ALTER TABLE trk_test_02
+RENAME COLUMN department TO dep;
+```
+
+[^^^](#ALTER)
+
+---
+
+#### MODIFY_TABLENAME
+
+```
+To change a table name use the following syntax
+```
+
+```sql
+ALTER TABLE trk_test
+RENAME TO trk_test_01;
+```
+
+[^^^](#ALTER)
 
 ---
