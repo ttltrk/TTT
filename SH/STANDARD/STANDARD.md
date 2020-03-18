@@ -29,6 +29,7 @@
 * [less](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LESS/LESS.md)
 * [ln](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LN/LN.md)
 * [ls](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LS/LS.md)
+* [lsuser](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LSUSER/LSUSER.md)
 * [more](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MORE/MORE.md)
 * [mv](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MV/MV.md)
 * [nohup](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/NOHUP/NOHUP.md)
