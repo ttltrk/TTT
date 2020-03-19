@@ -5,31 +5,39 @@
 
 ---
 
-<h3 id='^'>COMM</h3>
+### COMM
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sh
-
+$ cat temp.txt
+this is some other text
+this is appended text
+$
+$ cat temp2.txt
+temp2 temp2
+this is some other text
+this is appended text
+$
+$ comm -1 temp.txt temp2.txt
+temp2 temp2
+        this is some other text
+        this is appended text
+$ comm -2 temp.txt temp2.txt
+        this is some other text
+        this is appended text
+$ comm -12 temp.txt temp2.txt
+this is some other text
+this is appended text
+$
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#COMM)
 
 ---
