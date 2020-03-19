@@ -23,7 +23,7 @@ and table level constraints apply to the whole table.
 
 ---
 
-####
+#### BASICS
 
 ```SQL
 CREATE TABLE table_name (
