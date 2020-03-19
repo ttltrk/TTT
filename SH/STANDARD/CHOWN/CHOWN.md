@@ -5,16 +5,15 @@
 
 ---
 
-<h3 id='^'>CHOWN</h3>
+### CHOWN
 
 ---
 
-* <a href='#basics'>Basics</a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id='basics'>Basics</h3>
+#### BASICS
 
 ```sh
 chown user:group file_name
@@ -27,16 +26,6 @@ it is enough to create a new folder as a newOwner and copy the requested files t
 and the ownership will be automatically changed
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#CHOWN)
 
 ---

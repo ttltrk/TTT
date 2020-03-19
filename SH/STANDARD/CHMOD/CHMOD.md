@@ -5,31 +5,20 @@
 
 ---
 
-<h3 id='^'>CHMOD</h3>
+### CHMOD
 
 ---
 
-* <a href='#basics'>Basics</a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id='basics'>Basics</h3>
+### BASICS
 
 ```sh
 chmod 777 file_dir
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#CHMOD)
 
 ---

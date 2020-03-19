@@ -5,31 +5,20 @@
 
 ---
 
-<h3 id='^'>CLEAR</h3>
+### CLEAR
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sh
-
+clear
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#CLEAR)
 
 ---
