@@ -9,7 +9,7 @@
 
 ---
 
-* [RPI](#RPI)
+* [RPI](https://github.com/ttltrk/TTT/blob/master/PY/OOP/RPI/RPI.md)
 * []()
 
 ---
