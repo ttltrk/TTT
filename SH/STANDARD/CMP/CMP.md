@@ -5,31 +5,29 @@
 
 ---
 
-<h3 id='^'>CMP</h3>
+### CMP
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sh
-
+$ cat temp.txt
+this is some other text
+this is appended text
+$ cat temp2.txt
+temp2 temp2
+this is some other text
+this is appended text
+$ cmp temp.txt temp2.txt
+temp.txt temp2.txt differ: char 2, line 1
+$
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#CMP)
 
 ---
