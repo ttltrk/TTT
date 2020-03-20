@@ -1,11 +1,16 @@
 
 ---
 
-### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - Java
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
 
 ---
 
-* [t1]()
-* [t2]()
+### Java
+
+---
+
+* []()
+* []()
+* []()
 
 ---

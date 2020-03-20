@@ -1,11 +1,18 @@
 
 ---
 
-### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - C
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
 
 ---
 
-* [t1]()
-* [t2]()
+### C
+
+---
+
+* []()
+* []()
+* []()
+* []()
+* []()
 
 ---

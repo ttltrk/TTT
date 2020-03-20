@@ -1,11 +1,15 @@
 
 ---
 
-### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - TOOLS
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
 
 ---
 
-* [DBeaver](https://github.com/ttltrk/TTT/blob/master/TOOLS/DBEAVER/DBEAVER.txt)
-* [Notepad++](https://github.com/ttltrk/TTT/blob/master/TOOLS/NP/NP.txt)
+### TOOLS
+
+---
+
+* [DBEAVER](https://github.com/ttltrk/TTT/blob/master/TOOLS/DBEAVER/DBEAVER.txt)
+* [NOTEPAD++](https://github.com/ttltrk/TTT/blob/master/TOOLS/NP/NP.txt)
 
 ---
