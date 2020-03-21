@@ -5,31 +5,13 @@
 
 ---
 
-<h3 id='^'>LOGINS</h3>
+### LOGINS
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+* [AIX](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/AIX/AIX.md)
+* [DB2](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/DB2/DB2.md)
+* [POSTGRESQL](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/POSTGRESQL/POSTGRESQL.md)
+* [MONGO](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/MONGO/MONGO.md)
 
 ---
