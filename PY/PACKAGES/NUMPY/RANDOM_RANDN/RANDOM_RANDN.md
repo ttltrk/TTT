@@ -15,16 +15,23 @@
 
 ---
 
-* []()
-* []()
-* []()
+* [BASICS](#BASICS)
 
 ---
 
-####
+#### BASICS
 
 ```py
+import numpy as np
 
+a = np.random.randn(3)
+
+print(a)
+
+>>>
+[ 0.47887281 -0.66330668 -1.02834794]
+>>>
+>>>
 ```
 
 [^^^](#RANDOM_RANDN)

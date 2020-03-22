@@ -15,16 +15,31 @@
 
 ---
 
-* []()
-* []()
-* []()
+* [BASICS](#BASICS)
 
 ---
 
-####
+#### BASICS
 
 ```py
+import numpy as np
 
+a = np.ones(3)
+b = np.ones((2,3))
+c = np.ones((3,3))
+
+print(a)
+print(b)
+print(c)
+
+>>>
+[1. 1. 1.]
+[[1. 1. 1.]
+ [1. 1. 1.]]
+[[1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]]
+>>>
 ```
 
 [^^^](#ONES)
