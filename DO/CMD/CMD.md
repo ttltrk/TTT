@@ -16,7 +16,7 @@
 * [JUST_A_PROCESS](#JUST_A_PROCESS)
 * [MANAGE_MULTIPLE_CONTAINERS](#MANAGE_MULTIPLE_CONTAINERS)
 * [CLI_PROCESSING_MONITORING](#CLI_PROCESSING_MONITORING)
-* <a href='#sec6'>sec6</a></br>
+* [SHELL_INSIDE_CONTAINERS](#SHELL_INSIDE_CONTAINERS)
 * <a href='#sec7'>sec7</a></br>
 * <a href='#sec8'>sec8</a></br>
 * <a href='#sec9'>sec9</a></br>
@@ -26,16 +26,49 @@
 
 #### 04 - Container Images
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 
 #### 05 -
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 #### 06 -
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 #### 07 -
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 #### 08 -
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 #### 09 -
 #### 10 -
 #### 11 -
@@ -496,7 +529,7 @@ docker container inspect mysql //json array about how the mysql was started
 
 ---
 
-<h3 id='sec7'>sec7</h3>
+#### SHELL_INSIDE_CONTAINERS
 
 ```
 docker container run -it //start new container interactively
