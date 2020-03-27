@@ -9,7 +9,7 @@
 
 ---
 
-* []()
+* [BASICS](#BASICS)
 * []()
 * []()
 * []()
@@ -21,7 +21,7 @@
 
 ---
 
-####
+#### BASICS
 
 ```sh
 echo "hello world"
