@@ -10,7 +10,7 @@
 ---
 
 * [HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/SH/SS/HELLO_WORLD/HELLO_WORLD.md)
-* []()
+* [VARIABLES](https://github.com/ttltrk/TTT/blob/master/SH/SS/VARIABLES/VARIABLES.md)
 * []()
 * []()
 * []()
