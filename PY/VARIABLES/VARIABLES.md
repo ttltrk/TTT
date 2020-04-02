@@ -5,15 +5,15 @@
 
 ---
 
-<h3 id='^'>VARIABLES</h3>
+### VARIABLES
 
 ---
 
-* <a href='#basics'>Basics</a></br>
-* <a href='#assVal'>Assign Value to Multiple Variables</a></br>
-* <a href='#textVar'>TEXT and VARIABLE</a></br>
-* <a href='#globalVar'>Global Variables</a></br>
-* <a href='#globalKey'>The global Keyword</a></br>
+* [BASICS](#BASICS)
+* [MULTIPLE_VARIABLES](#MULTIPLE_VARIABLES)
+* [TEXT_AND_VARIABLE](#TEXT_AND_VARIABLE)
+* [GLOBAL_VARIABLES](#GLOBAL_VARIABLES)
+* [GLOBAL_KEYWORDS](#GLOBAL_KEYWORDS)
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-<h3 id='basics'>Basics</h3>
+#### BASICS
 
 ```py
 x = 5
@@ -63,11 +63,11 @@ John
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#VARIABLES)
 
 ---
 
-<h3 id='assVal'>Assign Value to Multiple Variables</h3>
+#### MULTIPLE_VARIABLES
 
 ```py
 x, y, z = "Orange", "Banana", "Cherry"
@@ -97,11 +97,11 @@ Orange
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#VARIABLES)
 
 ---
 
-<h3 id='textVar'>TEXT and VARIABLE</h3>
+#### TEXT_AND_VARIABLE
 
 ```py
 x = "awesome"
@@ -125,11 +125,11 @@ Python is awesome
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#VARIABLES)
 
 ---
 
-<h3 id='globalVar'>Global Variables</h3>
+#### GLOBAL_VARIABLES
 
 ```
 - Variables that are created outside of a function (as in all of the examples above) are known as global variables.
@@ -166,11 +166,11 @@ Python is awesome
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#VARIABLES)
 
 ---
 
-<h3 id='globalKey'>The global Keyword</h3>
+#### GLOBAL_KEYWORDS
 
 ```
 - To create a global variable inside a function, you can use the global keyword.
@@ -211,6 +211,6 @@ Python is fantastic
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#VARIABLES)
 
 ---
