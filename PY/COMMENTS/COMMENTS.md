@@ -5,12 +5,12 @@
 
 ---
 
-<h3 id='^'>COMMENTS</h3>
+### COMMENTS
 
 ---
 
-* <a href='#slc'>Single Line Comments</a></br>
-* <a href='#mlc'>Multi Line Comments</a></br>
+* [SINGLE_LINE_COMMENTS](#SINGLE_LINE_COMMENTS)
+* [MULTI_LINE_COMMENTS](#MULTI_LINE_COMMENTS)
 
 ---
 
@@ -22,7 +22,7 @@ Comments can be used to prevent execution when testing code.
 
 ---
 
-<h3 id='slc'>Single Line Comments</h3>
+#### SINGLE_LINE_COMMENTS
 
 ```py
 #This is a comment
@@ -50,11 +50,11 @@ Cheers, Mate!
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#COMMENTS)
 
 ---
 
-<h3 id='mlc'>Multi Line Comments</h3>
+#### MULTI_LINE_COMMENTS
 
 ```py
 """
@@ -70,6 +70,6 @@ Hello, World!
 >>>
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#COMMENTS)
 
 ---
