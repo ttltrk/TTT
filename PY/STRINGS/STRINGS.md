@@ -5,31 +5,11 @@
 
 ---
 
-<h3 id='^'>STRINGS</h3>
+### STRINGS
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+* [STRINGS_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS_BASICS/STRINGS_BASICS.md)
+* [STRINGS_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS_METHODS/STRINGS_METHODS.md)
 
 ---
