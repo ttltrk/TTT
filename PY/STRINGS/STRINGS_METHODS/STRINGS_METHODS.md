@@ -62,17 +62,29 @@ Python has a set of built-in methods that you can use on strings
 
 ---
 
-####
+#### capitalize()
 
 ```
-
+Converts the first character to upper case
 ```
 
 ```py
+txt1='hello, and welcome to my world.'
+txt2='bye'
+txt3='iGLO'
 
+x1=txt1.capitalize()
+x2=txt2.capitalize()
+x3=txt3.capitalize()
+
+print(x1)
+print(x2)
+print(x3)
 
 >>>
-
+Hello, and welcome to my world.
+Bye
+Iglo
 >>>
 ```
 
@@ -80,17 +92,29 @@ Python has a set of built-in methods that you can use on strings
 
 ---
 
-####
+#### casefold()
 
 ```
-
+Converts string into lower case
 ```
 
 ```py
+txt1='Hello, And Welcome To My World!'
+txt2='BYE'
+txt3='Bye'
 
+x1=txt1.casefold()
+x2=txt2.casefold()
+x3=txt3.casefold()
+
+print(x1)
+print(x2)
+print(x3)
 
 >>>
-
+hello, and welcome to my world!
+bye
+bye
 >>>
 ```
 
