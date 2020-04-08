@@ -377,17 +377,19 @@ print(z)
 
 ---
 
-####
+#### isalnum
 
 ```
-
+Returns True if all characters in the string are alphanumeric
 ```
 
 ```py
-
+txt = "Company12"
+x = txt.isalnum()
+print(x)
 
 >>>
-
+True
 >>>
 ```
 
@@ -395,17 +397,29 @@ print(z)
 
 ---
 
-####
+#### isalpha
 
 ```
-
+Returns True if all characters in the string are in the alphabet
 ```
 
 ```py
-
+txt = "CompanyX"
+x = txt.isalpha()
+print(x)
 
 >>>
+True
+>>>
+```
 
+```py
+txt = '123'
+x = txt.isalpha()
+print(x)
+
+>>>
+False
 >>>
 ```
 
@@ -413,17 +427,21 @@ print(z)
 
 ---
 
-####
+#### isdecimal
 
 ```
-
+Returns True if all characters in the string are decimals
 ```
 
 ```py
+txt = "\u0033" #unicode for 3
 
+x = txt.isdecimal()
+
+print(x)
 
 >>>
-
+True
 >>>
 ```
 
@@ -431,17 +449,25 @@ print(z)
 
 ---
 
-####
+#### isdigit
 
 ```
-
+Returns True if all characters in the string are digits
 ```
 
 ```py
+txt = "50800"
+txt1 = 'hello'
 
+x = txt.isdigit()
+y = txt1.isdigit()
+
+print(x)
+print(y)
 
 >>>
-
+True
+False
 >>>
 ```
 
