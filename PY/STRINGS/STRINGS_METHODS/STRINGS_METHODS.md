@@ -15,8 +15,8 @@ Python has a set of built-in methods that you can use on strings
 
 ---
 
-* [capitalize()](#capitalize())
-* [casefold()](#casefold())
+* [capitalize](#capitalize
+* [casefold](#casefold
 * [center()](#center())
 * [count()](#count())
 * [encode()](#encode())
