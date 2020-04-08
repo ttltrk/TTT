@@ -17,52 +17,52 @@ Python has a set of built-in methods that you can use on strings
 
 * [capitalize](#capitalize)
 * [casefold](#casefold)
-* [center()](#center())
-* [count()](#count())
-* [encode()](#encode())
-* [endswith()](#endswith())
-* [expandtabs()](#expandtabs())
-* [find()](#find())
-* [format()](#format())
-* [format_map()](#format_map())
-* [index()](#index())
-* [isalnum()](#isalnum())
-* [isalpha()](#isalpha())
-* [isdecimal()](#isdecimal())
-* [isdigit()](#isdigit())
-* [isidentifier()](#isidentifier())
-* [islower()](#islower())
-* [isnumeric()](#isnumeric())
-* [isprintable()](#isprintable())
-* [isspace()](#isspace())
-* [istitle()](#istitle())
-* [isupper()](#isupper())
-* [join()](#join())
-* [ljust()](#ljust())
-* [lower()](#lower())
-* [lstrip()](#lstrip())
-* [maketrans()](#maketrans())
-* [partition()](#partition())
-* [replace()](#replace())
-* [rfind()](#rfind())
-* [rindex()](#rindex())
-* [rjust()](#rjust())
-* [rpartition()](#rpartition())
-* [rsplit()](#rsplit())
-* [rstrip()](#rstrip())
-* [split()](#split())
-* [splitlines()](#splitlines())
-* [startswith()](#startswith())
-* [strip()](#strip())
-* [swapcase()](#swapcase())
-* [title()](#title())
-* [translate()](#translate())
-* [upper()](#upper())
-* [zfill()](#zfill())
+* [center](#center)
+* [count](#count)
+* [encode](#encode)
+* [endswith](#endswith)
+* [expandtabs](#expandtabs)
+* [find](#find)
+* [format](#format)
+* [format_map](#format_map)
+* [index](#index)
+* [isalnum](#isalnum)
+* [isalpha](#isalpha)
+* [isdecimal](#isdecimal)
+* [isdigit](#isdigit)
+* [isidentifier](#isidentifier)
+* [islower](#islower)
+* [isnumeric](#isnumeric)
+* [isprintable](#isprintable)
+* [isspace](#isspace)
+* [istitle](#istitle)
+* [isupper](#isupper)
+* [join](#join)
+* [ljust](#ljust)
+* [lower](#lower)
+* [lstrip](#lstrip)
+* [maketrans](#maketrans)
+* [partition](#partition)
+* [replace](#replace)
+* [rfind](#rfind)
+* [rindex](#rindex)
+* [rjust](#rjust)
+* [rpartition](#rpartition)
+* [rsplit](#rsplit)
+* [rstrip](#rstrip)
+* [split](#split)
+* [splitlines](#splitlines)
+* [startswith](#startswith)
+* [strip](#strip)
+* [swapcase](#swapcase)
+* [title](#title)
+* [translate](#translate)
+* [upper](#upper)
+* [zfill](#zfill)
 
 ---
 
-#### capitalize()
+#### capitalize
 
 ```
 Converts the first character to upper case
@@ -92,7 +92,7 @@ Iglo
 
 ---
 
-#### casefold()
+#### casefold
 
 ```
 Converts string into lower case
@@ -122,17 +122,36 @@ bye
 
 ---
 
-####
+#### center
 
 ```
-
+Returns a centered string
 ```
 
 ```py
+txt = "banana"
 
+x1 = txt.center(10)
+x2 = txt.center(20)
+x3 = txt.center(30)
+x4 = txt.center(10, 'x')
+x5 = txt.center(20, 'x')
+x6 = txt.center(30, 'x')
+
+print(x1)
+print(x2)
+print(x3)
+print(x4)
+print(x5)
+print(x6)
 
 >>>
-
+banana  
+     banana       
+          banana            
+xxbananaxx
+xxxxxxxbananaxxxxxxx
+xxxxxxxxxxxxbananaxxxxxxxxxxxx
 >>>
 ```
 
@@ -140,17 +159,25 @@ bye
 
 ---
 
-####
+#### count
 
 ```
-
+Returns the number of times a specified value occurs in a string
 ```
 
 ```py
+s = 'blablaabcdefgblabla'
+s1 = 'b'
+s2 = 'f'
 
+print(s.count(s1, 5, 10))
+print(s.count(s1, 6, 100))
+print(s.count(s2, 0, 100))
 
 >>>
-
+1
+3
+1
 >>>
 ```
 
@@ -158,17 +185,27 @@ bye
 
 ---
 
-####
+#### encode
 
 ```
-
+Returns an encoded version of the string
 ```
 
 ```py
+string01 = 'pythön!'
+print('The string is:', string01)
 
+string02 = string01.encode()
+print('The encoded version is:', string02)
+
+string03 = "My name is Ståle"
+str03 = string03.encode()
+print(str03)
 
 >>>
-
+The string is: pythön!
+The encoded version is: b'pyth\xc3\xb6n!'
+b'My name is St\xc3\xa5le'
 >>>
 ```
 
