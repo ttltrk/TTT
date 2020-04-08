@@ -213,17 +213,28 @@ b'My name is St\xc3\xa5le'
 
 ---
 
-####
+#### endswith
 
 ```
-
+Returns true if the string ends with the specified value
 ```
 
 ```py
+txt = "Hello, welcome to my world."
+txt1 = "apple"
 
+x = txt.endswith(".")
+y = txt.endswith("a")
+z = txt1.endswith('e')
+
+print(x)
+print(y)
+print(z)
 
 >>>
-
+True
+False
+True
 >>>
 ```
 
@@ -231,17 +242,27 @@ b'My name is St\xc3\xa5le'
 
 ---
 
-####
+#### expandtabs
 
 ```
-
+Sets the tab size of the string
 ```
 
 ```py
+txt = "H\te\tl\tl\to"
 
+print(txt)
+print(txt.expandtabs())
+print(txt.expandtabs(2))
+print(txt.expandtabs(4))
+print(txt.expandtabs(10))
 
 >>>
-
+H	e	l	l	o
+H       e       l       l       o
+H e l l o
+H   e   l   l   o
+H         e         l         l         o
 >>>
 ```
 
@@ -249,17 +270,40 @@ b'My name is St\xc3\xa5le'
 
 ---
 
-####
+#### find
 
 ```
-
+Searches the string for a specified value and returns the position of where it was found
 ```
 
 ```py
+txt = "Hello, welcome to my world."
 
+s1 = txt.find("Hello")
+s2 = txt.find("welcome")
+s3 = txt.find("to")
+s4 = txt.find("my")
+s5 = txt.find("world")
+
+x1 = txt.find("e", 1, 10)
+x2 = txt.find("e", 2, 10)
+
+print(s1)
+print(s2)
+print(s3)
+print(s4)
+print(s5)
+print(x1)
+print(x2)
 
 >>>
-
+0
+7
+15
+18
+21
+1
+8
 >>>
 ```
 
@@ -267,17 +311,18 @@ b'My name is St\xc3\xa5le'
 
 ---
 
-####
+#### format
 
 ```
-
+Formats specified values in a string
 ```
 
 ```py
-
+txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49))
 
 >>>
-
+For only 49.00 dollars!
 >>>
 ```
 
@@ -285,17 +330,22 @@ b'My name is St\xc3\xa5le'
 
 ---
 
-####
+#### format_map
 
 ```
-
+Formats specified values in a string
 ```
 
 ```py
+point = {'x':4,'y':-5}
+print('{x} {y}'.format_map(point))
 
+point = {'x':4,'y':-5, 'z': 0}
+print('{x} {y} {z}'.format_map(point))
 
 >>>
-
+4 -5
+4 -5 0
 >>>
 ```
 
@@ -303,17 +353,23 @@ b'My name is St\xc3\xa5le'
 
 ---
 
-####
+#### index
 
 ```
-
+Searches the string for a specified value and returns the position of where it was found
 ```
 
 ```py
+txt = "Hello, welcome to my world."
+x = txt.index("welcome")
+z = txt.index("to")
 
+print(x)
+print(z)
 
 >>>
-
+7
+15
 >>>
 ```
 
