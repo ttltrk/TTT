@@ -475,6 +475,488 @@ False
 
 ---
 
+#### isidentifier
+
+```
+Returns True if the string is an identifier
+```
+
+```py
+txt = "Demo"
+txt1 = "50800"
+
+x = txt.isidentifier()
+y = txt1.isidentifier()
+
+print(x)
+print(y)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### islower
+
+```
+Returns True if all characters in the string are lower case
+```
+
+```py
+txt = "hello world!"
+txt1 = "BBB"
+
+x = txt.islower()
+y = txt1.islower()
+
+print(x)
+print(y)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### isnumeric
+
+```
+Returns True if all characters in the string are numeric
+```
+
+```py
+txt = "565543"
+txt1 = "444a"
+
+x = txt.isnumeric()
+y = txt1.isnumeric()
+
+print(x)
+print(y)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### isprintable
+
+```
+Returns True if all characters in the string are printable
+```
+
+```py
+txt = "Hello! Are you #1?"
+
+x = txt.isprintable()
+
+print(x)
+
+>>>
+True
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### isspace
+
+```
+Returns True if all characters in the string are whitespaces
+```
+
+```py
+txt = "   "
+txt1 = " s  "
+
+x = txt.isspace()
+y = txt1.isspace()
+
+print(x)
+print(y)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### istitle
+
+```
+Returns True if the string follows the rules of a title
+```
+
+```py
+txt = "Hello, And Welcome To My World!"
+txt1 = "Hello, And welcome To My World!"
+
+x = txt.istitle()
+y = txt1.istitle()
+
+print(x)
+print(y)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### isupper
+
+```
+Returns True if all characters in the string are upper case
+```
+
+```py
+txt = "THIS IS NOW!"
+txt1 = "THIS IS NoW!"
+
+x = txt.isupper()
+y = txt1.isupper()
+
+
+print(x)
+print(y)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### join
+
+```
+Joins the elements of an iterable to the end of the string
+```
+
+```py
+myTuple = ("John", "Peter", "Vicky")
+
+x = "#".join(myTuple)
+y = " *** ".join(myTuple)
+
+print(x)
+print(y)
+
+>>>
+John#Peter#Vicky
+John *** Peter *** Vicky
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### ljust
+
+```
+Returns a left justified version of the string
+```
+
+```py
+txt = "banana"
+
+x = txt.ljust(20)
+y = txt.ljust(10)
+z = txt.ljust(5)
+
+print(x, "is my favorite fruit.")
+print(y, "is my favorite fruit.")
+print(z, "is my favorite fruit.")
+
+>>>
+banana               is my favorite fruit.
+banana     is my favorite fruit.
+banana is my favorite fruit.
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### lower
+
+```
+Converts a string into lower case
+```
+
+```py
+txt = "Hello my FRIENDS"
+
+x = txt.lower()
+
+print(x)
+
+>>>
+hello my friends
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### lstrip
+
+```
+Returns a left trim version of the string
+```
+
+```py
+txt = "     banana     "
+
+x = txt.lstrip()
+
+print("of all fruits", x, "is my favorite")
+
+>>>
+of all fruits banana      is my favorite
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### maketrans
+
+```
+Returns a translation table to be used in translations
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### partition
+
+```
+Returns a tuple where the string is parted into three parts
+```
+
+```py
+txt = "I could eat bananas all day"
+
+x = txt.partition("bananas")
+
+print(x)
+
+>>>
+('I could eat ', 'bananas', ' all day')
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### replace
+
+```
+Returns a string where a specified value is replaced with a specified value
+```
+
+```py
+txt = "I like bananas"
+
+x = txt.replace("bananas", "apples")
+
+print(x)
+
+>>>
+I like apples
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+####
+
+```
+
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
 ####
 
 ```
