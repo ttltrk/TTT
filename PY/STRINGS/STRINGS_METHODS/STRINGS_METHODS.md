@@ -813,10 +813,277 @@ I like apples
 
 ---
 
-####
+#### rfind
 
 ```
+Searches the string for a specified value and returns the last position of where it was found
+```
 
+```py
+txt = "Mi casa, su casa."
+
+x = txt.rfind("casa")
+
+print(x)
+
+>>>
+12
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### rindex
+
+```
+Searches the string for a specified value and returns the last position of where it was found
+```
+
+```py
+txt = "Mi casa, su casa."
+
+x = txt.rindex("casa")
+
+print(x)
+
+>>>
+12
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### rjust
+
+```
+Returns a right justified version of the string
+```
+
+```py
+txt = "banana"
+
+x = txt.rjust(20)
+y = txt.rjust(10)
+
+print(x, "is my favorite fruit.")
+print(y, "is my favorite fruit.")
+
+>>>
+              banana is my favorite fruit.
+      banana is my favorite fruit.
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### rpartition
+
+```
+Returns a tuple where the string is parted into three parts
+```
+
+```py
+txt = "I could eat bananas all day, bananas are my favorite fruit"
+
+x = txt.rpartition("bananas")
+
+print(x)
+
+>>>
+('I could eat bananas all day, ', 'bananas', ' are my favorite fruit')
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### rsplit
+
+```
+Splits the string at the specified separator, and returns a list
+```
+
+```py
+txt = "apple, banana, cherry"
+
+x = txt.rsplit(", ")
+
+print(x)
+
+>>>
+['apple', 'banana', 'cherry']
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### rstrip
+
+```
+Returns a right trim version of the string
+```
+
+```py
+txt = "     banana     "
+
+x = txt.rstrip()
+
+print("of all fruits", x, "is my favorite")
+
+>>>
+of all fruits      banana is my favorite
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### split
+
+```
+Splits the string at the specified separator, and returns a list
+```
+
+```py
+txt = "welcome to the jungle"
+
+x = txt.split()
+
+print(x)
+
+>>>
+['welcome', 'to', 'the', 'jungle']
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### splitlines
+
+```
+Splits the string at line breaks and returns a list
+```
+
+```py
+txt = "Thank you for the music\nWelcome to the jungle"
+
+x = txt.splitlines()
+
+print(x)
+
+>>>
+['Thank you for the music', 'Welcome to the jungle']
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### startswith
+
+```
+Returns true if the string starts with the specified value
+```
+
+```py
+txt = "Hello, welcome to my world."
+
+x = txt.startswith("Hello")
+
+print(x)
+
+>>>
+True
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### strip
+
+```
+Returns a trimmed version of the string
+```
+
+```py
+txt = "     banana     "
+
+x = txt.strip()
+
+print("of all fruits", x, "is my favorite")
+
+>>>
+of all fruits banana is my favorite
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### swapcase
+
+```
+Swaps cases, lower case becomes upper case and vice versa
+```
+
+```py
+txt = "Hello My Name Is PETER"
+
+x = txt.swapcase()
+
+print(x)
+
+>>>
+hELLO mY nAME iS peter
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### title
+
+```
+Converts the first character of each word to upper case
+```
+
+```py
+txt = "Welcome to my world"
+
+x = txt.title()
+
+print(x)
+
+>>>
+Welcome To My World
+>>>
+```
+
+[^^^](#STRINGS_METHODS)
+
+---
+
+#### translate
+
+```
+Returns a translated string
 ```
 
 ```py
@@ -831,17 +1098,21 @@ I like apples
 
 ---
 
-####
+#### upper
 
 ```
-
+Converts a string into upper case
 ```
 
 ```py
+txt = "Hello my friends"
 
+x = txt.upper()
+
+print(x)
 
 >>>
-
+HELLO MY FRIENDS
 >>>
 ```
 
@@ -849,215 +1120,25 @@ I like apples
 
 ---
 
-####
+#### zfill
 
 ```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
+Fills the string with a specified number of 0 values at the beginning
 ```
 
 ```py
+txt = "50"
+
+x = txt.zfill(10)
+y = txt.zfill(5)
 
 
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
+print(x)
+print(y)
 
 >>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-[^^^](#STRINGS_METHODS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-
->>>
-
+0000000050
+00050
 >>>
 ```
 
