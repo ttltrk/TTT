@@ -42,6 +42,25 @@ myFirstNumber
 >>>
 ```
 
+```java
+public class Hello {
+    public static void main(String[] args) {
+
+        int myFirstNumber = 5;
+        int mySecNumber = 10+5;
+        int myThirdNumber = 22;
+        int myTotal = myFirstNumber + mySecNumber + myThirdNumber;
+
+        System.out.println(myTotal);
+
+    }
+}
+
+>>>
+42
+>>>
+```
+
 [^^^](#VARIABLES)
 
 ---
