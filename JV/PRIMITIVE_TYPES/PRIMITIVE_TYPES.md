@@ -17,6 +17,8 @@
 
 * [INT_MIN_MAX](#INT_MIN_MAX)
 * [BUSTED_INT](#BUSTED_INT)
+* [BYTE_MIN_MAX](#BYTE_MIN_MAX)
+* [SHORT_MIN_MAX](#SHORT_MIN_MAX)
 
 ---
 
@@ -78,6 +80,60 @@ Integer Minimum Value -2147483648
 Integer Maximum Value 2147483647
 BUSTED_MIN Value 2147483647
 BUSTED_MAX Value -2147483648
+>>>
+```
+
+[^^^](#PRIMITIVE_TYPES)
+
+---
+
+#### BYTE_MIN_MAX
+
+```JAVA
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+
+        System.out.println("Byte Minimum Value " + myMinByteValue);
+        System.out.println("Byte Maximum Value " + myMaxByteValue);
+    }
+}
+
+>>>
+Byte Minimum Value -128
+Byte Maximum Value 127
+>>>
+```
+
+[^^^](#PRIMITIVE_TYPES)
+
+---
+
+#### SHORT_MIN_MAX
+
+```JAVA
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+
+        System.out.println("Short Minimum Value " + myMinShortValue);
+        System.out.println("Short Maximum Value " + myMaxShortValue);
+    }
+}
+
+>>>
+Short Minimum Value -32768
+Short Maximum Value 32767
 >>>
 ```
 
