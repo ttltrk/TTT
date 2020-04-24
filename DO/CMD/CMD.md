@@ -17,10 +17,8 @@
 * [MANAGE_MULTIPLE_CONTAINERS](#MANAGE_MULTIPLE_CONTAINERS)
 * [CLI_PROCESSING_MONITORING](#CLI_PROCESSING_MONITORING)
 * [SHELL_INSIDE_CONTAINERS](#SHELL_INSIDE_CONTAINERS)
-* <a href='#sec7'>sec7</a></br>
-* <a href='#sec8'>sec8</a></br>
-* <a href='#sec9'>sec9</a></br>
-* <a href='#sec10'>sec10</a></br>
+* [NETWORKS_PRIVATE_PUBLIC_COMMS](#NETWORKS_PRIVATE_PUBLIC_COMMS)
+* [CLI_MANAGEMENT_VIRTUAL_NET](#CLI_MANAGEMENT_VIRTUAL_NET)
 * [HOW_CONTAINERS_FIND_EACH_OTHERS](#HOW_CONTAINERS_FIND_EACH_OTHERS)
 * [DNS_ROUND_ROBIN_TEST](#DNS_ROUND_ROBIN_TEST)
 
@@ -536,7 +534,9 @@ docker container run -it //start new container interactively
 docker container exec -it //run additional command in existing container
 
 you can use bash inside the container
+```
 
+```
 C:\Users\AttilaTorok>docker container run -t --name proxy nginx bash
 root@db40855ba795:/#
 
@@ -577,7 +577,9 @@ The document has moved
 </BODY></HTML>
 root@0cb70666eb84:/# exit
 exit
+```
 
+```
 C:\Users\AttilaTorok>docker container ls
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                 NAMES
 01cb30af8be7        mysql               "docker-entrypoint.s…"   About an hour ago   Up About an hour    3306/tcp, 33060/tcp   mysql
@@ -589,7 +591,9 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 db40855ba795        nginx               "bash"                   55 minutes ago      Exited (0) 5 minutes ago                          proxy
 01cb30af8be7        mysql               "docker-entrypoint.s…"   About an hour ago   Up About an hour            3306/tcp, 33060/tcp   mysql
 ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour ago   Up About an hour            80/tcp                nginx
+```
 
+```
 C:\Users\AttilaTorok>docker container start -ai ubuntu
 root@0cb70666eb84:/# curl google.com
 <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
@@ -600,7 +604,9 @@ The document has moved
 </BODY></HTML>
 root@0cb70666eb84:/# exit
 exit
+```
 
+```
 C:\Users\AttilaTorok>docker container ls
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                 NAMES
 01cb30af8be7        mysql               "docker-entrypoint.s…"   About an hour ago   Up About an hour    3306/tcp, 33060/tcp   mysql
@@ -615,12 +621,6 @@ ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour
 
 C:\Users\AttilaTorok>
 ```
-
-[^^^](#DOCKER_MASTERY)
-
----
-
-<h3 id='sec8'>sec8</h3>
 
 ```
 C:\Users\AttilaTorok>docker container exec -it mysql bash
@@ -639,12 +639,6 @@ ca8e4271486b        nginx               "nginx -g 'daemon of…"   About an hour
 C:\Users\AttilaTorok>
 ```
 
-[^^^](#DOCKER_MASTERY)
-
----
-
-<h3 id='sec9'>sec9</h3>
-
 ```
 C:\Users\AttilaTorok>docker pull alpine
 Using default tag: latest
@@ -661,7 +655,9 @@ mysql               latest              791b6e40940c        4 days ago          
 mongo               latest              8e89dfef54ff        9 days ago          386MB
 alpine              latest              e7d92cdc71fe        2 weeks ago         5.59MB
 ubuntu              latest              ccc6e87d482b        3 weeks ago         64.2MB
+```
 
+```
 C:\Users\AttilaTorok>docker container run -it alpine sh
 / # apk
 apk-tools 2.10.4, compiled for x86_64.
@@ -699,7 +695,7 @@ This apk has coffee making abilities.
 
 ---
 
-<h3 id='sec10'>sec10</h3>
+#### NETWORKS_PRIVATE_PUBLIC_COMMS
 
 ```
 C:\Users\AttilaTorok>docker container run -p 80:80 --name webhost -d nginx
@@ -707,12 +703,20 @@ C:\Users\AttilaTorok>docker container run -p 80:80 --name webhost -d nginx
 
 C:\Users\AttilaTorok>docker container port webhost
 80/tcp -> 0.0.0.0:80
+```
 
-C:\Users\AttilaTorok>docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
-Template parsing error: template: :1: unexpected unclosed action in command
+```
+C:\Users\AttilaTorok>docker container inspect --format "{{ .NetworkSettings.IPAddress }}" webhost_02
+172.17.0.2
 
 C:\Users\AttilaTorok>
 ```
+
+[^^^](#DOCKER_MASTERY)
+
+---
+
+#### CLI_MANAGEMENT_VIRTUAL_NET
 
 ```
 C:\Users\AttilaTorok>docker network ls
@@ -722,17 +726,15 @@ NETWORK ID          NAME                DRIVER              SCOPE
 a0ca6542eaa2        none                null                local
 
 C:\Users\AttilaTorok>docker network inspect bridge
-[
-    {
-        "Name": "bridge",
-        "Id": "60b56822dc3f44282db275b6faf1ae5c6494cca36449518050b45b68ea8a22af",
-        "Created": "2020-02-12T06:06:17.534518473Z",
-
-        ...
-
-        ...
-
-        ...
+...
+...
+"Containers": {
+           "4f26ee5b5453e69f807d0d69bb76c74999e651464dbe594c3c151ba7d44e9d9b": {
+               "Name": "webhost_02",
+               "EndpointID": "947c10acb382892451edb1db57221a1d002eb4d3fffd1458ef7319ed2a3178c0",
+               "MacAddress": "02:42:ac:11:00:02",
+               "IPv4Address": "172.17.0.2/16",
+               "IPv6Address": ""
 
 ```
 
@@ -827,7 +829,9 @@ C:\Users\AttilaTorok>docker container run -d --net dude --net-alias search elast
 Unable to find image 'elasticssearch:2' locally
 docker: Error response from daemon: pull access denied for elasticssearch, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
 See 'docker run --help'.
+```
 
+```
 C:\Users\AttilaTorok>docker container run --rm -it centos:7 bash
 Unable to find image 'centos:7' locally
 7: Pulling from library/centos
@@ -839,22 +843,30 @@ Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s
 Features: AsynchDNS GSS-Negotiate IDN IPv6 Largefile NTLM NTLM_WB SSL libz unix-sockets
 [root@8d57889fec1c /]# exit
 exit
+```
 
+```
 C:\Users\AttilaTorok>docker container run -d --net dude --net-alias search elasticsearch:2
 Unable to find image 'elasticsearch:2' locally
 2: Pulling from library/elasticsearch
 05d1a5232b46: Pull complete                                                                                             5cee356eda6b: Pull complete                                                                                             89d3385f0fd3: Pull complete                                                                                             65dd87f6620b: Pull complete                                                                                             78a183a01190: Pull complete                                                                                             1a4499c85f97: Pull complete                                                                                             2c9d39b4bfc1: Pull complete                                                                                             1b1cec2222c9: Pull complete                                                                                             59ff4ce9df68: Pull complete                                                                                             1976bc3ee432: Pull complete                                                                                             a27899b7a5b5: Pull complete                                                                                             b0fc7d2c927a: Pull complete                                                                                             6d94b96bbcd0: Pull complete                                                                                             6f5bf40725fd: Pull complete                                                                                             2bf2a528ae9a: Pull complete                                                                                             Digest: sha256:41ed3a1a16b63de740767944d5405843db00e55058626c22838f23b413aa4a39
 Status: Downloaded newer image for elasticsearch:2
 d852d387bc27f8bb0faa78456acd069fa10809d06b32627174ae8176b054e7ee
+```
 
+```
 C:\Users\AttilaTorok>docker container run -d --net dude --net-alias search elasticsearch:2
 3e89036b1a3886681aa1f477385140f6e0043164550be86f9143ae2bbad39dfe
+```
 
+```
 C:\Users\AttilaTorok>docker container ls
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
 3e89036b1a38        elasticsearch:2     "/docker-entrypoint.…"   12 seconds ago      Up 11 seconds       9200/tcp, 9300/tcp   epic_cray
 d852d387bc27        elasticsearch:2     "/docker-entrypoint.…"   26 seconds ago      Up 24 seconds       9200/tcp, 9300/tcp   unruffled_solomon
+```
 
+```
 C:\Users\AttilaTorok>docker container run --rm --net dude alpine nslookup search
 Server:         127.0.0.11
 Address:        127.0.0.11:53
@@ -866,8 +878,9 @@ Name:   search
 Address: 172.19.0.3
 
 Non-authoritative answer:
+```
 
-
+```
 C:\Users\AttilaTorok>docker container run --rm --net dude centos curl -s search:9200
 Unable to find image 'centos:latest' locally
 latest: Pulling from library/centos
@@ -901,16 +914,22 @@ C:\Users\AttilaTorok>docker container run --rm --net dude centos curl -s search:
   },
   "tagline" : "You Know, for Search"
 }
+```
 
+```
 C:\Users\AttilaTorok>docker container ls
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
 3e89036b1a38        elasticsearch:2     "/docker-entrypoint.…"   3 minutes ago       Up 3 minutes        9200/tcp, 9300/tcp   epic_cray
 d852d387bc27        elasticsearch:2     "/docker-entrypoint.…"   3 minutes ago       Up 3 minutes        9200/tcp, 9300/tcp   unruffled_solomon
+```
 
+```
 C:\Users\AttilaTorok>docker container rm -f epic_cray unruffled_solomon
 epic_cray
 unruffled_solomon
+```
 
+```
 C:\Users\AttilaTorok>docker container ls
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 
