@@ -19,6 +19,7 @@
 * [BUSTED_INT](#BUSTED_INT)
 * [BYTE_MIN_MAX](#BYTE_MIN_MAX)
 * [SHORT_MIN_MAX](#SHORT_MIN_MAX)
+* [LONG_MIN_MAX](#LONG_MIN_MAX)
 
 ---
 
@@ -134,6 +135,33 @@ public class Main {
 >>>
 Short Minimum Value -32768
 Short Maximum Value 32767
+>>>
+```
+
+[^^^](#PRIMITIVE_TYPES)
+
+---
+
+#### LONG_MIN_MAX
+
+```java
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+
+        System.out.println("Long Minimum Value " + myMinLongValue);
+        System.out.println("Long Maximum Value " + myMaxLongValue);
+    }
+}
+
+>>>
+Long Minimum Value -9223372036854775808
+Long Maximum Value 9223372036854775807
 >>>
 ```
 
