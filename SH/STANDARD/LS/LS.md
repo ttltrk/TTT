@@ -5,31 +5,34 @@
 
 ---
 
-<h3 id='^'>LS</h3>
+### LS
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
+* [HW_DETAILS](#HW_DETAILS)
+* []()
+* []()
+* []()
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sh
-
+ls -l
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LS)
 
 ---
 
-<h3 id=''></h3>
+#### HW_DETAILS
 
 ```sh
-
+lsconf
 ```
 
-<a href='#^'>^^^</a>
+[^^^](#LS)
 
 ---
