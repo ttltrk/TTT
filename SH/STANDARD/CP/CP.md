@@ -5,31 +5,20 @@
 
 ---
 
-<h3 id='^'>CP</h3>
+### CP
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
 
 ```sh
-
+cp file path
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
+[^^^](#CP)
 
 ---

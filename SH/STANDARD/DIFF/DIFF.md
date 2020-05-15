@@ -5,31 +5,36 @@
 
 ---
 
-<h3 id='^'>DIFF</h3>
+### DIFF
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [BASICS](#BASICS)
 
 ---
 
-<h3 id=''></h3>
+#### BASICS
+
+kiirja ket file kozotti kulonbseget
 
 ```sh
+diff file_name_1.txt file_name_2.txt
 
+ttltrk-mbp:TEST attilatorok$ cat test3.txt
+elso sor
+masodik sor
+harmadik sor
+negyedik sor es
+az utolso otodik sor
+ttltrk-mbp:TEST attilatorok$ cat test4.txt
+elso sor
+masodik sor
+harmadik sor
+az utolso otodik sor
+ttltrk-mbp:TEST attilatorok$ diff test3.txt test4.txt
+4d3
+< negyedik sor es
+ttltrk-mbp:TEST attilatorok$
 ```
 
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
-
----
+[^^^](#DIFF)
