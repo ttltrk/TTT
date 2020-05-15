@@ -11,9 +11,6 @@
 
 * [BASICS](#BASICS)
 * [HW_DETAILS](#HW_DETAILS)
-* []()
-* []()
-* []()
 
 ---
 
