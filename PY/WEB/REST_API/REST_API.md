@@ -19,8 +19,6 @@ DELETE - DELETE - Delete an object
 
 * [BASIC_API_REQ](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/BASIC_API_REQ/BASIC_API_REQ.md)
 * [FLASK_JWT](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/FLASK_JWT/FLASK_JWT.md)
-* []()
-* []()
-* []()
+* [REST_API_DB](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API_DB/REST_API_DB.md)
 
 ---
