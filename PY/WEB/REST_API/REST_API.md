@@ -22,7 +22,3 @@ DELETE - DELETE - Delete an object
 * [REST_API_DB](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API_DB/REST_API_DB.md)
 
 ---
-
-```
-Test
-```
