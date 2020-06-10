@@ -15,6 +15,21 @@
 
 ---
 
+* [LOGIC_GATES]()
+* [TRANSISTORS_TO_OS]()
+* [NUMBER_SYSTEMS]()
+* [X86_DATATYPES]()
+* [X86_MICROCOMPUTER_DESIGN]()
+* [X86_OPERATING_MODES]()
+* [X86_REGISTERS]()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
 * []()
 * []()
 * []()
