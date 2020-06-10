@@ -26,7 +26,7 @@
 * [X86_FLAGS]()
 * [FLOATING_POINT_UNIT]()
 * [X86_MEMORY_MODELS]()
-* []()
+* [X86_INTEGERS]()
 * []()
 * []()
 * []()
