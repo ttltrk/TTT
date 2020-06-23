@@ -12,6 +12,7 @@
 ```
 Indexes are used to retrieve data from the database very fast.
 The users cannot see the indexes, they are just used to speed up searches/queries.
+By using indexes we can save time and can improve the performance of db queries and apps
 ```
 
 ---
