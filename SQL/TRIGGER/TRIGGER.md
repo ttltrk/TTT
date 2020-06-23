@@ -10,7 +10,7 @@
 ---
 
 ```
-
+SQL Server triggers are special stored procedures that are executed automatically in response to the database object, database, and server events.
 ```
 
 ---

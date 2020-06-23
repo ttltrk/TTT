@@ -10,7 +10,17 @@
 ---
 
 ```
+The sys.synonyms catalog view contains an entry for each synonym in a given database.
+This catalog view exposes synonym metadata such as the name of the synonym and the name of the base object.
+For more information, see sys.synonyms (Transact-SQL).
 
+By using extended properties, you can add descriptive or instructional text, input masks,
+and formatting rules as properties of a synonym. Because the property is stored in the database,
+all applications that read the property can evaluate the object in the same way. For more information,
+see sp_addextendedproperty (Transact-SQL).
+
+To find the base type of the base object of a synonym, use the OBJECTPROPERTYEX function.
+For more information, see OBJECTPROPERTYEX (Transact-SQL).
 ```
 
 ---
