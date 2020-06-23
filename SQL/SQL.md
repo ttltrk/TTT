@@ -42,6 +42,7 @@
 
 03
 
+* [DATA_TYPES](https://github.com/ttltrk/TTT/blob/master/SQL/DATA_TYPES/DATA_TYPES.md)
 * [SUB_LANGUAGES](https://github.com/ttltrk/TTT/blob/master/SQL/SUB_LAN/SUB_LAN.md)
 * [INDEX](https://github.com/ttltrk/TTT/blob/master/SQL/INDEX/INDEX.md)
 * [VIEW](https://github.com/ttltrk/TTT/blob/master/SQL/VIEW/VIEW.md)
