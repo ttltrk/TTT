@@ -78,15 +78,15 @@ INNER JOIN trk_test_02
 ON trk_test_01.personid=trk_test_02.systemid;
 
 >>>
-personid|lastname|dep       |
---------|--------|----------|
-       1|trk     |ITOPS     |
-       2|doe     |DEVOPS    |
-       3|ewong   |HR        |
-       4|bbking  |MANAGEMENT|
-       5|petofi  |ITOPS     |
-       6|kawhi   |ITOPS     |
-       7|jockey  |DEVOPS    |
+id|lastname|dep       |city|
+--|--------|----------|----|
+ 1|trk     |ITOPS     |BA  |
+ 2|doe     |DEVOPS    |BP  |
+ 3|ewong   |HR        |SF  |
+ 4|bbking  |MANAGEMENT|LA  |
+ 5|petofi  |ITOPS     |BP  |
+ 6|kawhi   |ITOPS     |LN  |
+ 7|jockey  |DEVOPS    |NYC |
 >>>
 ```
 
