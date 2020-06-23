@@ -21,7 +21,7 @@ ADVANCED FUNC
 ---
 
 * [STRING_FUNC](#STRING_FUNC)
-* [MATH_FUNC](#MATH_FUNC)
+* [MATH_NUM_FUNC](#MATH_NUM_FUNC)
 * [DATE_FUNC](#DATE_FUNC)
 * [ADVANCED_FUNC](#ADVANCED_FUNC)
 
@@ -74,10 +74,37 @@ UPPER	- Converts a string to upper-case
 
 ---
 
-#### MATH_FUNC
+#### MATH_NUM_FUNC
 
 ```
-
+ABS	- Returns the absolute value of a number
+ACOS	- Returns the arc cosine of a number
+ASIN	- Returns the arc sine of a number
+ATAN	- Returns the arc tangent of a number
+ATN2	- Returns the arc tangent of two numbers
+AVG	- Returns the average value of an expression
+CEILING	- Returns the smallest integer value that is >= a number
+COUNT	- Returns the number of records returned by a select query
+COS	- Returns the cosine of a number
+COT	- Returns the cotangent of a number
+DEGREES	- Converts a value in radians to degrees
+EXP	- Returns e raised to the power of a specified number
+FLOOR	- Returns the largest integer value that is <= to a number
+LOG	- Returns the natural logarithm of a number, or the logarithm of a number to a specified base
+LOG10	- Returns the natural logarithm of a number to base 10
+MAX	- Returns the maximum value in a set of values
+MIN	- Returns the minimum value in a set of values
+PI	- Returns the value of PI
+POWER	- Returns the value of a number raised to the power of another number
+RADIANS	- Converts a degree value into radians
+RAND	- Returns a random number
+ROUND	- Rounds a number to a specified number of decimal places
+SIGN	- Returns the sign of a number
+SIN	- Returns the sine of a number
+SQRT	- Returns the square root of a number
+SQUARE	- Returns the square of a number
+SUM	- Calculates the sum of a set of values
+TAN	- Returns the tangent of a number
 ```
 
 ```sql
@@ -93,8 +120,19 @@ UPPER	- Converts a string to upper-case
 #### DATE_FUNC
 
 ```
-
-
+CURRENT_TIMESTAMP	- Returns the current date and time
+DATEADD	- Adds a time/date interval to a date and then returns the date
+DATEDIFF	- Returns the difference between two dates
+DATEFROMPARTS	- Returns a date from the specified parts (year, month, and day values)
+DATENAME	- Returns a specified part of a date (as string)
+DATEPART	- Returns a specified part of a date (as integer)
+DAY	- Returns the day of the month for a specified date
+GETDATE	- Returns the current database system date and time
+GETUTCDATE	- Returns the current database system UTC date and time
+ISDATE	- Checks an expression and returns 1 if it is a valid date, otherwise 0
+MONTH	- Returns the month part for a specified date (a number from 1 to 12)
+SYSDATETIME	- Returns the date and time of the SQL Server
+YEAR	- Returns the year part for a specified date
 ```
 
 ```sql
@@ -110,7 +148,18 @@ UPPER	- Converts a string to upper-case
 #### ADVANCED_FUNC
 
 ```
-
+CAST	- Converts a value (of any type) into a specified datatype
+COALESCE	- Returns the first non-null value in a list
+CONVERT	- Converts a value (of any type) into a specified datatype
+CURRENT_USER	- Returns the name of the current user in the SQL Server database
+IIF	- Returns a value if a condition is TRUE, or another value if a condition is FALSE
+ISNULL	- Return a specified value if the expression is NULL, otherwise return the expression
+ISNUMERIC	- Tests whether an expression is numeric
+NULLIF	- Returns NULL if two expressions are equal
+SESSION_USER	- Returns the name of the current user in the SQL Server database
+SESSIONPROPERTY	- Returns the session settings for a specified option
+SYSTEM_USER	- Returns the login name for the current user
+USER_NAME	- Returns the database user name based on the specified id
 ```
 
 ```sql
