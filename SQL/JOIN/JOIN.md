@@ -17,7 +17,7 @@
   - FULL OUTER - Returns all records when there is a match in either left or right table
 - CROSS - produces Cartesian product of the tables that are involved in the join.
           The size of a Cartesian product is the number of the rows in the first table multiplied by the
-          number of rows in the second table. 
+          number of rows in the second table.
 ```
 
 ---
@@ -45,8 +45,6 @@
 
 ---
 
----
-
 #### OUTER_JOIN
 
 ```sql
@@ -58,8 +56,6 @@
 ```
 
 [^^^](#JOINS)
-
----
 
 ---
 
@@ -77,8 +73,6 @@
 
 ---
 
----
-
 #### RIGHT_OUTER_JOIN
 
 ```sql
@@ -93,8 +87,6 @@
 
 ---
 
----
-
 #### FULL_OUTER_JOIN
 
 ```sql
@@ -106,8 +98,6 @@
 ```
 
 [^^^](#JOINS)
-
----
 
 ---
 
