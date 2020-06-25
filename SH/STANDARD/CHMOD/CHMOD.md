@@ -9,11 +9,21 @@
 
 ---
 
+```
+
+```
+
+---
+
 * [BASICS](#BASICS)
 
 ---
 
 ### BASICS
+
+```
+
+```
 
 ```sh
 chmod 777 file_dir

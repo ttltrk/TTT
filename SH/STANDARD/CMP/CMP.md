@@ -9,11 +9,21 @@
 
 ---
 
+```
+
+```
+
+---
+
 * [BASICS](#BASICS)
 
 ---
 
 #### BASICS
+
+```
+
+```
 
 ```sh
 $ cat temp.txt

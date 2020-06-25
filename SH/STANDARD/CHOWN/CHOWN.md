@@ -9,11 +9,21 @@
 
 ---
 
+```
+
+```
+
+---
+
 * [BASICS](#BASICS)
 
 ---
 
 #### BASICS
+
+```
+
+```
 
 ```sh
 chown user:group file_name

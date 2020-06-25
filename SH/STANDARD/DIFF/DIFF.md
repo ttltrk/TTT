@@ -9,13 +9,21 @@
 
 ---
 
+```
+
+```
+
+---
+
 * [BASICS](#BASICS)
 
 ---
 
 #### BASICS
 
+```
 kiirja ket file kozotti kulonbseget
+```
 
 ```sh
 diff file_name_1.txt file_name_2.txt
