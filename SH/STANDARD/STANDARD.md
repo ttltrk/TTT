@@ -18,6 +18,7 @@
 * [cmp](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/CMP/CMP.md)
 * [comm](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/COMM/COMM.md)
 * [cp](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/CP/CP.md)
+* [df](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DF/DF.md)
 * [diff](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DIFF/DIFF.md)
 * [du](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DU/DU.md)
 * [echo](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/ECHO/ECHO.md)
@@ -25,6 +26,7 @@
 * [grep](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/GREP/GREP.md)
 * [head](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/HEAD/HEAD.md)
 * [history](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/HISTORY/HISTORY.md)
+* [ifconfig](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/IFCONFIG/IFCONFIG.md)
 * [let](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LET/LET.md)
 * [less](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LESS/LESS.md)
 * [ln](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LN/LN.md)
@@ -34,6 +36,7 @@
 * [mv](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MV/MV.md)
 * [nohup](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/NOHUP/NOHUP.md)
 * [passwd](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/PASSWD/PASSWD.md)
+* [prtconf](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/PRTCONF/PRTCONF.md)
 * [ps](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/PS/PS.md)
 * [sort](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/SORT/SORT.md)
 * [tail](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TAIL/TAIL.md)
@@ -41,6 +44,5 @@
 * [tty](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TTY/TTY.md)
 * [unzip](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/UNZIP/UNZIP.md)
 * [wc](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/WC/WC.md)
-
 
 ---
