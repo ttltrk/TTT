@@ -10,13 +10,27 @@
 ---
 
 ```
-Displays user account attributes.
+
 ```
 
 ---
+
+* [BASICS](#BASICS)
+
+---
+
+#### BASICS
+
+```
+Displays user account attributes.
+```
 
 ```sh
 lsuser username
 ```
 
----
+```sh
+
+```
+
+[^^^](#LSUSER)

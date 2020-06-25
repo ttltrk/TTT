@@ -37,4 +37,8 @@ uname -av
 oslevel -s
 ```
 
+```sh
+lsconf
+```
+
 [^^^](#PRTCONF)
