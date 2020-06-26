@@ -15,6 +15,7 @@ List is a collection which is ordered and changeable. Allows duplicate members.
 
 ---
 
+* [MARK_THE_ROWS](#MARK_THE_ROWS)
 * [ACCESS_ITEMS](#ACCESS_ITEMS)
 * [NEGATIVE_INDEXING](#NEGATIVE_INDEXING)
 * [RANGE_OF_INDEXES](#RANGE_OF_INDEXES)
@@ -42,6 +43,27 @@ List is a collection which is ordered and changeable. Allows duplicate members.
 * [FIND_OCCURENCES_IN_LIST](#FIND_OCCURENCES_IN_LIST)
 * [FIND_MAX_VALUE_IN_LIST](#FIND_MAX_VALUE_IN_LIST)
 * [FIND_EVEN_OCCURENCES_IN_LIST](#FIND_EVEN_OCCURENCES_IN_LIST)
+
+---
+
+#### MARK_THE_ROWS
+
+```py
+L1 = ["a", "b", "c", "d"]
+L2 = ["aa", "bb", "cc", "dd"]
+
+for i, L1 in enumerate (L1):
+    print(i, L1)
+
+>>>
+0 a
+1 b
+2 c
+3 d
+>>>
+```
+
+[^^^](#LIST_BASICS)
 
 ---
 

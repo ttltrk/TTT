@@ -253,6 +253,16 @@ print(add_length('apple banana hey'))
 >>>
 ```
 
+```py
+L1 = ["a", "b", "c", "d"]
+L2 = ["aa", "bb", "cc", "dd"]
+
+>>>
+for l1, l2 in zip(L1, L2):
+    print(l1, l2)
+>>>
+```
+
 [^^^](#LIST_TO)
 
 ---
