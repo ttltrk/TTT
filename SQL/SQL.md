@@ -9,7 +9,37 @@
 
 ---
 
-01
+#### DDL – Data Definition Language.
+
+```
+CREATE, ALTER, DROP, TRUNCATE, RENAME are the DDL commands
+```
+
+* [CREATE](https://github.com/ttltrk/TTT/blob/master/SQL/CREATE/CREATE.md)
+* [ALTER](https://github.com/ttltrk/TTT/blob/master/SQL/ALTER/ALTER.md)
+* [DROP]()
+* [TRUNCATE](https://github.com/ttltrk/TTT/blob/master/SQL/TRUNCATE/TRUNCATE.md)
+* [RENAME]()
+
+---
+
+#### DML – Data Manipulation Language.
+
+```
+INSERT, UPDATE, DELETE are the DML commands.
+```
+
+* [INSERT INTO](https://github.com/ttltrk/TTT/blob/master/SQL/INSERT_INTO/INSERT_INTO.md)
+* [UPDATE](https://github.com/ttltrk/TTT/blob/master/SQL/UPDATE/UPDATE.md)
+* [DELETE](https://github.com/ttltrk/TTT/blob/master/SQL/DELETE/DELETE.md)
+
+---
+
+#### DRL/DQL – Data Retrieval Language/Data Query Language.
+
+```
+SELECT is the DQL or DRL command.
+```
 
 * [SELECT](https://github.com/ttltrk/TTT/blob/master/SQL/SELECT/SELECT.md)
 * [SELECT DISTINCT](https://github.com/ttltrk/TTT/blob/master/SQL/SELECT_DISTINCT/SELECT_DISTINCT.md)
@@ -23,25 +53,38 @@
 * [BETWEEN](https://github.com/ttltrk/TTT/blob/master/SQL/BETWEEN/BETWEEN.md)
 * [IN](https://github.com/ttltrk/TTT/blob/master/SQL/IN/IN.md)
 * [LIKE](https://github.com/ttltrk/TTT/blob/master/SQL/LIKE/LIKE.md)
-* [WILDCARDS](https://github.com/ttltrk/TTT/blob/master/SQL/WILDCARDS/WILDCARDS.md)
-* [ALIAS](https://github.com/ttltrk/TTT/blob/master/SQL/ALIAS/ALIAS.md)
-* [HAVING](https://github.com/ttltrk/TTT/blob/master/SQL/HAVING/HAVING.md)
-
-02
-
-* [INSERT INTO](https://github.com/ttltrk/TTT/blob/master/SQL/INSERT_INTO/INSERT_INTO.md)
-* [NULL VALUES](https://github.com/ttltrk/TTT/blob/master/SQL/NULL_VALUES/NULL_VALUES.md)
-* [UPDATE](https://github.com/ttltrk/TTT/blob/master/SQL/UPDATE/UPDATE.md)
-* [DELETE](https://github.com/ttltrk/TTT/blob/master/SQL/DELETE/DELETE.md)
-* [TRUNCATE](https://github.com/ttltrk/TTT/blob/master/SQL/TRUNCATE/TRUNCATE.md)
-* [CREATE](https://github.com/ttltrk/TTT/blob/master/SQL/CREATE/CREATE.md)
-* [ALTER](https://github.com/ttltrk/TTT/blob/master/SQL/ALTER/ALTER.md)
 * [JOIN](https://github.com/ttltrk/TTT/blob/master/SQL/JOIN/JOIN.md)
 * [UNION](https://github.com/ttltrk/TTT/blob/master/SQL/UNION/UNION.md)
 * [GROUP BY](https://github.com/ttltrk/TTT/blob/master/SQL/GROUP_BY/GROUP_BY.md)
 
-03
+---
 
+#### TCL – Transaction Query Language.
+
+```
+COMMIT, ROLLBACK, SAVEPOINT, ROLLBACK TO are the TCL commands.
+```
+---
+
+#### DCL – Data Control Language.
+
+```
+GRANT, REVOKE, AUDIT, COMMENT, ANALYZE are the DCL commands.
+```
+---
+
+#### SCL – Session Control Language.
+
+```
+ALTER SESSION,SET ROLL are the SCL commands.
+```
+
+---
+
+* [WILDCARDS](https://github.com/ttltrk/TTT/blob/master/SQL/WILDCARDS/WILDCARDS.md)
+* [ALIAS](https://github.com/ttltrk/TTT/blob/master/SQL/ALIAS/ALIAS.md)
+* [HAVING](https://github.com/ttltrk/TTT/blob/master/SQL/HAVING/HAVING.md)
+* [NULL VALUES](https://github.com/ttltrk/TTT/blob/master/SQL/NULL_VALUES/NULL_VALUES.md)
 * [DATA_TYPES](https://github.com/ttltrk/TTT/blob/master/SQL/DATA_TYPES/DATA_TYPES.md)
 * [SUB_LANGUAGES](https://github.com/ttltrk/TTT/blob/master/SQL/SUB_LAN/SUB_LAN.md)
 * [INDEX](https://github.com/ttltrk/TTT/blob/master/SQL/INDEX/INDEX.md)
@@ -54,9 +97,6 @@
 * [TEMP_TABS](https://github.com/ttltrk/TTT/blob/master/SQL/TEMP_TABS/TEMP_TABS.md)
 * [KEYS](https://github.com/ttltrk/TTT/blob/master/SQL/KEYS/KEYS.md)
 * [FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/SQL/FUNCTIONS/FUNCTIONS.md)
-
-04
-
 * [CASE](https://github.com/ttltrk/TTT/blob/master/SQL/CASE/CASE.md)
 
 ---
