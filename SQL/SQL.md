@@ -17,7 +17,7 @@ CREATE, ALTER, DROP, TRUNCATE, RENAME are the DDL commands
 
 * [CREATE](https://github.com/ttltrk/TTT/blob/master/SQL/CREATE/CREATE.md)
 * [ALTER](https://github.com/ttltrk/TTT/blob/master/SQL/ALTER/ALTER.md)
-* [DROP]()
+* [DROP](https://github.com/ttltrk/TTT/blob/master/SQL/DROP/DROP.md)
 * [TRUNCATE](https://github.com/ttltrk/TTT/blob/master/SQL/TRUNCATE/TRUNCATE.md)
 * [RENAME]()
 
