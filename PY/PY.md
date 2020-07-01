@@ -31,6 +31,7 @@
 * [LOGINS](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/LOGINS.md)
 * [SHELL](https://github.com/ttltrk/TTT/blob/master/PY/SHELL/SHELL.md)
 * [WEB](https://github.com/ttltrk/TTT/blob/master/PY/WEB/WEB.md)
+* [PROFILER](https://github.com/ttltrk/TTT/blob/master/PY/PROFILER/PROFILER.md)
 
 ---
 
