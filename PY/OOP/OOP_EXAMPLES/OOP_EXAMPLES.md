@@ -106,6 +106,43 @@ print(NN1 * NN2)
 >>>
 ```
 
+```py
+class test1:
+
+    var_1 = 25
+
+    def elso(self):
+        var_2 = 5
+        return test1.var_1 + var_2
+
+    def masodik(self):
+        return 3
+
+class test2:
+
+    def harmadik(self):
+        return 5
+
+    def negyedik(self):
+        print('hi all')
+
+t1 = test1()
+t2 = test2()
+
+def control():
+    return ((t2.harmadik() + t1.masodik()) + (t1.var_1 - t1.elso()))
+
+print(control()) #3
+t2.negyedik() #hi all
+test2.negyedik(t2) #hi all
+
+>>>
+3
+hi all
+hi all
+>>>
+```
+
 [^^^](#OOP_EXAMPLES)
 
 ---
