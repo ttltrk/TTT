@@ -284,6 +284,33 @@ they are same
 >>>
 ```
 
+```py
+class test1:
+
+    def __init__(self):
+        self.name = 'trk'
+        self.age = 36
+
+    def compare(self, t2):
+        if self.age == t2.age:
+            return True
+        else:
+            return False
+
+t1 = test1()
+t1.age = 30
+t2 = test1()
+
+if t1.compare(t2):
+    print('they are same')
+else:
+    print('they are different')
+
+>>>
+they are different
+>>>
+```
+
 [^^^](#OOP_EXAMPLES)
 
 ---
