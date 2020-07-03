@@ -311,6 +311,129 @@ they are different
 >>>
 ```
 
+```py
+class Car:
+
+    def __init__(self):
+        self.mil = 10
+        self.com = "BMW"
+
+c1 = Car()
+c2 = Car()
+
+c1.mil = 8
+
+print(c1.com, c1.mil)
+print(c2.com, c2.mil)
+
+>>>
+BMW 8
+BMW 10
+>>>
+```
+
+```py
+class Car:
+
+    wheels = 4
+
+    def __init__(self):
+        self.mil = 10
+        self.com = "BMW"
+
+c1 = Car()
+c2 = Car()
+
+c1.mil = 8
+c1.wheels = 5
+
+print(c1.com, c1.mil, c1.wheels)
+print(c2.com, c2.mil, c2.wheels)
+
+>>>
+BMW 8 5
+BMW 10 4
+>>>
+```
+
+```py
+class Car:
+
+    wheels = 4
+
+    def __init__(self):
+        self.mil = 10
+        self.com = "BMW"
+
+c1 = Car()
+c2 = Car()
+
+c1.mil = 8
+Car.wheels = 5
+
+print(c1.com, c1.mil, c1.wheels)
+print(c2.com, c2.mil, c2.wheels)
+
+>>>
+BMW 8 5
+BMW 10 5
+>>>
+```
+
+```py
+class Student:
+
+    school = 'trk'
+
+    def __init__(self, m1, m2, m3):
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    def avg(self):
+        return (self.m1 + self.m2 + self.m3)/3
+
+s1 = Student(99,3,1)
+s2 = Student(700, 221, 19)
+
+print(s1.avg())
+print(s2.avg())
+
+>>>
+34.333333333333336
+313.3333333333333
+>>>
+```
+
+```py
+class Student:
+
+    school = 'trk'
+
+    def __init__(self, m1, m2, m3):
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    def get_m1(self):
+        return self.m1
+
+    def set_m1(self, val):
+        self.m1 = val
+
+s1 = Student(99,3,1)
+s2 = Student(700, 221, 19)
+
+print(s1.get_m1())
+s1.set_m1(1000)
+print(s1.get_m1())
+
+>>>
+99
+1000
+>>>
+```
+
 [^^^](#OOP_EXAMPLES)
 
 ---
