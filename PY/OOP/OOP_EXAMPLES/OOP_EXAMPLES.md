@@ -143,6 +143,147 @@ hi all
 >>>
 ```
 
+```py
+class test1:
+
+    def __init__(self):
+        print('in init')
+
+    def elso(self):
+        return 3
+
+    def masodik(self):
+        print('hi all')
+
+t1 = test1()
+
+print(t1.elso())
+t1.masodik()
+
+>>>
+in init
+3
+hi all
+>>>
+```
+
+```py
+class test1:
+
+    def __init__(self, a, b, c, d):
+        self.a = a
+        self.b = b
+        self.c = c
+        self.d = d
+
+    def elso(self):
+        print('az elso ertekek: ', self.a, self.b)
+
+    def masodik(self):
+        print('a masodik ertekek: ', self.c, self.d)
+
+t1 = test1('10', '20', '30', '40')
+
+t1.elso()
+t1.masodik()
+
+>>>
+az elso ertekek:  10 20
+a masodik ertekek:  30 40
+>>>
+```
+
+```py
+class test1:
+    pass
+
+t1 = test1()
+t2 = test1()
+
+print(id(t1))
+print(id(t2))
+
+>>>
+60030960
+60029200
+>>>
+```
+
+```py
+class test1:
+
+    def __init__(self):
+        self.name = 'trk'
+        self.age = 36
+
+t1 = test1()
+t2 = test1()
+
+t1.name = 'ttl'
+t1.age = 35
+
+print(t1.name)
+print(t2.name)
+
+>>>
+ttl
+trk
+>>>
+```
+
+```py
+class test1:
+
+    def __init__(self):
+        self.name = 'trk'
+        self.age = 36
+
+    def update(self):
+        self.age = 99
+
+t1 = test1()
+t2 = test1()
+
+t1.name = 'ttl'
+t1.age = 35
+
+t1.update()
+
+print(t1.age)
+print(t2.name)
+
+>>>
+99
+trk
+>>>
+```
+
+```py
+class test1:
+
+    def __init__(self):
+        self.name = 'trk'
+        self.age = 36
+
+    def compare(self, t2):
+        if self.age == t2.age:
+            return True
+        else:
+            return False
+
+t1 = test1()
+t2 = test1()
+
+if t1.compare(t2):
+    print('they are same')
+else:
+    print('they are different')
+
+>>>
+they are same
+>>>
+```
+
 [^^^](#OOP_EXAMPLES)
 
 ---
