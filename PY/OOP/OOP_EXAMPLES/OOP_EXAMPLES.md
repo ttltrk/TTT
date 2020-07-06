@@ -434,6 +434,236 @@ print(s1.get_m1())
 >>>
 ```
 
+```py
+class Student:
+
+    school = 'trk'
+
+    def __init__(self, m1):
+        self.m1 = m1
+
+    def get_m1(self):
+        return self.m1
+
+    def set_m1(self, val):
+        self.m1 = val
+
+s1 = Student(100)
+
+def kapcsolo():
+    i = input('legyen valtoztatas? \n '
+              'Yes = y, No = n \n '
+              'alapbol 100-as az erosseg \n \n ')
+    if i == 'y':
+        v = int(input('allitsd be... \n'))
+        s1.set_m1(v)
+        print('az uj erosseg: ', s1.get_m1())
+    else:
+        print('az erosseg 100-as maradt')
+
+kapcsolo()
+
+>>>
+legyen valtoztatas?
+ Yes = y, No = n
+ alapbol 100-as az erosseg
+
+ y
+allitsd be...
+111
+az uj erosseg:  111
+
+legyen valtoztatas?
+ Yes = y, No = n
+ alapbol 100-as az erosseg
+
+ n
+az erosseg 100-as maradt 100
+>>>
+```
+
+```py
+class Student:
+
+    school = 'trk'
+
+    def __init__(self, m1, m2, m3):
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    @classmethod
+    def info(cls):
+        return cls.school
+
+s1 = Student(100,200,300)
+
+
+print(Student.info())
+
+>>>
+trk
+>>>
+```
+
+```py
+class Student:
+
+    school = 'trk'
+
+    def __init__(self, m1, m2, m3):
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    @classmethod
+    def getSchool(cls):
+        return cls.school
+
+    @staticmethod
+    def info():
+        print("This is Student class...in abc module")
+
+s1 = Student(100,200,300)
+
+
+print(Student.getSchool())
+Student.info()
+
+>>>
+trk
+This is Student class...in abc module
+>>>
+```
+
+```py
+class Student:
+
+    def __init__(self, name, rollno):
+        self.name = name
+        self.rollno = rollno
+
+    def show(self):
+        print(self.name, self.rollno)
+
+s1 = Student('trk', 2)
+s2 = Student('vrg', 3)
+
+s1.show()
+s2.show()
+
+>>>
+trk 2
+vrg 3
+>>>
+```
+
+```py
+class Student:
+
+    def __init__(self, name, rollno):
+        self.name = name
+        self.rollno = rollno
+        self.lap = self.Laptop
+
+    def show(self):
+        print(self.name, self.rollno)
+
+    class Laptop:
+
+        def __init__(self):
+            self.brand = 'HP'
+            self.cpu = 'i5'
+            self.ram = 8
+
+s1 = Student('trk', 2)
+s2 = Student('vrg', 3)
+
+lap1 = s1.lap
+lap2 = s2.lap
+
+print(lap1)
+
+>>>
+<class '__main__.Student.Laptop'>
+>>>
+```
+
+```py
+class Student:
+
+    def __init__(self, name, rollno):
+        self.name = name
+        self.rollno = rollno
+        self.lap = self.Laptop()
+
+    def show(self):
+        print(self.name, self.rollno)
+        self.lap.show()
+
+    class Laptop:
+
+        def __init__(self):
+            self.brand = 'HP'
+            self.cpu = 'i5'
+            self.ram = 8
+
+        def show(self):
+            print(self.brand, self.cpu, self.ram)
+
+s1 = Student('trk', 2)
+s2 = Student('vrg', 3)
+
+lap1 = Student.Laptop()
+lap2 = Student.Laptop()
+
+s1.show()
+
+>>>
+trk 2
+HP i5 8
+>>>
+```
+
+```py
+class A:
+
+    def Feat1(self):
+        print("Feat1 is working")
+
+    def Feat2(self):
+        print("Feat2 is working")
+
+class B(A):
+
+    def Feat3(self):
+        print("Feat3 is working")
+
+    def Feat4(self):
+        print("Feat4 is working")
+
+a1 = A()
+b1 = B()
+
+
+a1.Feat1()
+a1.Feat2()
+
+b1.Feat1()
+b1.Feat2()
+b1.Feat3()
+b1.Feat4()
+
+>>>
+Feat1 is working
+Feat2 is working
+Feat1 is working
+Feat2 is working
+Feat3 is working
+Feat4 is working
+>>>
+```
+
 [^^^](#OOP_EXAMPLES)
 
 ---
