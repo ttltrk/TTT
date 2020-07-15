@@ -1177,6 +1177,72 @@ only 1 num: 5 =  5
 ```
 
 ```py
+class A:
+
+    def show(self):
+        print('in A Show')
+
+class B(A):
+    pass
+
+a1 = B()
+a1.show()
+
+>>>
+in A Show
+>>>
+```
+
+```py
+class A:
+
+    def show(self):
+        print('in A Show')
+
+class B(A):
+
+    def show(self):
+        print('in B Show')
+
+a1 = B()
+a1.show()
+
+>>>
+in B Show
+>>>
+```
+
+```py
+class Dog():
+
+    def __init__(self,breed):
+        self.breed = breed
+
+my_dog = Dog(breed='Lab')
+
+print(my_dog.breed)
+
+>>>
+Lab
+>>>
+```
+
+```py
+class Dog():
+
+    def __init__(self,mybreed):
+        self.breed = mybreed
+
+my_dog = Dog(mybreed='Huskie')
+
+print(my_dog.breed)
+
+>>>
+Huskie
+>>>
+```
+
+```py
 
 >>>
 
