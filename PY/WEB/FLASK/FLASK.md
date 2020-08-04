@@ -5,31 +5,14 @@
 
 ---
 
-<h3 id='^'>Flask</h3>
+### FLASK
 
 ---
 
-* <a href='#'>Flask</a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+* [FLASK_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_BASICS/FLASK_BASICS.md)
+* []()
+* []()
+* []()
+* []()
 
 ---
