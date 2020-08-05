@@ -18,8 +18,6 @@
 * [HELLO_WORLD](#HELLO_WORLD)
 * [ADD_LINKS](#ADD_LINKS)
 * [DYNAMIC_ROW](#DYNAMIC_ROW)
-* []()
-* []()
 
 ---
 
