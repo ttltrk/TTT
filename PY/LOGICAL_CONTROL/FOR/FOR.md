@@ -61,6 +61,27 @@ largeNumsPlusTwo = [6, 7, 8]
 ```
 
 ```py
+#a basic oneliner for loop with range
+
+#if we want only the larger nums from the list
+largeNums = [nums for nums in range(1,6) if nums > 3]
+
+#and also we can gain those largeNums by 2
+largeNumsPlusTwo = [n + 2 for n in largeNums]
+
+#first select
+print('largeNums =', largeNums)
+
+#modified select increased by 2
+print('largeNumsPlusTwo =', largeNumsPlusTwo)
+
+>>>
+largeNums = [4, 5]
+largeNumsPlusTwo = [6, 7]
+>>>
+```
+
+```py
 l = [1,2,3]
 
 for n in l:
