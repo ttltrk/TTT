@@ -14,6 +14,7 @@
 * [TABLES_UNDER_A_SCHEMAS](#TABLES_UNDER_A_SCHEMAS)
 * [CURRENT_CATALOGS](#CURRENT_CATALOGS)
 * [CURRENT_SCHEMAS](#CURRENT_SCHEMAS)
+* [DB2_CATALOG_COMMANDS](#DB2_CATALOG_COMMANDS)
 
 ---
 
@@ -61,6 +62,19 @@ select current_database();
 
 ```SQL
 select current_schema();
+```
+
+[^^^](#CATALOGS_SCHEMAS)
+
+---
+
+#### DB2_CATALOG_COMMANDS
+
+```SQL
+db2 uncatalog database CSDWPSSL
+db2 uncatalog node CSDWPSSL
+db2 catalog tcpip node CSDWPSSL remote csdwp.dswdia-cloud.com server 61030 security ssl
+db2 catalog database CSDW as CSDWPSSL at node CSDWPSSL
 ```
 
 [^^^](#CATALOGS_SCHEMAS)
