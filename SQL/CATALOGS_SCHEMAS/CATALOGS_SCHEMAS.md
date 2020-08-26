@@ -73,7 +73,7 @@ select current_schema();
 ```SQL
 db2 uncatalog database CSDWPSSL
 db2 uncatalog node CSDWPSSL
-db2 catalog tcpip node CSDWPSSL remote csdwp.dswdia-cloud.com server 61030 security ssl
+db2 catalog tcpip node CSDWPSSL remote <server_name> server <port_num> security ssl
 db2 catalog database CSDW as CSDWPSSL at node CSDWPSSL
 ```
 
