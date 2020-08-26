@@ -75,6 +75,7 @@ db2 uncatalog database CSDWPSSL
 db2 uncatalog node CSDWPSSL
 db2 catalog tcpip node CSDWPSSL remote <server_name> server <port_num> security ssl
 db2 catalog database CSDW as CSDWPSSL at node CSDWPSSL
+db2 terminate
 ```
 
 [^^^](#CATALOGS_SCHEMAS)
