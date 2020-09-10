@@ -15,16 +15,23 @@
 
 ---
 
-* []()
+* [CREATING_WINDOW](#CREATING_WINDOW)
 * []()
 * []()
 
 ---
 
-####
+#### CREATING_WINDOW
 
 ```py
+from tkinter import *
 
+root = Tk()
+root.mainloop()
+
+>>>
+G first window
+>>>
 ```
 
 [^^^](#TKINTER)
