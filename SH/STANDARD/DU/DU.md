@@ -74,4 +74,10 @@ $ du -h DOCS
 $
 ```
 
+```sh
+du -g /path/path #giga
+du -m /path/path #mega
+du -a /path/path/path | sort -n -r | head -n 10 #top 10 biggest file in the dir
+```
+
 [^^^](#DU)
