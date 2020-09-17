@@ -22,6 +22,7 @@
 * [diff](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DIFF/DIFF.md)
 * [du](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DU/DU.md)
 * [echo](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/ECHO/ECHO.md)
+* [find](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/FIND/FIND.md)
 * [file](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/FILE/FILE.md)
 * [grep](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/GREP/GREP.md)
 * [head](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/HEAD/HEAD.md)
