@@ -43,9 +43,9 @@ OKE
 [nza@t480 tmp]$ sudo ./publikus.sh
 TITOK!
 OKE
-[nza@t480 tmp]$ 
+[nza@t480 tmp]$
 ```
 
-[^^^](#CHGRP)
+[^^^](#SUDO)
 
 ---
