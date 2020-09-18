@@ -26,7 +26,9 @@
 ```
 
 ```sh
+less +<line_num> -N <file_name>
 
+less +320 -N code.sh
 ```
 
 ```sh

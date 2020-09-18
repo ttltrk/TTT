@@ -10,7 +10,7 @@
 ---
 
 ```
-
+The let command is used to evaluate arithmetic expressions on shell variables.
 ```
 
 ---
@@ -26,7 +26,10 @@
 ```
 
 ```sh
-
+$ let var2=100*10
+$ echo $var2
+1000
+$
 ```
 
 ```sh

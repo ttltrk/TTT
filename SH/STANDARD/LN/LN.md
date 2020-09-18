@@ -25,8 +25,13 @@
 
 ```
 
-```sh
+Create a Symbolic link sudo ln -s
 
+```sh
+cd /var/www/html
+pwd
+/var/www/html
+sudo ln -s /var/spool/apt-mirror ubuntu
 ```
 
 ```sh

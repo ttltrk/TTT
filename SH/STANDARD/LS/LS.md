@@ -30,6 +30,18 @@ ls -l
 lsconf
 ```
 
+list out to the directory where the proc is running
+
+```sh
+ls -l /proc/<pid>/fd
+```
+
+list out all processes
+
+```sh
+ps -ef | grep <proc_name>
+```
+
 [^^^](#LS)
 
 ---
