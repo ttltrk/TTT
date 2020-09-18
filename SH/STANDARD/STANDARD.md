@@ -18,6 +18,7 @@
 * [cmp](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/CMP/CMP.md)
 * [comm](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/COMM/COMM.md)
 * [cp](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/CP/CP.md)
+* [csum](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/CSUM/CSUM.md)
 * [df](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DF/DF.md)
 * [diff](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DIFF/DIFF.md)
 * [du](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/DU/DU.md)
