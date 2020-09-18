@@ -25,8 +25,14 @@
 
 ```
 
-```sh
+kiirja az aktualis terminal nevet
 
+```sh
+tty
+
+ttltrk-mbp:TEST attilatorok$ tty
+/dev/ttys000
+ttltrk-mbp:TEST attilatorok$ 
 ```
 
 ```sh

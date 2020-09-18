@@ -26,7 +26,12 @@
 ```
 
 ```sh
+nohup sh /path/path/code.sh &
+nohup bash /path/path/code.sh &
 
+#check the nohup.out
+
+tail -f nohup.out
 ```
 
 ```sh

@@ -26,7 +26,8 @@
 ```
 
 ```sh
-
+mv file path
+mv name new_name
 ```
 
 ```sh

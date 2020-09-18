@@ -10,7 +10,8 @@
 ---
 
 ```
-
+tail is a basic Unix command for quickly accessing the last few lines of a given text file.
+tail is particularly useful for working with log files.
 ```
 
 ---
@@ -26,7 +27,7 @@
 ```
 
 ```sh
-
+tail -f <filename>
 ```
 
 ```sh

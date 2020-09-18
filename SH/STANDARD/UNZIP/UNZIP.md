@@ -26,7 +26,9 @@
 ```
 
 ```sh
-
+unzip file_name
+unzip -l file_name
+gunzip file_name
 ```
 
 ```sh
