@@ -25,8 +25,16 @@
 
 ```
 
-```sh
+elso harom sor kiiratasa
 
+```sh
+head -3 file_name.txt
+
+ttltrk-mbp:TEST attilatorok$ head -3 test3.txt
+elso sor
+masodik sor
+harmadik sor
+ttltrk-mbp:TEST attilatorok$ 
 ```
 
 ```sh

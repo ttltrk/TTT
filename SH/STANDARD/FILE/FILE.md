@@ -25,8 +25,12 @@
 
 ```
 
-```sh
+Viewing the file type
 
+```sh
+xxx:yyy:/zzz/trk_exp/trk$ file unzip_all.sh
+unzip_all.sh: shell script  - ksh (Korn shell)
+xxx:yyy:/zzz/trk_exp/trk$
 ```
 
 ```sh
