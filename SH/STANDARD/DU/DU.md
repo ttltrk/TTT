@@ -80,4 +80,48 @@ du -m /path/path #mega
 du -a /path/path/path | sort -n -r | head -n 10 #top 10 biggest file in the dir
 ```
 
+```sh
+[blabla:/home/xxx] # find  /bla/bla/bla/ -mtime +365 | wc -l
+     166
+
+van 166 olyan 2M fájlunk, ami egy éve ott van
+
+[blabla:/home/xxx] # du -g //bla/bla/bla/
+31.85   //bla/bla/bla/
+
+32Giga van benne jelenleg
+
+
+[blabla:/blabla/blabla/blabla] # df -g /dev/lv_bbb
+Filesystem    GB blocks      Free %Used    Iused %Iused Mounted on
+/dev/lv_bbb     675.00    219.57   68%   242099     1% /mclm
+[blabla:/blabla/blabla/blabla] #
+```
+
+only display df lines that have more fs usage than 70%
+
+```sh
+df -P | awk '0+$5 >= 70 {print}'
+```
+
+automatic monitoring
+
+```
+#!/bin/sh
+
+warninglimit=500000
+lowlimit=250000
+
+filesystems="/export/data /export/home /"
+
+for fs in $filesystems
+do
+        size=`df -k $fs|grep $fs|awk '{ print $4; }'`
+        if [ $size -le $lowlimit ]
+        then
+                mailx -s "URGENT: Low disk space for $fs ($size)"
+                break
+        fi
+```
+
 [^^^](#DU)
