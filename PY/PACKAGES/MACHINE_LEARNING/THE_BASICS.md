@@ -113,11 +113,63 @@ you take the mean of the two values in the middle.
 - STANDARD DEVIATION & VARIANCE
 
 ```
+Let's look at our group of ages again:
+
+15, 16, 18, 19, 22, 24, 29, 30, 34
+
+mean is 23
+
+Let's calculate how far each value is from the mean. 15 is 8 away from the mean (since 23-15=8).
+
+Here's a list of all these distances:
+
+8, 7, 5, 4, 1, 1, 6, 7, 11
+
+We square these values and add them together.
+
+(8*8) + (7*7) + (5*5) + (4*4) + (1*1) + (1*1) + (6*6) + (7*7) + (11*11) =
+64+49+25+16+1+1+36+49+121=362
+
+We divide this value by the total number of values and that gives us the variance.
+
+362 / 9 = 40.22
+To get the standard deviation, we just take the square root of this number and get: 6.34
+
+In our age example, while the ages are likely not exactly normally distributed,
+we assume that we are and say that approximately 68% of the population has an age
+within one standard deviation of the mean. Since the mean is 23 and the standard deviation is 6.34,
+we can say that approximately 68% of the ages in our population are
+between 16.66 (23 minus 6.34) and 29.34 (23 plus 6.34).
+```
+
+- STATISTICS WITH PYTHON
+
+```
 
 ```
 
 ```py
+import numpy as np
 
+data = [15, 16, 18, 19, 22, 24, 29, 30, 34]
+
+print("mean:", np.mean(data))
+print("median:", np.median(data))
+print("50th percentile (median):", np.percentile(data, 50))
+print("25th percentile:", np.percentile(data, 25))
+print("75th percentile:", np.percentile(data, 75))
+print("standard deviation:", np.std(data))
+print("variance:", np.var(data))
+
+>>>
+mean: 23.0
+median: 22.0
+50th percentile (median): 22.0
+25th percentile: 18.0
+75th percentile: 29.0
+standard deviation: 6.342099196813483
+variance: 40.22222222222222
+>>>
 ```
 
 [^^^](#THE_BASICS)
