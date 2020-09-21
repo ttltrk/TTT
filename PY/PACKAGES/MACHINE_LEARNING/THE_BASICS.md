@@ -182,6 +182,18 @@ variance: 40.22222222222222
 
 ```
 
+- WHAT IS PANDAS?
+
+```
+Pandas is a Python module that helps us read and manipulate data.
+```
+
+- READ IN YOUR DATA
+
+```
+
+```
+
 ```py
 
 ```
