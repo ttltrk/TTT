@@ -22,6 +22,4 @@
 * [RANDOM_FOREST_MODEL](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/RANDOM_FOREST_MODEL.md)
 * [NEURAL_NETWORKS](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/NEURAL_NETWORKS.md)
 
-[^^^](#MACHINE_LEARNING)
-
 ---
