@@ -17,13 +17,11 @@
 
 * [WHAT_IS_ML](#WHAT_IS_ML)
 * [STATISTICS_REVIEW](#STATISTICS_REVIEW)
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+* [READING_DATA_WITH_PANDAS](#READING_DATA_WITH_PANDAS)
+* [MANIPULATING_DATA_WITH_PANDAS](#MANIPULATING_DATA_WITH_PANDAS)
+* [NUMPY_BASICS](#NUMPY_BASICS)
+* [NUMPY_ARRAYS](#NUMPY_ARRAYS)
+* [PLOTTING_BASICS](#PLOTTING_BASICS)
 
 ---
 
@@ -73,57 +71,46 @@ Within supervised learning, there are classification and regression problems.
 
 ```
 
-```py
+- AVERAGES
 
 ```
+Let's say we have a list of the ages of people in a class.
+We have them in ascending order since it will be easier to do the calculations.
 
-[^^^](#THE_BASICS)
+15, 16, 18, 19, 22, 24, 29, 30, 34
 
----
+The mean is the most commonly known average.
+Add up all the values and divide by the number of values:
 
-####
+(15 + 16 + 18 + 19 + 22 + 24 + 29 + 30 + 34) / 9 =  207/9 = 23
 
+The median is the value in the middle. In this case, since there are 9 values,
+the middle value is the 5th, which is 22.
+
+In statistics, both the mean and the median are called averages.
+The layman’s average is the mean.
 ```
 
-```
-
-```py
+- PERCENTILES
 
 ```
+If we look at our ages again:
 
-[^^^](#THE_BASICS)
+15, 16, 18, 19, 22, 24, 29, 30, 34
 
----
+We have 9 values, so 25% of the data would be approximately 2 datapoints.
+So the 3rd datapoint is greater than 25% of the data. Thus, the 25th percentile is 18 (the 3rd datapoint).
+Similarly, 75% of the data is approximately 6 datapoints. So the 7th datapoint is
+greater than 75% of the data. Thus, the 75th percentile is 29 (the 7th datapoint).
 
-####
+The full range of our data is between 15 and 34. The 25th and 75th percentiles tell us
+that half our data is between 18 and 29. This helps us gain understanding of how the data is distributed.
 
+If there is an even number of datapoints, to find the median (or 50th percentile),
+you take the mean of the two values in the middle.
 ```
 
-```
-
-```py
-
-```
-
-[^^^](#THE_BASICS)
-
----
-
-####
-
-```
-
-```
-
-```py
-
-```
-
-[^^^](#THE_BASICS)
-
----
-
-####
+- STANDARD DEVIATION & VARIANCE
 
 ```
 
@@ -137,7 +124,7 @@ Within supervised learning, there are classification and regression problems.
 
 ---
 
-####
+#### READING_DATA_WITH_PANDAS
 
 ```
 
@@ -151,7 +138,49 @@ Within supervised learning, there are classification and regression problems.
 
 ---
 
-####
+#### MANIPULATING_DATA_WITH_PANDAS
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#THE_BASICS)
+
+---
+
+#### NUMPY_BASICS
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#THE_BASICS)
+
+---
+
+#### NUMPY_ARRAYS
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#THE_BASICS)
+
+---
+
+#### PLOTTING_BASICS
 
 ```
 
