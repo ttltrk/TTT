@@ -264,8 +264,68 @@ Max: The largest value
 
 ```
 
-```py
+- SELECTING A SINGLE COLUMN
 
+```
+In this example, we're selecting just the column with the passenger fares.
+```
+
+```py
+col = df['Fare']
+print(col)
+```
+
+- SERIES
+
+```
+The result is what we call a Pandas Series.
+A series is like a DataFrame, but it's just a single column.
+```
+
+- SELECTING MULTIPLE COLUMNS
+
+```
+smaller DataFrame
+```
+
+```py
+small_df = df[['Age', 'Sex', 'Survived']]
+print(small_df.head())
+```
+
+- CREATING A COLUMN
+
+```
+Recall the syntax for selecting the Sex column:
+```
+
+```py
+df['Sex']
+```
+
+```
+We create a Pandas Series that will be a series of Trues and Falses
+(True if the passenger is male and False if the passenger is female).
+```
+
+```py
+df['Sex'] == 'male'
+```
+
+```
+Now we want to create a column with this result. To create a new column,
+we use the same bracket syntax (df['male']) and then assign this new value to it.
+```
+
+```py
+df['male'] = df['Sex'] == 'male'
+```
+
+```py
+import pandas as pd
+df = pd.read_csv('https://sololearn.com/uploads/files/titanic.csv')
+df['male'] = df['Sex'] == 'male'
+print(df.head())
 ```
 
 [^^^](#THE_BASICS)
