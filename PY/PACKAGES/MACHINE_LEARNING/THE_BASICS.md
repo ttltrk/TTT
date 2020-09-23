@@ -399,7 +399,64 @@ print(arr.shape)
 ```
 
 ```py
+arr = df[['Pclass', 'Fare', 'Age']].values
 
+print(arr[0, 1])
+print(arr[0])
+print(arr[:,2])
+```
+
+- MASKING
+
+```
+A mask is a boolean array (True/False values) that tells us which values from the array we’re interested in.
+```
+
+```
+We create what we call a mask first. This is an array of boolean values (True/False)
+of whether the passenger is a child or not.
+```
+
+```py
+arr = df[['Pclass', 'Fare', 'Age']].values
+arr[:, 2]
+
+mask = arr[:, 2] < 18
+```
+
+```
+Generally, we don't need to define the mask variable and can do the above in just a single line:
+```
+
+```py
+arr[arr[:, 2] < 18]
+```
+
+- SUMMING AND COUNTING
+
+```
+Let’s say we want to know how many of our passengers are children.
+```
+
+```py
+arr = df[['Pclass', 'Fare', 'Age']].values
+mask = arr[:, 2] < 18
+```
+
+```
+So we can just sum up the array and that’s equivalent to counting the number of true values.
+```
+
+```py
+arr = df[['Pclass', 'Fare', 'Age']].values
+mask = arr[:, 2] < 18
+
+print(mask.sum())
+```
+
+```py
+arr = df[['Pclass', 'Fare', 'Age']].values
+print((arr[:, 2] < 18).sum())
 ```
 
 [^^^](#THE_BASICS)
@@ -409,11 +466,46 @@ print(arr.shape)
 #### PLOTTING_BASICS
 
 ```
+We can use the matplotlib library to plot our data. Plotting the data can often
+help us build intuition about our data.
+```
 
+- SCATTER PLOT
+
+```
+We first need to import matplotlib. It’s standard practice to nickname it plt.
 ```
 
 ```py
+import matplotlib.pyplot as plt
+```
 
+```
+We use the scatter function to plot our data. The first argument of the scatter function
+is the x-axis (horizontal direction) and the second argument is the y-axis (vertical direction).
+```
+
+```py
+plt.scatter(df['Age'], df['Fare'])
+
+plt.xlabel('Age')
+plt.ylabel('Fare')
+```
+
+```
+A scatter plot is used to show all the values from your data on a graph.
+In order to get a visual representation of our data, we have to limit our data to two features.
+```
+
+- LINE
+
+```
+Now that we can put individual datapoints on a plot, let's see how to draw the line.
+The plot function does just that.
+```
+
+```py
+plt.plot([0, 80], [85, 5])
 ```
 
 [^^^](#THE_BASICS)
