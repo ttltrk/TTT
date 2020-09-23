@@ -335,11 +335,51 @@ print(df.head())
 #### NUMPY_BASICS
 
 ```
+Numpy is a Python package for manipulating lists and tables of numerical data.
+We can use it to do a lot of statistical calculations. We call the list or table of data a numpy array.
 
+Numpy is a Python module for doing calculations on tables of data.
+```
+
+- CONVERTING FROM A PANDAS SERIES TO A NUMPY ARRAY
+
+```
+Let's convert the Fare column to a numpy array.
 ```
 
 ```py
+df['Fare']
+```
 
+```
+Then we use the values attribute to get the values as a numpy array.
+
+The values attribute of a Pandas Series give the data as a numpy array.
+```
+
+```py
+df['Fare'].values
+```
+
+- CONVERTING FROM A PANDAS DATAFRAME to a NUMPY ARRAY
+
+```
+Again, we apply the values attribute to get a numpy array.
+```
+
+```py
+df[['Pclass', 'Fare', 'Age']].values
+```
+
+- NUMPY SHAPE ATTRIBUTE
+
+```
+If we look at the shape, we get the number of rows and the number of columns:
+```
+
+```py
+arr = df[['Pclass', 'Fare', 'Age']].values
+print(arr.shape)
 ```
 
 [^^^](#THE_BASICS)
@@ -347,6 +387,12 @@ print(df.head())
 ---
 
 #### NUMPY_ARRAYS
+
+```
+
+```
+
+- SELECT FROM A NUMPY ARRAY
 
 ```
 
