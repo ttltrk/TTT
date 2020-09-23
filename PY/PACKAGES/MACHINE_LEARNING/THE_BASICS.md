@@ -186,6 +186,7 @@ variance: 40.22222222222222
 
 ```
 Pandas is a Python module that helps us read and manipulate data.
+DataFrame is Pandas data object.
 ```
 
 - READ IN YOUR DATA
@@ -194,8 +195,63 @@ Pandas is a Python module that helps us read and manipulate data.
 
 ```
 
-```py
+- IMPORTING PANDAS
 
+```py
+import pandas as pd
+```
+
+- PULL DATA INTO PANDAS
+
+```
+The read_csv function takes a file in csv format and converts it to a Pandas DataFrame.
+```
+
+```py
+df = pd.read_csv('titanic.csv')
+```
+
+```
+The head method returns the first 5 rows of the DataFrame.
+```
+
+```py
+print(df.head())
+```
+
+- SUMMARIZE THE DATA
+
+```
+In pandas, we can use the describe method. It returns a table of statistics about the columns.
+```
+
+```py
+print(df.describe())
+```
+
+```
+We add a line in the code below to force python to display all 6 columns.
+Without the line, it will abbreviate the results.
+```
+
+```py
+import pandas as pd
+pd.options.display.max_columns = 6
+df = pd.read_csv('https://sololearn.com/uploads/files/titanic.csv')
+print(df.describe())
+```
+
+```
+Count: This is the number of rows that have a value. In our case,
+  every passenger has a value for each of the columns, so the value is 887
+  (the total number of passengers).
+Mean: Recall that the mean is the standard average.
+Std: This is short for standard deviation. This is a measure of how dispersed the data is.
+Min: The smallest value
+25%: The 25th percentile
+50%: The 50th percentile, also known as the median.
+75%: The 75th percentile
+Max: The largest value
 ```
 
 [^^^](#THE_BASICS)
