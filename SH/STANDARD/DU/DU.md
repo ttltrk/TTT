@@ -124,4 +124,10 @@ do
         fi
 ```
 
+the five biggest file in the folder
+
+```sh
+du -g /db/a3inmtss/db2backup | sort -n -r | head -n 5
+```
+
 [^^^](#DU)

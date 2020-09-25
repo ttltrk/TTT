@@ -23,7 +23,54 @@
 
 ---
 
-####
+#### WHAT_IS_CLASSIFICATION
+
+- BASICS
+
+```
+Machine Learning on a high level is made up of supervised and unsupervised learning.
+
+```
+
+```py
+
+```
+
+[^^^](#CLASSIFICATION)
+
+---
+
+#### LINEAR_MODEL_FOR_CLASS
+
+```py
+
+```
+
+[^^^](#CLASSIFICATION)
+
+---
+
+#### LOGISTIC_REGRESSION_MODEL
+
+```py
+
+```
+
+[^^^](#CLASSIFICATION)
+
+---
+
+#### LOGISTIC_REGRESSION_MODEL_WITH_SKLEARN
+
+```py
+
+```
+
+[^^^](#CLASSIFICATION)
+
+---
+
+#### LOGISTIC_REGRESSION_MODEL_EXAMPLE
 
 ```py
 
