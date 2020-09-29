@@ -96,8 +96,70 @@ We’ll build a machine learning model to help us do this.
 
 #### LINEAR_MODEL_FOR_CLASS
 
-```py
+- EQUATION FOR THE LINE
 
+```
+A line is defined by an equation in the following form:
+
+0 = ax + by + c
+```
+
+```
+Let’s look at a specific example of a line where the coefficients are a=1, b=-1 and c=-30.
+
+0 = (1)x + (-1)y + (-30)
+
+The three coefficients are: 1, -1, -30
+
+We can see, for example, that the point (30, 0) lies right on the line (Fare 30, Age 0).
+If we plug it into the equation, it works out.
+
+30 - 0 - 30 = 0
+
+We can also see that the point (50, 20) is on the line (Fare 50, Age 20).
+
+50 - 20 - 30 = 0
+```
+
+```
+(2,1)
+
+0 = (2)*2 + (1)*1 - 5
+
+(0,5)
+
+0 = (2)*0 + (1)*5 - 5
+```
+
+- MAKING A PREDICTION BASED ON THE LINE
+
+```
+Let’s again look at the same line.
+
+0 = (1)x + (-1)y - 30
+
+For example, let’s say we have a passenger whose Fare is 100 and Age is 20.
+
+(1)100 + (-1)20 - 30 = 100 - 20 - 30 = 50
+
+Since this value is positive, the point is on the right side of the line
+and we’d predict that the passenger survived.
+```
+
+```
+Now let’s say a passenger had a Fare of 10 and their Age is 50.
+Let’s plug these values into the equation.
+
+(1)10 + (-1)50 - 30 = -70
+
+Since this value is negative, the point is on the left side of the line
+and we’d predict that the passenger didn’t survive.
+```
+
+- WHAT MAKES A GOOD LINE
+
+```
+Logistic Regression is a way of mathematically finding the best line.
 ```
 
 [^^^](#CLASSIFICATION)
