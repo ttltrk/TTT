@@ -168,8 +168,43 @@ Logistic Regression is a way of mathematically finding the best line.
 
 #### LOGISTIC_REGRESSION_MODEL
 
-```py
+- PROBABILITY OF SURVIVING
 
+```
+In order to determine the best possible line to split our data, we need to have
+a way of scoring the line. First, let’s look at a single datapoint.
+
+Ideally, if the datapoint is a passenger who survived, it would be on the right side
+of the line and far from the line. If it’s a datapoint for a passenger who didn’t survive,
+it would be far from the line to the left. The further it is from the line,
+the more confident we are that it’s on the correct side of the line.
+```
+
+```
+For each datapoint, we’ll have a score that’s a value between 0 and 1. We can think of it
+as the probability that the passenger survives. If the value is close to 0 that point would be far
+to the left of the line and that means we’re confident the passenger didn’t survive.
+If the value is close to 1 that point would be far to the right of the line and that means we’re
+confident the passenger did survive. A value of 0.5 means the point falls directly
+on the line and we are uncertain if the passenger survives.
+
+The equation for calculating this score is below, though the intuition
+for it is far more important that the actual equation.
+
+Recall that the equation for the line is in the form 0 = ax+by+c
+(x is the Fare, y is the Age, and a, b & c are the coefficients that we control).
+The number e is the mathematical constant, approximately 2.71828.
+```
+
+```
+Logistic Regression gives not just a prediction (survived or not), but a probability (80% chance this person survived).
+```
+
+- LIKELIHOOD
+
+```
+likelihodd = p (if passangers survived)
+likelihodd = 1 = p (if passangers didn't survived)
 ```
 
 [^^^](#CLASSIFICATION)
