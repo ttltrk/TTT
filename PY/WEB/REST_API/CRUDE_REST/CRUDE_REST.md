@@ -71,7 +71,17 @@ if __name__ == '__main__':
     app.run()
 
 >>>
-in postman you will see the results
+run the app above
+in the postman use
+POST >> http://127.0.0.1:5000/puppy/Sam
+POST >> http://127.0.0.1:5000/puppy/Frankie
+POST >> http://127.0.0.1:5000/puppy/Davie
+and after that use can use
+GET >> http://127.0.0.1:5000/puppies
+and you will get the list with the added puppies
+you can also use
+DELETE >> http://127.0.0.1:5000/puppy/Davie
+and the above mentioned name will be deleted from the list
 >>>
 ```
 
