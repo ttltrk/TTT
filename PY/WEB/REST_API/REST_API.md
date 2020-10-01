@@ -9,6 +9,11 @@
 ---
 
 ```
+API = Application Programming Interface
+REST = Representation State Transfer
+```
+
+```
 CREATE - POST   - Create a new object
 READ   - GET    - Read info about object
 UPDATE - PUT    - Update info about existing object
@@ -18,6 +23,7 @@ DELETE - DELETE - Delete an object
 ---
 
 * [BASIC_API_REQ](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/BASIC_API_REQ/BASIC_API_REQ.md)
+* [CRUDE_REST](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/CRUDE_REST/CRUDE_REST.md)
 * [FLASK_JWT](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/FLASK_JWT/FLASK_JWT.md)
 * [REST_API_DB](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API_DB/REST_API_DB.md)
 
