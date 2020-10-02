@@ -213,8 +213,47 @@ likelihodd = 1 = p (if passangers didn't survived)
 
 #### LOGISTIC_REGRESSION_MODEL_WITH_SKLEARN
 
-```py
+- PREP DATA WITH PANDAS
 
+```
+Before we can use sklearn to build a model, we need to prep the data with Pandas.
+```
+
+```
+First, we need to make all our columns numerical.
+Recall how to create the boolean column for Sex.
+```
+
+```py
+df['male'] = df['Sex'] == 'male'
+```
+
+```
+Now, let’s take all the features and create a numpy array called X.
+We first select all the columns we are interested in and then use the values method
+to convert it to a numpy array.
+```
+
+```py
+X = df[['Pclass', 'male', 'Age', 'Siblings/Spouses', 'Parents/Children', 'Fare']].values
+```
+
+```
+Now let’s take the target (the Survived column) and store it in a variable y.
+```
+
+```py
+y = df['Survived'].values
+```
+
+```py
+import pandas as pd
+df = pd.read_csv('https://sololearn.com/uploads/files/titanic.csv')
+df['male'] = df['Sex'] == 'male'
+X = df[['Pclass', 'male', 'Age', 'Siblings/Spouses', 'Parents/Children', 'Fare']].values
+y = df['Survived'].values
+print(X)
+print(y)
 ```
 
 [^^^](#CLASSIFICATION)
