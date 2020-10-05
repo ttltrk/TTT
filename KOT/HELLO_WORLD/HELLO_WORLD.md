@@ -13,7 +13,7 @@
 
 #### BASICS
 
-```jv
+```java
 fun main() {
     println("hello kotlin")
 }
