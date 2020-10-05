@@ -127,7 +127,7 @@ fun main() {
 }
 
 >>>
-Hello trk 
+Hello trk
 >>>
 ```
 
