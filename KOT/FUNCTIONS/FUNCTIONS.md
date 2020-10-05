@@ -22,7 +22,19 @@
 #### BASICS
 
 ```java
+fun getGreeting(): String {
+    return "Hello Kotlin"
+}
 
+fun main() {
+    println("Hello Wolrd")
+    println(getGreeting())
+}
+
+>>>
+Hello Wolrd
+Hello Kotlin
+>>>
 ```
 
 [^^^](#FUNCTIONS)
