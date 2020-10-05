@@ -14,7 +14,7 @@
 
 ---
 
-* [HELLO_WORLD]()
+* [HELLO_WORLD](https://github.com/ttltrk/TTT/tree/master/KOT/HELLO_WORLD/HELLO_WORLD.md)
 * []()
 * []()
 
