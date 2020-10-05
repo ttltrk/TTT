@@ -228,6 +228,52 @@ yellow
 >>>
 ```
 
+```java
+val name = "Steve"
+var greeting : String? = null
+
+fun main() {
+
+    //greeting = "yellow"
+    val greetingToPrint = when (greeting) {
+        null -> "Hi"
+        else -> greeting
+    }
+
+    println(greetingToPrint)
+    println(name)
+
+}
+
+>>>
+Hi
+Steve
+>>>
+```
+
+```java
+val name = "Steve"
+var greeting : String? = null
+
+fun main() {
+
+    greeting = "yellow"
+    val greetingToPrint = when (greeting) {
+        null -> "Hi"
+        else -> greeting
+    }
+
+    println(greetingToPrint)
+    println(name)
+
+}
+
+>>>
+yellow
+Steve
+>>>
+```
+
 [^^^](#VARIABLES)
 
 ---
