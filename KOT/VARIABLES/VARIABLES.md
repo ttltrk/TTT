@@ -60,6 +60,49 @@ Steve
 >>>
 ```
 
+- how to add null
+
+```java
+val name: String = "Steve"
+var greeting : String? = "hello"
+
+fun main() {
+
+    println(greeting)
+    println(name)
+
+    greeting = null
+
+    println(greeting)
+    println(name)
+}
+
+>>>
+hello
+Steve
+null
+Steve
+>>>
+```
+
+```java
+val name = "Steve"
+var greeting : String? = null
+
+fun main() {
+
+    if (greeting != null) {
+        println(greeting)
+    }
+
+    println(name)
+}
+
+>>>
+Steve
+>>>
+```
+
 [^^^](#VARIABLES)
 
 ---
