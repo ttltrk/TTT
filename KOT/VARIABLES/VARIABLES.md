@@ -103,6 +103,48 @@ Steve
 >>>
 ```
 
+```java
+val name = "Steve"
+var greeting : String? = null
+
+fun main() {
+
+    greeting = "hello"
+    if (greeting != null) {
+        println(greeting)
+    }
+
+    println(name)
+}
+
+>>>
+hello
+Steve
+>>>
+```
+
+```java
+val name = "Steve"
+var greeting : String? = null
+
+fun main() {
+
+    //greeting = "hello"
+    if (greeting != null) {
+        println(greeting)
+    } else {
+        println("hi")
+    }
+
+    println(name)
+}
+
+>>>
+hi
+Steve
+>>>
+```
+
 [^^^](#VARIABLES)
 
 ---
