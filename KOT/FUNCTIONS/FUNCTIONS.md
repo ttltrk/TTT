@@ -131,6 +131,32 @@ Hello trk
 >>>
 ```
 
+```java
+fun sayHello(itemToGreet:String) = println("Hello $itemToGreet")
+
+fun main() {
+    sayHello(itemToGreet="trk")
+}
+
+>>>
+Hello trk
+>>>
+```
+
+```java
+fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGreet")
+
+fun main() {
+    sayHello(greeting="Hi", itemToGreet="trk")
+    sayHello(greeting="Hello", itemToGreet="World")
+}
+
+>>>
+Hi trk
+Hello World
+>>>
+```
+
 [^^^](#FUNCTIONS)
 
 ---
