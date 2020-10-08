@@ -161,3 +161,30 @@ fun main() {
 [^^^](#COLLECTIONS_ITERATIONS)
 
 ---
+
+- HOW_TO_ADD_SOMETHING_TO_THE_LIST
+
+```java
+fun main() {
+
+    val interestingThings = mutableListOf("Kotlin", "Coding", "Bikes")
+    interestingThings.add("Dogs")
+    println(interestingThings)
+
+    val map = mutableMapOf(1 to "a", 2 to "b", 3 to "c")
+    map.put(4, "d")
+    map.forEach {key, value -> println("$key -> $value")}
+}
+
+>>>
+[Kotlin, Coding, Bikes, Dogs]
+1 -> a
+2 -> b
+3 -> c
+4 -> d
+>>>
+```
+
+[^^^](#COLLECTIONS_ITERATIONS)
+
+---
