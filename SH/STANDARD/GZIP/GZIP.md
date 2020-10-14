@@ -35,4 +35,4 @@ gzip mydoc.txt
 
 ```
 
-[^^^](#HEAD)
+[^^^](#GZIP)

@@ -26,6 +26,7 @@
 * [find](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/FIND/FIND.md)
 * [file](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/FILE/FILE.md)
 * [grep](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/GREP/GREP.md)
+* [gzip](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/GZIP/GZIP.md)
 * [head](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/HEAD/HEAD.md)
 * [history](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/HISTORY/HISTORY.md)
 * [ifconfig](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/IFCONFIG/IFCONFIG.md)
