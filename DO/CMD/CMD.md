@@ -9,6 +9,10 @@ Leonardo Perez - leoperez@au1.ibm.com
 
 ---
 
+#### 01 - What is Docker
+
+* [WHAT_IS_DOCKER](#WHAT_IS_DOCKER)
+
 #### 02 - Docker setup/install
 
 #### 03 - Creating and Using Containers
@@ -83,6 +87,19 @@ Leonardo Perez - leoperez@au1.ibm.com
 #### 20 -
 #### 21 -
 #### 22 -
+
+---
+
+#### WHAT_IS_DOCKER
+
+```
+- Docker is a Cloud enabling Serverless technology.
+- Docker is all about speed.
+- Develop, build, test, deploy, update, recover faster.
+- the matrix from hell :)
+```
+
+[^^^](#DOCKER_MASTERY)
 
 ---
 
