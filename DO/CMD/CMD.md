@@ -1,4 +1,4 @@
-
+Leonardo Perez - leoperez@au1.ibm.com
 ---
 
 #### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [DO](https://github.com/ttltrk/TTT/blob/master/DO/DO.md)
@@ -8,6 +8,8 @@
 ### DOCKER_MASTERY
 
 ---
+
+#### 02 - Docker setup/install
 
 #### 03 - Creating and Using Containers
 
