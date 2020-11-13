@@ -96,7 +96,8 @@ Leonardo Perez - leoperez@au1.ibm.com
 - Docker is a Cloud enabling Serverless technology.
 - Docker is all about speed.
 - Develop, build, test, deploy, update, recover faster.
-- the matrix from hell :)
+- the container will contains the matrix from hell  :)
+https://landscape.cncf.io/
 ```
 
 [^^^](#DOCKER_MASTERY)
@@ -109,6 +110,12 @@ Leonardo Perez - leoperez@au1.ibm.com
 docker version
 docker info
 docker //list of commands
+```
+
+docker command format
+
+```
+docker <command> <sub-command> (options)
 ```
 
 ```
