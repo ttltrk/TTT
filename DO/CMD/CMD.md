@@ -112,7 +112,7 @@ docker info
 docker //list of commands
 ```
 
-docker command format
+**docker command format**
 
 ```
 docker <command> <sub-command> (options)
@@ -128,11 +128,30 @@ if using docker toolbox type in the IP addreess >> http://192.168.99.100
 
 #### STARTING_NGINX
 
+**Image vs Container**
+
+```
+An Image is the application we want to run.
+A Container is an instance of that image running as a process.  
+You can have many containers running off the same image.
+In this case our image will be the Nginx web server.
+Docker's default image registry is called Docker Hub (hub.docker.com)
+```
+
 **starting the nginx webserver**
 
 ```
 docker container run --publish 80:80 nginx
+type localhost in your web browser
 ctr+c //stop
+```
+
+**what we did**
+
+```
+1. Downloaded image 'nginx' from Docker Hub
+2. Started a new container from that image
+3. Opened port 80 on the host IP 
 ```
 
 **starting the nginx webserver in the background**
