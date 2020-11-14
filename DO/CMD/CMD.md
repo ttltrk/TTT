@@ -151,7 +151,8 @@ ctr+c //stop
 ```
 1. Downloaded image 'nginx' from Docker Hub
 2. Started a new container from that image
-3. Opened port 80 on the host IP 
+3. Opened port 80 on the host IP
+4. Routes that traffic to the container IP, port 80
 ```
 
 **starting the nginx webserver in the background**
