@@ -5,7 +5,7 @@
 
 ---
 
-### WHAT_IS_HTML
+### STRUCTURE_OF_HTML
 
 ---
 
@@ -16,16 +16,7 @@
 ---
 
 ```
-Hyper Text Markup Language
 
-described by tags as:
-
-<H1> <p> <a>
-
-beginning tag <tagname>
-end of an element </tagname>
-
-<tagname>contant</tagname>
 ```
 
 ---
