@@ -5,7 +5,7 @@
 
 ---
 
-### STRUCTURE_OF_HTML
+### FILL_THE_STRUCTURE
 
 ---
 
@@ -19,6 +19,6 @@
 
 ```
 
-[FIRST_INDEX](https://github.com/ttltrk/TTT/tree/master/HTML/U_01/FIRST_INDEX.md)
+[SECOND_INDEX](https://github.com/ttltrk/TTT/tree/master/HTML/U_01/SECOND_INDEX.HTML)
 
 ---
