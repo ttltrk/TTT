@@ -5,7 +5,7 @@
 
 ---
 
-### FILL_THE_STRUCTURE
+### IMAGES_ATTRIBUTES
 
 ---
 
@@ -19,6 +19,6 @@
 
 ```
 
-[4TH_INDEX](https://github.com/ttltrk/TTT/tree/master/HTML/U_01/4TH_INDEX.md)
+[3RD_INDEX](https://github.com/ttltrk/TTT/tree/master/HTML/U_01/02_HTML/3RD_INDEX.md)
 
 ---
