@@ -9,9 +9,13 @@
 
 ---
 
+### CSS part
+
 ```css
 
 ```
+
+### HTML part
 
 ```html
 <!DOCTYPE html>
@@ -19,6 +23,7 @@
 
     <head>
         <title>My first blog post</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
