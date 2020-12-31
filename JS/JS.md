@@ -15,7 +15,7 @@ JavaScript is the programming language of HTML and the Web.
 
 ---
 
-* [U_01](https://github.com/ttltrk/TTT/tree/master/JS/U_01/INTRO.md)
+* [U_01](https://github.com/ttltrk/TTT/tree/master/JS/U_01/U_01.md)
 * [BASICS]()
 
 ---
