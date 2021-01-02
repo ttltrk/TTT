@@ -18,6 +18,13 @@
 ### basics
 
 ```
+content - text, images
+
+padding - transparent area around the content, inside of the box
+
+border - goes around the padding and the content
+
+margin - space between boxes
 
 ```
 

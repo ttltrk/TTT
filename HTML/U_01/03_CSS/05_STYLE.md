@@ -12,29 +12,38 @@
 ### CSS part
 
 ```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-  font-family: Helvetica Neue, Arial;
-  font-size: 18px;
+    font-family: Helvetica Neue, Arial;
+    font-size: 18px;
 }
 
 h1, h2 {
-  color: #069a11;
+    color: #069a11;
 }
 
 h1 {
-  font-size: 40px;
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
 h2 {
-  font-size: 25px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .main-text {
-  text-align: justify;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 .author-text {
-  font-size: 22px;
+    font-size: 22px;
 }
 ```
 
