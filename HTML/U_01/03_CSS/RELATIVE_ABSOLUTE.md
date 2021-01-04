@@ -21,6 +21,6 @@
 
 ```
 
-* [07_STYLE](https://github.com/ttltrk/TTT/tree/master/HTML/U_01/03_CSS/07_STYLE.md)
+* [08_STYLE](https://github.com/ttltrk/TTT/tree/master/HTML/U_01/03_CSS/08_STYLE.md)
 
 ---
