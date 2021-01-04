@@ -46,6 +46,7 @@ h2 {
     width: 75%;
     float: left;
     padding-right: 30px;
+    position: relative;
 }
 
 .blog-post img {
@@ -91,6 +92,12 @@ h2 {
     display: table;
     clear: both;
 }
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
 ```
 
 ### HTML part
@@ -107,8 +114,13 @@ h2 {
     <body>
 
         <div class="container">
+
             <div class="blog-post">
+
                 <h1>My first blog post</h1>
+
+                <p class="date">January 04th 2021</p>
+
                 <h2>This is my first blog post</h2>
 
                 <p class="main-text">
