@@ -6,31 +6,45 @@
 
 ---
 
-<h3 id='^'>PROFILE</h3>
+### PROFILE
 
 ---
-
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
 
 ```sh
-
+cd ~
 ```
-
-<a href='#^'>^^^</a>
 
 ---
 
-<h3 id=''></h3>
-
 ```sh
-
+cat .profile
+less .profile | grep -i <name_ofthe_bank>
 ```
 
-<a href='#^'>^^^</a>
+---
+
+```sh
+function grepv {
+    grep -v grep
+}
+
+ps -ef | grep http | grep -v grep | wc -l
+ps -ef | grep http | grepv | wc -l
+```
+
+---
+
+```sh
+alias ll="ls -l"
+```
+
+---
+
+reload profile
+
+```sh
+login once again or
+. ~/.profile
+```
 
 ---
