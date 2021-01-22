@@ -5,24 +5,29 @@
 
 ---
 
-### HELLO_WORLD
+### WEB
 
 ---
+
+---
+
+### GET_A_WEBPAGE
 
 ```pl
 use strict;
 use warnings;
+use LWP::Simple;
 
-sub elso {
-	print "Hello, trk!\n";
-	print "elso funkcio!\n";
+sub main {
+    print "Downloading... \n";
+    print get("http://www.google.com/");
+    print "Finished!\n";
 }
 
-elso();
+main();
 
 >>>
-Hello, trk!
-elso funkcio!
+
 >>>
 ```
 
