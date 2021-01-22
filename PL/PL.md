@@ -11,7 +11,7 @@
 
 * [HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/PL/HW/HW.md)
 * [WEB](https://github.com/ttltrk/TTT/blob/master/PL/WEB/WEB.md)
-* []()
+* [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PL/ARRAYS/ARRAYS.md)
 * []()
 * []()
 * []()
