@@ -17,6 +17,10 @@ sub elso {
 elso();
 
 >>>
+Hello, trk!
+elso funkcio!
 
 >>>
 ```
+
+---
