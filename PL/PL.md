@@ -9,7 +9,7 @@
 
 ---
 
-* [HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/PL/HW.md)
+* [HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/PL/HW/HW.md)
 * []()
 * []()
 * []()
