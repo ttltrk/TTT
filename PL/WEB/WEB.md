@@ -9,9 +9,13 @@
 
 ---
 
+* [GET_A_WEBPAGE](#GET_A_WEBPAGE)
+* [STORE_A_WEBPAGE](#STORE_A_WEBPAGE)
+* [STORE_A_PICTURE_FROM_THE_WEB](#STORE_A_PICTURE_FROM_THE_WEB)
+
 ---
 
-- GET_A_WEBPAGE
+#### GET_A_WEBPAGE
 
 ```
 how to download a socurce code of web page
@@ -35,9 +39,11 @@ main();
 >>>
 ```
 
+[^^^](#WEB)
+
 ---
 
-- STORE_A_WEBPAGE
+#### STORE_A_WEBPAGE
 
 ```
 how to download a webpage
@@ -57,9 +63,11 @@ sub main {
 main();
 ```
 
+[^^^](#WEB)
+
 ---
 
-- STORE_A_PICTURE_FROM_THE_WEB
+#### STORE_A_PICTURE_FROM_THE_WEB
 
 ```
 download a simple picture from the web
@@ -78,5 +86,7 @@ sub main {
 
 main();
 ```
+
+[^^^](#WEB)
 
 ---
