@@ -16,7 +16,7 @@
 #### FIND_FILE
 
 ```
-
+check if the file is in the correct place
 ```
 
 ```pl
