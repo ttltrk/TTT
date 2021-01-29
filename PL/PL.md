@@ -1,7 +1,7 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) 
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
 
 ---
 
@@ -13,7 +13,7 @@
 * [WEB](https://github.com/ttltrk/TTT/blob/master/PL/WEB/WEB.md)
 * [FILE](https://github.com/ttltrk/TTT/blob/master/PL/FILE/FILE.md)
 * [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PL/ARRAYS/ARRAYS.md)
-* []()
+* [REGEX](https://github.com/ttltrk/TTT/blob/master/PL/REGEX/REGEX.md)
 * []()
 * []()
 * []()

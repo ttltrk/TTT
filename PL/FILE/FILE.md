@@ -73,6 +73,12 @@ sub main {
 }
 
 main();
+
+>>>
+Found file: C:\Users\AttilaTorok\Desktop\ADM\MM\PL\WEB\logo.png
+Found file: C:\Users\AttilaTorok\Desktop\ADM\MM\PL\WEB\home.html
+File not found: C:\Users\AttilaTorok\Desktop\ADM\MM\PL\WEB\home.txt
+>>>
 ```
 
 ---
