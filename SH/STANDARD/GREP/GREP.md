@@ -115,11 +115,19 @@ ttltrk-mbp:TEST attilatorok$ grep -c u test3.txt
 1
 ttltrk-mbp:TEST attilatorok$ grep -c 'elso sor' test3.txt
 1
-ttltrk-mbp:TEST attilatorok$ 
+ttltrk-mbp:TEST attilatorok$
 ```
 
 ```sh
+grep -c '<Contract>' API_IERP.xml
+18630
+grep contract_record_count API_IERP.xml
+<contract_record_count>18630</contract_record_count>
 
+grep -c '<Component>' API_IERP.xml
+30366
+grep component_record_count API_IERP.xml
+<component_record_count>30366</component_record_count>
 ```
 
 ```sh
