@@ -31,7 +31,8 @@ nawk -F"] " '{print $NF}' test.log > test_01.log
 ```
 
 ```sh
-
+#append word "Contract=" as the first character
+awk '{print "Contract="$0}' Contract.log > Contract_01.log
 ```
 
 [^^^](#NAWK)
