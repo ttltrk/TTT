@@ -45,3 +45,13 @@ ps -ef | grep <proc_name>
 [^^^](#LS)
 
 ---
+
+- how to check the root directory
+
+```sh
+ls -l /
+```
+
+[^^^](#LS)
+
+---
