@@ -53,7 +53,7 @@ $
 ps aux | grep <pname>
 ```
 
-- how to find an app as per the PID 
+- how to find an app as per the PID
 
 ```sh
 serv_01:/home/TTLTRK$ netstat -Aan | grep 9444
@@ -65,8 +65,8 @@ f1b8 tcp4       0      0  1.11.11.11     1.11.11.11     FIN_WAIT_2
 f1b8 tcp4       0      0  1.11.11.11     1.11.11.11   FIN_WAIT_2
 f1b8 tcp4       0      0  1.11.11.11     1.11.11.11   ESTABLISHED
 f1b8 tcp        0      0  *.9444                *.*                   LISTEN
-serv_01:/home/TTLTRK$ rmsock f100050005a0abb8 tcpcb
-The socket 0xf100050005a0a808 is being held by proccess 6422748 (java).
+serv_01:/home/TTLTRK$ rmsock f1b8 tcpcb
+The socket 0xf1808 is being held by proccess 6422748 (java).
 serv_01:/home/TTLTRK$ ps -ef | grep 6422748
      blablabla
      blablabla
