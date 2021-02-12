@@ -5,7 +5,7 @@
 
 ---
 
-### LN
+### RM
 
 ---
 
@@ -22,20 +22,20 @@
 #### BASICS
 
 ```
-ln source destination
+
 ```
 
-Create a Symbolic link sudo ln -s
+- remove file
 
 ```sh
-cd /var/www/html
-pwd
-/var/www/html
-sudo ln -s /var/spool/apt-mirror ubuntu
+rm filename
 ```
+
+- remove directories
 
 ```sh
-
+rm -r dirname
+rmdir dirname (empty)
 ```
 
-[^^^](#LN)
+[^^^](#RM)
