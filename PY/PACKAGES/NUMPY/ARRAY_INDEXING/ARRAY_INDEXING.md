@@ -15,16 +15,28 @@
 
 ---
 
-* []()
+* [BASICS](#BASICS)
 * []()
 * []()
 
 ---
 
-####
+#### BASICS
 
 ```py
+import numpy as np
 
+arr = np.arange(0,11)
+a1 = arr[8]
+a2 = arr[1:4]
+
+print(arr)
+print(a1)
+print(a2)
+
+arr[0:5] = 404
+
+print(arr)
 ```
 
 [^^^](#ARRAY_INDEXING)
