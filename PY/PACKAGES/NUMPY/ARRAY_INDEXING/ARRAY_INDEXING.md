@@ -39,6 +39,50 @@ arr[0:5] = 404
 print(arr)
 ```
 
+```py
+import numpy as np
+
+arr = np.array([[5,10,15],[20,25,30],[35,40,45]])
+
+print(arr)
+print(' ')
+print(arr[0])
+
+>>>
+[[ 5 10 15]
+ [20 25 30]
+ [35 40 45]]
+
+[ 5 10 15]
+>>>
+```
+
+```py
+import numpy as np
+
+arr = np.array([[5,10,15],[20,25,30],[35,40,45]])
+
+print(arr)
+print(' ')
+print(arr[0])
+print(' ')
+print(arr[0][2])
+print(' ')
+print(arr[0,2])
+
+>>>
+[[ 5 10 15]
+ [20 25 30]
+ [35 40 45]]
+
+[ 5 10 15]
+
+15
+
+15
+>>>
+```
+
 [^^^](#ARRAY_INDEXING)
 
 ---
