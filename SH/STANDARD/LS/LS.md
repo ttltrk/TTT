@@ -52,6 +52,12 @@ ps -ef | grep <proc_name>
 ls -l /
 ```
 
+- how to check only the directories
+
+```
+ls -drtl */
+```
+
 [^^^](#LS)
 
 ---
