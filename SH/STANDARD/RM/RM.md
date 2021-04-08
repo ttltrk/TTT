@@ -38,4 +38,14 @@ rm -r dirname
 rmdir dirname (empty)
 ```
 
+- remove many records
+
+```sh
+--dry run (remove all *.dump.bin)
+for f in *.dump.bin; do echo rm "$f"; done
+
+--execute
+for f in *.dump.bin; do rm "$f"; done
+```
+
 [^^^](#RM)
