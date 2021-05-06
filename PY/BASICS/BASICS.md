@@ -13,8 +13,12 @@
 * [LANGUAGES](#LANGUAGES)
 * [WHAT_MAKES_A_LANGUAGE](#WHAT_MAKES_A_LANGUAGE)
 * [COMP_VS_INTERPRET](#COMP_VS_INTERPRET)
-* [COMP_PROGRAM](#COMP_PROGRAM)
-* [COMP_PROGRAM](#COMP_PROGRAM)
+* [INTERPRETER_DO](#INTERPRETER_DO)
+* [COMP_INTERP_ADV_DISADVANTAGES](#COMP_INTERP_ADV_DISADVANTAGES)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 
 ---
 
@@ -131,16 +135,67 @@ There are very few languages that can be both compiled and interpreted. Usually,
 
 ---
 
+#### INTERPRETER_DO
 
-####
+##### What does the interpreter actually do?
 
+Let's assume once more that you have written a program. Now, it exists as a computer file: a computer program is actually a piece of text, so the source code is usually placed in text files.
+
+Note: it has to be pure text, without any decorations like different fonts, colors, embedded images or other media. Now you have to invoke the interpreter and let it read your source file.
+
+The interpreter reads the source code in a way that is common in Western culture: from top to bottom and from left to right. There are some exceptions - they'll be covered later in the course.
+
+First of all, the interpreter checks if all subsequent lines are correct (using the four aspects covered earlier).
+
+If the compiler finds an error, it finishes its work immediately. The only result in this case is an error message.
+
+The interpreter will inform you where the error is located and what caused it. However, these messages may be misleading, as the interpreter isn't able to follow your exact intentions, and may detect errors at some distance from their real causes.
+
+For example, if you try to use an entity of an unknown name, it will cause an error, but the error will be discovered in the place where it tries to use the entity, not where the new entity's name was introduced.
+
+In other words, the actual reason is usually located a little earlier in the code, for example, in the place where you had to inform the interpreter that you were going to use the entity of the name.
+
+If the line looks good, the interpreter tries to execute it (note: each line is usually executed separately, so the trio "read-check-execute" can be repeated many times - more times than the actual number of lines in the source file, as some parts of the code may be executed more than once).
+
+It is also possible that a significant part of the code may be executed successfully before the interpreter finds an error. This is normal behavior in this execution model.
+
+You may ask now: which is better? The "compiling" model or the "interpreting" model? There is no obvious answer. If there had been, one of these models would have ceased to exist a long time ago. Both of them have their advantages and their disadvantages.
 
 [^^^](#BASICS)
 
 ---
 
-####
+#### COMP_INTERP_ADV_DISADVANTAGES
 
+##### Compilation vs. interpretation - advantages and disadvantages
+
+
+COMPILATION - ADVANTAGES
+
+the execution of the translated code is usually faster;
+only the user has to have the compiler - the end-user may use the code without it;
+the translated code is stored using machine language - as it is very hard to understand it, your own inventions and programming tricks are likely to remain your secret.
+
+INTERPRETATION - ADVANTAGES
+
+you can run the code as soon as you complete it - there are no additional phases of translation;
+the code is stored using programming language, not machine language - this means that it can be run on computers using different machine languages; you don't compile your code separately for each different architecture.
+
+COMPILATION - DISADVANTAGES
+
+the compilation itself may be a very time-consuming process - you may not be able to run your code immediately after making an amendment;
+you have to have as many compilers as hardware platforms you want your code to be run on.
+
+INTERPRETATION - DISADVANTAGES
+
+don't expect interpretation to ramp up your code to high speed - your code will share the computer's power with the interpreter, so it can't be really fast;
+both you and the end user have to have the interpreter to run your code.
+
+What does this all mean for you?
+
+Python is an interpreted language. This means that it inherits all the described advantages and disadvantages. Of course, it adds some of its unique features to both sets.
+If you want to program in Python, you'll need the Python interpreter. You won't be able to run your code without it. Fortunately, Python is free. This is one of its most important advantages.
+Due to historical reasons, languages designed to be utilized in the interpretation manner are often called scripting languages, while the source programs encoded using them are called scripts.
 
 [^^^](#BASICS)
 
