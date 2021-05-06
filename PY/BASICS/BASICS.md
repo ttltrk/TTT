@@ -35,6 +35,8 @@ These four simple actions form a program. Of course, these examples are not form
 Language is the keyword.
 ```
 
+[^^^](#BASICS)
+
 ---
 
 #### Natural languages vs. programming languages
@@ -56,6 +58,8 @@ No computer is currently capable of creating a new language. However, that may c
 
 Moreover, they are still evolving, and new words are created every day as old words disappear. These languages are called natural languages.
 ```
+
+[^^^](#BASICS)
 
 ---
 
@@ -82,5 +86,70 @@ Such languages are often called high-level programming languages. They are at le
 
 A program written in a high-level programming language is called a source code (in contrast to the machine code executed by computers). Similarly, the file containing the source code is called the source file.
 ```
+
+[^^^](#BASICS)
+
+---
+
+#### Compilation vs. interpretation
+
+```
+Computer programming is the act of composing the selected programming language's elements in the order that will cause the desired effect. The effect could be different in every specific case – it's up to the programmer's imagination, knowledge and experience.
+
+Of course, such a composition has to be correct in many senses:
+
+- alphabetically – a program needs to be written in a recognizable script, such as Roman, Cyrillic, etc.
+- lexically – each programming language has its dictionary and you need to master it; thankfully, it's much simpler and smaller than the dictionary of any natural language;
+
+- syntactically – each language has its rules and they must be obeyed;
+- semantically – the program has to make sense.
+
+Unfortunately, a programmer can also make mistakes with each of the above four senses. Each of them can cause the program to become completely useless.
+
+Let's assume that you've successfully written a program. How do we persuade the computer to execute it? You have to render your program into machine language. Luckily, the translation can be done by a computer itself, making the whole process fast and efficient.
+```
+
+[^^^](#BASICS)
+
+---
+
+
+####
+
+```
+
+```
+
+[^^^](#BASICS)
+
+---
+
+####
+
+```
+
+```
+
+[^^^](#BASICS)
+
+---
+
+####
+
+```
+
+```
+
+[^^^](#BASICS)
+
+---
+
+####
+
+```
+
+```
+
+[^^^](#BASICS)
 
 ---
