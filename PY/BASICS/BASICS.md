@@ -20,7 +20,7 @@
 
 #### COMP_PROGRAM
 
-How does a computer program work?
+##### How does a computer program work?
 
 A program makes a computer usable. Without a program, a computer, even the most powerful one, is nothing more than an object. Similarly, without a player, a piano is nothing more than a wooden box.
 
@@ -49,7 +49,7 @@ Language is the keyword.
 
 #### LANGUAGES
 
-Natural languages vs. programming languages
+##### Natural languages vs. programming languages
 
 A language is a means (and a tool) for expressing and recording thoughts. There are many languages all around us. Some of them require neither speaking nor writing, such as body language; it's possible to express your deepest feelings very precisely without saying a word.
 
@@ -73,7 +73,7 @@ Moreover, they are still evolving, and new words are created every day as old wo
 
 #### WHAT_MAKES_A_LANGUAGE
 
-What makes a language?
+##### What makes a language?
 
 We can say that each language (machine or natural, it doesn't matter) consists of the following elements:
 
@@ -101,7 +101,7 @@ A program written in a high-level programming language is called a source code (
 
 #### COMP_VS_INTERPRET
 
-Compilation vs. interpretation
+##### Compilation vs. interpretation
 
 Computer programming is the act of composing the selected programming language's elements in the order that will cause the desired effect. The effect could be different in every specific case – it's up to the programmer's imagination, knowledge and experience.
 
