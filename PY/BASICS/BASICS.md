@@ -20,8 +20,6 @@ It can execute only extremely simple operations. For example, a computer cannot 
 
 Contemporary computers can only evaluate the results of very fundamental operations, like adding or dividing, but they can do it very fast, and can repeat these actions virtually any number of times.
 
-
-```
 Imagine that you want to know the average speed you've reached during a long journey. You know the distance, you know the time, you need the speed.
 
 Naturally, the computer will be able to compute this, but the computer is not aware of such things as distance, speed, or time. Therefore, it is necessary to instruct the computer to:
@@ -33,7 +31,7 @@ display the result (representing the average speed) in a readable format.
 These four simple actions form a program. Of course, these examples are not formalized, and they are very far from what the computer can understand, but they are good enough to be translated into a language the computer can accept.
 
 Language is the keyword.
-```
+
 
 [^^^](#BASICS)
 
@@ -41,7 +39,7 @@ Language is the keyword.
 
 #### Natural languages vs. programming languages
 
-```
+
 A language is a means (and a tool) for expressing and recording thoughts. There are many languages all around us. Some of them require neither speaking nor writing, such as body language; it's possible to express your deepest feelings very precisely without saying a word.
 
 Another language you use each day is your mother tongue, which you use to manifest your will and to ponder reality. Computers have their own language, too, called machine language, which is very rudimentary.
@@ -57,7 +55,6 @@ Note: machine languages are developed by humans.
 No computer is currently capable of creating a new language. However, that may change soon. Just as people use a number of very different languages, machines have many different languages, too. The difference, though, is that human languages developed naturally.
 
 Moreover, they are still evolving, and new words are created every day as old words disappear. These languages are called natural languages.
-```
 
 [^^^](#BASICS)
 
@@ -65,7 +62,6 @@ Moreover, they are still evolving, and new words are created every day as old wo
 
 #### What makes a language?
 
-```
 We can say that each language (machine or natural, it doesn't matter) consists of the following elements:
 
 - an alphabet: a set of symbols used to build words of a certain language (e.g., the Latin alphabet for English, the Cyrillic alphabet for Russian, Kanji for Japanese, and so on)
@@ -85,7 +81,6 @@ We need a language in which humans can write their programs and a language that 
 Such languages are often called high-level programming languages. They are at least somewhat similar to natural ones in that they use symbols, words and conventions readable to humans. These languages enable humans to express commands to computers that are much more complex than those offered by ILs.
 
 A program written in a high-level programming language is called a source code (in contrast to the machine code executed by computers). Similarly, the file containing the source code is called the source file.
-```
 
 [^^^](#BASICS)
 
@@ -93,7 +88,6 @@ A program written in a high-level programming language is called a source code (
 
 #### Compilation vs. interpretation
 
-```
 Computer programming is the act of composing the selected programming language's elements in the order that will cause the desired effect. The effect could be different in every specific case – it's up to the programmer's imagination, knowledge and experience.
 
 Of course, such a composition has to be correct in many senses:
@@ -107,7 +101,6 @@ Of course, such a composition has to be correct in many senses:
 Unfortunately, a programmer can also make mistakes with each of the above four senses. Each of them can cause the program to become completely useless.
 
 Let's assume that you've successfully written a program. How do we persuade the computer to execute it? You have to render your program into machine language. Luckily, the translation can be done by a computer itself, making the whole process fast and efficient.
-```
 
 [^^^](#BASICS)
 
@@ -116,9 +109,6 @@ Let's assume that you've successfully written a program. How do we persuade the 
 
 ####
 
-```
-
-```
 
 [^^^](#BASICS)
 
@@ -126,9 +116,6 @@ Let's assume that you've successfully written a program. How do we persuade the 
 
 ####
 
-```
-
-```
 
 [^^^](#BASICS)
 
@@ -136,9 +123,6 @@ Let's assume that you've successfully written a program. How do we persuade the 
 
 ####
 
-```
-
-```
 
 [^^^](#BASICS)
 
@@ -146,9 +130,6 @@ Let's assume that you've successfully written a program. How do we persuade the 
 
 ####
 
-```
-
-```
 
 [^^^](#BASICS)
 
