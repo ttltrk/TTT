@@ -17,6 +17,10 @@
 * [COMP_INTERP_ADV_DISADVANTAGES](#COMP_INTERP_ADV_DISADVANTAGES)
 * [WHAT_IS_PYTHON](#WHAT_IS_PYTHON)
 * [PY_GOALS](#PY_GOALS)
+* [SPECIAL_PY](#SPECIAL_PY)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 
@@ -235,29 +239,76 @@ The circumstances in which Python was created are a bit puzzling. According to G
 > Guido van Rossum
 
 ##### Python goals
+
 In 1999, Guido van Rossum defined his goals for Python:
 
-an easy and intuitive language just as powerful as those of the major competitors;
-open source, so anyone can contribute to its development;
-code that is as understandable as plain English;
-suitable for everyday tasks, allowing for short development times.
+an **easy and intuitive** language just as powerful as those of the major competitors;
+**open source**, so anyone can contribute to its development;
+code that is as **understandable** as plain English;
+**suitable for everyday tasks**, allowing for short development times.
+
 About 20 years later, it is clear that all these intentions have been fulfilled. Some sources say that Python is the most popular programming language in the world, while others claim it's the second or the third.
 
+Either way, it still occupies a high rank in the top ten of the PYPL PopularitY of Programming Language and the TIOBE Programming Community Index.
+
+Python isn't a young language anymore. It is mature and trustworthy. It's not a one-hit wonder. It's a bright star in the programming firmament, and time spent learning Python is a very good investment.
+
+[^^^](#BASICS)
+
+---
+
+#### SPECIAL_PY
+
+##### What makes Python special?
+
+How does it happen that programmers, young and old, experienced and novice, want to use it? How did it happen that large companies adopted Python and implemented their flagship products using it?
+
+There are many reasons – we've listed some of them already, but let's enumerate them again in a more practical manner:
+
+**it's easy to learn** – the time needed to learn Python is shorter than for many other languages; this means that it's possible to start the actual programming faster;
+**it's easy to teach** – the teaching workload is smaller than that needed by other languages; this means that the teacher can put more emphasis on general (language-independent) programming techniques, not wasting energy on exotic tricks, strange exceptions and incomprehensible rules;
+**it's easy to use** for writing new software – it's often possible to write code faster when using Python;
+**it's easy to understand** - it's also often easier to understand someone else's code faster if it is written in Python;
+**it's easy to obtain**, install and deploy – Python is free, open and multiplatform; not all languages can boast that.
+
+Of course, Python has its drawbacks, too:
+
+it's not a speed demon – Python does not deliver exceptional performance;
+in some cases it may be resistant to some simpler testing techniques – this may mean that debugging Python code can be more difficult than with other languages; fortunately, making mistakes is also harder in Python.
+
+It should also be stated that Python is not the only solution of its kind available on the IT market.
+It has lots of followers, but there are many who prefer other languages and don't even consider Python for their projects.
+
 [^^^](#BASICS)
 
 ---
 
 ####
 
-#####
+##### Python rivals?
 
-[^^^](#BASICS)
+Python has two direct competitors, with comparable properties and predispositions. These are:
 
----
+**Perl** – a scripting language originally authored by Larry Wall;
+**Ruby** – a scripting language originally authored by Yukihiro Matsumoto.
+The former is more traditional and more conservative than Python, and resembles some of the old languages derived from the classic C programming language.
 
-####
+In contrast, the latter is more innovative and more full of fresh ideas than Python. Python itself lies somewhere between these two creations.
 
-#####
+The Internet is full of forums with infinite discussions on the superiority of one of these three over the others, should you wish to learn more about each of them.
+
+##### Where can we see Python in action?
+
+We see it every day and almost everywhere. It's used extensively to implement complex Internet services like search engines, cloud storage and tools, social media and so on. Whenever you use any of these services, you are actually very close to Python, although you wouldn't know it.
+
+Many developing tools are implemented in Python. More and more everyday-use applications are being written in Python. Lots of scientists have abandoned expensive proprietary tools and switched to Python. Lots of IT project testers have started using Python to carry out repeatable test procedures. The list is long.
+
+##### Why not Python?
+
+Despite Python's growing popularity, there are still some niches where Python is absent, or is rarely seen:
+
+- **low-level programming** (sometimes called "close to metal" programming): if you want to implement an extremely effective driver or graphical engine, you wouldn't use Python;
+- **applications for mobile devices**: although this territory is still waiting to be conquered by Python, it will most likely happen someday.
 
 [^^^](#BASICS)
 
