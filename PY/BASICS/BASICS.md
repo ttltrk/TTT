@@ -18,7 +18,7 @@
 * [WHAT_IS_PYTHON](#WHAT_IS_PYTHON)
 * [PY_GOALS](#PY_GOALS)
 * [SPECIAL_PY](#SPECIAL_PY)
-* [](#)
+* [PY_RIVALS](#PY_RIVALS)
 * [](#)
 * [](#)
 * [](#)
@@ -283,7 +283,7 @@ It has lots of followers, but there are many who prefer other languages and don'
 
 ---
 
-####
+#### PY_RIVALS
 
 ##### Python rivals?
 
