@@ -80,7 +80,7 @@ Besides its many useful components, the Python 3 standard installation contains 
 
 #### FIRST_PROGRAM
 
-#####How to write and run your very first program
+##### How to write and run your very first program
 
 It is now time to write and run your first Python 3 program. It will be very simple, for now.
 
