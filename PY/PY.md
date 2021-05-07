@@ -10,6 +10,7 @@
 ---
 
 * [BASICS](https://github.com/ttltrk/TTT/blob/master/PY/BASICS/BASICS.md)
+* [DOWNLOAD_AND_INSTALL](https://github.com/ttltrk/TTT/blob/master/PY/DOWNLOAD_AND_INSTALL/DOWNLOAD_AND_INSTALL.md)
 * [COMMENTS](https://github.com/ttltrk/TTT/blob/master/PY/COMMENTS/COMMENTS.md)
 * [VARIABLES](https://github.com/ttltrk/TTT/blob/master/PY/VARIABLES/VARIABLES.md)
 * [DATA_TYPES](https://github.com/ttltrk/TTT/blob/master/PY/DATA_TYPES/DATA_TYPES.md)
