@@ -9,6 +9,7 @@
 
 ---
 
+* [DATA_SCIENCE](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DATA_SCIENCE/DATA_SCIENCE.md)
 * [NUMPY](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/NUMPY/NUMPY.md)
 * [PANDAS](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/PANDAS/PANDAS.md)
 * [MATPLOTLIB](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MATPLOTLIB/MATPLOTLIB.md)
