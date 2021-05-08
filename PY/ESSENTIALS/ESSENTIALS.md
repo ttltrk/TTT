@@ -12,8 +12,8 @@
 
 * [HELLO_WORLD](#HELLO_WORLD)
 * [PRINT_FUNCTION](#PRINT_FUNCTION)
-* [](#)
-* [](#)
+* [ESCAPE_AND_NEWLINE](#ESCAPE_AND_NEWLINE)
+* [KEYWORD_ARGUMENT](#KEYWORD_ARGUMENT)
 * [](#)
 * [](#)
 * [](#)
@@ -191,6 +191,200 @@ Down came the rain and washed the spider out.
 >>>
 ```
 
+We've changed the example a bit - we've added one empty print() function invocation. We call it empty because we haven't delivered any arguments to the function.
+
+You can see it in the editor window. Run the code.
+
+What happens?
+
+If everything goes right, you should see something like this:
+
+```py
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+
+>>>
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+>>>
+```
+
+As you can see, the empty print() invocation is not as empty as you may have expected - it does output an empty line, or (this interpretation is also correct) its output is just a newline.
+
+This is not the only way to produce a newline in the output console. We're now going to show you another way.
+
+[^^^](#ESSENTIALS)
+
+---
+
+#### ESCAPE_AND_NEWLINE
+
+##### The print() function - the escape and newline characters
+
+We've modified the code again. Look at it carefully.
+
+There are two very subtle changes - we've inserted a strange pair of characters inside the rhyme. They look like this: ```\n```.
+
+
+Interestingly, while you can see two characters, Python sees one.
+
+The backslash (```\```) has a very special meaning when used inside strings - this is called the escape character.
+
+The word escape should be understood specifically - it means that the series of characters in the string escapes for the moment (a very short moment) to introduce a special inclusion.
+
+In other words, the backslash doesn't mean anything in itself, but is only a kind of announcement, that the next character after the backslash has a different meaning too.
+
+The letter ```n``` placed after the backslash comes from the word newline.
+
+Both the backslash and the ```n``` form a special symbol named a newline character, which urges the console to start a new output line.
+Run the code. Your console should now look like this:
+
+```py
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+
+>>>
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
+>>>
+```
+
+[^^^](#ESSENTIALS)
+
+---
+
+
+#### KEYWORD_ARGUMENT
+
+##### Python offers another mechanism for the passing of arguments, which can be helpful when you want to convince the print() function to change its behavior a bit.
+
+We aren't going to explain it in depth right now. We plan to do this when we talk about functions. For now, we simply want to show you how it works. Feel free to use it in your own programs.
+
+The mechanism is called keyword arguments. The name stems from the fact that the meaning of these arguments is taken not from its location (position) but from the special word (keyword) used to identify them.
+
+The print() function has two keyword arguments that you can use for your purposes. The first of them is named end.
+
+In the editor window you can see a very simple example of using a keyword argument.
+
+In order to use it, it is necessary to know some rules:
+
+a keyword argument consists of three elements: a keyword identifying the argument (end here); an equal sign (=); and a value assigned to that argument;
+any keyword arguments have to be put after the last positional argument (this is very important)
+
+In our example, we have made use of the end keyword argument, and set it to a string containing one space.
+
+Run the code to see how it works.
+
+The console should now be showing the following text:
+
+```py
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+
+>>>
+My name is Python. Monty Python.
+>>>
+```
+
+As you can see, the end keyword argument determines the characters the print() function sends to the output once it reaches the end of its positional arguments.
+
+The default behavior reflects the situation where the end keyword argument is implicitly used in the following way: end="\n".
+
+```py
+print("My name is", "Python.", end="\n")
+print("Monty Python.")
+
+>>>
+My name is Python.
+Monty Python.
+>>>
+```
+
+And now it's time to try something more difficult.
+
+If you look carefully, you'll see that we've used the end argument, but the string assigned to it is empty (it contains no characters at all).
+
+What will happen now? Run the program in the editor to find out.
+
+As the end argument has been set to nothing, the print() function outputs nothing too, once its positional arguments have been exhausted.
+
+The console should now be showing the following text
+
+```py
+print("My name is ", end="")
+print("Monty Python.")
+
+>>>
+My name is Monty Python.
+>>>
+```
+
+Note: no newlines have been sent to the output.
+
+The string assigned to the end keyword argument can be of any length. Experiment with it if you want.
+
+We've said previously that the print() function separates its outputted arguments with spaces. This behavior can be changed, too.
+
+The keyword argument that can do this is named sep (like separator).
+
+Look at the code in the editor, and run it.
+
+The sep argument delivers the following results:
+
+```py
+print("My", "name", "is", "Monty", "Python.", sep="-")
+
+>>>
+My-name-is-Monty-Python.
+>>>
+```
+
+```py
+print("My", "name", "is", "Monty", "Python.", sep="-*-")
+
+>>>
+My-*-name-*-is-*-Monty-*-Python.
+>>>
+```
+
+The print() function now uses a dash, instead of a space, to separate the outputted arguments.
+
+Note: the sep argument's value may be an empty string, too. Try it for yourself
+
+```py
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+
+>>>
+My_name_is*Monty*Python.*
+>>>
+```
+
+```py
+print("Programming","Essentials","in", end="", sep="***")
+print("...", end="")
+print("Python")
+
+>>>
+Programming***Essentials***in...Python
+>>>
+```
+
+[^^^](#ESSENTIALS)
+
+---
+
+
+####
+
+#####
+
 [^^^](#ESSENTIALS)
 
 ---
@@ -202,16 +396,6 @@ Down came the rain and washed the spider out.
 [^^^](#ESSENTIALS)
 
 ---
-
-
-####
-
-#####
-
-[^^^](#ESSENTIALS)
-
----
-
 
 ####
 
