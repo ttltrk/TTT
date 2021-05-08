@@ -84,6 +84,16 @@ So, for our prices data:
 
 the mean is 33.1. To calculate the variance, we take the difference between each value and the mean, square it, and then average the result: Variance = 292.5
 
+```
+33.1-14 = 19.1x19.1 = 364.81
+33.1-18 = 15.1x15.1 = 228.01
+33.1-19 = 14.1x14.1 = 198.81
+33.1-24 = 9.1x9.1   = 82.81
+33.1-33 = 0.1x0.1   = 0.01
+42-33.1 = 8.9x8.9   = 79.21
+55-33.1 = 21.9x21.9 = 479.61
+67-33.1 = 33.9x33.9 = 1149.21
+```
 Now we take the square root of the Variance, to get the Standard Deviation: std = 17.1 (17.1x17.1=292.5)
 
 Now, we can check which ages are within one standard deviation (17.1) from the mean (33.1) - from (33.1-17.1) to (33.1+17.1):
