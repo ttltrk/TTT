@@ -9,6 +9,7 @@
 
 ---
 
-- [Intro]()
+- [Basics](https://github.com/ttltrk/TTT/blob/master/LAN/TUR/BASICS/BASICS.md)
+
 
 ---

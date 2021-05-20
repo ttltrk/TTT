@@ -9,6 +9,7 @@
 
 ---
 
-- [Intro]()
+- [Intro](https://github.com/ttltrk/TTT/blob/master/LAN/LAT/INTRO/INTRO.md)
+
 
 ---
