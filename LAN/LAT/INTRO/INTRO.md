@@ -36,5 +36,10 @@ Femina scribit sed vir non scribit. - The woman writes, but the man does not wri
 ```
 
 ```
-Soror in urbe est, mater domi est. - The sister is in the city, the mother is at home. 
+Soror in urbe est, mater domi est. - The sister is in the city, the mother is at home.
+Is est pater. - He is a fater.
+Soror in urbe est, sed frater domi est.
+Frater domi dormit. - The brother is sleeping at home.
+Frater studet. - The brother studies.
+Ego sum pater. - I am the father.
 ```
