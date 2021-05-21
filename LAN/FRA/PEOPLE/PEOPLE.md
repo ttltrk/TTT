@@ -31,7 +31,36 @@ Oui, j'habite avec Paul a Paris. - Yes, I live with Paul in Paris.
 Oui, j'habite en Espagne. - Yes, I live in Spain.
 J'etudie avec mon chat. - I study with my cat.
 avec toi - with you.
-Je suis en Europe. - I'm in europe. 
+Je suis en Europe. - I'm in europe.
+```
+
+```
+Tu etudies en Angleterre? - Are you studying in England?
+Oui et non. - Yes and no.
+Elle etudie en Angleterre. - She is studying in England.
+Il etudie avec elle. - He studies with her.
+Il travaille beaucoup. - He works a lot.
+Elle habite ici. - She lives here.
+Julia travaille a Paris. - Julia works in Paris.
+Tu etudies a Paris? - Are you studying in Paris?
+Elle habite a Paris. - She lives in Paris.
+Le chien habite ici. - The dog lives here.
+Non, merci. No, thanks.
+```
+
+```
+la France - France
+le professeur - the professor
+Il est professeur. - He is a professor.
+Marie est journalist. - Marie is a journalist.
+Il travaille en Itlalie. - He works in Italy.
+Je m'appell Louis. Je suis professeur en Italie.
+une universite - a university
+Elle travaille a Madris? - Does she work in Madrid?
+en France - in France
+Elle est professeur a l'universite. - She is a professor at the university.
+une universite francaise - a French university
+Paul est en Italie - Paul is in Italy
 ```
 
 ---
