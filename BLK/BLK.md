@@ -9,16 +9,8 @@
 
 ---
 
-* []()
-* []()
-* []()
-* []()
-* []()
-
----
-
----
-
----
+* [BLOCKCHAIN]()
+* [CRYPTOCURRENCY]()
+* [SMART_CONTRACT]()
 
 ---
