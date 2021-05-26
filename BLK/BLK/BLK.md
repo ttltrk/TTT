@@ -67,6 +67,16 @@ every char = 4 bit
 64x4=256
 ```
 
+the 5 requirements for hash algorithms
+
+```
+1. one-way
+2. deterministic
+3. fast computation
+4. the avalanche effect
+5. must withstand collisions
+```
+
 https://tools.superdatascience.com/blockchain/hash/
 
 [^^^](#BLOCKCHAIN)
