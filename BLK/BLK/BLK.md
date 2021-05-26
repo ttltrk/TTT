@@ -50,8 +50,23 @@ Blocks are cryptographically linked together
   - hash: 77UYT83RE
 ```
 
+[^^^](#BLOCKCHAIN)
+
 ---
 
 #### SHA256
+
+NSA developed the SHA256
+
+256 bit
+64 char
+digits and chars = hexadecimal
+
+every char = 4 bit
+64x4=256
+
+https://tools.superdatascience.com/blockchain/hash/
+
+[^^^](#BLOCKCHAIN)
 
 ---
