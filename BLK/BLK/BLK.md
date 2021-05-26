@@ -58,11 +58,11 @@ Blocks are cryptographically linked together
 
 NSA developed the SHA256
 
-256 bit
-64 char
+256 bit,
+64 char,
 digits and chars = hexadecimal
 
-every char = 4 bit
+every char = 4 bit,
 64x4=256
 
 https://tools.superdatascience.com/blockchain/hash/
