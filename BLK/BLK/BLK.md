@@ -14,7 +14,7 @@
 * [IMMUTABLE_LEDGER](#IMMUTABLE_LEDGER)
 * [DISTRIBUTED_P2P_NETWORK](#DISTRIBUTED_P2P_NETWORK)
 * [HOW_MINING_WORKS](#HOW_MINING_WORKS)
-* [](#)
+* [BYZANTINE_FAULT_TOLERANCE](#BYZANTINE_FAULT_TOLERANCE)
 * [](#)
 * [](#)
 * [](#)
@@ -127,7 +127,16 @@ HASH:
   8899WE00SER0E
 ```
 
-a hash is a number 
+a hash is a number
+
+miners trying to hit the smallest nonce (from the all possible hashes) below the target 0000
+it means keep iterating the nonce until you get to the target
+
+[^^^](#BLOCKCHAIN)
+
+---
+
+#### BYZANTINE_FAULT_TOLERANCE
 
 [^^^](#BLOCKCHAIN)
 
