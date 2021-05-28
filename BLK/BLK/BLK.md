@@ -11,6 +11,10 @@
 
 * [WHAT_IS_BLOCKCHAIN](#WHAT_IS_BLOCKCHAIN)
 * [SHA256](#SHA256)
+* [IMMUTABLE_LEDGER](#IMMUTABLE_LEDGER)
+* [DISTRIBUTED_P2P_NETWORK](#DISTRIBUTED_P2P_NETWORK)
+* [HOW_MINING_WORKS](#HOW_MINING_WORKS)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -78,6 +82,28 @@ the 5 requirements for hash algorithms
 ```
 
 https://tools.superdatascience.com/blockchain/hash/
+
+[^^^](#BLOCKCHAIN)
+
+---
+
+#### IMMUTABLE_LEDGER
+
+[^^^](#BLOCKCHAIN)
+
+---
+
+#### DISTRIBUTED_P2P_NETWORK
+
+one hacked blockchain will be recovery asap from the p2p network clients and will be replaced
+by the correct chain, but if the 51% of the blockchain is hacked in this case the p2p network
+will replace the wrong/hacked hash
+
+[^^^](#BLOCKCHAIN)
+
+---
+
+#### HOW_MINING_WORKS
 
 [^^^](#BLOCKCHAIN)
 
