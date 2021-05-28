@@ -105,6 +105,30 @@ will replace the wrong/hacked hash
 
 #### HOW_MINING_WORKS
 
+changing nonce can change the hash - avalanche effect
+
+```
+BLOCK: #3
+
+NONCE: 34
+
+DATA:
+
+  Joe -> Karl 500 hadcoins
+  Joe -> Greg 100 hadcoins
+  Karl -> Ebay 100 hadcoins
+
+PREV.HASH:
+
+  000ER45DEW31Q
+
+HASH:
+
+  8899WE00SER0E
+```
+
+a hash is a number 
+
 [^^^](#BLOCKCHAIN)
 
 ---
