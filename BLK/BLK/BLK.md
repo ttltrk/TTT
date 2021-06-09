@@ -15,7 +15,7 @@
 * [DISTRIBUTED_P2P_NETWORK](#DISTRIBUTED_P2P_NETWORK)
 * [HOW_MINING_WORKS](#HOW_MINING_WORKS)
 * [BYZANTINE_FAULT_TOLERANCE](#BYZANTINE_FAULT_TOLERANCE)
-* [](#)
+* [CONSENSUS_PROTOCOL](#CONSENSUS_PROTOCOL)
 * [](#)
 * [](#)
 * [](#)
@@ -137,6 +137,29 @@ it means keep iterating the nonce until you get to the target
 ---
 
 #### BYZANTINE_FAULT_TOLERANCE
+
+[^^^](#BLOCKCHAIN)
+
+---
+
+#### CONSENSUS_PROTOCOL
+
+- Challenge 1: Attackers
+- Challenge 2: Competing Chains
+
+Consensus Protocols:
+  - Proof-of-Work (POW)
+  - Proof-of-Stake (PoS)
+  - Other
+
+- one of the node was updated by a new block, but before the spread for the rest of the nodes/chains
+  some serious checks must be done   
+  if check doesn't go thru, then reject the block
+
+cryptographic puzzles: Hard to solve - Easy to verify   
+
+- what if two nodes receives two separate blocks at the same time
+  the longest and/or the faster network will adopt the new blocks and the weakest network blocks goes by side 
 
 [^^^](#BLOCKCHAIN)
 
