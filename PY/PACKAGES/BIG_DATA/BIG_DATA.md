@@ -111,6 +111,29 @@ RDD Objects >> DAGScheduler >> TaskScheduler >> Worker
     - Count >> Return the number of elements in the RDD
     - Take >> Return an array with the first n elements of the RDD
 
+- Basic Transformations:
+      - Filter
+      - Map
+      - FlatMap
+
+- RDD.filter()
+        - Applies a function to each element and returns element that evaluate to true
+
+- RDD.map()
+        - Transforms each element and preserves # of elements, very similar idea to pandas .apply()
+
+- RDD.flatMap()
+          - Transforms each element into 0-N elements and changes # of elements
+
+- Often RDDs will be holding their values in tuples
+  - (key,value)
+- This offers better partitioning of data and leads to functionality based on reduction
+
+- Reduce() >> an action that will aggregate RDD elements using a function that returns a single element
+- ReduceByKey() >> An action that will aggregate Pair RDD elements using a function that returns a Pair RDD
+
+- these ideas are similar to a Group by operation
+
 [^^^](#BIG_DATA)
 
 ---
