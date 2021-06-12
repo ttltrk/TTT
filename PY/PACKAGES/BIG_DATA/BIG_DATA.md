@@ -106,7 +106,7 @@ RDD Objects >> DAGScheduler >> TaskScheduler >> Worker
   - Actions
 
 - Basic Actions:
-    - First >> Return the first element in the RDD 
+    - First >> Return the first element in the RDD
     - Collect >> Return all the elements of the RDD as an array at the driver program
     - Count >> Return the number of elements in the RDD
     - Take >> Return an array with the first n elements of the RDD
