@@ -9,8 +9,15 @@
 
 ---
 
-####
+* [EC2_INSTANCE](#EC2_INSTANCE)
 
-* [](#)
+---
+
+#### EC2_INSTANCE
+
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity
+in the cloud. Like as a virtual computer.
+
+[^^^](#AWS)
 
 ---
