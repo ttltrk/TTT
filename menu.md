@@ -40,6 +40,7 @@
 
 ---
 
+* [CLOUD](https://github.com/ttltrk/TTT/tree/master/CLOUD/CLOUD.md)
 * [XML](https://github.com/ttltrk/TTT/tree/master/XML/XML.md)
 * [DS](https://github.com/ttltrk/TTT/tree/master/DS/DS.md)
 * [DO](https://github.com/ttltrk/TTT/tree/master/DO/DO.md)
