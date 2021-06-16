@@ -144,10 +144,12 @@ RDD Transformations and Actions
 
 ##### Important terms
 
-RDD - Resilient Distributed Dataset
-Transformation - Spark operation that produces an RDD
-Action - Spark operation that produces a local object
-Spark Job - Sequence of transformations on data with a final action
+```
+- RDD - Resilient Distributed Dataset
+- Transformation - Spark operation that produces an RDD
+- Action - Spark operation that produces a local object
+- Spark Job - Sequence of transformations on data with a final action
+```
 
 ##### Creating RDD
 
