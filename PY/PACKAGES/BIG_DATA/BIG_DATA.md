@@ -194,6 +194,13 @@ mean() #find element mean (assumes numeric elements)
 stdev() #find element deviation (assumes numeric elements)
 ```
 
+##### Examples
+
+```py
+clean = services.map(lambda line: line[1:] if line[0] == '#' else line)
+
+```
+
 
 
 [^^^](#BIG_DATA)
