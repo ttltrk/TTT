@@ -19,7 +19,7 @@
 * [HADOOP](#HADOOP)
 * [MAPREDUCE](#)
 * [SPARK](#SPARK)
-* [](#)
+* [SPARK_RDD](#SPARK_RDD)
 * [](#)
 * [](#)
 * [](#)
@@ -133,6 +133,61 @@ RDD Objects >> DAGScheduler >> TaskScheduler >> Worker
 - ReduceByKey() >> An action that will aggregate Pair RDD elements using a function that returns a Pair RDD
 
 - these ideas are similar to a Group by operation
+
+RDD Transformations and Actions
+
+[^^^](#BIG_DATA)
+
+---
+
+#### SPARK_RDD
+
+##### Important terms
+
+RDD - Resilient Distributed Dataset
+Transformation - Spark operation that produces an RDD
+Action - Spark operation that produces a local object
+Spark Job - Sequence of transformations on data with a final action
+
+##### Creating RDD
+
+there are two common ways to create an RDD:
+
+```py
+sc.parallelize(array) #create RDD of elements of array (or list)
+sc.textFile(path/to/file) #create RDD of lines from file
+```
+
+##### RDD Transformations
+
+We can use transformations to create a set of instructions we want to perform on the RDD.
+
+```py
+filter(lambda x: x % 2 == 0) #Discard non-even elements
+map(lambda x: x * 2) #Multiply each RDD element by 2
+map(lambda x: x.split()) #split each string into words
+flatMap(lambda x: x.split()) #split each string into words and flatten sequence
+sample(withReplacement=True,0.25) #create sample of 25% of elements with replacement
+union(rdd) #Append rdd to existing RDD
+distinct() #Remove duplicates in RDD
+sortBy(lambda x: x, ascending=False) #Sort elements in descending order
+```
+
+##### RDD Actions
+
+Once you have your recipe of transformations ready, what you will do next is execute them by calling actions.
+
+```py
+collect() #Convert RDD to in-memory list
+take(3) #first 3 elements of RDD
+top(3) #top 3 elements of RDD
+takeSample(withReplacement=True,3) #create sample of 3 elements with replacement
+sum() #find element sum (assumes numeric elements)
+mean() #find element mean (assumes numeric elements)
+stdev() #find element deviation (assumes numeric elements)
+```
+
+
 
 [^^^](#BIG_DATA)
 
