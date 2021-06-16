@@ -153,6 +153,11 @@ RDD Transformations and Actions
 
 ##### Creating RDD
 
+```py
+from pyspark import SparkContext
+sc = SparkContext()
+```
+
 there are two common ways to create an RDD:
 
 ```py
