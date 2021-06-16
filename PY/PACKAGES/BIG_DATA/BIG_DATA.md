@@ -197,8 +197,40 @@ stdev() #find element deviation (assumes numeric elements)
 ##### Examples
 
 ```py
+# clean out the rdd, remove the hash from the first line
 clean = services.map(lambda line: line[1:] if line[0] == '#' else line)
+clean.collect()
 
+# grab only two fields from rdd
+pairs = clean.map(lambda lst: (lst[3], lst[-1]))
+
+#adding amounts together
+rekey = pairs.reduceByKey(lambda amt1,amt2 : amt1 + amt2)
+rekey.collect()
+
+#clean out the amounts together
+rekey = pairs.reduceByKey(lambda amt1,amt2 : float(amt1) + float(amt2))
+rekey.collect()
+
+#grab state and amount as tuple
+step1 = clean.map(lambda lst: (lst[3],lst[-1]))
+#reduce by key
+step2 = step1.reduceByKey(lambda amt1,amt2 :float(amt1)+float(amt2))
+#get rid of state, amount titles
+step3 = step2.filter(lambda x: not x[0] == 'State')
+#sort result by amount
+step4 = step3.sortBy(lambda stAmount: stAmount[1],ascending=False)
+#action
+step4.collect()
+
+x = ['ID', 'State', 'Amount']
+
+def func1(lst):
+  return lst[-1]
+
+def func2(id_st_amt):
+  (Id,st,amt) = id_st_amt
+  return amt  
 ```
 
 
