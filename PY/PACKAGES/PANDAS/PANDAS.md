@@ -9,9 +9,7 @@
 
 ---
 
-```
-
-```
+Pandas is a high-level data manipulation tool that is built on the NumPy package
 
 ---
 
