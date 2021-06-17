@@ -174,6 +174,35 @@ print(ran2)
 ```
 
 ```py
+x = np.arange(2, 8, 2)
+print(x)
+
+>>>
+[2 4 6]
+>>>
+
+x = np.append(x, x.size)
+print(x)
+
+>>>
+[2 4 6 3]
+>>>
+
+x = np.sort(x)
+print(x)
+
+>>>
+[2 3 4 6]
+>>>
+
+print(x[1])
+
+>>>
+3
+>>>
+```
+
+```py
 import numpy as np
 
 arr = np.arange(1,11)
