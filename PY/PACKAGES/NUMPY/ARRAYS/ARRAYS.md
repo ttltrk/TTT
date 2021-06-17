@@ -9,9 +9,9 @@
 
 ---
 
-```
-
-```
+In Python, lists are used to store data.
+NumPy provides an array structure for performing operations with data.
+NumPy arrays are faster and more compact than lists.
 
 ---
 
@@ -20,6 +20,16 @@
 ---
 
 #### BASICS
+
+```py
+import numpy as np
+x = np.array([1, 2, 3, 4])
+print(x)
+
+>>>
+[1 2 3 4]
+>>>
+```
 
 ```py
 import numpy as np
