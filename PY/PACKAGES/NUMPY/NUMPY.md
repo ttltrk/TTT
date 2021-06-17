@@ -8,10 +8,10 @@
 ### NUMPY
 
 
-- NumPy is a library for the Python programming language, adding support for large,
+NumPy is a library for the Python programming language, adding support for large,
 multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-- NumPy (Numerical Python) is a Python library used to work with numerical data.
-- NumPy includes functions and data structures that can perform a wide variety of mathematical operations.
+NumPy (Numerical Python) is a Python library used to work with numerical data.
+NumPy includes functions and data structures that can perform a wide variety of mathematical operations.
 
 ---
 
@@ -104,6 +104,53 @@ print(x.shape) # (3, 3)
 >>>
 ```
 
+We can add, remove and sort an array using the np.append(), np.delete() and np.sort() functions.
+
+```py
+import numpy as np
+x = np.array([1, 2, 3, 4])
+print(x)
+
+>>>
+[1 2 3 4]
+>>>
+```
+
+```py
+x = np.append(5,x)
+print(x)
+
+>>>
+[5 1 2 3 4]
+>>>
+```
+
+```py
+x = np.append(x,6)
+print(x)
+
+>>>
+[5 1 2 3 4 6]
+>>>
+```
+
+```py
+x = np.delete(x,0)
+print(x)
+
+>>>
+[1 2 3 4 6]
+>>>
+```
+
+```py
+x = np.sort(x)
+print(x)
+
+>>>
+[1 2 3 4 6]
+>>>
+```
 
 [^^^](#NUMPY)
 
