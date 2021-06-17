@@ -12,6 +12,7 @@
 multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 - NumPy (Numerical Python) is a Python library used to work with numerical data.
 - NumPy includes functions and data structures that can perform a wide variety of mathematical operations.
+
 ---
 
 * [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/NUMPY/ARRAYS/ARRAYS.md)
