@@ -26,6 +26,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [RANDOM_RANDINT](#RANDOM_RANDINT)
 * [RESHAPE](#RESHAPE)
 * [ARRAY_INDEXING](#ARRAY_INDEXING)
+* [ARRAY_INDEXING_CONDITIONS](#ARRAY_INDEXING_CONDITIONS)
 * [SLICE_OF_ARRAY](#SLICE_OF_ARRAY)
 
 ---
@@ -515,6 +516,8 @@ print(a)
 
 #### ARRAY_INDEXING
 
+NumPy arrays can be indexed and sliced the same way that Python lists are.
+
 ```py
 import numpy as np
 
@@ -529,6 +532,17 @@ print(a2)
 arr[0:5] = 404
 
 print(arr)
+```
+
+```py
+import numpy as np
+
+arr = np.arange(1,10)
+print(arr[0:2])
+
+>>>
+[1 2]
+>>>
 ```
 
 ```py
@@ -572,6 +586,48 @@ print(arr[0,2])
 15
 
 15
+>>>
+```
+
+[^^^](#NUMPY)
+
+---
+
+#### ARRAY_INDEXING_CONDITIONS
+
+You can provide a condition as the index to select the elements that fulfill the given condition.
+
+```py
+import numpy as np
+
+arr = np.arange(1,10)
+print(arr[arr<4])
+
+>>>
+[1 2 3]
+>>>
+```
+
+Conditions can be combined using the & (and) and | (or) operators.
+
+```py
+import numpy as np
+
+arr = np.arange(1,10)
+print(arr[(arr<4) & (arr%2==0)])
+
+>>>
+[2]
+>>>
+```
+
+```py
+x = np.array([11, 42, 8, 5, 18])
+z = x[x>15] #18,42
+print(z.size) #2
+
+>>>
+2
 >>>
 ```
 
