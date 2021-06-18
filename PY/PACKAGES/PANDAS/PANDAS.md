@@ -624,6 +624,11 @@ Name: C, dtype: float64
 ```
 
 ```py
+df = pd.DataFrame(data, index=['James', 'Bob', 'Amy', 'Dave'])
+print(df.loc['Bob'])
+```
+
+```py
 import numpy as np
 import pandas as pd
 from numpy.random import randn
