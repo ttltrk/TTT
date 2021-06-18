@@ -28,6 +28,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [ARRAY_INDEXING](#ARRAY_INDEXING)
 * [ARRAY_INDEXING_CONDITIONS](#ARRAY_INDEXING_CONDITIONS)
 * [SLICE_OF_ARRAY](#SLICE_OF_ARRAY)
+* [STATISTICS](#STATISTICS)
 
 ---
 
@@ -152,6 +153,53 @@ print(x)
 [1 2 3 4 6]
 >>>
 ```
+
+It is easy to perform basic mathematical operations with arrays.
+For example, to find the sum of all elements, we use the sum() function.
+
+```py
+import numpy as np
+
+x = np.arange(1,10)
+print(x)
+print(x.sum())
+
+>>>
+[1 2 3 4 5 6 7 8 9]
+45
+>>>
+```
+
+Similarly, min() and max() can be used to get the smallest and largest elements.
+
+```py
+import numpy as np
+
+x = np.arange(1,10)
+print(x)
+print(x.min())
+
+>>>
+[1 2 3 4 5 6 7 8 9]
+1
+>>>
+```
+
+```py
+import numpy as np
+
+x = np.arange(1,10)
+print(x)
+print(x.max())
+
+>>>
+[1 2 3 4 5 6 7 8 9]
+9
+>>>
+```
+
+We can also perform operations between the array and a single number.
+For example, we can multiply all elements by 2
 
 [^^^](#NUMPY)
 
@@ -703,6 +751,54 @@ print(arr_copy)
 [ 0  1  2  3  4  5  6  7  8  9 10]
 [ 0  1  2  3  4  5  6  7  8  9 10]
 [100 100 100 100 100 100 100 100 100 100 100]
+>>>
+```
+
+[^^^](#NUMPY)
+
+---
+
+#### STATISTICS
+
+NumPy arrays have built-in functions to return mean, median, variance, standard deviation
+
+```py
+import numpy as np
+
+x = np.array([14, 18, 19, 24, 26, 33, 42, 55, 67])
+
+print(np.mean(x))
+print(np.median(x))
+print(np.var(x))
+print(np.std(x))
+
+>>>
+33.111111111111114
+26.0
+292.5432098765432
+17.10389458212787
+>>>
+```
+
+```py
+x = np.arange(3, 9)
+print(x)
+>>>
+[3 4 5 6 7 8]
+>>>
+
+z = x.reshape(2, 3)
+print(z)
+
+>>>
+[[3 4 5]
+[6 7 8]]
+>>>
+
+print(z[1][1])
+
+>>>
+7
 >>>
 ```
 
