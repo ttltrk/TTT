@@ -9,7 +9,15 @@
 
 ---
 
-Pandas is a high-level data manipulation tool that is built on the NumPy package
+Pandas is a high-level data manipulation tool that is built on the NumPy package.
+Pandas is one of the most popular data science libraries in Python. Easy to use, it is built on top of NumPy and shares many functions and properties.
+With Pandas, you can read and extract data from files, transform and analyze it, calculate statistics and correlations, and much more!
+
+To start using pandas, we need to import it first
+
+```py
+import pandas as pd
+```
 
 ---
 
@@ -25,9 +33,8 @@ Pandas is a high-level data manipulation tool that is built on the NumPy package
 
 #### SERIES
 
-```
-
-```
+The two primary components of pandas are the Series and the DataFrame.
+A Series is essentially a column, and a DataFrame is a multi-dimensional table made up of a collection of Series.
 
 ```py
 import numpy as np
@@ -301,8 +308,30 @@ dtype: float64
 
 #### DATAFRAMES_01
 
-```
+The two primary components of pandas are the Series and the DataFrame.
+A Series is essentially a column, and a DataFrame is a multi-dimensional table made up of a collection of Series.
 
+How to create a DataFrame
+
+```py
+import pandas as pd
+
+data = {
+    'ages':[14,18,24,42],
+    'heights':[165,180,176,184]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+>>>
+ages  heights
+0    14      165
+1    18      180
+2    24      176
+3    42      184
+>>>
 ```
 
 ```py
