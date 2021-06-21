@@ -5,6 +5,17 @@
 
 ---
 
+```
+HTML >> CSS >> JS
+DJANGO >> PY
+FLASK >> PY
+
+AWS EC2 >> SPARK >> PY
+DOCKER >> KUBERNETES
+```
+
+---
+
 * [MD](https://github.com/ttltrk/TTT/tree/master/MD/MD.md)
 * [HTML](https://github.com/ttltrk/TTT/tree/master/HTML/HTML_NAV.md)
 * [CSS](https://github.com/ttltrk/TTT/tree/master/CSS/CSS.md)
