@@ -17,5 +17,6 @@
 * [MACHINE_LEARNING](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/MACHINE_LEARNING.md)
 * [OPENPYXL](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/OPENPYXL/OPENPYXL.md)
 * [TKINTER](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/TKINTER/TKINTER.md)
+* [KIVY](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/KIVY/KIVY.md)
 
 ---
