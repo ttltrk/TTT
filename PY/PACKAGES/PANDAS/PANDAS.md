@@ -585,6 +585,44 @@ Name: A, dtype: float64
 >>>
 ```
 
+Pandas uses the iloc function to select data based on its numeric index.
+It works the same way indexing lists does in Python.
+
+```py
+import pandas as pd
+
+data = {
+   'ages': [14, 18, 24, 42],
+   'heights': [165, 180, 176, 184]
+}
+
+df = pd.DataFrame(data, index=['James', 'Bob', 'Amy', 'Dave'])
+
+# third row
+print(df.iloc[2])
+print(' ')
+#first 3 rows
+print(df.iloc[:3])
+print(' ')
+# rows 2 to 3
+print(df.iloc[1:3])
+
+>>>
+ages        24
+heights    176
+Name: Amy, dtype: int64
+
+       ages  heights
+James    14      165
+Bob      18      180
+Amy      24      176
+
+     ages  heights
+Bob    18      180
+Amy    24      176
+>>>
+```
+
 ```py
 import numpy as np
 import pandas as pd
@@ -623,9 +661,108 @@ Name: C, dtype: float64
 >>>
 ```
 
+The DataFrame automatically creates a numeric index for each row.
+We can specify a custom index, when creating the DataFrame
+
 ```py
+import pandas as pd
+
+data = {
+   'ages': [14, 18, 24, 42],
+   'heights': [165, 180, 176, 184]
+}
+
 df = pd.DataFrame(data, index=['James', 'Bob', 'Amy', 'Dave'])
-print(df.loc['Bob'])
+print(df)
+
+>>>
+ages  heights
+James    14      165
+Bob      18      180
+Amy      24      176
+Dave     42      184
+>>>
+```
+
+Now we can access a row using its index and the loc[] function
+This will output the row that corresponds to the index "Bob".
+Note, that loc uses square brackets to specify the index.
+
+```py
+print(df.loc["Bob"])
+
+>>>
+ages        18
+heights    180
+Name: Bob, dtype: int64
+>>>
+```
+
+We can select a single column by specifying its name in square brackets:
+
+```py
+import pandas as pd
+
+data = {
+   'ages': [14, 18, 24, 42],
+   'heights': [165, 180, 176, 184]
+}
+
+df = pd.DataFrame(data, index=['James', 'Bob', 'Amy', 'Dave'])
+
+print(df["ages"])
+
+>>>
+James    14
+Bob      18
+Amy      24
+Dave     42
+Name: ages, dtype: int64
+>>>
+```
+
+If we want to select multiple columns, we can specify a list of column names:
+
+```py
+import pandas as pd
+
+data = {
+   'ages': [14, 18, 24, 42],
+   'heights': [165, 180, 176, 184]
+}
+
+df = pd.DataFrame(data, index=['James', 'Bob', 'Amy', 'Dave'])
+
+print(df[["ages", "heights"]])
+
+>>>
+ages  heights
+James    14      165
+Bob      18      180
+Amy      24      176
+Dave     42      184
+>>>
+```
+
+We can also select the data based on a condition.
+For example, let's select all rows where age is greater than 18 and height is greater than 180
+
+```py
+import pandas as pd
+
+data = {
+   'ages': [14, 18, 24, 42],
+   'heights': [165, 180, 176, 184]
+}
+
+df = pd.DataFrame(data, index=['James', 'Bob', 'Amy', 'Dave'])
+
+print(df[(df['ages']>18) & (df['heights']>180)])
+
+>>>
+ages  heights
+Dave    42      184
+>>>
 ```
 
 ```py
