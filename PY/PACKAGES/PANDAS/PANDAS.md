@@ -28,6 +28,7 @@ import pandas as pd
 * [MISSING_DATA](#MISSING_DATA)
 * [GROP_BY](#GROP_BY)
 * [MERGE_JOIN_CONCAT](#MERGE_JOIN_CONCAT)
+* [READING_DATA](#READING_DATA)
 
 ---
 
@@ -480,6 +481,34 @@ Name: new, dtype: float64
 >>>
 ```
 
+Since our data is only for the state of California, we can remove that column from our DataFrame, as it contains the same value for all rows
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.set_index('date', inplace=True)
+df.drop('state', axis=1, inplace=True)
+
+df.info()
+
+>>>
+<class 'pandas.core.frame.DataFrame'>
+Index: 342 entries, 25.01.20 to 31.12.20
+Data columns (total 2 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   cases   342 non-null    int64
+ 1   deaths  342 non-null    int64
+dtypes: int64(2)
+memory usage: 8.0+ KB
+>>>
+```
+
+drop() deletes rows and columns.
+axis=1 specifies that we want to drop a column.
+axis=0 will drop a row.
+
 ```py
 import numpy as np
 import pandas as pd
@@ -888,6 +917,100 @@ B  0.651118 -0.848077
 ```py
 
 ```
+
+[^^^](#PANDAS)
+
+---
+
+#### READING_DATA
+
+It is quite common for data to come in a file format. One of the most popular formats is the CSV (comma-separated values).
+Pandas supports reading data from a CSV file directly into a DataFrame.
+
+For our examples, we will use a CSV file that contains the COVID-19 infection data in California for the year 2020, called 'ca-covid.csv'.
+
+The read_csv() function reads the data of a CSV file into a DataFrame
+
+```py
+df = pd.read_csv("ca-covid.csv")
+```
+
+Pandas also supports reading from JSON files, as well as SQL databases.
+
+Once we have the data in a DataFrame, we can start exploring it.
+We can get the first rows of the data using the head() function of the DataFrame
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+print(df.head())
+
+>>>
+date       state  cases  deaths
+0  25.01.20  California      1       0
+1  26.01.20  California      1       0
+2  27.01.20  California      0       0
+3  28.01.20  California      0       0
+4  29.01.20  California      0       0
+>>>
+```
+
+By default it returns the first 5 rows. You can instruct it to return the number of rows you would like as an argument (for example, df.head(10) will return the first 10 rows).
+
+We can see that our DataFrame contains the date, state, number of cases and deaths for that date.
+Similarly, you can get the last rows using the tail() function.
+
+The info() function is used to get essential information about your dataset, such as number of rows, columns, data types, etc
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.info()
+
+>>>
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 342 entries, 0 to 341
+Data columns (total 4 columns):
+ #   Column  Non-Null Count  Dtype
+---  ------  --------------  -----
+ 0   date    342 non-null    object
+ 1   state   342 non-null    object
+ 2   cases   342 non-null    int64
+ 3   deaths  342 non-null    int64
+dtypes: int64(2), object(2)
+memory usage: 10.8+ KB
+>>>
+```
+
+From the result, we can see that our dataset contains 342 rows and 4 columns: date, state, cases, deaths.
+
+We also see that Pandas has added an auto generated index.
+We can set our own index column by using the set_index() function
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.set_index("date", inplace=True)
+
+print(df.head())
+
+>>>
+state  cases  deaths
+date                               
+25.01.20  California      1       0
+26.01.20  California      1       0
+27.01.20  California      0       0
+28.01.20  California      0       0
+29.01.20  California      0       0
+>>>
+```
+
+The inplace=True argument specifies that the change will be applied to our DataFrame, without the need to assign it to a new DataFrame variable.
 
 [^^^](#PANDAS)
 
