@@ -15,6 +15,7 @@
 * [LAYOUTS](#LAYOUTS)
 * [BOXLAYOUT](#BOXLAYOUT)
 * [SIZE_HINT_VS_POS_HINT](#SIZE_HINT_VS_POS_HINT)
+* [EMBED_A_LAYOUT](#EMBED_A_LAYOUT)
 
 ---
 
@@ -214,7 +215,7 @@ BoxLayoutExample:
 ```
 
 TheLab.kv
-pos_hint
+pos_hint - vertical
 
 ```
 BoxLayoutExample:
@@ -249,6 +250,56 @@ BoxLayoutExample:
         size: "40dp", "40dp"
         pos: "300dp", "400dp"
         color: 1, 0, 0, 1
+```
+
+TheLab.kv
+pos_hint - horizontal
+
+```
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "A"
+        size_hint: .5, .5
+        #size: "100dp", "60dp"
+        #width: "100dp"
+        #height: "60dp"
+        #x, center_x, right
+        #y, center_y, top
+        pos_hint: {"center_y": .5}
+    Button:
+        text: "B"
+    Label:
+        text: "C"
+
+<MainWidget>:
+
+    Button:
+        text: "Hello2"
+        size: "40dp", "40dp"
+        pos: "200dp", "300dp"
+        color: 0, 0, 1, 1
+
+    Label:
+        text: "Hello2"
+        size: "40dp", "40dp"
+        pos: "300dp", "400dp"
+        color: 1, 0, 0, 1
+```
+
+[^^^](#KIVY)
+
+---
+
+#### EMBED_A_LAYOUT
+
+```py
+
+```
+
+```
 
 ```
 
