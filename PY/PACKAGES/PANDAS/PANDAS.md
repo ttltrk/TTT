@@ -567,6 +567,156 @@ E  0.190794  1.978757  2.605967  0.683509
 >>>
 ```
 
+Pandas allows us to create our own columns.
+For example, we can add a month column based on the date column
+We do this by converting the date column to datetime and extracting the month name from it, assigning the value to our new month column.
+Our date is in DD.MM.YY format, which is why we need to specify the format attribute.
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+
+df['month'] = pd.to_datetime(df['date'], format="%d.%m.%y").dt.month_name()
+
+df.set_index('date', inplace=True)
+
+print(df.head())
+
+>>>
+cases  deaths    month
+date                            
+25.01.20      1       0  January
+26.01.20      1       0  January
+27.01.20      0       0  January
+28.01.20      0       0  January
+29.01.20      0       0  January
+>>>
+```
+
+Now that our dataset is clean and set up, we are ready to look into some stats!
+The describe() function returns the summary statistics for all the numeric columns
+
+This function will show main statistics for the numeric columns, such as std, mean, min, max values, etc.
+
+Run the code to see the result!
+From the result, we see that the maximum cases that have been recorded in a day is 64987, while the average daily number of new cases is 6748.
+We can also get the summary stats for a single column, for example:
+```df['cases'].describe()```
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['month'] = pd.to_datetime(df['date'], format="%d.%m.%y").dt.month_name()
+df.set_index('date', inplace=True)
+
+print(df.describe())
+
+>>>
+cases      deaths
+count    342.000000  342.000000
+mean    6747.862573   75.921053
+std    10023.201267   76.639861
+min        0.000000   -5.000000
+25%     1352.250000   22.000000
+50%     3462.500000   62.500000
+75%     7637.250000  104.000000
+max    64987.000000  574.000000
+>>>
+```
+
+Since we have a month column, we can see how many values each month has, by using the value_counts() functions.
+We can see that, for example, January has only 7 records, while the other months have data for all days.
+value_counts() returns how many times a value appears in the dataset, also called the frequency of the values.
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['month'] = pd.to_datetime(df['date'], format="%d.%m.%y").dt.month_name()
+df.set_index('date', inplace=True)
+
+print(df['month'].value_counts())
+
+>>>
+December     31
+May          31
+October      31
+March        31
+August       31
+July         31
+November     30
+April        30
+June         30
+September    30
+February     29
+January       7
+Name: month, dtype: int64
+>>>
+```
+
+Now we can calculate data insights!
+For example, let's determine the number of total infections in each month.
+To do this, we need to group our data by the month column and then calculate the sum of the cases column for each month:
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['month'] = pd.to_datetime(df['date'], format="%d.%m.%y").dt.month_name()
+df.set_index('date', inplace=True)
+
+print(df.groupby('month')['cases'].sum())
+
+>>>
+month
+April          41887
+August        210268
+December     1070577
+February          25
+January            3
+July          270120
+June          119039
+March           8555
+May            62644
+November      301944
+October       114123
+September     108584
+Name: cases, dtype: int64
+>>>
+```
+
+The groupby() function is used to group our dataset by the given column.
+
+We can also calculate the number of total cases in the entire year
+We can see that California had 2,307,769 infection cases in 2020.
+Similarly, we can use min(), max(), mean(), etc. to find the corresponding values for each group.
+
+```py
+import pandas as pd
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['month'] = pd.to_datetime(df['date'], format="%d.%m.%y").dt.month_name()
+df.set_index('date', inplace=True)
+
+print(df['cases'].sum())
+
+>>>
+2307769
+>>>
+```
+
 ```py
 import numpy as np
 import pandas as pd
