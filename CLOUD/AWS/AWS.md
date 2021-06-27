@@ -9,14 +9,29 @@
 
 ---
 
-* [EC2_INSTANCE](#EC2_INSTANCE)
+* [CCP](#CCP)
 
 ---
 
-#### EC2_INSTANCE
+#### CCP
 
-Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity
-in the cloud. Like as a virtual computer.
+AWS Certified Cloud Practitioner
+
+- Cloud concepts
+- Security
+- Technology
+- Billing and Pricing
+
+White papers:
+
+  - Overview of amazon webservices
+  - Architecting for the cloud: AWS best practices
+  - How AWS pricing works
+  - Cost management in the AWS Cloud
+
+What is Cloud computing?
+
+   
 
 [^^^](#AWS)
 
