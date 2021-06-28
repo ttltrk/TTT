@@ -12,7 +12,11 @@
 - [INTRO](#INTRO)
 - [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 - [TYPES_OF_CC](#TYPES_OF_CC)
+- [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
 - [](#)
+- [](#)
+- [](#)
+
 
 ---
 
@@ -89,7 +93,13 @@ Six advantages and benefits of cloud computing
 
 ---
 
-####
+#### INTRO_AND_MAP_OVERVIEW
+
+- 69 availability zones within 22 geographic regions around the world
+
+- regions: physical location in the world with multiple availability zones
+- availability zones: one or more discrete data centers
+- edge location: datacenter owned by a trusted AWS
 
 [^^^](#LIST_TO)
 
