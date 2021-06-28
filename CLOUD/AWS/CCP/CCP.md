@@ -9,6 +9,9 @@
 
 AWS Certified Cloud Practitioner
 
+https://www.aws.training/
+https://www.aws.amazon.com/
+
 ---
 
 - [INTRO](#INTRO)
