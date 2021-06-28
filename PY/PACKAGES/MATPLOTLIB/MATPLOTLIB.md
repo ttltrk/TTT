@@ -28,7 +28,9 @@ plt is a common name used for importing this module.
 * [BOX_PLOT](#BOX_PLOT)
 * [HISTOGRAM](#HISTOGRAM)
 * [AREA_PLOT](#AREA_PLOT)
-* [](#)
+* [SCATTER_PLOT](#SCATTER_PLOT)
+* [PIE_CHART](#PIE_CHART)
+* [PLOT_FORMATTING](#PLOT_FORMATTING)
 
 ---
 
@@ -198,8 +200,150 @@ plot(kind="hist", bins = 10)
 
 #### AREA_PLOT
 
-```py
+kind='area' creates an Area plot:
 
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df.set_index('date', inplace=True)
+
+df[df["month"]==6][["cases", "deaths"]].plot(kind="area", stacked=False)
+plt.savefig('plot.png')
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### SCATTER_PLOT
+
+A scatter plot is used to show the relationship between two variables.
+
+For example, we can visualize how the cases/deaths are related:
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df.set_index('date', inplace=True)
+
+df[df["month"]==6][["cases", "deaths"]].plot(kind="scatter", x='cases', y='deaths')
+plt.savefig('plot.png')
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### PIE_CHART
+
+We can create a pie chart using kind="pie".
+Let's create one for cases by month:
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = (df['date'].dt.month_name()).str[:3]
+df.set_index('date', inplace=True)
+
+df.groupby('month')['cases'].sum().plot(kind="pie")
+plt.savefig('plot.png')
+```
+
+Pie charts are generally used to show percentage or proportional data.
+Pie charts are usually used when you have up to 6 categories.
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### PLOT_FORMATTING
+
+Matplotlib provides a number of arguments to customize your plot.
+The legend argument specifies whether or not to show the legend.
+You can also change the labels of the axis by setting the xlabel and ylabel arguments:
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df['day'] = df['date'].dt.day
+df.set_index('day', inplace=True)
+
+df = df[df['month']==6]
+
+df[['cases', 'deaths']].plot(kind="line", legend=True)
+plt.xlabel('Days in June')
+plt.ylabel('Number')
+plt.savefig('plot.png')
+```
+
+By default, pandas select the index name as xlabel, while leaving it empty for ylabel.
+
+The suptitle() function can be used to set a plot title:
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df['day'] = df['date'].dt.day
+df.set_index('day', inplace=True)
+
+df = df[df['month']==6]
+
+df[['cases', 'deaths']].plot(kind="area", legend=True)
+plt.xlabel('Days in June')
+plt.ylabel('Number')
+plt.suptitle("COVID-19 in June")
+plt.savefig('plot.png')
+```
+
+We can also change the colors used in the plot by setting the color attribute. It accepts a list of color hexes.
+
+For example, let's set the cases to blue, deaths to red colors:
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df['day'] = df['date'].dt.day
+df.set_index('day', inplace=True)
+
+df = df[df['month']==6]
+
+df[['cases', 'deaths']].plot(kind="area", legend=True, stacked=False, color=['#1970E7', '#E73E19'])
+plt.xlabel('Days in June')
+plt.ylabel('Number')
+plt.suptitle("COVID-19 in June")
+plt.savefig('plot.png')
 ```
 
 [^^^](#MATPLOTLIB)
