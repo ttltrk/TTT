@@ -5,7 +5,9 @@
 
 ---
 
-### AWS Certified Cloud Practitioner
+### AWS_CCP
+
+AWS Certified Cloud Practitioner
 
 ---
 
@@ -13,7 +15,7 @@
 - [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 - [TYPES_OF_CC](#TYPES_OF_CC)
 - [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
-- [](#)
+- [REGIONS](#REGIONS)
 - [](#)
 - [](#)
 
@@ -36,7 +38,7 @@ White papers:
   - How AWS pricing works
   - Cost management in the AWS Cloud
 
-[^^^](#LIST_TO)
+[^^^](#AWS_CCP)
 
 ---
 
@@ -77,7 +79,7 @@ Six advantages and benefits of cloud computing
   - Deploy your app in multiple regions around the world with a few clicks. Provide lower latency and a better
     experience for your customers at minimal cost
 
-[^^^](#LIST_TO)
+[^^^](#AWS_CCP)
 
 ---
 
@@ -89,7 +91,7 @@ Six advantages and benefits of cloud computing
 - IAAS for admins - Infrastructures as a Service, The basic building blocks for cloud IT. Provides access to networking
                     feature, computers and data storage space
 
-[^^^](#LIST_TO)
+[^^^](#AWS_CCP)
 
 ---
 
@@ -101,6 +103,20 @@ Six advantages and benefits of cloud computing
 - availability zones: one or more discrete data centers
 - edge location: datacenter owned by a trusted AWS
 
-[^^^](#LIST_TO)
+[^^^](#AWS_CCP)
+
+---
+
+#### REGIONS
+
+A geographical distinct location which has multiple datacenters (AZs)
+Every region is physically isolated from and independent of every other region in terms of location, power, water supply
+Each regions has at least 2 AZs
+AWS largest region is US-EAST
+New services almost always become available first in US-EAST
+Not all services are available in all regions
+US-EAST-1 is the region where you see all your billing info  
+
+[^^^](#AWS_CCP)
 
 ---
