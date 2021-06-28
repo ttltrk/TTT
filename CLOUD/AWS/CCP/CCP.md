@@ -65,8 +65,13 @@ Six advantages and benefits of cloud computing
   - Eliminate guesswork about infrastructure capacity needs. Instead of paying for idle
     or underutilized servers, you can scale up or down to meet the current need.
 - Increase speed and agility
+  - Launch resources within a few clicks in minutes instead of waiting days or weeks of your IT
+    to implement the solution on-premise
 - Stop spending money on running and maintaining data centers
+  - Focus on your own customers, rather than on the heavy lifting of racking, stacking and powering servers
 - Go global in minutes   
+  - Deploy your app in multiple regions around the world with a few clicks. Provide lower latency and a better
+    experience for your customers at minimal cost
 
 [^^^](#LIST_TO)
 
