@@ -83,7 +83,8 @@ Six advantages and benefits of cloud computing
 - PAAS for developers - Platform as a Service, Removes the need for your organization to manage the underlying
                         infrastructure. Focus on the deployment and management of your applications.
 - IAAS for admins - Infrastructures as a Service, The basic building blocks for cloud IT. Provides access to networking
-                    feature, computers and data storage space 
+                    feature, computers and data storage space
+
 [^^^](#LIST_TO)
 
 ---
