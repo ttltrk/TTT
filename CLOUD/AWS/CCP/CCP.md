@@ -11,7 +11,7 @@
 
 - [INTRO](#INTRO)
 - [CLOUD_COMPUTING](#CLOUD_COMPUTING)
-- [](#)
+- [TYPES_OF_CC](#TYPES_OF_CC)
 - [](#)
 
 ---
@@ -72,6 +72,23 @@ Six advantages and benefits of cloud computing
 - Go global in minutes   
   - Deploy your app in multiple regions around the world with a few clicks. Provide lower latency and a better
     experience for your customers at minimal cost
+
+[^^^](#LIST_TO)
+
+---
+
+#### TYPES_OF_CC
+
+- SAAS for customers - Software as a Service, A completed product that is run and managed by the service providers
+- PAAS for developers - Platform as a Service, Removes the need for your organization to manage the underlying
+                        infrastructure. Focus on the deployment and management of your applications.
+- IAAS for admins - Infrastructures as a Service, The basic building blocks for cloud IT. Provides access to networking
+                    feature, computers and data storage space 
+[^^^](#LIST_TO)
+
+---
+
+####
 
 [^^^](#LIST_TO)
 
