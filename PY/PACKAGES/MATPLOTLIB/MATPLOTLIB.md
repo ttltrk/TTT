@@ -25,7 +25,9 @@ plt is a common name used for importing this module.
 * [BASICS](#BASICS)
 * [LINE_PLOT](#LINE_PLOT)
 * [BAR_PLOT](#BAR_PLOT)
-* [](#)
+* [BOX_PLOT](#BOX_PLOT)
+* [HISTOGRAM](#HISTOGRAM)
+* [AREA_PLOT](#AREA_PLOT)
 * [](#)
 
 ---
@@ -119,6 +121,85 @@ df.set_index('date', inplace=True)
 
 (df.groupby('month')['cases'].sum()).plot(kind="bar")
 plt.savefig('plot.png')
+```
+
+We can also plot multiple columns.
+The stacked property can be used to specify if the bars should be stacked on top of each other.
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df.set_index('date', inplace=True)
+
+df = df.groupby('month')[['cases', 'deaths']].sum()
+df.plot(kind="bar", stacked=True)
+plt.savefig('plot.png')
+```
+
+kind="barh" can be used to create a horizontal bar chart.
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### BOX_PLOT
+
+A box plot is used to visualize the distribution of values in a column, basically visualizing the result of the describe() function.
+
+For example, let's create a box plot for the cases in June:
+
+```py
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("https://www.sololearn.com/uploads/ca-covid.csv")
+df.drop('state', axis=1, inplace=True)
+df['date'] = pd.to_datetime(df['date'], format="%d.%m.%y")
+df['month'] = df['date'].dt.month
+df.set_index('date', inplace=True)
+
+df[df["month"]==6]["cases"].plot(kind="box")
+plt.savefig('plot.png')
+```
+
+The green line shows the median value.
+The box shows the upper and lower quartiles (25% of the data is greater or less than these values).
+The circles show the outliers, while the black lines show the min/max values excluding the outliers.
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### HISTOGRAM
+
+Similar to box plots, histograms show the distribution of data.
+Visually histograms are similar to bar charts, however, histograms display frequencies for a group of data rather than an individual data point; therefore, no spaces are present between the bars.
+
+Typically, a histogram groups data into chunks (or bins).
+
+```py
+df[df["month"]==6]["cases"].plot(kind="hist")
+```
+
+The histogram grouped the data into 9 bins and shows their frequency. You can see that, for example, only single data points are greater than 6000.
+
+```py
+plot(kind="hist", bins = 10)
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### AREA_PLOT
+
+```py
+
 ```
 
 [^^^](#MATPLOTLIB)
