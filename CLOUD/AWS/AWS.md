@@ -9,6 +9,6 @@
 
 ---
 
-* [CCP](https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP.md)
+* [CCP](https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP/CCP.md)
 
 ---
