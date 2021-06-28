@@ -57,9 +57,13 @@ Six advantages and benefits of cloud computing
 
 - Trade capital expense for variable expense
   - No upfront-cost instead of paying for data centers and servers. Pay on-demand
-    pay pnly when you consume computing resources 
+    pay only when you consume computing resources
 - Benefit from massive economic of scale
+  - Usage from hundreds of thousands of customers aggregated in the cloud. You are sharing
+    the cost with other customers to get unbeatable savings
 - Stop guessing capacity
+  - Eliminate guesswork about infrastructure capacity needs. Instead of paying for idle
+    or underutilized servers, you can scale up or down to meet the current need.
 - Increase speed and agility
 - Stop spending money on running and maintaining data centers
 - Go global in minutes   
