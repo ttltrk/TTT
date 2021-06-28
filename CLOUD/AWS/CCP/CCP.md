@@ -16,6 +16,10 @@ AWS Certified Cloud Practitioner
 - [TYPES_OF_CC](#TYPES_OF_CC)
 - [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
 - [REGIONS](#REGIONS)
+- [EDGE_LOCATIONS](#EDGE_LOCATIONS)
+- [GOVCLOUD_REGIONS](#GOVCLOUD_REGIONS)
+- [](#)
+- [](#)
 - [](#)
 - [](#)
 
@@ -116,6 +120,35 @@ AWS largest region is US-EAST
 New services almost always become available first in US-EAST
 Not all services are available in all regions
 US-EAST-1 is the region where you see all your billing info  
+
+[^^^](#AWS_CCP)
+
+---
+
+#### EDGE_LOCATIONS
+
+An edge location is a datacenter owned by a trusted partner of AWS which has a direct connection to the AWS network.
+These locations server requests for CloudFront and Route 53. Requests going to either of these services will be routed
+to the nearest edge location automatically.
+S3 Transfer Acceleration traffic and API Gateway endpoint traffic also use the AWS edge network .
+This allows for low latency no matter where the end user is geographically located.
+
+[^^^](#AWS_CCP)
+
+---
+
+#### GOVCLOUD_REGIONS
+
+AWS GovCloud regions allow customers to host sensitive Controlled Unclassified Information and other types of regulated
+workloads.
+GovCloud regions are only operated by employees who are US citizens on US soil.
+They are only accessible to US entities and root account holders who pass a screening process.
+Customers can architect secure cloud solutions that comply with:
+- FedRAMP high baseline
+- DOJs Criminal Justice Information Systems (CJIS) Security policy
+- US international traffic in ARMS regulations (ITAR)
+- Export administration regulations (EAR)
+- Department of Defense (DOD) Cloud computing security requirements guide
 
 [^^^](#AWS_CCP)
 
