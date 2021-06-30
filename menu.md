@@ -6,6 +6,18 @@
 ---
 
 ```
+PRIOS
+
+0. DUO
+1. PY
+2. CLOUD
+3. DB
+4. DS
+5. PLATFORM
+6. EE
+```
+
+```
 HTML >> CSS >> JS
 
 DJANGO >> PY
@@ -20,7 +32,7 @@ MONGO >> PY
 
 AWS CLOUD
 
-BLOCKCHAIN 
+BLOCKCHAIN
 AWS EC2 >> SPARK >> PY
 DOCKER >> KUBERNETES >> SWARM
 ```

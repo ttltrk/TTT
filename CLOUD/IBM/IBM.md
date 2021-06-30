@@ -87,7 +87,8 @@ This cloud model is composed of:
 - three deployment models
 - three service models
 
-Essential characteristics of the cloud:
+5 Essential characteristics of the cloud:
+
 - on-demand self-service
 - broad network access
 - resource pooling
@@ -128,31 +129,45 @@ three deployment models, and three service models.
 We just went over the five essential characteristics.
 While we will go into greater depth of the deployment and the service models in the later
 videos, let me leave you with a brief overview of these models.
-There are three types of cloud deployment models—Public, Private, and Hybrid.
-Public cloud is when you leverage cloud services over the open internet on hardware owned by
+
+There are three types of cloud deployment models:
+
+- Public
+- Private
+- Hybrid
+
+1. Public cloud is when you leverage cloud services over the open internet on hardware owned by
 the cloud provider, but its usage is shared by other companies.
-Private cloud means that the cloud infrastructure is provisioned for exclusive use by a single
-organization.
-It could run on-premises or it could be owned, managed, and operated by a service provider.
-And when you use a mix of both public and private clouds, working together seamlessly,
+
+2. Private cloud means that the cloud infrastructure is provisioned for exclusive use by a single
+organization. It could run on-premises or it could be owned, managed, and operated by a service provider.
+
+3. And when you use a mix of both public and private clouds, working together seamlessly,
 that is classified as the Hybrid model.
-Now, let’s look at the three service models that are based on the three layers in a computing
-stack - Infrastructure, Platform, and Applications.
-These cloud computing models are aptly referred to as Infrastructure as a Service (Iaas),
-Platform as a Service (PaaS), and Software as a Service (SaaS).
-In an Infrastructure as a Service model, you get access to infrastructure and physical
+
+Now, let’s look at the three service models that are based on the three layers in a computing stack:
+
+- Infrastructure
+- Platform
+- Applications
+
+These cloud computing models are aptly referred to as:
+
+- Infrastructure as a Service (Iaas)
+- Platform as a Service (PaaS)
+- Software as a Service (SaaS)
+
+1. In an Infrastructure as a Service model, you get access to infrastructure and physical
 computing resources such as servers, networking, storage, and data center space - without the
 need to manage or operate them.
-In a Platform as a Service model, you get access to the platform, that is the hardware
+
+2. In a Platform as a Service model, you get access to the platform, that is the hardware
 and software tools, usually those needed to develop and deploy applications to users over
 the Internet.
-Software as a Service is a software licensing and delivery model in which software and applications
+
+3. Software as a Service is a software licensing and delivery model in which software and applications
 are centrally hosted and licensed on a subscription basis, and sometimes also referred to as "on-demand
 software."
-In the next video, we will go over some of the key evolutions that brings us to what
-cloud computing is today.
-
-
 
 [^^^](#IBM_CLOUD)
 
