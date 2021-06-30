@@ -11,6 +11,7 @@ AWS Certified Cloud Practitioner
 
 https://www.aws.training/
 https://www.aws.amazon.com/
+https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 ---
 
