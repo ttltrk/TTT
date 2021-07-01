@@ -16,8 +16,8 @@
 
 * [BASICS](#BASICS)
 * [EXPONENTIATION](#EXPONENTIATION)
-* [](#)
-* [](#)
+* [MULTIPLICATION](#MULTIPLICATION)
+* [DIVISION](#DIVISION)
 * [](#)
 * [](#)
 
@@ -111,9 +111,54 @@ print(2. ** 3.)
 
 ---
 
+#### MULTIPLICATION
+
+An ```*``` (asterisk) sign is a multiplication operator.
+
+```py
+print(2 * 3)
+print(2 * 3.)
+print(2. * 3)
+print(2. * 3.)
+
+>>>
+6
+6.0
+6.0
+6.0
+>>>
+```
+
 [^^^](#OPERATORS)
 
 ---
+
+#### DIVISION
+
+A ```/``` (slash) sign is a divisional operator.
+
+The value in front of the slash is a dividend, the value behind the slash, a divisor.
+
+```py
+print(6 / 3)
+print(6 / 3.)
+print(6. / 3)
+print(6. / 3.)
+
+>>>
+2.0
+2.0
+2.0
+2.0
+>>>
+```
+
+The result produced by the division operator is always a float, regardless of whether or not the result seems to be a float at first glance: ```1 / 2```,
+or if it looks like a pure integer: ```2 / 1```.
+
+Is this a problem? Yes, it is. It happens sometimes that you really need a division that provides an integer value, not a float.
+
+Fortunately, Python can help you with that.
 
 [^^^](#OPERATORS)
 
