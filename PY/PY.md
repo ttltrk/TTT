@@ -17,6 +17,7 @@
 * [DATA_TYPES](https://github.com/ttltrk/TTT/blob/master/PY/DATA_TYPES/DATA_TYPES.md)
 * [NUMBERS](https://github.com/ttltrk/TTT/blob/master/PY/NUMBERS/NUMBERS.md)
 * [STRINGS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS.md)
+* [OPERATORS](https://github.com/ttltrk/TTT/blob/master/PY/OPERATORS/OPERATORS.md)
 * [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/ARRAYS.md)
 * [PRINT_FORMATTING](https://github.com/ttltrk/TTT/blob/master/PY/PRINT_FORMATTING/PRINT_FORMATTING.md)
 * [LOGICAL_CONTROL](https://github.com/ttltrk/TTT/blob/master/PY/LOGICAL_CONTROL/LOGICAL_CONTROL.md)
