@@ -69,10 +69,6 @@ We'll begin with the operators which are associated with the most widely recogni
 **
 ```
 
-```py
-
-```
-
 [^^^](#OPERATORS)
 
 ---
