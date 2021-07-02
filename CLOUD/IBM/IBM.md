@@ -17,7 +17,7 @@ https://courses.cognitiveclass.ai/courses/course-v1:IBMDeveloperSkillsNetwork+CC
 * [INTRO](#INTRO)
 * [OVERVIEW_CC](#OVERVIEW_CC)
 * [CC_SERVICE_AND_DEPLOYMENT](#CC_SERVICE_AND_DEPLOYMENT)
-* [](#)
+* [MODULE_2_CLOUD_ADOPTION_EMERGING_TECH](#MODULE_2_CLOUD_ADOPTION_EMERGING_TECH)
 * [](#)
 * [](#)
 * [](#)
@@ -399,6 +399,338 @@ in the cloud.
 There is also an SAP Cloud Platform for building and extending business applications with rapid
 innovation cycles in a secure cloud computing environment managed by SAP.
 In the next video, we’re going to look at the business case for cloud computing.
+
+[^^^](#IBM_CLOUD)
+
+---
+
+#### MODULE_2_CLOUD_ADOPTION_EMERGING_TECH
+
+##### No Longer a Choice
+
+Cloud adoption is no longer a thing of the future.
+From a single individual to a global multi-billion-dollar enterprise, anybody can access the computing
+capacity they need on the cloud.
+The lag time from decision to value is no longer a journey of years with high upfront
+capital; cloud makes it possible for businesses to experiment, fail, and learn much faster
+than ever before, with low risk exposure.
+
+Businesses today have greater freedom to change course than to live with the consequences
+of expensive decisions taken in the past.
+According to an IBM Institute for Business Value study, more than three-quarters of enterprises
+today are using cloud computing to expand into new industries.
+
+74% have adopted cloud to improve customer experience; and 71% use cloud to create enhanced
+products and services—while simultaneously downsizing legacy systems and reducing costs.
+To remain competitive, businesses need to be able to respond quickly to marketplace
+changes, use analytics to understand customer experience, and apply that understanding to
+adapt their products and services based on what they learn.
+
+Product lifecycles have shortened, and barriers to entry have become lower.
+Today’s enablers for growth, agility, and innovation include:
+
+Cognitively-enabled workflows, Applied exponential technologies such as AI, Automation, IoT, and Blockchain,
+Applications that span new and legacy solutions; and dOpen hybrid and secure Multicloud infrastructures.
+
+The power, scalability, flexibility, and pay-as-you-go economics of cloud provides the foundation
+for this transformation.
+
+The International Data Corporation, IDC, predicts that by 2025, the total amount of digital
+data created worldwide will rise to 163 zettabytes (where one zettabyte is equivalent to a trillion
+gigabytes).
+And 30% of this data will be real-time information.
+
+Considering the unprecedented amounts of data being produced daily, and the ability to make
+data-driven decisions crucial to any business, cloud computing becomes essential for businesses
+to succeed, sustain, and compete in today’s markets.
+A cloud strategy, more than just an IT strategy, is the core component of any business strategy
+today.
+
+Businesses that haven’t already, or are not currently, integrating cloud into their
+business strategy, run the risk of lacking the speed, agility, innovation, and decision-making
+capacities needed to be competitive, as also their ability to respond to digital disruption.
+In the next video, we’ll look at some case studies that demonstrate the impact businesses
+have created by adopting cloud.
+
+##### Some Case Studies
+
+In this video, we will look at how some of the leading businesses have transformed the
+way they work to provide better customer service, remove barriers to innovation, achieve enterprise
+scale, and accelerate growth, using cloud technologies.
+Although the case studies we’ll look at are curated from IBM Cloud, similar stories
+with dramatic impact to business can be found across the spectrum of companies utilizing
+other Cloud Service providers as well.
+
+- BETTER CUSTOMER SERVICE: In the highly competitive airline industry,
+customer experience is a major point of differentiation, and digital channels are increasingly important.
+To become more responsive to customer needs, American Airlines needed a new technology
+platform and a new approach to development that would help it deliver digital self-service
+tools and customer value more rapidly across its enterprise.
+The airline recognized the opportunity to remove the constraints of their existing customer-facing
+applications based on monolithic code into cloud-native based microservices architecture
+on the cloud.
+
+- The results: Faster development and release of new apps.
+Improved operational reliability, productivity, and end customer response times.
+Cost savings by avoiding existing upgrade costs via migration to the IBM Cloud.
+
+- REMOVING BARRIERS TO INNOVATION: As a lean organization with a self-imposed
+limit on headcount, UBank excels at finding innovative ways to meet demands.
+Continually challenged to find more efficient ways to operate, UBank’s IT team explored
+a Platform as a Service (PaaS) cloud development model.
+Their need was to give more control to their developers, reduce the need for additional
+resources, faster speed to market, and removing barriers in going from an idea to production.
+UBank launched new initiatives in an IBM Cloud Platform environment, including a virtual
+assistant that incorporates IBM Watson technology to support the bank’s online home loan application.
+
+- The results: Faster time to market made possible through
+the Cloud Platform framework that streamlines development and empowers product teams.
+Foster greater innovation with cloud-based development resources that are quick, easy,
+and cost-effective to deploy.
+
+More efficient operations.
+
+- DEMAND FOR ENTERPRISE SCALE: Since its inception in 2008, Bitly has journeyed
+from a startup that offered intelligent link-shortening technology adopted by users to compress lengthy
+URLs for social media posts, to an enterprise product.
+Seeking an agile, cost-effective IT infrastructure to support this transition, Bitly started
+planning for cloud migration.
+Their need was to have a cloud-based model with pay-as-you-go pricing, the ability to
+scale up and scale down, a more global presence, and the ability to geodistribute into more
+POPs.
+And they wanted it to be low-risk.
+Bitly migrated to an IBM Cloud environment, establishing a scalable hosting platform for
+low-latency delivery to enterprise customers around the world.
+The results: 25 billion data-infused links migrated from
+one hosting site to Cloud infrastructure with data center locations worldwide.
+1 billion user interaction data set stored and managed in a flexible, cost-effective
+Cloud Object Storage environment.
+Transformed IT operations to scale for growth, control costs and focus valuable resources
+on new product development.
+
+- ACCELERATING GROWTH: Financial traders demand extreme speed and
+availability from trading systems.
+Profitability depends on split-second decisions.
+As a leading online broker in forex, commodities, equities, cryptocurrencies, indices, and other
+financial instruments, ActivTrades enables investors to buy and sell on numerous financial
+markets.
+Investors need reliable access to accurate market information, combined with the ability
+to move rapidly to execute trades.
+As its client base grew, ActivTrades wanted to cut latency, accelerate execution, and
+streamline the delivery of new functions.
+ActivTrades migrated three major trading systems from on-premises infrastructure to IBM Cloud
+for VMware solutions, backed by data storage, networking, and security offerings on the IBM Cloud.
+
+- The results: Up to 3X performance boost, helping clients
+seize fleeting opportunities for profit.
+Security-rich cloud platform with ultra-high availability protects client investments.
+Hours, not days to fire up new resources, for faster response to emerging requirements.
+
+##### Internet of Things in the Cloud
+
+In this new era technologies such as Internet of Things, Big Data, artificial
+intelligence, and blockchain are disrupting existing business models and
+industries while creating unprecedented opportunities for businesses to
+differentiate themselves and create value for their clients.
+
+The power, scale, dynamic nature, and economics of the cloud resources make cloud computing a
+key enabler for adoption and evolution of these emerging technologies.
+
+The Internet of Things, or IoT, is a giant network of connected things and people that have changed much of how we
+live our daily lives - from the way we drive, to how we make purchases,
+monitoring our personal health, and even how we get energy for our homes. Smart
+devices and sensors are continuously tracking and collecting data. For example,
+a smart building could have thousands of sensors measuring all kinds of data
+related to thermal, optical, structural, and environmental stimuli. An
+unprecedented amount of data is being generated, putting a tremendous strain on
+the Internet. That is where the cloud comes in, by
+connecting the IoT device user to the cloud - be it for device registration,
+device identity, storing data, or accessing enterprise data. Data collected
+through IoT devices is stored and processed on the cloud since IoT devices
+can be in a state of motion, the cloud serves as a collection point in closest
+proximity, minimizing the latency in reporting up the data points and
+providing a response back to the IoT application.
+So, from IOT platforms running entirely on the cloud to the interfaces used by
+customers to interact these devices, to the backend analytics
+platforms - cloud computing supports and enables IoT.
+
+Cloud service providers also offer specialized IoT services designed to help speed up the development of IoT
+solutions. Let's look at a case study that demonstrates the use of the IoT on
+the cloud to combat the poaching of endangered rhinos at Welgevonden by
+making poaching predictable.
+
+The rhinos have become one of the the key species that is becoming endangered due
+to poaching throughout Africa. But now especially in South Africa.
+Up until now, poachers have been increasing in numbers, and they become
+more militarized with weapons. And so of course we've had to do the same. This is
+not sustainable. The only way to do this better, is to bring in technology and
+things that they do not have. This endangered species is getting help from
+some unexpected friends, the zebra and antelope. They're wearing IoT sensors
+connected to the IBM cloud. When poachers enter the area, the animals run for it,
+which alerts Rangers who can track their emotions and help stop them before any
+harm is done. It's a smart way to help increase the Rhino population and turn
+the poachers into the endangered species.
+
+##### Artificial Intelligence on the Cloud
+
+Making sense of the endless streams of data is where Artificial Intelligence, or AI, comes
+in.
+
+Many of the applications where we apply AI today simply wouldn't have been possible without
+the scalable, on-demand computing offered by the cloud.
+There is a three-way relationship between AI, IoT, and Cloud.
+Just as AI consumes the data produced by IoT devices, the IoT devices’ behavior can be
+dictated based on responses from AI.
+
+For example, Smart Assistants, a common type of IoT device, continues to learn about the
+user’s preferences as usage grows, such as the songs they like, their home temperature
+settings, preferred meal times, and over time they anticipate their actions based on the
+user’s past history.
+
+So, what we see is a symbiotic relationship between IoT, AI, and Cloud.
+
+IoT delivers the data, AI powers the insights, and both these emerging technologies leverage
+cloud’s scalability and processing power to provide value to individuals and businesses
+alike.
+
+Let’s look at how the United States Tennis Association, USTA, is using AI on the Cloud
+to deliver unique digital experiences to millions of fans around the world.
+
+For two weeks at the end of every summer, tennis fans around the world turn their eyes
+to New York city, and the US Open.
+Hundreds of thousands onsite, and millions more online.
+But where you see tennis, IBM sees data;
+the scores and statistics, the sights, the sounds.
+IBM integrates and analyzes the data flowing from the court.
+And delivers unique digital experiences to more than ten million tennis fans around the
+world.
+And we do it all in the IBM Cloud.
+The IBM Cloud is the digital foundation of the US Open.
+It scales rapidly to meet a five thousand percent increase in web traffic.
+And it delivers a consistant experience to our fans all around the globe.
+And with Watson on the IBM Cloud, we can engage fans in unique ways, year after year.
+Slam Tracker analyzes more than twenty-six million historical data points.
+It gives fans deep insight into featured matches, and it can see the momentum of a match shifting
+in real time.
+AI Highlights uses Watson to process thousands of hours of US Open video.
+It can hear the cheers of the crowd.
+It can see a player celebrating.
+And it knows what makes a great tennis highlight.
+And this year we're putting the power of AI Highlights into the hands of US players and
+coaches.
+Watson is analyzing match video,
+so coaches can quickly find the footage they need to guide the development of their players.
+And if you need to know where to park, find a good burger, or grab the latest US Open
+gear, you can find the answers with the Guest Information feature in the US Open app
+and mobile web, using Watson.
+We work with IBM because they keep us on the cutting edge of the fan experience.
+They help us to adopt the latest technology, like Cloud and AI.
+And they bring data to life in a way that's accessible and engaging for our fans.
+
+##### Blockchain and Analytics on the Cloud
+
+Blockchain is a secure, distributed, open technology that can help speed up
+processes, lower costs, and build transparency and traceability in
+transactional applications.
+
+It is an immutable Network allowing members to view only those transactions that are relevant to them.
+The more open, diverse,
+and distributed the network, the stronger the trust and transparency in the data
+and transactions.
+
+85% of businesses today rely on multiple clouds to meet their IT
+needs, with more than 70% using more than three. These businesses need to be able
+to move applications and data across multiple clouds easily and securely,
+leading to the emerging demand to build and manage business applications such as
+blockchain for the multi cloud environment. Blockchain and AI, much like
+IoT and AI, powered by the cloud, also have a three-way relationship. Where
+blockchain technology provides the trusted, decentralized source of truth, AI
+powers the analytics and decision-making from the data collected, and cloud
+provides globally distributed, scalable, and cost-efficient computing resources
+to support both the unprecedented amounts of data being collected and the
+processing power required to draw insights from this data. Blockchain
+serves to make AI more understandable by recording the data and variables that go
+into a decision made in an AI algorithm, leading to greater trust and
+transparency in the conclusions and decisions made by these algorithms. Let's
+look at how blockchain on the cloud is helping farmers reduce waste at times of
+recall by building traceability and transparency in the food supply chain.
+
+For farmers here, this is our life's work. 60% of the nation's lettuce is
+grown right here in Salinas. When it comes down to how plants are looked at, I
+really relate back to how humans are raised and nurtured. I want to make sure
+that everything is safe before it leaves the ranch. But when a recall happens,
+perfectly good food goes to waste. You have to take all product off your shelf,
+no matter what age, no matter where it came from. And it takes resources to grow
+those things. Now we're actually eating into our future food supply. But
+we've gotta way around that. With Blockchain technology on the IBM cloud
+we're able to track our product within seconds. Giving the consumers instant
+access where the product came from, in case there's any recall so we don't
+have to take all the food off the shelves.
+Having that instant access allows you to reduce the waste. There's a lot of
+starving people in this world. I want to be a generation that
+fixes that.
+
+Analytics technologies on the cloud leverage the flexibility, scalability, and
+computing resources available on the cloud. From tracking trends on social
+media to predict future events, to analyzing data to build machine learning
+models that can be deployed in cognitive applications, cloud provides the
+integrated environment that is required to leverage data for continuous
+improvement and accelerated business growth. Let's look at how KONE has
+invested in cloud and IoT technologies to power a data analytics and predictive
+maintenance solution for city infrastructure used by more than 1
+billion people daily.
+
+At KONE we manufacture elevators, escalators, auto
+walks, and doors All of these devices are streams of data that we are collecting.
+In order to process those streams, we need a scalable way of handling the amount
+of data that is coming in. And that's where cloud function fits in perfectly.
+We handle that data with event-driven architecture. We use functions to persist
+that data, and to generate further events on that data, that are then utilized and
+consumed by applications, our customers and users. In our analytics
+platform, we analyzed the set of data and we generate value predictive in a sense
+that we can predict the failure rate to a certain percentage that is about to
+happen in the future for our equipment. And this allows us to perform predictive
+maintenance. And this is kind of the whole concept that we have behind our
+24/7 connected services, which is a promise to our customers. That the
+equipment is connected to the cloud and we are monitoring it. And that's where we
+generate the real a value for our customers. At the
+moment we use almost all aspects of the IBM cloud. We use storage from the cloud.
+We use cloud function. We use messaging services. We
+use IoT services. So a number of services already in use and platform. And that use
+will only grow as our digital footprint in the industry grows.
+
+##### Module 2 Summary
+
+The adoption of cloud technologies is enabling enterprises, big and small, to be agile, innovative, and competitive, and to create differentiated customer experiences. The question organizations are asking is not whether they should move to the cloud, rather what strategy they should adopt to move to the cloud.
+
+
+●       Some case studies that demonstrate the impact businesses have created by adopting cloud
+
+    o   American Airlines adopting cloud technologies to deliver customer value rapidly across its enterprise
+
+    o   UBank leveraging cloud platform services to give more control to their developers thereby removing barriers to innovation
+
+    o   Bitly leveraging the scalability offered by cloud infrastructure for low-latency delivery to its geographically disbursed enterprise customers
+
+    o   ActivTrades leveraging the infrastructure, storage, network, and security offerings on the cloud to accelerate execution and delivery of new functions in their online trading systems to their customers
+
+
+●       Emerging technologies, powered by the cloud, are disrupting existing business models and creating unprecedented opportunities for businesses to grow, innovate, and create value for their customers.
+
+
+●       Some case studies that demonstrate how the use of emerging technologies on the cloud is creating value for millions around the world.
+
+    o   The use of the Internet of Things on the cloud to combat poaching of endangered rhinos in South Africa
+
+    o   Artificial Intelligence on the cloud being leveraged to deliver unique digital experiences to millions of fans around the world by the United States Tennis Association
+
+    o   Blockchain on the cloud helping farmers reduce waste by building traceability and transparency in the food supply chain
+
+    o   The use of data analytics for driving predictive maintenance solutions for a city’s infrastructure by KONE
+
+[^^^](#IBM_CLOUD)
+
+---
 
 [^^^](#IBM_CLOUD)
 
