@@ -14,17 +14,19 @@ https://courses.cognitiveclass.ai/courses/course-v1:IBMDeveloperSkillsNetwork+CC
 
 ---
 
-* [INTRO](#INTRO)
-* [OVERVIEW_CC](#OVERVIEW_CC)
-* [CC_SERVICE_AND_DEPLOYMENT](#CC_SERVICE_AND_DEPLOYMENT)
+* [WELCOME](#WELCOME)
+* [MODULE_1_OVERVIEW_CLOUD_COMPUTING](#OVERVIEW_CC)
 * [MODULE_2_CLOUD_ADOPTION_EMERGING_TECH](#MODULE_2_CLOUD_ADOPTION_EMERGING_TECH)
-* [](#)
+* [MODULE_3_CLOUD_COMPUTING_SERVICE_DEPLOYMENT](#MODULE_3_CLOUD_COMPUTING_SERVICE_DEPLOYMENT)
+* [MODULE_4_COMPONENTS_OF_CLOUD_COMPUTING](#MODULE_4_COMPONENTS_OF_CLOUD_COMPUTING)
+* [MODULE_5_CLOUD_COMPUTING_STORAGE_CONTENT_DELIVERY_NETWORKS](#MODULE_5_CLOUD_COMPUTING_STORAGE_CONTENT_DELIVERY_NETWORKS)
+* [MODULE_6_EMERGENT_TRENDS_CLOUD_NATIVE_DEVOPS_AP_MODERN](#MODULE_6_EMERGENT_TRENDS_CLOUD_NATIVE_DEVOPS_AP_MODERN)
 * [](#)
 * [](#)
 
 ---
 
-#### INTRO
+#### WELCOME
 
 Welcome to introduction to cloud computing, the first in the series of
 four courses designed to give you the foundational skills you need to be a
@@ -61,7 +63,7 @@ on embarking on this exciting journey. And good luck!
 
 ---
 
-#### OVERVIEW_CC
+#### MODULE_1_OVERVIEW_CLOUD_COMPUTING
 
 ##### Definition and Essential Characteristics of Cloud Computing
 
