@@ -9,14 +9,15 @@
 PRIOS
 
 0. DUO
-1. PY
+1. PRG - PY, JV, C
 2. CLOUD
-3. DB
-4. DS
-5. PLATFORM
-6. EE
+3. DB - SQL, ADM DB2/POSTGRESQL/MONGO
+4. WEB - HTML/CSS/JS
+5. PLATFORM - SH, ADM AIX, LINUX, UNIX
+6. DS
+7. EE
   - blockchain
-  - docker 
+  - docker
 ```
 
 ```
