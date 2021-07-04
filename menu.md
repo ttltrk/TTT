@@ -57,6 +57,7 @@ DOCKER >> KUBERNETES >> SWARM
 * [SH](https://github.com/ttltrk/TTT/tree/master/SH/SH.md)
 * [PL](https://github.com/ttltrk/TTT/tree/master/PL/PL.md)
 * [PHP](https://github.com/ttltrk/TTT/tree/master/PHP/PHP.md)
+* [R](https://github.com/ttltrk/TTT/tree/master/R/R.md)
 
 ---
 
