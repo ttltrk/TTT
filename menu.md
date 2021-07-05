@@ -21,6 +21,10 @@ PRIOS
 ```
 
 ```
+01. py >> 02. jv >> 03. c >> 04. ass >> 05. math 
+```
+
+```
 HTML >> CSS >> JS
 
 DJANGO >> PY
