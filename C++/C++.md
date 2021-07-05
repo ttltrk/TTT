@@ -618,40 +618,101 @@ Press any key to continue . . .
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
 [^^^](#C++)
 
 ---
 
 #### DATA_TYPES
 
+```
+int myNum = 5;               // Integer (whole number)
+float myFloatNum = 5.99;     // Floating point number
+double myDoubleNum = 9.98;   // Floating point number
+char myLetter = 'D';         // Character
+bool myBoolean = true;       // Boolean
+string myText = "Hello";     // String
+```
+
+##### - BASIC_DATA_TYPES
+
+The data type specifies the size and type of information the variable will store:
+
+```
+int	    4 bytes	Stores whole numbers, without decimals
+float	  4 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 7 decimal digits
+double	8 bytes	Stores fractional numbers, containing one or more decimals. Sufficient for storing 15 decimal digits
+boolean	1 byte	Stores true or false values
+char	  1 byte	Stores a single character/letter/number, or ASCII values
+```
+
+##### - NUMERIC_TYPES
+
+Use int when you need to store a whole number without decimals, like 35 or 1000, and float or double when you need a floating point number (with decimals), like 9.99 or 3.14515.
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//int
+	int myNumInt = 1000;
+	cout << myNumInt << endl;
+
+	//float
+	float myNumFloat = 5.75;
+	cout << myNumFloat << endl;
+
+	//double
+	double myNumDouble = 19.99;
+	cout << myNumDouble;
+
+return 0;
+}
+
+>>>
+1000
+5.75
+19.99
+--------------------------------
+Process exited after 1.201 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+float vs. double
+
+The precision of a floating point value indicates how many digits the value can have after the decimal point. The precision of float is only six or seven decimal digits, while double variables have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
+
+##### - SCIENTIFIC_NUMBERS
+
+A floating point number can also be a scientific number with an ```"e"``` to indicate the power of 10:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float f1 = 35e3;
+	double d1 = 12E4;
+	cout << f1 << endl;
+	cout << d1;
+
+return 0;
+}
+
+>>>
+35000
+120000
+--------------------------------
+Process exited after 1.443 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - BOOLEANS
+
 ```c++
 
 >>>
@@ -659,12 +720,7 @@ Press any key to continue . . .
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
+##### - CHARACTERS
 
 ```c++
 
@@ -673,12 +729,7 @@ Press any key to continue . . .
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
+##### - STRINGS
 
 ```c++
 
