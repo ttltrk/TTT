@@ -32,6 +32,23 @@
 
 #### SYNTAX
 
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  return 0;
+}
+
+>>>
+Hello World!
+--------------------------------
+Process exited after 1.515 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
 [^^^](#C++)
 
 ---
