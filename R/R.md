@@ -108,7 +108,7 @@ Unlike other programming languages, such as Java, there are no syntax in R for m
 
 #### VARIABLES
 
-##### CREATING_VARIABLES
+##### **CREATING_VARIABLES**
 
 Variables are containers for storing data values.
 
@@ -132,7 +132,7 @@ From the example above, name and age are variables, while "John" and 5 are value
 In other programming language, it is common to use ```=``` as an assignment operator. In R, we can use both ```=``` and ```<-``` as assignment operators.
 However, ```<-``` is preferred in most cases because the ```=``` operator can be forbidden in some context in R.
 
-##### PRINT_OUTPUT_VARIABLES
+##### **PRINT_OUTPUT_VARIABLES**
 
 ```r
 
@@ -141,7 +141,7 @@ However, ```<-``` is preferred in most cases because the ```=``` operator can be
 >>>
 ```
 
-##### CONCATENATE_VARIABLES
+##### **CONCATENATE_VARIABLES**
 
 ```r
 
@@ -150,7 +150,7 @@ However, ```<-``` is preferred in most cases because the ```=``` operator can be
 >>>
 ```
 
-##### MULTIPLE_VARIABLES
+##### **MULTIPLE_VARIABLES**
 
 ```r
 
@@ -159,7 +159,7 @@ However, ```<-``` is preferred in most cases because the ```=``` operator can be
 >>>
 ```
 
-##### VARIABLE_NAMES
+##### **VARIABLE_NAMES**
 
 ```r
 
