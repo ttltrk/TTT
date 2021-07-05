@@ -66,11 +66,74 @@ Remember: The compiler ignores white spaces. However, multiple lines makes the c
 - Line 6: return 0 ends the main function.
 - Line 7: Do not forget to add the closing curly bracket } to actually end the main function.
 
+##### - OMITTING_NAMESPACE
+
+You might see some C++ programs that runs without the standard namespace library. The using namespace std line can be omitted and replaced with the std keyword, followed by the ```::``` operator for some objects:
+
+
+
+```c++
+#include <iostream>
+
+int main() {
+  std::cout << "Hello World!";
+  return 0;
+}
+
+>>>
+Hello World!
+--------------------------------
+Process exited after 1.531 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+It is up to you if you want to include the standard namespace library or not.
+
 [^^^](#C++)
 
 ---
 
 #### OUTPUT
+
+The cout object, together with the ```<<``` operator, is used to output values/print text:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  return 0;
+}
+
+>>>
+Hello World!
+--------------------------------
+Process exited after 1.144 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+You can add as many cout objects as you want. However, note that it does not insert a new line at the end of the output:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+  cout << "I am learning C++";
+  return 0;
+}
+
+>>>
+Hello World!I am learning C++
+--------------------------------
+Process exited after 1.464 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
 [^^^](#C++)
 
