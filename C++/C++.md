@@ -713,28 +713,100 @@ Press any key to continue . . .
 
 ##### - BOOLEANS
 
+A boolean data type is declared with the bool keyword and can only take the values true or false. When the value is returned, ```true = 1``` and ```false = 0```.
+
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	bool isCodingFun = true;
+	bool isFishTasty = false;
+	cout << isCodingFun << endl;  // Outputs 1 (true)
+	cout << isFishTasty;  // Outputs 0 (false)
+
+return 0;
+}
 
 >>>
-
+1
+0
+--------------------------------
+Process exited after 1.391 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ##### - CHARACTERS
 
+The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char myGrade = 'B';
+	cout << myGrade;
+
+return 0;
+}
 
 >>>
+B
+--------------------------------
+Process exited after 1.484 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
+Alternatively, you can use ASCII values to display certain characters:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char a = 65, b = 66, c = 67;
+	cout << a;
+	cout << b;
+	cout << c;
+
+return 0;
+}
+
+>>>
+ABC
+--------------------------------
+Process exited after 1.235 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ##### - STRINGS
 
+The string type is used to store a sequence of characters (text). This is not a built-in type, but it behaves like one in its most basic usage. String values must be surrounded by double quotes:
+
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string greeting = "Hello";
+	cout << greeting;
+
+return 0;
+}
 
 >>>
-
+Hello
+--------------------------------
+Process exited after 1.433 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
