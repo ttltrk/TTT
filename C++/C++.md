@@ -1168,10 +1168,53 @@ Press any key to continue . . .
 
 ##### - ACCESS_STRINGS
 
+You can access the characters in a string by referring to its index number inside square brackets ```[]```.
+
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string myString_1 = "Hello";
+	cout << myString_1[0] << endl;
+
+	string myString_2 = "Hello";
+	cout << myString_2[1];
+
+return 0;
+}
 
 >>>
+H
+e
+--------------------------------
+Process exited after 2.654 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
+To change the value of a specific character in a string, refer to the index number, and use single quotes:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string myString = "Hello";
+	myString[0] = 'J';
+
+	cout << myString;
+
+return 0;
+}
+
+>>>
+Jello
+--------------------------------
+Process exited after 1.847 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
