@@ -978,6 +978,111 @@ Logical operators are used to determine the logic between variables or values:
 
 #### STRINGS
 
+Strings are used for storing text.
+A string variable contains a collection of characters surrounded by double quotes:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string greeting = "Hello";
+
+	cout << greeting;
+
+return 0;
+}
+
+>>>
+Hello
+--------------------------------
+Process exited after 1.257 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - CONCATENATION
+
+The ```+``` operator can be used between strings to add them together to make a new string. This is called concatenation:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string firstName = "John ";
+	string lastName = "Doe";
+	string fullName = firstName + lastName;
+
+	cout << fullName;
+
+return 0;
+}
+
+>>>
+John Doe
+--------------------------------
+Process exited after 1.381 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+In the example above, we added a space after firstName to create a space between John and Doe on output. However, you could also add a space with quotes ```" "``` or ```' '```
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string firstName = "John";
+	string lastName = "Doe";
+	string fullName = firstName + " " + lastName;
+
+	cout << fullName;
+
+return 0;
+}
+
+>>>
+John Doe
+--------------------------------
+Process exited after 1.443 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+A string in C++ is actually an object, which contain functions that can perform certain operations on strings. For example, you can also concatenate strings with the ```append()``` function:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string firstName = "John ";
+	string lastName = "Doe";
+	string fullName = firstName.append(lastName);
+
+	cout << fullName;
+
+return 0;
+}
+
+>>>
+John Doe
+--------------------------------
+Process exited after 1.811 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+It is up to you whether you want to use ```+``` or ```append()```. The major difference between the two, is that the ```append()``` function is much faster. However, for testing and such, it might be easier to just use +.
+
+##### - NUMBERS_AND_STRINGS
+
 ```c++
 
 >>>
@@ -985,12 +1090,7 @@ Logical operators are used to determine the logic between variables or values:
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
+##### - STRING_LENGTH
 
 ```c++
 
@@ -999,12 +1099,25 @@ Logical operators are used to determine the logic between variables or values:
 >>>
 ```
 
+##### - ACCESS_STRINGS
+
 ```c++
 
 >>>
 
 >>>
 ```
+
+##### - USER_INPUT_STRINGS
+
+```c++
+
+>>>
+
+>>>
+```
+
+##### - OMITTING_NAMESPACE
 
 ```c++
 
