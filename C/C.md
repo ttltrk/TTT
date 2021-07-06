@@ -11,7 +11,7 @@
 
 ---
 
-- INTRODUCTION
+INTRODUCTION
 
 * [KEYWORDS_IDENTIFIERS](#KEYWORDS_IDENTIFIERS)
 * [VARIABLES](#VARIABLES)
@@ -20,7 +20,7 @@
 * [OPERATORS](#OPERATORS)
 * [INTRO_EXAMPLES](#INTRO_EXAMPLES)
 
-- FLOW_CONTROL
+FLOW_CONTROL
 
 * []()
 * []()
@@ -45,8 +45,10 @@ A character set is a set of alphabets, letters and some special characters that 
 
 - Alphabets
 
+```
 Uppercase: A B C ................................... X Y Z
 Lowercase: a b c ...................................... x y z
+```
 
 - Digits
 
