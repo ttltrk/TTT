@@ -79,7 +79,24 @@
 
 ---
 
-####
+#### ALAPOK_1
+
+woman - no
+
+I am a woman. - En egy no vagyok.
+A boy. - Egy fiu.
+
+He drinks the water. - Megissza a vizet.
+She drinks the water. - Megissza a vizet.
+She eats the apple. - Megeszi az almat.
+The man drinks the water. - A ferfi megissza a vizet.  
+The man eats the apple. - A ferfi megeszi az almat.
+The boy eats the apple. - A fiu megeszi az almat.
+The girl eats bread. - A lany kenyeret eszik.
+A woman eats an apple. - Egy no eszik egy almat.
+
+Am I a boy? - En egy fiu vagyok?
+Am I a man? - En egy ferfi vagyok?
 
 [^^^](#ENG)
 
