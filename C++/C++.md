@@ -816,6 +816,118 @@ Press any key to continue . . .
 
 #### OPERATORS
 
+Operators are used to perform operations on variables and values.
+In the example below, we use the ```+``` operator to add together two values:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int sum1 = 100 + 50;        // 150 (100 + 50)
+	int sum2 = sum1 + 250;      // 400 (150 + 250)
+	int sum3 = sum2 + sum2;     // 800 (400 + 400)
+
+	cout << sum1 << endl;
+	cout << sum2 << endl;
+	cout << sum3;
+
+return 0;
+}
+
+>>>
+150
+400
+800
+--------------------------------
+Process exited after 1.35 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - ARITHMETIC
+
+Arithmetic operators are used to perform common mathematical operations.
+
+```
++	  Addition	Adds together two values	               x + y
+- 	Subtraction	Subtracts one value from another	     x - y
+*	  Multiplication	Multiplies two values	             x * y
+/	  Division	Divides one value by another	           x / y
+%	  Modulus	Returns the division remainder	           x % y
+++	Increment	Increases the value of a variable by 1	 ++x
+--	Decrement	Decreases the value of a variable by 1	 --x
+```
+
+##### - ASSIGNMENT
+
+Assignment operators are used to assign values to variables.
+In the example below, we use the assignment operator ```=``` to assign the value 10 to a variable called x:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int x = 10;
+
+	cout << x;
+
+return 0;
+}
+
+>>>
+10
+--------------------------------
+Process exited after 8.233 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+The addition assignment operator ```+=``` adds a value to a variable:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int x = 10;
+	cout << x << endl;
+
+	x += 5;
+	cout << x;
+
+return 0;
+}
+
+>>>
+10
+15
+--------------------------------
+Process exited after 1.268 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+```
+=	    x = 5	    x = 5
++=	  x += 3	  x = x + 3
+-=  	x -= 3	  x = x - 3
+*=	  x *= 3	  x = x * 3
+/=	  x /= 3	  x = x / 3
+%=	  x %= 3	  x = x % 3
+&=	  x &= 3	  x = x & 3
+|=	  x |= 3	  x = x | 3
+^=	  x ^= 3	  x = x ^ 3
+>>=	  x >>= 3	  x = x >> 3
+<<=	  x <<= 3	  x = x << 3	
+```
+
+##### - COMPARISON
+
 ```c++
 
 >>>
@@ -823,26 +935,7 @@ Press any key to continue . . .
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
+##### - LOGICAL
 
 ```c++
 
