@@ -1083,19 +1083,86 @@ It is up to you whether you want to use ```+``` or ```append()```. The major dif
 
 ##### - NUMBERS_AND_STRINGS
 
+C++ uses the ```+``` operator for both addition and concatenation.
+Numbers are added. Strings are concatenated.
+
+If you add two numbers, the result will be a number:
+
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int x = 10;
+	int y = 20;
+	int z = x + y;
+
+	cout << z;
+
+return 0;
+}
 
 >>>
-
+30
+--------------------------------
+Process exited after 1.926 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
-##### - STRING_LENGTH
+If you add two strings, the result will be a string concatenation:
 
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string x = "aba";
+	string y = "bubu";
+	string z = x + y;
+
+	cout << z;
+
+return 0;
+}
 
 >>>
+ababubu
+--------------------------------
+Process exited after 1.706 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
+If you try to add a number to a string, an error occurs.
+
+##### - STRING_LENGTH
+
+To get the length of a string, use the ```length()``` function:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string txt_1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	cout << "The length of the txt_1 string is: " << txt_1.length() << endl;
+
+	string txt_2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	cout << "The length of the txt_2 string is: " << txt_2.size();
+
+return 0;
+}
+
+>>>
+The length of the txt_1 string is: 26
+The length of the txt_2 string is: 26
+--------------------------------
+Process exited after 1.788 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
