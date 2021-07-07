@@ -6,8 +6,8 @@
 ---
 
 ```
-M: 06 - 02A/B - 03
-N: 04 - 01 - 05
+M: LAN - PRG-PY/PRG-* - DB
+N: ENV - WEB - LL
 ```
 
 ---
