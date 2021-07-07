@@ -46,10 +46,7 @@ DOCKER >> KUBERNETES >> SWARM
 
 ---
 
-* [MD](https://github.com/ttltrk/TTT/tree/master/MD/MD.md)
-* [HTML](https://github.com/ttltrk/TTT/tree/master/HTML/HTML_NAV.md)
-* [CSS](https://github.com/ttltrk/TTT/tree/master/CSS/CSS.md)
-* [JS](https://github.com/ttltrk/TTT/tree/master/JS/JS.md)
+* [MD](https://github.com/ttltrk/TTT/tree/master/MD/MD.md) | [HTML](https://github.com/ttltrk/TTT/tree/master/HTML/HTML_NAV.md) | [CSS](https://github.com/ttltrk/TTT/tree/master/CSS/CSS.md) | [JS](https://github.com/ttltrk/TTT/tree/master/JS/JS.md)
 
 ---
 
