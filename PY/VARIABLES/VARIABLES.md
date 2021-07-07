@@ -248,7 +248,7 @@ If you want to give a name to a variable, you must follow some strict rules:
 - upper- and lower-case letters are treated as different (a little differently than in the real world - Alice and ALICE are the same first names, but in Python they are two different variable names, and consequently, two different variables);
 - the name of the variable must not be any of Python's reserved words (the keywords - we'll explain more about this soon).
 
-##### Correct and incorrect variable names
+##### - Correct and incorrect variable names
 
 Note that the same restrictions apply to function names.
 
@@ -282,7 +282,7 @@ The PEP 8 -- Style Guide for Python Code recommends the following naming convent
 - function names follow the same convention as variable names (e.g., fun, my_function)
 - it's also possible to use mixed case (e.g., myVariable), but only in contexts where that's already the prevailing style, to retain backwards compatibility with the adopted convention.
 
-##### Keywords
+##### - Keywords
 
 Take a look at the list of words that play a very special role in every Python program.
 
@@ -310,7 +310,7 @@ Import
 
 These words might be a mystery to you now, but you'll soon learn the meaning of them.
 
-##### Creating variables
+##### - Creating variables
 
 What can you put inside a variable?
 
@@ -339,7 +339,7 @@ print(var)
 >>>
 ```
 
-##### Using variables
+##### - Using variables
 
 ```py
 var = 1
@@ -367,7 +367,7 @@ Python version: 3.8.5
 >>>
 ```
 
-##### Assigning a new value to an already existing variable
+##### - Assigning a new value to an already existing variable
 
 How do you assign a new value to an already created variable? In the same way. You just need to use the equal sign.
 
@@ -399,7 +399,7 @@ print(var)
 >>>
 ```
 
-##### Solving simple mathematical problems
+##### - Solving simple mathematical problems
 
 Now you should be able to construct a short program solving simple mathematical problems such as the Pythagorean theorem:
 
@@ -418,7 +418,7 @@ c = 5.0
 >>>
 ```
 
-##### Shortcut operators
+##### - Shortcut operators
 
 It's time for the next set of operators that make a developer's life easier.
 Very often, we want to use one and the same variable both to the right and left sides of the = operator.
@@ -463,6 +463,94 @@ rem = rem % 10 ⇒ rem %= 10
 j = j - (i + var + rem) ⇒ j -= (i + var + rem)
 x = x ** 2 ⇒ x **= 2
 ```
+
+##### - Key takeaways
+
+- A variable is a named location reserved to store values in the memory. A variable is created or initialized automatically when you assign a value to it for the first time.
+
+- Each variable must have a unique name - an identifier. A legal identifier name must be a non-empty sequence of characters, must begin with the underscore ```_```, or a letter, and it cannot be a Python keyword. The first character may be followed by underscores, letters, and digits. Identifiers in Python are case-sensitive.
+
+- Python is a dynamically-typed language, which means you don't need to declare variables in it. To assign values to variables, you can use a simple assignment operator in the form of the equal ```=``` sign, i.e., var = 1.
+
+- You can also use compound assignment operators (shortcut operators) to modify values assigned to variables, e.g.,
+
+```py
+var += 1, or var /= 5 * 2
+```
+
+- You can assign new values to already existing variables using the assignment operator or one of the compound operators.
+
+```py
+var = 2
+print(var)
+
+var = 3
+print(var)
+
+var += 1
+print(var)
+
+>>>
+2
+3
+4
+>>>
+```
+
+- You can combine text and variables using the ```+``` operator, and use the ```print()``` function to output strings and variables
+
+```py
+var = "007"
+print("Agent " + var)
+
+>>>
+Agent 007
+>>>
+```
+
+##### - Leaving comments in code: why, how, and when
+
+You may want to put in a few words addressed not to Python but to humans, usually to explain to other readers of the code how the tricks used in the code work, or the meanings of the variables, and eventually, in order to keep stored information on who the author is and when the program was written.
+
+A remark inserted into the program, which is omitted at runtime, is called a comment.
+
+How do you leave this kind of comment in the source code? It has to be done in a way that won't force Python to interpret it as part of the code.
+
+Whenever Python encounters a comment in your program, the comment is completely transparent to it - from Python's point of view, this is only one space (regardless of how long the real comment is).
+
+In Python, a comment is a piece of text that begins with a ```#``` (hash) sign and extends to the end of the line.
+
+If you want a comment that spans several lines, you have to put a hash in front of them all.
+
+```py
+# This program evaluates the hypotenuse c.
+# a and b are the lengths of the legs.
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5  # We use ** instead of square root.
+print("c =", c)
+
+>>>
+c = 5.0
+>>>
+```
+
+Good, responsible developers describe each important piece of code, e.g., explaining the role of the variables; although it must be stated that the best way of commenting variables is to name them in an unambiguous manner.
+
+For example, if a particular variable is designed to store an area of some unique square, the name square_area will obviously be better than aunt_jane.
+We say that the first name is self-commenting.
+Comments may be useful in another respect - you can use them to mark a piece of code that currently isn't needed for whatever reason.
+
+```py
+# This is a test program.
+x = 1
+y = 2
+# y = y + x
+print(x + y)
+```
+
+This is often done during the testing of a program, in order to isolate the place where an error might be hidden.
+
 
 [^^^](#VARIABLES)
 
