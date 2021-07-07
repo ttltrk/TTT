@@ -46,19 +46,14 @@ DOCKER >> KUBERNETES >> SWARM
 
 ---
 
- [MD](https://github.com/ttltrk/TTT/tree/master/MD/MD.md) | [HTML](https://github.com/ttltrk/TTT/tree/master/HTML/HTML_NAV.md) | [CSS](https://github.com/ttltrk/TTT/tree/master/CSS/CSS.md) | [JS](https://github.com/ttltrk/TTT/tree/master/JS/JS.md)
+[MD](https://github.com/ttltrk/TTT/tree/master/MD/MD.md) | [HTML](https://github.com/ttltrk/TTT/tree/master/HTML/HTML_NAV.md) | [CSS](https://github.com/ttltrk/TTT/tree/master/CSS/CSS.md) | [JS](https://github.com/ttltrk/TTT/tree/master/JS/JS.md)
 
 ---
 
-* [PY](https://github.com/ttltrk/TTT/tree/master/PY/PY.md)
-* [JV](https://github.com/ttltrk/TTT/tree/master/JV/JV.md)
-* [C](https://github.com/ttltrk/TTT/tree/master/C/C.md)
-* [C++](https://github.com/ttltrk/TTT/tree/master/C++/C++.md)
-* [C#](https://github.com/ttltrk/TTT/tree/master/C#/C#.md)
-* [SH](https://github.com/ttltrk/TTT/tree/master/SH/SH.md)
-* [PL](https://github.com/ttltrk/TTT/tree/master/PL/PL.md)
-* [PHP](https://github.com/ttltrk/TTT/tree/master/PHP/PHP.md)
-* [R](https://github.com/ttltrk/TTT/tree/master/R/R.md)
+[PY](https://github.com/ttltrk/TTT/tree/master/PY/PY.md) | [R](https://github.com/ttltrk/TTT/tree/master/R/R.md)
+[JV](https://github.com/ttltrk/TTT/tree/master/JV/JV.md)
+[C](https://github.com/ttltrk/TTT/tree/master/C/C.md) | [C++](https://github.com/ttltrk/TTT/tree/master/C++/C++.md) | [C#](https://github.com/ttltrk/TTT/tree/master/C#/C#.md)
+[SH](https://github.com/ttltrk/TTT/tree/master/SH/SH.md) | [PL](https://github.com/ttltrk/TTT/tree/master/PL/PL.md)
 
 ---
 
