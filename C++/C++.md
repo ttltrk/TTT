@@ -1220,19 +1220,104 @@ Press any key to continue . . .
 
 ##### - USER_INPUT_STRINGS
 
+It is possible to use the extraction operator ```>>``` on ```cin``` to display a string entered by a user:
+
 ```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string firstName;
+	cout << "Type your first name: ";
+
+	cin >> firstName; // get user input from the keyboard
+	cout << "Your name is: " << firstName;
+
+return 0;
+}
 
 >>>
+Type your first name: trk
+Your name is: trk
+--------------------------------
+Process exited after 4.274 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
+However, cin considers a space (whitespace, tabs, etc) as a terminating character, which means that it can only display a single word.
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string fullName;
+	cout << "Type your full name: ";
+	cin >> fullName;
+	cout << "Your name is: " << fullName;
+
+return 0;
+}
+
+>>>
+Type your full name: ttl trk
+Your name is: ttl
+--------------------------------
+Process exited after 4.249 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+That's why, when working with strings, we often use the getline() function to read a line of text. It takes cin as the first parameter, and the string variable as second:
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string fullName;
+	cout << "Type your full name: ";
+	getline (cin, fullName);
+	cout << "Your name is: " << fullName;
+
+return 0;
+}
+
+>>>
+Type your full name: ttl trk
+Your name is: ttl trk
+--------------------------------
+Process exited after 5.644 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ##### - OMITTING_NAMESPACE
 
+You might see some C++ programs that runs without the standard namespace library. The using namespace std line can be omitted and replaced with the std keyword, followed by the ```::``` operator for string (and cout) objects:
+
 ```c++
+#include <iostream>
+#include <string>
+
+int main()
+{
+
+  std::string greeting = "Hello";
+  std::cout << greeting;
+
+return 0;
+}
 
 >>>
-
+Hello
+--------------------------------
+Process exited after 1.708 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
