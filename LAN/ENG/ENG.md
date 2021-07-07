@@ -81,6 +81,7 @@
 
 #### ALAPOK_1
 
+```
 woman - no
 
 I am a woman. - En egy no vagyok.
@@ -97,13 +98,62 @@ A woman eats an apple. - Egy no eszik egy almat.
 
 Am I a boy? - En egy fiu vagyok?
 Am I a man? - En egy ferfi vagyok?
+```
 
 [^^^](#ENG)
 
 ---
 
-####
-####
+#### ALPAPOK_2
+
+```
+The child. - A gyerek.
+The man. - A ferfi.
+The woman. - A no.
+
+The children. - A gyerekek.
+The men. - A ferfiak.
+The women. - A nok.
+
+She reads a book and I read the newspaper. - Ő elolvas egy könyvet, én pedig elolvasom az újságot.
+The men drink water. - A ferfiak vizet isznak.
+It is a menu. - Ez egy etlap.
+The man reads the newspaper. - A ferfi elolvassa az ujsagot.
+The boys read. - A fiuk olvasnak.
+The women eat a sandwich. - A nők esznek egy szendvicset.
+The men read. - A ferfiak olvasnak.
+```
+
+[^^^](#ENG)
+
+---
+
+#### KIFEJEZESEK
+
+```
+Hello, good morning. - Szia, jó reggelt.
+Thanks, you are welcome! - Köszönöm, szívesen!
+Good morning, how are you? - Jó reggelt, hogy vagy?
+Thank you and you are welcome. - Köszönöm és szívesen.
+Goodbye and good night! - Viszontlátásra és jó éjszakát!
+Hello, how are you? - Jó napot, hogy van?
+Goodbye, Hans! - Viszlát, Hans!
+Yes, I am the man. - Igen, én vagyok a férfi.
+Goodbye, David. - Viszlát, David.
+Thanks and good night! - Köszi és jó éjt!
+Hello. - Jo napot.
+Thanks and good night! - Köszi és jó éjt!
+Yes, bye. - Igen, viszlat.
+I speak english. - Beszelek angolul.
+Yes, please. - Igen, legy szives.
+Bye, good night. - Viszlat, jo ejszakat.
+
+```
+
+[^^^](#ENG)
+
+---
+
 ####
 ####
 ####
