@@ -949,6 +949,8 @@ a provider makes changes in its strategy, service offerings, or tools.
 But the benefits can far outweigh these risks—PaaS continues to experience strong growth and
 is predicted to become the prevailing platform delivery model moving forward.
 
+##### SaaS - Software as a Service
+
 [^^^](#IBM_CLOUD)
 
 ---
