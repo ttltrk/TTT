@@ -120,6 +120,7 @@ int main()
 
 return 0;
 }
+
 >>>
 95
 --------------------------------
@@ -127,6 +128,41 @@ Process exited after 1.316 seconds with return value 0
 Press any key to continue . . .
 >>>
 ```
+
+Here, playerScore is a variable of int type. Here, the variable is assigned an integer value 95.
+The value of a variable can be changed, hence the name variable.
+
+```c
+#include <stdio.h>    
+int main()
+{
+    int playerScore = 95;
+    char ch = 'a';
+	ch = 'l';
+
+    printf("%d",playerScore);
+	printf("%c",ch);
+
+return 0;
+}
+
+>>>
+95l
+--------------------------------
+Process exited after 1.289 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+C is a strongly typed language. This means that the variable type cannot be changed once it is declared. For example:
+
+```c
+int number = 5;      // integer variable
+number = 5.5;        // error
+double number;       // error
+```
+
+Here, the type of number variable is int. You cannot assign a floating-point (decimal) value 5.5 to this variable. Also, you cannot redefine the data type of the variable to double. By the way, to store the decimal values in C, you need to declare its type to either double or float.
 
 [^^^](#C)
 
