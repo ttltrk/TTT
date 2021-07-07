@@ -51,43 +51,29 @@ DOCKER >> KUBERNETES >> SWARM
 ---
 
 - [PY](https://github.com/ttltrk/TTT/tree/master/PY/PY.md) | [R](https://github.com/ttltrk/TTT/tree/master/R/R.md)
-- [JV](https://github.com/ttltrk/TTT/tree/master/JV/JV.md)
+- [JV](https://github.com/ttltrk/TTT/tree/master/JV/JV.md) | [KOTLIN](https://github.com/ttltrk/TTT/tree/master/KOT/KOTLIN.md)
 - [C](https://github.com/ttltrk/TTT/tree/master/C/C.md) | [C++](https://github.com/ttltrk/TTT/tree/master/C++/C++.md) | [C#](https://github.com/ttltrk/TTT/tree/master/C#/C#.md)
 - [SH](https://github.com/ttltrk/TTT/tree/master/SH/SH.md) | [PL](https://github.com/ttltrk/TTT/tree/master/PL/PL.md)
 
 ---
 
-* [SQL](https://github.com/ttltrk/TTT/tree/master/SQL/SQL.md)
-* [PLSQL](https://github.com/ttltrk/TTT/tree/master/PLSQL/PSQL.md)
-* [DB2](https://github.com/ttltrk/TTT/tree/master/DB2/DB2.md)
-* [MNG](https://github.com/ttltrk/TTT/tree/master/MNG/MNG.md)
-* [PSQ](https://github.com/ttltrk/TTT/tree/master/PSQ/PSQ.md)
-* [ORA](https://github.com/ttltrk/TTT/tree/master/ORA/ORA.md)
+- [SQL](https://github.com/ttltrk/TTT/tree/master/SQL/SQL.md) | [PLSQL](https://github.com/ttltrk/TTT/tree/master/PLSQL/PSQL.md)
+- [DB2](https://github.com/ttltrk/TTT/tree/master/DB2/DB2.md) | [PSQ](https://github.com/ttltrk/TTT/tree/master/PSQ/PSQ.md) | [ORA](https://github.com/ttltrk/TTT/tree/master/ORA/ORA.md)
+- [MNG](https://github.com/ttltrk/TTT/tree/master/MNG/MNG.md)
 
 ---
 
-* [BLOCKCHAIN](https://github.com/ttltrk/TTT/tree/master/BLK/BLK.md)
+- [CLOUD](https://github.com/ttltrk/TTT/tree/master/CLOUD/CLOUD.md) | [BLOCKCHAIN](https://github.com/ttltrk/TTT/tree/master/BLK/BLK.md)
+- [DOCKER](https://github.com/ttltrk/TTT/tree/master/DO/DO.md) | [TOOLS](https://github.com/ttltrk/TTT/tree/master/TOOLS/TOOLS.md)
+- [DATASTAGE](https://github.com/ttltrk/TTT/tree/master/DS/DS.md)
+- [XML](https://github.com/ttltrk/TTT/tree/master/XML/XML.md)
 
 ---
 
-* [KOTLIN](https://github.com/ttltrk/TTT/tree/master/KOT/KOTLIN.md)
+- [ASS](https://github.com/ttltrk/TTT/tree/master/ASS/ASS.md) | [DC](https://github.com/ttltrk/TTT/tree/master/DC/DC.md) | [MATH](https://github.com/ttltrk/TTT/tree/master/MATH/MATH.md)
 
 ---
 
-* [CLOUD](https://github.com/ttltrk/TTT/tree/master/CLOUD/CLOUD.md)
-* [XML](https://github.com/ttltrk/TTT/tree/master/XML/XML.md)
-* [DS](https://github.com/ttltrk/TTT/tree/master/DS/DS.md)
-* [DO](https://github.com/ttltrk/TTT/tree/master/DO/DO.md)
-* [TOOLS](https://github.com/ttltrk/TTT/tree/master/TOOLS/TOOLS.md)
-
----
-
-* [ASS](https://github.com/ttltrk/TTT/tree/master/ASS/ASS.md)
-* [DC](https://github.com/ttltrk/TTT/tree/master/DC/DC.md)
-* [MATH](https://github.com/ttltrk/TTT/tree/master/MATH/MATH.md)
-
----
-
-* [LAN](https://github.com/ttltrk/TTT/tree/master/LAN/LAN.md)
+- [LAN](https://github.com/ttltrk/TTT/tree/master/LAN/LAN.md)
 
 ---
