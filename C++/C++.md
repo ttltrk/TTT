@@ -1434,44 +1434,144 @@ tanh(x)	Returns the hyperbolic tangent of a double value
 
 #### BOOLEAN
 
-```c++
+Very often, in programming, you will need a data type that can only have one of two values, like:
 
->>>
+- YES / NO
+- ON / OFF
+- TRUE / FALSE
 
->>>
-```
+For this, C++ has a bool data type, which can take the values true (1) or false (0).
 
 ##### - BOOLEAN_VALUES
 
+A boolean variable is declared with the bool keyword and can only take the values true or false:
+
+
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	bool isCodingFun = true;
+	bool isFishTasty = false;
+	cout << isCodingFun << endl;  // Outputs 1 (true)
+	cout << isFishTasty;  // Outputs 0 (false)
+
+return 0;
+}
 
 >>>
-
+1
+0
+--------------------------------
+Process exited after 1.546 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
+
+From the example above, you can read that a true value returns 1, and false returns 0.
 
 ##### - BOOLEAN_EXPRESSIONS
 
+A Boolean expression is a C++ expression that returns a boolean value: 1 (true) or 0 (false).
+You can use a comparison operator, such as the greater than ```>``` operator to find out if an expression (or a variable) is true:
+
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	int x = 10;
+	int y = 9;
+
+	cout << (x > y); // returns 1 (true), because 10 is higher than 9
+
+return 0;
+}
 
 >>>
-
+1
+--------------------------------
+Process exited after 1.669 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	cout << (10 > 9); // returns 1 (true), because 10 is higher than 9
+
+return 0;
+}
 
 >>>
+1
+--------------------------------
+Process exited after 1.448 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
+In the examples below, we use the equal to ```==``` operator to evaluate an expression:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	int x = 10;
+
+	cout << (x == 10);
+
+return 0;
+}
+
+>>>
+1
+--------------------------------
+Process exited after 1.509 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	cout << (10 == 15);  // returns 0 (false), because 10 is not equal to 15
+
+
+return 0;
+}
 
 >>>
-
+0
+--------------------------------
+Process exited after 1.349 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
+
+Booleans are the basis for all C++ comparisons and conditions.
 
 [^^^](#C++)
 
@@ -1479,38 +1579,227 @@ tanh(x)	Returns the hyperbolic tangent of a double value
 
 #### CONDITIONS
 
+C++ supports the usual logical conditions from mathematics:
+
+```
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+Equal to a == b
+Not Equal to: a != b
+```
+
+You can use these conditions to perform different actions for different decisions.
+C++ has the following conditional statements:
+
+```
+Use if to specify a block of code to be executed, if a specified condition is true
+Use else to specify a block of code to be executed, if the same condition is false
+Use else if to specify a new condition to test, if the first condition is false
+Use switch to specify many alternative blocks of code to be executed
+```
+
+##### - The if Statement
+
+Use the if statement to specify a block of C++ code to be executed if a condition is true.
+
 ```c++
+if (condition) {
+  // block of code to be executed if the condition is true
+}
+```
+
+Note that if is in lowercase letters. Uppercase letters (If or IF) will generate an error.
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	if (20 > 18)
+	{
+  	cout << "20 is greater than 18";
+	}
+
+return 0;
+}
 
 >>>
-
+20 is greater than 18
+--------------------------------
+Process exited after 1.435 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+
+	int x = 20;
+	int y = 18;
+
+	if (x > y)
+	{
+  	cout << "x is greater than y";
+	}
+
+return 0;
+}
 
 >>>
-
+x is greater than y
+--------------------------------
+Process exited after 1.705 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+##### - The else Statement
+
+Use the else statement to specify a block of code to be executed if the condition is false.
+
 ```c++
-
->>>
-
->>>
+if (condition) {
+  // block of code to be executed if the condition is true
+} else {
+  // block of code to be executed if the condition is false
+}
 ```
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int time = 20;
+
+	if (time < 18) {
+  		cout << "Good day.";
+	} else {
+  		cout << "Good evening.";
+	}
+// Outputs "Good evening."
+return 0;
+}
 
 >>>
-
+Good evening.
+--------------------------------
+Process exited after 2.488 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+##### - The else if Statement
+
+Use the else if statement to specify a new condition if the first condition is false.
+
 ```c++
+if (condition1) {
+  // block of code to be executed if condition1 is true
+} else if (condition2) {
+  // block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  // block of code to be executed if the condition1 is false and condition2 is false
+}
+```
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int time = 22;
+
+	if (time < 10) {
+  		cout << "Good morning.";
+	} else if (time < 20) {
+  		cout << "Good day.";
+	} else {
+  		cout << "Good evening.";
+	}
+// Outputs "Good evening."
+return 0;
+}
 
 >>>
+Good evening.
+--------------------------------
+Process exited after 1.626 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
 
+##### - Short Hand If...Else (Ternary Operator)
+
+There is also a short-hand if else, which is known as the ternary operator because it consists of three operands. It can be used to replace multiple lines of code with a single line. It is often used to replace simple if else statements:
+
+```c++
+variable = (condition) ? expressionTrue : expressionFalse;
+```
+
+Instead of writing:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int time = 20;
+
+	if (time < 18) {
+  		cout << "Good day.";
+	} else {
+  		cout << "Good evening.";
+	}
+return 0;
+}
+
+>>>
+Good evening.
+--------------------------------
+Process exited after 2.153 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+You can simply write:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int time = 20;
+
+	string result = (time < 18) ? "Good day." : "Good evening.";
+	cout << result;
+
+return 0;
+}
+
+>>>
+Good evening.
+--------------------------------
+Process exited after 1.554 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
