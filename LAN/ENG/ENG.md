@@ -154,15 +154,83 @@ Bye, good night. - Viszlat, jo ejszakat.
 
 ---
 
-####
-####
-####
-####
-####
-####
-####
-####
-####
+#### ETEL_ITAL
+
+```
+the juice - a gyumolcsle
+
+She eats meat. - O hust eszik.
+The man eats a tomato. - A férfi eszik egy paradicsomot.
+He drinks the juice. - Ő megissza a gyümölcslevet.
+The girl eats a lemon. - A lány eszik egy citromot.
+The children eat fruit. - A gyerekek gyümölcsöt esznek.
+We eat fruit. - Gyümölcsöt eszünk.
+The girl drinks orange juice. - A lány narancslevet iszik.
+The boy eats a tomato. - A fiú eszik egy paradicsomot.
+The child eats a tomato. - A gyerek eszik egy paradicsomot.
+I drink wine. - Bort iszom.
+We have salt. - Van sonk.
+She drinks oil. - Olajat iszik.
+```
+
+[^^^](#ENG)
+
+---
+
+#### ALLATOK
+
+```
+The horse drinks milk. - A ló tejet iszik.
+The cat and the mouse. - A macska es az eger.
+The cat eats the bird. - A macska megeszi a madarat.
+The elephant eats an apple. - Az elefant eszik egy almat.
+We have a horse. - Van egy lovunk.
+The turtle drinks water. - A teknos vizet iszik.
+The bear eats bread. - A medve kenyeret eszik.
+We have a bear. - Van egy medvénk.
+```
+
+[^^^](#ENG)
+
+---
+
+#### TOBBES_SZ
+
+[^^^](#ENG)
+
+---
+
+#### BIRTOKOS
+
+[^^^](#ENG)
+
+---
+
+#### NEVMASOK
+
+[^^^](#ENG)
+
+---
+
+#### RUHAZAT
+
+[^^^](#ENG)
+
+---
+
+#### IGEK_JELEN_1
+
+[^^^](#ENG)
+
+---
+
+#### SZINEK
+
+[^^^](#ENG)
+
+---
+
+#### KERDESEK
 ####
 ####
 ####
