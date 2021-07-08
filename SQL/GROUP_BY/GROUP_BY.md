@@ -118,6 +118,7 @@ Children Clothing|M     |   26|
 >>>
 ```
 
+```sql
 --HAVING
 -- give the departments were are working less then 35 people
 select department, count(*)
@@ -126,6 +127,7 @@ group by department
 having count(*) < 35
 order by count desc;
 
+>>>
 department |count|
 -----------|-----|
 Cosmetics  |   34|
@@ -136,8 +138,9 @@ Grocery    |   28|
 Maintenance|    8|
 Plumbing   |    7|
 Security   |    6|
+>>>
+```
 
-------------------------------------------------------------------------------------------------------------
 #### Using GROUP BY and HAVING
 
 ```sql
