@@ -37,6 +37,33 @@ count|dep   |
 >>>
 ```
 
+[^^^](#HAVING)
+
+---
+
+#### HAVING
+
+```sql
+-- give the departments were are working less then 35 people
+select department, count(*)
+from employees
+group by department
+having count(*) < 35
+order by count desc;
+
+>>>
+department |count|
+-----------|-----|
+Cosmetics  |   34|
+Sports     |   34|
+Automotive |   32|
+Music      |   29|
+Grocery    |   28|
+Maintenance|    8|
+Plumbing   |    7|
+Security   |    6|
+>>>
+```
 
 [^^^](#HAVING)
 

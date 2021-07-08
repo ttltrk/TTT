@@ -242,3 +242,201 @@ select first_name, last_name, department, salary as "Yearly Salary" from employe
 [^^^](#SELECT)
 
 ---
+
+#### UPPER(), LOWER(), LENGTH(), TRIM() Booleans
+
+```sql
+--UPPER(), LOWER()
+select UPPER(first_name), LOWER(department) from employees;
+
+--LENGTH()
+select LENGTH(first_name), LOWER(department) from employees;
+
+--TRIM()
+select LENGTH('       Hello there        '); --26
+select TRIM('       Hello there        '); -- removing the extra spaces
+select LENGTH(TRIM('       Hello there        ')); --11
+```
+
+```sql
+--concat two columns into one
+select first_name || ' ' || last_name as full_name from employees;
+select first_name || ' ' || last_name full_name from employees; --same as above (without as)
+```
+
+```sql
+--boolean expr
+select first_name || ' ' || last_name full_name, (salary > 140000) is_highly_paid from employees order by salary desc;
+```
+
+```sql
+select department, ('Clothing' in (department, first_name)) from employees;
+
+select department, (department like '%oth%') from employees;
+```
+
+[^^^](#SELECT)
+
+---
+
+#### String functions SUBSTRING(), REPLACE(), POSITION(), COALESCE()
+
+```sql
+select 'This is test data' test_data;
+
+select substring('This is test data' from 1 for 4) test_data_extracted; --This
+select substring('This is test data' from 9 for 4) test_data_extracted; --test
+select substring('This is test data' from 9) test_data_extracted; --test data
+select substring('This is test data' from 3) test_data_extracted; --is is test data
+
+select department, replace(department, 'Clothing', 'Attire') modified_data from departments;
+
+>>>
+department       |modified_data    |
+-----------------|-----------------|
+Clothing         |Attire           |
+Grocery          |Grocery          |
+Decor            |Decor            |
+Furniture        |Furniture        |
+Computers        |Computers        |
+Device Repair    |Device Repair    |
+Phones & Tablets |Phones & Tablets |
+Garden           |Garden           |
+Camping & Fishing|Camping & Fishing|
+Sports           |Sports           |
+Children Clothing|Children Attire  |
+Toys             |Toys             |
+>>>
+```
+
+```sql
+select department, replace(department, 'Clothing', 'Attire') modified_data, department || ' department' as "Complete Department Name" from departments;
+
+>>>
+department       |modified_data    |Complete Department Name    |
+-----------------|-----------------|----------------------------|
+Clothing         |Attire           |Clothing department         |
+Grocery          |Grocery          |Grocery department          |
+Decor            |Decor            |Decor department            |
+Furniture        |Furniture        |Furniture department        |
+Computers        |Computers        |Computers department        |
+Device Repair    |Device Repair    |Device Repair department    |
+Phones & Tablets |Phones & Tablets |Phones & Tablets department |
+Garden           |Garden           |Garden department           |
+Camping & Fishing|Camping & Fishing|Camping & Fishing department|
+Sports           |Sports           |Sports department           |
+Children Clothing|Children Attire  |Children Clothing department|
+Toys             |Toys             |Toys department             |
+>>>
+```
+
+```sql
+--POSITION()
+select email, position('@' in email) from employees;
+
+>>>
+email                             |position|
+----------------------------------|--------|
+bmanueau0@dion.ne.jp              |      10|
+amcnee1@google.es                 |       8|
+ssymonds2@hhs.gov                 |      10|
+                                  |        |
+fmorffew4@a8.net                  |      10|
+btrow5@technorati.com             |       7|
+>>>
+```
+
+```sql
+select email, substring(email, position('@' in email)) formatted_text from employees;
+
+>>>
+email                             |formatted_text         |
+----------------------------------|-----------------------|
+bmanueau0@dion.ne.jp              |@dion.ne.jp            |
+amcnee1@google.es                 |@google.es             |
+ssymonds2@hhs.gov                 |@hhs.gov               |
+                                  |                       |
+fmorffew4@a8.net                  |@a8.net                |
+btrow5@technorati.com             |@technorati.com        |
+acurwood6@1und1.de                |@1und1.de              |
+sdubber7@t-online.de              |@t-online.de           |
+dtrail8@tamu.edu                  |@tamu.edu              |
+                                  |                       |
+>>>
+```
+
+```sql
+select email, substring(email, position('@' in email) +1) formatted_text from employees;
+
+>>>
+email                             |formatted_text        |
+----------------------------------|----------------------|
+bmanueau0@dion.ne.jp              |dion.ne.jp            |
+amcnee1@google.es                 |google.es             |
+ssymonds2@hhs.gov                 |hhs.gov               |
+                                  |                      |
+fmorffew4@a8.net                  |a8.net                |
+btrow5@technorati.com             |technorati.com        |
+acurwood6@1und1.de                |1und1.de              |
+>>>
+```
+
+```sql
+select email, substring(email, position('@' in email) -1) formatted_text from employees;
+
+>>>
+email                             |formatted_text          |
+----------------------------------|------------------------|
+bmanueau0@dion.ne.jp              |0@dion.ne.jp            |
+amcnee1@google.es                 |1@google.es             |
+ssymonds2@hhs.gov                 |2@hhs.gov               |
+                                  |                        |
+fmorffew4@a8.net                  |4@a8.net                |
+btrow5@technorati.com             |5@technorati.com        |
+acurwood6@1und1.de                |6@1und1.de              |
+>>>
+```
+
+```sql
+select email from employees;
+
+>>>
+email                             |
+----------------------------------|
+bmanueau0@dion.ne.jp              |
+amcnee1@google.es                 |
+ssymonds2@hhs.gov                 |
+                                  |
+fmorffew4@a8.net                  |
+btrow5@technorati.com             |
+acurwood6@1und1.de                |
+sdubber7@t-online.de              |
+dtrail8@tamu.edu                  |
+                                  |
+npointona@vistaprint.com          |
+>>>
+```
+
+```sql
+select coalesce(email, 'NONE') as email from employees;
+
+>>>
+email                             |
+----------------------------------|
+bmanueau0@dion.ne.jp              |
+amcnee1@google.es                 |
+ssymonds2@hhs.gov                 |
+NONE                              |
+fmorffew4@a8.net                  |
+btrow5@technorati.com             |
+acurwood6@1und1.de                |
+sdubber7@t-online.de              |
+dtrail8@tamu.edu                  |
+NONE                              |
+npointona@vistaprint.com          |
+>>>
+```
+
+[^^^](#SELECT)
+
+---
