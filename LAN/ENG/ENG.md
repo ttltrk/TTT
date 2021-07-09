@@ -196,11 +196,41 @@ We have a bear. - Van egy medvénk.
 
 #### TOBBES_SZ
 
+```
+I have plates. - Vannak tányérjaim.
+The ducks drink milk. - A kacsak tejet isznak.
+We read the newspapers. - Mi olvassuk az újságokat.
+The cats drink. - A macskák isznak.
+You eat the ducks. - Te megeszed a kacsakat.
+The turtles drink water. - A teknősök vizet isznak.
+We have dogs. - Vannak kutyáink.
+The birds eat the fruit. - A madarak megeszik a gyümölcsöt.
+The cats eat the fish. - A macskák megeszik a halat.
+```
+
 [^^^](#ENG)
 
 ---
 
 #### BIRTOKOS
+
+```
+I read the woman's newspaper. - Olvasom a nő újságját.
+I have the mens books. - Nálam vannak a férfiak könyvei.
+They are not yours. - Ők nem a tieitek.
+Our cats and their dogs. - A mi macskáink és az ő kutyáik.
+His children read the newspaper. - A gyerekei olvassák az újságot.
+The juice is ours. - A gyümölcslé a mienk.
+We drink yours. - Megisszuk a tiédet.
+The cat eats its food. - A macska megeszi az ennivalóját.
+The cat drinks its milk. - A macska megissza a tejét.
+Their children are vegetarian. - A gyerekeik vegetariánusok.
+The animal eats its food. - Az állat megeszi az ennivalóját.
+The lunch is ours. - Az ebéd a mienk.
+Our cats drink water. - A macskáink vizet isznak.
+He eats his apple. - Megeszi az almáját.
+Are they his boys? - Ők a fiai?
+```
 
 [^^^](#ENG)
 
