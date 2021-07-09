@@ -192,6 +192,41 @@ print("+" + 10 * "-" + "+")
 >>>
 ```
 
+##### - Type conversion: str()
+
+You already know how to use the ```int()``` and ```float()``` functions to convert a string into a number.
+
+This type of conversion is not a one-way street. You can also convert a number into a string, which is way easier and safer - this operation is always possible.
+
+A function capable of doing that is called ```str()```
+
+```py
+str(number)
+```
+
+##### - The "right-angle triangle" again
+
+Here is our "right-angle triangle" program again:
+
+```py
+leg_a = float(input("Input first leg length: "))
+leg_b = float(input("Input second leg length: "))
+print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
+
+>>>
+Input first leg length: szeva
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-3-1190560a372b> in <module>
+----> 1 leg_a = float(input("Input first leg length: "))
+      2 leg_b = float(input("Input second leg length: "))
+      3 print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
+
+ValueError: could not convert string to float: 'szeva'
+>>>
+```
+
+We've modified it a bit to show you how the ```str()``` function works. Thanks to this, we can pass the whole result to the ```print()``` function as one string, forgetting about the commas.
 
 [^^^](#FUNCTIONS)
 
