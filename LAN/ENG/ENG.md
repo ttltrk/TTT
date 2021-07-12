@@ -238,6 +238,16 @@ Are they his boys? - Ők a fiai?
 
 #### NEVMASOK
 
+```
+Is it her? - Ő az?
+No, it is not her. - Nem, ez nem ő.
+We read them a book. - Olvasunk nekik egy könyvet.
+She reads them a book. - Olvas nekik egy könyvet.
+She reads him a newspaper. - Felolvas neki egy újságot.
+We have him! - Megtaláltuk !
+No, it is not me, it is you. - Nem, ez nem én vagyok, ez te.
+```
+
 [^^^](#ENG)
 
 ---
