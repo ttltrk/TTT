@@ -26,6 +26,13 @@
 * [OPERATORS_BINDINGS](#OPERATORS_BINDINGS)
 * [LIST_OF_PRIOS](#LIST_OF_PRIOS)
 * [OPERATORS_AND_PARENTHESES](#OPERATORS_AND_PARENTHESES)
+* [EQUALITY_OPERATOR](#EQUALITY_OPERATOR)
+* [NOT_EQUAL_TO_OPERATOR](#NOT_EQUAL_TO_OPERATOR)
+* [GREATER_THAN](#GREATHER_THAN)
+* [GREATER_THAN_OR_EQUAL_TO](#GREATER_THAN_OR_EQUAL_TO)
+* [LESS_THAN_OR_EQUAL_TO](#LESS_THAN_OR_EQUAL_TO)
+* []()
+* []()
 
 ---
 
@@ -434,6 +441,175 @@ print((5 * ((25 % 13) + 100) / (2 * 13)) // 2)
 
 >>>
 10.0
+>>>
+```
+
+[^^^](#OPERATORS)
+
+---
+
+#### EQUALITY_OPERATOR
+
+A computer executes the program and provides the answers. The program must be able to react according to the received answers.
+Fortunately, computers know only two kinds of answers:
+
+```
+yes, this is true;
+no, this is false.
+```
+
+You will never get a response like Let me think...., I don't know, or Probably yes, but I don't know for sure.
+To ask questions, Python uses a set of very special operators. Let's go through them one after another, illustrating their effects on some simple examples.
+
+Question: are two values equal?
+To ask this question, you use the ```==``` (equal equal) operator.
+Don't forget this important distinction:
+
+```
+= is an assignment operator, e.g., a = b assigns a with the value of b;
+== is the question are these values equal?; a == b compares a and b.
+```
+
+It is a binary operator with left-sided binding. It needs two arguments and checks if they are equal.
+
+
+```py
+2==2
+2==2.
+1==2
+
+>>>
+True
+True
+False
+>>>
+```
+
+The ```==``` (equal to) operator compares the values of two operands. If they are equal, the result of the comparison is True. If they are not equal, the result of the comparison is False.
+
+```py
+var = 0  # Assigning 0 to var
+print(var == 0)
+
+var = 1  # Assigning 1 to var
+print(var == 0)
+
+>>>
+True
+False
+>>>
+```
+
+[^^^](#OPERATORS)
+
+---
+
+#### NOT_EQUAL_TO_OPERATOR
+
+The ```!=``` (not equal to) operator compares the values of two operands, too. Here is the difference: if they are equal, the result of the comparison is False. If they are not equal, the result of the comparison is True.
+
+Now take a look at the inequality comparison below - can you guess the result of this operation?
+
+```py
+var = 0  # Assigning 0 to var
+print(var != 0)
+
+var = 1  # Assigning 1 to var
+print(var != 0)
+
+>>>
+False
+True
+>>>
+```
+
+[^^^](#OPERATORS)
+
+---
+
+#### GREATER_THAN
+
+You can also ask a comparison question using the ```>``` (greater than) operator.
+If you want to know if there are more black sheep than white ones, you can write it as follows:
+
+```py
+black_sheep = 10
+white_sheep = 5
+
+black_sheep > white_sheep  # Greater than
+
+>>>
+True
+>>>
+```
+
+True confirms it; False denies it.
+
+[^^^](#OPERATORS)
+
+---
+
+#### GREATER_THAN_OR_EQUAL_TO
+
+The greater than operator has another special, non-strict variant, but it's denoted differently than in classical arithmetic notation: ```>=``` (greater than or equal to).
+
+There are two subsequent signs, not one.
+
+Both of these operators (strict and non-strict), as well as the two others discussed in the next section, are binary operators with left-sided binding, and their priority is greater than that shown by ```==``` and ```!=```.
+
+If we want to find out whether or not we have to wear a warm hat, we ask the following question:
+
+```py
+black_sheep = 10
+white_sheep = 10
+
+print(black_sheep >= white_sheep)  
+
+black_sheep = 10
+white_sheep = 9
+
+print(black_sheep >= white_sheep)  
+
+black_sheep = 10
+white_sheep = 11
+
+print(black_sheep >= white_sheep)  
+
+>>>
+True
+True
+False
+>>>
+```
+
+[^^^](#OPERATORS)
+
+---
+
+#### LESS_THAN_OR_EQUAL_TO
+
+As you've probably already guessed, the operators used in this case are: the ```<``` (less than) operator and its non-strict sibling: ```<=``` (less than or equal to).
+
+```py
+black_sheep = 10
+white_sheep = 10
+
+print(black_sheep <= white_sheep)  
+
+black_sheep = 10
+white_sheep = 9
+
+print(black_sheep <= white_sheep)  
+
+black_sheep = 10
+white_sheep = 11
+
+print(black_sheep <= white_sheep)
+
+>>>
+True
+False
+True
 >>>
 ```
 
