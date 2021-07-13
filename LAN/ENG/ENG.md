@@ -75,6 +75,19 @@
 
 #### WORDS
 
+```
+wise - bölcs
+maverick - független
+descending - ereszkedő
+honestly - őszintén
+omitted - kihagyva
+utility - hasznosság
+obviously - nyilvánvalóan
+nocturnal - éjszakai
+honor - becsület
+addition - kiegészítés
+```
+
 [^^^](#ENG)
 
 ---
@@ -253,6 +266,19 @@ No, it is not me, it is you. - Nem, ez nem én vagyok, ez te.
 ---
 
 #### RUHAZAT
+
+```
+It is a dress. - Ez egy ruha.
+I wear a shirt. - Inget viselek.
+My hats. - A kalapjaim.
+We have hats. - Vannak kalapjaink.
+A ruhám - my dress
+I have your hats. - Nálam vannak a kalapjaid.
+They are not your pants. - Ezek nem a te nadrágjaid.
+I have a suit. - Van egy öltönyöm.
+Her dress. - A ruhája
+my suit - Az öltönyöm
+```
 
 [^^^](#ENG)
 

@@ -40,10 +40,19 @@ Ja ich bin Karl. - Igen, Karl vagyok.
 
 ---
 
-####
+#### HELLO
 
 ```
+Nein, tschuss. - Nem, viszlát.
+Tschüss, Anna! - Viszlat Anna.
+Guten Morgen, guten Tag. - Jó reggelt, jó napot.
+Guten Tag, guten Abend. - jó napot, jó estét
+```
 
+```
+Gute Nacht, Herr Neumann! - jo ejszakat Neumann ur.
+Auf Wiedersehen Herr Muller. - Viszontlátásra, Müller úr!
+Guten Abend, Herr Schneider! - Jó estét, Schneider úr!
 ```
 
 [^^^](#GER)
