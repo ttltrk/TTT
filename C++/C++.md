@@ -1809,40 +1809,77 @@ Press any key to continue . . .
 
 #### SWITCH
 
+Use the switch statement to select one of many code blocks to be executed.
+
 ```c++
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+
+This is how it works:
+
+- The switch expression is evaluated once
+- The value of the expression is compared with the values of each case
+- If there is a match, the associated block of code is executed
+- The break and default keywords are optional, and will be described later in this chapter
+
+The example below uses the weekday number to calculate the weekday name:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int day = 4;
+    switch (day) {
+	  case 1:		
+	    cout << "Monday";
+	    break;
+	  case 2:
+	    cout << "Tuesday";
+	    break;
+	  case 3:
+	    cout << "Wednesday";
+	    break;
+	  case 4:
+	    cout << "Thursday";
+	    break;
+	  case 5:
+	    cout << "Friday";
+	    break;
+	  case 6:
+	    cout << "Saturday";
+	    break;
+	  case 7:
+	    cout << "Sunday";
+	    break;
+}
+// Outputs "Thursday" (day 4)
+
+return 0;
+}
 
 >>>
-
+Thursday
+--------------------------------
+Process exited after 1.521 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
+When C++ reaches a break keyword, it breaks out of the switch block.
+This will stop the execution of more code and case testing inside the block.
+When a match is found, and the job is done, it's time for a break. There is no need for more testing.
 
 [^^^](#C++)
 
@@ -1850,38 +1887,88 @@ Press any key to continue . . .
 
 #### WHILE_LOOP
 
+Loops can execute a block of code as long as a specified condition is reached.
+Loops are handy because they save time, reduce errors, and they make code more readable.
+
+The while loop loops through a block of code as long as a specified condition is true:
+
 ```c++
+while (condition) {
+  // code block to be executed
+}
+```
+
+In the example below, the code in the loop will run, over and over again, as long as a variable (i) is less than 5:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int i = 0;
+	while (i < 5) {
+  		cout << i << "\n";
+  		i++;
+}
+
+return 0;
+}
 
 >>>
+0
+1
+2
+3
+4
 
+--------------------------------
+Process exited after 2.024 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+##### - The Do/While Loop
+
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
+
 ```c++
-
->>>
-
->>>
+do {
+  // code block to be executed
+}
+while (condition);
 ```
 
-```c++
-
->>>
-
->>>
-```
+The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int i = 0;
+	do {
+  		cout << i << "\n";
+  		i++;
+}
+while (i < 5);
+
+return 0;
+}
 
 >>>
+0
+1
+2
+3
+4
 
->>>
-```
-
-```c++
-
->>>
-
+--------------------------------
+Process exited after 1.615 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
@@ -1891,38 +1978,78 @@ Press any key to continue . . .
 
 #### FOR_LOOP
 
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+
 ```c++
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+```
+
+- Statement 1 is executed (one time) before the execution of the code block.
+- Statement 2 defines the condition for executing the code block.
+- Statement 3 is executed (every time) after the code block has been executed.
+
+The example below will print the numbers 0 to 4:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	for (int i = 0; i < 5; i++) {
+  		cout << i << "\n";
+	}
+
+return 0;
+}
 
 >>>
+0
+1
+2
+3
+4
 
+--------------------------------
+Process exited after 1.619 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
-```c++
+- Statement 1 sets a variable before the loop starts (int i = 0).
+- Statement 2 defines the condition for the loop to run (i must be less than 5). If the condition is true, the loop will start over again, if it is false, the loop will end.
+- Statement 3 increases a value (i++) each time the code block in the loop has been executed.
 
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
+This example will only print even values between 0 and 10:
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	for (int i = 0; i <= 10; i = i + 2) {
+  		cout << i << "\n";
+	}
+
+return 0;
+}
 
 >>>
+0
+2
+4
+6
+8
+10
 
->>>
-```
-
-```c++
-
->>>
-
+--------------------------------
+Process exited after 1.212 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
@@ -1932,31 +2059,149 @@ Press any key to continue . . .
 
 #### BREAK_CONTINUE
 
+##### - Break
+
+You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement.
+The break statement can also be used to jump out of a loop.
+This example jumps out of the loop when i is equal to 4:
+
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	for (int i = 0; i < 10; i++) {
+  		if (i == 4) {
+    		break;
+  		}
+  		cout << i << "\n";
+	}
+
+return 0;
+}
 
 >>>
+0
+1
+2
+3
 
+--------------------------------
+Process exited after 1.663 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - Continue
+
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+This example skips the value of 4:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	for (int i = 0; i < 10; i++) {
+  		if (i == 4) {
+    		continue;
+  		}
+  		cout << i << "\n";
+	}
+
+return 0;
+}
+
+>>>
+0
+1
+2
+3
+5
+6
+7
+8
+9
+
+--------------------------------
+Process exited after 1.302 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - Break and Continue in While Loop
+
+You can also use break and continue in while loops:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int i = 0;
+	while (i < 10) {
+		cout << i << "\n";
+  		i++;
+  		if (i == 4) {
+    		break;
+  		}
+	}
+
+return 0;
+}
+
+>>>
+0
+1
+2
+3
+
+--------------------------------
+Process exited after 1.307 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	int i = 0;
+	while (i < 10) {
+  		if (i == 4) {
+    		i++;
+    		continue;
+  		}
+  		cout << i << "\n";
+  		i++;
+	}
+
+return 0;
+}
 
 >>>
+0
+1
+2
+3
+5
+6
+7
+8
+9
 
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
-
-```c++
-
->>>
-
+--------------------------------
+Process exited after 1.44 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
