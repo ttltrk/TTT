@@ -2205,44 +2205,82 @@ Press any key to continue . . .
 >>>
 ```
 
-```c++
-
->>>
-
->>>
-```
-
 [^^^](#C++)
 
 ---
 
 #### ARRAYS
 
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+To declare an array, define the variable type, specify the name of the array followed by square brackets and specify the number of elements it should store:
+
 ```c++
+string cars[4];
+```
+
+We have now declared a variable that holds an array of four strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:
+
+```c++
+string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+```
+
+To create an array of three integers, you could write:
+
+```c++
+int myNum[3] = {10, 20, 30};
+```
+
+##### - Access the Elements of an Array
+
+You access an array element by referring to the index number.
+This statement accesses the value of the first element in cars:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+	cout << cars[0];
+	// Outputs Volvo
+
+return 0;
+}
 
 >>>
-
+Volvo
+--------------------------------
+Process exited after 1.399 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
-```c++
+##### - Change an Array Element
 
->>>
-
->>>
-```
+To change the value of a specific element, refer to the index number:
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+	cars[0] = "Opel";
+	cout << cars[0];
+	// Now outputs Opel instead of Volvo
+
+return 0;
+}
 
 >>>
-
->>>
-```
-
-```c++
-
->>>
-
+Opel
+--------------------------------
+Process exited after 1.144 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
