@@ -26,6 +26,7 @@
 * [NESTED_IF](#NETSED_IF)
 * [NESTED_IF_ELSE](#NESTED_IF_ELSE)
 * [EVEN_OR_ODD](#EVEN_OR_ODD)
+* [MAX](#MAX)
 
 ---
 
@@ -488,6 +489,37 @@ if the_weather_is_good:
     go_for_a_walk()
 have_lunch()
 ```
+
+[^^^](#IF_ELSE)
+
+---
+
+Python often comes with a lot of built-in functions that will do the work for you. For example, to find the largest number of all, you can use a Python built-in function called max(). You can use it with multiple arguments. Analyze the code below:
+
+```py
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+number3 = int(input("Enter the third number: "))
+
+# Check which one of the numbers is the greatest
+# and pass it to the largest_number variable.
+
+largest_number = max(number1, number2, number3)
+
+# Print the result.
+print("The largest number is:", largest_number)
+
+>>>
+Enter the first number: 2
+Enter the second number: 33
+Enter the third number: 45
+The largest number is: 45
+>>>
+```
+
+By the same fashion, you can use the ```min()``` function to return the lowest number. You can rebuild the above code and experiment with it in the Sandbox.
+
+We're going to talk about these (and many other) functions soon. For the time being, our focus will be put on conditional execution and loops to let you gain more confidence in programming and teach you the skills that will let you fully understand and apply the two concepts in your code. So, for now, we're not taking any shortcuts.
 
 [^^^](#IF_ELSE)
 
