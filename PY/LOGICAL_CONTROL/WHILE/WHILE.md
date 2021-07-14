@@ -81,15 +81,54 @@ hi world
 >>>
 ```
 
+It is now important to remember that:
+
+- if you want to execute more than one statement inside one while, you must (as with if) indent all the instructions in the same way;
+- an instruction or set of instructions executed inside the while loop is called the loop's body;
+- if the condition is False (equal to zero) as early as when it is tested for the first time, the body is not executed even once (note the analogy of not having to do anything if there is nothing to do);
+- the body should be able to change the condition's value, because if the condition is True at the beginning, the body might run continuously to infinity -notice that doing a thing usually decreases the number of things to do).
+
+```py
+counter = 5
+while counter != 0:
+    print("Inside the loop.", counter)
+    counter -= 1
+print("Outside the loop.", counter)
+
+>>>
+Inside the loop. 5
+Inside the loop. 4
+Inside the loop. 3
+Inside the loop. 2
+Inside the loop. 1
+Outside the loop. 0
+>>>
+```
+
+```py
+counter = 5
+while counter:
+    print("Inside the loop.", counter)
+    counter -= 1
+print("Outside the loop.", counter)
+
+>>>
+Inside the loop. 5
+Inside the loop. 4
+Inside the loop. 3
+Inside the loop. 2
+Inside the loop. 1
+Outside the loop. 0
+>>>
+```
+
 [^^^](#WHILE)
 
 ---
 
 #### INFINITY_LOOP
 
-```
-
-```
+An infinite loop, also called an endless loop, is a sequence of instructions in a program which repeat indefinitely (loop endlessly.)
 
 ```py
 x = 0
