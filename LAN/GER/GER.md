@@ -59,7 +59,27 @@ Guten Abend, Herr Schneider! - Jó estét, Schneider úr!
 
 ---
 
-####
+#### OTTHON
+
+```
+eine Rose - egy rozsa
+rot - piros
+grun - zold
+eine Lampe - egy lampa
+
+Ist das eine Lampe? - Ez egy lampa?
+Das ist eine Rose. - Ez rozsa?
+Das ist eine Gitarre. - Ez gitar?
+Die Rose ist rot. - A rozsa voros.
+Die Rose ist grün. - A rozsa zold.
+Die Gitarre ist grün. - A gitar zold.
+```
+
+[^^^](#GER)
+
+---
+
+#### CSALAD
 
 ```
 
@@ -69,7 +89,7 @@ Guten Abend, Herr Schneider! - Jó estét, Schneider úr!
 
 ---
 
-####
+#### TE
 
 ```
 
@@ -79,17 +99,7 @@ Guten Abend, Herr Schneider! - Jó estét, Schneider úr!
 
 ---
 
-####
-
-```
-
-```
-
-[^^^](#GER)
-
----
-
-####
+#### EN 
 
 ```
 
