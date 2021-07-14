@@ -286,6 +286,21 @@ my suit - Az öltönyöm
 
 #### IGEK_JELEN_1
 
+```
+No design? - Nincs dizájn?
+They touch the elephant. - Megérintik az elefántot.
+The girls listen. - A lányok hallgatnak.
+I cook fish. - Halat főzök.
+I cook rice. - Rizst fozok.
+I cook pasta. - Tesztat fozok.
+I design a shirt. - Tervezek egy inget.
+They touch the bear. - Megérintik a medvét.
+He speaks, she listens. - Ő beszél, ő hallgat.
+
+
+
+```
+
 [^^^](#ENG)
 
 ---

@@ -99,7 +99,7 @@ Die Gitarre ist grün. - A gitar zold.
 
 ---
 
-#### EN 
+#### EN
 
 ```
 
