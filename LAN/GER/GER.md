@@ -75,6 +75,48 @@ Die Rose ist grün. - A rozsa zold.
 Die Gitarre ist grün. - A gitar zold.
 ```
 
+```
+ein Haus - egy haz
+Ich bin hier. - Itt vagyok.
+Wo, hier? - Hol, itt?
+Ich bin zu Hause. - Itthon vagyok.
+Die Garage ist grün. - A garazs zold.
+Wo ist die Garage? - Hol a garazs?
+Wo bin ich? - Hol vagyok?
+Was ist? - Mi van?
+Was ist dort? - Mi van ott?
+Wo ist die Lampe? - Hol van a lampa?
+Anna ist zu Hause. - Anna otthon van.
+Das ist ein Haus. - Ez egy haz.
+```
+
+```
+blau - kek
+ein bett - egy agy
+Das Bett ist rot. - Az agy piros.
+die Toilette - a vece
+weis* - feher
+Die Toilette ist hier. - Itt van a vece.
+eine Katze - egy macska
+Ich bin total rot! - Tiszta piros vagyok.
+Das Zimmer ist rot. - A szoba piros.
+Ist Alex ein Mann oder eine Frau? - Alex egy ferfi vagy egy no?
+Bist du ein Junge oder ein Mann? - Fiú vagy vagy férfi?
+Das Bett is weis*. - Az agy feher.
+```
+
+```
+braun - barna
+ein Tisch - egy asztal
+Das ist ein Tisch. - Ez egy asztal.
+ein Telefon - egy telefon
+ein Sofa - egy kanape
+Das ist ein Telefon. - Ez egy telefon.
+Das Licht ist rot. - A feny piros.
+Ist die Gitarre komplett rot? - A gitar teljesen piros?
+Das ist ein Stuhl, oder? - Ez egy szek ugye?
+```
+
 [^^^](#GER)
 
 ---

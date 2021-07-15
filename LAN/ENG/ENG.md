@@ -296,9 +296,6 @@ I cook pasta. - Tesztat fozok.
 I design a shirt. - Tervezek egy inget.
 They touch the bear. - Megérintik a medvét.
 He speaks, she listens. - Ő beszél, ő hallgat.
-
-
-
 ```
 
 [^^^](#ENG)
@@ -306,6 +303,15 @@ He speaks, she listens. - Ő beszél, ő hallgat.
 ---
 
 #### SZINEK
+
+```
+You eat a green apple. - Eszel egy zöld almát.
+My shirt is orange. - Az ingem narancssárga.
+The pants are brown. - A nadrag barna.
+The dogs are gray. - A kutyák szürkék.
+He has a black suit. - Van egy fekete öltönye.
+The coat is purple. - A kabát lila.
+```
 
 [^^^](#ENG)
 
