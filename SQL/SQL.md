@@ -26,7 +26,7 @@ CREATE, ALTER, DROP, TRUNCATE, RENAME are the DDL commands
 #### DML – Data Manipulation Language.
 
 ```
-INSERT, UPDATE, DELETE are the DML commands.
+INSERT, UPDATE, DELETE, MERGE are the DML commands.
 ```
 
 * [INSERT INTO](https://github.com/ttltrk/TTT/blob/master/SQL/INSERT_INTO/INSERT_INTO.md)
