@@ -2284,11 +2284,101 @@ Press any key to continue . . .
 >>>
 ```
 
+##### - Arrays and Loops
+
+You can loop through the array elements with the for loop.
+The following example outputs all elements in the cars array:
+
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+	for(int i = 0; i < 4; i++) {
+  		cout << cars[i] << "\n";
+}
+
+return 0;
+}
 
 >>>
+Volvo
+BMW
+Ford
+Mazda
+
+--------------------------------
+Process exited after 1.526 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+The following example outputs the index of each element together with its value:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+
+	for(int i = 0; i < 4; i++) {
+  		cout << i << ": " << cars[i] << "\n";
+}
+
+return 0;
+}
 
 >>>
+0: Volvo
+1: BMW
+2: Ford
+3: Mazda
+
+--------------------------------
+Process exited after 1.66 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - Omit Array Size
+
+You don't have to specify the size of the array. But if you don't, it will only be as big as the elements that are inserted into it:
+
+```c++
+string cars[] = {"Volvo", "BMW", "Ford"}; // size of array is always 3
+```
+
+This is completely fine. However, the problem arise if you want extra space for future elements. Then you have to overwrite the existing values:
+
+```c++
+string cars[] = {"Volvo", "BMW", "Ford", "Mazda", "Tesla"};
+```
+
+If you specify the size however, the array will reserve the extra space:
+
+```c++
+string cars[5] = {"Volvo", "BMW", "Ford"}; // size of array is 5, even though it's only three elements inside it
+```
+
+Now you can add a fourth and fifth element without overwriting the others:
+
+```c++
+cars[3] = "Mazda";
+cars[4] = "Tesla";
+```
+
+It is also possible to declare an array without specifying the elements on declaration, and add them later:
+
+```c++
+string cars[5];
+cars[0] = "Volvo";
+cars[1] = "BMW";
 ```
 
 [^^^](#C++)
@@ -2297,38 +2387,59 @@ Press any key to continue . . .
 
 #### REFERENCES
 
+A reference variable is a "reference" to an existing variable, and it is created with the ```&``` operator:
+
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string food = "Pizza";
+	string &meal = food;
+
+	cout << food << "\n";  // Outputs Pizza
+	cout << meal << "\n";  // Outputs Pizza
+
+return 0;
+}
 
 >>>
+Pizza
+Pizza
 
+--------------------------------
+Process exited after 1.27 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
-```c++
+##### - Memory Address
 
->>>
-
->>>
-```
-
-```c++
-
->>>
-
->>>
-```
+In the example from the previous page, the ```&``` operator was used to create a reference variable. But it can also be used to get the memory address of a variable; which is the location of where the variable is stored on the computer.
+When a variable is created in C++, a memory address is assigned to the variable. And when we assign a value to the variable, it is stored in this memory address.
+To access it, use the & operator, and the result will represent where the variable is stored:
 
 ```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string food = "Pizza";
+
+	cout << &food; // Outputs 0x6dfed4
+
+return 0;
+}
 
 >>>
-
->>>
-```
-
-```c++
-
->>>
-
+0x6ffe00
+--------------------------------
+Process exited after 1.376 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
@@ -2337,6 +2448,75 @@ Press any key to continue . . .
 ---
 
 #### POINTERS
+
+You learned from the previous chapter, that we can get the memory address of a variable by using the ```&``` operator:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string food = "Pizza"; // A food variable of type string
+
+	cout << food << endl;  // Outputs the value of food (Pizza)
+	cout << &food; // Outputs the memory address of food (0x6dfed4)
+
+return 0;
+}
+
+>>>
+Pizza
+0x6ffe00
+--------------------------------
+Process exited after 1.482 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+A pointer however, is a variable that stores the memory address as its value.
+A pointer variable points to a data type (like int or string) of the same type, and is created with the ```*``` operator. The address of the variable you're working with is assigned to the pointer:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string food = "Pizza";  // A food variable of type string
+	string* ptr = &food;    // A pointer variable, with the name ptr, that stores the address of food
+
+	// Output the value of food (Pizza)
+	cout << food << "\n";
+
+	// Output the memory address of food (0x6dfed4)
+	cout << &food << "\n";
+
+	// Output the memory address of food with the pointer (0x6dfed4)
+	cout << ptr << "\n";
+
+return 0;
+}
+
+>>>
+Pizza
+0x6ffdf0
+0x6ffdf0
+
+--------------------------------
+Process exited after 1.471 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
 
 ```c++
 
