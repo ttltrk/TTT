@@ -2511,6 +2511,269 @@ Press any key to continue . . .
 >>>
 ```
 
+There are three ways to declare pointer variables, but the first way is preferred:
+
+```c++
+string* mystring; // Preferred
+string *mystring;
+string * mystring;
+```
+
+##### - Dereference
+
+In the example from the previous page, we used the pointer variable to get the memory address of a variable (used together with the & reference operator). However, you can also use the pointer to get the value of the variable, by using the ```*``` operator (the dereference operator):
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string food = "Pizza";  // Variable declaration
+	string* ptr = &food;    // Pointer declaration
+
+	// Reference: Output the memory address of food with the pointer (0x6dfed4)
+	cout << ptr << "\n";
+
+	// Dereference: Output the value of food with the pointer (Pizza)
+	cout << *ptr << "\n";
+
+return 0;
+}
+
+>>>
+0x6ffdf0
+Pizza
+
+--------------------------------
+Process exited after 1.301 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+Note that the ```*``` sign can be confusing here, as it does two different things in our code:
+
+- When used in declaration (```string* ptr```), it creates a pointer variable.
+- When not used in declaration, it act as a dereference operator.
+
+##### - Modify the Pointer Value
+
+You can also change the pointer's value. But note that this will also change the value of the original variable:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+	string food = "Pizza";
+	string* ptr = &food;
+
+	// Output the value of food (Pizza)
+	cout << food << "\n";
+
+	// Output the memory address of food (0x6dfed4)
+	cout << &food << "\n";
+
+	// Access the memory address of food and output its value (Pizza)
+	cout << *ptr << "\n";
+
+	// Change the value of the pointer
+	*ptr = "Hamburger";
+
+	// Output the new value of the pointer (Hamburger)
+	cout << *ptr << "\n";
+
+	// Output the new value of the food variable (Hamburger)
+	cout << food << "\n";
+
+return 0;
+}
+
+>>>
+Pizza
+0x6ffdf0
+Pizza
+Hamburger
+Hamburger
+
+--------------------------------
+Process exited after 1.704 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+##### - Functions
+
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
+
+##### - Create a Function
+
+C++ provides some pre-defined functions, such as ```main()```, which is used to execute code. But you can also create your own functions to perform certain actions.
+To create (often referred to as declare) a function, specify the name of the function, followed by parentheses ```()```
+
+```c++
+void myFunction() {
+  // code to be executed
+}
+```
+
+- myFunction() is the name of the function
+- void means that the function does not have a return value. You will learn more about return values later in the next chapter
+- inside the function (the body), add code that defines what the function should do
+
+##### - Call a Function
+
+Declared functions are not executed immediately. They are "saved for later use", and will be executed later, when they are called.
+To call a function, write the function's name followed by two parentheses ```()``` and a semicolon ;
+In the following example, ```myFunction()``` is used to print a text (the action), when it is called:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// Create a function
+	void myFunction() {
+  	cout << "I just got executed!";
+}
+
+int main() {
+
+  myFunction(); // call the function
+
+return 0;
+}
+
+>>>
+I just got executed!
+--------------------------------
+Process exited after 0.9561 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+A function can be called multiple times:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// Create a function
+	void myFunction() {
+  	cout << "I just got executed! \n";
+}
+
+int main() {
+
+  myFunction();
+  myFunction();
+  myFunction();
+
+return 0;
+}
+
+>>>
+I just got executed!
+I just got executed!
+I just got executed!
+
+--------------------------------
+Process exited after 1.287 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - Function Declaration and Definition
+
+A C++ function consist of two parts:
+
+- Declaration: the function's name, return type, and parameters (if any)
+- Definition: the body of the function (code to be executed)
+
+```c++
+void myFunction() { // declaration
+  // the body of the function (definition)
+}
+```
+
+However, it is possible to separate the declaration and the definition of the function - for code optimization.
+You will often see C++ programs that have function declaration above ```main()```, and function definition below ```main()```. This will make the code better organized and easier to read:
+
+```c++
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+// Function declaration
+void myFunction();
+
+// The main method
+int main() {
+  myFunction();  // call the function
+  return 0;
+}
+
+// Function definition
+void myFunction() {
+  cout << "I just got executed!";
+}
+
+>>>
+I just got executed!
+--------------------------------
+Process exited after 1.947 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - Functions Parameters
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+##### - Function Overloading 
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+####
+
 ```c++
 
 >>>
@@ -2531,6 +2794,147 @@ Press any key to continue . . .
 
 >>>
 ```
+
+[^^^](#C++)
+
+---
+
+####
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+####
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+####
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+####
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+####
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+```c++
+
+>>>
+
+>>>
+```
+
+[^^^](#C++)
+
+---
+
+####
 
 ```c++
 
