@@ -16,14 +16,17 @@
 ---
 
 * [BASICS](#BASICS)
+* [RANGE](#RANGE)
 * [ODD_AND_EVEN](#ODD_AND_EVEN)
 * [SUM_OF_THE_LIST](#SUM_OF_THE_LIST)
 * [MULTIPLY_2_LISTS](#MULTIPLY_2_LISTS)
 * [ITERATE_A_STR](#ITERATE_A_STR)
 * [ITERATE_TUPLES](#ITERATE_TUPLES)
 * [ITERATE_DICT](#ITERATE_DICT)
+* [FOR_WITH_ELSE](#FOR_WITH_ELSE)
 * [FOR_WITH_RANGE](#FOR_WITH_RANGE)
 * [PASS_FOR](#PASS_FOR)
+* [BREAK_CONTINUE](#BREAK_CONTINUE)
 * [CONTINUE_FOR](#CONTINUE_FOR)
 * [BREAK_FOR](#BREAK_FOR)
 * [ENUMERATE_FOR](#ENUMERATE_FOR)
@@ -162,6 +165,63 @@ print(l1)
 [2, 4, 6]
 >>>
 ```
+
+[^^^](#FOR)
+
+---
+
+#### RANGE
+
+The ```range()``` function may also accept three arguments - take a look at the code in the editor.
+The third argument is an increment - it's a value added to control the variable at every loop turn (as you may suspect, the default value of the increment is 1).
+Can you tell us how many lines will appear in the console and what values they will contain?
+Run the program to find out if you were right.
+You should be able to see the following lines in the console window:
+
+```
+The value of i is currently 2
+The value of i is currently 5
+```
+
+```py
+for i in range(1, 5):
+    print("The value of i is currently", i)
+
+>>>
+The value of i is currently 1
+The value of i is currently 2
+The value of i is currently 3
+The value of i is currently 4
+>>>    
+```
+
+```py
+power = 1
+for expo in range(16):
+    print("2 to the power of", expo, "is", power)
+    power *= 2
+
+>>>
+2 to the power of 0 is 1
+2 to the power of 1 is 2
+2 to the power of 2 is 4
+2 to the power of 3 is 8
+2 to the power of 4 is 16
+2 to the power of 5 is 32
+2 to the power of 6 is 64
+2 to the power of 7 is 128
+2 to the power of 8 is 256
+2 to the power of 9 is 512
+2 to the power of 10 is 1024
+2 to the power of 11 is 2048
+2 to the power of 12 is 4096
+2 to the power of 13 is 8192
+2 to the power of 14 is 16384
+2 to the power of 15 is 32768
+>>>
+```
+
+The expo variable is used as a control variable for the loop, and indicates the current value of the exponent. The exponentiation itself is replaced by multiplying by two. Since 20 is equal to 1, then ```2 × 1``` is equal to 21, ```2 × 21``` is equal to 22, and so on. What is the greatest exponent for which our program still prints the result?
 
 [^^^](#FOR)
 
@@ -405,6 +465,28 @@ print(lv)
 
 ---
 
+#### FOR_WITH_ELSE
+
+```py
+for i in range(5):
+    print(i)
+else:
+    print("else:", i)
+
+>>>
+0
+1
+2
+3
+4
+else: 4
+>>>
+```
+
+[^^^](#FOR)
+
+---
+
 #### FOR_WITH_RANGE
 
 ```
@@ -468,6 +550,115 @@ print('how to use pass')
 
 >>>
 how to use pass
+>>>
+```
+
+[^^^](#FOR)
+
+---
+
+#### BREAK_CONTINUE
+
+So far, we've treated the body of the loop as an indivisible and inseparable sequence of instructions that are performed completely at every turn of the loop. However, as developer, you could be faced with the following choices:
+
+- it appears that it's unnecessary to continue the loop as a whole; you should refrain from further execution of the loop's body and go further;
+- it appears that you need to start the next turn of the loop without completing the execution of the current turn.
+
+Python provides two special instructions for the implementation of both these tasks. Let's say for the sake of accuracy that their existence in the language is not necessary - an experienced programmer is able to code any algorithm without these instructions. Such additions, which don't improve the language's expressive power, but only simplify the developer's work, are sometimes called syntactic candy, or syntactic sugar.
+
+These two instructions are:
+
+- break - exits the loop immediately, and unconditionally ends the loop's operation; the program begins to execute the nearest instruction after the loop's body;
+- continue - behaves as if the program has suddenly reached the end of the body; the next turn is started and the condition expression is tested immediately.
+Both these words are keywords.
+
+Now we'll show you two simple examples to illustrate how the two instructions work. Look at the code in the editor. Run the program and analyze the output. Modify the code and experiment.
+
+```py
+print("The break instruction:")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+>>>
+The break instruction:
+Inside the loop. 1
+Inside the loop. 2
+Outside the loop.
+>>>
+```
+
+```py
+print("\nThe continue instruction:")
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print("Inside the loop.", i)
+print("Outside the loop.")
+
+>>>
+The continue instruction:
+Inside the loop. 1
+Inside the loop. 2
+Inside the loop. 4
+Inside the loop. 5
+Outside the loop.
+>>>
+```
+
+```py
+largest_number = -99999999
+counter = 0
+
+while True:
+    number = int(input("Enter a number or type -1 to end program: "))
+    if number == -1:
+        break
+    counter += 1
+    if number > largest_number:
+        largest_number = number
+
+if counter != 0:
+    print("The largest number is", largest_number)
+else:
+    print("You haven't entered any number.")
+
+>>>
+Enter a number or type -1 to end program: 24
+Enter a number or type -1 to end program: 99
+Enter a number or type -1 to end program: -1
+The largest number is 99
+>>>
+```
+
+```py
+largest_number = -99999999
+counter = 0
+
+number = int(input("Enter a number or type -1 to end program: "))
+
+while number != -1:
+    if number == -1:
+        continue
+    counter += 1
+
+    if number > largest_number:
+        largest_number = number
+    number = int(input("Enter a number or type -1 to end program: "))
+
+if counter:
+    print("The largest number is", largest_number)
+else:
+    print("You haven't entered any number.")
+
+>>>
+Enter a number or type -1 to end program: 28
+Enter a number or type -1 to end program: 33
+Enter a number or type -1 to end program: 21
+Enter a number or type -1 to end program: -1
+The largest number is 33
 >>>
 ```
 
