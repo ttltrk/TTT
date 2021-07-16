@@ -318,11 +318,73 @@ The coat is purple. - A kabát lila.
 ---
 
 #### KERDESEK
-####
-####
-####
-####
-####
+
+```
+What fish is it? - Milyen hal ez?
+I have an answer. - Van egy válaszom.
+The answer is no. - A valasz nem.
+What is the question? - Mi a kérdés?
+Whose is the turtle? - Kié a teknős?
+Whose dog is it? - Kié ez a kutya?
+Whose are the shoes? - Kié a cipők?
+Whose book is it? - Kinek a könyve ez?
+When is it? - Mikor van? 
+```
+
+[^^^](#ENG)
+
+---
+
+#### KOTOSZOK
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### ELOLJAROK
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### DATUM_IDO
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### CSALAD
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### FOGLALKOZAS
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
 ####
 ####
 ####

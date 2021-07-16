@@ -124,7 +124,35 @@ Das ist ein Stuhl, oder? - Ez egy szek ugye?
 #### CSALAD
 
 ```
+der Vater - az apa
+die Mutter - az anya
 
+Das ist meine Mutter. - O az anyam.
+Mein Vater. - Az apam.
+Mein Name ist Anna. - A nevem Anna.
+Main Name ist Maria. - A nevem Maria.
+Das ist mein Freund. - O a baratom.
+Hallo, mein Name ist Anna. - Szia a nevem Anna.
+eine Frau und eine Mutter. - Egy no es egy anya.
+Karl ist mein Vater. - Karl az en apam.
+Anna ist meine Tochter. - Anna a lanyom.
+Ja das ist meine Tochter. - Igen o a lanyom.
+Das ist meine Gitarre. - Az a gitarom.
+```
+
+```
+der Gros*vater - a nagyapa
+die Gros*mutter - a nagymama
+
+Ich bin klug. - Okos vagyok.
+Deine Großmutter ist meine Großmutter. - A nagymamad a nagymamam.
+Bin ich ein Gros*vater? - Nagyapa vagyok?
+Ist das dein Haus oder deine Garage? - Ez a hazad vagy a garazsod?
+Laura ist meine Freundin. - Laura a baratnom.
+Ist deine Rose grün? - Zold a rozsad?
+Meine Mutter ist eine Großmutter. - Az edesanyam nagyanya.
+Das ist meine Freundin. - O a baratnom.
+Du bist klug. - Okos vagy.
 ```
 
 [^^^](#GER)
