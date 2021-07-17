@@ -15,7 +15,7 @@
 
 ---
 
-* [BASICS](#BASICS)
+* [IF_ELSE_BASICS](#IF_ELSE_BASICS)
 * [CONDITIONS](#CONDITIONS)
 * [IF](#IF)
 * [THE_IF_STATEMENT](#THE_IF_STATEMENT)
@@ -30,7 +30,7 @@
 
 ---
 
-#### BASICS
+#### IF_ELSE_BASICS
 
 ```
 

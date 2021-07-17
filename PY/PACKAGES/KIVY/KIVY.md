@@ -16,6 +16,7 @@
 * [BOXLAYOUT](#BOXLAYOUT)
 * [SIZE_HINT_VS_POS_HINT](#SIZE_HINT_VS_POS_HINT)
 * [EMBED_A_LAYOUT](#EMBED_A_LAYOUT)
+* [ANCHOR_LAYOUT](#ANCHOR_LAYOUT)
 
 ---
 
@@ -295,12 +296,142 @@ BoxLayoutExample:
 
 #### EMBED_A_LAYOUT
 
+TheLab.kv
+more buttons
+
+```
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "A"
+        size_hint: .5, .5
+        #size: "100dp", "60dp"
+        #width: "100dp"
+        #height: "60dp"
+        #x, center_x, right
+        #y, center_y, top
+        pos_hint: {"center_y": .5}
+
+    BoxLayout:
+        orientation: "vertical"
+        Button:
+            text: "B1"
+        Button:
+            text: "B2"
+        Button:
+            text: "B3"
+        Button:
+            text: "B4"
+
+    Label:
+        text: "C"
+
+<MainWidget>:
+
+    Button:
+        text: "Hello2"
+        size: "40dp", "40dp"
+        pos: "200dp", "300dp"
+        color: 0, 0, 1, 1
+
+    Label:
+        text: "Hello2"
+        size: "40dp", "40dp"
+        pos: "300dp", "400dp"
+        color: 1, 0, 0, 1
+
+```
+
+[^^^](#KIVY)
+
+---
+
+#### ANCHOR_LAYOUT
+
+main.py
+
 ```py
 
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.uix.anchorlayout import AnchorLayout
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
+
+class AnchorLayoutExample(AnchorLayout):
+    pass
+
+class BoxLayoutExample(BoxLayout):
+    def __index__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.orientation = "vertical"
+        b1 = Button(text="A")
+        b2 = Button(text="B")
+        b3 = Button(text="C")
+        self.add_widget(b1)
+        self.add_widget(b2)
+        self.add_widget(b3)
+
+class MainWidget(Widget):
+    pass
+
+class TheLabApp(App):
+    pass
+
+TheLabApp().run()
 ```
 
-```
+TheLab_KV
 
+```
+AnchorLayoutExample:
+
+<AnchorLayoutExample>:
+    Button:
+        text: "A"
+        size_hint: .1, .1
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "A"
+        size_hint: .5, .5
+        #size: "100dp", "60dp"
+        #width: "100dp"
+        #height: "60dp"
+        #x, center_x, right
+        #y, center_y, top
+        pos_hint: {"center_y": .5}
+
+    BoxLayout:
+        orientation: "vertical"
+        Button:
+            text: "B1"
+        Button:
+            text: "B2"
+        Button:
+            text: "B3"
+        Button:
+            text: "B4"
+
+    Label:
+        text: "C"
+
+<MainWidget>:
+
+    Button:
+        text: "Hello2"
+        size: "40dp", "40dp"
+        pos: "200dp", "300dp"
+        color: 0, 0, 1, 1
+
+    Label:
+        text: "Hello2"
+        size: "40dp", "40dp"
+        pos: "300dp", "400dp"
+        color: 1, 0, 0, 1
 ```
 
 [^^^](#KIVY)
