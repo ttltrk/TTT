@@ -15,7 +15,7 @@
 
 ---
 
-* [IF_ELSE](https://github.com/ttltrk/TTT/blob/master/PY/LOGICAL_CONTROL/IF_ELSE/IF_ELSE.md)
+* [IF_ELSE](#IF_ELSE)
 * [FOR](https://github.com/ttltrk/TTT/blob/master/PY/LOGICAL_CONTROL/FOR/FOR.md)
 * [WHILE](https://github.com/ttltrk/TTT/blob/master/PY/LOGICAL_CONTROL/WHILE/WHILE.md)
 * [COMPUTER_LOGIC](#COMPUTER_LOGIC)
