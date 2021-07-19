@@ -382,71 +382,353 @@ Press any key to continue . . .
 >>>
 ```
 
+##### - signed and unsigned
+
+In C, signed and unsigned are type modifiers. You can alter the data storage of a data type by using them. For example,
+
 ```c
+unsigned int x;
+int y;
+```
+
+Here, the variable x can hold only zero and positive values because we have used the unsigned modifier.
+
+Considering the size of int is 4 bytes, variable y can hold values from ```-231 to 231-1```, whereas variable x can hold values from ```0 to 232-1```.
+
+Other data types defined in C programming are:
+
+- bool Type
+- Enumerated type
+- Complex types
+
+[^^^](#C)
+
+---
+
+#### INPUT_OUTPUT
+
+##### - C Output
+
+In C programming, ```printf()``` is one of the main output function. The function sends formatted output to the screen. For example,
+
+```c
+#include <stdio.h>    
+int main()
+{
+    // Displays the string inside quotations
+    printf("C Programming");
+    return 0;
+}
 
 >>>
-
+C Programming
+--------------------------------
+Process exited after 1.782 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+- All valid C programs must contain the ```main()``` function. The code execution begins from the start of the ```main()``` function.
+- The ```printf()``` is a library function to send formatted output to the screen. The function prints the string inside quotations.
+- To use ```printf()``` in our program, we need to include ```stdio.h``` header file using the ```#include <stdio.h>``` statement.
+- The return 0; statement inside the ```main()``` function is the "Exit status" of the program. It's optional.
+
 ```c
+#include <stdio.h>
+int main()
+{
+    int testInteger = 5;
+
+    printf("Number = %d", testInteger);
+
+return 0;
+}
 
 >>>
-
+Number = 5
+--------------------------------
+Process exited after 1.906 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+We use ```%d``` format specifier to print int types. Here, the %d inside the quotations will be replaced by the value of testInteger.
+
 ```c
+#include <stdio.h>
+int main()
+{
+    float number1 = 13.5;
+    double number2 = 12.4;
+
+    printf("number1 = %f\n", number1);
+    printf("number2 = %lf", number2);
+
+return 0;
+}
 
 >>>
-
+number1 = 13.500000
+number2 = 12.400000
+--------------------------------
+Process exited after 1.374 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+To print float, we use ```%f``` format specifier. Similarly, we use ```%lf``` to print double values.
+
+
 ```c
+#include <stdio.h>
+int main()
+{
+    char chr = 'a';    
+
+    printf("character = %c", chr);  
+
+return 0;
+}
 
 >>>
-
+character = a
+--------------------------------
+Process exited after 1.322 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+To print char, we use ```%c``` format specifier.
+
+##### - C Input
+
+In C programming, ```scanf()``` is one of the commonly used function to take input from the user. The ```scanf()``` function reads formatted input from the standard input such as keyboards.
+
 ```c
+#include <stdio.h>
+int main()
+{
+    int testInteger;
+    printf("Enter an integer: ");
+
+    scanf("%d", &testInteger);
+	  printf("Number = %d",testInteger);
+
+return 0;
+}
 
 >>>
-
+Enter an integer: 23
+Number = 23
+--------------------------------
+Process exited after 5.455 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
+Here, we have used %d format specifier inside the ```scanf()``` function to take int input from the user. When the user enters an integer, it is stored in the testInteger variable.
+
+Notice, that we have used &testInteger inside ```scanf()```. It is because &testInteger gets the address of testInteger, and the value entered by the user is stored in that address.
+
 ```c
+#include <stdio.h>
+int main()
+{
+    float num1;
+    double num2;
+
+    printf("Enter a number: ");
+    scanf("%f", &num1);
+
+    printf("Enter another number: ");
+    scanf("%lf", &num2);
+
+    printf("num1 = %f\n", num1);
+    printf("num2 = %lf", num2);
+
+return 0;
+}
 
 >>>
+Enter a number: 10.5
+Enter another number: 9.2
+num1 = 10.500000
+num2 = 9.200000
+--------------------------------
+Process exited after 6.903 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+We use ```%f``` and ```%lf``` format specifier for float and double respectively.
+
+```c
+#include <stdio.h>
+int main()
+{
+    char chr;
+
+	  printf("Enter a character: ");
+    scanf("%c",&chr);     
+
+	  printf("You entered %c.", chr);  
+
+return 0;
+}
 
 >>>
+Enter a character: e
+You entered e.
+--------------------------------
+Process exited after 3.724 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+When a character is entered by the user in the above program, the character itself is not stored. Instead, an integer value (ASCII value) is stored.
+And when we display that value using ```%c``` text format, the entered character is displayed. If we use ```%d``` to display the character, it's ASCII value is printed.
+
+```c
+#include <stdio.h>
+int main()
+{
+    char chr;
+    printf("Enter a character: ");
+    scanf("%c", &chr);     
+
+    // When %c is used, a character is displayed
+    printf("You entered %c.\n",chr);  
+
+    // When %d is used, ASCII value is displayed
+    printf("ASCII value is %d.", chr);  
+
+return 0;
+}
+
+>>>
+Enter a character: t
+You entered t.
+ASCII value is 116.
+--------------------------------
+Process exited after 3.853 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - I/O Multiple Values
+
+Here's how you can take multiple inputs from the user and display them.
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a;
+    float b;
+
+    printf("Enter integer and then a float: ");
+
+    // Taking multiple inputs
+    scanf("%d%f", &a, &b);
+
+    printf("You entered %d and %f", a, b);  
+
+return 0;
+}
+
+>>>
+Enter integer and then a float: 3
+4.3
+You entered 3 and 4.300000
+--------------------------------
+Process exited after 15.04 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### - Format Specifiers for I/O
+
+As you can see from the above examples, we use
+
+```
+%d for int
+%f for float
+%lf for double
+%c for char
+```
+
+Here's a list of commonly used C data types and their format specifiers.
+
+```
+Data Type	Format Specifier
+int	%d
+char	%c
+float	%f
+double	%lf
+short int	%hd
+unsigned int	%u
+long int	%li
+long long int	%lli
+unsigned long int	%lu
+unsigned long long int	%llu
+signed char	%c
+unsigned char	%c
+long double	%Lf
 ```
 
 [^^^](#C)
 
 ---
 
-####
+#### OPERATORS
 
-```c
+An operator is a symbol that operates on a value or a variable. For example: ```+``` is an operator to perform addition.
+C has a wide range of operators to perform various operations.
 
->>>
-
->>>
+```
+Operator	Meaning of Operator
++	addition or unary plus
+-	subtraction or unary minus
+*	multiplication
+/	division
+%	remainder after division (modulo division)
 ```
 
-[^^^](#C)
-
----
-
-####
-
 ```c
+// Working of arithmetic operators
+#include <stdio.h>
+int main()
+{
+    int a = 9,b = 4, c;
+
+    c = a+b;
+    printf("a+b = %d \n",c);
+
+	  c = a-b;
+    printf("a-b = %d \n",c);
+
+	  c = a*b;
+    printf("a*b = %d \n",c);
+
+	  c = a/b;
+    printf("a/b = %d \n",c);
+
+	  c = a%b;
+    printf("Remainder when a divided by b = %d \n",c);
+
+return 0;
+}
 
 >>>
+a+b = 13
+a-b = 5
+a*b = 36
+a/b = 2
+Remainder when a divided by b = 1
 
+--------------------------------
+Process exited after 2.098 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
