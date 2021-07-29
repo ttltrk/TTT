@@ -1011,12 +1011,241 @@ Press any key to continue . . .
 >>>
 ```
 
+#### INTRO_EXAMPLES
+
+##### - C program to print a sentence
+
+```c
+#include <stdio.h>
+int main() {
+
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+
+return 0;
+}
+
+>>>
+Hello, World!
+--------------------------------
+Process exited after 1.369 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+- The ```#include``` is a preprocessor command that tells the compiler to include the contents of ```stdio.h``` (standard input and output) file in the program.
+- The ```stdio.h``` file contains functions such as ```scanf()``` and ```printf()``` to take input and display output respectively.
+- If you use the ```printf()``` function without writing ```#include <stdio.h>```, the program will not compile.
+- The execution of a C program starts from the ```main()``` function.
+- ```printf()``` is a library function to send formatted output to the screen. In this program, ```printf()``` displays Hello, World! text on the screen.
+- The return 0; statement is the "Exit status" of the program. In simple terms, the program ends with this statement.
+
+##### - C program to print an integer entered by the user
+
+```c
+#include <stdio.h>
+int main() {   
+
+	int number;
+
+    printf("Enter an integer: ");  
+
+    // reads and stores input
+    scanf("%d", &number);
+
+    // displays output
+    printf("You entered: %d", number);
+
+return 0;
+}
+
+>>>
+Enter an integer: 2
+You entered: 2
+--------------------------------
+Process exited after 3.707 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+In this program, an integer variable number is declared.
+
+```c
+int number;
+```
+
+Then, the user is asked to enter an integer number. This number is stored in the number variable.
+
+```c
+printf("Enter an integer: ");
+scanf("%d", &number);
+```
+
+Finally, the value stored in number is displayed on the screen using ```printf()```.
+
+```c
+printf("You entered: %d", number);
+```
+
+##### - C program to add two integers entered by the user
+
+```c
+#include <stdio.h>
+int main() {    
+
+    int number1, number2, sum;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    // calculating sum
+    sum = number1 + number2;      
+
+    printf("%d + %d = %d", number1, number2, sum);
+
+return 0;
+}
+
+>>>
+Enter two integers: 6
+9
+6 + 9 = 15
+--------------------------------
+Process exited after 10.93 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+In this program, the user is asked to enter two integers. These two integers are stored in variables number1 and number2 respectively.
+
+```c
+printf("Enter two integers: ");
+scanf("%d %d", &number1, &number2);
+```
+
+Then, these two numbers are added using the + operator, and the result is stored in the sum variable.
+
+Finally, the ```printf()``` function is used to display the sum of numbers.
+
+```c
+printf("%d + %d = %d", number1, number2, sum);
+```
+
+```c
+sum = number1 + number2;
+```
+
+##### - C program to multiply two floating-point numbers
+
+```c
+#include <stdio.h>
+int main() {
+
+    double a, b, product;
+
+    printf("Enter two numbers: ");
+    scanf("%lf %lf", &a, &b);  
+
+    // Calculating product
+    product = a * b;
+
+    // %.2lf displays number up to 2 decimal point
+    printf("Product = %.2lf", product);
+
+return 0;
+}
+
+>>>
+Enter two numbers: 2.1 9.3
+Product = 19.53
+--------------------------------
+Process exited after 10.06 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+In this program, the user is asked to enter two numbers which are stored in variables a and b respectively.
+
+```c
+printf("Enter two numbers: ");
+scanf("%lf %lf", &a, &b);
+```
+
+Then, the product of a and b is evaluated and the result is stored in product.
+
+```c
+product = a * b;
+```
+
+Finally, product is displayed on the screen using ```printf()```.
+
+```c
+printf("Product = %.2lf", product);
+```
+
+Notice that, the result is rounded off to the second decimal place using ```%.2lf``` conversion character.
+
+##### - C program to find ASCII value of a character entered by the user
+
+```c
+#include <stdio.h>
+int main() {  
+
+    char c;
+
+    printf("Enter a character: ");
+    scanf("%c", &c);  
+
+    // %d displays the integer value of a character
+    // %c displays the actual character
+    printf("ASCII value of %c = %d", c, c);
+
+return 0;
+}
+
+>>>
+Enter a character: w
+ASCII value of w = 119
+--------------------------------
+Process exited after 5.316 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+In this program, the user is asked to enter a character. The character is stored in variable c.
+
+When ```%d``` format string is used, 71 (the ASCII value of G) is displayed.
+
+When ```%c``` format string is used, ```'G'``` itself is displayed.
+
+##### - C program to find quotient and remainder of two integers
+
 ```c
 
 >>>
 
 >>>
 ```
+
+##### - C program to find the size of int, float, double and char
+
+```c
+
+>>>
+
+>>>
+```
+
+##### - C program to demonstrate the working of keyword long
+
+```c
+
+>>>
+
+>>>
+```
+
+##### - C program to swap two numbers
 
 ```c
 
