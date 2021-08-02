@@ -328,7 +328,7 @@ Whose is the turtle? - Kié a teknős?
 Whose dog is it? - Kié ez a kutya?
 Whose are the shoes? - Kié a cipők?
 Whose book is it? - Kinek a könyve ez?
-When is it? - Mikor van? 
+When is it? - Mikor van?
 ```
 
 [^^^](#ENG)
@@ -338,6 +338,25 @@ When is it? - Mikor van?
 #### KOTOSZOK
 
 ```
+I read a book while I eat. - olvasok egy könyvet, míg eszek.
+Know that I love you! - tudd hogy szeretlek
+If you eat my lunch, I eat your dinner. - Ha megeszed az ebédem, akkor megeszem a vacsorád.
+I see you but not him. - Én látlak téged, de őt nem.
+If you want/wish. - Ha akarod.
+The shirt is white or gray. - Az ing fehér vagy szürke.
+I like tea, but I love coffee. - kedvelem a teát, de szeretem a kávét.
+Are you vegetarian or not? - Vegetáriánus vagy, vagy nem?
+If you love him, tell him. - Ha szereted őt, akkor mondd el neki.
+She eats bread when she wants. - Akkor eszik kenyeret, amikor akar.
+Eat pasta whenever you want. - Egyél tésztát, amikor csak akarsz.
+eat cheese whenever you want - Egyél sajtot, amikor csak akarsz.
+
+
+
+
+
+
+
 
 ```
 

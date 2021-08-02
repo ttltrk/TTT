@@ -179,10 +179,24 @@ Du bist klug. - Okos vagy.
 
 ---
 
-####
+#### BIRTOKOS
 
 ```
-
+die Zeit - az ido
+Das ist ein Problem. - Ez egy problema.
+Kein Problem. - Semmi problema.
+Ich habe Zeit. - Van idom.
+Keine Ahnung… - Fogalmam sincs.
+Ist das ein Problem? - Ez problema?
+Ja, kein Problem! - Igen, nem problema.
+Das ist ein Sofa, und kein Bett. - Ez kanape es nem agy.
+Wann hast du Zeit? - Mikor van idod?
+Meine Freundin hat eine Gitarre. - A baratnomnek van egy gitarja.
+Ja, mein Haus hat eine Garage. - Igen, a házamnak van garázsa.
+Ich habe keine Zeit. - Nincs idom.
+Ich habe keine Ahnung! - Fogalmam sincs.
+Keine Ahnung, und du? - Fogalmam sincs, es neked?
+Deine Toilette hat kein Licht. - A vecedben nincsen feny.
 ```
 
 [^^^](#GER)
