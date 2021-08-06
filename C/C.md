@@ -22,6 +22,16 @@ INTRODUCTION
 
 FLOW_CONTROL
 
+* [IF_ELSE](#IF_ELSE)
+* [FOR_LOOP](#FOR_LOOP)
+* [WHILE_LOOP](#WHILE_LOOP)
+* [BREAK_CONTINUE](#BREAK_CONTINUE)
+* [SWITCH_CASE](#SWITCH_CASE)
+* [PROGRAMMING_GOTO](#PROGRAMMING_GOTO)
+* [CONTROL_FLOW_EXAMPLES](#CONTROL_FLOW_EXAMPLES)
+
+FUNCTIONS
+
 * []()
 * []()
 * []()
@@ -29,6 +39,59 @@ FLOW_CONTROL
 * []()
 * []()
 * []()
+
+PROGRAMMING_ARRAYS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+PROGRAMMING_POINTERS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+PROGRAMMING_STRINGS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+STRUCTURE_AND_UNION
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+PROGRAMMING_FILES
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+ADDITIONAL_TOPICS
+
 * []()
 * []()
 * []()
@@ -38,6 +101,8 @@ FLOW_CONTROL
 * []()
 
 ---
+
+#### INTRODUCTION
 
 #### KEYWORDS_IDENTIFIERS
 
