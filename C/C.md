@@ -23,20 +23,6 @@
 
 ---
 
-
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-
-
----
-
 #### C_INTRODUCTION
 
 * [KEYWORDS_IDENTIFIERS](#KEYWORDS_IDENTIFIERS)
