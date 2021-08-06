@@ -1221,36 +1221,143 @@ When ```%c``` format string is used, ```'G'``` itself is displayed.
 ##### - C program to find quotient and remainder of two integers
 
 ```c
+#include <stdio.h>
+int main() {
+
+    int dividend, divisor, quotient, remainder;
+
+    printf("Enter dividend: ");
+    scanf("%d", &dividend);
+
+	printf("Enter divisor: ");
+    scanf("%d", &divisor);
+
+    // Computes quotient
+    quotient = dividend / divisor;
+
+    // Computes remainder
+    remainder = dividend % divisor;
+
+    printf("Quotient = %d\n", quotient);
+    printf("Remainder = %d", remainder);
+
+return 0;
+}
 
 >>>
-
+Enter dividend: 10
+Enter divisor: 2
+Quotient = 5
+Remainder = 0
+--------------------------------
+Process exited after 8.131 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ##### - C program to find the size of int, float, double and char
 
 ```c
+#include<stdio.h>
+int main() {
+
+    int intType;
+    float floatType;
+    double doubleType;
+    char charType;
+
+    // sizeof evaluates the size of a variable
+    printf("Size of int: %zu bytes\n", sizeof(intType));
+    printf("Size of float: %zu bytes\n", sizeof(floatType));
+    printf("Size of double: %zu bytes\n", sizeof(doubleType));
+    printf("Size of char: %zu byte\n", sizeof(charType));
+
+return 0;
+}
 
 >>>
+Size of int: 4 bytes
+Size of float: 4 bytes
+Size of double: 8 bytes
+Size of char: 1 byte
 
+--------------------------------
+Process exited after 1.763 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ##### - C program to demonstrate the working of keyword long
 
 ```c
+#include <stdio.h>
+int main() {
+
+    int a;
+    long b;   // equivalent to long int b;
+    long long c;  // equivalent to long long int c;
+    double e;
+    long double f;
+
+    printf("Size of int = %zu bytes \n", sizeof(a));
+    printf("Size of long int = %zu bytes\n", sizeof(b));
+    printf("Size of long long int = %zu bytes\n", sizeof(c));
+    printf("Size of double = %zu bytes\n", sizeof(e));
+    printf("Size of long double = %zu bytes\n", sizeof(f));
+
+    return 0;
+}
 
 >>>
+Size of int = 4 bytes
+Size of long int = 4 bytes
+Size of long long int = 8 bytes
+Size of double = 8 bytes
+Size of long double = 16 bytes
 
+--------------------------------
+Process exited after 1.846 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
 ##### - C program to swap two numbers
 
 ```c
+#include<stdio.h>
+int main() {
+      double first, second, temp;
+
+      printf("Enter first number: ");
+      scanf("%lf", &first);
+
+      printf("Enter second number: ");
+      scanf("%lf", &second);
+
+      // Value of first is assigned to temp
+      temp = first;
+
+      // Value of second is assigned to first
+      first = second;
+
+      // Value of temp (initial value of first) is assigned to second
+      second = temp;
+
+      // %.2lf displays number up to 2 decimal points
+      printf("\nAfter swapping, firstNumber = %.2lf\n", first);
+      printf("After swapping, secondNumber = %.2lf", second);
+      return 0;
+}
 
 >>>
+Enter first number: 10
+Enter second number: 36
 
+After swapping, firstNumber = 36.00
+After swapping, secondNumber = 10.00
+--------------------------------
+Process exited after 11.62 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
