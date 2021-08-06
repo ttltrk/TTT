@@ -11,7 +11,33 @@
 
 ---
 
-INTRODUCTION
+* [C_INTRODUCTION](#C_INTRODUCTION)
+* [C_FLOW_CONTROL](#C_FLOW_CONTROL)
+* [C_FUNCTIONS](#C_FUNCTIONS)
+* [C_PROGRAMMING_ARRAYS](#C_PROGRAMMING_ARRAYS)
+* [C_PROGRAMMING_POINTERS](#C_PROGRAMMING_POINTERS)
+* [C_PROGRAMMING_STRINGS](#C_PROGRAMMING_STRINGS)
+* [C_STRUCTURE_AND_UNION](#C_STRUCTURE_AND_UNION)
+* [C_PROGRAMMING_FILES](#C_PROGRAMMING_FILES)
+* [C_ADDITIONAL_TOPICS](#C_ADDITIONAL_TOPICS)
+
+---
+
+
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+
+
+---
+
+#### C_INTRODUCTION
 
 * [KEYWORDS_IDENTIFIERS](#KEYWORDS_IDENTIFIERS)
 * [VARIABLES](#VARIABLES)
@@ -20,89 +46,9 @@ INTRODUCTION
 * [OPERATORS](#OPERATORS)
 * [INTRO_EXAMPLES](#INTRO_EXAMPLES)
 
-FLOW_CONTROL
-
-* [IF_ELSE](#IF_ELSE)
-* [FOR_LOOP](#FOR_LOOP)
-* [WHILE_LOOP](#WHILE_LOOP)
-* [BREAK_CONTINUE](#BREAK_CONTINUE)
-* [SWITCH_CASE](#SWITCH_CASE)
-* [PROGRAMMING_GOTO](#PROGRAMMING_GOTO)
-* [CONTROL_FLOW_EXAMPLES](#CONTROL_FLOW_EXAMPLES)
-
-FUNCTIONS
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-PROGRAMMING_ARRAYS
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-PROGRAMMING_POINTERS
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-PROGRAMMING_STRINGS
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-STRUCTURE_AND_UNION
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-PROGRAMMING_FILES
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-
-ADDITIONAL_TOPICS
-
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
-* []()
+[^^^](#C)
 
 ---
-
-#### INTRODUCTION
 
 #### KEYWORDS_IDENTIFIERS
 
@@ -166,7 +112,7 @@ Here, money and accountBalance are identifiers.
 
 Also remember, identifier names must be different from keywords. You cannot use int as an identifier because int is a keyword.
 
-[^^^](#C)
+[^^^](#C_INTRODUCTION)
 
 ---
 
@@ -313,7 +259,7 @@ const double PI = 3.14;
 PI = 2.9; //Error
 ```
 
-[^^^](#C)
+[^^^](#C_INTRODUCTION)
 
 ---
 
@@ -466,7 +412,7 @@ Other data types defined in C programming are:
 - Enumerated type
 - Complex types
 
-[^^^](#C)
+[^^^](#C_INTRODUCTION)
 
 ---
 
@@ -741,7 +687,7 @@ unsigned char	%c
 long double	%Lf
 ```
 
-[^^^](#C)
+[^^^](#C_INTRODUCTION)
 
 ---
 
@@ -1426,6 +1372,123 @@ Press any key to continue . . .
 >>>
 ```
 
+[^^^](#C_INTRODUCTION)
+
+---
+
+#### C_FLOW_CONTROL
+
+* [IF_ELSE](#IF_ELSE)
+* [FOR_LOOP](#FOR_LOOP)
+* [WHILE_LOOP](#WHILE_LOOP)
+* [BREAK_CONTINUE](#BREAK_CONTINUE)
+* [SWITCH_CASE](#SWITCH_CASE)
+* [PROGRAMMING_GOTO](#PROGRAMMING_GOTO)
+* [CONTROL_FLOW_EXAMPLES](#CONTROL_FLOW_EXAMPLES)
+
+---
+
+#### IF_ELSE
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### FOR_LOOP
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### WHILE_LOOP
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### BREAK_CONTINUE
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### SWITCH_CASE
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### PROGRAMMING_GOTO
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### CONTROL_FLOW_EXAMPLES
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_FLOW_CONTROL)
+
+---
+
+#### C_FUNCTIONS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 [^^^](#C)
 
 ---
@@ -1439,31 +1502,19 @@ Press any key to continue . . .
 >>>
 ```
 
-[^^^](#C)
+[^^^](#C_FUNCTIONS)
 
 ---
 
-####
+#### C_PROGRAMMING_ARRAYS
 
-```c
-
->>>
-
->>>
-```
-
-[^^^](#C)
-
----
-
-####
-
-```c
-
->>>
-
->>>
-```
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
 
 [^^^](#C)
 
@@ -1478,6 +1529,141 @@ Press any key to continue . . .
 >>>
 ```
 
+[^^^](#C_PROGRAMMING_ARRAYS)
+
+---
+
+#### C_PROGRAMMING_POINTERS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 [^^^](#C)
+
+---
+
+####
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_PROGRAMMING_POINTERS)
+
+---
+
+#### C_PROGRAMMING_STRINGS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+[^^^](#C)
+
+---
+
+####
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_PROGRAMMING_STRINGS)
+
+---
+
+#### C_STRUCTURE_AND_UNION
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+[^^^](#C)
+
+---
+
+####
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_STRUCTURE_AND_UNION)
+
+---
+
+#### C_PROGRAMMING_FILES
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+[^^^](#C)
+
+---
+
+####
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_PROGRAMMING_FILES)
+
+---
+
+#### C_ADDITIONAL_TOPICS
+
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
+[^^^](#C)
+
+---
+
+####
+
+```c
+
+>>>
+
+>>>
+```
+
+[^^^](#C_ADDITIONAL_TOPICS)
 
 ---
