@@ -59,5 +59,6 @@ N: ENV - WEB - LL
 07_X
 
 - [FX](https://github.com/ttltrk/TTT/tree/master/FX/FX.md)
+- [CHESS](https://github.com/ttltrk/TTT/tree/master/CHESS/CHESS.md)
 
 ---
