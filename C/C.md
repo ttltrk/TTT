@@ -1375,10 +1375,238 @@ Press any key to continue . . .
 
 #### IF_ELSE
 
+##### C if Statement
+
+The syntax of the if statement in C programming is:
+
 ```c
+if (test expression)
+{
+   // code
+}
+```
+
+The if statement evaluates the test expression inside the parenthesis ().
+
+- If the test expression is evaluated to true, statements inside the body of if are executed.
+- If the test expression is evaluated to false, statements inside the body of if are not executed.
+
+```c
+// Program to display a number if it is negative
+
+#include <stdio.h>
+int main() {
+
+    int number;
+
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // true if number is less than 0
+    if (number < 0) {
+        printf("You entered %d.\n", number);
+    }
+
+    printf("The if statement is easy.");
+
+    return 0;
+}
 
 >>>
+Enter an integer: -5
+You entered -5.
+The if statement is easy.
+--------------------------------
+Process exited after 5.329 seconds with return value 0
+Press any key to continue . . .
+>>>
 
+>>>
+Enter an integer: 5
+The if statement is easy.
+--------------------------------
+Process exited after 3.366 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### C if...else Statement
+
+The if statement may have an optional else block. The syntax of the if..else statement is:
+
+```c
+if (test expression) {
+    // run code if test expression is true
+}
+else {
+    // run code if test expression is false
+}
+```
+
+If the test expression is evaluated to true,
+- statements inside the body of if are executed.
+- statements inside the body of else are skipped from execution.
+
+If the test expression is evaluated to false,
+- statements inside the body of else are executed
+- statements inside the body of if are skipped from execution.
+
+```c
+// Check whether an integer is odd or even
+
+#include <stdio.h>
+int main() {
+
+	int number;
+
+    printf("Enter an integer: ");
+    scanf("%d", &number);
+
+    // True if the remainder is 0
+    if  (number%2 == 0) {
+        printf("%d is an even integer.",number);
+    }
+    else {
+        printf("%d is an odd integer.",number);
+    }
+
+    return 0;
+}
+
+>>>
+Enter an integer: 20
+20 is an even integer.
+--------------------------------
+Process exited after 3.144 seconds with return value 0
+Press any key to continue . . .
+>>>
+
+>>>
+Enter an integer: 19
+19 is an odd integer.
+--------------------------------
+Process exited after 3.492 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### C if...else Ladder
+
+The ```if...else``` statement executes two different codes depending upon whether the test expression is true or false. Sometimes, a choice has to be made from more than 2 possibilities.
+
+The ```if...else ladder``` allows you to check between multiple test expressions and execute different statements.
+
+```c
+if (test expression1) {
+   // statement(s)
+}
+else if(test expression2) {
+   // statement(s)
+}
+else if (test expression3) {
+   // statement(s)
+}
+.
+.
+else {
+   // statement(s)
+}
+```
+
+```c
+// Program to relate two integers using =, > or < symbol
+
+#include <stdio.h>
+int main() {
+
+    int number1, number2;
+
+	printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    //checks if the two integers are equal.
+    if(number1 == number2) {
+        printf("Result: %d = %d",number1,number2);
+    }
+
+    //checks if number1 is greater than number2.
+    else if (number1 > number2) {
+        printf("Result: %d > %d", number1, number2);
+    }
+
+    //checks if both test expressions are false
+    else {
+        printf("Result: %d < %d",number1, number2);
+    }
+
+    return 0;
+}
+
+>>>
+Enter two integers: 5
+6
+Result: 5 < 6
+--------------------------------
+Process exited after 7.432 seconds with return value 0
+Press any key to continue . . .
+>>>
+
+>>>
+Enter two integers: 5
+5
+Result: 5 = 5
+--------------------------------
+Process exited after 6.973 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+##### Nested if...else
+
+It is possible to include an if...else statement inside the body of another if...else statement.
+
+This program given below relates two integers using either ```<```, ```>``` and ```=``` similar to the ```if...else``` ladder's example. However, we will use a nested ```if...else``` statement to solve this problem.
+
+```c
+#include <stdio.h>
+int main() {
+
+    int number1, number2;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &number1, &number2);
+
+    if (number1 >= number2) {
+      if (number1 == number2) {
+        printf("Result: %d = %d",number1,number2);
+      }
+      else {
+        printf("Result: %d > %d", number1, number2);
+      }
+    }
+    else {
+        printf("Result: %d < %d",number1, number2);
+    }
+
+    return 0;
+}
+
+>>>
+Enter two integers: 2
+1
+Result: 2 > 1
+--------------------------------
+Process exited after 6.592 seconds with return value 0
+Press any key to continue . . .
+>>>
+
+>>>
+Enter two integers: 2
+2
+Result: 2 = 2
+--------------------------------
+Process exited after 3.247 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
@@ -1388,12 +1616,107 @@ Press any key to continue . . .
 
 #### FOR_LOOP
 
+C programming has three types of loops:
+
+- for loop
+- while loop
+- do...while loop
+
+##### FOR LOOP
+
 ```c
+for (initializationStatement; testExpression; updateStatement)
+{
+    // statements inside the body of loop
+}
+```
+
+- The initialization statement is executed only once.
+- Then, the test expression is evaluated. If the test expression is evaluated to false, the for loop is terminated.
+- However, if the test expression is evaluated to true, statements inside the body of the for loop are executed, and the update expression is updated.
+- Again the test expression is evaluated.
+
+This process goes on until the test expression is false. When the test expression is false, the loop terminates.
+To learn more about test expression (when the test expression is evaluated to true and false), check out relational and logical operators.
+
+```c
+// Print numbers from 1 to 10
+#include <stdio.h>
+
+int main() {
+
+  int i;
+
+  for (i = 1; i < 11; ++i)
+  {
+    printf("%d ", i);
+  }
+  return 0;
+}
 
 >>>
-
+1 2 3 4 5 6 7 8 9 10
+--------------------------------
+Process exited after 1.605 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
+
+```
+1. i is initialized to 1.
+
+2. The test expression i < 11 is evaluated. Since 1 less than 11 is true, the body of for loop is executed. This will print the 1 (value of i) on the screen.
+
+3. The update statement ++i is executed. Now, the value of i will be 2. Again, the test expression is evaluated to true, and the body of for loop is executed. This will print 2 (value of i) on the screen.
+
+4. Again, the update statement ++i is executed and the test expression i < 11 is evaluated. This process goes on until i becomes 11.
+
+5. When i becomes 11, i < 11 will be false, and the for loop terminates.
+```
+
+```c
+// Program to calculate the sum of first n natural numbers
+// Positive integers 1,2,3...n are known as natural numbers
+
+#include <stdio.h>
+int main()
+{
+    int num, count, sum = 0;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+
+    // for loop terminates when num is less than count
+    for(count = 1; count <= num; ++count)
+    {
+        sum += count;
+    }
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
+
+>>>
+Enter a positive integer: 5
+Sum = 15
+--------------------------------
+Process exited after 6.116 seconds with return value 0
+Press any key to continue . . .
+>>>
+```
+
+The value entered by the user is stored in the variable num. Suppose, the user entered 10.
+
+The count is initialized to 1 and the test expression is evaluated. Since the test expression ```count<=num``` (1 less than or equal to 10) is true, the body of for loop is executed and the value of sum will equal to 1.
+
+Then, the update statement ```++count``` is executed and count will equal to 2. Again, the test expression is evaluated. Since 2 is also less than 10, the test expression is evaluated to true and the body of the for loop is executed. Now, sum will equal 3.
+
+This process goes on and the sum is calculated until the count reaches 11.
+
+When the count is 11, the test expression is evaluated to 0 (false), and the loop terminates.
+
+Then, the value of sum is printed on the screen.
 
 [^^^](#C_FLOW_CONTROL)
 
