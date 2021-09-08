@@ -169,11 +169,77 @@ print(len(numbers))
 ##### Removing elements from a list
 
 Any of the list's elements may be removed at any time - this is done with an instruction named ```del``` (delete). Note: it's an instruction, not a function.
-
 You have to point to the element to be removed - it'll vanish from the list, and the list's length will be reduced by one.
-
 Look at the snippet below. Can you guess what output it will produce? Run the program in the editor and check.
 
+```py
+numbers = [111, 5, 7, 2, 1]
+
+del numbers[1]
+print(len(numbers))
+print(numbers)
+
+>>>
+4
+[111, 7, 2, 1]
+>>>
+```
+
+You can't access an element which doesn't exist - you can neither get its value nor assign it a value. Both of these instructions will cause runtime errors now.
+
 [^^^](#LIST)
+
+##### Negative indices are legal
+
+It may look strange, but negative indices are legal, and can be very useful.
+
+An element with an index equal to -1 is the last one in the list.
+
+```py
+numbers = [111, 5, 7, 2, 1]
+
+print(numbers)
+print(numbers[-1])
+print(numbers[-2])
+print(numbers[-3])
+
+>>>
+[111, 5, 7, 2, 1]
+1
+2
+7
+>>>
+```
+
+[^^^](#LIST)
+
+##### List example
+
+- write a line of code that prompts the user to replace the middle number in the list with an integer number entered by the user (Step 1)
+- write a line of code that removes the last element from the list (Step 2)
+- write a line of code that prints the length of the existing list (Step 3).
+
+```py
+hat_list = [1, 2, 3, 4, 5]  # This is an existing list of numbers hidden in the hat.
+print(hat_list)
+
+repl = int(input('give me a number for replace: '))
+
+hat_list[2] = repl
+print(hat_list)
+
+del hat_list[-1]
+print(hat_list)
+
+print(len(hat_list))
+
+>>>
+[1, 2, 3, 4, 5]
+give me a number for replace: 20
+[1, 2, 20, 4, 5]
+[1, 2, 20, 4]
+4
+>>>
+```
 
 ---
