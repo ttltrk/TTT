@@ -245,7 +245,7 @@ def password(string):
     r2 = [any(x.islower() for x in string)]
     print(r2)
 
-    #check if the string contains numbers 
+    #check if the string contains numbers
     r3 = [any(x.isdigit() for x in string)]
     print(r3)
 
@@ -275,9 +275,20 @@ False
 #### PALINDROME_CHECK
 
 ```py
+def is_palindrome(s):
+
+    st = s.lower()
+    rev = st[::-1]
+
+    if st == rev:
+        return True
+    else:
+        return False
+
+print(is_palindrome('Abba'))
 
 >>>
-
+True
 >>>
 ```
 
@@ -288,9 +299,19 @@ False
 #### CHANGE_THE_ORDER_USE_SWAPCASE
 
 ```py
+def string_transformer(s):
+
+    #reverse the order of the words in the string
+    reversed_string = " ".join(s.split(" ")[::-1])
+
+    #use swapcase for change all the upper to lower and back
+    sc = reversed_string.swapcase()
+    return sc
+
+print(string_transformer("Example string"))
 
 >>>
-
+STRING eXAMPLE
 >>>
 ```
 
