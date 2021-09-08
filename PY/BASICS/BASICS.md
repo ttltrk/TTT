@@ -22,6 +22,7 @@
 * [PY2_VS_PY3](#PY2_VS_PY3)
 * [PYTHON_VS_CYTHON](#PYTHON_VS_CYTHON)
 * [JYTHON_VS_PYPY](#JYTHON_VS_PYPY)
+* [HELLO_WORLD](#HELLO_WORLD)
 
 ---
 
@@ -394,6 +395,20 @@ This doesn't make PyPy any less important or less serious than CPython, of cours
 In addition, PyPy is compatible with the Python 3 language.
 
 There are many more different Pythons in the world. You'll find them if you look, but this course will focus on CPython.
+
+[^^^](#BASICS)
+
+---
+
+##### HELLO_WORLD
+
+```py
+print('hello world')
+
+>>>
+hello world
+>>>
+```
 
 [^^^](#BASICS)
 
