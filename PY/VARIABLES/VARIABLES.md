@@ -64,6 +64,31 @@ John
 >>>
 ```
 
+```py
+
+char_name = "John"
+char_age = "35"
+
+print("There once was a man named " + char_name + ", ")
+print("he was " + char_age + " years old")
+
+>>>
+There once was a man named John,
+he was 35 years old
+>>>
+
+char_name = "Tom"
+char_age = "18"
+
+print("There once was a man named " + char_name + ", ")
+print("he was " + char_age + " years old")
+
+>>>
+There once was a man named Tom,
+he was 18 years old
+>>>
+```
+
 [^^^](#VARIABLES)
 
 ---
