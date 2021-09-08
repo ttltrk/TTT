@@ -26,7 +26,40 @@
 ####
 
 ```py
+print("hellobello")
+print(' ')
+print("hello\nbello")
+print(' ')
+print("hello\"bello")
 
+>>>
+hellobello
+
+hello
+bello
+
+hello"bello
+>>>
+```
+
+```py
+phrase = "hellobello"
+
+print(phrase)
+
+>>>
+hellobello
+>>>
+```
+
+```py
+phrase = "hellobello"
+
+print(phrase + ' is cool')
+
+>>>
+hellobello is cool
+>>>
 ```
 
 [^^^](#STRINGS_BASICS)
