@@ -27,6 +27,7 @@ There are three numeric types in Python
 * [DECIMAL](#DECIMAL)
 * [MATH](#MATH)
 * [FRACTIONS](#FRACTIONS)
+* [STRING](#STRING)
 
 ---
 
@@ -349,6 +350,23 @@ print(F(-3,10) < 0)
 6/5
 False
 True
+>>>
+```
+
+[^^^](#NUMBERS)
+
+---
+
+#### STRING
+
+```py
+my_num=20
+print(type(my_num))
+print(type(str(my_num)))
+
+>>>
+<class 'int'>
+<class 'str'>
 >>>
 ```
 
