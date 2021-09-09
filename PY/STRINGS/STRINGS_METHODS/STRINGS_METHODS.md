@@ -373,6 +373,16 @@ print(z)
 >>>
 ```
 
+```py
+phrase="helloLello"
+
+print(phrase.index("L"))
+
+>>>
+5
+>>>
+```
+
 [^^^](#STRINGS_METHODS)
 
 ---
