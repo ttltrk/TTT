@@ -17,5 +17,6 @@
 * [ESCAPE_CHARACTERS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/ESCAPE_CHARACTERS/ESCAPE_CHARACTERS.md)
 * [STRINGS_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS_METHODS/STRINGS_METHODS.md)
 * [STRINGS_EXERCISES](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS_EXERCISES/STRINGS_EXERCISES.md)
+* [STRINGS_CONVERT](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS_CONVERT/STRINGS_CONVERT.md)
 
 ---
