@@ -60,8 +60,10 @@ print(w)
 ```
 
 ```py
+a = 2
+
 x = str("s1")
-y = str(2)   
+y = str(a)   
 z = str(3.0)
 
 print(x)
