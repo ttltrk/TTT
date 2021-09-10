@@ -3,7 +3,7 @@
 
 ---
 
-### STRINGS_CONCATENATE
+### ESCAPE_CHARACTERS
 
 ---
 
@@ -26,6 +26,6 @@
 >>>
 ```
 
-[^^^](#STRINGS_CONCATENATE)
+[^^^](#ESCAPE_CHARACTERS)
 
 ```
