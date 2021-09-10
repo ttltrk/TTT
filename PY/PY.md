@@ -17,6 +17,7 @@
 * [DATA_TYPES](https://github.com/ttltrk/TTT/blob/master/PY/DATA_TYPES/DATA_TYPES.md)
 * [FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/FUNCTIONS/FUNCTIONS.md)
 * [NUMBERS](https://github.com/ttltrk/TTT/blob/master/PY/NUMBERS/NUMBERS.md)
+* [CASTING](https://github.com/ttltrk/TTT/blob/master/PY/CASTING/CASTING.md)
 * [STRINGS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS.md)
 * [OPERATORS](https://github.com/ttltrk/TTT/blob/master/PY/OPERATORS/OPERATORS.md)
 * [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/ARRAYS.md)
