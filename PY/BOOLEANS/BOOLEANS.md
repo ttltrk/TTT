@@ -74,6 +74,104 @@ True
 >>>
 ```
 
+Almost any value is evaluated to True if it has some sort of content.
+Any string is True, except empty strings.
+Any number is True, except 0.
+Any list, tuple, set, and dictionary are True, except empty ones.
+
+```py
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
+
+>>>
+True
+>>>
+```
+
+```py
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+bool({})
+
+>>>
+False
+>>>
+```
+
+```py
+class myclass():
+  def __len__(self):
+    return 5
+
+myobj = myclass()
+print(bool(myobj))
+
+>>>
+True
+>>>
+
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+>>>
+False
+>>>
+```
+
+```py
+def myFunction() :
+  return False
+
+print(myFunction())
+
+>>>
+False
+>>>
+
+def myFunction() :
+  return True
+
+print(myFunction())
+
+>>>
+True
+>>>
+```
+
+```py
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+
+>>>
+YES!
+>>>
+```
+
+Python also has many built-in functions that return a boolean value, like the ```isinstance()``` function, which can be used to determine if an object is of a certain data type:
+
+```py
+x = 200
+print(isinstance(x, int))
+
+>>>
+True
+>>>
+```
+
 [^^^](#BOOLEANS)
 
 ---
