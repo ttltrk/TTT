@@ -11,7 +11,7 @@
 
 * [SWITCH](#SWITCH)
 * [ROUTER](#ROUTER)
-* [](#)
+* [INTERNET](#INTERNET)
 * [](#)
 * [](#)
 * [](#)
@@ -55,6 +55,17 @@ the main task of the router is to enable computers to connect to the internet
 
 ```
 the device that delivers the packets from the LAN to the internet is the router
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### INTERNET
+
+```
+Connecting to the internet can stand for connecting to the another computer in anywhere in the world
+The structure that connects all LANs in the world is the internet
 ```
 
 [^^^](#NETWORK)
