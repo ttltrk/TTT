@@ -16,10 +16,6 @@
 
 #### BASICS
 
-```
-
-```
-
 - using switch for connect pcs
 - cat5, cat6 cable
 - optic cable is much faster then copper cable
@@ -35,6 +31,7 @@ Switches >> Cables
 
 - LAN = Local Area Network
 - A LAN is a computer network that connects computers within a restricted area such as a residence, school or office
+- switch devices have LAN ports
 
 [^^^](#NETWORK)
 
