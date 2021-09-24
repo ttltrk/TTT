@@ -53,6 +53,10 @@ the main task of the router is to enable computers to connect to the internet
 - there is definitely no need for a router for devices in the same LAN to communicate
 - either a switch or an access point device is sufficient for this purpose
 
+```
+the device that delivers the packets from the LAN to the internet is the router
+```
+
 [^^^](#NETWORK)
 
 ---
