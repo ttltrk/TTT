@@ -68,6 +68,16 @@ Connecting to the internet can stand for connecting to the another computer in a
 The structure that connects all LANs in the world is the internet
 ```
 
+```
+A home-router is a combo device that is a mixture of router and switch
+Most home-routers nowadays also have an access point feature. In this way, you can use wireless technology as well if you want.
+```
+
+- if we give entire the load to the single point, we call this problem 'Single Point of Failure'
+- mess is minimized since not many cables are connected to routers in the distributed structure
+- all the underwater cables are fiber optic cables  
+- each router must have a special table called 'routing table', this table tells us which route the packet should choose
+
 [^^^](#NETWORK)
 
 ---
