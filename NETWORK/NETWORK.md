@@ -9,12 +9,16 @@
 
 ---
 
-* []()
-* []()
+* [SWITCH](#SWITCH)
+* [ROUTER](#ROUTER)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 
 ---
 
-#### BASICS
+#### SWITCH
 
 - using switch for connect pcs
 - cat5, cat6 cable
@@ -32,6 +36,22 @@ Switches >> Cables
 - LAN = Local Area Network
 - A LAN is a computer network that connects computers within a restricted area such as a residence, school or office
 - switch devices have LAN ports
+- the pcs are communicating between each other with packets
+
+[^^^](#NETWORK)
+
+---
+
+#### ROUTER
+
+```
+the main task of the router is to enable computers to connect to the internet  
+```
+
+- a special cable comes to our house and we connect to the internet by using this cable
+- this cable is given to us by the ISP (Internet Service Provider)
+- there is definitely no need for a router for devices in the same LAN to communicate
+- either a switch or an access point device is sufficient for this purpose
 
 [^^^](#NETWORK)
 
