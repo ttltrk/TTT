@@ -78,6 +78,20 @@ Most home-routers nowadays also have an access point feature. In this way, you c
 - all the underwater cables are fiber optic cables  
 - each router must have a special table called 'routing table', this table tells us which route the packet should choose
 
+```
+forwarding
+
+the router learns the packets destination then it looks at the routing table and learns over
+which port the packet will be sent
+```
+
+```
+routers have a special processor inside. these processors create routing tables by using
+special algorithms
+```
+
+- a router always wants to deliver the packets to its destination in the fastest way possible  
+
 [^^^](#NETWORK)
 
 ---
