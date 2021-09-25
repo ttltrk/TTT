@@ -13,6 +13,10 @@
 * [ROUTER](#ROUTER)
 * [INTERNET](#INTERNET)
 * [CONNECTING_TO_THE_INTERNET](#CONNECTING_TO_THE_INTERNET)
+* [WAN](#WAN)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 
@@ -117,6 +121,22 @@ when you watch a video on youtube, youtube sends the video to you piece by piece
 - servers have to be much powerful than normal computers in terms of hardware
 - servers are distributed around the world and you communicate with the most suitable
 server for you
+
+[^^^](#NETWORK)
+
+---
+
+#### WAN
+
+```
+WAN = Wide area network
+```
+
+```
+thanks to WAN, we can ensure that LANs located in different parts of the world
+communicate as if they were in the same environment
+```
+
 
 [^^^](#NETWORK)
 
