@@ -137,6 +137,21 @@ thanks to WAN, we can ensure that LANs located in different parts of the world
 communicate as if they were in the same environment
 ```
 
+```
+there is always a possibility that a packet on the internet could be seen or modified
+by others
+```
+
+```
+VPN = Virtual private network
+```
+
+```
+VPN tunnel
+
+the tunneling feature of the VPN provides us privacy, anonymity and security on the internet  
+```
+
 
 [^^^](#NETWORK)
 
