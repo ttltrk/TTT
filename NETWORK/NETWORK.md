@@ -150,7 +150,10 @@ VPN = Virtual private network
 VPN tunnel
 
 the tunneling feature of the VPN provides us privacy, anonymity and security on the internet  
+tunneling just represents high-security communication between two locations  
 ```
+
+- VPN tunnel does not represent the transmission of the packet through a physical tunnel
 
 
 [^^^](#NETWORK)
