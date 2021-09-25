@@ -12,7 +12,7 @@
 * [SWITCH](#SWITCH)
 * [ROUTER](#ROUTER)
 * [INTERNET](#INTERNET)
-* [](#)
+* [CONNECTING_TO_THE_INTERNET](#CONNECTING_TO_THE_INTERNET)
 * [](#)
 * [](#)
 
@@ -101,6 +101,22 @@ congestion control
 - when routers create their routing table, they are not only concerned with the number of points
 in order to choose the shortest route
 ```
+
+[^^^](#NETWORK)
+
+---
+
+#### CONNECTING_TO_THE_INTERNET
+
+```
+streaming
+
+when you watch a video on youtube, youtube sends the video to you piece by piece  
+```
+
+- servers have to be much powerful than normal computers in terms of hardware
+- servers are distributed around the world and you communicate with the most suitable
+server for you
 
 [^^^](#NETWORK)
 
