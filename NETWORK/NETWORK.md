@@ -64,6 +64,10 @@ the device that delivers the packets from the LAN to the internet is the router
 #### INTERNET
 
 ```
+the internet is the network of networks
+```
+
+```
 Connecting to the internet can stand for connecting to the another computer in anywhere in the world
 The structure that connects all LANs in the world is the internet
 ```
@@ -90,7 +94,13 @@ routers have a special processor inside. these processors create routing tables 
 special algorithms
 ```
 
-- a router always wants to deliver the packets to its destination in the fastest way possible  
+```
+congestion control
+
+- a router always wants to deliver the packet to its destination in the fastest way possible  
+- when routers create their routing table, they are not only concerned with the number of points
+in order to choose the shortest route
+```
 
 [^^^](#NETWORK)
 
