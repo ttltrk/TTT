@@ -179,6 +179,22 @@ this is a special type of LAN
 
 - LAN is more secure than VPN
 
+```
+Private WAN = ISP WAN dedicated line  
+```
+
+```
+LAN >> Switches
+WAN >> Routers
+
+we cannot create a WAN using a traditional switch device
+```
+
+```
+the main task of the routers is connect different networks
+the location of these networks doesn't matter
+```
+
 [^^^](#NETWORK)
 
 ---
