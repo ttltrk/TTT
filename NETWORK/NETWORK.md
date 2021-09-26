@@ -14,7 +14,7 @@
 * [INTERNET](#INTERNET)
 * [CONNECTING_TO_THE_INTERNET](#CONNECTING_TO_THE_INTERNET)
 * [WAN](#WAN)
-* [](#)
+* [WHAT_IS_THE_ROUTER](#WHAT_IS_THE_ROUTER)
 * [](#)
 * [](#)
 * [](#)
@@ -155,6 +155,29 @@ tunneling just represents high-security communication between two locations
 
 - VPN tunnel does not represent the transmission of the packet through a physical tunnel
 
+```
+encryption + encapsulation = tunneling is a special encapsulation method
+```
+
+```
+end to end encryption = between endpoints
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### WHAT_IS_THE_ROUTER
+
+- we can create a single LAN by connecting 2 switches together  
+
+```
+CAN = Campus area network
+
+this is a special type of LAN
+```
+
+- LAN is more secure than VPN
 
 [^^^](#NETWORK)
 
