@@ -212,6 +212,19 @@ POP = Point of presence
 in a POP there can be routers, switches, servers and so on
 ```
 
+```
+Local ISPs connect neighborhoods
+Regional ISPs connect cities in a country  
+```
+
+```
+Network of a country = Local ISPs + Regional ISPs
+```
+
+```
+the ISP that connects different countries is the Global ISP
+```
+
 [^^^](#NETWORK)
 
 ---
