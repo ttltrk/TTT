@@ -15,7 +15,7 @@
 * [CONNECTING_TO_THE_INTERNET](#CONNECTING_TO_THE_INTERNET)
 * [WAN](#WAN)
 * [WHAT_IS_THE_ROUTER](#WHAT_IS_THE_ROUTER)
-* [](#)
+* [ISP](#ISP)
 * [](#)
 * [](#)
 * [](#)
@@ -193,6 +193,23 @@ we cannot create a WAN using a traditional switch device
 ```
 the main task of the routers is connect different networks
 the location of these networks doesn't matter
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### ISP
+
+```
+ISP (Internet Service Provider) represent companies that enable us to connect
+to the internet for money
+```
+
+```
+POP = Point of presence
+
+in a POP there can be routers, switches, servers and so on
 ```
 
 [^^^](#NETWORK)
