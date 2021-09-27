@@ -22,6 +22,7 @@
 * [WHILE_LOOP](#WHILE_LOOP)
 * [FOR_LOOP](#FOR_LOOP)
 * [FUNCTIONS](#FUNCTIONS)
+* [PACKAGES](#PACKAGES)
 
 ---
 
@@ -227,6 +228,34 @@ However, ```<-``` is preferred in most cases because the ```=``` operator can be
 ---
 
 #### FUNCTIONS
+
+[^^^](#R)
+
+---
+
+#### PACKAGES
+
+##### SHINY
+
+- Shiny is an R package that allows you to build interactive web application
+
+###### Structure of a Shiny web app
+
+1. Comprises of 3 components:
+  a. User interface
+  b. Server functions
+  c. shinyApp function
+
+2. The UI is the frontend that accepts user input
+3. The server is the backend that process these input values to finally produce output results that are finally
+displayed on the website
+
+Input data >> UI >> Server (Process/analyze input data)
+Output results << UI << Server (Process/analyze input data)
+
+###### Examples of Shiny web app
+
+###### How to build a simple interactive web app
 
 [^^^](#R)
 
