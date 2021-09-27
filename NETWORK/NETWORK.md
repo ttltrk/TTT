@@ -225,6 +225,13 @@ Network of a country = Local ISPs + Regional ISPs
 the ISP that connects different countries is the Global ISP
 ```
 
+```
+1. user send a request message to the server
+2. server send a response message to the user
+
+this process happens again every time you refresh the page 
+```
+
 [^^^](#NETWORK)
 
 ---
