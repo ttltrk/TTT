@@ -18,7 +18,7 @@
 * [ISP](#ISP)
 * [LAYER_1_DEVICES](#LAYER_1_DEVICES)
 * [LAYER_2_DEVICES](#LAYER_2_DEVICES)
-* [](#)
+* [LAYER_3_DEVICES](#LAYER_3_DEVICES)
 * [](#)
 * [](#)
 * [](#)
@@ -306,7 +306,31 @@ A switch will only communicates with the local network devices
 ```
 A WAP is a specific type of network bridge that connects (bridges) wireless network segments with wired network segments.  
 the most common type WAP bridges 802.11 wireless network segments with 802.3 Ethernet network segments
-A WAP will only communicates with local network devices 
+A WAP will only communicates with local network devices
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### LAYER_3_DEVICES
+
+- MLS
+
+```
+MLS = Multilayer switch
+
+an MLS provides normal Layer 2 network switching services, but it will also provide Layer 3 or higher OSI model services
+the most common MLS is a Layer 3 switch 
+```
+
+- Router
+
+```
+a router is a most common network device for connecting different networks together utilizing the OSI models Layer 3
+logical network information
+the router uses software programming for decision making as compared to the switch's use of an ASIC chip
+a router can communicate with both local and non-local network devices
 ```
 
 [^^^](#NETWORK)
