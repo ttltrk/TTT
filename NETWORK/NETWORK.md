@@ -239,6 +239,8 @@ Peering
 2. due to the direct connection, the packet passes through much less POP  
 ```
 
+- Internet exchange point is the structure that enables the Internet backbone to work synchronously 
+
 [^^^](#NETWORK)
 
 ---
