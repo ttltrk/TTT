@@ -16,6 +16,9 @@
 * [WAN](#WAN)
 * [WHAT_IS_THE_ROUTER](#WHAT_IS_THE_ROUTER)
 * [ISP](#ISP)
+* [LAYER_1_DEVICES](#LAYER_1_DEVICES)
+* [LAYER_2_DEVICES](#LAYER_2_DEVICES)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -239,7 +242,72 @@ Peering
 2. due to the direct connection, the packet passes through much less POP  
 ```
 
-- Internet exchange point is the structure that enables the Internet backbone to work synchronously 
+- Internet exchange point is the structure that enables the Internet backbone to work synchronously
+
+[^^^](#NETWORK)
+
+---
+
+#### LAYER_1_DEVICES
+
+```
+OSI = Open System Interconnection  
+
+OSI reference model
+
+Layer 7 - Application
+Layer 6 - Presentation
+Layer 5 - Session
+Layer 4 - Transport
+Layer 3 - Network
+Layer 2 - Data Link
+Layer 1 - Physical   
+```
+
+- Analog modem
+
+```
+modem = modulator/demodulator
+
+modems were developed to take the digital signal coming from a digital node and
+convert it to an analog signal (modulating the signal) to be placed on the wire.
+In return, it would accept an analog signal from the wire and convert it to a
+digital signal that the node could understand.
+
+They were developed to create connections between network segments via the public switched telephone network (PSTN)
+using the plain old telephone system (POTS)
+```
+
+- Hub
+
+```
+a hub functions as a concentrator/repeater in that it doesn't care where the signal comes from or where it is going
+it takes the electrical signal that arrives on a port and replicates that signal out all of the other ports
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### LAYER_2_DEVICES
+
+- Switch
+
+```
+A switch utilizes an application specific integrated circuit (ASIC) chip
+  - the ASIC chip has specific programming that allows the switch to learn when a device is on
+  the network and which ports it is connected to via that device's Layer 2 MAC address
+
+A switch will only communicates with the local network devices
+```
+
+- WAP (Wireless Access point)
+
+```
+A WAP is a specific type of network bridge that connects (bridges) wireless network segments with wired network segments.  
+the most common type WAP bridges 802.11 wireless network segments with 802.3 Ethernet network segments
+A WAP will only communicates with local network devices 
+```
 
 [^^^](#NETWORK)
 
