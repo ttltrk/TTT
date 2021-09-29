@@ -20,6 +20,7 @@
 ---
 
 * [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
+* [Python Automation Tutorial – How to Automate Tasks for Beginners](https://www.youtube.com/watch?v=s8XjEuplx_U&t=2641s)
 
 ---
 
