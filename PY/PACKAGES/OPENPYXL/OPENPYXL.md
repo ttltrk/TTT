@@ -18,7 +18,7 @@
 * [ACCESSING_WORKBOOK](#ACCESSING_WORKBOOK)
 * [ACCESSING_CELL_VALUES](#ACCESSING_CELL_VALUES)
 * [CHANGE_CELL_VALUES](#CHANGE_CELL_VALUES)
-* [](#)
+* [CREATING_LISTING_CHANGING_SHEETS](#CREATING_LISTING_CHANGING_SHEETS)
 * [](#)
 * [](#)
 * [](#)
@@ -87,9 +87,46 @@ wb.save('Grades.xlsx')
 print(ws['A2'].value)
 
 >>>
-TEST 
+TEST
 >>>
 ```
+
+[^^^](#OPENPYXL)
+
+---
+
+#### CREATING_LISTING_CHANGING_SHEETS
+
+```py
+wb = load_workbook('Grades.xlsx')
+print(wb.sheetnames)
+
+>>>
+['Sheet1', 'Sheet2', 'Sheet3', 'Sheet4']
+>>>
+```
+
+```py
+wb = load_workbook('Grades.xlsx')
+wb.create_sheet('TTT')
+print(wb.sheetnames)
+
+>>>
+['Sheet1', 'Sheet2', 'Sheet3', 'Sheet4', 'TTT']
+>>>
+```
+
+[^^^](#OPENPYXL)
+
+---
+
+[^^^](#OPENPYXL)
+
+---
+
+[^^^](#OPENPYXL)
+
+---
 
 [^^^](#OPENPYXL)
 
