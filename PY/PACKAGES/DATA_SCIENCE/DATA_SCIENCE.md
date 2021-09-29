@@ -9,12 +9,7 @@
 
 ---
 
-```
-
-```
-
----
-
+* [LINKS](#LINKS)
 * [STATISTICS](#STATISTICS)
 * [MEDIAN](#MEDIAN)
 * [STANDARD_DEVIATION](#STANDARD_DEVIATION)
@@ -24,6 +19,16 @@
 * [](#)
 * [](#)
 * [](#)
+
+---
+
+#### LINKS
+
+- YT
+
+* [Data Analysis with Python - Full Course for Beginners](https://www.youtube.com/watch?v=r-uOLxNrNk8&t=36s)
+* [Build 12 Data Science Apps with Python and Streamlit - Full Course](https://www.youtube.com/watch?v=JwSS70SZdyM)
+* [Python for Data Science - Course for Beginners](https://www.youtube.com/watch?v=LHBE6Q9XlzI&t=7s)
 
 ---
 

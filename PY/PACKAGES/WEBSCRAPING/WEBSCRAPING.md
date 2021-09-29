@@ -11,11 +11,15 @@
 
 ---
 
+* [LINKS](#LINKS)
 * [](#)
 * [](#)
 * [](#)
 * [](#)
-* [](#)
+
+---
+
+* [Web Scraping with Python - Beautiful Soup Crash Course](https://www.youtube.com/watch?v=XVv6mJpFOb0)
 
 ---
 

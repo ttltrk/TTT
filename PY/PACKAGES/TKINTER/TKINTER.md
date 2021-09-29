@@ -9,12 +9,7 @@
 
 ---
 
-```
-
-```
-
----
-
+* [LINKS](#LINKS)
 * [CREATING_WINDOW](#CREATING_WINDOW)
 * [ADDING_TEXT](#ADDING_TEXT)
 * [BUTTONS](#BUTTONS)
@@ -30,6 +25,12 @@
 * []()
 * []()
 * []()
+
+---
+
+#### LINKS
+
+* [Tkinter Course - Create Graphic User Interfaces in Python Tutorial](https://www.youtube.com/watch?v=YXPyB4XeYLA&t=4702s)
 
 ---
 

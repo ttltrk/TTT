@@ -9,7 +9,7 @@
 
 ---
 
-* [YT_LINKS](#)
+* [LINKS](#LINKS)
 * [OVERVIEW](#OVERVIEW)
 * [HADOOP](#HADOOP)
 * [MAPREDUCE](#)
@@ -22,7 +22,11 @@
 
 ---
 
-- [Big Data & Hadoop](https://www.youtube.com/watch?v=1vbXmCrkT3Y)
+#### LINKS
+
+- YT
+
+* [Big Data & Hadoop Full Course - Learn Hadoop In 10 Hours](https://www.youtube.com/watch?v=1vbXmCrkT3Y)
 
 ---
 

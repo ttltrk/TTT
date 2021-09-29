@@ -22,6 +22,7 @@ plt is a common name used for importing this module.
 
 ---
 
+* [LINKS](#LINKS)
 * [BASICS](#BASICS)
 * [LINE_PLOT](#LINE_PLOT)
 * [BAR_PLOT](#BAR_PLOT)
@@ -31,6 +32,14 @@ plt is a common name used for importing this module.
 * [SCATTER_PLOT](#SCATTER_PLOT)
 * [PIE_CHART](#PIE_CHART)
 * [PLOT_FORMATTING](#PLOT_FORMATTING)
+
+---
+
+#### LINKS
+
+- YT
+
+* [Matplotlib Crash Course](https://www.youtube.com/watch?v=3Xc3CA655Y4)
 
 ---
 

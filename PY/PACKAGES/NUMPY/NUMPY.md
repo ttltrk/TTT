@@ -15,6 +15,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 
 ---
 
+* [LINKS](#LINKS)
 * [ARRAYS](#ARRAYS)
 * [ARANGE](#ARANGE)
 * [ZEROS](#ZEROS)
@@ -29,6 +30,14 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [ARRAY_INDEXING_CONDITIONS](#ARRAY_INDEXING_CONDITIONS)
 * [SLICE_OF_ARRAY](#SLICE_OF_ARRAY)
 * [STATISTICS](#STATISTICS)
+
+---
+
+#### LINKS
+
+- YT
+
+* [Python NumPy Tutorial for Beginners](https://www.youtube.com/watch?v=QUT1VHiLmmI)
 
 ---
 
