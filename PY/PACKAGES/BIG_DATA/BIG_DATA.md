@@ -9,12 +9,7 @@
 
 ---
 
-```
-
-```
-
----
-
+* [YT_LINKS](#)
 * [OVERVIEW](#OVERVIEW)
 * [HADOOP](#HADOOP)
 * [MAPREDUCE](#)
@@ -24,6 +19,10 @@
 * [](#)
 * [](#)
 * [](#)
+
+---
+
+- [Big Data & Hadoop](https://www.youtube.com/watch?v=1vbXmCrkT3Y)
 
 ---
 
