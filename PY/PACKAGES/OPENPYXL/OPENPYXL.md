@@ -69,6 +69,28 @@ Joe
 
 #### CHANGE_CELL_VALUES
 
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('Grades.xlsx')
+ws = wb.active
+
+
+print(ws['A2'].value)
+
+>>>
+Joe
+>>>
+
+ws['A2'].value = 'TEST'
+wb.save('Grades.xlsx')
+print(ws['A2'].value)
+
+>>>
+TEST 
+>>>
+```
+
 [^^^](#OPENPYXL)
 
 ---
