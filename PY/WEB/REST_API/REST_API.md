@@ -36,5 +36,6 @@ DELETE - DELETE - Delete an object
 
 * [Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk&t=2935s)
 * [APIs for Beginners - How to use an API (Full Course / Tutorial)](https://www.youtube.com/watch?v=GZvSYJDk-us&t=224s)
+* [Data Structures For Python Developers (w/ Flask) - Course](https://www.youtube.com/watch?v=74NW-84BqbA)
 
 ---
