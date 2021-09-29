@@ -9,6 +9,7 @@
 
 ---
 
+* [LINKS](#LINKS)
 * [SOURCE](#SOURCE)
 * [MAIN_PY](#MAIN_PY)
 * [TheLab_KV](#TheLab_KV)
@@ -17,6 +18,12 @@
 * [SIZE_HINT_VS_POS_HINT](#SIZE_HINT_VS_POS_HINT)
 * [EMBED_A_LAYOUT](#EMBED_A_LAYOUT)
 * [ANCHOR_LAYOUT](#ANCHOR_LAYOUT)
+
+---
+
+#### LINKS
+
+* [Kivy Course - Create Python Games and Mobile Apps](https://www.youtube.com/watch?v=l8Imtec4ReQ&t=2497s)
 
 ---
 
