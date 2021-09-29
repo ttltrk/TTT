@@ -17,11 +17,11 @@
 
 * [ACCESSING_WORKBOOK](#ACCESSING_WORKBOOK)
 * [ACCESSING_CELL_VALUES](#ACCESSING_CELL_VALUES)
-* []()
-* []()
-* []()
-* []()
-* []()
+* [CHANGE_CELL_VALUES](#CHANGE_CELL_VALUES)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 
 ---
 
@@ -47,15 +47,27 @@ print(ws)
 #### ACCESSING_CELL_VALUES
 
 ```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('Grades.xlsx')
+ws = wb.active
+
+print(ws['A1'])
+print(ws['A1'].value)
+print(ws['A2'].value)
 
 >>>
-
+<Cell 'Sheet1'.A1>
+Name
+Joe
 >>>
 ```
 
 [^^^](#OPENPYXL)
 
 ---
+
+#### CHANGE_CELL_VALUES
 
 [^^^](#OPENPYXL)
 
