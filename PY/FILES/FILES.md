@@ -50,9 +50,61 @@ f = open("demofile.txt")
 #### READ_FILES
 
 ```py
+f = open("demo.txt", "r")
+print(f.read())
 
 >>>
+Hello! Welcome to demofile.txt
+This file is for testing purposes.
+Good Luck!
+>>>
+```
 
+- Return the 5 first characters of the file
+
+```py
+f = open("demo.txt", "r")
+print(f.read(5))
+
+>>>
+Hello
+>>>
+```
+
+- Read lines
+
+```py
+f = open("demo.txt", "r")
+print(f.readline())
+
+>>>
+Hello! Welcome to demofile.txt
+>>>
+```
+
+```py
+f = open("demo.txt", "r")
+print(f.readline())
+print(f.readline())
+
+>>>
+Hello! Welcome to demofile.txt
+
+This file is for testing purposes.
+>>>
+```
+
+```py
+f = open("demo.txt", "r")
+for x in f:
+  print(x)
+
+>>>
+Hello! Welcome to demofile.txt
+
+This file is for testing purposes.
+
+Good Luck!
 >>>
 ```
 
