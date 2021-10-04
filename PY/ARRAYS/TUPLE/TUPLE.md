@@ -9,7 +9,7 @@
 
 ---
 
-* [TUPLE_BASICS]()
+* [TUPLE_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/TUPLE_BASICS/TUPLE_BASICS.md)
 * [TUPLE_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/TUPLE_METH/TUPLE_METH.md)
 
 ---
