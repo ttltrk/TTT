@@ -1748,9 +1748,30 @@ If testExpression is false, the loop terminates (ends).
 ```
 
 ```c
+// Print numbers from 1 to 5
+
+#include <stdio.h>
+int main() {
+  int i = 1;
+
+  while (i <= 5) {
+    printf("%d\n", i);
+    ++i;
+  }
+
+  return 0;
+}
 
 >>>
+1
+2
+3
+4
+5
 
+--------------------------------
+Process exited after 4.106 seconds with return value 0
+Press any key to continue . . .
 >>>
 ```
 
