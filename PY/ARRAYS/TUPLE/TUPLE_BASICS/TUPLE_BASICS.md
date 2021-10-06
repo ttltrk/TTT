@@ -70,6 +70,48 @@ print(len(thistuple))
 >>>
 ```
 
+```
+To create a tuple with only one item, you have to add a comma after the item, otherwise Python will not recognize it as a tuple.
+```
+
+```py
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple = ("apple")
+print(type(thistuple))
+
+>>>
+<class 'tuple'>
+<class 'str'>
+>>>
+```
+
+```
+Tuple items can be of any data type
+A tuple can contain different data types
+```
+
+```py
+tuple1 = ("apple", "banana", "cherry")
+tuple2 = (1, 5, 7, 9, 3)
+tuple3 = (True, False, False)
+tuple4 = ("abc", 34, True, 40, "male")
+
+print(type(tuple1))
+print(type(tuple2))
+print(type(tuple3))
+print(type(tuple4))
+
+>>>
+<class 'tuple'>
+<class 'tuple'>
+<class 'tuple'>
+<class 'tuple'>
+>>>
+```
+
 [^^^](#TUPLE_BASICS)
 
 ---
