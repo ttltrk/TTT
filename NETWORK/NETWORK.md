@@ -342,7 +342,15 @@ a router can communicate with both local and non-local network devices
 - Firewall
 
 ```
-
+- A firewall can be placed on routers or hosts (software based) or can be its own device
+- It functions at multiple layers of the osi model (2, 3, 4, 7)
+- It blocks packets from entering or leaving the network:
+  - via stateless inspection:
+    the firewall will examine every packet against a set of rules.
+  - via stateful inspection:
+    the firewall only examine the state of the connection between networks. Specifically, when a
+    connection is made from an internal network to an external network.  
+    As a general rule, external connections are not allowed to be initiated with the internal network. 
 ```
 
 [^^^](#NETWORK)
