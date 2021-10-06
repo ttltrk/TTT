@@ -370,7 +370,17 @@ Usually designed to inform a network admin when a breach or attack has occurred 
     - Policy based:
       evaluates network traffic against a specific declared security policy
 
-- May be deployed on the host level (HIDS) 
+- May be deployed at the host level (HIDS)
+```
+
+- IPS
+
+```
+IPS = Intrusion prevention system
+
+- An IPS is an active system designed stop a breach or attack from succeeding in damaging the network
+- All traffic on the network segment flows through the IPS to either enter or leave the segment
+- The best placement on the network is between a router and a destination network segment  
 ```
 
 [^^^](#NETWORK)
