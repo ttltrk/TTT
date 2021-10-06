@@ -6,31 +6,21 @@
 
 ---
 
-<h3 id='^'>SSH</h3>
+### SSH
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
+* [GENERATE_SSH_AIX](#GENERATE_SSH_AIX)
+* []()
 
 ---
 
-<h3 id=''></h3>
+#### GENERATE_SSH_AIX
 
 ```sh
+in $HOME/..ssh
 
+ssh-keygen -t rsa -C "username@hostname"
 ```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```sh
-
-```
-
-<a href='#^'>^^^</a>
 
 ---
