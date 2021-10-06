@@ -1724,6 +1724,29 @@ Then, the value of sum is printed on the screen.
 
 #### WHILE_LOOP
 
+```
+C programming has three types of loops.
+
+for loop
+while loop
+do...while loop
+```
+
+```c
+while (testExpression) {
+  // the body of the loop
+}
+```
+
+- How while loop works?
+
+```
+The while loop evaluates the testExpression inside the parentheses ().
+If testExpression is true, statements inside the body of while loop are executed. Then, testExpression is evaluated again.
+The process goes on until testExpression is evaluated to false.
+If testExpression is false, the loop terminates (ends).
+```
+
 ```c
 
 >>>
