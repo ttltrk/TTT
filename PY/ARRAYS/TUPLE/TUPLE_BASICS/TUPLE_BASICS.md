@@ -112,6 +112,19 @@ print(type(tuple4))
 >>>
 ```
 
+```
+It is also possible to use the tuple() constructor to make a tuple.
+```
+
+```py
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
+
+>>>
+('apple', 'banana', 'cherry')
+>>>
+```
+
 [^^^](#TUPLE_BASICS)
 
 ---
