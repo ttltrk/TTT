@@ -1775,6 +1775,40 @@ Press any key to continue . . .
 >>>
 ```
 
+```
+Here, we have initialized i to 1.
+
+1. When i = 1, the test expression i <= 5 is true. Hence, the body of the while loop is executed.
+This prints 1 on the screen and the value of i is increased to 2.
+
+2. Now, i = 2, the test expression i <= 5 is again true. The body of the while loop is executed again.
+This prints 2 on the screen and the value of i is increased to 3.
+
+3. This process goes on until i becomes 6. Then, the test expression i <= 5 will be false and the loop terminates.
+```
+
+- do while loop
+
+```
+The do..while loop is similar to the while loop with one important difference. The body of do...while loop is executed at least once. Only then, the test expression is evaluated.
+```
+
+```c
+do {
+  // the body of the loop
+}
+while (testExpression);
+```
+
+```
+How do...while loop works?
+
+- The body of do...while loop is executed once. Only then, the testExpression is evaluated.
+- If testExpression is true, the body of the loop is executed again and testExpression is evaluated once more.
+- This process goes on until testExpression becomes false.
+- If testExpression is false, the loop ends.
+```
+
 [^^^](#C_FLOW_CONTROL)
 
 ---
