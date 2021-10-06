@@ -350,7 +350,27 @@ a router can communicate with both local and non-local network devices
   - via stateful inspection:
     the firewall only examine the state of the connection between networks. Specifically, when a
     connection is made from an internal network to an external network.  
-    As a general rule, external connections are not allowed to be initiated with the internal network. 
+    As a general rule, external connections are not allowed to be initiated with the internal network.
+```
+
+- IDS
+
+```
+IDS = Intrusion detection system
+
+- An IDS is a passive system designed to identify when a network breach or attack against the network is occuring.
+Usually designed to inform a network admin when a breach or attack has occurred through logs/sms/mail.
+
+- An IDS cannot prevent or stop a breach or attack on its own.
+- It receives a copy of all traffic and evaluates it against a set of standards
+    - Signature based:
+      evaluates network traffic for known malware or attack signatures
+    - Anomaly based:
+      evaluates network traffic for suspicious changes
+    - Policy based:
+      evaluates network traffic against a specific declared security policy
+
+- May be deployed on the host level (HIDS) 
 ```
 
 [^^^](#NETWORK)
