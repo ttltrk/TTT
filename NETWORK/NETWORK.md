@@ -383,6 +383,18 @@ IPS = Intrusion prevention system
 - The best placement on the network is between a router and a destination network segment  
 ```
 
+- VPN
+
+```
+VPN = Virtual private network
+
+A VPN concentrator will allow for many more secure VPN connections to a network.
+The concentrator will provide proper tunneling and encryption, depending on the type of VPN connection
+that is allowed. Most concentrators can function at multiple layers of the OSI model (L2, L3, L7)
+Outside of internet transactions (which use ssl vpn connection at L7) most connectors will function
+at the network layer (L3) of the OSI model, providing IPsec encryption through a secure tunnel.
+```
+
 [^^^](#NETWORK)
 
 ---
