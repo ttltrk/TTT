@@ -20,6 +20,12 @@
 * [LAYER_2_DEVICES](#LAYER_2_DEVICES)
 * [LAYER_3_DEVICES](#LAYER_3_DEVICES)
 * [SECURITY_DEVICES](#SECURITY_DEVICES)
+* [OPTIMIZATION_AND_PERFORMANCE_DEVICES](#OPTIMIZATION_AND_PERFORMANCE_DEVICES)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 
@@ -393,6 +399,26 @@ The concentrator will provide proper tunneling and encryption, depending on the 
 that is allowed. Most concentrators can function at multiple layers of the OSI model (L2, L3, L7)
 Outside of internet transactions (which use ssl vpn connection at L7) most connectors will function
 at the network layer (L3) of the OSI model, providing IPsec encryption through a secure tunnel.
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### OPTIMIZATION_AND_PERFORMANCE_DEVICES
+
+- Load balancer
+
+```
+- A load balancer may also be called a content switch or content filter
+- A network appliance that is used to load balance between multiple hosts
+that contain the same data spreading out the workload for greater efficiency.
+```
+
+- Proxy server
+
+```
+
 ```
 
 [^^^](#NETWORK)
