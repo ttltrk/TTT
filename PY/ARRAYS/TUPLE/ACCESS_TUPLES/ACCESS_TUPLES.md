@@ -30,30 +30,26 @@ banana
 >>>
 ```
 
-```py
-
->>>
-
->>>
-```
-
-```py
-
->>>
-
->>>
-```
-
 [^^^](#ACCESS_TUPLES)
 
 ---
 
 #### NEGATIV_INDEXING
 
+```
+Negative indexing means start from the end.
+-1 refers to the last item, -2 refers to the second last item etc.
+```
+
 ```py
+thistuple = ("apple", "banana", "cherry")
+
+print(thistuple[-1])
+print(thistuple[-2])
 
 >>>
-
+cherry
+banana
 >>>
 ```
 
