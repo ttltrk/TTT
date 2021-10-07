@@ -9,15 +9,93 @@
 
 ---
 
-* [](#)
-* [](#)
+* [ACCES_TUPLE_ITEMS](#ACCES_TUPLE_ITEMS)
+* [NEGATIV_INDEXING](#NEGATIV_INDEXING)
+* [RANGE_OF_INDEXES](#RANGE_OF_INDEXES)
 
 ---
 
-####
+#### ACCES_TUPLE_ITEMS
+
+```
+You can access tuple items by referring to the index number, inside square brackets.
+```
+
+```py
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+
+>>>
+banana
+>>>
+```
 
 ```py
 
+>>>
+
+>>>
+```
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#ACCESS_TUPLES)
+
+---
+
+#### NEGATIV_INDEXING
+
+```py
+
+>>>
+
+>>>
+```
+
+```py
+
+>>>
+
+>>>
+```
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#ACCESS_TUPLES)
+
+---
+
+#### RANGE_OF_INDEXES
+
+```py
+
+>>>
+
+>>>
+```
+
+```py
+
+>>>
+
+>>>
+```
+
+```py
+
+>>>
+
+>>>
 ```
 
 [^^^](#ACCESS_TUPLES)
