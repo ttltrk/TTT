@@ -9,8 +9,8 @@
 
 ---
 
-* [TUPLE_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/TUPLE_BASICS/TUPLE_BASICS.md)
-* [ACCESS_TUPLES](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/ACCESS_TUPLES/ACCESS_TUPLES.md)
-* [TUPLE_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/TUPLE_METH/TUPLE_METH.md)
+* [TUPLE_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/TUPLE_BASICS/TUPLE_BASICS.md)
+* [ACCESS_TUPLES](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/ACCESS_TUPLES/ACCESS_TUPLES.md)
+* [TUPLE_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/TUPLE_METH/TUPLE_METH.md)
 
 ---
