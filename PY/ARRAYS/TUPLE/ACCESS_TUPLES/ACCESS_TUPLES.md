@@ -53,37 +53,36 @@ banana
 >>>
 ```
 
-```py
-
->>>
-
->>>
-```
-
-```py
-
->>>
-
->>>
-```
-
 [^^^](#ACCESS_TUPLES)
 
 ---
 
 #### RANGE_OF_INDEXES
 
-```py
-
->>>
-
->>>
+```
+You can specify a range of indexes by specifying where to start and where to end the range.
+When specifying a range, the return value will be a new tuple with the specified items.
 ```
 
 ```py
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:5])
 
 >>>
+('cherry', 'orange', 'kiwi')
+>>>
+```
 
+```
+By leaving out the start value, the range will start at the first item.
+```
+
+```py
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[:4])
+
+>>>
+('apple', 'banana', 'cherry', 'orange')
 >>>
 ```
 
