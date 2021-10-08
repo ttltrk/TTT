@@ -11,6 +11,7 @@
 
 * [TUPLE_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/TUPLE_BASICS/TUPLE_BASICS.md)
 * [ACCESS_TUPLES](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/ACCESS_TUPLES/ACCESS_TUPLES.md)
+* [UPDATE_TUPLES](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/UPDATE_TUPLES/UPDATE_TUPLES.md)
 * [TUPLE_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/TUPLE/TUPLE_METH/TUPLE_METH.md)
 
 ---
