@@ -95,6 +95,8 @@ he was 18 years old
 
 #### MULTIPLE_VARIABLES
 
+- Many Values to Multiple Variables
+
 ```py
 x, y, z = "Orange", "Banana", "Cherry"
 
@@ -109,6 +111,8 @@ Cherry
 >>>
 ```
 
+- One Value to Multiple Variables
+
 ```py
 x = y = z = "Orange"
 
@@ -120,6 +124,28 @@ print(z)
 Orange
 Orange
 Orange
+>>>
+```
+
+- Unpack a Collection
+
+```
+If you have a collection of values in a list, tuple etc. Python allows you extract the values into variables. This is called unpacking.
+```
+
+```py
+fruits = ["apple", "banana", "cherry"]
+
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+>>>
+apple
+banana
+cherry
 >>>
 ```
 
