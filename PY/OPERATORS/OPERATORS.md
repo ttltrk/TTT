@@ -85,6 +85,26 @@ Arithmetic operators are used with numeric values to perform common mathematical
 
 #### PY_ASSIGNMENT_OPERATORS
 
+```
+Assignment operators are used to assign values to variables.
+```
+
+| Operator      | Name |Example|
+| ----------- | ----------- |-----------|
+| =	| x = 5	| x = 5	|
+| +=	| x += 3	| x = x + 3 |
+| -=	| x -= 3	| x = x - 3	|
+| *=	| x *= 3	| x = x * 3	|
+| /=	| x /= 3	| x = x / 3	|
+| %=	| x %= 3	| x = x % 3	|
+| //=	| x //= 3	| x = x // 3 |
+| **=	| x **= 3	| x = x ** 3 |
+| &=	x | &= 3	| x = x & 3	|
+| |=	x | |= 3	| x = x | 3	|
+| ^=	x | ^= 3	| x = x ^ 3	|
+| >>= |	x >>= 3	| x = x >> 3 |
+| <<= |	x <<= 3	| x = x << 3 |
+
 [^^^](#OPERATORS)
 
 ---
