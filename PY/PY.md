@@ -19,6 +19,7 @@
 * [NUMBERS](https://github.com/ttltrk/TTT/blob/master/PY/NUMBERS/NUMBERS.md)
 * [CASTING](https://github.com/ttltrk/TTT/blob/master/PY/CASTING/CASTING.md)
 * [STRINGS](https://github.com/ttltrk/TTT/blob/master/PY/STRINGS/STRINGS.md)
+* [BOOLEANS](https://github.com/ttltrk/TTT/blob/master/PY/BOOLEANS/BOOLEANS.md)
 * [OPERATORS](https://github.com/ttltrk/TTT/blob/master/PY/OPERATORS/OPERATORS.md)
 * [ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/ARRAYS.md)
 * [PRINT_FORMATTING](https://github.com/ttltrk/TTT/blob/master/PY/PRINT_FORMATTING/PRINT_FORMATTING.md)
