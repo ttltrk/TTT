@@ -27,6 +27,32 @@
 
 #### SS_PLATFORM_BASICS
 
+- Get Started
+
+```
+
+```
+
+- Discover Use Cases for the Platform
+
+```
+
+```
+
+- Understand the SS Architecture
+
+```
+
+```
+
+- Navigate Setup
+
+```
+
+```
+
+- Power Up with AppExchange
+
 ```
 
 ```
