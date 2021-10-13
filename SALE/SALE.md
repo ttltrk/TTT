@@ -50,6 +50,15 @@ Salesforce is a cloud computing platform who provide service as SaaS (Software a
 PaaS (Process as a Service)
 ```
 
+- Benefits of Cloud Computing & Salesforce
+
+```
+- Cheaper 
+- Scalable
+- Collaboration
+- Hassle-Free
+```
+
 [^^^](#SALESFORCE)
 
 ---
