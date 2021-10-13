@@ -15,6 +15,7 @@
 
 ---
 
+* [LINKS](#LINKS)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 
 * [SS_PLATFORM_BASICS](#SS_PLATFORM_BASICS)
@@ -24,6 +25,14 @@
 * [SS_MOBILE_APP_CUSTOM](#SS_MOBILE_APP_CUSTOM)
 * [USER_MANAGEMENT](#USER_MANAGEMENT)
 * [REPORTS_DASHBOARDS_FOR_LIGHTNING](#REPORTS_DASHBOARDS_FOR_LIGHTNING)
+
+---
+
+#### LINKS
+
+* [Salesforce Full Course - Learn Salesforce in 9 Hours](https://www.youtube.com/watch?v=I3Dk3i4GpU8)
+
+[^^^](#SALESFORCE)
 
 ---
 
