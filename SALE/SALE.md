@@ -36,6 +36,11 @@ Working of Cloud Computing:
 2. Software apps accessible via the cloud (client)
 ```
 
+```
+Salesforce is a cloud computing platform who provide service as SaaS (Software as a Service) &
+PaaS (Process as a Service)
+```
+
 [^^^](#SALESFORCE)
 
 ---
