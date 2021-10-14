@@ -11,6 +11,7 @@
 
 ```
 List is a collection which is ordered and changeable. Allows duplicate members.
+Lists are used to store multiple items in a single variable.
 ```
 
 ---
@@ -68,6 +69,10 @@ for i, L1 in enumerate (L1):
 ---
 
 #### ACCESS_ITEMS
+
+```
+List items are indexed and you can access them by referring to the index number.
+```
 
 ```py
 thislist = ["apple", "banana", "cherry"]
