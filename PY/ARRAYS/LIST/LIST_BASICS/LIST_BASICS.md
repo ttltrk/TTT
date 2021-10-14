@@ -110,6 +110,11 @@ banana
 
 #### NEGATIVE_INDEXING
 
+```
+Negative indexing means start from the end
+-1 refers to the last item, -2 refers to the second last item etc.
+```
+
 ```py
 thislist = ["apple", "banana", "cherry"]
 
@@ -125,6 +130,11 @@ cherry
 ---
 
 #### RANGE_OF_INDEXES
+
+```
+You can specify a range of indexes by specifying where to start and where to end the range.
+When specifying a range, the return value will be a new list with the specified items.
+```
 
 ```py
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
@@ -145,6 +155,10 @@ print(thislist[2:])
 ---
 
 #### RANGE_OF_NEGATIVE_INDEXES
+
+```
+Specify negative indexes if you want to start the search from the end of the list.
+```
 
 ```py
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
