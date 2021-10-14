@@ -162,8 +162,14 @@ Identity operators are used to compare the objects, not if they are equal, but i
 
 #### PY_MEMBERSHIP_OPERATORS
 
+```
+Membership operators are used to test if a sequence is presented in an object.
+```
+
 | Operator      | Name |Example|
 | ----------- | ----------- |-----------|
+| in | 	Returns True if a sequence with the specified value is present in the object	| x in y	|
+| not in |	Returns True if a sequence with the specified value is not present in the object	| x not in y |
 
 [^^^](#OPERATORS)
 
@@ -171,8 +177,18 @@ Identity operators are used to compare the objects, not if they are equal, but i
 
 #### PY_BITWISE_OPERATORS
 
+```
+Bitwise operators are used to compare (binary) numbers.
+```
+
 | Operator      | Name |Example|
 | ----------- | ----------- |-----------|
+| & 	| AND |	Sets each bit to 1 if both bits are 1 |
+| 	 | OR	| Sets each bit to 1 if one of two bits is 1 |
+|  ^	| XOR	| Sets each bit to 1 if only one of two bits is 1 |
+| ~ 	| NOT	| Inverts all the bits |
+| <<	| Zero fill left shift |	Shift left by pushing zeros in from the right and let the leftmost bits fall off |
+| >>	| Signed right shift	| Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
 
 [^^^](#OPERATORS)
 
