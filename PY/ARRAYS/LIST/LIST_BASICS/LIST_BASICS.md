@@ -22,6 +22,7 @@ Lists are used to store multiple items in a single variable.
 * [RANGE_OF_INDEXES](#RANGE_OF_INDEXES)
 * [RANGE_OF_NEGATIVE_INDEXES](#RANGE_OF_NEGATIVE_INDEXES)
 * [CHANGE_ITEM_VALUE](#CHANGE_ITEM_VALUE)
+* [CHANGE_A_RANGE_OF_ITEM_VALUES](#CHANGE_A_RANGE_OF_ITEM_VALUES)
 * [LOOP_THROUGH_LIST](#LOOP_THROUGH_LIST)
 * [CHECK_IF_ITEM_EXIST](#CHECK_IF_ITEM_EXIST)
 * [LENGTH_OF_LIST](#LENGTH_OF_LIST)
@@ -176,6 +177,10 @@ print(thislist[-4:-1])
 
 #### CHANGE_ITEM_VALUE
 
+```
+To change the value of a specific item, refer to the index number.
+```
+
 ```py
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant"
@@ -184,6 +189,61 @@ print(thislist)
 
 >>>
 ['apple', 'blackcurrant', 'cherry']
+>>>
+```
+
+[^^^](#LIST_BASICS)
+
+---
+
+#### CHANGE_A_RANGE_OF_ITEM_VALUES
+
+```
+To change the value of items within a specific range, define a list with the new values,
+and refer to the range of index numbers where you want to insert the new values.
+```
+
+```py
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+print(thislist)
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+
+>>>
+['apple', 'banana', 'cherry', 'orange', 'kiwi', 'mango']
+['apple', 'blackcurrant', 'watermelon', 'orange', 'kiwi', 'mango']
+>>>
+```
+
+```
+If you insert more items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly.
+```
+
+```py
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+thislist[1:2] = ["blackcurrant", "watermelon"]
+print(thislist)
+
+>>>
+['apple', 'banana', 'cherry']
+['apple', 'blackcurrant', 'watermelon', 'cherry']
+>>>
+```
+
+```
+If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly.
+```
+
+```py
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+thislist[1:3] = ["watermelon"]
+print(thislist)
+
+>>>
+['apple', 'banana', 'cherry']
+['apple', 'watermelon']
 >>>
 ```
 
