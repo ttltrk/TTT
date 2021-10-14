@@ -72,6 +72,12 @@ CREATE TABLE trk (
 );
 ```
 
+- CREATE TABLE USING ANOTHER TABLE
+
+```sql
+create table trk_test_xx as select * from trk_test_01; 
+```
+
 [^^^](#CREATE)
 
 ---
