@@ -459,7 +459,53 @@ print(total)
 
 ---
 
-#####
+##### Lists in action
+
+Let's leave lists aside for a short moment and look at one intriguing issue.
+
+Imagine that you need to rearrange the elements of a list, i.e., reverse the order of the elements: the first and the fifth as well as the second and fourth elements will be swapped. The third one will remain untouched.
+
+Question: how can you swap the values of two variables?
+
+Take a look at the snippet:
+
+```py
+variable_1 = 1
+variable_2 = 2
+
+variable_2 = variable_1
+variable_1 = variable_2
+```
+
+If you do something like this, you would lose the value previously stored in variable_2. Changing the order of the assignments will not help. You need a third variable that serves as an auxiliary storage.
+
+This is how you can do it:
+
+```py
+variable_1 = 1
+variable_2 = 2
+
+auxiliary = variable_1
+variable_1 = variable_2
+variable_2 = auxiliary
+```
+
+Python offers a more convenient way of doing the swap - take a look:
+
+```py
+variable_1 = 1
+variable_2 = 2
+
+variable_1, variable_2 = variable_2, variable_1
+```
+
+Clear, effective and elegant - isn't it?
+
+[^^^](#LIST)
+
+---
+
+##### Lists in action 
 
 [^^^](#LIST)
 
