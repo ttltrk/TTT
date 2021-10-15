@@ -505,7 +505,7 @@ Clear, effective and elegant - isn't it?
 
 ---
 
-##### Lists in action 
+##### Lists in action
 
 [^^^](#LIST)
 
