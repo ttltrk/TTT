@@ -30,6 +30,16 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 ---
 
+```
+100usd
+90 min
+65q
+70%
+3y
+```
+
+---
+
 #### INTRO
 
 AWS Certified Cloud Practitioner
