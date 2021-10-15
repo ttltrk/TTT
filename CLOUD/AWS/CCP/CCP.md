@@ -120,6 +120,33 @@ Six advantages and benefits of cloud computing
 
 ---
 
+#### CLOUD_COMPUTING_DEPLOYMENT_MODELS
+
+```
+- Cloud
+  - Fully utilizing cloud computing
+    - startups
+    - SaaS offerings
+    - New projects and companies
+
+- Hybrid
+  - Using both Cloud and On-Premise
+    - Banks
+    - FinTech, Investment management
+    - Large Professional Service providers
+    - Legacy on-premise
+
+- On-Premise
+  - Deploying resources on-premises, using virtualization and resource management tools, is sometimes called "private cloud"
+    - Public sector
+    - Super sensitive data - hospitals
+    -  large enterprise with heavy regulation - insure companies 
+```
+
+[^^^](#AWS_CCP)
+
+---
+
 #### INTRO_AND_MAP_OVERVIEW
 
 - 69 availability zones within 22 geographic regions around the world
