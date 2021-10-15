@@ -174,6 +174,21 @@ US-EAST-1 is the region where you see all your billing info
 
 ---
 
+#### AVAILABILITY_ZONES
+
+```
+An AZ is a datacenter owned and operated by AWS in which AWS service run
+Each region has at least two AZs
+AZs are represented by a Region Code, followed by a letter identifier eg. us-east-1a
+Multi-AZ  Distributing your instances across multiple AZs allows failover configuration for handling
+requests when one goes down.
+<10ms latency between AZs 
+```
+
+[^^^](#AWS_CCP)
+
+---
+
 #### EDGE_LOCATIONS
 
 An edge location is a datacenter owned by a trusted partner of AWS which has a direct connection to the AWS network.
