@@ -15,17 +15,18 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 ---
 
-- [INTRO](#INTRO)
-- [CLOUD_COMPUTING](#CLOUD_COMPUTING)
-- [TYPES_OF_CC](#TYPES_OF_CC)
-- [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
-- [REGIONS](#REGIONS)
-- [EDGE_LOCATIONS](#EDGE_LOCATIONS)
-- [GOVCLOUD_REGIONS](#GOVCLOUD_REGIONS)
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+* [INTRO](#INTRO)
+* [CLOUD_COMPUTING](#CLOUD_COMPUTING)
+* [TYPES_OF_CC](#TYPES_OF_CC)
+* [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
+* [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
+* [REGIONS](#REGIONS)
+* [EDGE_LOCATIONS](#EDGE_LOCATIONS)
+* [GOVCLOUD_REGIONS](#GOVCLOUD_REGIONS)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 
 
 ---
@@ -140,7 +141,7 @@ Six advantages and benefits of cloud computing
   - Deploying resources on-premises, using virtualization and resource management tools, is sometimes called "private cloud"
     - Public sector
     - Super sensitive data - hospitals
-    -  large enterprise with heavy regulation - insure companies 
+    -  large enterprise with heavy regulation - insure companies
 ```
 
 [^^^](#AWS_CCP)
