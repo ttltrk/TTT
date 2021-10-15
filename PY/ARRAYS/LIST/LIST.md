@@ -439,7 +439,21 @@ What happens here?
 the for instruction specifies the variable used to browse the list (i here) followed by the in keyword and the name of the list being processed (my_list here)
 the i variable is assigned the values of all the subsequent list's elements, and the process occurs as many times as there are elements in the list;
 this means that you use the i variable as a copy of the elements' values, and you don't need to use indices;
-the len() function is not needed here, either.
+the ```len()``` function is not needed here, either.
+
+```py
+my_list = [10, 1, 8, 3, 5]
+total = 0
+
+for i in range(len(my_list)):
+    total += my_list[i]
+
+print(total)
+
+>>>
+27
+>>>
+```
 
 [^^^](#LIST)
 
