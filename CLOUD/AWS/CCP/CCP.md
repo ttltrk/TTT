@@ -38,13 +38,6 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 3y
 ```
 
-```
-cloud concepts 28%
-security 24%
-technology 36%
-billing and pricing 12%
-```
-
 ---
 
 #### INTRO
@@ -55,6 +48,13 @@ AWS Certified Cloud Practitioner
 - Security
 - Technology
 - Billing and Pricing
+
+```
+cloud concepts 28%
+security 24%
+technology 36%
+billing and pricing 12%
+```
 
 White papers:
 
