@@ -9,7 +9,7 @@
 
 ---
 
-* [CLE](#https://github.com/ttltrk/TTT/blob/master/C/CLE/CLE.md)
+* [CLE](https://github.com/ttltrk/TTT/blob/master/C/CLE/CLE.md)
 
 ---
 
