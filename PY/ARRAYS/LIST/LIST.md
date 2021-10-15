@@ -67,6 +67,8 @@ Before we go any further in our discussion, we have to state the following: our 
 
 [^^^](#LIST)
 
+---
+
 ##### Indexing lists
 
 How do you change the value of a chosen element in the list?
@@ -114,6 +116,8 @@ Note: all the indices used so far are literals. Their values are fixed at runtim
 
 [^^^](#LIST)
 
+---
+
 ##### Accessing list content
 
 Each of the list's elements may be accessed separately. For example, it can be printed:
@@ -148,6 +152,8 @@ As you've probably noticed before, Python decorates the output in a way that sug
 
 [^^^](#LIST)
 
+---
+
 ##### The len() function
 
 The length of a list may vary during execution. New elements may be added to the list, while others may be removed from it. This means that the list is a very dynamic entity.
@@ -165,6 +171,8 @@ print(len(numbers))
 ```
 
 [^^^](#LIST)
+
+---
 
 ##### Removing elements from a list
 
@@ -189,6 +197,8 @@ You can't access an element which doesn't exist - you can neither get its value 
 
 [^^^](#LIST)
 
+---
+
 ##### Negative indices are legal
 
 It may look strange, but negative indices are legal, and can be very useful.
@@ -212,6 +222,8 @@ print(numbers[-3])
 ```
 
 [^^^](#LIST)
+
+---
 
 ##### List example
 
@@ -241,6 +253,129 @@ give me a number for replace: 20
 4
 >>>
 ```
+
+[^^^](#LIST)
+
+---
+
+##### Functions vs. methods
+
+A method is a specific kind of function - it behaves like a function and looks like a function, but differs in the way in which it acts, and in its invocation style.
+A function doesn't belong to any data - it gets data, it may create new data and it (generally) produces a result.
+A method does all these things, but is also able to change the state of a selected entity.
+A method is owned by the data it works for, while a function is owned by the whole code.
+
+This also means that invoking a method requires some specification of the data from which the method is invoked.
+It may sound puzzling here, but we'll deal with it in depth when we delve into object-oriented programming.
+In general, a typical function invocation may look like this:
+
+```py
+result = function(arg)
+```
+
+The function takes an argument, does something, and returns a result.
+
+A typical method invocation usually looks like this:
+
+```py
+result = data.method(arg)
+```
+
+Note: the name of the method is preceded by the name of the data which owns the method. Next, you add a dot, followed by the method name, and a pair of parenthesis enclosing the arguments.
+The method will behave like a function, but can do something more - it can change the internal state of the data from which it has been invoked.
+You may ask: why are we talking about methods, not about lists?
+This is an essential issue right now, as we're going to show you how to add new elements to an existing list. This can be done with methods owned by all the lists, not by functions.
+
+[^^^](#LIST)
+
+---
+
+##### Adding elements to a list: append() and insert()
+
+A new element may be glued to the end of the existing list:
+
+```py
+list.append(value)
+```
+
+Such an operation is performed by a method named ```append()```. It takes its argument's value and puts it at the end of the list which owns the method.
+
+The list's length then increases by one.
+
+The ```insert()``` method is a bit smarter - it can add a new element at any place in the list, not only at the end.
+
+```py
+list.insert(location, value)
+```
+
+It takes two arguments:
+
+- the first shows the required location of the element to be inserted; note: all the existing elements
+  that occupy locations to the right of the new element (including the one at the indicated position) are shifted to the right, in order to make space for the new element;
+- the second is the element to be inserted.
+
+Look at the code in the editor. See how we use the ```append()``` and ```insert()``` methods.
+Pay attention to what happens after using ```insert()```: the former first element is now the second, the second the third, and so on.
+Add the following snippet after the last line of code in the editor:
+
+```py
+numbers.insert(1, 333)
+```
+
+Print the final list content to the screen and see what happens. The snippet above snippet inserts 333 into the list, making it the second element. The former second element becomes the third, the third the fourth, and so on.
+
+```py
+numbers = [111, 7, 2, 1]
+print(len(numbers))
+print(numbers)
+
+print(' ')
+
+numbers.append(4)
+print(len(numbers))
+print(numbers)
+
+print(' ')
+
+numbers.insert(0, 222)
+print(len(numbers))
+print(numbers)
+
+>>>
+4
+[111, 7, 2, 1]
+
+5
+[111, 7, 2, 1, 4]
+
+6
+[222, 111, 7, 2, 1, 4]
+>>>
+```
+
+[^^^](#LIST)
+
+---
+
+##### Adding elements to a list: continued
+
+[^^^](#LIST)
+
+---
+
+#####
+
+[^^^](#LIST)
+
+---
+
+#####
+
+[^^^](#LIST)
+
+---
+
+#####
 
 [^^^](#LIST)
 
