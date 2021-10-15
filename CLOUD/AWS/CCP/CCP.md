@@ -21,6 +21,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
 * [REGIONS](#REGIONS)
+* [AVAILABILITY_ZONES](#AVAILABILITY_ZONES)
 * [EDGE_LOCATIONS](#EDGE_LOCATIONS)
 * [GOVCLOUD_REGIONS](#GOVCLOUD_REGIONS)
 * [](#)
@@ -182,7 +183,7 @@ Each region has at least two AZs
 AZs are represented by a Region Code, followed by a letter identifier eg. us-east-1a
 Multi-AZ  Distributing your instances across multiple AZs allows failover configuration for handling
 requests when one goes down.
-<10ms latency between AZs 
+<10ms latency between AZs
 ```
 
 [^^^](#AWS_CCP)
