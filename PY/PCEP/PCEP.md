@@ -73,6 +73,20 @@ PCEP – Certified Entry-Level Python Programmer
 
 #### 34_LISTS
 
+* [3411](#)
+* [3412](#)
+* [3413](#)
+* [3414](#)
+* [3415](#)
+* [3416](#)
+* [3417](#)
+* [3418](#)
+* [3419](#)
+* [34110](#)
+* [34111](#)
+* [34112](#)
+* [34113](#)
+
 [^^^](#34_LISTS)
 
 ---
@@ -82,10 +96,12 @@ PCEP – Certified Entry-Level Python Programmer
 * [3511_BUBBLE_SORT_1](#3511_BUBBLE_SORT_1)
 * [3512_BUBBLE_SORT_2](#3512_BUBBLE_SORT_2)
 * [3513_BUBBLE_SORT_3](#3513_BUBBLE_SORT_3)
+* [3514_SECTION_SUMMARY](#3514_SECTION_SUMMARY)
 
 #### 3511_BUBBLE_SORT_1
 #### 3512_BUBBLE_SORT_2
 #### 3513_BUBBLE_SORT_3
+#### 3514_SECTION_SUMMARY
 
 [^^^](#35_SORTING_SIMPLE_LISTS)
 
