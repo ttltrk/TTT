@@ -23,10 +23,14 @@ Now that you can effectively juggle the elements of lists, it's time to learn ho
 Let's say that a list can be sorted in two ways:
 
 ```
-- increasing (or more precisely - non-decreasing) - if in every pair of adjacent elements, the former element is not greater than the latter;
-- decreasing (or more precisely - non-increasing) - if in every pair of adjacent elements, the former element is not less than the latter.
-In the following sections, we'll sort the list in increasing order, so that the numbers will be ordered from the smallest to the largest.
+- increasing (or more precisely - non-decreasing) - if in every pair of adjacent elements,
+the former element is not greater than the latter;
+- decreasing (or more precisely - non-increasing) - if in every pair of adjacent elements,
+the former element is not less than the latter.
 ```
+
+In the following sections, we'll sort the list in increasing order, so that the numbers will be ordered from the smallest to the largest.
+
 
 [^^^](#35_SORTING_SIMPLE_LISTS)
 
