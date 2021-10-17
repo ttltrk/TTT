@@ -25,6 +25,7 @@ Let's say that a list can be sorted in two ways:
 ```
 - increasing (or more precisely - non-decreasing) - if in every pair of adjacent elements,
 the former element is not greater than the latter;
+
 - decreasing (or more precisely - non-increasing) - if in every pair of adjacent elements,
 the former element is not less than the latter.
 ```
