@@ -114,6 +114,40 @@ Let's code in Python all the actions performed during a single pass through the 
 
 #### 3512_BUBBLE_SORT_2
 
+How many passes do we need to sort the entire list?
+
+We solve this issue in the following way: we introduce another variable; its task is to observe if any swap has been done during the pass or not; if there is no swap, then the list is already sorted, and nothing more has to be done. We create a variable named swapped, and we assign a value of False to it, to indicate that there are no swaps. Otherwise, it will be assigned True.
+
+```py
+my_list = [8, 10, 6, 2, 4]  # list to sort
+
+for i in range(len(my_list) - 1):  # we need (5 - 1) comparisons
+    if my_list[i] > my_list[i + 1]:  # compare adjacent elements
+        my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]  # If we end up here, we have to swap the elements.
+```
+
+You should be able to read and understand this program without any problems:
+
+```py
+my_list = [8, 10, 6, 2, 4]  # list to sort
+swapped = True  # It's a little fake, we need it to enter the while loop.
+
+while swapped:
+    swapped = False  # no swaps so far
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:
+            swapped = True  # a swap occurred!
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+
+print(my_list)
+
+>>>
+[2, 4, 6, 8, 10]
+>>>
+```
+
+Run the program and test it.
+
 [^^^](#35_SORTING_SIMPLE_LISTS)
 
 ---
