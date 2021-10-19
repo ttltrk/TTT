@@ -184,6 +184,62 @@ The snippet's output is:
 
 #### 3614_OPERATIONS_ON_LISTS_SLICES_3
 
+If you omit the start in your slice, it is assumed that you want to get a slice beginning at the element with index 0.
+
+In other words, the slice of this form:
+
+```py
+my_list[:end]
+```
+
+is a more compact equivalent of:
+
+```py
+my_list[0:end]
+```
+
+Look at the snippet below:
+
+```py
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[:3]
+print(new_list)
+
+>>>
+[10, 8, 6]
+>>>
+```
+
+This is why its output is: ```[10, 8, 6]```.
+
+Similarly, if you omit the end in your slice, it is assumed that you want the slice to end at the element with the index ```len(my_list)```.
+
+In other words, the slice of this form:
+
+```py
+my_list[start:]
+```
+
+is a more compact equivalent of:
+
+```py
+my_list[start:len(my_list)]
+```
+
+Look at the following snippet:
+
+```py
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[3:]
+print(new_list)
+
+>>>
+[4, 2]
+>>>
+```
+
+Its output is therefore: ```[4, 2]```.
+
 ```py
 
 >>>
