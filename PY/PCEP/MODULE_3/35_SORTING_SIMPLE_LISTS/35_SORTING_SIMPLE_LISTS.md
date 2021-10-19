@@ -154,6 +154,63 @@ Run the program and test it.
 
 #### 3513_BUBBLE_SORT_3
 
+In the editor you can see a complete program, enriched by a conversation with the user, and allowing the user to enter and to print elements from the list: The bubble sort - final interactive version.
+Python, however, has its own sorting mechanisms. No one needs to write their own sorts, as there is a sufficient number of ready-to-use tools.
+We explained this sorting system to you because it's important to learn how to process a list's contents, and to show you how real sorting may work.
+If you want Python to sort your list, you can do it like this:
+
+```py
+my_list = [8, 10, 6, 2, 4]
+my_list.sort()
+print(my_list)
+
+>>>
+[2, 4, 6, 8, 10]
+>>>
+```
+
+It is as simple as that.
+
+The snippet's output is as follows:
+
+```py
+[2, 4, 6, 8, 10]
+```
+
+As you can see, all the lists have a method named ```sort()```, which sorts them as fast as possible. You've already learned about some of the list methods before, and you're going to learn more about others very soon.
+
+```py
+my_list = []
+swapped = True
+num = int(input("How many elements do you want to sort: "))
+
+for i in range(num):
+    val = float(input("Enter a list element: "))
+    my_list.append(val)
+
+while swapped:
+    swapped = False
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:
+            swapped = True
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+
+print("\nSorted:")
+print(my_list)
+
+>>>
+How many elements do you want to sort: 5
+Enter a list element: 1
+Enter a list element: 2
+Enter a list element: 3
+Enter a list element: 4
+Enter a list element: 5
+
+Sorted:
+[1.0, 2.0, 3.0, 4.0, 5.0]
+>>>
+```
+
 [^^^](#35_SORTING_SIMPLE_LISTS)
 
 ---
