@@ -24,10 +24,43 @@
 
 #### 3611_OPERATIONS_ON_LISTS
 
+Now we want to show you one important, and very surprising, feature of lists, which strongly distinguishes them from ordinary variables.
+
+We want you to memorize it - it may affect your future programs, and cause severe problems if forgotten or overlooked.
+
+Take a look at the snippet in the editor.
+
+The program:
+
+- creates a one-element list named list_1;
+- assigns it to a new list named list_2;
+- changes the only element of list_1;
+- prints out list_2.
+
+The surprising part is the fact that the program will output: ```[2]```, not ```[1]```, which seems to be the obvious solution.
+
+
+Lists (and many other complex Python entities) are stored in different ways than ordinary (scalar) variables.
+
+You could say that:
+
+- the name of an ordinary variable is the name of its content;
+- the name of a list is the name of a memory location where the list is stored.
+
+Read these two lines once more - the difference is essential for understanding what we are going to talk about next.
+
+The assignment: ```list_2 = list_1``` copies the name of the array, not its contents. In effect, the two names (list_1 and list_2) identify the same location in the computer memory. Modifying one of them affects the other, and vice versa.
+
+How do you cope with that?
+
 ```py
+list_1 = [1]
+list_2 = list_1
+list_1[0] = 2
+print(list_2)
 
 >>>
-
+[2]
 >>>
 ```
 
