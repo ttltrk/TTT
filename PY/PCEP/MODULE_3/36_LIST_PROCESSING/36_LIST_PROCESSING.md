@@ -70,12 +70,28 @@ print(list_2)
 
 #### 3612_OPERATIONS_ON_LISTS_SLICES_1
 
+Fortunately, the solution is at your fingertips - its name is the slice.
+A slice is an element of Python syntax that allows you to make a brand new copy of a list, or parts of a list.
+It actually copies the list's contents, not the list's name.
+This is exactly what you need. Take a look at the snippet below:
+
 ```py
+list_1 = [1]
+list_2 = list_1[:]
+list_1[0] = 2
+
+print(list_1)
+print(list_2)
 
 >>>
-
+[2]
+[1]
 >>>
 ```
+
+Its output is ```[1]```.
+
+This inconspicuous part of the code described as ```[:]``` is able to produce a brand new list.
 
 [^^^](#36_LIST_PROCESSING)
 
