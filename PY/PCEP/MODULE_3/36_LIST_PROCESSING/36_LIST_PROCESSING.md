@@ -253,12 +253,68 @@ Its output is therefore: ```[4, 2]```.
 
 #### 3615_OPERATIONS_ON_LISTS_SLICES_DEL
 
+As we've said before, omitting both start and end makes a copy of the whole list:
+
 ```py
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[:]
+print(new_list)
 
 >>>
-
+[10, 8, 6, 4, 2]
 >>>
 ```
+
+The snippet's output is: ```[10, 8, 6, 4, 2]```.
+
+The previously described del instruction is able to delete more than just a list's element at once - it can delete slices too:
+
+```py
+my_list = [10, 8, 6, 4, 2]
+del my_list[1:3]
+print(my_list)
+
+>>>
+[10, 4, 2]
+>>>
+```
+
+Note: in this case, the slice doesn't produce any new list!
+
+The snippet's output is: ```[10, 4, 2]```.
+
+Deleting all the elements at once is possible too:
+
+```py
+my_list = [10, 8, 6, 4, 2]
+del my_list[:]
+print(my_list)
+
+>>>
+[]
+>>>
+```
+
+The list becomes empty, and the output is: ```[]```.
+
+
+Removing the slice from the code changes its meaning dramatically.
+
+Take a look:
+
+```py
+my_list = [10, 8, 6, 4, 2]
+del my_list
+print(my_list)
+
+>>>
+NameError: name 'my_list' is not defined
+>>>
+```
+
+The del instruction will delete the list itself, not its content.
+
+The ```print()``` function invocation from the last line of the code will then cause a runtime error.
 
 [^^^](#36_LIST_PROCESSING)
 
