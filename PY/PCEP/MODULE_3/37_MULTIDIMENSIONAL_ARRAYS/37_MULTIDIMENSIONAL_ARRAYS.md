@@ -1,0 +1,111 @@
+
+---
+
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [PY](https://github.com/ttltrk/TTT/blob/master/PY/PY.md) - [PCEP](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/PCEP.md) - [MODULE_3](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_3/MODULE_3.md)
+
+---
+
+#### 37_MULTIDIMENSIONAL_ARRAYS
+
+---
+
+* [3711_LISTS_IN_ADVANCED_APPS](#3711_LISTS_IN_ADVANCED_APPS)
+* [3712_LISTS_IN_ADVANCED_APPS_ARR_1](#3712_LISTS_IN_ADVANCED_APPS_ARR_1)
+* [3713_LISTS_IN_ADVANCED_APPS_ARR_2](#3713_LISTS_IN_ADVANCED_APPS_ARR_2)
+* [3714_LISTS_IN_ADVANCED_APPS_ARR_3](#3714_LISTS_IN_ADVANCED_APPS_ARR_3)
+* [3715_LISTS_IN_ADVANCED_APPS_ARR_4](#3715_LISTS_IN_ADVANCED_APPS_ARR_4)
+* [3716_SECTION_SUMMARY](#3716_SECTION_SUMMARY)
+* [3717_MODULE_COMPLETION](#3717_MODULE_COMPLETION)
+
+---
+
+#### 3711_LISTS_IN_ADVANCED_APPS
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
+
+#### 3712_LISTS_IN_ADVANCED_APPS_ARR_1
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
+
+#### 3713_LISTS_IN_ADVANCED_APPS_ARR_2
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
+
+#### 3714_LISTS_IN_ADVANCED_APPS_ARR_3
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
+
+#### 3715_LISTS_IN_ADVANCED_APPS_ARR_4
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
+
+#### 3716_SECTION_SUMMARY
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
+
+#### 3717_MODULE_COMPLETION
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#37_MULTIDIMENSIONAL_ARRAYS)
+
+---
