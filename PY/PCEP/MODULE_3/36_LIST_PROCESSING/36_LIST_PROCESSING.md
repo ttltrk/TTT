@@ -347,7 +347,7 @@ print(12 in my_list)
 >>>
 False
 True
-True 
+True
 >>>
 ```
 
@@ -357,12 +357,70 @@ True
 
 #### 3617_LISTS_MORE_DETAILS_1
 
+Now we want to show you some simple programs utilizing lists.
+
+The first of them tries to find the greater value in the list. Look at the code in the editor.
+
+The concept is rather simple - we temporarily assume that the first element is the largest one, and check the hypothesis against all the remaining elements in the list.
+
+The code outputs 17 (as expected).
+
+The code may be rewritten to make use of the newly introduced form of the for loop:
+
 ```py
+my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+largest = my_list[0]
+
+for i in my_list:
+    if i > largest:
+        largest = i
+
+print(largest)
 
 >>>
-
+17
 >>>
 ```
+
+The program above performs one unnecessary comparison, when the first element is compared with itself, but this isn't a problem at all.
+
+The code outputs 17, too (nothing unusual).
+
+If you need to save computer power, you can use a slice:
+
+```py
+my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+largest = my_list[0]
+
+for i in my_list[1:]:
+    if i > largest:
+        largest = i
+
+print(largest)
+
+>>>
+17
+>>>
+```
+
+The question is: which of these two actions consumes more computer resources - just one comparison, or slicing almost all of a list's elements?
+
+```py
+my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+largest = my_list[0]
+
+for i in range(1, len(my_list)):
+    if my_list[i] > largest:
+        largest = my_list[i]
+
+print(largest)
+
+>>>
+17
+>>>
+```
+
+The question is: which of these two actions consumes more computer resources - just one comparison, or slicing almost all of a list's elements?
 
 [^^^](#36_LIST_PROCESSING)
 
