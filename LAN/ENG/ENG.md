@@ -404,9 +404,66 @@ eat cheese whenever you want - Egyél sajtot, amikor csak akarsz.
 
 ---
 
-####
-####
-####
+#### MELLEKNEV_1
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### IGEK_JELEN_1
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### HATAROZOK
+
+```
+I only have a minute. - Csak egy percem van.
+I eat only pasta. / I just eat pasta. - Csak tésztát eszem.
+He only eats pasta. - Csak tesztat eszik.
+They see well. - Ok jol latnak.
+How much? / How many? - Mennyi?
+Just in time! - Eppen idoben.
+I ask only once. - Csak egyszer kérdezem.
+I still see her. - Még mindig látom őt.
+We have only tea. - Csak teánk van.
+He is just a child. - O csak egy gyerek.
+I only have white pants. - Csak feher nadragom van.
+The red hat goes well with her dress. - A piros kalap jól áll a ruhájához.
+Even my children are there. - Még a gyerekeim is ott vannak.
+They do not have so much. - Nincs tul sok nekik.
+She always plays well. - Mindig jól játszik.
+However his parents still live there. - Azonban a szülei még mindig ott élnek.
+I still see her. - Még mindig látom őt.
+Yes, even him. - Igen, még őt is.
+Again? - Ismet?
+Really? - Tényleg?
+Thank you again! - Köszönöm még egyszer!
+It is already Friday. - Már péntek van.
+
+!!! - Even if I fail like you? - Még akkor is, ha kudarcot vallok, mint te?
+!!! - I like my mother so much. - Annyira szeretem édesanyámat.
+!!! - However, it is too expensive. - Ez azonban túl drága.
+!!! - Even in Bavaria. - Még Bajorországban is.
+
+!!! - She is not a doctor yet. - O meg nem orvos.
+!!! - Take me away! - Vigyel el.
+!!! - The food is expensive as ever. - Az étel éppolyan drága, mint mindig.
+```
+
+[^^^](#ENG)
+
+---
+
 ####
 ####
 ####
