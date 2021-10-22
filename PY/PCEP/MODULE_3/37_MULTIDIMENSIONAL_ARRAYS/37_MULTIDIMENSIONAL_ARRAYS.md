@@ -41,6 +41,8 @@ for i in range(8):
     row.append(WHITE_PAWN)
 ```
 
+It builds a list containing eight elements representing the second row of the chessboard - the one filled with pawns (assume that WHITE_PAWN is a predefined symbol representing a white pawn).
+
 [^^^](#37_MULTIDIMENSIONAL_ARRAYS)
 
 ---
