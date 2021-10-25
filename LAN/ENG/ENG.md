@@ -486,12 +486,11 @@ We like houses. - kedveljük a házakat.
 We work in the restaurant. - Az étteremben dolgozunk.
 The children play at the beach. - A gyerekek a parton játszanak.
 houses with restaurants - Házak éttermekkel
+The turtles are in the yard. - A teknősök a kertben vannak.
+Sunday we see the cook's kitchen. - Vasárnap megnézzük a szakács konyháját.
 
-
-
-
-
-
+!!! - I walk by your house. - Elsétálok a házad mellett.
+!!! - They sleep in a hotel. - Szállodában alszanak.
 ```
 
 [^^^](#ENG)
