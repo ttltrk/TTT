@@ -453,9 +453,7 @@ We need at least one hour. - Legalább egy órára van szükségünk.
 He is not there yet. - Még nincs ott.
 She is not here yet. - Ő nincs még itt.
 Your sister is beautiful as ever. - A húgod gyönyörű, mint mindig.
-
-
-
+Is he ever here with you? - Itt van valaha veled? 
 
 !!! - Even if I fail like you? - Még akkor is, ha kudarcot vallok, mint te?
 !!! - I like my mother so much. - Annyira szeretem édesanyámat.
@@ -469,6 +467,8 @@ Your sister is beautiful as ever. - A húgod gyönyörű, mint mindig.
 !!! - They take his children away. - Elviszik a gyerekeit.
 !!! - He cooks the meat again. - Újra megfőzi a húst.
 !!! - We do not have food, but at least we have water. - Nincs élelmünk, de legalább van vizünk.
+
+!!! - Come and see me if you are ever in Berlin. - Gyere el hozzám, ha valamikor Berlinben jársz.
 ```
 
 [^^^](#ENG)
