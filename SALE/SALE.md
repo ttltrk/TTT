@@ -15,7 +15,7 @@
 
 ---
 
-* [IBM_SF_ESSENTILAS](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTILAS/IBM_SF_ESSENTILAS.md)
+* [IBM_SF_ESSENTILAS](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTIALS/IBM_SF_ESSENTIALS.md)
 
 ---
 
