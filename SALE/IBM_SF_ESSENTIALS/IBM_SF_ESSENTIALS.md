@@ -5,7 +5,7 @@
 
 ---
 
-### IBM_SF_ESSENTILAS
+### IBM_SF_ESSENTIALS
 
 ---
 
@@ -15,7 +15,7 @@ https://lksprod.dst.ibm.com/collection/goto?id=268
 
 ---
 
-* [SF_AND_IBM_PARTNERSHIP](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTILAS/SF_AND_IBM_PARTNERSHIP/SF_AND_IBM_PARTNERSHIP.md)
+* [SF_AND_IBM_PARTNERSHIP](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTIALS/SF_AND_IBM_PARTNERSHIP/SF_AND_IBM_PARTNERSHIP.md)
 * [](#)
 * [](#)
 * [](#)
