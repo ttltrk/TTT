@@ -28,7 +28,10 @@
 #### WHO_IS_SALESFORCE
 
 ```
-
+Within this module you will learn about the Salesforce “ethos”. You will be introduced to Salesforce
+not only as a platform but also as a company. We will review the Salesforce origin and growth story,
+learn about the CEO and founder, Marc Benioff and also learn a bit more about the current
+Salesforce offerings and culture that makes the company so special.
 ```
 
 [^^^](#WHO_IS_SF)
