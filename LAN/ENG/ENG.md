@@ -491,6 +491,16 @@ Sunday we see the cook's kitchen. - Vasárnap megnézzük a szakács konyháját
 
 !!! - I walk by your house. - Elsétálok a házad mellett.
 !!! - They sleep in a hotel. - Szállodában alszanak.
+
+!!! - You go to the airport. - Elmész a repülőtérre.
+!!! - I go to a street. - Elmegyek egy utcához.
+!!! - I live in the country. - Vidéken élek.
+!!! - A man's house is his castle. - A férfi háza az ő vára.
+
+
+
+
+
 ```
 
 [^^^](#ENG)
