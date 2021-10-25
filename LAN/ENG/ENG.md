@@ -453,7 +453,7 @@ We need at least one hour. - Legalább egy órára van szükségünk.
 He is not there yet. - Még nincs ott.
 She is not here yet. - Ő nincs még itt.
 Your sister is beautiful as ever. - A húgod gyönyörű, mint mindig.
-Is he ever here with you? - Itt van valaha veled? 
+Is he ever here with you? - Itt van valaha veled?
 
 !!! - Even if I fail like you? - Még akkor is, ha kudarcot vallok, mint te?
 !!! - I like my mother so much. - Annyira szeretem édesanyámat.
@@ -475,7 +475,29 @@ Is he ever here with you? - Itt van valaha veled?
 
 ---
 
-####
+#### HELYEK
+
+```
+You are in the kitchen. - a konyhaban vagy
+The beach is white. - A tengerpart fehér.
+Do you have a bathroom? - Van fürdőszobád?
+Laura is in the yard. - Laura a kertben van.
+We like houses. - kedveljük a házakat.
+We work in the restaurant. - Az étteremben dolgozunk.
+The children play at the beach. - A gyerekek a parton játszanak.
+houses with restaurants - Házak éttermekkel
+
+
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 ####
 ####
 ####
