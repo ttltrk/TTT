@@ -144,7 +144,17 @@ Emerging:
   - Automotive
   - Travel and hospitality
   - Energy
-  - Higher ed 
+  - Higher ed
+```
+
+- Acquistions Driving the direction of SaaS
+
+```
+- Vlocity: Industry SF platform solutions providing the acceleration of business driven data models and
+            workflows unique to each industry and researched best practices
+
+- Mulesoft: Intelligent integartion platform that includes API Management and pre-built templates
+            for data types and common technologies to accelerate connection in a Hybrid cloud environment. 
 ```
 
 [^^^](#WHO_IS_SF)
