@@ -71,7 +71,22 @@ their success is further enhanced by their culture, beliefs, and mission.
 #### SF_OHANA
 
 ```
+"The business of business should not be business, it should be to improve the state of the world."
+- Marc Benioff, CEO & Founder of Salesforce
 
+Salesforce’s culture is not limited to just the employees that work at the company.
+The Salesforce “Ohana” extends to all of the hundreds of thousands of clients and employees
+who work on the Salesforce platform. Salesforce celebrates the accomplishments of their clients
+and their “Trailblazers” every year by inviting them to one of the largest technology conferences
+in the world, Dreamforce, in their home city of San Francisco. This event encapsulates
+all that Salesforce stands for and believes in. It is filled with new innovative product launches,
+incredible client stories, and exciting events and speakers from some of the largest performers
+and figures in the world. Salesforce believes in celebrating their culture and promoting their values
+through this phenomenal event - which will be held virtually in 2020 for the first time ever.
+
+Trailblazers are the backbone of the Salesforce community. They are experts in their craft
+and work to improve their skills on Salesforce’s learning an enablement “Trailhead” platform.
+This platform was built to skill the masses and invite everyone to be a part of the Salesforce Ohana. 
 ```
 
 [^^^](#WHO_IS_SF)
