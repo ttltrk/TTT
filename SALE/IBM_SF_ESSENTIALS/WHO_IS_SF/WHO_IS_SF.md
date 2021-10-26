@@ -154,7 +154,35 @@ Emerging:
             workflows unique to each industry and researched best practices
 
 - Mulesoft: Intelligent integartion platform that includes API Management and pre-built templates
-            for data types and common technologies to accelerate connection in a Hybrid cloud environment. 
+            for data types and common technologies to accelerate connection in a Hybrid cloud environment.
+```
+
+- SF platforms
+
+```
+Analytics
+Tableau
+Lightning
+Heroku
+Trailhead
+Quip
+Einstein
+SF IoT
+```
+
+- SF layers
+
+```
+SF is the largest SaaS solution on the market and the first built natively in the cloud.
+The architecture of SF across business, app, and data layers provides an open and flexible
+option for rearchitecting business in the cloud.
+
+Platforms:
+  - Apps
+  - Dev layout
+  - AI services
+  - Data Services
+  - Multitenant infrastructure
 ```
 
 [^^^](#WHO_IS_SF)
@@ -164,7 +192,8 @@ Emerging:
 #### SF_PLATFORM
 
 ```
-
+As one of the top Salesforce partners in the world IBM has utilized all of the different features
+that Salesforce offers to implement creative solutions for our clients.
 ```
 
 [^^^](#WHO_IS_SF)
