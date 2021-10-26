@@ -130,6 +130,23 @@ EMEA, and APAC, respectively. This incredible growth has been driven by Salesfor
 and methodical expansion over the past 10 years. View the video below to learn more.
 ```
 
+- SF Industry Clouds - Verticalized Capability Driving the Way Forward
+
+```
+- manufacturing
+- healthcare
+- financial services
+- retail & consumer goods
+- communications and media
+- Government
+
+Emerging:
+  - Automotive
+  - Travel and hospitality
+  - Energy
+  - Higher ed 
+```
+
 [^^^](#WHO_IS_SF)
 
 ---
