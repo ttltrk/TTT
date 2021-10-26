@@ -9,6 +9,12 @@
 
 ---
 
+```
+IBM Cloud Advocate - https://yourlearning.ibm.com/activity/PLAN-82A2D6A49866
+```
+
+---
+
 https://cognitiveclass.ai/badges/cloud-core
 https://courses.cognitiveclass.ai/courses/course-v1:IBMDeveloperSkillsNetwork+CC0101EN+2020T1/course/
 
