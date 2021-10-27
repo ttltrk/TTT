@@ -43,8 +43,40 @@ Saul Berman, Executive VP and Global Chief Strategist, will now share his vision
 for the expansion of IBM Services for Salesforce globally.
 ```
 
+- IBM Services for Salesforce in the Geos
+
+```
+As Mark Foster recently announced, IBM has consolidated the company's go-to-market structure
+from seven geographies to four: the Americas, Europe Middle East and Africa (EMEA),
+Asia Pacific (APAC) and Japan. This is part of a broader simplification effort
+to better enable us to increase focus on our clients.
+
+This section focuses on The Americas.
 ```
 
+- IBM Services for Salesforce in North America
+
+```
+In this section, you will learn about IBM for Salesforce's strategy in North America
+and hear some client stories, with the goal of providing you with a better understanding of
+our partnership with Salesforce in the region as well as our regional strengths
+as a Salesforce partner within IBM.
+
+IBM Services for Salesforce originated in North America, and it continues to be our
+largest region for Salesforce projects around the world. We currently have eight Salesforce offices
+in the United States in the following cities: New York, Boston, Atlanta, Chicago, Seattle,
+Los Angeles, San Francisco, and Denver. In addition to our regional offices we have two CIC offices;
+one in Montreal that has a great collection of business analysts and developers, and one in Monroe,
+Louisiana, which focuses on our emerging devops practice.
+
+Our continuously growing practice in North America can assist companies with a full range
+of Salesforce needs and projects across any sector.
+
+Please listen below as Kelly Chambliss, Managing Partners, Americas, talks with Kelly Jessop,
+NA Leader, Salesforce Innovation Unit, Global Business Services and Jen Quinlan, Managing Partner,
+DS&iX, GBS North America about how we can drive growth by collaborating with Salesforce.
+
+In addition, please check out two client stories: T-Mobile and AmerisourceBergen.
 ```
 
 [^^^](#SF_GEOS)
