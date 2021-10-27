@@ -79,6 +79,25 @@ DS&iX, GBS North America about how we can drive growth by collaborating with Sal
 In addition, please check out two client stories: T-Mobile and AmerisourceBergen.
 ```
 
+- IBM Services for Salesforce in LATAM
+
+```
+The newest emerging market for IBM Services for Salesforce is Latin America.
+Over the past couple of years, we have been investing heavily in the region
+and working to grow our client base across the area. Salesforce sees Latin America
+as a growth region for them as well. As companies in this region continue to buy
+into the Salesforce platform there will be an incredible opportunity to grow
+IBM’s Salesforce presence in the region as well. Our current LATAM headquarters is in Sao Paulo,
+Brazil, however we also have emerging resources across Central America.
+
+Our continuously growing practice in LATAM is led by Alexandre Arello with the support
+of the iX LATAM practice lead, Carlos Jose Rivelle, and GBS LATAM practice lead,
+Thais Lima De Marca.
+
+Please review the video below to hear Alexandre discuss the benefits of our Salesforce partnership
+and how we go to market with Salesforce across the region.
+```
+
 [^^^](#SF_GEOS)
 
 ---
