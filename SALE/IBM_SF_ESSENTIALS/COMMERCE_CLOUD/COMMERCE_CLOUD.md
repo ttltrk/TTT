@@ -149,23 +149,3 @@ such as email and social media, to provide an even more personalized customer ex
 [^^^](#COMMERCE_CLOUD)
 
 ---
-
-####
-
-```
-
-```
-
-[^^^](#COMMERCE_CLOUD)
-
----
-
-####
-
-```
-
-```
-
-[^^^](#COMMERCE_CLOUD)
-
----
