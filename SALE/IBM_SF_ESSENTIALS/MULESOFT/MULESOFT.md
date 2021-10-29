@@ -17,10 +17,6 @@
 
 * [SF_ACQUIRES_MULESOFT](#SF_ACQUIRES_MULESOFT)
 * [MS_POV](#MS_POV)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
 
 ---
 
@@ -59,47 +55,7 @@ and robust solution using MS.
 - Proven implementation in multiple companies of all sizes
 - Open source, light-weight solution
 - Self serviceability
-- Streamlines data integration and ETL 
-```
-
-[^^^](#MULESOFT)
-
----
-
-####
-
-```
-
-```
-
-[^^^](#MULESOFT)
-
----
-
-####
-
-```
-
-```
-
-[^^^](#MULESOFT)
-
----
-
-####
-
-```
-
-```
-
-[^^^](#MULESOFT)
-
----
-
-####
-
-```
-
+- Streamlines data integration and ETL
 ```
 
 [^^^](#MULESOFT)
