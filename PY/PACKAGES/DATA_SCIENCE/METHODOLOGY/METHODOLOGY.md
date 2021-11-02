@@ -44,6 +44,7 @@ what can be referred to as a business understanding.
 Having this understanding is placed at the beginning of the methodology because getting
 clarity around the problem to be solved, allows you to determine which data will be used to
 answer the core question.
+
 Rollins suggests that having a clearly defined question is vital because it ultimately directs
 the analytic approach that will be needed to address the question.
 All too often, much effort is put into answering what people THINK is the question, and while
