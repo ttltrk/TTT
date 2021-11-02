@@ -123,13 +123,16 @@ preferences.
 Statistical analysis applies to problems that require counts.
 For example if the question requires a yes/ no answer, then a classification approach
 to predicting a response would be suitable.
+
 Machine Learning is a field of study that gives computers the ability to learn without
 being explicitly programmed.
 Machine Learning can be used to identify relationships and trends in data that might otherwise not
 be accessible or identified.
 In the case where the question is to learn about human behaviour, then an appropriate
 response would be to use Clustering Association approaches.
+
 So now, let's look at the case study related to applying Analytic Approach.
+
 For the case study, a decision tree classification model was used to identify the combination
 of conditions leading to each patient's outcome.
 In this approach, examining the variables in each of the nodes along each path to a
@@ -137,6 +140,7 @@ leaf, led to a respective threshold value.
 This means the decision tree classifier provides both the predicted outcome, as well as the
 likelihood of that outcome, based on the proportion at the dominant outcome, yes or no, in each
 group.
+
 From this information, the analysts can obtain the readmission risk, or the likelihood of
 a yes for each patient. If the dominant outcome is yes, then the risk
 is simply the proportion of yes patients in the leaf.
