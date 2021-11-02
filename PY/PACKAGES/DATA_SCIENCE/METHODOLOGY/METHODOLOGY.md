@@ -9,13 +9,80 @@
 
 ---
 
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [PROBLEM_TO_APPROACH](#PROBLEM_TO_APPROACH)
+* [REQUIREMENTS_TO_COLLECTION](#REQUIREMENTS_TO_COLLECTION)
+* [UNDERSTANDING_TO_PREPARATION](#UNDERSTANDING_TO_PREPARATION)
+* [MODELING_TO_EVALUATION](#MODELING_TO_EVALUATION)
+* [DEPLOYMENT_TO_FEEDBACK](#DEPLOYMENT_TO_FEEDBACK)
 
 ---
 
-#### LINKS
+#### PROBLEM_TO_APPROACH
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#DATA_SCIENCE_METHODOLOGY)
+
+---
+
+#### REQUIREMENTS_TO_COLLECTION
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#DATA_SCIENCE_METHODOLOGY)
+
+---
+
+#### UNDERSTANDING_TO_PREPARATION
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#DATA_SCIENCE_METHODOLOGY)
+
+---
+
+#### MODELING_TO_EVALUATION
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#DATA_SCIENCE_METHODOLOGY)
+
+---
+
+#### DEPLOYMENT_TO_FEEDBACK
+
+```
+
+```
+
+```py
+
+```
+
+[^^^](#DATA_SCIENCE_METHODOLOGY)
+
+---
