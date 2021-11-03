@@ -174,12 +174,18 @@ how to understand or work with them, and how to prepare the data to meet the des
 outcome.
 Building on the understanding of the problem at hand, and then using the analytical approach
 selected, the Data Scientist is ready to get started.
+
 Now let's look at some examples of the data requirements within the data science methodology.
 Prior to undertaking the data collection and data preparation stages of the methodology,
 it's vital to define the data requirements for decision-tree classification.
+
 This includes identifying the necessary data content, formats and sources for initial data
 collection.
-So now, let's look at the case study related to applying "Data Requirements".
+
+So now, let's look at the case study related to applying
+
+"Data Requirements".
+
 In the case study, the first task was to define the data requirements for the decision tree
 classification approach that was selected.
 This included selecting a suitable patient cohort from the health insurance providers
