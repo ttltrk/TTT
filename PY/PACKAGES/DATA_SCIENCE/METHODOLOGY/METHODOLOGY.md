@@ -238,7 +238,11 @@ have to be made.
 In essence, the ingredients are now sitting on the cutting board.
 Now let's look at some examples of the data collection stage within the data science methodology.
 This stage is undertaken as a follow-up to the data requirements stage.
-So now, let's look at the case study related to applying "Data Collection".
+
+So now, let's look at the case study related to applying
+
+"Data Collection".
+
 Collecting data requires that you know the source or, know where to find the data elements
 that are needed.
 In the context of our case study, these can include:
