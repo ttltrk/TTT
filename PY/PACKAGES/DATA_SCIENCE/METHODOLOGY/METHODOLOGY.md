@@ -202,6 +202,7 @@ could be compiled.
 Congestive heart failure patients who also had been diagnosed as having other significant
 medical conditions, were excluded from the cohort because those conditions would cause
 higher-than-average re-admission rates and, thus, could skew the results.
+
 Then the content, format, and representations of the data needed for decision tree classification
 were defined.
 This modeling technique requires one record per patient, with columns representing the
