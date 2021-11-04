@@ -324,6 +324,8 @@ more refinement that can be done within the model, ultimately leading to a bette
 to the problem.
 ```
 
+- Data preparation 
+
 ```
 In a sense, data preparation is similar to washing freshly picked vegetables in so far
 as unwanted elements, such as dirt or imperfections, are removed.
