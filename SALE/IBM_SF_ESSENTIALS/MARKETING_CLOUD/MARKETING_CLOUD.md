@@ -35,4 +35,17 @@ At IBM we have implemented and improved the Marketing Cloud instances of hundred
 of companies and continue to be an innovative leader in this space.
 ```
 
+- Disneyland Hong Kong Client Story
+
+```
+Disneyland Hong Kong reached out to IBM for Services for Salesforce in APAC to
+help them use Marketing Cloud in an innovative way to turn their unknown visitors
+into known customers. In order to do this our team worked with Disneyland to take
+their disparate CRM platforms and turn them into one centralized marketing platform using
+Marketing Cloud which was configured to send personalized and targeted communications
+to each of their guests. These communications were further enhanced using an omni-channel
+strategy which included WeChat messages, SMS messages, and email messaging to create
+a unified customer experience from start to finish.
+```
+
 ---
