@@ -617,15 +617,20 @@ Once the model is evaluated and the data scientist is confident it'll work, it i
 and put to the ultimate test: actual, real-time use in the field.
 So now, let's look at our case study again, to see how the Feedback portion of the methodology is
 applied.
+
 The plan for the feedback stage included these steps:
-First, the review process would be defined and put into place, with overall responsibility
+
+- First, the review process would be defined and put into place, with overall responsibility
 for measuring the results of a "flying to risk" model of the congestive heart failure
 risk population.
 Clinical management executives would have overall responsibility for the review process.
-Second, congestive heart failure patients receiving intervention would be tracked and
+
+- Second, congestive heart failure patients receiving intervention would be tracked and
 their re-admission outcomes recorded.
-Third, the intervention would then be measured to determine how effective it was in reducing
+
+- Third, the intervention would then be measured to determine how effective it was in reducing
 re-admissions.
+
 For ethical reasons, congestive heart failure patients would not be split into controlled
 and treatment groups.
 Instead, readmission rates would be compared before and after the implementation of the
