@@ -492,7 +492,9 @@ Evaluation allows the quality of the model to be assessed but it's also an oppor
 to see if it meets the initial request.
 Evaluation answers the question: Does the model used really answer the initial question
 or does it need to be adjusted?
+
 Model evaluation can have two main phases.
+
 The first is the diagnostic measures phase, which is used to ensure the model is working
 as intended.
 If the model is a predictive model, a decision tree can be used to evaluate if the answer
@@ -500,10 +502,12 @@ the model can output, is aligned to the initial design.
 It can be used to see where there are areas that require adjustments.
 If the model is a descriptive model, one in which relationships are being assessed, then
 a testing set with known outcomes can be applied, and the model can be refined as needed.
+
 The second phase of evaluation that may be used is statistical significance testing.
 This type of evaluation can be applied to the model to ensure that the data is being
 properly handled and interpreted within the model.
 This is designed to avoid unnecessary second guessing when the answer is revealed.
+
 So now, let's go back to our case study so that we can apply the "Evaluation" component
 within the data science methodology.
 Let's look at one way to find the optimal model through a diagnostic measure based on
@@ -519,13 +523,16 @@ For budgetary reasons, the risk-reducing intervention could not be applied to mo
 heart failure patients, many of whom would not have been readmitted anyway.
 On the other hand, the intervention would not be as effective in improving patient care
 as it should be, with not enough high-risk congestive heart failure patients targeted.
+
 So, how do we determine which model was optimal?
+
 As you can see on this slide, the optimal model is the one giving the maximum separation
 between the blue ROC curve relative to the red base line.
 We can see that model 3, with a relative misclassification cost of 4-to-1, is the best of the 4 models.
 And just in case you were wondering, ROC stands for receiver operating characteristic curve,
 which was first developed during World War II to detect enemy aircraft on radar.
 It has since been used in many other fields as well.
+
 Today it is commonly used in machine learning and data mining.
 The ROC curve is a useful diagnostic tool in determining the optimal classification
 model.
