@@ -324,7 +324,7 @@ more refinement that can be done within the model, ultimately leading to a bette
 to the problem.
 ```
 
-- Data preparation 
+- Data preparation
 
 ```
 In a sense, data preparation is similar to washing freshly picked vegetables in so far
@@ -377,11 +377,59 @@ This ends the Data Preparation section of this course, in which we've reviewed k
 
 #### MODELING_TO_EVALUATION
 
+- Modeling concepts
+
+```
+Modelling is the stage in the data science methodology where the data scientist has the
+chance to sample the sauce and determine if it's bang on or in need of more seasoning!
+
+This portion of the course is geared toward answering two key questions:
+
+- First, what is the purpose of data modeling, and
+second, what are some characteristics of this process?
+
+Data Modelling focuses on developing models that are either descriptive or predictive.
+An example of a descriptive model might examine things like: if a person did this,
+then they're likely to prefer that.
+
+A predictive model tries to yield yes/no, or stop/go type outcomes.
+
+These models are based on the analytic approach that was taken, either statistically driven
+or machine learning driven.
+The data scientist will use a training set for predictive modelling.
+A training set is a set of historical data in which the outcomes are already known.
+The training set acts like a gauge to determine if the model needs to be calibrated.
+In this stage, the data scientist will play around with different algorithms to ensure
+that the variables in play are actually required.
+The success of data compilation, preparation and modelling, depends on the understanding
+of the problem at hand, and the appropriate analytical approach being taken.
+The data supports the answering of the question, and like the quality of the ingredients in
+cooking, sets the stage for the outcome.
+Constant refinement, adjustments and tweaking are necessary within each step to ensure the
+outcome is one that is solid.
+In John Rollins' descriptive Data Science Methodology, the framework is geared to do
+3 things: First,
+understand the question at hand. Second,
+select an analytic approach or method to solve the problem, and
+third,
+obtain, understand, prepare, and model the data.
+The end goal is to move the data scientist to a point where a data model can be built
+to answer the question.
+With dinner just about to be served and a hungry guest at the table, the key question
+is: Have I made enough to eat?
+Well, let's hope so.
+In this stage of the methodology, model evaluation, deployment, and feedback loops ensure that
+the answer is near and relevant.
+This relevance is critical to the data science field
+overall, as it ís a fairly new field of study, and we are interested in the possibilities
+it has to offer.
+The more people that benefit from the outcomes of this practice, the further the field will
+develop.
+This ends the Modeling to Evaluation section of this course, in which we reviewed the key
+concepts related to modeling.
 ```
 
 ```
-
-```py
 
 ```
 
