@@ -25,11 +25,13 @@
 | Removes all the elements from the list/set  | clear()     | clear()     |             |             |
 | Returns a copy of the list/set              | copy()      | copy()      |             |             |
 | Returns the number of elements with the specified value | count() |  |  |  |
+| Returns the number of times a specified value occurs in a tuple | | | count() | |
 | Returns a set containing the difference between two or more sets | | difference() | | |
 | Removes the items in this set that are also included in another, specified set | | difference_update() | | |
 | Remove the specified item | | discard() | | |
 | Add the elements of a list (or any iterable), to the end of the current list | extend() |  |  |  |
 | Returns the index of the first element with the specified value | index() | | | |
+| Searches the tuple for a specified value and returns the position of where it was found | | | index() | |
 | Adds an element at the specified position | insert() | | | |
 | Returns a set, that is the intersection of two or more sets | | intersection() | | |
 | Removes the items in this set that are not present in other, specified sets | | intersection_update() | | |
