@@ -47,9 +47,3 @@
 | Update the set with another set, or any other iterable | | update() | | |
 
 ---
-
-
-symmetric_difference()	Returns a set with the symmetric differences of two sets
-symmetric_difference_update()	inserts the symmetric differences from this set and another
-union()	Return a set containing the union of sets
-update()	Update the set with another set, or any other iterable
