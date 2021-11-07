@@ -15,3 +15,12 @@
 - [DICTIONARY](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT.md)
 
 ---
+
+- Methods
+
+| List      | Set | Tuple | Dictionary |
+| ----------- | ----------- | ----------- | ----------- |
+| Header      | Title       | Title       | Title       |
+| Paragraph   | Text        | Title       | Title       |
+
+---
