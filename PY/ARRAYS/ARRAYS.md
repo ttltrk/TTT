@@ -21,7 +21,7 @@
 | Syntax                                      | List        | Set         | Tuple       | Dictionary  |
 | ------------------------------------------- | ----------- | ----------- | ----------- | ----------- |
 | Adds an element to the set                  |             | add()       |             |             |
-| Adds an element at the end of the list      | append()    |             |             |             |
+| Adds an element at the end of the list      | [append()](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/LIST/LIST_METH/LIST_METH.md#append)    |             |             |             |
 | Removes all the elements from the list/set/dictionary  | clear()     | clear()     |             |   clear() |
 | Returns a copy of the list/set/dictionary | copy()      | copy()      |             | copy() |
 | Returns the number of elements with the specified value | count() |  |  |  |
