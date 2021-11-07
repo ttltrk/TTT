@@ -23,13 +23,16 @@
 | Adds an element at the end of the list  | append()    | Title       | Title       | Title       |
 | Removes all the elements from the list  | clear()     | Title       | Title       |             |
 | Returns a copy of the list              | copy()      |             |             |             |
+| Returns the number of elements with the specified value | count() | ------- | ------- | ------- |
+| Add the elements of a list (or any iterable), to the end of the current list | extend() | --- | --- | --- | 
+
+
 ---
 
 
 
 
-count()
-Returns the number of elements with the specified value
+
 
 extend()
 Add the elements of a list (or any iterable), to the end of the current list
