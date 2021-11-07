@@ -18,7 +18,7 @@
 
 - Methods
 
-| List      | Set | Tuple | Dictionary |
+| List        | Set         | Tuple       | Dictionary  |
 | ----------- | ----------- | ----------- | ----------- |
 | Header      | Title       | Title       | Title       |
 | Paragraph   | Text        | Title       | Title       |
