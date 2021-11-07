@@ -16,6 +16,68 @@
 
 ---
 
+- List
+
+```
+- Lists are used to store multiple items in a single variable.
+- Lists are one of 4 built-in data types in Python used to store collections of data,
+the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
+- Lists are created using square brackets.
+- List items are ordered, changeable, and allow duplicate values.
+- List items are indexed, the first item has index [0], the second item has index [1] etc.
+- When we say that lists are ordered, it means that the items have a defined order, and that order will not change.
+- If you add new items to a list, the new items will be placed at the end of the list.
+```
+
+- Set
+
+```
+- Sets are used to store multiple items in a single variable.
+- Set is one of 4 built-in data types in Python used to store collections of data,
+the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+- A set is a collection which is unordered, unchangeable, and unindexed.
+- Sets are written with curly brackets.
+- Set items are unordered, unchangeable, and do not allow duplicate values.
+- Unordered means that the items in a set do not have a defined order.
+- Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
+- Sets are unchangeable, meaning that we cannot change the items after the set has been created.
+- Once a set is created, you cannot change its items, but you can add new items.
+- Sets cannot have two items with the same value.
+```
+
+- Tuple
+
+```
+- Tuples are used to store multiple items in a single variable.
+- Tuple is one of 4 built-in data types in Python used to store collections of data,
+the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+- A tuple is a collection which is ordered and unchangeable.
+- Tuples are written with round brackets.
+- Tuple items are ordered, unchangeable, and allow duplicate values.
+- Tuple items are indexed, the first item has index [0], the second item has index [1] etc.
+- When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+- Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+- Since tuples are indexed, they can have items with the same value
+```
+
+- Dictionary
+
+```
+- Dictionaries are used to store data values in key:value pairs.
+- A dictionary is a collection which is ordered*, changeable and does not allow duplicates.
+- As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+- Dictionaries are written with curly brackets, and have keys and values.
+- Dictionary items are ordered, changeable, and does not allow duplicates.
+- Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+- As of Python version 3.7, dictionaries are ordered. In Python 3.6 and earlier, dictionaries are unordered.
+- When we say that dictionaries are ordered, it means that the items have a defined order, and that order will not change.
+- Unordered means that the items does not have a defined order, you cannot refer to an item by using an index.
+- Dictionaries are changeable, meaning that we can change, add or remove items after the dictionary has been created.
+- Dictionaries cannot have two items with the same key:
+```
+
+---
+
 - Methods
 
 | Syntax | List | Set | Tuple | Dictionary  |
