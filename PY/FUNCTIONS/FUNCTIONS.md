@@ -29,8 +29,8 @@
 | all()	| Returns True if all items in an iterable object are true | x = all([True, True, True]) #True |
 | any()	| Returns True if any item in an iterable object is true | x = any([False, True, False]) #True |
 | ascii()	| Returns a readable version of an object. Replaces none-ascii characters with escape character | x = ascii("Ståle") #'St\xe5le'|
-| bin()	| Returns the binary version of a number | |
-| bool()	| Returns the boolean value of the specified object | |
+| bin()	| Returns the binary version of a number | x = bin(36) #0b100100 |
+| bool()	| Returns the boolean value of the specified object | x = bool(1) #True |
 | bytearray()	| Returns an array of bytes | |
 | bytes()	| Returns a bytes object | |
 | callable()	| Returns True if the specified object is callable, otherwise False | |
