@@ -31,9 +31,9 @@
 | ascii()	| Returns a readable version of an object. Replaces none-ascii characters with escape character | x = ascii("Ståle") #'St\xe5le'|
 | bin()	| Returns the binary version of a number | x = bin(36) #0b100100 |
 | bool()	| Returns the boolean value of the specified object | x = bool(1) #True |
-| bytearray()	| Returns an array of bytes | |
-| bytes()	| Returns a bytes object | |
-| callable()	| Returns True if the specified object is callable, otherwise False | |
+| bytearray()	| Returns an array of bytes | x = bytearray(4) #bytearray(b'\x00\x00\x00\x00') |
+| bytes()	| Returns a bytes object | x = bytes(4) #b'\x00\x00\x00\x00' |
+| callable()	| Returns True if the specified object is callable, otherwise False | def x(): a = 5 print(callable(x)) #True |
 | chr()	| Returns a character from the specified Unicode code. | |
 | classmethod()	| Converts a method into a class method | |
 | compile()	| Returns the specified source as an object, ready to be executed | |
