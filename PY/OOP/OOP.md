@@ -102,3 +102,73 @@ dev
 ```
 The __init__() function is called automatically every time the class is being used to create a new object.
 ```
+
+- Object Methods
+
+```
+Objects can also contain methods. Methods in objects are functions that belong to the object.
+```
+
+```py
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myName(self):
+    print("Hello my name is " + self.name)
+
+  def myAge(self):
+    print("I'm " + str(self.age) + ' years old.')
+
+p1 = Person("John", 36)
+
+p1.myName()
+p1.myAge()
+
+>>>
+Hello my name is John
+I'm 36 years old.
+>>>
+```
+
+```py
+#------------------------------------------------------------
+
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myName(self):
+    print("Hello my name is " + self.name)
+
+  def myAge(self):
+    print("I'm " + str(self.age) + ' years old.')
+
+class Job:
+   def __init__(self, position):
+    self.position = position
+
+   def myPos(self):
+    print("I'm a " + self.position)
+
+#------------------------------------------------------------    
+
+p1 = Person("John", 36)
+p2 = Job("developer")
+
+#------------------------------------------------------------
+
+p1.myName()
+p1.myAge()
+p2.myPos()
+
+#------------------------------------------------------------
+
+>>>
+Hello my name is John
+I'm 36 years old.
+I'm a developer
+>>>
+```
