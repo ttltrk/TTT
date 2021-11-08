@@ -26,9 +26,9 @@
 | Function | Description | Code |
 | --- | --- | --- |
 | abs()	| Returns the absolute value of a number | x = abs(-7.25) #7.25 |
-| all()	| Returns True if all items in an iterable object are true | |
-| any()	| Returns True if any item in an iterable object is true | |
-| ascii()	| Returns a readable version of an object. Replaces none-ascii characters with escape character | |
+| all()	| Returns True if all items in an iterable object are true | x = all([True, True, True]) #True |
+| any()	| Returns True if any item in an iterable object is true | x = any([False, True, False]) #True |
+| ascii()	| Returns a readable version of an object. Replaces none-ascii characters with escape character | x = ascii("Ståle") #'St\xe5le'|
 | bin()	| Returns the binary version of a number | |
 | bool()	| Returns the boolean value of the specified object | |
 | bytearray()	| Returns an array of bytes | |
