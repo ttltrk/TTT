@@ -203,3 +203,50 @@ p1.myfunc()
 Hello my name is John
 >>>
 ```
+
+- Modify Object Properties
+
+```py
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+print(p1.age)
+
+p1.age = 40
+
+print(p1.age)
+
+>>>
+36
+40
+>>>
+```
+
+- Delete Object Properties
+
+```py
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+del p1.age
+
+print(p1.age)
+
+>>>
+AttributeError: 'Person' object has no attribute 'age'
+>>>
+```
