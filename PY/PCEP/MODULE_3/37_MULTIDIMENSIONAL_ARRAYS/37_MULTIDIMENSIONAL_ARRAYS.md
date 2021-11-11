@@ -47,6 +47,37 @@ for i in range(8):
 
 It builds a list containing eight elements representing the second row of the chessboard - the one filled with pawns (assume that WHITE_PAWN is a predefined symbol representing a white pawn).
 
+The same effect may be achieved by means of a list comprehension, the special syntax used by Python in order to fill massive lists.
+
+A list comprehension is actually a list, but created on-the-fly during program execution, and is not described statically.
+
+Take a look at the snippet:
+
+```py
+row = [WHITE_PAWN for i in range(8)]
+```
+
+The part of the code placed inside the brackets specifies:
+
+- the data to be used to fill the list (WHITE_PAWN)
+- the clause specifying how many times the data occurs inside the list ```(for i in range(8))```
+
+Let us show you some other list comprehension examples:
+
+Example #1:
+
+```py
+squares = [x ** 2 for x in range(10)]
+```
+
+The snippet produces a ten-element list filled with squares of ten integer numbers starting from zero (0, 1, 4, 9, 16, 25, 36, 49, 64, 81)
+
+Example #2:
+
+```py
+twos = [2 ** i for i in range(8)]
+```
+
 [^^^](#37_MULTIDIMENSIONAL_ARRAYS)
 
 ---
