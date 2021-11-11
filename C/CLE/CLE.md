@@ -13,12 +13,12 @@
 
 ---
 
-* [MODULE_0](#MODULE_0)
-* [MODULE_1](#MODULE_1)
-* [MODULE_2](#MODULE_2)
-* [MODULE_3](#MODULE_3)
-* [MODULE_4](#MODULE_4)
-* [MODULE_5](#MODULE_5)
+* [MODULE_0](https://github.com/ttltrk/TTT/blob/master/C/CLE/MODULE_0/MODULE_0.md)
+* [MODULE_1](https://github.com/ttltrk/TTT/blob/master/C/CLE/MODULE_1/MODULE_1.md)
+* [MODULE_2](https://github.com/ttltrk/TTT/blob/master/C/CLE/MODULE_2/MODULE_2.md)
+* [MODULE_3](https://github.com/ttltrk/TTT/blob/master/C/CLE/MODULE_3/MODULE_3.md)
+* [MODULE_4](https://github.com/ttltrk/TTT/blob/master/C/CLE/MODULE_4/MODULE_4.md)
+* [MODULE_5](https://github.com/ttltrk/TTT/blob/master/C/CLE/MODULE_5/MODULE_5.md)
 
 ---
 
