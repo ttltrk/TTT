@@ -21,6 +21,8 @@
 
 #### 3711_LISTS_IN_ADVANCED_APPS
 
+- Lists in lists
+
 Lists can consist of scalars (namely numbers) and elements of a much more complex
 structure (you've already seen such examples as strings, booleans, or even other lists in the
 previous Section Summary lessons). Let's have a closer look at the case where a list's elements are just lists.
@@ -107,11 +109,18 @@ print(odds)
 
 #### 3712_LISTS_IN_ADVANCED_APPS_ARR_1
 
+- Lists in lists: two-dimensional arrays
+
+Let's also assume that a predefined symbol named EMPTY designates an empty field on the chessboard.
+
+So, if we want to create a list of lists representing the whole chessboard, it may be done in the following way:
+
 ```py
+board = []
 
->>>
-
->>>
+for i in range(8):
+    row = [EMPTY for i in range(8)]
+    board.append(row)
 ```
 
 [^^^](#37_MULTIDIMENSIONAL_ARRAYS)
