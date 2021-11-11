@@ -418,7 +418,10 @@ that contain the same data spreading out the workload for greater efficiency.
 - Proxy server
 
 ```
-
+- A proxy server is an appliance that requests resources on behalf of client machines.
+- It is often used to retrieve resources from outside untrusted networks on behalf of the
+requesting client.
+- It hides and protects the requesting client.
 ```
 
 [^^^](#NETWORK)
