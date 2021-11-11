@@ -133,7 +133,8 @@ This model perfectly mimics the real chessboard, which is in fact an eight-eleme
 
 - the elements of the rows are fields, eight of them per row;
 - the elements of the chessboard are rows, eight of them per chessboard.
-- The board variable is now a two-dimensional array. It's also called, by analogy to algebraic terms, a matrix.
+
+The board variable is now a two-dimensional array. It's also called, by analogy to algebraic terms, a matrix.
 
 As list comprehensions can be nested, we can shorten the board creation in the following way:
 
