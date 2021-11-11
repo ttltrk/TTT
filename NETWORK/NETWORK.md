@@ -437,7 +437,7 @@ A VPN is used by remote hosts to access a private network through an encrypted t
 through a public network.
 
 Once the VPN connection is made, the remote host is no longer considered remote. It is
-actually seen by the private network as a local host. 
+actually seen by the private network as a local host.
 ```
 
 [^^^](#NETWORK)
