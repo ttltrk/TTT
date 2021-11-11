@@ -21,7 +21,7 @@
 * [LAYER_3_DEVICES](#LAYER_3_DEVICES)
 * [SECURITY_DEVICES](#SECURITY_DEVICES)
 * [OPTIMIZATION_AND_PERFORMANCE_DEVICES](#OPTIMIZATION_AND_PERFORMANCE_DEVICES)
-* [](#)
+* [VPN](#VPN)
 * [](#)
 * [](#)
 * [](#)
@@ -422,6 +422,22 @@ that contain the same data spreading out the workload for greater efficiency.
 - It is often used to retrieve resources from outside untrusted networks on behalf of the
 requesting client.
 - It hides and protects the requesting client.
+```
+
+[^^^](#NETWORK)
+
+---
+
+#### VPN
+
+```
+VPN = Virtual Private Network
+
+A VPN is used by remote hosts to access a private network through an encrypted tunnel
+through a public network.
+
+Once the VPN connection is made, the remote host is no longer considered remote. It is
+actually seen by the private network as a local host. 
 ```
 
 [^^^](#NETWORK)
