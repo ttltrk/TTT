@@ -123,6 +123,26 @@ for i in range(8):
     board.append(row)
 ```
 
+Note:
+
+- the inner part of the loop creates a row consisting of eight elements (each of them equal to EMPTY) and appends it to the board list;
+- the outer part repeats it eight times;
+- in total, the board list consists of 64 elements (all equal to EMPTY)
+
+This model perfectly mimics the real chessboard, which is in fact an eight-element list of elements, all being single rows. Let's summarize our observations:
+
+- the elements of the rows are fields, eight of them per row;
+- the elements of the chessboard are rows, eight of them per chessboard.
+- The board variable is now a two-dimensional array. It's also called, by analogy to algebraic terms, a matrix.
+
+As list comprehensions can be nested, we can shorten the board creation in the following way:
+
+```py
+board = [[EMPTY for i in range(8)] for j in range(8)]
+```
+
+The inner part creates a row, and the outer part builds a list of rows.
+
 [^^^](#37_MULTIDIMENSIONAL_ARRAYS)
 
 ---
