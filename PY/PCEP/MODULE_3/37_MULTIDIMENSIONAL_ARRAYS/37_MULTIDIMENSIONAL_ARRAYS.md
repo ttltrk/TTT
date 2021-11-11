@@ -78,6 +78,29 @@ Example #2:
 twos = [2 ** i for i in range(8)]
 ```
 
+The snippet creates an eight-element array containing the first eight powers of two (1, 2, 4, 8, 16, 32, 64, 128)
+
+Example #3:
+
+```py
+odds = [x for x in squares if x % 2 != 0 ]
+```
+
+The snippet makes a list with only the odd elements of the squares list.
+
+```py
+squares = [x ** 2 for x in range(10)]
+print(squares)
+
+odds = [x for x in squares if x % 2 != 0]
+print(odds)
+
+>>>
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+[1, 9, 25, 49, 81]
+>>>
+```
+
 [^^^](#37_MULTIDIMENSIONAL_ARRAYS)
 
 ---
