@@ -80,6 +80,51 @@ Before we go any further in our discussion, we have to state the following: our 
 
 #### 3412_LISTS_COLLECTIONS_OF_DATA_INDEXING_1
 
+##### Indexing lists
+
+How do you change the value of a chosen element in the list?
+
+Let's assign a new value of 111 to the first element in the list. We do it this way:
+
+```py
+numbers = [10, 5, 7, 2, 1]
+print("Original list content:", numbers)  # Printing original list content.
+
+numbers[0] = 111
+print("New list content: ", numbers)  # Current list content.
+
+>>>
+Original list content: [10, 5, 7, 2, 1]
+New list content:  [111, 5, 7, 2, 1]
+>>>
+```
+
+And now we want the value of the fifth element to be copied to the second element - can you guess how to do it?
+
+```py
+numbers = [10, 5, 7, 2, 1]
+print("Original list content:", numbers)  # Printing original list content.
+
+numbers[0] = 111
+print("\nPrevious list content:", numbers)  # Printing previous list content.
+
+numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+print("New list content:", numbers)  # Printing current list content.
+
+>>>
+Original list content: [10, 5, 7, 2, 1]
+
+Previous list content: [111, 5, 7, 2, 1]
+New list content: [111, 1, 7, 2, 1]
+>>>
+```
+
+The value inside the brackets which selects one element of the list is called an index, while the operation of selecting an element from the list is known as indexing.
+
+We're going to use the print() function to print the list content each time we make the changes. This will help us follow each step more carefully and see what's going on after a particular list modification.
+
+Note: all the indices used so far are literals. Their values are fixed at runtime, but any expression can be the index, too. This opens up lots of possibilities.
+
 [^^^](#34_LISTS)
 
 ---
