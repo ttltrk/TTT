@@ -23,6 +23,7 @@ Lists are used to store multiple items in a single variable.
 * [RANGE_OF_NEGATIVE_INDEXES](#RANGE_OF_NEGATIVE_INDEXES)
 * [CHANGE_ITEM_VALUE](#CHANGE_ITEM_VALUE)
 * [CHANGE_A_RANGE_OF_ITEM_VALUES](#CHANGE_A_RANGE_OF_ITEM_VALUES)
+* [INSERT_ITEMS](#INSERT_ITEMS)
 * [LOOP_THROUGH_LIST](#LOOP_THROUGH_LIST)
 * [CHECK_IF_ITEM_EXIST](#CHECK_IF_ITEM_EXIST)
 * [LENGTH_OF_LIST](#LENGTH_OF_LIST)
@@ -244,6 +245,27 @@ print(thislist)
 >>>
 ['apple', 'banana', 'cherry']
 ['apple', 'watermelon']
+>>>
+```
+
+[^^^](#LIST_BASICS)
+
+---
+
+#### INSERT_ITEMS
+
+```
+To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+The insert() method inserts an item at the specified index:
+```
+
+```py
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(2, "watermelon")
+print(thislist)
+
+>>>
+['apple', 'banana', 'watermelon', 'cherry']
 >>>
 ```
 
