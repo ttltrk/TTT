@@ -194,7 +194,7 @@ board[7][7] = ROOK
 print(board)
 >>>
 [
-['ROOK', '-', '-', '-', '-', '-', '-', 'ROOK'], 
+['ROOK', '-', '-', '-', '-', '-', '-', 'ROOK'],
 ['-', '-', '-', '-', '-', '-', '-', '-'],
 ['-', '-', '-', '-', '-', '-', '-', '-'],
 ['-', '-', '-', '-', '-', '-', '-', '-'],
@@ -210,6 +210,17 @@ print(board)
 ---
 
 #### 3714_LISTS_IN_ADVANCED_APPS_ARR_3
+
+- Multidimensional nature of lists: advanced applications
+
+Let's go deeper into the multidimensional nature of lists. To find any element of a two-dimensional list, you have to use two coordinates:
+
+- a vertical one (row number)
+- and a horizontal one (column number).
+
+Imagine that you develop a piece of software for an automatic weather station. The device records the air temperature on an hourly basis and does it throughout the month. This gives you a total of 24 × 31 = 744 values. Let's try to design a list capable of storing all these results.
+
+First, you have to decide which data type would be adequate for this application. In this case, a float would be best, since this thermometer is able to measure the temperature with an accuracy of 0.1 ℃.
 
 ```py
 
