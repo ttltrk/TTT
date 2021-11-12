@@ -131,11 +131,101 @@ Note: all the indices used so far are literals. Their values are fixed at runtim
 
 #### 3413_LISTS_COLLECTIONS_OF_DATA_INDEXING_2
 
+##### Accessing list content
+
+Each of the list's elements may be accessed separately. For example, it can be printed:
+
+```py
+print(numbers[0]) # Accessing the list's first element.
+```
+
+Assuming that all of the previous operations have been completed successfully, the snippet will send 111 to the console.
+
+As you can see in the editor, the list may also be printed as a whole - just like here:
+
+```py
+print(numbers)  # Printing the whole list.
+```
+
+As you've probably noticed before, Python decorates the output in a way that suggests that all the presented values form a list. The output from the example snippet above looks like this:
+
+```py
+[111, 1, 7, 2, 1]
+```
+
+##### The len() function
+
+The length of a list may vary during execution. New elements may be added to the list, while others may be removed from it. This means that the list is a very dynamic entity.
+
+If you want to check the list's current length, you can use a function named len() (its name comes from length).
+
+The function takes the list's name as an argument, and returns the number of elements currently stored inside the list (in other words - the list's length).
+
+Look at the last line of code in the editor, run the program and check what value it will print to the console. Can you guess?
+
 [^^^](#34_LISTS)
 
 ---
 
 #### 3414_LISTS_COLLECTIONS_OF_DATA_OP_ON_LISTS_1
+
+##### Removing elements from a list
+
+Any of the list's elements may be removed at any time - this is done with an instruction named del (delete). Note: it's an instruction, not a function.
+
+You have to point to the element to be removed - it'll vanish from the list, and the list's length will be reduced by one.
+
+Look at the snippet below. Can you guess what output it will produce? Run the program in the editor and check.
+
+```py
+del numbers[1]
+print(len(numbers))
+print(numbers)
+```
+
+You can't access an element which doesn't exist - you can neither get its value nor assign it a value. Both of these instructions will cause runtime errors now:
+
+```py
+print(numbers[4])
+numbers[4] = 1
+```
+
+Add the snippet above after the last line of code in the editor, run the program and check what happens.
+
+Note: we've removed one of the list's elements - there are only four elements in the list now. This means that element number four doesn't exist.
+
+```py
+numbers = [10, 5, 7, 2, 1]
+print("Original list content:", numbers)  # Printing original list content.
+
+numbers[0] = 111
+print("\nPrevious list content:", numbers)  # Printing previous list content.
+
+numbers[1] = numbers[4]  # Copying value of the fifth element to the second.
+print("Previous list content:", numbers)  # Printing previous list content.
+
+print("\nList's length:", len(numbers))  # Printing previous list length.
+
+###
+
+del numbers[1]  # Removing the second element from the list.
+print("New list's length:", len(numbers))  # Printing new list length.
+print("\nNew list content:", numbers)  # Printing current list content.
+
+###
+
+>>>
+Original list content: [10, 5, 7, 2, 1]
+
+Previous list content: [111, 5, 7, 2, 1]
+Previous list content: [111, 1, 7, 2, 1]
+
+List's length: 5
+New list's length: 4
+
+New list content: [111, 7, 2, 1]
+>>>
+```
 
 [^^^](#34_LISTS)
 
