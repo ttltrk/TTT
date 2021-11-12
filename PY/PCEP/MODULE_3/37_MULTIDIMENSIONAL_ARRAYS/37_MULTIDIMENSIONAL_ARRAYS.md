@@ -150,10 +150,58 @@ The inner part creates a row, and the outer part builds a list of rows.
 
 #### 3713_LISTS_IN_ADVANCED_APPS_ARR_2
 
+- Lists in lists: two-dimensional arrays - continued
+
+Access to the selected field of the board requires two indices - the first selects the row; the second - the field number inside the row, which is de facto a column number.
+
+Take a look at the chessboard. Every field contains a pair of indices which should be given to access the field's content:
+
+Glancing at the figure shown above, let's set some chess pieces on the board. First, let's add all the rooks:
+
 ```py
+board[0][0] = ROOK
+board[0][7] = ROOK
+board[7][0] = ROOK
+board[7][7] = ROOK
+```
 
+If you want to add a knight to C4, you do it as follows:
+
+```py
+board[4][2] = KNIGHT
+```
+
+And now a pawn to E5:
+
+```py
+board[3][4] = PAWN
+```
+
+```py
+EMPTY = "-"
+ROOK = "ROOK"
+board = []
+
+for i in range(8):
+    row = [EMPTY for i in range(8)]
+    board.append(row)
+
+board[0][0] = ROOK
+board[0][7] = ROOK
+board[7][0] = ROOK
+board[7][7] = ROOK
+
+print(board)
 >>>
-
+[
+['ROOK', '-', '-', '-', '-', '-', '-', 'ROOK'], 
+['-', '-', '-', '-', '-', '-', '-', '-'],
+['-', '-', '-', '-', '-', '-', '-', '-'],
+['-', '-', '-', '-', '-', '-', '-', '-'],
+['-', '-', '-', '-', '-', '-', '-', '-'],
+['-', '-', '-', '-', '-', '-', '-', '-'],
+['-', '-', '-', '-', '-', '-', '-', '-'],
+['ROOK', '-', '-', '-', '-', '-', '-', 'ROOK']]
 >>>
 ```
 
