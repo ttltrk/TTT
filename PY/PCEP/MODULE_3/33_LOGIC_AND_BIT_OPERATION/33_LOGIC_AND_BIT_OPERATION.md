@@ -57,6 +57,7 @@ If we consider the conjunction of A and B, the set of possible values of argumen
 | True	| True	| True |
 
 ##### or
+
 A disjunction operator is the word or. It's a binary operator with a lower priority than and (just like + compared to *). Its truth table is as follows:
 
 | Argument A	| Argument B	| A or B |
