@@ -361,11 +361,104 @@ print(numbers)
 
 #### 3419_COLLECTIONS_OF_DATA_LIST_METH_2
 
+##### Adding elements to a list: continued
+
+You can start a list's life by making it empty (this is done with an empty pair of square brackets) and then adding new elements to it as needed.
+Take a look at the snippet in the editor. Try to guess its output after the for loop execution. Run the program to check if you were right.
+It'll be a sequence of consecutive integer numbers from 1 (you then add one to all the appended values) to 5.
+
+We've modified the snippet a bit:
+
+```py
+my_list = []  # Creating an empty list.
+
+for i in range(5):
+    my_list.insert(0, i + 1)
+
+print(my_list)
+
+>>>
+[5, 4, 3, 2, 1]
+>>>
+```
+
+what will happen now? Run the program and check if this time you were right, too.
+You should get the same sequence, but in reverse order (this is the merit of using the insert() method).
+
+```py
+my_list = []  # Creating an empty list.
+
+for i in range(5):
+    my_list.append(i + 1)
+
+print(my_list)
+
+>>>
+[1, 2, 3, 4, 5]
+>>>
+```
+
 [^^^](#34_LISTS)
 
 ---
 
 #### 34110_COLLECTIONS_OF_DATA_LISTS_LOOPS_1
+
+##### Making use of lists
+
+The for loop has a very special variant that can process lists very effectively - let's take a look at that.
+
+Let's assume that you want to calculate the sum of all the values stored in the my_list list.
+
+You need a variable whose sum will be stored and initially assigned a value of 0 - its name will be total. (Note: we're not going to name it sum as Python uses the same name for one of its built-in functions - sum(). Using the same name would generally be considered a bad practice.) Then you add to it all the elements of the list using the for loop. Take a look at the snippet in the editor.
+
+Let's comment on this example:
+
+- the list is assigned a sequence of five integer values;
+- the i variable takes the values 0, 1, 2, 3, and 4, and then it indexes the list, selecting the subsequent elements: the first, second, third, fourth and fifth;
+- each of these elements is added together by the += operator to the total variable, giving the final result at the end of the loop;
+- note the way in which the len() function has been employed - it makes the code independent of any possible changes in the list's content.
+
+##### The second face of the for loop
+
+But the for loop can do much more. It can hide all the actions connected to the list's indexing, and deliver all the list's elements in a handy way.
+
+This modified snippet shows how it works:
+
+```py
+my_list = [10, 1, 8, 3, 5]
+total = 0
+
+for i in my_list:
+    total += i
+
+print(total)
+
+>>>
+27
+>>>
+```
+
+What happens here?
+
+- the for instruction specifies the variable used to browse the list (i here) followed by the in keyword and the name of the list being processed (my_list here)
+- the i variable is assigned the values of all the subsequent list's elements, and the process occurs as many times as there are elements in the list;
+- this means that you use the i variable as a copy of the elements' values, and you don't need to use indices;
+- the len() function is not needed here, either.
+
+```py
+my_list = [10, 1, 8, 3, 5]
+total = 0
+
+for i in range(len(my_list)):
+    total += my_list[i]
+
+print(total)
+
+>>>
+27
+>>>
+```
 
 [^^^](#34_LISTS)
 
