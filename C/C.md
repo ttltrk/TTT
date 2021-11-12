@@ -264,7 +264,6 @@ Here, myVar is a variable of int (integer) type. The size of int is 4 bytes.
 
 Here's a table containing commonly used types in C programming for quick access.
 
-| --- | --- | ---|
 | Type | Size (bytes) | Format Specifier |
 | --- | --- | --- |
 | int | at least 2, usually 4 | %d, %i |
