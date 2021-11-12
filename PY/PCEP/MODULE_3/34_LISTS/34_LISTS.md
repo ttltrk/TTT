@@ -513,6 +513,51 @@ Clear, effective and elegant - isn't it?
 
 #### 34112_COLLECTIONS_OF_DATA_LISTS_LOOPS_3
 
+##### Lists in action
+
+Now you can easily swap the list's elements to reverse their order:
+
+```py
+my_list = [10, 1, 8, 3, 5]
+
+my_list[0], my_list[4] = my_list[4], my_list[0]
+my_list[1], my_list[3] = my_list[3], my_list[1]
+
+print(my_list)
+
+>>>
+[5, 3, 8, 1, 10]
+>>>
+```
+
+It looks fine with five elements.
+Will it still be acceptable with a list containing 100 elements? No, it won't.
+Can you use the for loop to do the same thing automatically, irrespective of the list's length? Yes, you can.
+
+This is how we've done it:
+
+```py
+my_list = [10, 1, 8, 3, 5]
+length = len(my_list)
+
+for i in range(length // 2):
+    my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
+
+print(my_list)
+
+>>>
+[5, 3, 8, 1, 10]
+>>>
+```
+
+Note:
+
+- we've assigned the length variable with the current list's length (this makes our code a bit clearer and shorter)
+- we've launched the for loop to run through its body length // 2 times (this works well for lists with both even and odd lengths, because when the list contains an odd number of elements, the middle one remains untouched)
+- we've swapped the ith element (from the beginning of the list) with the one with an index equal to (length - i - 1) (from the end of the list); in our example, for i equal to 0 the (lenght - i - 1) gives 4; for i equal to 1, it gives 3 - this is exactly what we needed.
+
+Lists are extremely useful, and you'll encounter them very often.
+
 [^^^](#34_LISTS)
 
 ---
@@ -524,6 +569,158 @@ Clear, effective and elegant - isn't it?
 ---
 
 #### 34114_SUMMARY
+
+1. The list is a type of data in Python used to store multiple objects. It is an ordered and mutable collection of comma-separated items between square brackets, e.g.:
+
+```py
+my_list = [1, None, True, "I am a string", 256, 0]
+print(my_list)
+
+>>>
+[1, None, True, 'I am a string', 256, 0]
+>>>
+```
+
+2. Lists can be indexed and updated, e.g.:
+
+```py
+my_list = [1, None, True, 'I am a string', 256, 0]
+print(my_list[3])  # outputs: I am a string
+print(my_list[-1])  # outputs: 0
+
+my_list[1] = '?'
+print(my_list)  # outputs: [1, '?', True, 'I am a string', 256, 0]
+
+my_list.insert(0, "first")
+my_list.append("last")
+print(my_list)  # outputs: ['first', 1, '?', True, 'I am a string', 256, 0, 'last']
+
+>>>
+I am a string
+0
+[1, '?', True, 'I am a string', 256, 0]
+['first', 1, '?', True, 'I am a string', 256, 0, 'last']
+>>>
+```
+
+3. Lists can be nested, e.g.:
+
+```py
+my_list = [1, 'a', ["list", 64, [0, 1], False]]
+print(my_list)
+
+>>>
+[1, 'a', ['list', 64, [0, 1], False]]
+>>>
+```
+
+You will learn more about nesting in module 3.1.7 - for the time being, we just want you to be aware that something like this is possible, too.
+
+4. List elements and lists can be deleted, e.g.:
+
+```py
+my_list = [1, 2, 3, 4]
+del my_list[2]
+print(my_list)  # outputs: [1, 2, 4]
+
+del my_list  # deletes the whole list
+
+>>>
+[1, 2, 4]
+>>>
+```
+
+Again, you will learn more about this in module 3.1.6 - don't worry. For the time being just try to experiment with the above code and check how changing it affects the output.
+
+5. Lists can be iterated through using the for loop, e.g.:
+
+```py
+my_list = ["white", "purple", "blue", "yellow", "green"]
+
+for color in my_list:
+    print(color)
+
+>>>
+white
+purple
+blue
+yellow
+green
+>>>    
+```
+
+6. The len() function may be used to check the list's length, e.g.:
+
+```py
+my_list = ["white", "purple", "blue", "yellow", "green"]
+print(len(my_list))  # outputs 5
+
+del my_list[2]
+print(len(my_list))  # outputs 4
+
+>>>
+5
+4
+>>>
+```
+
+7. A typical function invocation looks as follows: result = function(arg), while a typical method invocation looks like this:
+
+```py
+result = data.method(arg)
+```
+
+##### Exercises
+
+```py
+lst = [1, 2, 3, 4, 5]
+lst.insert(1, 6)
+del lst[0]
+lst.append(1)
+
+print(lst)
+
+>>>
+[6, 2, 3, 4, 5, 1]
+>>>
+```
+
+```py
+lst = [1, 2, 3, 4, 5]
+lst_2 = []
+add = 0
+
+for number in lst:
+    add += number
+    lst_2.append(add)
+
+print(lst_2)
+
+>>>
+[1, 3, 6, 10, 15]
+>>>
+```
+
+```py
+lst = []
+del lst
+print(lst)
+
+>>>
+NameError: name 'lst' is not defined
+>>>
+```
+
+```py
+lst = [1, [2, 3], 4]
+print(lst[1])
+print(len(lst))
+
+>>>
+[2, 3]
+3
+>>>
+```
 
 [^^^](#34_LISTS)
 
