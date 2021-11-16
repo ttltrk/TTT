@@ -5,31 +5,11 @@
 
 ---
 
-<h3 id='^'>JSON</h3>
+#### JSON
 
 ---
 
-* <a href='#'></a></br>
-* <a href='#'></a></br>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
-
----
-
-<h3 id=''></h3>
-
-```py
-
-```
-
-<a href='#^'>^^^</a>
+JSON is a syntax for storing and exchanging data.
+JSON is text, written with JavaScript object notation.
 
 ---

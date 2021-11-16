@@ -38,6 +38,7 @@
 * [PACKAGES](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/PACKAGES.md)
 * [FILES](https://github.com/ttltrk/TTT/blob/master/PY/FILES/FILES.md)
 * [ERRORS_AND_EXCEPTIONS](https://github.com/ttltrk/TTT/blob/master/PY/ERR_EXC/ERR_EXC.md)
+* [TRY_EXCEPT](https://github.com/ttltrk/TTT/blob/master/PY/TRY_EXCEPT/TRY_EXCEPT.md)
 * [JSON](https://github.com/ttltrk/TTT/blob/master/PY/JSON/JSON.md)
 * [LOGINS](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/LOGINS.md)
 * [SHELL](https://github.com/ttltrk/TTT/blob/master/PY/SHELL/SHELL.md)
