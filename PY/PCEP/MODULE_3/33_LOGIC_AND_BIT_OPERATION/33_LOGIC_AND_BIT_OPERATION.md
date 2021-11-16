@@ -149,7 +149,7 @@ Here are all of them:
 - ^ (caret) - bitwise exclusive or (xor).
 ```
 
-Bitwise operations 
+Bitwise operations
 
 | A |  B | ```A & B``` | ```A | B``` | ```A ^ B``` |
 | --- | --- | --- | --- | --- |
@@ -157,6 +157,25 @@ Bitwise operations
 | 0 |	1	| 0	| 1	| 1 |
 | 1	| 0	| 0	| 1	| 1 |
 | 1	| 1 |	1 |	1 |	0 |
+
+| Argument	| ~ Argument |
+| --- | --- |
+| 0 |	1 |
+| 1	| 0 |
+
+Let's make it easier:
+
+```
+- & requires exactly two 1s to provide 1 as the result;
+- | requires at least one 1 to provide 1 as the result;
+- ^ requires exactly one 1 to provide 1 as the result.
+```
+
+Let us add an important remark: the arguments of these operators must be integers; we must not use floats here.
+
+The difference in the operation of the logical and bit operators is important: the logical operators do not penetrate into the bit level of its argument. They're only interested in the final integer value.
+
+Bitwise operators are stricter: they deal with every bit separately. If we assume that the integer variable occupies 64 bits (which is common in modern computer systems), you can imagine the bitwise operation as a 64-fold evaluation of the logical operator for each pair of bits of the arguments. This analogy is obviously imperfect, as in the real world all these 64 operations are performed at the same time (simultaneously).
 
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
 
