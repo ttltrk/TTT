@@ -123,6 +123,32 @@ Note how the parentheses have been used to code the expressions - we put them th
 
 We should add that none of these two-argument operators can be used in the abbreviated form known as op=. This exception is worth remembering.
 
+##### Logical values vs. single bits
+
+Logical operators take their arguments as a whole regardless of how many bits they contain. The operators are aware only of the value: zero (when all the bits are reset) means False; not zero (when at least one bit is set) means True.
+
+The result of their operations is one of these values: False or True. This means that this snippet will assign the value True to the j variable if i is not zero; otherwise, it will be False.
+
+```py
+i = 1
+j = not not i
+```
+
+##### Bitwise operators
+
+However, there are four operators that allow you to manipulate single bits of data. They are called bitwise operators.
+
+They cover all the operations we mentioned before in the logical context, and one additional operator. This is the xor (as in exclusive or) operator, and is denoted as ^ (caret).
+
+Here are all of them:
+
+```
+- & (ampersand) - bitwise conjunction;
+- | (bar) - bitwise disjunction;
+- ~ (tilde) - bitwise negation;
+- ^ (caret) - bitwise exclusive or (xor).
+```
+
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
 
 ---
