@@ -84,9 +84,44 @@ This operator is written as the word not, and its priority is very high: the sam
 
 #### 3312_AND_OR_NOT_2
 
+##### Logical expressions
+
+Let's create a variable named var and assign 1 to it. The following conditions are pairwise equivalent:
+
+```py
+var = 1
+
+# Example 1:
+print(var > 0)
+print(not (var <= 0))
+
+
+# Example 2:
+print(var != 0)
+print(not (var == 0))
+
+>>>
+True
+True
+True
+True
+>>>
 ```
 
+You may be familiar with De Morgan's laws. They say that:
+The negation of a conjunction is the disjunction of the negations.
+The negation of a disjunction is the conjunction of the negations.
+
+Let's write the same thing using Python:
+
+```py
+not (p and q) == (not p) or (not q)
+not (p or q) == (not p) and (not q)
 ```
+
+Note how the parentheses have been used to code the expressions - we put them there to improve readability.
+
+We should add that none of these two-argument operators can be used in the abbreviated form known as op=. This exception is worth remembering.
 
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
 
