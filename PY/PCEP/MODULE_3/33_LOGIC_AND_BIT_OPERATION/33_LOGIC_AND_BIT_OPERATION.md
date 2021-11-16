@@ -149,9 +149,9 @@ Here are all of them:
 - ^ (caret) - bitwise exclusive or (xor).
 ```
 
-Bitwise operations ```(&, |, and ^)```
+Bitwise operations 
 
-| A |  B | ```A & B``` |	 ```A | B``` |	```A ^ B``` |
+| A |  B | ```A & B``` | ```A | B``` | ```A ^ B``` |
 | --- | --- | --- | --- | --- |
 | 0 | 0 |	0 |	0 |	0 |
 | 0 |	1	| 0	| 1	| 1 |
