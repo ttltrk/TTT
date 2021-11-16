@@ -151,7 +151,7 @@ Here are all of them:
 
 Bitwise operations ```(&, |, and ^)```
 
-| Argument A	| Argument B	| A & B |	 A | B |	A ^ B |
+| Argument A	| Argument B	| &A & B& |	 &A | B& |	&A ^ B& |
 | --- | --- | --- | --- | --- |
 | 0 | 0 |	0 |	0 |	0 |
 | 0 |	1	| 0	| 1	| 1 |
