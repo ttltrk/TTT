@@ -22,7 +22,7 @@ https://lksprod.dst.ibm.com/collection/goto?id=268
 * [COMMERCE_CLOUD](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTIALS/COMMERCE_CLOUD/COMMERCE_CLOUD.md)
 * [SALES_CLOUD](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTIALS/SALES_CLOUD/SALES_CLOUD.md)
 * [EINSTEIN](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTIALS/EINSTEIN/EINSTEIN.md)
-* [](#)
+* [CPQ](https://github.com/ttltrk/TTT/blob/master/SALE/IBM_SF_ESSENTIALS/CPQ/CPQ.md)
 * [](#)
 * [](#)
 * [](#)
