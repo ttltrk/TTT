@@ -59,3 +59,77 @@ except:
 5
 >>>
 ```
+
+##### Else
+
+You can use the else keyword to define a block of code to be executed if no errors were raised:
+
+```py
+try:
+  print("Hello")
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
+
+>>>
+Hello
+Nothing went wrong
+>>>
+```
+
+##### Finally
+
+The finally block, if specified, will be executed regardless if the try block raises an error or not.
+
+```py
+try:
+  print(x)
+except:
+  print("Something went wrong")
+finally:
+  print("The 'try except' is finished")
+
+>>>
+5
+The 'try except' is finished
+>>>
+```
+
+This can be useful to close objects and clean up resources:
+
+```py
+try:
+  f = open("demofile.txt")
+  try:
+    f.write("Lorum Ipsum")
+  except:
+    print("Something went wrong when writing to the file")
+  finally:
+    f.close()
+except:
+  print("Something went wrong when opening the file")
+
+>>>
+Something went wrong when opening the file
+>>>
+```
+
+##### Raise an exception
+
+As a Python developer you can choose to throw an exception if a condition occurs.
+To throw (or raise) an exception, use the raise keyword.
+
+```py
+x = -1
+
+if x < 0:
+  raise Exception("Sorry, no numbers below zero")
+
+>>>
+Exception: Sorry, no numbers below zero
+>>>
+```
+
+The raise keyword is used to raise an exception.
+You can define what kind of error to raise, and the text to print to the user.
