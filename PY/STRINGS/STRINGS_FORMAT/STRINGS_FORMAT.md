@@ -106,3 +106,15 @@ The price is 49.00 dollars
 #### Multiple Values
 
 If you want to use more values, just add more values to the format() method.
+
+```py
+quantity = 3
+itemno = 567
+price = 49
+myorder = "I want {} pieces of item number {} for {:.2f} dollars."
+print(myorder.format(quantity, itemno, price))
+
+>>>
+I want 3 pieces of item number 567 for 49.00 dollars.
+>>>
+```
