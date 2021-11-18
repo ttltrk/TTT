@@ -16,4 +16,10 @@ on the Salesforce platform and utilizes Salesforce’s point and click solution
 to create customized web pages and portals accessible from any location using a standard web browser.
 ```
 
+```
+The following client presentation provides an introduction to the Digital Engagement
+with Salesforce Community Cloud, showing how this popular tool is a differentiator
+within the Salesforce platform by helping customers, partners, and employees amplify their experience.
+```
+
 ---
