@@ -71,7 +71,7 @@ I want to pay 49.95 dollars for 3 pieces of item 567.
 
 ---
 
-#### STRING_FORMAT
+#### String format()
 
 The format() method allows you to format selected parts of a string.
 Sometimes there are parts of a text that you do not control, maybe they come from a database, or user input?
