@@ -19,6 +19,7 @@
 
 #### BASICS
 
+To make sure a string will display as expected, we can format the result with the ```format()``` method.
 We can combine strings and numbers by using the ```format()``` method!
 The ```format()``` method takes the passed arguments, formats them, and places them in the string where the placeholders ```{}``` are
 
@@ -68,4 +69,40 @@ I want to pay 49.95 dollars for 3 pieces of item 567.
 
 [^^^](#STRINGS_FORMAT)
 
+---
+
+#### STRING_FORMAT
+
+The format() method allows you to format selected parts of a string.
+Sometimes there are parts of a text that you do not control, maybe they come from a database, or user input?
+To control such values, add placeholders (curly brackets {}) in the text, and run the values through the format() method.
+
+```py
+price = 49
+txt = "The price is {} dollars"
+print(txt.format(price))
+
+>>>
+The price is 49 dollars
+>>>
 ```
+
+You can add parameters inside the curly brackets to specify how to convert the value:
+
+```py
+price = 49
+txt = "The price is {:.2f} dollars"
+print(txt.format(price))
+
+>>>
+The price is 49.00 dollars
+>>>
+```
+
+[^^^](#STRINGS_FORMAT)
+
+---
+
+#### Multiple Values
+
+If you want to use more values, just add more values to the format() method.
