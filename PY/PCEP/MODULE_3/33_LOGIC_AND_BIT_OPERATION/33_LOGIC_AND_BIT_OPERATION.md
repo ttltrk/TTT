@@ -413,6 +413,22 @@ Note:
 (shifting to the left by two bits is the same as integer multiplication by four)
 ```
 
+And here is the updated priority table, containing all the operators introduced so far:
+
+```
+Priority	Operator	
+1	~, +, -	unary
+2	**
+3	*, /, //, %
+4	+, -	binary
+5	<<, >>
+6	<, <=, >, >=
+7	==, !=
+8	&
+9	|
+10	=, +=, -=, *=, /=, %=, &=, ^=, |=, >>=, <<=
+```
+
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
 
 ---
