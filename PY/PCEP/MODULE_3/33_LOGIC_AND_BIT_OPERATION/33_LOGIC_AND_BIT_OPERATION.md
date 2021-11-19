@@ -361,9 +361,25 @@ flag_register ^= the_mask
 
 #### 3315_BIT_SHIFTING
 
+##### Binary left shift and binary right shift
+
+Python offers yet another operation relating to single bits: shifting. This is applied only to integer values, and you mustn't use floats as arguments for it.
+
+You already apply this operation very often and quite unconsciously. How do you multiply any number by ten? Take a look:
+
+```py
+12345 × 10 = 123450
 ```
 
+As you can see, multiplying by ten is in fact a shift of all the digits to the left and filling the resulting gap with zero.
+
+Division by ten? Take a look:
+
+```py
+12340 ÷ 10 = 1234
 ```
+
+Dividing by ten is nothing but shifting the digits to the right.
 
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
 
