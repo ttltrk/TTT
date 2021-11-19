@@ -416,7 +416,7 @@ Note:
 And here is the updated priority table, containing all the operators introduced so far:
 
 ```
-Priority	Operator	
+Priority	Operator
 1	~, +, -	unary
 2	**
 3	*, /, //, %
@@ -427,6 +427,17 @@ Priority	Operator
 8	&
 9	|
 10	=, +=, -=, *=, /=, %=, &=, ^=, |=, >>=, <<=
+```
+
+```py
+var = 17
+var_right = var >> 1
+var_left = var << 2
+print(var, var_left, var_right)
+
+>>>
+17 68 8
+>>>
 ```
 
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
