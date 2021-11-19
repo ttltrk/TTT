@@ -275,8 +275,19 @@ The variable stores the information about various aspects of system operation. E
 flag_register = 0000000000000000000000000000x000
 ```
 
+You may be faced with the following tasks:
+
+1. Check the state of your bit - you want to find out the value of your bit; comparing the whole variable to zero will not do anything, because the remaining bits can have completely unpredictable values, but you can use the following conjunction property:
+
+```py
+x & 1 = x
+x & 0 = 0
 ```
 
+If you apply the & operation to the flag_register variable along with the following bit image:
+
+```py
+00000000000000000000000000001000
 ```
 
 [^^^](#33_LOGIC_AND_BIT_OPERATION)
