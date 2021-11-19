@@ -261,6 +261,20 @@ x = x ^ y	x ^= y
 
 #### 3314_BITWISE_OPERATORS
 
+##### How do we deal with single bits?
+
+We'll now show you what you can use bitwise operators for. Imagine that you're a developer obliged to write an important piece of an operating system. You've been told that you're allowed to use a variable assigned in the following way:
+
+```py
+flag_register = 0x1234
+```
+
+The variable stores the information about various aspects of system operation. Each bit of the variable stores one yes/no value. You've also been told that only one of these bits is yours - the third (remember that bits are numbered from zero, and bit number zero is the lowest one, while the highest is number 31). The remaining bits are not allowed to change, because they're intended to store other data. Here's your bit marked with the letter x:
+
+```py
+flag_register = 0000000000000000000000000000x000
+```
+
 ```
 
 ```
