@@ -15,8 +15,8 @@
 * [3214_FOR_1](#3214_FOR_1)
 * [3215_FOR_2](#3214_FOR_2)
 * [3216_FOR_3](#3216_FOR_3)
-* [3217_](#)
-* [3218_](#)
+* [3217_BREAK_CONTINUE_1](#3217_BREAK_CONTINUE_1)
+* [3218_BREAK_CONTINUE_2](#3218_BREAK_CONTINUE_2)
 * [3219_](#)
 * [32110_](#)
 * [32111_](#)
@@ -432,6 +432,18 @@ The value of i is currently 5
 ---
 
 #### 3216_FOR_3
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 3217_BREAK_CONTINUE_1
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 3218_BREAK_CONTINUE_2
 
 [^^^](#32_LOOPS)
 
