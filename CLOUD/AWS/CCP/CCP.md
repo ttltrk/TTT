@@ -22,6 +22,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 * [EVOLUTION_OF_CLOUD_HOSTING](#EVOLUTION_OF_CLOUD_HOSTING)
 * [WHAT_IS_AMAZON](#WHAT_IS_AMAZON)
+* [WHAT_IS_AWS](#WHAT_IS_AWS)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -149,7 +150,15 @@ Amazon has expanded beyond just an online e-commerce store into:
   - more...
 
 Andy Jassy is the current CEO of Amazon.
-  
+
+[^^^](#AWS_CCP)
+
+---
+
+#### WHAT_IS_AWS
+
+Amazon calls their cloud provider service Amazon Web Services - commonly referred to just AWS 
+
 [^^^](#AWS_CCP)
 
 ---
