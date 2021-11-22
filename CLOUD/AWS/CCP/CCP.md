@@ -20,7 +20,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 * [INTRO](#INTRO)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
-* [EVOLUTION](#EVOLUTION)
+* [EVOLUTION_OF_CLOUD_HOSTING](#EVOLUTION_OF_CLOUD_HOSTING)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -114,7 +114,17 @@ Six advantages and benefits of cloud computing
 
 ---
 
-#### EVOLUTION
+#### EVOLUTION_OF_CLOUD_HOSTING
+
+- Dedicated server: One physical machine dedicated to single a business. runs a single
+  web-app/site. Very expensive, high maintenance.
+
+- Virtual Private server (VPS): One physical machine dedicated to a single business. The physical
+  machine is virtualized into sub-machines. Runs multiple web-apps/sites. Better Utilization and
+  isolation of resources.
+
+- Shared hosting: One physical machine, shared by hundred of business. Relies on most tenants
+  under-utilizing their resources. Very cheap, Limited functionality, poor isolation.
 
 [^^^](#AWS_CCP)
 
