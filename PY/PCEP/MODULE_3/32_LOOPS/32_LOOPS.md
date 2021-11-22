@@ -262,9 +262,16 @@ Actually, the for loop is designed to do more complicated tasks - it can "browse
 Take a look at the snippet:
 
 ```py
-for i in range(100):
-    # do_something()
-    pass
+for i in range(5):
+    print(i)
+
+>>>
+0
+1
+2
+3
+4
+>>>    
 ```
 
 There are some new elements. Let us tell you about them:
@@ -275,6 +282,56 @@ There are some new elements. Let us tell you about them:
 - the range() function (this is a very special function) is responsible for generating all the desired values of the control variable; in our example, the function will create (we can even say that it will feed the loop with) subsequent values from the following set: 0, 1, 2 .. 97, 98, 99; note: in this case, the range() function starts its job from 0 and finishes it one step (one integer number) before the value of its argument;
 - note the pass keyword inside the loop body - it does nothing at all; it's an empty instruction - we put it here because the for loop's syntax demands at least one instruction inside the body (by the way - if, elif, else and while express the same thing)
 Our next examples will be a bit more modest in the number of loop repetitions.
+
+Take a look at the snippet below. Can you predict its output?
+
+```py
+for i in range(10):
+    print("The value of i is currently", i)
+
+>>>
+The value of i is currently 0
+The value of i is currently 1
+The value of i is currently 2
+The value of i is currently 3
+The value of i is currently 4
+The value of i is currently 5
+The value of i is currently 6
+The value of i is currently 7
+The value of i is currently 8
+The value of i is currently 9
+>>>    
+```
+
+Run the code to check if you were right.
+
+Note:
+
+- the loop has been executed ten times (it's the range() function's argument)
+- the last control variable's value is 9 (not 10, as it starts from 0, not from 1)
+
+The range() function invocation may be equipped with two arguments, not just one:
+
+```py
+for i in range(2, 8):
+    print("The value of i is currently", i)
+
+>>>
+The value of i is currently 2
+The value of i is currently 3
+The value of i is currently 4
+The value of i is currently 5
+The value of i is currently 6
+The value of i is currently 7
+>>>    
+```
+
+In this case, the first argument determines the initial (first) value of the control variable.
+The last argument shows the first value the control variable will not be assigned.
+Note: the range() function accepts only integers as its arguments, and generates sequences of integers.
+Can you guess the output of the program? Run it to check if you were right now, too.
+The first value shown is 2 (taken from the range()'s first argument.)
+The last is 7 (although the range()'s second argument is 8).
 
 [^^^](#32_LOOPS)
 
