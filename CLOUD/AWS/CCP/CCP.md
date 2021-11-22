@@ -20,6 +20,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 * [INTRO](#INTRO)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
+* [EVOLUTION](#EVOLUTION)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -108,6 +109,12 @@ Six advantages and benefits of cloud computing
 - Go global in minutes   
   - Deploy your app in multiple regions around the world with a few clicks. Provide lower latency and a better
     experience for your customers at minimal cost
+
+[^^^](#AWS_CCP)
+
+---
+
+#### EVOLUTION
 
 [^^^](#AWS_CCP)
 
