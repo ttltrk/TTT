@@ -17,9 +17,15 @@
 * [3216_FOR_3](#3216_FOR_3)
 * [3217_BREAK_CONTINUE_1](#3217_BREAK_CONTINUE_1)
 * [3218_BREAK_CONTINUE_2](#3218_BREAK_CONTINUE_2)
-* [3219_](#)
-* [32110_](#)
-* [32111_](#)
+* [3219_LAB_1](#3219_LAB_1)
+* [32110_LAB_2](#32110_LAB_2)
+* [32111_LAB_3](#32111_LAB_3)
+* [32112_WHILE_ELSE_1](#32112_WHILE_ELSE_1)
+* [32113_WHILE_ELSE_2](#32113_WHILE_ELSE_2)
+* [32114](#)
+* [32115](#)
+* [32116](#)
+* [32117](#)
 
 ---
 
@@ -564,6 +570,62 @@ The largest number is 9
 Look carefully, the user enters the first number before the program enters the while loop. The subsequent number is entered when the program is already in the loop.
 
 Again - run the program, test it, and experiment with it.
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 32112_WHILE_ELSE_1
+
+##### The while loop and the else branch
+
+Both loops, while and for, have one interesting (and rarely used) feature.
+We'll show you how it works - try to judge for yourself if it's usable and whether you can live without it or not.
+In other words, try to convince yourself if the feature is valuable and useful, or is just syntactic sugar.
+Take a look at the snippet in the editor. There's something strange at the end - the else keyword.
+As you may have suspected, loops may have the else branch too, like ifs.
+The loop's else branch is always executed once, regardless of whether the loop has entered its body or not.
+Can you guess the output? Run the program to check if you were right.
+Modify the snippet a bit so that the loop has no chance to execute its body even once:
+
+```py
+i = 5
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+
+>>>
+else: 5
+>>>    
+```
+
+The while's condition is False at the beginning - can you see it?
+Run and test the program, and check whether the else branch has been executed or not.
+
+```py
+i = 1
+while i < 5:
+    print(i)
+    i += 1
+else:
+    print("else:", i)
+
+>>>
+1
+2
+3
+4
+else: 5
+>>>
+```
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 32113_WHILE_ELSE_2
 
 [^^^](#32_LOOPS)
 
