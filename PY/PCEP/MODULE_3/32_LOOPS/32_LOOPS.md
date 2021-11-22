@@ -228,3 +228,43 @@ Don't feel obliged to code your programs in a way that is always the shortest an
 [^^^](#32_LOOPS)
 
 ---
+
+#### 3214_FOR_1
+
+##### Looping your code with for
+
+Another kind of loop available in Python comes from the observation that sometimes it's more important to count the "turns" of the loop than to check the conditions.
+
+Imagine that a loop's body needs to be executed exactly one hundred times. If you would like to use the while loop to do it, it may look like this:
+
+```py
+i = 0
+while i < 5:
+    # do_something()
+    i += 1
+    print(i)
+
+>>>
+1
+2
+3
+4
+5
+>>>
+```
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 3215_FOR_2
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 3216_FOR_3
+
+[^^^](#32_LOOPS)
+
+---
