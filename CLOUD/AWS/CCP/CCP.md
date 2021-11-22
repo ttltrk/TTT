@@ -157,7 +157,9 @@ Andy Jassy is the current CEO of Amazon.
 
 #### WHAT_IS_AWS
 
-Amazon calls their cloud provider service Amazon Web Services - commonly referred to just AWS 
+Amazon calls their cloud provider service Amazon Web Services - commonly referred to just AWS.
+AWS was launched in 2006 is the leading cloud service provider in the world. Cloud Service Providers
+can be initialized as CSPs.
 
 [^^^](#AWS_CCP)
 
