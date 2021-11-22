@@ -253,6 +253,29 @@ while i < 5:
 >>>
 ```
 
+It would be nice if somebody could do this boring counting for you. Is that possible?
+
+Of course it is - there's a special loop for these kinds of tasks, and it is named for.
+
+Actually, the for loop is designed to do more complicated tasks - it can "browse" large collections of data item by item. We'll show you how to do that soon, but right now we're going to present a simpler variant of its application.
+
+Take a look at the snippet:
+
+```py
+for i in range(100):
+    # do_something()
+    pass
+```
+
+There are some new elements. Let us tell you about them:
+
+- the for keyword opens the for loop; note - there's no condition after it; you don't have to think about conditions, as they're checked internally, without any intervention;
+- any variable after the for keyword is the control variable of the loop; it counts the loop's turns, and does it automatically;
+- the in keyword introduces a syntax element describing the range of possible values being assigned to the control variable;
+- the range() function (this is a very special function) is responsible for generating all the desired values of the control variable; in our example, the function will create (we can even say that it will feed the loop with) subsequent values from the following set: 0, 1, 2 .. 97, 98, 99; note: in this case, the range() function starts its job from 0 and finishes it one step (one integer number) before the value of its argument;
+- note the pass keyword inside the loop body - it does nothing at all; it's an empty instruction - we put it here because the for loop's syntax demands at least one instruction inside the body (by the way - if, elif, else and while express the same thing)
+Our next examples will be a bit more modest in the number of loop repetitions.
+
 [^^^](#32_LOOPS)
 
 ---
