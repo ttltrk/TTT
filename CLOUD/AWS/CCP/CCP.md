@@ -21,6 +21,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [INTRO](#INTRO)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 * [EVOLUTION_OF_CLOUD_HOSTING](#EVOLUTION_OF_CLOUD_HOSTING)
+* [WHAT_IS_AMAZON](#WHAT_IS_AMAZON)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -126,6 +127,29 @@ Six advantages and benefits of cloud computing
 - Shared hosting: One physical machine, shared by hundred of business. Relies on most tenants
   under-utilizing their resources. Very cheap, Limited functionality, poor isolation.
 
+- Cloud hosting: Multiple physical machines that act as one system. The system is abstracted
+  into multiple cloud services. Flexible, scalable, secure, cost-effective, high-configurability.
+
+[^^^](#AWS_CCP)
+
+---
+
+#### WHAT_IS_AMAZON
+
+An American multinational computer technology corporation headquartered in Seattle, Washington.
+Amazon was founded in 1994 by Jeff Bezos and the company started as an online store for books and expanded to
+other products.
+
+Amazon has expanded beyond just an online e-commerce store into:
+  - cloud computing (AWS)
+  - digital streaming (Amazon prime Video, Amazon Prime Music, Twitch.tv)
+  - Grocery Stores (Whole Foods Market)
+  - artificial intelligence
+  - Low orbit satellites (Kuniper Systems)
+  - more...
+
+Andy Jassy is the current CEO of Amazon.
+  
 [^^^](#AWS_CCP)
 
 ---
