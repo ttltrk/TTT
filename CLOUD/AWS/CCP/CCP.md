@@ -26,6 +26,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [WHAT_IS_A_CSP](#WHAT_IS_A_CSP)
 * [LANDSCAPE_OF_CSPS](#LANDSCAPE_OF_CSPS)
 * [GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
+* [COMMON_CLOUD_SERVICES](#COMMON_CLOUD_SERVICES)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -216,6 +217,12 @@ requirements, it would be referred to as a Cloud Platform e.g. Twilio, HashiCorp
 
 Magic Quadrant (MQ) is a series of market research reports published by IT consulting firm Gartner that rely on proprietary
 qualitative data analysis methods to demonstrate market trends, such as direction, maturity and participants.
+
+[^^^](#AWS_CCP)
+
+---
+
+#### COMMON_CLOUD_SERVICES
 
 [^^^](#AWS_CCP)
 
