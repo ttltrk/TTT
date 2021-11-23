@@ -831,6 +831,62 @@ for digit in "0165031806510":
     # Line of code.
 ```
 
+Exercise 5
+
+What is the output of the following code?
+
+```py
+n = 3
+
+while n > 0:
+    print(n + 1)
+    n -= 1
+else:
+    print(n)
+
+>>>
+4
+3
+2
+0
+>>>    
+```
+
+Exercise 6
+
+What is the output of the following code?
+
+```py
+n = range(4)
+
+for num in n:
+    print(num - 1)
+else:
+    print(num)
+
+>>>
+-1
+0
+1
+2
+3
+>>>
+```
+
+```py
+Exercise 7
+
+What is the output of the following code?
+
+for i in range(0, 6, 3):
+    print(i)
+
+>>>
+0
+3
+>>>
+```
+
 [^^^](#32_LOOPS)
 
 ---
