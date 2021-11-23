@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [EVOLUTION_OF_CLOUD_HOSTING](#EVOLUTION_OF_CLOUD_HOSTING)
 * [WHAT_IS_AMAZON](#WHAT_IS_AMAZON)
 * [WHAT_IS_AWS](#WHAT_IS_AWS)
+* [WHAT_IS_A_CSP](#WHAT_IS_A_CSP)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -165,7 +166,27 @@ can be initialized as CSPs.
 - S3 - Simple Storage Service - was launched in 2006
 - EC2 - Elastic Compute Cloud - was launched in 2006
 
-In november 2010, it was reported that all of Amazon.com's retail sites had migrated to AWS 
+In November 2010, it was reported that all of Amazon.com's retail sites had migrated to AWS.
+To support industry-wide training and skills standardization, AWS began offering
+a certification program for computer engineers, on April 2013.  
+
+[^^^](#AWS_CCP)
+
+---
+
+#### WHAT_IS_A_CSP
+
+A Cloud Service Provider is a company which:
+
+- provides multiple Cloud Services e.g. tens to hundreds of services
+- those Cloud Services can be chained together to create cloud architectures
+- those Cloud Services are accessible via Single Unified API e.g. AWS API
+- those Cloud Services utilized metered billing based on usage e.g. per second, per hour  
+- those Cloud Services have rich monitoring built in e.g. AWS CloudTrail
+- those Cloud Services have an Infrastructure as a Service (IAAS) offering 
+
+
+
 
 [^^^](#AWS_CCP)
 
