@@ -59,9 +59,14 @@ Don't forget this important distinction:
 It is a binary operator with left-sided binding. It needs two arguments and checks if they are equal.
 
 ```py
+2 == 2
+2 == 2.
+1 == 2
 
 >>>
-
+True
+True
+False 
 >>>
 ```
 
