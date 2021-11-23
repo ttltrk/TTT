@@ -24,6 +24,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [WHAT_IS_AMAZON](#WHAT_IS_AMAZON)
 * [WHAT_IS_AWS](#WHAT_IS_AWS)
 * [WHAT_IS_A_CSP](#WHAT_IS_A_CSP)
+* [LANDSCAPE_OF_CSPS](#LANDSCAPE_OF_CSPS)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -183,8 +184,19 @@ A Cloud Service Provider is a company which:
 - those Cloud Services are accessible via Single Unified API e.g. AWS API
 - those Cloud Services utilized metered billing based on usage e.g. per second, per hour  
 - those Cloud Services have rich monitoring built in e.g. AWS CloudTrail
-- those Cloud Services have an Infrastructure as a Service (IAAS) offering 
+- those Cloud Services have an Infrastructure as a Service (IAAS) offering
+- those Cloud Services offers automation via Infrastructure as Code (IaC)
 
+Domain name >> Load Balancer >> Web Server >> Postgres DB / Sends Emails / Analytics / Stores Images
+
+If a company offers multiple cloud services under a single UI but do not meet most of or all of these
+requirements, it would be referred to as a Cloud Platform e.g. Twilio, HashiCorp, Databricks
+
+[^^^](#AWS_CCP)
+
+---
+
+#### LANDSCAPE_OF_CSPS
 
 
 
