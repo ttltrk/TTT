@@ -22,7 +22,8 @@
 * [32111_LAB_3](#32111_LAB_3)
 * [32112_WHILE_ELSE](#32112_WHILE_ELSE)
 * [32113_FOR_ELSE](#32113_FOR_ELSE)
-* [32114_SUMMARY](#32114_SUMMARY)
+* [32114_SUMMARY_1](#32114_SUMMARY_1)
+* [32115_SUMMARY_2](#32114_SUMMARY_2)
 
 ---
 
@@ -658,7 +659,7 @@ Now we're going to tell you about some other kinds of variables. Our current var
 
 ---
 
-#### 32114_SUMMARY
+#### 32114_SUMMARY_1
 
 ##### Key takeaways
 
@@ -776,6 +777,12 @@ for i in range(6, 1, -2):
 0 1 2 6 4 2
 >>>    
 ```
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 32115_SUMMARY_2
 
 [^^^](#32_LOOPS)
 
