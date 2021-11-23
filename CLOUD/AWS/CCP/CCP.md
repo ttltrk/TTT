@@ -161,6 +161,12 @@ Amazon calls their cloud provider service Amazon Web Services - commonly referre
 AWS was launched in 2006 is the leading cloud service provider in the world. Cloud Service Providers
 can be initialized as CSPs.
 
+- SQS - Simple Queue Service - was the first AWS service launched for public use in 2004
+- S3 - Simple Storage Service - was launched in 2006
+- EC2 - Elastic Compute Cloud - was launched in 2006
+
+In november 2010, it was reported that all of Amazon.com's retail sites had migrated to AWS 
+
 [^^^](#AWS_CCP)
 
 ---
