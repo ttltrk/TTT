@@ -726,6 +726,57 @@ pypypy
 >>>    
 ```
 
+3. The while and for loops can also have an else clause in Python. The else clause executes after the loop finishes its execution as long as it has not been terminated by break, e.g.:
+
+```py
+n = 0
+
+while n != 3:
+    print(n)
+    n += 1
+else:
+    print(n, "else")
+
+print()
+
+for i in range(0, 3):
+    print(i)
+else:
+    print(i, "else")
+
+>>>
+0
+1
+2
+3 else
+
+0
+1
+2
+2 else
+>>>    
+```
+
+4. The range() function generates a sequence of numbers. It accepts integers and returns range objects. The syntax of range() looks as follows: range(start, stop, step), where:
+
+- start is an optional parameter specifying the starting number of the sequence (0 by default)
+- stop is an optional parameter specifying the end of the sequence generated (it is not included),
+- and step is an optional parameter specifying the difference between the numbers in the sequence (1 by default.)
+
+Example code:
+
+```py
+for i in range(3):
+    print(i, end=" ")  # Outputs: 0 1 2
+
+for i in range(6, 1, -2):
+    print(i, end=" ")  # Outputs: 6, 4, 2
+
+>>>
+0 1 2 6 4 2
+>>>    
+```
+
 [^^^](#32_LOOPS)
 
 ---
