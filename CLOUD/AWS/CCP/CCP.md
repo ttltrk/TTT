@@ -198,7 +198,14 @@ requirements, it would be referred to as a Cloud Platform e.g. Twilio, HashiCorp
 
 #### LANDSCAPE_OF_CSPS
 
+- Tier-1 (Top Tier) - Early to market, wide offering, strong synergies between services, well recognized in the industry
+(AWS, Microsoft Azure, Google Cloud Platform, Alibaba Cloud)
 
+- Tier-2 (Mid Tier) - Backed by well-known tech companies, slow to innovate and turned to specialization
+(IBM Cloud, Oracle Cloud, Rackspace - OpenStack)
+
+- Tier-3 (Light Tier) - Virtual Private Servers (VPS) turned to offer core IaaS offering. Simple, cost-effective
+(Vultr, Digital Ocean, Linode)
 
 [^^^](#AWS_CCP)
 
