@@ -20,8 +20,8 @@
 * [3219_LAB_1](#3219_LAB_1)
 * [32110_LAB_2](#32110_LAB_2)
 * [32111_LAB_3](#32111_LAB_3)
-* [32112_WHILE_ELSE_1](#32112_WHILE_ELSE_1)
-* [32113_WHILE_ELSE_2](#32113_WHILE_ELSE_2)
+* [32112_WHILE_ELSE](#32112_WHILE_ELSE)
+* [32113_FOR_ELSE](#32113_FOR_ELSE)
 * [32114](#)
 * [32115](#)
 * [32116](#)
@@ -575,7 +575,7 @@ Again - run the program, test it, and experiment with it.
 
 ---
 
-#### 32112_WHILE_ELSE_1
+#### 32112_WHILE_ELSE
 
 ##### The while loop and the else branch
 
@@ -625,7 +625,37 @@ else: 5
 
 ---
 
-#### 32113_WHILE_ELSE_2
+#### 32113_FOR_ELSE
+
+##### The for loop and the else branch
+
+for loops behave a bit differently - take a look at the snippet in the editor and run it.
+The output may be a bit surprising.
+The i variable retains its last value.
+Modify the code a bit to carry out one more experiment.
+
+```py
+i = 111
+for i in range(2, 1):
+    print(i)
+else:
+    print("else:", i)
+
+>>>
+else: 111
+>>>
+```
+
+Can you guess the output?
+The loop's body won't be executed here at all. Note: we've assigned the i variable before the loop.
+Run the program and check its output.
+When the loop's body isn't executed, the control variable retains the value it had before the loop.
+
+Note: if the control variable doesn't exist before the loop starts, it won't exist when the execution reaches the else branch.
+
+How do you feel about this variant of else?
+
+Now we're going to tell you about some other kinds of variables. Our current variables can only store one value at a time, but there are variables that can do much more - they can store as many values as you want.
 
 [^^^](#32_LOOPS)
 
