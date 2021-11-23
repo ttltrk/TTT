@@ -22,10 +22,7 @@
 * [32111_LAB_3](#32111_LAB_3)
 * [32112_WHILE_ELSE](#32112_WHILE_ELSE)
 * [32113_FOR_ELSE](#32113_FOR_ELSE)
-* [32114](#)
-* [32115](#)
-* [32116](#)
-* [32117](#)
+* [32114_SUMMARY](#32114_SUMMARY)
 
 ---
 
@@ -656,6 +653,78 @@ Note: if the control variable doesn't exist before the loop starts, it won't exi
 How do you feel about this variant of else?
 
 Now we're going to tell you about some other kinds of variables. Our current variables can only store one value at a time, but there are variables that can do much more - they can store as many values as you want.
+
+[^^^](#32_LOOPS)
+
+---
+
+#### 32114_SUMMARY
+
+##### Key takeaways
+
+1. There are two types of loops in Python: while and for:
+
+the while loop executes a statement or a set of statements as long as a specified boolean condition is true, e.g.:
+
+```py
+# Example 1
+while True:
+    print("Stuck in an infinite loop.")
+
+# Example 2
+counter = 5
+while counter > 2:
+    print(counter)
+    counter -= 1
+```
+
+the for loop executes a set of statements many times; it's used to iterate over a sequence (e.g., a list, a dictionary, a tuple, or a set - you will learn about them soon) or other objects that are iterable (e.g., strings). You can use the for loop to iterate over a sequence of numbers using the built-in range function. Look at the examples below:
+
+```py
+# Example 1
+word = "Python"
+for letter in word:
+    print(letter, end="*")
+
+# Example 2
+for i in range(1, 10):
+    if i % 2 == 0:
+        print(i)
+>>>
+P*y*t*h*o*n*2
+4
+6
+8
+>>>      
+```
+
+2. You can use the break and continue statements to change the flow of a loop:
+
+You use break to exit a loop, e.g.:
+
+```py
+text = "OpenEDG Python Institute"
+for letter in text:
+    if letter == "P":
+        break
+    print(letter, end="")
+>>>
+OpenEDG
+>>>    
+```
+
+You use continue to skip the current iteration, and continue with the next iteration, e.g.:
+
+```py
+text = "pyxpyxpyx"
+for letter in text:
+    if letter == "x":
+        continue
+    print(letter, end="")
+>>>
+pypypy
+>>>    
+```
 
 [^^^](#32_LOOPS)
 
