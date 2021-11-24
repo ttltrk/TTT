@@ -228,10 +228,11 @@ A cloud service provider can have hundreds of cloud services that are grouped in
 of services. The four most common types of cloud services (the 4 core) for Infrastructure as a Service (IaaS)
 would be:
 
-- Compute
-- Networking
-- Storage
-- Databases 
+- Compute - Imagine having a virtual computer that can run application, programs and code.
+- Networking - Imagine having virtual network defining internet connections or network isolations
+               between services or outbound to the internet.
+- Storage - Imagine having a virtual hard-drive that can store files.
+- Databases - Imagine a virtual database for storing reporting data or a database for general purpose web-application.  
 
 [^^^](#AWS_CCP)
 
