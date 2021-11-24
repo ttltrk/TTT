@@ -224,6 +224,15 @@ qualitative data analysis methods to demonstrate market trends, such as directio
 
 #### COMMON_CLOUD_SERVICES
 
+A cloud service provider can have hundreds of cloud services that are grouped into various types
+of services. The four most common types of cloud services (the 4 core) for Infrastructure as a Service (IaaS)
+would be:
+
+- Compute
+- Networking
+- Storage
+- Databases 
+
 [^^^](#AWS_CCP)
 
 ---
