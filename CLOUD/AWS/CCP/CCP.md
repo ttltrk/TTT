@@ -28,6 +28,8 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
 * [COMMON_CLOUD_SERVICES](#COMMON_CLOUD_SERVICES)
 * [AWS_TECH_OVERVIEW](#AWS_TECH_OVERVIEW)
+* [AWS_SERVICE_PREVIEW](#AWS_SERVICE_PREVIEW)
+* [EVOLUTION_OF_COMPUTING](#EVOLUTION_OF_COMPUTING)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -253,6 +255,39 @@ Cloud Service Provider (CSPs) that are Infrastructure as a Service (IaaS) will a
 Analytics, Application Integration, AR & VR, AWS Cost Management, Blockchain, Business Applications, Containers, Customer Engagement,
 Developer Tools, End User Computing, Game Tech, IoT, ML, Management & Governance, Media Services, Migration & Transfer, Mobile,
 Quantum Tech, Robotics, Security Identity & Compliance  
+
+[^^^](#AWS_CCP)
+
+---
+
+#### AWS_SERVICE_PREVIEW
+
+```
+https://www.aws.amazon.com/
+```
+
+[^^^](#AWS_CCP)
+
+---
+
+#### EVOLUTION_OF_COMPUTING
+
+##### Dedicated
+
+- A physical server wholly utilized by a single customer.
+- You have to guess your capacity
+- You'll overpay for an underutilized server
+- You can't vertical scale, you need a manual migration
+- Replacing a server is very difficult
+- You are limited by your Host Operating System
+- Multiple apps can result in conflicts in resource sharing
+- You have a guarantee of security, privacy, and full utility of underlying resources
+
+##### VMs
+
+##### Containers
+
+##### Functions 
 
 [^^^](#AWS_CCP)
 
