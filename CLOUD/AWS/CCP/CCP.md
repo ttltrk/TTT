@@ -27,6 +27,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [LANDSCAPE_OF_CSPS](#LANDSCAPE_OF_CSPS)
 * [GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
 * [COMMON_CLOUD_SERVICES](#COMMON_CLOUD_SERVICES)
+* [AWS_TECH_OVERVIEW](#AWS_TECH_OVERVIEW)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
@@ -233,6 +234,25 @@ would be:
                between services or outbound to the internet.
 - Storage - Imagine having a virtual hard-drive that can store files.
 - Databases - Imagine a virtual database for storing reporting data or a database for general purpose web-application.  
+
+AWS has over 200+ cloud services
+
+[^^^](#AWS_CCP)
+
+---
+
+#### AWS_TECH_OVERVIEW
+
+Cloud Service Provider (CSPs) that are Infrastructure as a Service (IaaS) will always have 4 core cloud service offerings:
+
+- Compute >> EC2 Virtual Machines
+- Storage >> EBS Virtual Hard drives
+- Database >> RDS SQL Databases
+- Networking >> VPC Private Cloud Network
+
+Analytics, Application Integration, AR & VR, AWS Cost Management, Blockchain, Business Applications, Containers, Customer Engagement,
+Developer Tools, End User Computing, Game Tech, IoT, ML, Management & Governance, Media Services, Migration & Transfer, Mobile,
+Quantum Tech, Robotics, Security Identity & Compliance  
 
 [^^^](#AWS_CCP)
 
