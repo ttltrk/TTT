@@ -292,8 +292,16 @@ https://www.aws.amazon.com/
 - You'll overpay for an underutilized VM
 - You are limited by your Guest OS
 - Multiple apps on a single VM can result in conflicts in resource sharing     
+- Easy to export or import images for migration
+- Easy to Vertical or Hortizonaalty scale
 
 ##### Containers
+
+- VM running multiple containers
+- Docker Daemon is the name of the software layer that lets you run multiple containers
+- You can maximize the utilize of the available capacity which is more cost effective
+- Your containers share the same underlying OS so containers are more efficient than multiple VMs
+- Multiple apps can run side by side without being limited by to the same OS requirements  
 
 ##### Functions
 
