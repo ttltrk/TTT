@@ -285,9 +285,17 @@ https://www.aws.amazon.com/
 
 ##### VMs
 
+- You can run multiple VMs on one machine
+- Hypervisor is the software layer that lets you run the VM
+- A physical server shared by multiple customers
+- You are to pay for a fraction of the server
+- You'll overpay for an underutilized VM
+- You are limited by your Guest OS
+- Multiple apps on a single VM can result in conflicts in resource sharing     
+
 ##### Containers
 
-##### Functions 
+##### Functions
 
 [^^^](#AWS_CCP)
 
