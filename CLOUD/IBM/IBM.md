@@ -1015,7 +1015,7 @@ cannot access the apps.
 But the benefits far outweigh the concerns, with SaaS making up the largest segment of
 the cloud market today.
 
-#### Public Cloud
+##### Public Cloud
 
 In our introductory cloud video, we briefly mentioned the three deployment models for
 cloud.
@@ -1094,11 +1094,7 @@ accessibility, easy distribution, and backing up their data.
 IT departments are outsourcing the management of less critical and standardized business
 platforms and applications to pubic cloud providers.
 
-[^^^](#IBM_CLOUD)
-
----
-
-#### Private Cloud
+##### Private Cloud
 
 The National Institute of Standards and Technology defines Private Cloud as cloud infrastructure
 provisioned for exclusive use by a single organization comprising multiple consumers,
@@ -1175,11 +1171,7 @@ A private cloud offers these organizations the benefits of on-demand enterprise 
 while exercising full control over critical security and compliance issues from within
 the environment of their dedicated cloud.
 
-[^^^](#IBM_CLOUD)
-
----
-
-#### Hybrid Cloud
+##### Hybrid Cloud
 
 Hybrid cloud is a computing environment that connects an organization’s on-premise private
 cloud and third-party public cloud into a single, flexible infrastructure for running
