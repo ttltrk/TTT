@@ -1060,13 +1060,15 @@ Resources are distributed on an as-needed basis offered through a variety of sub
 and pay-as-you-go models.
 
 Public clouds have significant benefits; we’ll go over some of these benefits here:
-Vast on-demand resources are available, allowing applications to respond seamlessly to fluctuations
+
+- Vast on-demand resources are available, allowing applications to respond seamlessly to fluctuations
 in demand.
-Considering the large number of users that share the centralized cloud resources on-demand,
+- Considering the large number of users that share the centralized cloud resources on-demand,
 the public cloud offers the most significant economies of scale.
-The sheer number of server and network resources available on the public cloud means that a
+- The sheer number of server and network resources available on the public cloud means that a
 public cloud is highly reliable—if one physical component fails, the service still runs unaffected
 on the remaining available components.
+
 It’s also important to note some concerns users have regarding public clouds—key among
 them being security and data sovereignty compliance.
 Security issues such as data breaches, data loss, account hijacking, insufficient due
@@ -1077,19 +1079,36 @@ also become increasingly critical for companies to be compliant with data sovere
 governing the storage, transfer, and security of data.
 A service provider’s ability to not just keep up with the regulations, but also the
 interpretation of these regulations, is a concern shared by many businesses.
+
 Let’s look at some common use cases for public cloud:
-Organizations are increasingly opting to access cloud-based applications and platforms so
+
+- Organizations are increasingly opting to access cloud-based applications and platforms so
 their teams can focus on building and testing applications, and reducing time-to-market
 for their products and services.
-Businesses with fluctuating capacity and resourcing needs are opting for the public cloud.
-Organizations are using public cloud computing resources to build secondary infrastructures
+- Businesses with fluctuating capacity and resourcing needs are opting for the public cloud.
+- Organizations are using public cloud computing resources to build secondary infrastructures
 for disaster recovery, data protection, and business continuity.
+
 More and more organizations are using cloud storage and data management services for greater
 accessibility, easy distribution, and backing up their data.
 IT departments are outsourcing the management of less critical and standardized business
 platforms and applications to pubic cloud providers.
-In the next video, we will look at the private cloud model, its features, benefits, and some
-use cases.
+
+[^^^](#IBM_CLOUD)
+
+---
+
+[^^^](#IBM_CLOUD)
+
+---
+
+[^^^](#IBM_CLOUD)
+
+---
+
+[^^^](#IBM_CLOUD)
+
+---
 
 [^^^](#IBM_CLOUD)
 
