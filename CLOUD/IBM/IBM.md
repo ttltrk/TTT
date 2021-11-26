@@ -1255,6 +1255,28 @@ More and more organizations are “lifting and shifting” their on-premises vir
 workloads to a public cloud without conversion or modification to reduce their on-premises
 data center footprint and position themselves to scale without added capital expense.
 
+##### Summary
+
+- Cloud computing allows us to utilize technology as a service, leveraging remote resources on-demand, on a pay-as-you-model. There are three main service models available on the cloud—Infrastructure-as-a-Service, Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS).
+
+```
+o   IaaS provides the fundamental compute, network, and storage resources for customers on-demand.
+
+o   PaaS provides customers the hardware, software, and infrastructure to develop, deploy, manage, and run applications created by them or acquired from a third-party.
+
+o   SaaS provides access to users to a service provider’s cloud-based software. Users simply access the applications on Cloud while the Cloud provider maintains the infrastructure, platform, data, application code, security, availability, and performance of the application.
+```
+
+- Deployment models indicate where the infrastructure resides, who owns and manages it, and how cloud resources and services are made available to users. There are three main deployment models available on the cloud—Public, Private, and Hybrid.
+
+```
+o   In the Public cloud model, the service provider owns, manages, provisions, and maintains the physical infrastructure such as data centers, servers, networking equipment, and storage, with users accessing virtualized compute, networking, and storage resources as services.
+
+o   In the Private cloud model, the provider provisions the cloud infrastructure for exclusive use by a single organization. The private cloud infrastructure can be internal to the organization and run or on-premises. Or, it can be on a public cloud, as in the case of Virtual Private Clouds (VPC) and be owned, managed, and operated by the cloud provider.
+
+o   In the Hybrid cloud model, an organization’s on-premise private cloud and third-party, public cloud is connected as a single, flexible infrastructure leveraging the features and benefits of both Public and Private clouds.
+```
+
 [^^^](#IBM_CLOUD)
 
 ---
