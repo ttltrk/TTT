@@ -1184,9 +1184,12 @@ or workloads with reasonably constant performance and capacity requirements on p
 infrastructure while deploying the less-sensitive and more-dynamic workloads on the public cloud.
 With proper integration and orchestration between the public and private clouds, you
 can leverage both clouds for the same workload.
+
 For example, you can leverage additional public cloud capacity to accommodate a spike in demand
 for a private cloud application (also known as “cloud bursting”).
+
 The key tenets of a hybrid cloud are interoperability, scalability, and portability.
+
 Hybrid cloud is interoperable—which means that the public and private cloud services
 can understand each other’s APIs, configuration, data formats, and forms of authentication
 and authorization.
