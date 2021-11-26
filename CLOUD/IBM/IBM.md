@@ -1232,20 +1232,25 @@ pay-as-you-go in the public cloud, and rapidly adopt new tools as you need them.
 A typical organization will have a range of applications and workloads spread across private,
 public, and traditional IT environments.
 This represents a range of opportunities for optimization via a hybrid cloud approach.
+
 Let’s look at some increasingly common hybrid cloud use cases:
-Software-as-a-Service integration.
+
+- Software-as-a-Service integration.
 Through hybrid integration, organizations are connecting Software-as-a-Service applications
 available in the public cloud to their existing public cloud, private cloud, and traditional
 IT applications to deliver new solutions.
-Data and AI integration.
+
+- Data and AI integration.
 Organizations today are creating richer and more personal experiences by combining new
 data sources on the public cloud—such as weather, social, the Internet of Things, CRM,
 and ERP—with existing data and analytics, machine learning, and AI capabilities.
-Enhancing legacy apps.
+
+- Enhancing legacy apps.
 An increasing number of organizations are using public cloud services to upgrade the
 user experience of their on-premises applications and deploy them globally to new devices, while
 incrementally modernizing their core business systems.
-VMware migration.
+
+- VMware migration.
 More and more organizations are “lifting and shifting” their on-premises virtualized
 workloads to a public cloud without conversion or modification to reduce their on-premises
 data center footprint and position themselves to scale without added capital expense.
