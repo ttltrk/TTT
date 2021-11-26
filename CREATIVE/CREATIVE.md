@@ -34,6 +34,10 @@ size (800,200)
 
 you can find the reference here >> [py.processing.org/reference/](https://py.processing.org/reference/)
 
+```py
+size(600,400)
+```
+
 [^^^](#CREATIVE_CODING)
 
 ---
