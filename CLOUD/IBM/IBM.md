@@ -1132,14 +1132,17 @@ Users of a private cloud, such as Developers and Business Units in an organizati
 get to leverage benefits such as economies of scale, granular scale, operational efficiencies,
 and user self-service, while exercising full control over access, security, and compliances
 specific to their organization and business.
+
 Private clouds provide you with The ability to leverage the value of cloud
 computing using systems that are directly managed or under perceived control of the
 organization’s internal IT.
+
 The ability to better utilize internal computing resources, such as the organization’s existing
 investments in hardware and software, thereby reducing costs.
 Better scalability through virtualization and “cloud bursting,” i.e., leveraging
 public cloud instances for a period of time but returning to the private cloud when the
 surge is met.
+
 Controlled access and greater security measures customized to specific organizational needs.
 The ability to expand and provision things in a relatively short amount of time, providing
 greater agility.
@@ -1147,20 +1150,25 @@ Organizations may choose to opt for private cloud because of various reasons—b
 their applications provide a unique competitive advantage, there are security and regulatory
 concerns, or because the data is highly sensitive and subject to strict industry or governmental
 regulations.
+
 Let’s look at some common use cases for a private cloud:
-A private cloud is an opportunity for organizations to modernize and unify their in-house and
+
+- A private cloud is an opportunity for organizations to modernize and unify their in-house and
 legacy applications.
-Moving these applications from their dedicated hardware to the cloud also allows them to
+- Moving these applications from their dedicated hardware to the cloud also allows them to
 leverage the power of the compute resources and multiple services available on the cloud.
+
 Using the private cloud, organizations are integrating data and application services
 from their existing applications with public cloud services.
 This allows them to leverage their private cloud’s compute capability for the larger
 jobs while pulling data into an application on a private cloud to leverage public cloud
 services—essentially opening their data centers to work with cloud services.
 Application portability is a key feature of cloud platforms.
+
 Using the private cloud gives organizations the flexibility to build applications anywhere,
 and move them anywhere, without having to compromise security and compliance in the
 process.
+
 Some of the key reasons that may prevent an organization from moving to a public cloud
 include security and regulatory concerns, and data sensitivity.
 A private cloud offers these organizations the benefits of on-demand enterprise resources
