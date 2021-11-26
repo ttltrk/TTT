@@ -1114,6 +1114,8 @@ and is owned, managed, and operated by the organization.
 2. When it is provisioned over a cloud provider’s infrastructure, it is owned, managed, and
 operated by the service provider.
 
+- Virtual Private Cloud, or VPC.
+
 This external private cloud offering that resides on a cloud service provider’s infrastructure
 is called a Virtual Private Cloud, or VPC.
 A VPC is a public cloud offering that lets an organization establish its own private
@@ -1125,6 +1127,7 @@ tailored to the organization’s unique needs.
 Virtual Private Clouds are offered by most Public Cloud providers such as IBM and Amazon.
 A private cloud is a virtualized environment modeled to bring in the benefits of a public
 cloud platform without the perceived disadvantages of an open and shared public platform.
+
 Users of a private cloud, such as Developers and Business Units in an organization, still
 get to leverage benefits such as economies of scale, granular scale, operational efficiencies,
 and user self-service, while exercising full control over access, security, and compliances
