@@ -742,6 +742,15 @@ The adoption of cloud technologies is enabling enterprises, big and small, to be
 
 #### MODULE_3_CLOUD_COMPUTING_SERVICE_DEPLOYMENT
 
+```
+IaaS
+PaaS
+SaaS
+Public Cloud
+Private Cloud
+Hybrid Cloud 
+```
+
 ##### Overview of Service Models
 
 In our introductory cloud video we briefly talked about the three service
