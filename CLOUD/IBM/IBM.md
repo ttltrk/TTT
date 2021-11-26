@@ -1105,11 +1105,15 @@ provisioned for exclusive use by a single organization comprising multiple consu
 such as the business units within the organization.
 It may be owned, managed, and operated by the organization, a third party, or some combination
 of them, and it may exist on or off premises.”
+
 Private cloud platforms can be implemented internally or externally.
-When the platform is provisioned over an organization’s internal infrastructure, it runs on-premises
+
+1. When the platform is provisioned over an organization’s internal infrastructure, it runs on-premises
 and is owned, managed, and operated by the organization.
-When it is provisioned over a cloud provider’s infrastructure, it is owned, managed, and
+
+2. When it is provisioned over a cloud provider’s infrastructure, it is owned, managed, and
 operated by the service provider.
+
 This external private cloud offering that resides on a cloud service provider’s infrastructure
 is called a Virtual Private Cloud, or VPC.
 A VPC is a public cloud offering that lets an organization establish its own private
