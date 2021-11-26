@@ -62,5 +62,6 @@ N: ENV - WEB - LL
 
 - [FX](https://github.com/ttltrk/TTT/tree/master/FX/FX.md)
 - [CHESS](https://github.com/ttltrk/TTT/tree/master/CHESS/CHESS.md)
+- [CREATIVE](https://github.com/ttltrk/TTT/tree/master/CREATIVE/CREATIVE.md)
 
 ---
