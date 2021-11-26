@@ -1190,24 +1190,31 @@ for a private cloud application (also known as “cloud bursting”).
 
 The key tenets of a hybrid cloud are interoperability, scalability, and portability.
 
-Hybrid cloud is interoperable—which means that the public and private cloud services
+1. Hybrid cloud is interoperable—which means that the public and private cloud services
 can understand each other’s APIs, configuration, data formats, and forms of authentication
 and authorization.
-When there is a spike in demand, a workload running on the private cloud can leverage
+
+2. When there is a spike in demand, a workload running on the private cloud can leverage
 the additional public cloud capacity, making it scalable.
-A hybrid cloud is also portable—since you’re no longer locked-in with a specific vendor,
+
+3. A hybrid cloud is also portable—since you’re no longer locked-in with a specific vendor,
 you can move applications and data not just between on-premise and cloud systems, but
 also between cloud service providers.
+
 Hybrid is about taking the best of both worlds.
+
 There are 2 common types of hybrid clouds: Hybrid monocloud and Hybrid multicloud.
-A hybrid monocloud is a hybrid cloud with one cloud provider, while a hybrid multicloud
+
+- A hybrid monocloud is a hybrid cloud with one cloud provider, while a hybrid multicloud
 is an open standards-based stack that can be deployed on any public cloud infrastructure.
 The difference lies in the flexibility that the hybrid multicloud offers organizations
 to move workloads and environments from one vendor to another.
-There is also a variant of hybrid multicloud, called the composite multicloud, which makes
+
+- There is also a variant of hybrid multicloud, called the composite multicloud, which makes
 this flexibility even more granular as it distributes single applications across multiple
 providers, allowing you to move application components across cloud services and vendors
 as needed.
+
 Hybrid cloud offers significant benefits in areas of security and compliance, scalability
 and resilience, resource optimization and cost-saving.
 A hybrid cloud lets organizations deploy highly regulated or sensitive workloads in a private
