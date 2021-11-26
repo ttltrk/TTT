@@ -1217,6 +1217,7 @@ as needed.
 
 Hybrid cloud offers significant benefits in areas of security and compliance, scalability
 and resilience, resource optimization and cost-saving.
+
 A hybrid cloud lets organizations deploy highly regulated or sensitive workloads in a private
 cloud while running the less-sensitive workloads on a public cloud.
 Using a hybrid cloud, you can scale up quickly, inexpensively, and even automatically using
@@ -1227,6 +1228,7 @@ decisions between the different cloud models, you can make the most cost-efficie
 your infrastructure budget.
 You can maintain workloads where they are most efficient, spin-up environments using
 pay-as-you-go in the public cloud, and rapidly adopt new tools as you need them.
+
 A typical organization will have a range of applications and workloads spread across private,
 public, and traditional IT environments.
 This represents a range of opportunities for optimization via a hybrid cloud approach.
