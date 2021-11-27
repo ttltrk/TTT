@@ -1314,7 +1314,9 @@ The cloud Regions are isolated from each other so that if one Region was impacte
 disaster like an Earthquake, the Cloud operations in other Regions would keep running.
 Each Cloud Region can have multiple Zones (or Availability Zones or AZ for short), which
 are typically distinct Data Centers with their own power, cooling and networking resources.
+
 These Zones can have names like DAL-09 or us-east-1.
+
 The isolation of zones improves the cloud’s overall fault tolerance, decreases latency,
 and avoids creating a single shared point of failure.
 The Availability Zones (and DataCenters within them) are connected to other AZs and regions,
@@ -1335,6 +1337,7 @@ Customers can provision VMs and Bare Metals servers as and when they need them a
 their workloads on them.
 Cloud users can also run their workloads on serverless computing resources, which are
 an abstraction layer on top of virtual machines.
+
 We will talk about all three compute options in greater detail in subsequent videos.
 Storage: Information and data can consist of files,
 code, documents, images, videos, backups, snapshots, and databases and can be stored
