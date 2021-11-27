@@ -1323,6 +1323,7 @@ A cloud Data center is a huge room or a warehouse containing cloud infrastructur
 These data centers contain pods and racks or standardized containers of computing resources
 such as servers, as well as storage, and networking equipment - virtually everything that a physical
 IT environment has.
+
 Computing Resources: Cloud providers offer several compute options
 – Virtual Servers, Bare Metal Servers, and “Serverless” computing resources.
 Most of the servers in a cloud datacenter run hypervisors to create virtual servers
