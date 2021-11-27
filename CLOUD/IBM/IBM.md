@@ -1339,6 +1339,7 @@ Cloud users can also run their workloads on serverless computing resources, whic
 an abstraction layer on top of virtual machines.
 
 We will talk about all three compute options in greater detail in subsequent videos.
+
 Storage: Information and data can consist of files,
 code, documents, images, videos, backups, snapshots, and databases and can be stored
 in many different types of storage options on the Cloud.
@@ -1350,11 +1351,15 @@ delete or decommission a cloud server.
 However there are other storage options available on the cloud to persist data that you can
 choose depending on factors like how important your data is, how quickly you want to be able
 to access it, how often you access it, and how secure you need it to be.
+
 These additional storage options include Block storage, File storage, and Object storage.
-Block and file storage modes are commonly used in traditional data centers, but “often
+
+- Block and file storage modes are commonly used in traditional data centers, but “often
 struggle with scale, performance and distributed characteristics of cloud.”
-Object storage is the most common mode of storage in the cloud as it’s both highly
+
+- Object storage is the most common mode of storage in the cloud as it’s both highly
 distributed and resilient.
+
 We will examine Object Storage and the other storage options in more detail in later videos.
 Networking: Networking infrastructure in a cloud datacenter
 includes traditional networking hardware like routers and switches, but more importantly
