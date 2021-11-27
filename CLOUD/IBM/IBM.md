@@ -1300,11 +1300,14 @@ o   In the Hybrid cloud model, an organization’s on-premise private cloud and 
 
 After choosing the cloud service model and the cloud type offered by vendors, customers
 need to plan the infrastructure architecture.
+
 The infrastructure layer is the foundation of the cloud.
+
 This layer consists of physical resources that are housed in Regions, Zones and Data
 Centers.
 A Cloud provider’s IT environment is typically distributed across many Regions around the
 world.
+
 A cloud Region, is a geographic area or location where a Cloud provider’s infrastructure
 is clustered, and may have names like NA South or US East.
 The cloud Regions are isolated from each other so that if one Region was impacted by a natural
