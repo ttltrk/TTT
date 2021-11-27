@@ -1340,7 +1340,7 @@ an abstraction layer on top of virtual machines.
 
 We will talk about all three compute options in greater detail in subsequent videos.
 
-Storage: Information and data can consist of files,
+1. Storage: Information and data can consist of files,
 code, documents, images, videos, backups, snapshots, and databases and can be stored
 in many different types of storage options on the Cloud.
 Bare Metal Servers and Virtual Servers are provisioned with default storage in local
@@ -1361,7 +1361,8 @@ struggle with scale, performance and distributed characteristics of cloud.”
 distributed and resilient.
 
 We will examine Object Storage and the other storage options in more detail in later videos.
-Networking: Networking infrastructure in a cloud datacenter
+
+2. Networking: Networking infrastructure in a cloud datacenter
 includes traditional networking hardware like routers and switches, but more importantly
 for users of the Cloud, the Cloud providers have Software Defined Networking (or SDN)
 options where certain networking resources are virtualized or made available programmatically,
