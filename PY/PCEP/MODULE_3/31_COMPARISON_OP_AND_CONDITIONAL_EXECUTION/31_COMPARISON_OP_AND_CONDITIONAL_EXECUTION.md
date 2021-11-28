@@ -212,7 +212,7 @@ Priority	Operator
 3	*, /, //, %
 4	+, -	binary
 5	<, <=, >, >=
-6	==, !=	
+6	==, !=
 ```
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
@@ -233,6 +233,40 @@ Priority	Operator
 ---
 
 #### 3115_MAKING_DECISIONS_IN_PY_4
+
+##### Conditions and conditional execution
+
+You already know how to ask Python questions, but you still don't know how to make reasonable use of the answers. You have to have a mechanism which will allow you to do something if a condition is met, and not do it if it isn't.
+
+It's just like in real life: you do certain things or you don't when a specific condition is met or not, e.g., you go for a walk if the weather is good, or stay home if it's wet and cold.
+
+To make such decisions, Python offers a special instruction. Due to its nature and its application, it's called a conditional instruction (or conditional statement).
+
+There are several variants of it. We'll start with the simplest, increasing the difficulty slowly.
+
+The first form of a conditional statement, which you can see below is written very informally but figuratively:
+
+```py
+if true_or_not:
+    do_this_if_true
+```
+
+This conditional statement consists of the following, strictly necessary, elements in this and this order only:
+
+- the if keyword;
+- one or more white spaces;
+- an expression (a question or an answer) whose value will be interpreted solely in terms of True (when its value is non-zero) and False (when it is equal to zero);
+- a colon followed by a newline;
+- an indented instruction or set of instructions (at least one instruction is absolutely required); the indentation may be achieved in two ways - by inserting a particular number of spaces (the recommendation is to use four spaces of indentation), or by using the tab character; note: if there is more than one instruction in the indented part, the indentation should be the same in all lines; even though it may look the same if you use tabs mixed with spaces, it's important to make all indentations exactly the same - Python 3 does not allow mixing spaces and tabs for indentation.
+
+How does that statement work?
+
+- If the true_or_not expression represents the truth (i.e., its value is not equal to zero), the indented statement(s) will be executed;
+- if the true_or_not expression does not represent the truth (i.e., its value is equal to zero), the indented statement(s) will be omitted (ignored), and the next executed instruction will be the one after the original indentation level.
+
+In real life, we often express a desire:
+if the weather is good, we'll go for a walk
+then, we'll have lunch
 
 ```py
 
