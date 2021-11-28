@@ -173,12 +173,20 @@ If we want to find out whether or not we have to wear a warm hat, we ask the fol
 centigrade_outside ≥ 0.0  # Greater than or equal to
 ```
 
+##### Comparison operators: less than or equal to
+
+As you've probably already guessed, the operators used in this case are: the < (less than) operator and its non-strict sibling: <= (less than or equal to).
+
+Look at this simple example:
+
 ```py
-
->>>
-
->>>
+current_velocity_mph < 85  # Less than
+current_velocity_mph ≤ 85  # Less than or equal to
 ```
+
+We're going to check if there's a risk of being fined by the highway police (the first question is strict, the second isn't).
+
+
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
