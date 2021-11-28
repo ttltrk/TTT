@@ -313,6 +313,34 @@ Feeding the sheepdogs, however, is always done (i.e., the feed_the_sheepdogs() f
 
 Now we're going to discuss another variant of the conditional statement, which also allows you to perform an additional action when the condition is not met.
 
+##### Conditional execution: the if-else statement
+
+We started out with a simple phrase which read: If the weather is good, we will go for a walk.
+
+Note - there is not a word about what will happen if the weather is bad. We only know that we won't go outdoors, but what we could do instead is not known. We may want to plan something in case of bad weather, too.
+
+We can say, for example: If the weather is good, we will go for a walk, otherwise we will go to a theater.
+
+Now we know what we'll do if the conditions are met, and we know what we'll do if not everything goes our way. In other words, we have a "Plan B".
+
+Python allows us to express such alternative plans. This is done with a second, slightly more complex form of the conditional statement, the if-else statement:
+
+```py
+if true_or_false_condition:
+    perform_if_condition_true
+else:
+    perform_if_condition_false
+```
+
+Thus, there is a new word: else - this is a keyword.
+
+The part of the code which begins with else says what to do if the condition specified for the if is not met (note the colon after the word).
+
+The if-else execution goes as follows:
+
+- if the condition evaluates to True (its value is not equal to zero), the perform_if_condition_true statement is executed, and the conditional statement comes to an end;
+- if the condition evaluates to False (it is equal to zero), the perform_if_condition_false statement is executed, and the conditional statement comes to an end.
+
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
 ---
