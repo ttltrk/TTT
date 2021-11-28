@@ -347,11 +347,53 @@ The if-else execution goes as follows:
 
 #### 3117_MAKING_DECISIONS_IN_PY_6
 
+##### The if-else statement: more conditional execution
+
+By using this form of conditional statement, we can describe our plans as follows:
+
 ```py
+if the_weather_is_good:
+    go_for_a_walk()
+else:
+    go_to_a_theater()
+have_lunch()
+```
 
->>>
+If the weather is good, we'll go for a walk. Otherwise, we'll go to a theatre. No matter if the weather is good or bad, we'll have lunch afterwards (after the walk or after going to the theatre).
 
->>>
+Everything we've said about indentation works in the same manner inside the else branch:
+
+```py
+if the_weather_is_good:
+    go_for_a_walk()
+    have_fun()
+else:
+    go_to_a_theater()
+    enjoy_the_movie()
+have_lunch()
+```
+
+##### Nested if-else statements
+
+Now let's discuss two special cases of the conditional statement.
+
+First, consider the case where the instruction placed after the if is another if.
+
+Read what we have planned for this Sunday. If the weather is fine, we'll go for a walk. If we find a nice restaurant, we'll have lunch there. Otherwise, we'll eat a sandwich. If the weather is poor, we'll go to the theater. If there are no tickets, we'll go shopping in the nearest mall.
+
+Let's write the same in Python. Consider carefully the code here:
+
+```py
+if the_weather_is_good:
+    if nice_restaurant_is_found:
+        have_lunch()
+    else:
+        eat_a_sandwich()
+else:
+    if tickets_are_available:
+        go_to_the_theater()
+    else:
+        go_shopping()
 ```
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
