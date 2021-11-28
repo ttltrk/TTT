@@ -396,6 +396,34 @@ else:
         go_shopping()
 ```
 
+Here are two important points:
+
+- this use of the if statement is known as nesting; remember that every else refers to the if which lies at the same indentation level; you need to know this to determine how the ifs and elses pair up;
+- consider how the indentation improves readability, and makes the code easier to understand and trace.
+
+##### The elif statement
+
+The second special case introduces another new Python keyword: elif. As you probably suspect, it's a shorter form of else if.
+
+elif is used to check more than just one condition, and to stop when the first statement which is true is found.
+
+Our next example resembles nesting, but the similarities are very slight. Again, we'll change our plans and express them as follows: If the weather is fine, we'll go for a walk, otherwise if we get tickets, we'll go to the theater, otherwise if there are free tables at the restaurant, we'll go for lunch; if all else fails, we'll return home and play chess.
+
+Have you noticed how many times we've used the word otherwise? This is the stage where the elif keyword plays its role.
+
+Let's write the same scenario using Python:
+
+```py
+if the_weather_is_good:
+    go_for_a_walk()
+elif tickets_are_available:
+    go_to_the_theater()
+elif table_is_available:
+    go_for_lunch()
+else:
+    play_chess_at_home()
+```
+
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
 ---
