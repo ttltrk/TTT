@@ -424,6 +424,20 @@ else:
     play_chess_at_home()
 ```
 
+The way to assemble subsequent if-elif-else statements is sometimes called a cascade.
+
+Notice again how the indentation improves the readability of the code.
+
+Some additional attention has to be paid in this case:
+
+- you mustn't use else without a preceding if;
+- else is always the last branch of the cascade, regardless of whether you've used elif or not;
+- else is an optional part of the cascade, and may be omitted;
+- if there is an else branch in the cascade, only one of all the branches is executed;
+- if there is no else branch, it's possible that none of the available branches is executed.
+
+This may sound a little puzzling, but hopefully some simple examples will help shed more light.
+
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
 ---
