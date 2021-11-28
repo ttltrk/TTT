@@ -186,7 +186,34 @@ current_velocity_mph ≤ 85  # Less than or equal to
 
 We're going to check if there's a risk of being fined by the highway police (the first question is strict, the second isn't).
 
+##### Making use of the answers
 
+What can you do with the answer (i.e., the result of a comparison operation) you get from the computer?
+
+There are at least two possibilities: first, you can memorize it (store it in a variable) and make use of it later. How do you do that? Well, you would use an arbitrary variable like this:
+
+```py
+answer = number_of_lions >= number_of_lionesses
+```
+
+The content of the variable will tell you the answer to the question asked.
+
+
+The second possibility is more convenient and far more common: you can use the answer you get to make a decision about the future of the program.
+
+You need a special instruction for this purpose, and we'll discuss it very soon.
+
+Now we need to update our priority table, and put all the new operators into it. It now looks as follows:
+
+```py
+Priority	Operator
+1	+, -	unary
+2	**
+3	*, /, //, %
+4	+, -	binary
+5	<, <=, >, >=
+6	==, !=	
+```
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
