@@ -147,6 +147,32 @@ Run the code and check if you were right.
 
 #### 3113_MAKING_DECISIONS_IN_PY_3
 
+##### Comparison operators: greater than
+
+You can also ask a comparison question using the > (greater than) operator.
+
+If you want to know if there are more black sheep than white ones, you can write it as follows:
+
+```py
+black_sheep > white_sheep  # Greater than
+```
+
+True confirms it; False denies it.
+
+##### Comparison operators: greater than or equal to
+
+The greater than operator has another special, non-strict variant, but it's denoted differently than in classical arithmetic notation: >= (greater than or equal to).
+
+There are two subsequent signs, not one.
+
+Both of these operators (strict and non-strict), as well as the two others discussed in the next section, are binary operators with left-sided binding, and their priority is greater than that shown by == and !=.
+
+If we want to find out whether or not we have to wear a warm hat, we ask the following question:
+
+```py
+centigrade_outside ≥ 0.0  # Greater than or equal to
+```
+
 ```py
 
 >>>
