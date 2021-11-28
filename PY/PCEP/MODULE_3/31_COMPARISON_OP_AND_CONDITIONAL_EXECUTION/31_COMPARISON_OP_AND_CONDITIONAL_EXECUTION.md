@@ -284,12 +284,34 @@ have_lunch()
 
 #### 3116_MAKING_DECISIONS_IN_PY_5
 
+##### Conditional execution: the if statement
+
+If a certain sleepless Python developer falls asleep when he or she counts 120 sheep, and the sleep-inducing procedure may be implemented as a special function named sleep_and_dream(), the whole code takes the following shape:
+
 ```py
-
->>>
-
->>>
+if sheep_counter >= 120: # Evaluate a test expression
+    sleep_and_dream() # Execute if test expression is True
 ```
+
+You can read it as: if sheep_counter is greater than or equal to 120, then fall asleep and dream (i.e., execute the sleep_and_dream function.)
+
+We've said that conditionally executed statements have to be indented. This creates a very legible structure, clearly demonstrating all possible execution paths in the code.
+
+Take a look at the following code:
+
+```py
+if sheep_counter >= 120:
+    make_a_bed()
+    take_a_shower()
+    sleep_and_dream()
+feed_the_sheepdogs()
+```
+
+As you can see, making a bed, taking a shower and falling asleep and dreaming are all executed conditionally - when sheep_counter reaches the desired limit.
+
+Feeding the sheepdogs, however, is always done (i.e., the feed_the_sheepdogs() function is not indented and does not belong to the if block, which means it is always executed.)
+
+Now we're going to discuss another variant of the conditional statement, which also allows you to perform an additional action when the condition is not met.
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
