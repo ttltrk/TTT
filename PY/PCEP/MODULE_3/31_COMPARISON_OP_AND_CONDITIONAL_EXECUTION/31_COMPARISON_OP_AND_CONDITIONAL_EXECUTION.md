@@ -268,11 +268,14 @@ In real life, we often express a desire:
 if the weather is good, we'll go for a walk
 then, we'll have lunch
 
+As you can see, having lunch is not a conditional activity and doesn't depend on the weather.
+
+Knowing what conditions influence our behavior, and assuming that we have the parameterless functions go_for_a_walk() and have_lunch(), we can write the following snippet:
+
 ```py
-
->>>
-
->>>
+if the_weather_is_good:
+    go_for_a_walk()
+have_lunch()
 ```
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
