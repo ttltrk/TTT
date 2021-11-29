@@ -1498,8 +1498,10 @@ For example there can be configurations for Compute Intensive workloads, Memory 
 workloads, or High Performance I/O. Rather than pick from only pre-defined sizes, some
 providers also offer custom configurations that allow users to define the number of cores
 and RAM and local storage characteristics.
+
 Public VMs are usually priced by the hour (or in some cases even seconds) and configurations
 start as low as pennies per hour.
+
 Some providers also let you get monthly VMs, which can result in some cost savings if you
 know you will run the VM for at least a month, but if you decide to de-commision the VM in
 the middle of the month, you will still be charged for the full month.
