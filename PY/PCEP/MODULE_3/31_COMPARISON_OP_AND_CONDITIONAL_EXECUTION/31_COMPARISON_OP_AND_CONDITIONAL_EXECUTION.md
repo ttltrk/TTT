@@ -825,10 +825,39 @@ nested: x == 10
 
 #### 31114_SECTION_SUMMARY_2
 
+##### Key takeaways: continued
+
+- Exercise 1
+
+What is the output of the following snippet?
+
 ```py
+x = 5
+y = 10
+z = 8
+
+print(x > y)
+print(y > z)
 
 >>>
+False
+True
+>>>
+```
 
+- Exercise 2
+
+What is the output of the following snippet?
+
+```py
+x, y, z = 5, 10, 8
+
+print(x > z)
+print((y - 5) == x)
+
+>>>
+False
+True
 >>>
 ```
 
