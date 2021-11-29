@@ -141,11 +141,49 @@ Now close both windows now and return to the desktop.
 
 #### 1216_BEGIN_6
 
+##### How to spoil and fix your code
+
+Now start IDLE again.
+
+Click File, Open, point to the file you saved previously and let IDLE read it in.
+Try to run it again by pressing F5 when the editor window is active.
+As you can see, IDLE is able to save your code and retrieve it when you need it again.
+
+IDLE contains one additional and helpful feature.
+
+First, remove the closing parenthesis.
+Then enter the parenthesis again.
+Your code should look like the one down here:
+
+```py
+Hisssssss...
+```
+
+Every time you put the closing parenthesis in your program, IDLE will show the part of the text limited with a pair of corresponding parentheses. This helps you to remember to place them in pairs.
+Remove the closing parenthesis again. The code becomes erroneous. It contains a syntax error now. IDLE should not let you run it.
+Try to run the program again. IDLE will remind you to save the modified file. Follow the instructions.
+
 [^^^](#12_DOWNLOAD_AND_INSTALL)
 
 ---
 
 #### 1217_BEGIN_7
+
+##### How to spoil and fix your code
+
+Watch all the windows carefully.
+
+A new window appears – it says that the interpreter has encountered an EOF (end-of-file) although (in its opinion) the code should contain some more text.
+
+The editor window shows clearly where it happened.
+Fix the code now. It should look like this:
+
+```py
+print("Hisssssss...")
+```
+
+Run it to see if it "hisses" again.
+Let's spoil the code one more time. Remove one letter from the word print. Run the code by pressing F5. What happens now? As you can see, Python is not able to recognize the instruction.
 
 [^^^](#12_DOWNLOAD_AND_INSTALL)
 
@@ -153,11 +191,39 @@ Now close both windows now and return to the desktop.
 
 #### 1218_BEGIN_8
 
+##### How to spoil and fix your code
+
+You may have noticed that the error message generated for the previous error is quite different from the first one.
+This is because the nature of the error is different and the error is discovered at a different stage of interpretation.
+The editor window will not provide any useful information regarding the error, but the console windows might.
+
+The message (in red) shows (in the subsequent lines):
+
+- the traceback (which is the path that the code traverses through different parts of the program - you can ignore it for now, as it is empty in such a simple code);
+- the location of the error (the name of the file containing the error, line number and module name); note: the number may be misleading, as Python usually shows the place where it first notices the effects of the error, not necessarily the error itself;
+- the content of the erroneous line; note: IDLE’s editor window doesn’t show line numbers, but it displays the current cursor location at the bottom-right corner; use it to locate the erroneous line in a long source code;
+- the name of the error and a short explanation.
+
+Experiment with creating new files and running your code. Try to output a different message to the screen, e.g., roar!, meow, or even maybe an oink!. Try to spoil and fix your code - see what happens.
+
 [^^^](#12_DOWNLOAD_AND_INSTALL)
 
 ---
 
 #### 1219_BEGIN_9
+
+##### Congratulations!
+
+You have completed Module 1.
+
+Well done! You've reached the end of Module 1 and completed a major milestone in your Python programming education. Here's a short summary of the objectives you've covered and become familiar with in Module 1:
+
+- the fundamentals of computer programming, i.e., how the computer works, how the program is executed, how the programming language is defined and constructed;
+- the difference between compilation and interpretation;
+- the basic information about Python and how it is positioned among other programming languages, and what distinguishes its different versions;
+- the study resources and different types of interfaces you will be using in the course.
+
+You are now ready to take the module quiz, which will help you gauge what you've learned so far.
 
 [^^^](#12_DOWNLOAD_AND_INSTALL)
 
