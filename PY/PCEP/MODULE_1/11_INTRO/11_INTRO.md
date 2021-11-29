@@ -28,6 +28,7 @@
 #### 1111_BASICS_1
 
 ##### How does a computer program work?
+
 This course aims to show you what the Python language is and what it is used for. Let's start from the absolute basics.
 
 A program makes a computer usable. Without a program, a computer, even the most powerful one, is nothing more than an object. Similarly, without a player, a piano is nothing more than a wooden box.
