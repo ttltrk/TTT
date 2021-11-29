@@ -444,12 +444,109 @@ This may sound a little puzzling, but hopefully some simple examples will help s
 
 #### 3118_MAKING_DECISIONS_IN_PY_7
 
+##### Analyzing code samples
+
+Now we're going to show you some simple yet complete programs. We won't explain them in detail, because we consider the comments (and the variable names) inside the code to be sufficient guides.
+
+All the programs solve the same problem - they find the largest of several numbers and print it out.
+
+- Example 1:
+
+We'll start with the simplest case - how to identify the larger of two numbers:
+
 ```py
+# Read two numbers
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+
+# Choose the larger number
+if number1 > number2:
+    larger_number = number1
+else:
+    larger_number = number2
+
+# Print the result
+print("The larger number is:", larger_number)
 
 >>>
-
+Enter the first number: 2
+Enter the second number: 1
+The larger number is: 2
 >>>
 ```
+
+The above snippet should be clear - it reads two integer values, compares them, and finds which is the larger.
+
+- Example 2:
+
+Now we're going to show you one intriguing fact. Python has an interesting feature, look at the code below:
+
+```py
+# Read two numbers
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+
+# Choose the larger number
+if number1 > number2: larger_number = number1
+else: larger_number = number2
+
+# Print the result
+print("The larger number is:", larger_number)
+
+>>>
+Enter the first number: 5
+Enter the second number: 10
+The larger number is: 10
+>>>
+```
+
+Note: if any of the if-elif-else branches contains just one instruction, you may code it in a more comprehensive form (you don't need to make an indented line after the keyword, but just continue the line after the colon).
+
+This style, however, may be misleading, and we're not going to use it in our future programs, but it's definitely worth knowing if you want to read and understand someone else's programs.
+
+There are no other differences in the code.
+
+- Example 3:
+
+It's time to complicate the code - let's find the largest of three numbers. Will it enlarge the code? A bit.
+
+We assume that the first value is the largest. Then we verify this hypothesis with the two remaining values.
+
+Look at the code below:
+
+```py
+# Read three numbers
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+number3 = int(input("Enter the third number: "))
+
+# We temporarily assume that the first number
+# is the largest one.
+# We will verify this soon.
+largest_number = number1
+
+# We check if the second number is larger than current largest_number
+# and update largest_number if needed.
+if number2 > largest_number:
+    largest_number = number2
+
+# We check if the third number is larger than current largest_number
+# and update largest_number if needed.
+if number3 > largest_number:
+    largest_number = number3
+
+# Print the result
+print("The largest number is:", largest_number)
+
+>>>
+Enter the first number: 2
+Enter the second number: 4
+Enter the third number: 6
+The largest number is: 6
+>>>
+```
+
+This method is significantly simpler than trying to find the largest number all at once, by comparing all possible pairs of numbers (i.e., first with second, second with third, third with first). Try to rebuild the code for yourself.
 
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
