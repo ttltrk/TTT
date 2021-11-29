@@ -43,10 +43,10 @@ Alternatively, launch IDLE, create a new Python source file, fill it with this c
 Now we'll spend some time showing and explaining to you what you're actually seeing, and why it looks like this.
 As you can see, the first program consists of the following parts:
 
-- the word print;
+- the word ```print```;
 - an opening parenthesis;
 - a quotation mark;
-- a line of text: Hello, World!;
+- a line of text: ```Hello, World!```;
 - another quotation mark;
 - a closing parenthesis.
 
