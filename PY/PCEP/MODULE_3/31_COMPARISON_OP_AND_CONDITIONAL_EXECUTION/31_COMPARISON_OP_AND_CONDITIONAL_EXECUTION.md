@@ -768,6 +768,57 @@ x > 8
 else will be executed
 >>>
 ```    
+
+Each if is tested separately. The body of else is executed if the last if is False.
+
+The if-elif-else statement, e.g.:
+
+```py
+x = 10
+
+if x == 10:  # True
+    print("x == 10")
+
+if x > 15:  # False
+    print("x > 15")
+
+elif x > 10:  # False
+    print("x > 10")
+
+elif x > 5:  # True
+    print("x > 5")
+
+else:
+    print("else will not be executed")
+
+>>>
+x == 10
+x > 5
+>>>
+```
+
+If the condition for if is False, the program checks the conditions of the subsequent elif blocks - the first elif block that is True is executed. If all the conditions are False, the else block will be executed.
+
+Nested conditional statements, e.g.:
+
+```py
+x = 10
+
+if x > 5:  # True
+    if x == 6:  # False
+        print("nested: x == 6")
+    elif x == 10:  # True
+        print("nested: x == 10")
+    else:
+        print("nested: else")
+else:
+    print("else")
+
+>>>
+nested: x == 10
+>>>
+```
+
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
 ---
