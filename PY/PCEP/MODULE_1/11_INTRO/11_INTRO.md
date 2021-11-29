@@ -19,9 +19,9 @@
 * [1122_TOOL_2](#1122_TOOL_2)
 * [1123_TOOL_3](#1123_TOOL_3)
 * [1124_TOOL_4](#1124_TOOL_4)
-* [1131_](#)
-* [1132_](#)
-* [1133_](#)
+* [1131_PY2_VS_PY3](#1131_PY2_VS_PY3)
+* [1132_CPYTHON_AND_CYTHON](#1132_CPYTHON_AND_CYTHON)
+* [1133_JYTHON_PYPY_RPYTHON](#1133_JYTHON_PYPY_RPYTHON)
 
 ---
 
@@ -311,9 +311,19 @@ Despite Python's growing popularity, there are still some niches where Python is
 
 ---
 
+#### 1131_PY2_VS_PY3
+
 [^^^](#11_INTRO)
 
 ---
+
+#### 1132_CPYTHON_AND_CYTHON
+
+[^^^](#11_INTRO)
+
+---
+
+#### 1133_JYTHON_PYPY_RPYTHON
 
 [^^^](#11_INTRO)
 
