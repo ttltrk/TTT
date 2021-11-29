@@ -861,6 +861,97 @@ True
 >>>
 ```
 
+- Exercise 3
+
+What is the output of the following snippet?
+
+```py
+x, y, z = 5, 10, 8
+x, y, z = z, y, x
+
+print(x > z)
+print((y - 5) == x)
+
+>>>
+True
+False
+>>>
+```
+
+- Exercise 4
+
+What is the output of the following snippet?
+
+```py
+x = 10
+
+if x == 10:
+    print(x == 10)
+if x > 5:
+    print(x > 5)
+if x < 10:
+    print(x < 10)
+else:
+    print("else")
+
+>>>
+True
+True
+else
+>>>
+```
+
+- Exercise 5
+
+What is the output of the following snippet?
+
+```py
+x = "1"
+
+if x == 1:
+    print("one")
+elif x == "1":
+    if int(x) > 1:
+        print("two")
+    elif int(x) < 1:
+        print("three")
+    else:
+        print("four")
+if int(x) == 1:
+    print("five")
+else:
+    print("six")
+
+>>>
+four
+five
+>>>
+```
+
+- Exercise 6
+
+What is the output of the following snippet?
+
+```py
+x = 1
+y = 1.0
+z = "1"
+
+if x == y:
+    print("one")
+if y == int(z):
+    print("two")
+elif x == y:
+    print("three")
+else:
+    print("four")
+
+>>>
+one
+two
+>>>
+```
+
 [^^^](#31_COMPARISON_OP_AND_CONDITIONAL_EXECUTION)
 
 ---
