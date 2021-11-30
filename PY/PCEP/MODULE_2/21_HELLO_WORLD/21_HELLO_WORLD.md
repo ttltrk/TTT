@@ -588,6 +588,24 @@ My-name-is-Monty-Python.
 
 #### 21117_FIRST_PRG_17
 
+##### The print() function - the keyword arguments
+
+Both keyword arguments may be mixed in one invocation, just like here in the editor window.
+The example doesn't make much sense, but it visibly presents the interactions between end and sep.
+Can you predict the output?
+Run the code and see if it matches your predictions.
+Now that you understand the print() function, you're ready to consider how to store and process data in Python.
+Without print(), you wouldn't be able to see any results.
+
+```py
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+
+>>>
+My_name_is*Monty*Python.*
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
