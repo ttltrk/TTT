@@ -371,6 +371,40 @@ and washed the spider out.
 
 #### 21111_FIRST_PRG_11
 
+##### The print() function - the escape and newline characters
+
+This convention has two important consequences:
+
+1. If you want to put just one backslash inside a string, don't forget its escaping nature - you have to double it, e.g., such an invocation will cause an error:
+
+```
+print("\")
+```
+
+while this one won't:
+
+```py
+print("\\")
+```
+
+2. Not all escape pairs (the backslash coupled with another character) mean something.
+
+Experiment with your code in the editor, run it, and see what happens.
+
+```py
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+
+>>>
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
