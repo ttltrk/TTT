@@ -488,17 +488,99 @@ Monty Python.
 
 #### 21114_FIRST_PRG_14
 
+##### The print() function - the keyword arguments
+
+Python offers another mechanism for the passing of arguments, which can be helpful when you want to convince the print() function to change its behavior a bit.
+We aren't going to explain it in depth right now. We plan to do this when we talk about functions. For now, we simply want to show you how it works. Feel free to use it in your own programs.
+The mechanism is called keyword arguments. The name stems from the fact that the meaning of these arguments is taken not from its location (position) but from the special word (keyword) used to identify them.
+The print() function has two keyword arguments that you can use for your purposes. The first of them is named end.
+In the editor window you can see a very simple example of using a keyword argument.
+
+In order to use it, it is necessary to know some rules:
+
+- a keyword argument consists of three elements: a keyword identifying the argument (end here); an equal sign (=); and a value assigned to that argument;
+- any keyword arguments have to be put after the last positional argument (this is very important)
+
+In our example, we have made use of the end keyword argument, and set it to a string containing one space.
+
+Run the code to see how it works.
+The console should now be showing the following text:
+
+```py
+My name is Python. Monty Python.
+```
+
+As you can see, the end keyword argument determines the characters the print() function sends to the output once it reaches the end of its positional arguments.
+The default behavior reflects the situation where the end keyword argument is implicitly used in the following way: end="\n".
+
+```py
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+
+>>>
+My name is Python. Monty Python.
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 21115_FIRST_PRG_15
 
+##### The print() function - the keyword arguments
+
+And now it's time to try something more difficult.
+If you look carefully, you'll see that we've used the end argument, but the string assigned to it is empty (it contains no characters at all).
+What will happen now? Run the program in the editor to find out.
+As the end argument has been set to nothing, the print() function outputs nothing too, once its positional arguments have been exhausted.
+
+The console should now be showing the following text:
+
+```py
+My name is Monty Python.
+```
+
+Note: no newlines have been sent to the output.
+The string assigned to the end keyword argument can be of any length. Experiment with it if you want.
+
+```py
+print("My name is ", end="")
+print("Monty Python.")
+
+>>>
+My name is Monty Python.
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 21116_FIRST_PRG_16
+
+##### The print() function - the keyword arguments
+
+We've said previously that the print() function separates its outputted arguments with spaces. This behavior can be changed, too.
+The keyword argument that can do this is named sep (like separator).
+Look at the code in the editor, and run it.
+
+The sep argument delivers the following results:
+
+```py
+My-name-is-Monty-Python.
+```
+
+The print() function now uses a dash, instead of a space, to separate the outputted arguments.
+Note: the sep argument's value may be an empty string, too. Try it for yourself.
+
+```py
+print("My", "name", "is", "Monty", "Python.", sep="-")
+
+>>>
+My-name-is-Monty-Python.
+>>>
+```
 
 [^^^](#21_HELLO_WORLD)
 
