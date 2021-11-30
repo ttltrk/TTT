@@ -242,17 +242,128 @@ None. Its effect is enough.
 
 #### 2118_FIRST_PRG_8
 
+##### The print() function - instructions
+
+You have already seen a computer program that contains one function invocation. A function invocation is one of many possible kinds of Python instructions.
+
+Of course, any complex program usually contains many more instructions than one. The question is: how do you couple more than one instruction into the Python code?
+
+Python's syntax is quite specific in this area. Unlike most programming languages, Python requires that there cannot be more than one instruction in a line.
+
+A line can be empty (i.e., it may contain no instruction at all) but it must not contain two, three or more instructions. This is strictly prohibited.
+
+Note: Python makes one exception to this rule - it allows one instruction to spread across more than one line (which may be helpful when your code contains complex constructions).
+
+Let's expand the code a bit, you can see it in the editor. Run it and note what you see in the console.
+
+Your Python console should now look like this:
+
+```py
+The itsy bitsy spider climbed up the waterspout.
+Down came the rain and washed the spider out.
+```
+
+This is a good opportunity to make some observations:
+
+- the program invokes the print() function twice, and you can see two separate lines in the console - this means that print() begins its output from a new line each time it starts its execution; you can change this behavior, but you can also use it to your advantage;
+- each print() invocation contains a different string, as its argument and the console content reflects it - this means that the instructions in the code are executed in the same order in which they have been placed in the source file; no next instruction is executed until the previous one is completed (there are some exceptions to this rule, but you can ignore them for now)
+
+```py
+print("The itsy bitsy spider climbed up the waterspout.")
+print("Down came the rain and washed the spider out.")
+
+>>>
+The itsy bitsy spider climbed up the waterspout.
+Down came the rain and washed the spider out.
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 2119_FIRST_PRG_9
 
+##### The print() function - instructions
+
+We've changed the example a bit - we've added one empty print() function invocation. We call it empty because we haven't delivered any arguments to the function.
+
+You can see it in the editor window. Run the code.
+
+What happens?
+
+If everything goes right, you should see something like this:
+
+```py
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+```
+
+As you can see, the empty print() invocation is not as empty as you may have expected - it does output an empty line, or (this interpretation is also correct) its output is just a newline.
+
+This is not the only way to produce a newline in the output console. We're now going to show you another way.
+
+```py
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+
+>>>
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 21110_FIRST_PRG_10
+
+##### The print() function - the escape and newline characters
+
+We've modified the code again. Look at it carefully.
+
+There are two very subtle changes - we've inserted a strange pair of characters inside the rhyme. They look like this: \n.
+
+Interestingly, while you can see two characters, Python sees one.
+
+The backslash (\) has a very special meaning when used inside strings - this is called the escape character.
+
+The word escape should be understood specifically - it means that the series of characters in the string escapes for the moment (a very short moment) to introduce a special inclusion.
+
+In other words, the backslash doesn't mean anything in itself, but is only a kind of announcement, that the next character after the backslash has a different meaning too.
+
+The letter n placed after the backslash comes from the word newline.
+
+Both the backslash and the n form a special symbol named a newline character, which urges the console to start a new output line.
+Run the code. Your console should now look like this:
+
+```py
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
+```
+
+As you can see, two newlines appear in the nursery rhyme, in the places where the \n have been used.
+
+```py
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+
+>>>
+The itsy bitsy spider
+climbed up the waterspout.
+
+Down came the rain
+and washed the spider out.
+>>>
+```
 
 [^^^](#21_HELLO_WORLD)
 
