@@ -221,11 +221,11 @@ Look at these two numbers:
 ```
 
 You may think that they are exactly the same, but Python sees them in a completely different way.
-4 is an integer number, whereas 4.0 is a floating-point number.
+```4``` is an integer number, whereas ```4.0``` is a floating-point number.
 The point is what makes a float.
 On the other hand, it's not only points that make a float. You can also use the letter e.
 When you want to use any numbers that are very large or very small, you can use scientific notation.
-Take, for example, the speed of light, expressed in meters per second. Written directly it would look like this: 300000000.
+Take, for example, the speed of light, expressed in meters per second. Written directly it would look like this: ```300000000```.
 To avoid writing out so many zeros, physics textbooks use an abbreviated form, which you have probably already seen: 3 x 108.
 It reads: three times ten to the power of eight.
 In Python, the same effect is achieved in a slightly different way - take a look:
