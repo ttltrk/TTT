@@ -411,11 +411,76 @@ and washed the spider out.
 
 #### 21112_FIRST_PRG_12
 
+##### The print() function - using multiple arguments
+
+So far we have tested the print() function behavior with no arguments, and with one argument. It's also worth trying to feed the print() function with more than one argument.
+
+Look at the editor window. This is what we're going to test now:
+
+```py
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+
+>>>
+The itsy bitsy spider climbed up the waterspout.
+>>>
+```
+
+There is one print() function invocation, but it contains three arguments. All of them are strings.
+
+The arguments are separated by commas. We've surrounded them with spaces to make them more visible, but it's not really necessary, and we won't be doing it anymore.
+
+In this case, the commas separating the arguments play a completely different role than the comma inside the string. The former is a part of Python's syntax, the latter is intended to be shown in the console.
+
+If you look at the code again, you'll see that there are no spaces inside the strings.
+
+Run the code and see what happens.
+
+The console should now be showing the following text:
+
+```py
+The itsy bitsy spider climbed up the waterspout.
+```
+
+The spaces, removed from the strings, have appeared again. Can you explain why?
+
+Two conclusions emerge from this example:
+
+- a print() function invoked with more than one argument outputs them all on one line;
+- the print() function puts a space between the outputted arguments on its own initiative.
+
+```py
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+
+>>>
+The itsy bitsy spider climbed up the waterspout.
+>>>
+```
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 21113_FIRST_PRG_13
+
+##### The print() function - the positional way of passing the arguments
+
+Now that you know a bit about print() function customs, we're going to show you how to change them.
+
+You should be able to predict the output without running the code in the editor.
+
+The way in which we are passing the arguments into the print() function is the most common in Python, and is called the positional way (this name comes from the fact that the meaning of the argument is dictated by its position, e.g., the second argument will be outputted after the first, not the other way round).
+
+Run the code and check if the output matches your predictions.
+
+```py
+print("My name is", "Python.")
+print("Monty Python.")
+
+>>>
+My name is Python.
+Monty Python.
+>>>
+```
 
 [^^^](#21_HELLO_WORLD)
 
