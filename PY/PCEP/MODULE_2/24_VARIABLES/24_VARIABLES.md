@@ -57,6 +57,32 @@ If you want to give a name to a variable, you must follow some strict rules:
 
 #### 2412_DATA_SHAPED_BOXES_2
 
+##### Correct and incorrect variable names
+
+Note that the same restrictions apply to function names.
+Python does not impose restrictions on the length of variable names, but that doesn't mean that a long variable name is always better than a short one.
+
+Here are some correct, but not always convenient variable names:
+
+```
+MyVariable, i, t34, Exchange_Rate, counter, days_to_christmas,
+TheNameIsSoLongThatYouWillMakeMistakesWithIt, _.
+```
+
+Moreover, Python lets you use not only Latin letters but also characters specific to languages that use other alphabets.
+
+These variable names are also correct:
+
+```
+Adiós_Señora, sûr_la_mer, Einbahnstraße, переменная.
+```
+
+And now for some incorrect names:
+
+```
+10t (does not begin with a letter), Exchange Rate (contains a space)
+```
+
 [^^^](#24_VARIABLES)
 
 ---
