@@ -382,6 +382,27 @@ The result should be 1. This operator has left-sided binding. But there's one in
 
 #### 2318_DATA_MANIPULATION_8
 
+##### Operators and their bindings: exponentiation
+
+Repeat the experiment, but now with exponentiation.
+Use this snippet of code:
+
+```py
+print(2 ** 2 ** 3)
+
+>>>
+256
+>>>
+```
+
+The two possible results are:
+
+- ```2 ** 2 → 4; 4 ** 3 → 64```
+- ```2 ** 3 → 8; 2 ** 8 → 256```
+
+Run the code. What do you see?
+The result clearly shows that the exponentiation operator uses right-sided binding.
+
 [^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
