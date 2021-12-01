@@ -5,7 +5,7 @@
 
 ---
 
-#### 23_ARITHMETIC_OPERATOTS
+#### 23_ARITHMETIC_OPERATORS
 
 ---
 
@@ -55,7 +55,7 @@ We'll begin with the operators which are associated with the most widely recogni
 The order of their appearance is not accidental. We'll talk more about it once we've gone through them all.
 Remember: Data and operators when connected together form expressions. The simplest expression is a literal itself.
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
@@ -92,54 +92,54 @@ print(2. ** 3.)
 >>>
 ```
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2313_DATA_MANIPULATION_3
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2314_DATA_MANIPULATION_4
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2315_DATA_MANIPULATION_5
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2316_DATA_MANIPULATION_6
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2317_DATA_MANIPULATION_7
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2318_DATA_MANIPULATION_8
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2319_DATA_MANIPULATION_9
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 23110_DATA_MANIPULATION_10
 
-[^^^](#23_ARITHMETIC_OPERATOTS)
+[^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
