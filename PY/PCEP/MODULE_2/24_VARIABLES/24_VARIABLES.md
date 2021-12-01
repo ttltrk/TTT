@@ -83,11 +83,71 @@ And now for some incorrect names:
 10t (does not begin with a letter), Exchange Rate (contains a space)
 ```
 
+The PEP 8 -- Style Guide for Python Code recommends the following naming convention for variables and functions in Python:
+
+- variable names should be lowercase, with words separated by underscores to improve readability (e.g., var, my_variable)
+- function names follow the same convention as variable names (e.g., fun, my_function)
+- it's also possible to use mixed case (e.g., myVariable), but only in contexts where that's already the prevailing style, to retain backwards compatibility with the adopted convention.
+
+Fortunately, due to the fact that Python is case-sensitive, you can modify any of these words by changing the case of any letter, thus creating a new word, which is not reserved anymore.
+
+For example - you can't name your variable like this:
+
+```
+import
+```
+
+You mustn't have a variable named in such a way - it is prohibited. But you can do this instead:
+
+```
+Import
+```
+
+These words might be a mystery to you now, but you'll soon learn the meaning of them.
+
 [^^^](#24_VARIABLES)
 
 ---
 
 #### 2413_DATA_SHAPED_BOXES_3
+
+##### Creating variables
+
+What can you put inside a variable?
+
+Anything.
+
+You can use a variable to store any value of any of the already presented kinds, and many more of the ones we haven't shown you yet.
+
+The value of a variable is what you have put into it. It can vary as often as you need or want. It can be an integer one moment, and a float a moment later, eventually becoming a string.
+
+Let's talk now about two important things - how variables are created, and how to put values inside them (or rather - how to give or pass values to them).
+
+REMEMBER
+
+A variable comes into existence as a result of assigning a value to it. Unlike in other languages, you don't need to declare it in any special way.
+
+If you assign any value to a nonexistent variable, the variable will be automatically created. You don't need to do anything else.
+
+The creation (or otherwise - its syntax) is extremely simple: just use the name of the desired variable, then the equal sign (=) and the value you want to put into the variable.
+
+Take a look at the snippet:
+
+```py
+var = 1
+print(var)
+
+>>>
+1
+>>>
+```
+
+It consists of two simple instructions:
+
+The first of them creates a variable named var, and assigns a literal with an integer value equal to 1.
+The second prints the value of the newly created variable to the console.
+
+Note: ```print()``` has yet another side to it - it can handle variables too. Do you know what the output of the snippet will be?
 
 [^^^](#24_VARIABLES)
 
