@@ -271,11 +271,110 @@ Do not try to:
 
 #### 2316_DATA_MANIPULATION_6
 
+##### Operators: addition
+
+The addition operator is the ```+``` (plus) sign, which is fully in line with mathematical standards.
+Again, take a look at the snippet of the program below:
+
+```py
+print(-4 + 4)
+print(-4. + 8)
+
+>>>
+0
+4.0
+>>>
+```
+
+The result should be nothing surprising. Run the code to check it.
+
+##### The subtraction operator, unary and binary operators
+
+The subtraction operator is obviously the - (minus) sign, although you should note that this operator also has another meaning - it can change the sign of a number.
+
+This is a great opportunity to present a very important distinction between unary and binary operators.
+
+In subtracting applications, the minus operator expects two arguments: the left (a minuend in arithmetical terms) and right (a subtrahend).
+
+For this reason, the subtraction operator is considered to be one of the binary operators, just like the addition, multiplication and division operators.
+
+But the minus operator may be used in a different (unary) way - take a look at the last line of the snippet below:
+
+```py
+print(-4 - 4)
+print(4. - 8)
+print(-1.1)
+
+>>>
+-8
+-4.0
+-1.1
+>>>
+```
+
+By the way: there is also a unary + operator. You can use it like this:
+
+```py
+print(+2)
+
+>>>
+2
+>>>
+```
+
+The operator preserves the sign of its only argument - the right one.
+
+Although such a construction is syntactically correct, using it doesn't make much sense, and it would be hard to find a good rationale for doing so.
+
+Take a look at the snippet above - can you guess its output?
+
 [^^^](#23_ARITHMETIC_OPERATORS)
 
 ---
 
 #### 2317_DATA_MANIPULATION_7
+
+##### Operators and their priorities
+
+So far, we've treated each operator as if it had no connection with the others. Obviously, such an ideal and simple situation is a rarity in real programming.
+Also, you will very often find more than one operator in one expression, and then this presumption is no longer so obvious.
+Consider the following expression:
+
+```py
+2 + 3 * 5
+
+>>>
+17
+>>>
+```
+
+You probably remember from school that multiplications precede additions.
+You surely remember that you should first multiply 3 by 5 and, keeping the 15 in your memory, then add it to 2, thus getting the result of 17.
+The phenomenon that causes some operators to act before others is known as the hierarchy of priorities.
+Python precisely defines the priorities of all operators, and assumes that operators of a larger (higher) priority perform their operations before the operators of a lower priority.
+So, if you know that ```*``` has a higher priority than +, the computation of the final result should be obvious.
+
+##### Operators and their bindings
+
+The binding of the operator determines the order of computations performed by some operators with equal priority, put side by side in one expression.
+Most of Python's operators have left-sided binding, which means that the calculation of the expression is conducted from left to right.
+This simple example will show you how it works. Take a look:
+
+```py
+print(9 % 6 % 2)
+
+>>>
+1
+>>>
+```
+
+There are two possible ways of evaluating this expression:
+
+- from left to right: first ```9 % 6``` gives 3, and then ```3 % 2``` gives 1;
+- from right to left: first ```6 % 2``` gives 0, and then ```9 % 0``` causes a fatal error.
+
+Run the example and see what you get.
+The result should be 1. This operator has left-sided binding. But there's one interesting exception.
 
 [^^^](#23_ARITHMETIC_OPERATORS)
 
