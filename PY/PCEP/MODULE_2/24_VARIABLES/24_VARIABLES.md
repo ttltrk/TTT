@@ -155,6 +155,50 @@ Note: ```print()``` has yet another side to it - it can handle variables too. Do
 
 #### 2414_DATA_SHAPED_BOXES_4
 
+##### Using variables
+
+You're allowed to use as many variable declarations as you need to achieve your goal, like this:
+
+```py
+var = 1
+account_balance = 1000.0
+client_name = 'John Doe'
+print(var, account_balance, client_name)
+print(var)
+
+>>>
+1 1000.0 John Doe
+1
+>>>
+```
+
+You're not allowed to use a variable which doesn't exist (in other words, a variable that was not assigned a value).
+This example will cause an error:
+
+```py
+var = 1
+print(Var)
+
+>>>
+NameError: name 'Var' is not defined
+>>>
+```
+
+We've tried to use a variable named Var, which doesn't have any value (note: var and Var are different entities, and have nothing in common as far as Python's concerned).
+
+You can use the print() function and combine text and variables using the + operator to output strings and variables, e.g.:
+
+```py
+var = "3.8.5"
+print("Python version: " + var)
+
+>>>
+Python version: 3.8.5
+>>>
+```
+
+Can you guess the output of the snippet above?
+
 [^^^](#24_VARIABLES)
 
 ---
