@@ -205,11 +205,75 @@ Can you guess the output of the snippet above?
 
 #### 2415_DATA_SHAPED_BOXES_5
 
+##### Assigning a new value to an already existing variable
+
+How do you assign a new value to an already created variable? In the same way. You just need to use the equal sign.
+
+The equal sign is in fact an assignment operator. Although this may sound strange, the operator has a simple syntax and unambiguous interpretation.
+
+It assigns the value of its right argument to the left, while the right argument may be an arbitrarily complex expression involving literals, operators and already defined variables.
+
+Look at the code below:
+
+```py
+var = 1
+print(var)
+var = var + 1
+print(var)
+
+>>>
+1
+2
+>>>
+```
+
+The first line of the snippet creates a new variable named var and assigns 1 to it.
+The statement reads: assign a value of 1 to a variable named var.
+We can say it shorter: assign 1 to var.
+Some prefer to read such a statement as: var becomes 1.
+
+The third line assigns the same variable with the new value taken from the variable itself, summed with 1. Seeing a record like that, a mathematician would probably protest - no value may be equal to itself plus one. This is a contradiction. But Python treats the sign = not as equal to, but as assign a value.
+
+So how do you read such a record in the program?
+Take the current value of the variable var, add 1 to it and store the result in the variable var.
+In effect, the value of variable var has been incremented by one, which has nothing to do with comparing the variable with any value.
+
+Do you know what the output of the following snippet will be?
+
+```py
+var = 100
+var = 200 + 300
+print(var)
+
+>>>
+500
+>>>
+```
+
 [^^^](#24_VARIABLES)
 
 ---
 
 #### 2416_DATA_SHAPED_BOXES_6
+
+##### Solving simple mathematical problems
+
+Now you should be able to construct a short program solving simple mathematical problems such as the Pythagorean theorem:
+
+The square of the hypotenuse is equal to the sum of the squares of the other two sides.
+
+The following code evaluates the length of the hypotenuse (i.e., the longest side of a right-angled triangle, the one opposite of the right angle) using the Pythagorean theorem:
+
+```py
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
+
+>>>
+c = 5.0
+>>>
+```
 
 [^^^](#24_VARIABLES)
 
