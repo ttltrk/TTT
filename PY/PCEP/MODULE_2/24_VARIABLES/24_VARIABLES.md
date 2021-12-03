@@ -395,6 +395,64 @@ Agent 007
 >>>
 ```
 
+- Exercise 1
+
+What is the output of the following snippet?
+
+```py
+var = 2
+var = 3
+print(var)
+
+>>>
+3
+>>>
+```
+
+- Exercise 2
+
+Which of the following variable names are illegal in Python?
+
+```py
+my_var
+m
+101
+averylongvariablename
+m101
+m 101
+Del
+del
+```
+
+- Exercise 3
+
+What is the output of the following snippet?
+
+```py
+a = '1'
+b = "1"
+print(a + b)
+
+>>>
+
+>>>
+```
+
+- Exercise 4
+
+What is the output of the following snippet?
+
+```py
+a = 6
+b = 3
+a /= 2 * b
+print(a)
+
+>>>
+
+>>>
+```
+
 [^^^](#24_VARIABLES)
 
 ---
