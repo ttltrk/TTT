@@ -295,7 +295,13 @@ print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
 
 >>>
-
++----------+
+|          |
+|          |
+|          |
+|          |
+|          |
++----------+
 >>>
 ```
 
@@ -308,7 +314,41 @@ Try practicing to create other shapes or your own artwork!
 
 #### 2618_HOW_TO_TALK_8
 
-#####
+##### Type conversion: str()
+
+You already know how to use the int() and float() functions to convert a string into a number.
+
+This type of conversion is not a one-way street. You can also convert a number into a string, which is way easier and safer - this operation is always possible.
+
+A function capable of doing that is called str():
+
+```py
+str(number)
+```
+
+To be honest, it can do much more than just transform numbers into strings, but that can wait for later.
+
+##### The "right-angle triangle" again
+
+Here is our "right-angle triangle" program again:
+
+```py
+leg_a = float(input("Input first leg length: "))
+leg_b = float(input("Input second leg length: "))
+print("Hypotenuse length is " + str((leg_a**2 + leg_b**2) ** .5))
+
+>>>
+Input first leg length: 50
+Input second leg length: 50
+Hypotenuse length is 70.71067811865476
+>>>
+```
+
+We've modified it a bit to show you how the str() function works. Thanks to this, we can pass the whole result to the print() function as one string, forgetting about the commas.
+
+You've made some serious strides on your way to Python programming.
+
+You already know the basic data types, and a set of fundamental operators. You know how to organize the output and how to get data from the user. These are very strong foundations for Module 3. But before we move on to the next module, let's do a few labs, and recap all that you've learned in this section.
 
 [^^^](#26_INPUT_AND_STRING_OPS)
 
