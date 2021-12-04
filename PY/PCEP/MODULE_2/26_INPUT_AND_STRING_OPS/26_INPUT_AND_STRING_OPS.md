@@ -138,11 +138,15 @@ Have we fallen into a deadlock? Is there a solution to this issue? Of course the
 
 #### 2614_HOW_TO_TALK_4
 
+#####
+
 [^^^](#26_INPUT_AND_STRING_OPS)
 
 ---
 
 #### 2615_HOW_TO_TALK_5
+
+#####
 
 [^^^](#26_INPUT_AND_STRING_OPS)
 
@@ -150,11 +154,15 @@ Have we fallen into a deadlock? Is there a solution to this issue? Of course the
 
 #### 2616_HOW_TO_TALK_6
 
+#####
+
 [^^^](#26_INPUT_AND_STRING_OPS)
 
 ---
 
 #### 2617_HOW_TO_TALK_7
+
+#####
 
 [^^^](#26_INPUT_AND_STRING_OPS)
 
@@ -162,11 +170,15 @@ Have we fallen into a deadlock? Is there a solution to this issue? Of course the
 
 #### 2618_HOW_TO_TALK_8
 
+#####
+
 [^^^](#26_INPUT_AND_STRING_OPS)
 
 ---
 
 #### 2619_HOW_TO_TALK_9
+
+#####
 
 [^^^](#26_INPUT_AND_STRING_OPS)
 
