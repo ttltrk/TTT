@@ -42,22 +42,22 @@
 compile >> run
 
 ```
-.model tiny
-.code
-org 100h
+.model tiny  ; com program, Code Data & Stack in one 64k Segment
+.code        ; code segment
+org 100h     ; code starts at offset 100h
 
 main proc near
 
-mov ah,09h
-mov dx,offset message
-int 21h
+mov ah,09h   ; function to display a string
+mov dx,offset message    ; offset of Message string terminating with $
+int 21h      ; DOS interrupt
 
-mov ah,4ch
+mov ah,4ch   ; function to terminate
 mov al,00
-int 21h
+int 21h      ; DOS interrupt
 
 endp
-message db "hello world $"
+message db "hello world $" ; message to be dispalyed terminating with a $
 
 end main
 ```
