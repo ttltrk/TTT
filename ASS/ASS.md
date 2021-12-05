@@ -16,6 +16,7 @@
 ---
 
 * [HELLO_WORLD](#HELLO_WORLD)
+* [READ](#READ)
 * [LOGIC_GATES]()
 * [TRANSISTORS_TO_OS]()
 * [NUMBER_SYSTEMS]()
@@ -62,8 +63,29 @@ message db "hello world $" ; message to be dispalyed terminating with a $
 end main
 
 >>>
-hellow world 
+hellow world
 >>>
 ```
 
 ---
+
+#### READ
+
+```
+.model small
+.data
+.code
+
+mov ah,1h  ; code for read character {character saved in "al")
+int 21h    ; DOS interrupt "do it"
+mov dl,al  ; copy character to "dl"
+
+mov ah,2h  ; code for write character
+int 21h    ; display character in "dl"
+
+end
+
+>>>
+tt
+>>>
+```
