@@ -60,6 +60,10 @@ endp
 message db "hello world $" ; message to be dispalyed terminating with a $
 
 end main
+
+>>>
+hellow world 
+>>>
 ```
 
 ---
