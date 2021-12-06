@@ -869,6 +869,25 @@ print(res)
 >>>
 ```
 
+As we need to calculate monthly payments, we set the rate and periods (nper) in months. The pv parameter shows the present value of the loan, while the fv shows the future value we want to achieve.
+
+- pmt()
+
+Note that aside from computing a monthly mortgage payment, the pmt() function can be used to return the periodic deposit one must make to achieve a specified future balance with a given interest rate.
+
+```py
+import numpy_financial as npf
+
+res = npf.pmt(rate=0.10/12, nper=5*12, pv=0, fv=50000) 
+print(res)
+
+>>>
+-645.6855688967499
+>>>
+```
+
+The code will return the monthly deposits needed to achieve 50000 in 5 years with 10% annual interest.
+
 [^^^](#NUMPY)
 
 ---
