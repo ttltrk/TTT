@@ -40,6 +40,13 @@ Scripting is fun!
 ```
 
 ```sh
+touch helloscript.sh
+
+helloscript.sh
+hello world
+```
+
+```sh
 echo "first line"; echo "second line"
 echo "third line"
 echo "fourth line"
