@@ -28,7 +28,7 @@
 
 #### 3111_MAKING_DECISIONS_IN_PY_1
 
-- Questions and answers
+##### Questions and answers
 
 A programmer writes a program and the program asks questions.
 
@@ -43,7 +43,7 @@ You will never get a response like Let me think...., I don't know, or Probably y
 
 To ask questions, Python uses a set of very special operators. Let's go through them one after another, illustrating their effects on some simple examples.
 
-- Comparison: equality operator
+##### Comparison: equality operator
 
 Question: are two values equal?
 
