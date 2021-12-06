@@ -30,6 +30,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [ARRAY_INDEXING_CONDITIONS](#ARRAY_INDEXING_CONDITIONS)
 * [SLICE_OF_ARRAY](#SLICE_OF_ARRAY)
 * [STATISTICS](#STATISTICS)
+* [FINANCIAL](#FINANCIAL)
 
 ---
 
@@ -809,6 +810,19 @@ print(z[1][1])
 >>>
 7
 >>>
+```
+
+[^^^](#NUMPY)
+
+---
+
+#### FINANCIAL
+
+As we have seen in the previous example, the NumpyFinancial package includes many useful financial functions.
+To use them, we first need to import the package:
+
+```py
+import numpy_financial as npf
 ```
 
 [^^^](#NUMPY)
