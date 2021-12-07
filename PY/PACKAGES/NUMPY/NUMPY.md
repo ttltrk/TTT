@@ -935,6 +935,31 @@ Option 2:  0.4094208743397143
 >>>
 ```
 
+##### Plotting Data
+
+Now that we know how to perform basic financial calculations, let's look at plotting charts.
+Python has a package named matplotlib, which includes a pyplot sub-package used to create graphs and charts.
+To use it, we first need to import it.
+
+```py
+import matplotlib.pyplot as plt  
+```
+
+##### Plotting Data
+
+Let's assume we have a company's 5 month revenue data in an array:
+We want to plot a chart visualizing the revenue data.
+To do that, we simply need to call the plot function on our data:
+
+```py
+import matplotlib.pyplot as plt
+
+rev = [18000, 25000, 20000, 45000, 32000]
+plt.plot(rev)
+
+plt.savefig('plot.png')
+```
+
 [^^^](#NUMPY)
 
 ---
