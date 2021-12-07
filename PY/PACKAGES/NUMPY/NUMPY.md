@@ -878,7 +878,7 @@ Note that aside from computing a monthly mortgage payment, the pmt() function ca
 ```py
 import numpy_financial as npf
 
-res = npf.pmt(rate=0.10/12, nper=5*12, pv=0, fv=50000) 
+res = npf.pmt(rate=0.10/12, nper=5*12, pv=0, fv=50000)
 print(res)
 
 >>>
@@ -887,6 +887,53 @@ print(res)
 ```
 
 The code will return the monthly deposits needed to achieve 50000 in 5 years with 10% annual interest.
+
+##### IRR
+
+Numpy Financial has an irr() function, used to calculate the IRR (Internal Rate of Return).
+
+Let's assume we invested 5000 and got the following payments back: 500, 700, 1000, 3000.
+To calculate the IRR, we first need to declare an array with the values, with the first value being our initial investment.
+
+```py
+import numpy_financial as npf
+
+cashflow = [-5000, 500, 700, 1000, 3000]
+print(npf.irr(cashflow))
+
+>>>
+0.012164656866492818
+>>>
+```
+
+##### Comparing IRR
+
+Let's use the irr() function to compare two investment opportunities and decide which one is better.
+
+- Option 1:
+Requires 50K in investment
+Will pay 10K, 25K, 25K, 35K, 42K each year for the next 5 years.
+
+- Option 2:
+Requires 30K in investment
+Will pay 10K, 13K, 18K, 25K, 20K each year for the next 5 years.
+
+Let's calculate the IRR for each investment and compare:
+
+```py
+import numpy_financial as npf
+
+cf1 = [-50000, 10000, 25000, 25000, 35000, 42000]
+cf2 = [-30000, 10000, 13000, 18000, 25000, 20000]
+
+print("Option 1: ", npf.irr(cf1))
+print("Option 2: ", npf.irr(cf2))
+
+>>>
+Option 1:  0.3605982754620045
+Option 2:  0.4094208743397143
+>>>
+```
 
 [^^^](#NUMPY)
 
