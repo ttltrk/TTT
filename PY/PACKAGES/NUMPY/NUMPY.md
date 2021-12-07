@@ -960,6 +960,23 @@ plt.plot(rev)
 plt.savefig('plot.png')
 ```
 
+##### Plotting Data
+
+The plot() function can also take values for both the x and y axis.
+Let's add the month names on the horizontal axis:
+
+```py
+import matplotlib.pyplot as plt
+
+rev = [18000, 25000, 20000, 45000, 32000]
+months = ['June', 'July', 'August', 'September', 'October']
+plt.plot(months, rev)
+plt.savefig('plot.png')
+```
+
+Now you know how to perform basic financial calculations and create plots using Python!
+You can store data in arrays, manipulate and perform calculations using the Numpy and Numpy Financial packages and create charts with just a couple lines of code.
+
 [^^^](#NUMPY)
 
 ---
