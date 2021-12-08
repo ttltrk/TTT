@@ -5,10 +5,7 @@
 
 ---
 
-```
-M: LAN - PRG-PY/PRG-* - DB
-N: ENV - WEB - LL
-```
+* [DAILY_LOG](https://github.com/ttltrk/TTT/blob/master/DAILY_LOG/DAILY_LOG.md)
 
 ---
 
