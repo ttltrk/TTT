@@ -30,8 +30,16 @@ find . -mtime -1 2>/dev/null | head -n 10 #the files were modified in the last 2
 find . -mtime -90 2>/dev/null | head -n 10 #the files were modified in the last 90 days
 ```
 
-```sh
+- exclude mindent, ami nem *.log
 
+```sh
+find Scripts -type f ! '(' -name "*.log" ')'
+```
+
+- exclude mindent, ami nem *.log se *.csv
+
+```sh
+find Scripts -type f ! '(' -name "*.log" -o -name "*.csv" ')'
 ```
 
 [^^^](#FIND)
