@@ -9,6 +9,14 @@
 
 ---
 
+* [UNIFORM_RESOURCE_LOCATOR](#UNIFORM_RESOURCE_LOCATOR)
+* [INTERNET_STANDARS](#INTERNET_STANDARS)
+* [NETWORK_SOCKETS](#NETWORK_SOCKETS)
+* [TCP_PORT_NUMS](#TCP_PORT_NUMS)
+* [HYPERTEXT_TRANSFER_PROTOCOL](#HYPERTEXT_TRANSFER_PROTOCOL)
+* []()
+* []()
+
 ---
 
 #### UNIFORM_RESOURCE_LOCATOR
@@ -25,6 +33,10 @@ protocol-host-document
 - www.ietf.org
 - Standards are called "RFCs" - "Request for Comments"
 
+[^^^](#DJANGO_INTRO)
+
+---
+
 #### NETWORK_SOCKETS
 
 TCP Connections / Sockets
@@ -34,6 +46,10 @@ inter-process communication flow across an Internet Protocol-based computer netw
 the internet.
 
 Application process << Internet >> Application process
+
+[^^^](#DJANGO_INTRO)
+
+---
 
 #### TCP_PORT_NUMS
 
@@ -52,5 +68,14 @@ port extensions:
 - 109 - personal mail box
 - 110 - personal mail box
 ```
+
+[^^^](#DJANGO_INTRO)
+
+---
+
+#### HYPERTEXT_TRANSFER_PROTOCOL
+
+
+[^^^](#DJANGO_INTRO)
 
 ---
