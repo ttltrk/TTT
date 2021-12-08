@@ -26,3 +26,11 @@ protocol-host-document
 - Standards are called "RFCs" - "Request for Comments"
 
 #### NETWORK_SOCKETS
+
+TCP Connections / Sockets
+
+In computer networking, an Internet socket or network socket is an endpoint of a bidirectional
+inter-process communication flow across an Internet Protocol-based computer network, such as
+the internet.
+
+Application process << Internet >> Application process 
