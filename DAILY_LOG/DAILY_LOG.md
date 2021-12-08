@@ -9,6 +9,6 @@
 
 ---
 
-- D1 - 2021-12-08-THU: Django for Everybody - 1st hour
+- D23 - 2021-12-08 (TH): Django for Everybody - 1st hour
 
 ---
