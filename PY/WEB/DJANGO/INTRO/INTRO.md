@@ -26,6 +26,10 @@ http://data.pre4e.org/page1.com
 protocol-host-document
 ```
 
+[^^^](#DJANGO_INTRO)
+
+---
+
 #### INTERNET_STANDARS
 
 - the standards for all of the Internet protocols (inner workings) are developed by an org
