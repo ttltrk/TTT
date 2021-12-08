@@ -9,6 +9,7 @@
 
 ---
 
+* [DJANGO](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/DJANGO.md)
 * [FLASK](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK.md)
 * [REST_API](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md)
 
