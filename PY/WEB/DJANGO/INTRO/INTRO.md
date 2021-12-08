@@ -9,6 +9,4 @@
 
 ---
 
-* [INTRO](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/INTRO/INTRO.md)
-
 ---
