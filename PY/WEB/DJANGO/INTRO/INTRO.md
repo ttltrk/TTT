@@ -33,4 +33,10 @@ In computer networking, an Internet socket or network socket is an endpoint of a
 inter-process communication flow across an Internet Protocol-based computer network, such as
 the internet.
 
-Application process << Internet >> Application process 
+Application process << Internet >> Application process
+
+#### TCP_PORT_NUMS
+
+- a port is an application-specific or process-specific software communication endpoint
+- it allows multiple networked applications coexist on the same server
+- there is a list of well-known TCP port numbers
