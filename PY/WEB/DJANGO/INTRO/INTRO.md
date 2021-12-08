@@ -40,3 +40,17 @@ Application process << Internet >> Application process
 - a port is an application-specific or process-specific software communication endpoint
 - it allows multiple networked applications coexist on the same server
 - there is a list of well-known TCP port numbers
+
+```
+IP: 74.208.28.177
+
+port extensions:
+- 25 - incoming mail
+- 23 - login
+- 80 - web server
+- 443 - web server
+- 109 - personal mail box
+- 110 - personal mail box
+```
+
+---
