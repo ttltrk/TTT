@@ -17,3 +17,10 @@
 http://data.pre4e.org/page1.com
 protocol-host-document
 ```
+
+#### INTERNET_STANDARS
+
+- the standards for all of the Internet protocols (inner workings) are developed by an org
+- Internet Engineering Task Force (IETF)
+- www.ietf.org
+- Standards are called "RFCs" - "Request for Comments"
