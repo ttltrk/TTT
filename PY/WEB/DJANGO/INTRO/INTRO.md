@@ -24,3 +24,5 @@ protocol-host-document
 - Internet Engineering Task Force (IETF)
 - www.ietf.org
 - Standards are called "RFCs" - "Request for Comments"
+
+#### NETWORK_SOCKETS
