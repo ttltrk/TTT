@@ -11,5 +11,6 @@
 
 * [INTRO](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/INTRO/INTRO.md)
 * [OVERVIEW](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/OVERVIEW/OVERVIEW.md)
+* [SETUP](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/SETUP/SETUP.md)
 
 ---
