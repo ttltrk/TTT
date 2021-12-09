@@ -16,3 +16,19 @@
 
 (base) C:\Users\blabla\Desktop>
 ```
+
+2. Activate django
+
+```
+(base) C:\Users\blabla\Desktop\My_Django_stuff>activate MyDjangoEnv
+
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>
+```
+
+3. create your first project
+
+```
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>django-admin startproject first_project
+
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>
+```
