@@ -11,8 +11,20 @@
 
 To use a virtual environment with conda we use these commands:
 
-```py
+```
 conda create --name myEnv django
 ```
 
---- 
+You can activate the environment
+
+```
+activate myEnv
+```
+
+You can deactivate the environment
+
+```
+deactivate myEnv
+```
+
+---
