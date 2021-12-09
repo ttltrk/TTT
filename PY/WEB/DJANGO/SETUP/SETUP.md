@@ -15,6 +15,19 @@ To use a virtual environment with conda we use these commands:
 conda create --name myDjangoEnv django
 ```
 
+Check the status of the envs
+
+```
+(base) C:\Users\blabla>conda info --envs
+# conda environments:
+#
+base                  *  C:\Users\blabla\Anaconda3
+MyDjangoEnv              C:\Users\blabla\Anaconda3\envs\MyDjangoEnv
+pyfinance                C:\Users\blabla\Anaconda3\envs\pyfinance
+
+(base) C:\Users\blabla>
+```
+
 You can activate the environment
 
 ```
