@@ -34,6 +34,12 @@ You can activate the environment
 activate myDjangoEnv
 ```
 
+```
+(base) C:\Users\blabla>activate myDjangoEnv
+
+(myDjangoEnv) C:\Users\blabla>
+```
+
 You can deactivate the environment
 
 ```
