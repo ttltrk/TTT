@@ -10,6 +10,7 @@
 ---
 
 * [STARTAPP](#STARTAPP)
+* [CUSTOMIZATION](#CUSTOMIZATION)
 
 ---
 
@@ -29,7 +30,7 @@ How to create an app
 
 #### CUSTOMIZATION
 
-Update the settings.py in first_project with first_app
+1. Update the settings.py in first_project with first_app
 
 ```
 INSTALLED_APPS = [
@@ -43,7 +44,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-launch the server
+2. launch the server
 
 ```
 (MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\first_project>python manage.py runserver
@@ -60,7 +61,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-update the views.py in first_app like this
+3. update the views.py in first_app like this
 
 ```
 from django.shortcuts import render
@@ -71,21 +72,22 @@ def index(request):
     return HttpResponse("Hello World")
 ```
 
-update urls.py in first_project like this
+4. update urls.py in first_project like this
 
 ```
 from django.contrib import admin
 from django.urls import path
+from django.urls import re_path
 from first_app import views
 
 urlpatterns = [
-    path(r'^$',views.index,name='index'),
+    re_path('$',views.index,name='index'),
     path('admin/', admin.site.urls),
 ]
 ```
 
-launch the server again
+5. launch the server again
 
-```
+[^^^](DJANGO_FIRST_APP)
 
-```
+---
