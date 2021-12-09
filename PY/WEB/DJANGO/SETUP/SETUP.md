@@ -40,6 +40,12 @@ activate myDjangoEnv
 (myDjangoEnv) C:\Users\blabla>
 ```
 
+You can update your current django version
+
+```
+conda install django
+```
+
 You can deactivate the environment
 
 ```
