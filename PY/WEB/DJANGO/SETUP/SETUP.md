@@ -8,3 +8,11 @@
 ### DJANGO_SETUP
 
 ---
+
+To use a virtual environment with conda we use these commands:
+
+```py
+conda create --name myEnv django
+```
+
+--- 
