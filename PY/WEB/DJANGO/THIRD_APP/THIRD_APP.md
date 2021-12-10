@@ -64,7 +64,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-3. Create an Index view that returns: ```<em>My Second App</em>```
+3. Create an Index view that returns: ```<em>My Second App</em>``` (update the views.py in third_app like this)
 
 ```
 from django.shortcuts import render
@@ -76,7 +76,7 @@ def index(request):
 # Create your views here.
 ```
 
-4. Link this view to the urls.py file
+4. Link this view to the urls.py file (update urls.py in third_project like this)
 
 ```
 from django.contrib import admin
