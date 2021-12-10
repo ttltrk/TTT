@@ -14,5 +14,6 @@
 * [SETUP](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/SETUP/SETUP.md)
 * [PROJECT](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/PROJECT/PROJECT.md)
 * [FIRST_APP](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/FIRST_APP/FIRST_APP.md)
+* [SEC_APP](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/SEC_APP/SEC_APP.md)
 
 ---
