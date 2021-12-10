@@ -45,7 +45,23 @@ Not Found: /favicon.ico
 [10/Dec/2021 10:30:01] "GET /favicon.ico HTTP/1.1" 404 1995
 ```
 
-2. Create a mew Django App >> AppTwo
+2. Create a new Django App >> AppTwo
+
+- Update the settings.py in first_project with ProTwo
+
+```
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'ATwo'
+]
+```
+
+- launch the app
 
 ```
 
