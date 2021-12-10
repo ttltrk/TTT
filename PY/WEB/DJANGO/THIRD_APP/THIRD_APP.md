@@ -64,16 +64,30 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-3. Create an Index view that returns: ```<em>My Second App</em>
+3. Create an Index view that returns: ```<em>My Second App</em>```
 
 ```
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
 
+def index(request):
+    return HttpResponse("<em>My Third App</em>")
+# Create your views here.
 ```
 
 4. Link this view to the urls.py file
 
 ```
+from django.contrib import admin
+from django.urls import path
+from django.urls import re_path
+from third_app import views
 
+urlpatterns = [
+    re_path('$',views.index,name='index'),
+    path('admin/', admin.site.urls),
+]
 ```
 
 [^^^](#DJANGO_SEC_APP)
