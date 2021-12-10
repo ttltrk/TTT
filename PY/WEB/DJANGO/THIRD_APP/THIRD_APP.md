@@ -26,6 +26,7 @@ total 0
 drwxrwxrwx   1 GMX\ZZ01SD693   GMX\ZZ01SD693         0 Dec  9 12:56 first_project
 drwxrwxrwx   1 GMX\ZZ01SD693   GMX\ZZ01SD693         0 Dec 10 13:26 third_project
 
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>cd third_project
 (MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\third_project>python manage.py startapp third_app
 
 (MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\third_project>
