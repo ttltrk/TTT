@@ -61,7 +61,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
 ```
 
-3. update the views.py in first_app like this
+3. create a hello_world subject >> update the views.py in first_app like this
 
 ```
 from django.shortcuts import render
