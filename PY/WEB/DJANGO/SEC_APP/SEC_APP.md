@@ -11,43 +11,29 @@
 
 ---
 
-1. Create a new Django project >> ProThird
+1. Create a new Django project >> third_project
+2. Create a new Django App >> third_app
 
 ```
-(base) C:\Users\blabla>
-(base) C:\Users\blabla>cd Dekstop
-The system cannot find the path specified.
-
 (base) C:\Users\blabla>cd Desktop
 
 (base) C:\Users\blabla\Desktop>cd My_Django_stuff
 
 (base) C:\Users\blabla\Desktop\My_Django_stuff>activate MyDjangoEnv
 
-(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>django-admin startproject ProTwo
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>django-admin startproject third_project
 
-(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>cd ProTwo
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff>ls -l
+total 0
+drwxrwxrwx   1 GMX\ZZ01SD693   GMX\ZZ01SD693         0 Dec  9 12:56 first_project
+drwxrwxrwx   1 GMX\ZZ01SD693   GMX\ZZ01SD693         0 Dec 10 13:26 third_project
 
-(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\ProTwo>python manage.py runserver
-Watching for file changes with StatReloader
-Performing system checks...
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\third_project>python manage.py startapp third_app
 
-System check identified no issues (0 silenced).
-
-You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
-Run 'python manage.py migrate' to apply them.
-December 10, 2021 - 10:29:50
-Django version 3.2, using settings 'ProTwo.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
-[10/Dec/2021 10:30:00] "GET / HTTP/1.1" 200 10697
-Not Found: /favicon.ico
-[10/Dec/2021 10:30:01] "GET /favicon.ico HTTP/1.1" 404 1995
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\third_project>
 ```
 
-2. Create a new Django App >> AppThird
-
-- Update the settings.py in ProThird with AppThird
+3. Update the settings.py in third_project with third_app
 
 ```
 INSTALLED_APPS = [
@@ -57,14 +43,25 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'AppThird'
+    'third_app'
 ]
 ```
 
 - launch the app
 
 ```
+(MyDjangoEnv) C:\Users\blabla\Desktop\My_Django_stuff\third_project>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
 
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+December 10, 2021 - 13:28:44
+Django version 3.2, using settings 'third_project.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
 ```
 
 3. Create an Index view that returns: ```<em>My Second App</em>
