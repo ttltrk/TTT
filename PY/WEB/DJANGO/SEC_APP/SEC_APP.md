@@ -11,7 +11,7 @@
 
 ---
 
-1. Create a new Django project >> ProTwo
+1. Create a new Django project >> ProThird
 
 ```
 (base) C:\Users\blabla>
@@ -45,9 +45,9 @@ Not Found: /favicon.ico
 [10/Dec/2021 10:30:01] "GET /favicon.ico HTTP/1.1" 404 1995
 ```
 
-2. Create a new Django App >> AppTwo
+2. Create a new Django App >> AppThird
 
-- Update the settings.py in first_project with ProTwo
+- Update the settings.py in ProThird with AppThird
 
 ```
 INSTALLED_APPS = [
@@ -57,7 +57,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'ATwo'
+    'AppThird'
 ]
 ```
 
