@@ -5,7 +5,7 @@
 
 ---
 
-### DJANGO_SEC_APP
+### DJANGO_THIRD_APP
 
 ---
 
