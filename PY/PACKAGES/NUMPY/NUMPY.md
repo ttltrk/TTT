@@ -980,3 +980,21 @@ You can store data in arrays, manipulate and perform calculations using the Nump
 [^^^](#NUMPY)
 
 ---
+
+##### Accessing data - Pandas
+
+The two primary components of pandas are the Series and the DataFrame.
+
+A Series is essentially a column, and a DataFrame is a multi-dimensional table made up of a collection of Series.
+
+For example, the following DataFrame is made of two Series, ages and heights
+
+| ages | heights |
+| --- | --- |
+| 14 | 165 |
+| 18 | 180 |
+| 21 | 171 |
+
+[^^^](#NUMPY)
+
+---
