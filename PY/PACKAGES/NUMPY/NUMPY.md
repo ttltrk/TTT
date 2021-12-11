@@ -1039,8 +1039,29 @@ A DataFrame is similar to a spreadsheet, storing data in rows and columns. It is
 Let's create a DataFrame, which holds prices and their corresponding dates:
 
 ```py
+import pandas as pd
 
+data = {
+  'date': ['2021-06-10', '2021-06-11', '2021-06-12', '2021-06-13'],
+  'prices': [42.8, 102.03, 240.38, 80.9]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+>>>
+date  prices
+0  2021-06-10   42.80
+1  2021-06-11  102.03
+2  2021-06-12  240.38
+3  2021-06-13   80.90
+>>>
 ```
+
+The code above creates a DataFrame that has two columns: date and prices.
+Pandas provides many useful functions to manipulate data in a DataFrame.
+We will look at them in the next lessons, while scraping data from the web.
 
 [^^^](#NUMPY)
 
