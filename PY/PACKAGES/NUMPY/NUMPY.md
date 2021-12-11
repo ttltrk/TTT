@@ -995,6 +995,53 @@ For example, the following DataFrame is made of two Series, ages and heights
 | 18 | 180 |
 | 21 | 171 |
 
+You can think of a Series as an array, while a DataFrame is a collection of arrays.
+
+##### Accessing data - Series
+
+Let's create a Pandas Series based on an array:
+
+```py
+import pandas as pd
+
+prices = [42.8, 102.03, 240.38, 80.9]
+s = pd.Series(prices)
+print(s)
+
+>>>
+0     42.80
+1    102.03
+2    240.38
+3     80.90
+dtype: float64
+>>>
+```
+
+Now we can use Pandas functions on the Series.
+For example, we can use the describe() function to see the key statistics:
+
+```py
+count      4.000000
+mean     116.527500
+std       86.129132
+min       42.800000
+25%       71.375000
+50%       91.465000
+75%      136.617500
+max      240.380000
+dtype: float64
+```
+
+##### Accessing data - DataFrame
+
+A DataFrame is similar to a spreadsheet, storing data in rows and columns. It is a collection of Series, which correspond to the columns.
+
+Let's create a DataFrame, which holds prices and their corresponding dates:
+
+```py
+
+```
+
 [^^^](#NUMPY)
 
 ---
