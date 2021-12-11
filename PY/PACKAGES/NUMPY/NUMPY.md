@@ -1342,6 +1342,8 @@ print(data.info['returnOnEquity'])
 >>>
 ```
 
+You can check for all of the available field names using data.info.keys()
+
 [^^^](#NUMPY)
 
 ---
