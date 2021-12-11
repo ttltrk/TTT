@@ -15,6 +15,6 @@
 * [PROJECT](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/PROJECT/PROJECT.md)
 * [FIRST_APP](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/FIRST_APP/FIRST_APP.md)
 * [THIRD_APP](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/THIRD_APP/THIRD_APP.md)
-* [URL_MAPPING](https://github.com/ttltrk/TTT/blob/master/PY/WEB/URL_MAPPING/URL_MAPPING.md)
+* [URL_MAPPING](https://github.com/ttltrk/TTT/blob/master/PY/WEB/DJANGO/URL_MAPPING/URL_MAPPING.md)
 
 ---
