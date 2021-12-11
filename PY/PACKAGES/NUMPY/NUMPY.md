@@ -1312,6 +1312,36 @@ For example, let's take Tesla's data:
 data = yf.Ticker("TSLA")
 ```
 
+Now, we can access the company information under the corresponding fields.
+For example, to get the general data:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+print(data.info)
+
+>>>
+{'zip': '78725', 'sector': 'Consumer Cyclical', 'fullTimeEmployees': 70757, 'longBusinessSummary': 'Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive, and Energy Generation and Storage. The Automotive segment offers electric vehicles, as well as sells automotive regulatory credits. It provides sedans and sport utility vehicles through direct and used vehicle sales, a network of Tesla Superchargers, and in-app upgrades; and purchase financing and leasing services. This segment is also involved in the provision of non-warranty after-sales vehicle services, sale of used vehicles, retail merchandise, and vehicle insurance, as well as sale of products through its subsidiaries to third party customers; services for electric vehicles through its company-owned service locations, and Tesla mobile service technicians; and vehicle limited warranties and extended service plans. The Energy Generation and Storage segment engages in the design, manufacture, installation, sale, and leasing of solar energy generation and energy storage products, and related services to residential, commercial, and industrial customers and utilities through its website, stores, and galleries, as well as through a network of channel partners. This segment also offers service and repairs to its energy product customers, including under warranty; and various financing options to its solar customers. The company was formerly known as Tesla Motors, Inc. and changed its name to Tesla, Inc. in February 2017. Tesla, Inc. was founded in 2003 and is headquartered in Austin, Texas.', 'city': 'Austin', 'phone': '650-681-5000', 'state': 'TX', 'country': 'United States', 'companyOfficers': [], 'website': 'https://www.tesla.com', 'maxAge': 1, 'address1': '13101 Harold Green Road', 'industry': 'Auto Manufacturers', 'ebitdaMargins': 0.15512, 'profitMargins': 0.07403, 'grossMargins': 0.23107, 'operatingCashflow': 9930999808, 'revenueGrowth': 0.568, 'operatingMargins': 0.09789, 'ebitda': 7266999808, 'targetLowPrice': 67, 'recommendationKey': 'hold', 'grossProfits': 6630000000, 'freeCashflow': 4644624896, 'targetMedianPrice': 950, 'currentPrice': 1017.03, 'earningsGrowth': 4.333, 'currentRatio': 1.385, 'returnOnAssets': 0.055370003, 'numberOfAnalystOpinions': 35, 'targetMeanPrice': 855.58, 'debtToEquity': 35.65, 'returnOnEquity': 0.15641, 'targetHighPrice': 1400, 'totalCash': 16094999552, 'totalDebt': 10158000128, 'totalRevenue': 46848000000, 'totalCashPerShare': 16.027, 'financialCurrency': 'USD', 'revenuePerShare': 48.272, 'quickRatio': 1.002, 'recommendationMean': 2.6, 'exchange': 'NMS', 'shortName': 'Tesla, Inc.', 'longName': 'Tesla, Inc.', 'exchangeTimezoneName': 'America/New_York', 'exchangeTimezoneShortName': 'EST', 'isEsgPopulated': False, 'gmtOffSetMilliseconds': '-18000000', 'quoteType': 'EQUITY', 'symbol': 'TSLA', 'messageBoardId': 'finmb_27444752', 'market': 'us_market', 'annualHoldingsTurnover': None, 'enterpriseToRevenue': 21.706, 'beta3Year': None, 'enterpriseToEbitda': 139.93, '52WeekChange': 0.5688542, 'morningStarRiskRating': None, 'forwardEps': 8.19, 'revenueQuarterlyGrowth': None, 'sharesOutstanding': 1004259968, 'fundInceptionDate': None, 'annualReportExpenseRatio': None, 'totalAssets': None, 'bookValue': 26.945, 'sharesShort': 26570674, 'sharesPercentSharesOut': 0.026500002, 'fundFamily': None, 'lastFiscalYearEnd': 1609372800, 'heldPercentInstitutions': 0.4241, 'netIncomeToCommon': 3468000000, 'trailingEps': 3.062, 'lastDividendValue': None, 'SandP52WeekChange': 0.28888905, 'priceToBook': 37.744667, 'heldPercentInsiders': 0.19305, 'nextFiscalYearEnd': 1672444800, 'yield': None, 'mostRecentQuarter': 1632960000, 'shortRatio': 0.86, 'sharesShortPreviousMonthDate': 1635465600, 'floatShares': 815734211, 'beta': 2.037922, 'enterpriseValue': 1016871452672, 'priceHint': 2, 'threeYearAverageReturn': None, 'lastSplitDate': 1598832000, 'lastSplitFactor': '5:1', 'legalType': None, 'lastDividendDate': None, 'morningStarOverallRating': None, 'earningsQuarterlyGrowth': 3.888, 'priceToSalesTrailing12Months': 21.801626, 'dateShortInterest': 1638230400, 'pegRatio': 2.41, 'ytdReturn': None, 'forwardPE': 124.1795, 'lastCapGain': None, 'shortPercentOfFloat': 0.0325, 'sharesShortPriorMonth': 28075921, 'impliedSharesOutstanding': None, 'category': None, 'fiveYearAverageReturn': None, 'previousClose': 1003.8, 'regularMarketOpen': 1008.75, 'twoHundredDayAverage': 756.5437, 'trailingAnnualDividendYield': None, 'payoutRatio': 0, 'volume24Hr': None, 'regularMarketDayHigh': 1020.9797, 'navPrice': None, 'averageDailyVolume10Day': 21545328, 'regularMarketPreviousClose': 1003.8, 'fiftyDayAverage': 1001.6562, 'trailingAnnualDividendRate': None, 'open': 1008.75, 'toCurrency': None, 'averageVolume10days': 21545328, 'expireDate': None, 'algorithm': None, 'dividendRate': None, 'exDividendDate': None, 'circulatingSupply': None, 'startDate': None, 'regularMarketDayLow': 982.53, 'currency': 'USD', 'trailingPE': 332.14566, 'regularMarketVolume': 19730055, 'lastMarket': None, 'maxSupply': None, 'openInterest': None, 'marketCap': 1021362569216, 'volumeAllCurrencies': None, 'strikePrice': None, 'averageVolume': 25643445, 'dayLow': 982.53, 'ask': 1012.85, 'askSize': 800, 'volume': 19730055, 'fiftyTwoWeekHigh': 1243.49, 'fromCurrency': None, 'fiveYearAvgDividendYield': None, 'fiftyTwoWeekLow': 539.49, 'bid': 1012, 'tradeable': False, 'dividendYield': None, 'bidSize': 1800, 'dayHigh': 1020.9797, 'regularMarketPrice': 1017.03, 'logo_url': 'https://logo.clearbit.com/tesla.com'}
+>>>
+```
+
+Let's output the profit margins and RoE:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+
+print(data.info['profitMargins'])
+print(data.info['returnOnEquity'])
+
+>>>
+0.07403
+0.15641
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
