@@ -1063,6 +1063,51 @@ The code above creates a DataFrame that has two columns: date and prices.
 Pandas provides many useful functions to manipulate data in a DataFrame.
 We will look at them in the next lessons, while scraping data from the web.
 
+##### Accessing data - Web Scraping
+
+Pandas provides a read_html() function, which can be used to convert tables on web pages to DataFrames.
+
+For example, let's scrape the list of S&P 500 companies from Wikipedia.
+The list is available on the Wikipedia article page as a table.
+We simply need to call the read_html() function with the URL of the page as the parameter:
+
+```py
+data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+```
+
+Each table on the web page is stored as the DataFrame at a separate index. The first table has the index 0, the second table - the index 1, and so on.
+Let's access and output the first table:
+
+```py
+import pandas as pd
+
+data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+df = data[0]
+print(df)
+
+>>>
+Symbol             Security SEC filings             GICS Sector  \
+0      MMM                   3M     reports             Industrials   
+1      ABT  Abbott Laboratories     reports             Health Care   
+2     ABBV               AbbVie     reports             Health Care   
+3     ABMD              Abiomed     reports             Health Care   
+4      ACN            Accenture     reports  Information Technology   
+..     ...                  ...         ...                     ...   
+500    YUM          Yum! Brands     reports  Consumer Discretionary   
+501   ZBRA   Zebra Technologies     reports  Information Technology   
+502    ZBH        Zimmer Biomet     reports             Health Care   
+503   ZION        Zions Bancorp     reports              Financials   
+504    ZTS               Zoetis     reports             Health Care   
+
+                  GICS Sub-Industry    Headquarters Location  \
+0              Industrial Conglomerates    Saint Paul, Minnesota   
+1                 Health Care Equipment  North Chicago, Illinois   
+2                       Pharmaceuticals  North Chicago, Illinois   
+3                 Health Care Equipment   Danvers, Massachusetts   
+4        IT Consulting & Other Services          Dublin, Ireland   
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
