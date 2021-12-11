@@ -1288,6 +1288,30 @@ data.plot(kind='bar')
 plt.savefig('plot.png')
 ```
 
+Run the code to see the chart, showing the Avg. Estimate values from the table.
+Note that we called the plot() function right on the DataFrame, specifying the type of the chart.
+
+##### Accessing data - yFinance
+
+Scraping Yahoo Finance involves manual work, including adding a header, specifying the URL, making the request and using the read_html() function.
+
+Another way to get financial data from Yahoo Finance is to use the yfinance package.
+It was created to provide a super easy way to access the financial data, without the need for manual work.
+
+We need to install and import it first:
+
+```py
+import yfinance as yf
+```
+
+After importing the package, we can use its features.
+The Ticker module allows us to access company data based on their market ticker symbol.
+For example, let's take Tesla's data:
+
+```py
+data = yf.Ticker("TSLA")
+```
+
 [^^^](#NUMPY)
 
 ---
