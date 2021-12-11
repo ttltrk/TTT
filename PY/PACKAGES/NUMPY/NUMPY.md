@@ -1108,6 +1108,83 @@ Symbol             Security SEC filings             GICS Sector  \
 >>>
 ```
 
+Let's select and output only the Symbol and Security columns:
+
+```py
+import pandas as pd
+
+data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+df = data[0]
+
+df = df[['Symbol', 'Security']]
+print(df)
+
+>>>
+Symbol             Security
+0      MMM                   3M
+1      ABT  Abbott Laboratories
+2     ABBV               AbbVie
+3     ABMD              Abiomed
+4      ACN            Accenture
+..     ...                  ...
+500    YUM          Yum! Brands
+501   ZBRA   Zebra Technologies
+502    ZBH        Zimmer Biomet
+503   ZION        Zions Bancorp
+504    ZTS               Zoetis
+>>>
+```
+
+We can also filter the table, for example, by company name:
+
+```py
+import pandas as pd
+
+data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+df = data[0]
+df = df[df['Security'] == 'Apple']
+print(df)
+
+>>>
+Symbol Security SEC filings             GICS Sector  \
+44   AAPL    Apple     reports  Information Technology   
+
+                          GICS Sub-Industry  Headquarters Location  \
+44  Technology Hardware, Storage & Peripherals  Cupertino, California   
+
+Date first added     CIK Founded  
+44       1982-11-30  320193    1977  
+>>>
+```
+
+The info() function can be used to see all available columns:
+
+```py
+import pandas as pd
+
+
+data = pd.read_html('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+df = data[0]
+df.info()
+
+>>>
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 505 entries, 0 to 504
+Data columns (total 9 columns):
+Symbol                   505 non-null object
+Security                 505 non-null object
+SEC filings              505 non-null object
+GICS Sector              505 non-null object
+GICS Sub-Industry        505 non-null object
+Headquarters Location    505 non-null object
+Date first added         457 non-null object
+CIK                      505 non-null int64
+Founded                  505 non-null object
+dtypes: int64(1), object(8)
+memory usage: 35.6+ KB
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
