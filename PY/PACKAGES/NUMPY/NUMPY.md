@@ -1185,6 +1185,109 @@ memory usage: 35.6+ KB
 >>>
 ```
 
+Let's head to Yahoo Finance, which provides data on companies, their financial performance and profile.
+For example, here is Tesla's profile page: https://finance.yahoo.com/quote/TSLA/profile
+The first table is a list of Key Executives. Let's scrape it into a DataFrame:
+
+```py
+data = pd.read_html('https://finance.yahoo.com/quote/TSLA/profile')
+```
+
+This code will cause an error, because Yahoo checks the requester and requires a valid header.
+
+In order to fix the error, we need to specify the request header. For that, we will use the requests package and provide it with a valid header
+
+```py
+import pandas as pd
+import requests
+
+url_link = 'https://finance.yahoo.com/quote/TSLA/profile'
+r = requests.get(url_link,headers ={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
+
+data = pd.read_html(r.text)
+print(data[0])
+
+>>>
+Name                                        Title  \
+0          Mr. Elon R. Musk          Technoking of Tesla, CEO & Director   
+1   Mr. Zachary J. Kirkhorn                         Master of Coin & CFO   
+2     Mr. Andrew D. Baglino    Sr. VP of Powertrain & Energy Engineering   
+3        Mr. Vaibhav Taneja  Corp. Controller & Chief Accounting Officer   
+4         Mr. Martin Viecha          Sr. Director for Investor Relations   
+5         Mr. Alan Prescott                                  VP of Legal   
+6           Mr. Dave Arnold        Sr. Director of Global Communications   
+7              Brian Scelfo                 Sr. Director of Corp. Devel.   
+8   Mr. Jeffrey B. Straubel                                  Sr. Advisor   
+9  Mr. Franz von Holzhausen                               Chief Designer   
+
+Pay Exercised  Year Born  
+0      NaN       NaN     1972.0  
+1  300.76k     4.19M     1985.0  
+2  283.27k    14.86M     1981.0  
+3      NaN       NaN     1978.0  
+4      NaN       NaN        NaN  
+5      NaN       NaN        NaN  
+6      NaN       NaN        NaN  
+7      NaN       NaN        NaN  
+8      NaN       NaN     1976.0  
+9      NaN       NaN        NaN  
+
+>>>
+```
+
+We used the requests package to get the data and pass it to the read_html() function.
+A request header is used in an HTTP request to provide information about the request context, so that the server can tailor the response. We provided data for a standard web browser.
+
+Now, we can access other financial metrics.
+For example, let's scrape the Earnings Estimates from the Analysis page:
+
+```py
+import pandas as pd
+import requests
+
+url_link = 'https://finance.yahoo.com/quote/TSLA/analysis?p=TSLA'
+r = requests.get(url_link,headers ={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
+
+data = pd.read_html(r.text)
+print(data[0])  
+
+>>>
+Earnings Estimate  Current Qtr. (Dec 2021)  Next Qtr. (Mar 2022)  \
+0   No. of Analysts                    22.00                 10.00   
+1     Avg. Estimate                     1.92                  1.77   
+2      Low Estimate                     1.39                  1.38   
+3     High Estimate                     2.61                  2.38   
+4      Year Ago EPS                     0.80                  0.93   
+
+ Current Year (2021)  Next Year (2022)  
+0                31.00             30.00  
+1                 6.06              8.19  
+2                 4.25              5.25  
+3                 6.85             11.30  
+4                 2.24              6.06  
+>>>
+```
+
+We used the index [0] as it's the first table on the page.
+Now we can access the Avg. Estimate row from the table and plot it as a bar chart:
+
+```py
+import pandas as pd
+import requests
+import matplotlib.pyplot as plt
+
+url_link = 'https://finance.yahoo.com/quote/TSLA/analysis?p=TSLA'
+r = requests.get(url_link,headers ={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'})
+
+data = pd.read_html(r.text)
+data = data[0]
+data = data[data['Earnings Estimate'] == 'Avg. Estimate']
+
+data.plot(kind='bar')
+
+plt.savefig('plot.png')
+```
+
 [^^^](#NUMPY)
 
 ---
