@@ -1343,6 +1343,120 @@ print(data.info['returnOnEquity'])
 ```
 
 You can check for all of the available field names using data.info.keys()
+In addition to the info fields, the data object provides the following fields:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+
+# show dividends
+print(data.dividends)
+
+# show splits
+print(data.splits)
+
+# show balance sheet
+print(data.balance_sheet)
+
+# show cashflow
+print(data.cashflow)
+
+# show earnings
+print(data.earnings)
+
+>>>
+Series([], Name: Dividends, dtype: int64)
+Date
+2020-08-31    5.0
+Name: Stock Splits, dtype: float64
+                             2020-12-31  ...    2017-12-31
+Intangible Assets          3.130000e+08  ...  3.615020e+08
+Capital Surplus            2.726000e+10  ...  9.178024e+09
+Total Liab                 2.846900e+10  ...  2.302305e+10
+Total Stockholder Equity   2.222500e+10  ...  4.237242e+09
+Minority Interest          1.454000e+09  ...  1.395080e+09
+Other Current Liab         4.147000e+09  ...  3.098379e+09
+Total Assets               5.214800e+10  ...  2.865537e+10
+Common Stock               1.000000e+06  ...  1.690000e+05
+Other Current Assets       2.380000e+08  ...  1.553230e+08
+Retained Earnings         -5.399000e+09  ... -4.974299e+09
+Other Liab                 3.302000e+09  ...  4.196294e+09
+Good Will                  2.070000e+08  ...  6.023700e+07
+Treasury Stock             3.630000e+08  ...  3.334800e+07
+Other Assets               1.536000e+09  ...  1.166193e+09
+Cash                       1.938400e+10  ...  3.367914e+09
+Total Current Liabilities  1.424800e+10  ...  7.674740e+09
+Short Long Term Debt       1.758000e+09  ...  9.639320e+08
+Other Stockholder Equity   3.630000e+08  ...  3.334800e+07
+Property Plant Equipment   2.337500e+10  ...  2.049162e+10
+Total Current Assets       2.671700e+10  ...  6.570520e+09
+Net Tangible Assets        2.170500e+10  ...  3.815503e+09
+Net Receivables            1.903000e+09  ...  5.153810e+08
+Long Term Debt             8.571000e+09  ...  9.486248e+09
+Inventory                  4.101000e+09  ...  2.263537e+09
+Accounts Payable           6.051000e+09  ...  2.390250e+09
+Long Term Investments               NaN  ...  5.304000e+06
+
+[26 rows x 4 columns]
+                                             2020-12-31  ...    2017-12-31
+Change To Liabilities                      2.423000e+09  ...  8.570000e+08
+Total Cashflows From Investing Activities -3.132000e+09  ... -4.196000e+09
+Net Borrowings                            -2.488000e+09  ...  3.385000e+09
+Total Cash From Financing Activities       9.973000e+09  ...  4.415000e+09
+Change To Operating Activities            -1.165000e+09  ... -1.150000e+09
+Issuance Of Stock                          1.268600e+10  ...  6.590000e+08
+Net Income                                 7.210000e+08  ... -1.962000e+09
+Change In Cash                             1.311800e+10  ...  1.980000e+08
+Effect Of Exchange Rate                    3.340000e+08  ...  4.000000e+07
+Total Cash From Operating Activities       5.943000e+09  ... -6.100000e+07
+Depreciation                               2.322000e+09  ...  1.636000e+09
+Other Cashflows From Investing Activities  1.230000e+08  ...  4.600000e+07
+Change To Inventory                       -4.220000e+08  ... -1.790000e+08
+Change To Account Receivables             -6.520000e+08  ... -2.500000e+07
+Other Cashflows From Financing Activities -2.250000e+08  ...  3.710000e+08
+Change To Netincome                        2.536000e+09  ...  6.710000e+08
+Capital Expenditures                      -3.232000e+09  ... -4.081000e+09
+
+[17 rows x 4 columns]
+          Revenue    Earnings
+Year                         
+2017  11759000000 -1962000000
+2018  21461000000  -976000000
+2019  24578000000  -862000000
+2020  31536000000   721000000
+>>>
+```
+
+We can also easily plot the data.
+For example, let's create a bar chart for the revenue:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.Ticker("TSLA")
+
+x = data.earnings
+print(x)
+
+x.plot(kind="bar")
+plt.savefig('plot.png')
+
+>>>
+Revenue    Earnings
+Year                         
+2017  11759000000 -1962000000
+2018  21461000000  -976000000
+2019  24578000000  -862000000
+2020  31536000000   721000000
+>>>
+```
+
+##### Accessing data - Company Data
+
+We can also use the yfinance package to access data on company investors.
+Let's output the list of Tesla's major holders:
 
 [^^^](#NUMPY)
 
