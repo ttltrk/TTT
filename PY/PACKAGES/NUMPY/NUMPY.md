@@ -1499,6 +1499,179 @@ Holder    Shares  ...   % Out        Value
 >>>
 ```
 
+These fields are actually DataFrames. This means that you can use all the DataFrame functions and filtering options on the data. For example, you can use .info() to see all the columns available in the DataFrame.
+
+The .recommendations field provides data on historic recommendations by investment banks.
+Let's filter only the ones that are recent:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+
+x = data.recommendations
+x = x[x.index > '2021-06-01']
+print(x)
+
+>>>
+Firm        To Grade From Grade Action
+Date                                                                    
+2021-06-14 13:55:22  Canaccord Genuity             Buy              main
+2021-06-29 11:29:11                UBS         Neutral              main
+2021-07-07 14:52:52          JP Morgan     Underweight              main
+2021-07-27 10:54:46             Mizuho             Buy              main
+2021-07-27 11:48:23        Wells Fargo    Equal-Weight              main
+2021-07-27 11:51:22        RBC Capital  Sector Perform              main
+2021-07-27 13:38:59      Goldman Sachs             Buy              main
+2021-07-27 14:27:49  Canaccord Genuity             Buy              main
+2021-07-29 10:14:50            DZ Bank             Buy       Sell     up
+2021-08-02 15:55:02     KGI Securities      Outperform              init
+2021-08-09 09:17:02          Jefferies             Buy       Hold     up
+2021-09-23 12:18:35    Tudor Pickering            Sell              init
+2021-10-04 10:44:57        RBC Capital  Sector Perform              main
+2021-10-08 13:28:13  Canaccord Genuity             Buy              main
+2021-10-14 10:45:16           Barclays     Underweight              main
+2021-10-15 13:26:02          Jefferies             Buy              main
+2021-10-21 10:21:59            Wedbush      Outperform              main
+2021-10-21 11:06:18      Credit Suisse         Neutral              main
+2021-10-21 11:07:12        Wells Fargo    Equal-Weight              main
+2021-10-21 11:58:01        RBC Capital  Sector Perform              main
+2021-10-21 12:42:25             Mizuho             Buy              main
+2021-10-21 14:23:55       Roth Capital         Neutral              main
+2021-10-21 14:33:04  Canaccord Genuity             Buy              main
+2021-10-27 12:15:11      Goldman Sachs             Buy              main
+2021-10-28 14:15:36      Piper Sandler      Overweight              main
+2021-11-08 12:27:21          Jefferies             Buy              main
+>>>
+```
+
+The index of the DataFrame is the Date column.
+
+Let's apply what we've learned: create a function that will take a ticker as its parameter, and output the ROE value for that ticker.
+This will allow you to compare the ROE values of different companies:
+
+```py
+import yfinance as yf
+
+def RoE(ticker):
+  data = yf.Ticker(ticker)
+  roe = data.info['returnOnEquity']
+  name = data.info['shortName']
+  print(name, ":", roe)
+```
+
+Now we can call our function with different ticker values:
+
+```py
+import yfinance as yf
+
+def RoE(ticker):
+    data = yf.Ticker(ticker)
+    roe = data.info['returnOnEquity']
+    name = data.info['shortName']
+    print(name, ":", roe)
+
+RoE('AAPL')
+RoE('MSFT')
+
+>>>
+Apple Inc. : 1.47443
+Microsoft Corporation : 0.49303
+>>>
+```
+
+##### Accessing data - Stock Prices
+
+yfinance also provides the stock prices of the given ticker.
+
+```py
+import yfinance as yf
+
+data = yf.Ticker('TSLA')
+
+print(data.history())
+
+>>>
+Open         High  ...  Dividends  Stock Splits
+Date                                  ...                         
+2021-11-11  1102.770020  1104.969971  ...          0             0
+2021-11-12  1047.500000  1054.500000  ...          0             0
+2021-11-15  1017.630005  1031.979980  ...          0             0
+2021-11-16  1003.309998  1057.199951  ...          0             0
+2021-11-17  1063.510010  1119.640015  ...          0             0
+2021-11-18  1106.550049  1112.000000  ...          0             0
+2021-11-19  1098.869995  1138.719849  ...          0             0
+2021-11-22  1162.329956  1201.949951  ...          0             0
+2021-11-23  1167.510010  1180.499878  ...          0             0
+2021-11-24  1080.390015  1132.770020  ...          0             0
+2021-11-26  1099.469971  1108.782715  ...          0             0
+2021-11-29  1100.989990  1142.670044  ...          0             0
+2021-11-30  1144.369995  1168.000000  ...          0             0
+2021-12-01  1160.694946  1172.839844  ...          0             0
+2021-12-02  1099.060059  1113.000000  ...          0             0
+2021-12-03  1084.790039  1090.575317  ...          0             0
+2021-12-06  1001.510010  1021.640015  ...          0             0
+2021-12-07  1044.199951  1057.673950  ...          0             0
+2021-12-08  1052.709961  1072.380005  ...          0             0
+2021-12-09  1060.640015  1062.489990  ...          0             0
+2021-12-10  1008.750000  1020.979675  ...          0             0
+
+[21 rows x 7 columns]
+>>>
+```
+
+This will output the stock prices for the last month.
+We can provide a period parameter:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker('TSLA')
+
+print(data.history(period='5d'))
+
+>>>
+Open         High  ...  Dividends  Stock Splits
+Date                                  ...                         
+2021-12-06  1001.510010  1021.640015  ...          0             0
+2021-12-07  1044.199951  1057.673950  ...          0             0
+2021-12-08  1052.709961  1072.380005  ...          0             0
+2021-12-09  1060.640015  1062.489990  ...          0             0
+2021-12-10  1008.750000  1020.979675  ...          0             0
+
+[5 rows x 7 columns]
+>>>
+```
+
+Valid periods: 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max.
+We can also provide custom start and end dates:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker('TSLA')
+
+print(data.history(start="2021-01-01", end="2021-06-30"))
+
+>>>
+Open        High  ...  Dividends  Stock Splits
+Date                                ...                         
+2021-01-04  719.460022  744.489929  ...          0             0
+2021-01-05  723.659973  740.840027  ...          0             0
+2021-01-06  758.489990  774.000000  ...          0             0
+2021-01-07  777.630005  816.989990  ...          0             0
+2021-01-08  856.000000  884.489990  ...          0             0
+...                ...         ...  ...        ...           ...
+2021-06-23  632.000000  657.203979  ...          0             0
+2021-06-24  674.989990  697.619995  ...          0             0
+2021-06-25  689.580017  693.809998  ...          0             0
+2021-06-28  671.640015  694.699890  ...          0             0
+2021-06-29  684.650024  687.509888  ...          0             0
+
+[123 rows x 7 columns]
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
