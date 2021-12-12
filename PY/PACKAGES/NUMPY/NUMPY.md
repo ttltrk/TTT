@@ -1458,6 +1458,47 @@ Year
 We can also use the yfinance package to access data on company investors.
 Let's output the list of Tesla's major holders:
 
+```py
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+
+print(data.major_holders)
+
+>>>
+0                                      1
+0  19.43%        % of Shares Held by All Insider
+1  42.41%       % of Shares Held by Institutions
+2  52.64%        % of Float Held by Institutions
+3    2826  Number of Institutions Holding Shares
+>>>
+```
+
+We can also get the list of the institutional holders:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker("TSLA")
+
+print(data.institutional_holders)
+
+>>>
+Holder    Shares  ...   % Out        Value
+0         Vanguard Group, Inc. (The)  61992012  ...  0.0617  48073565465
+1                     Blackrock Inc.  52829488  ...  0.0526  40968211354
+2            Capital World Investors  37427314  ...  0.0373  29024133460
+3           State Street Corporation  31230141  ...  0.0311  24218349742
+4        Baillie Gifford and Company  13853124  ...  0.0138  10742820599
+5      Geode Capital Management, LLC  13169939  ...  0.0131  10213024295
+6            Jennison Associates LLC  10630339  ...  0.0106   8243615287
+7                           FMR, LLC   9921292  ...  0.0099   7693763520
+8         Northern Trust Corporation   8634516  ...  0.0086   6695894467
+9  Norges Bank Investment Management   7790070  ...  0.0078   5497218696
+
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
