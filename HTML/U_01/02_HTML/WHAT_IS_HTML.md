@@ -18,6 +18,9 @@
 ```
 Hyper Text Markup Language
 
+HTML is markup language that web developers use to structure and describe the content of a webpage
+(not a programming language)
+
 described by tags as:
 
 <H1> <p> <a>
