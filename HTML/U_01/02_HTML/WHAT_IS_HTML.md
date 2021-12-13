@@ -21,6 +21,9 @@ Hyper Text Markup Language
 HTML is markup language that web developers use to structure and describe the content of a webpage
 (not a programming language)
 
+HTML consists of elements that describe different types of content:
+paragraphs, links, headings, images, video, etc
+
 described by tags as:
 
 <H1> <p> <a>
