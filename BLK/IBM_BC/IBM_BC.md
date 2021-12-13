@@ -39,7 +39,22 @@ The video in this module describes the business context of blockchain, the probl
   - Public (fruit market, car auction)
   - Private (supply chain financing, bonds)
 
-#####
+##### Transferring assets
+
+Anything that is capable of being owned or controlled to produce value, is an asset
+
+Two fundamental type of asset:
+- Tangible (House)
+- Intangible (Mortgage)
+
+Intangible assets subdivide
+- Financial (bond)
+- Intellectual (patents)
+- Digital (data)
+
+Cash is also an asset
+- has property of anonymity
+ 
 #####
 #####
 #####
