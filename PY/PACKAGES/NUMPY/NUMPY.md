@@ -1672,6 +1672,73 @@ Date                                ...
 >>>
 ```
 
+As the data is a DataFrame, we can easily plot it.
+Let's plot the daily Close price of Tesla stock for the last month:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.Ticker('TSLA')
+
+x = data.history()['Close']
+x.plot()
+
+plt.savefig('plot.png')
+```
+
+In addition, yfinance allows you to download historical prices for more than one stock simultaneously.
+For example, let's take the stock prices of Apple, Microsoft and Tesla with one line:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+print(data['Close'])
+
+>>>
+
+[                       0%                       ]
+[**********************67%*******                ]  2 of 3 completed
+[*********************100%***********************]  3 of 3 completed
+                  AAPL        MSFT         TSLA
+Date                                           
+2021-01-04  129.410004  217.690002   729.770020
+2021-01-05  131.009995  217.899994   735.109985
+2021-01-06  126.599998  212.250000   755.979980
+2021-01-07  130.919998  218.289993   816.039978
+2021-01-08  132.050003  219.619995   880.020020
+...                ...         ...          ...
+2021-12-06  165.320007  326.190002  1009.010010
+2021-12-07  171.179993  334.920013  1051.750000
+2021-12-08  175.080002  334.970001  1068.959961
+2021-12-09  174.559998  333.100006  1003.799988
+2021-12-10  179.449997  342.540009  1017.030029
+
+[238 rows x 3 columns]
+>>>
+```
+
+You need to separate the ticker symbols using spaces.
+Now we can plot the stock prices of all the 3 tickers:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+data['Close'].plot()
+
+plt.savefig('plot.png')
+
+>>>
+[                       0%                       ]
+[**********************67%*******                ]  2 of 3 completed
+[*********************100%***********************]  3 of 3 completed
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
