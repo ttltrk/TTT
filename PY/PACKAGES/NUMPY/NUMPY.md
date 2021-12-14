@@ -1739,6 +1739,52 @@ plt.savefig('plot.png')
 >>>
 ```
 
+##### ANALYZING DATA - Stock Returns
+
+Now that we know how to get stock prices, we can perform calculations and analysis.
+We will start by calculating the daily returns of a stock.
+Let's get the stock prices for Tesla over the past year:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker('TSLA')
+price = data.history(period='1y')
+```
+
+In order to calculate the daily returns, we will use the pct_change() function, which calculates the percentage change between the current element and a prior one.
+We will use it on the 'Close' column:
+
+```py
+import yfinance as yf
+
+data = yf.Ticker('TSLA')
+price = data.history(period='1y')
+
+x = price['Close'].pct_change()
+
+print(x)
+
+>>>
+Date
+2020-12-14         NaN
+2020-12-15   -0.010284
+2020-12-16   -0.016550
+2020-12-17    0.053198
+2020-12-18    0.059613
+                ...   
+2021-12-08    0.016363
+2021-12-09   -0.060956
+2021-12-10    0.013180
+2021-12-13   -0.049772
+2021-12-14   -0.019050
+Name: Close, Length: 253, dtype: float64
+>>>
+```
+
+pct_change() is a Pandas function and can be applied to DataFrames.
+
+
 [^^^](#NUMPY)
 
 ---
