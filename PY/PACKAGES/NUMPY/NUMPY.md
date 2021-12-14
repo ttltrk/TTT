@@ -1784,6 +1784,70 @@ Name: Close, Length: 253, dtype: float64
 
 pct_change() is a Pandas function and can be applied to DataFrames.
 
+To visualize the results, we can create a plot for the daily returns:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.Ticker('TSLA')
+price = data.history(period='1y')
+
+x = price['Close'].pct_change()
+
+x.plot()
+
+plt.savefig('plot.png')
+```
+
+We can also make a histogram to see the distribution:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.Ticker('TSLA')
+price = data.history(period='1y')
+
+x = price['Close'].pct_change()
+
+x.plot(kind='hist')
+
+plt.savefig('plot.png')
+```
+
+A histogram is an approximate representation of the distribution of numerical data.
+
+After understanding how the returns are distributed, we can calculate the returns from an investment.
+For that, we need to calculate the cumulative returns, which can be done using the cumprod() function:
+
+```py
+x = price['Close'].pct_change()
+
+returns = (x + 1).cumprod()
+```
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.Ticker('TSLA')
+price = data.history(period='1y')
+
+x = price['Close'].pct_change()
+
+returns = (x + 1).cumprod()
+
+returns.plot()
+plt.savefig('plot.png')
+```
+
+The plot shows how a $1 investment would grow.
+
+The cumprod() function is used to get a cumulative product over an array of elements and return an array of the results.
+
+
+
 
 [^^^](#NUMPY)
 
