@@ -1886,6 +1886,82 @@ When we provide only the start date for the download() function, the end date is
 
 To better understand the return values, we can use the describe() function on the DataFrame to get the descriptive statistics:
 
+```py
+import yfinance as yf
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+
+x = data['Close'].pct_change()
+
+print(x.describe())
+
+>>>
+[                       0%                       ]
+[**********************67%*******                ]  2 of 3 completed
+[*********************100%***********************]  3 of 3 completed
+             AAPL        MSFT        TSLA
+count  239.000000  239.000000  239.000000
+mean     0.001370    0.001806    0.001724
+std      0.015670    0.013084    0.034425
+min     -0.041674   -0.036204   -0.119903
+25%     -0.007655   -0.005321   -0.016334
+50%      0.001485    0.000785    0.001770
+75%      0.012176    0.010251    0.019008
+max      0.053851    0.042114    0.196412
+>>>
+```
+
+Descriptive statistics include the mean, standard deviation, min, max values, as well as the 25/50/75th% percentiles.
+
+Let's visualize the results with charts.
+Here is a chart comparing the daily prices of the stocks:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+
+data['Close'].plot()
+
+plt.savefig('plot.png')
+
+>>>
+
+>>>
+```
+
+We can also plot their daily returns:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+
+x = data['Close'].pct_change()
+x.plot()
+
+plt.savefig('plot.png')
+>>>
+
+>>>
+```
+
+Here are the cumulative returns for the given stocks:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+
+x = data['Close'].pct_change()
+(x + 1).cumprod().plot()
+
+plt.savefig('plot.png')
+```
+
 [^^^](#NUMPY)
 
 ---
