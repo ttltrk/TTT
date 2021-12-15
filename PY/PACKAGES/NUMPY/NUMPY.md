@@ -1846,8 +1846,45 @@ The plot shows how a $1 investment would grow.
 
 The cumprod() function is used to get a cumulative product over an array of elements and return an array of the results.
 
+##### ANALYZING DATA - Multiple Stocks
 
+Let's take 3 different tickers and use the pct_change() function to calculate the daily returns:
 
+```py
+import yfinance as yf
+
+data = yf.download("AAPL MSFT TSLA", start='2021-01-01')
+x = data['Close'].pct_change()
+
+print(x)
+
+>>>
+
+[                       0%                       ]
+[**********************67%*******                ]  2 of 3 completed
+[*********************100%***********************]  3 of 3 completed
+                AAPL      MSFT      TSLA
+Date                                    
+2021-01-04       NaN       NaN       NaN
+2021-01-05  0.012364  0.000965  0.007317
+2021-01-06 -0.033662 -0.025929  0.028390
+2021-01-07  0.034123  0.028457  0.079447
+2021-01-08  0.008631  0.006093  0.078403
+...              ...       ...       ...
+2021-12-08  0.022783  0.000149  0.016363
+2021-12-09 -0.002970 -0.005583 -0.060956
+2021-12-10  0.028013  0.028340  0.013180
+2021-12-13 -0.020674 -0.009167 -0.049772
+2021-12-14 -0.008023 -0.032587 -0.008175
+
+[240 rows x 3 columns]
+>>>
+```
+
+The code above gets the stock prices for the given stocks and applies to pct_change() function to the Close price.
+When we provide only the start date for the download() function, the end date is set as the current date.
+
+To better understand the return values, we can use the describe() function on the DataFrame to get the descriptive statistics:
 
 [^^^](#NUMPY)
 
