@@ -1962,6 +1962,213 @@ x = data['Close'].pct_change()
 plt.savefig('plot.png')
 ```
 
+##### Analyzing data - Correlations
+
+
+In finance, correlation is a statistic that measures the degree to which two securities move in relation to each other.
+We can easily calculate the correlations between stocks in Python, with the corr() function.
+
+```py
+import yfinance as yf
+
+data = yf.download("FB AMZN AAPL NFLX GOOG", start='2020-01-01')
+x = data['Close'].pct_change()
+corr = x.corr()
+print(corr)
+
+>>>
+[                       0%                       ]
+[*******************   40%                       ]  2 of 5 completed
+[**********************60%****                   ]  3 of 5 completed
+[**********************80%*************          ]  4 of 5 completed
+[*********************100%***********************]  5 of 5 completed
+          AAPL      AMZN        FB      GOOG      NFLX
+AAPL  1.000000  0.671658  0.697614  0.697442  0.514942
+AMZN  0.671658  1.000000  0.633991  0.653996  0.611668
+FB    0.697614  0.633991  1.000000  0.739597  0.526617
+GOOG  0.697442  0.653996  0.739597  1.000000  0.503871
+NFLX  0.514942  0.611668  0.526617  0.503871  1.000000
+>>>
+```
+
+Let's draw a nice graphic using the statmodels package:
+
+```py
+import yfinance as yf
+import matplotlib.pyplot as plt
+import statsmodels.api as sm
+
+data = yf.download("FB AMZN AAPL NFLX GOOG", start='2020-01-01')
+x = data['Close'].pct_change()
+corr = x.corr()
+
+sm.graphics.plot_corr(corr, xnames=list(x.columns))
+
+plt.savefig('plot.png')
+```
+
+This will result in a graphic that shows the correlations between the given stocks in the given period.
+Tap Continue to learn how to interpret the correlations.
+
+The corr() function results in a matrix that includes values for each stock pair.
+The values are in the range of -1 to 1.
+
+A positive correlation means that the stocks have returns that are positively correlated and move in the same direction.
++1 means that the returns are perfectly correlated.
+
+A correlation of 0 shows no relationship between the pair.
+A negative correlation shows that the returns move in different directions.
+Finding stocks that have low correlation helps to diversify an investment portfolio and minimize risk.
+
+##### Analyzing data - Analyzing a Portfolio
+
+
+In this lesson we will take a hypothetical portfolio of stocks and analyze it by calculating some important metrics.
+
+First, let's define our portfolio. As an example, let's create our portfolio as 30% Apple, 20% Amazon, 40% Microsoft and 10% Tesla.
+We will define the stock tickers and the portfolio weights using arrays:
+
+```py
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+weights = [0.3, 0.2, 0.4, 0.1]
+```
+
+Now, when we have the arrays defined, we can get the stock prices and calculate the portfolio returns:
+
+```py
+import yfinance as yf
+import numpy as np
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+weights = [0.3, 0.2, 0.4, 0.1]
+
+data = yf.download(stocks, start='2021-01-01')
+
+#daily returns
+x = data['Close'].pct_change()
+
+#portfolio return
+ret = (x * weights).sum(axis = 1)
+
+#total cumulative returns for our portfolio
+cumulative = (ret + 1).cumprod()
+
+print(cumulative)
+
+>>>
+[                       0%                       ]
+[                       0%                       ]
+[**********************75%***********            ]  3 of 4 completed
+[*********************100%***********************]  4 of 4 completed
+Date
+2021-01-04    1.000000
+2021-01-05    1.006828
+2021-01-06    0.984063
+2021-01-07    1.014647
+2021-01-08    1.029021
+                ...   
+2021-12-10    1.410279
+2021-12-13    1.385010
+2021-12-14    1.361714
+2021-12-15    1.393113
+2021-12-16    1.349866
+Length: 242, dtype: float64
+>>>
+```
+
+To get the daily portfolio returns, we multiplied the daily returns by the weights and calculated the sum of the results.
+Plotting the cumulative returns will give us a better understanding of the data:
+
+```py
+import yfinance as yf
+import numpy as np
+import matplotlib.pyplot as plt
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+weights = [0.3, 0.2, 0.4, 0.1]
+
+data = yf.download(stocks, start='2021-01-01')
+
+#daily returns
+x = data['Close'].pct_change()
+
+#portfolio return
+ret = (x * weights).sum(axis = 1)
+
+#total cumulative returns for our portfolio
+cumulative = (ret + 1).cumprod()
+
+cumulative.plot()
+
+plt.savefig('plot.png')
+```
+
+The chart shows how our portfolio performs in the period.
+
+Next, we will calculate the volatility of our portfolio.
+Volatility is also often used to measure risk. If a stock is very volatile, you can expect large changes in its price and therefore a higher risk.
+Volatility is calculated using the standard deviation of the portfolio return.
+
+We can calculate the daily volatility by simply using the NumPy std function on our daily returns:
+
+```py
+import yfinance as yf
+import numpy as np
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+weights = [0.3, 0.2, 0.4, 0.1]
+
+data = yf.download(stocks, start='2021-01-01')
+
+#daily returns
+x = data['Close'].pct_change()
+
+#portfolio return
+ret = (x * weights).sum(axis = 1)
+
+print(np.std(ret))
+
+>>>
+[                       0%                       ]
+[**********************50%                       ]  2 of 4 completed
+[**********************75%***********            ]  3 of 4 completed
+[*********************100%***********************]  4 of 4 completed
+0.0132
+>>>
+```
+
+We can also calculate the annual volatility by taking the square of the number of trading days in a year (252) and multiply it by the daily volatility:
+
+```py
+import yfinance as yf
+import numpy as np
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+weights = [0.3, 0.2, 0.4, 0.1]
+
+data = yf.download(stocks, start='2021-01-01')
+
+#daily returns
+x = data['Close'].pct_change()
+
+#portfolio return
+ret = (x * weights).sum(axis = 1)
+
+annual_std = np.std(ret) * np.sqrt(252)
+print(annual_std)
+
+>>>
+[                       0%                       ]
+[**********************50%                       ]  2 of 4 completed
+[**********************75%***********            ]  3 of 4 completed
+[*********************100%***********************]  4 of 4 completed
+0.21093509361364307
+>>>
+```
+
+This will return the risk % of our portfolio.
+np.sqrt() is used to calculate the square root of a given number.
+
 [^^^](#NUMPY)
 
 ---
