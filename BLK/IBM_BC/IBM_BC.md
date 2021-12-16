@@ -54,8 +54,15 @@ Intangible assets subdivide
 
 Cash is also an asset
 - has property of anonymity
- 
-#####
+
+##### Ledgers, Transactions and Contracts
+
+- Ledger: an important log of all transactions, describes the inputs and outputs of the business
+- Transaction: an asset transfer between participants (Matt gives a car to Dave (simple))
+- Contract: the conditions for a transaction to occur
+    - if Dave pays Matt money, then car passes from Matt to Dave (simple)
+    - if car won't start, funds do not pass to Matt (as decided by third party arbitrator) (more complex)
+
 #####
 #####
 #####
