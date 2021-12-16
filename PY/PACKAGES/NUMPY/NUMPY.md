@@ -2169,6 +2169,42 @@ print(annual_std)
 This will return the risk % of our portfolio.
 np.sqrt() is used to calculate the square root of a given number.
 
+Another important metric is the Sharpe ratio.
+Sharpe ratio is the measure of the risk-adjusted return of a portfolio. A portfolio with a higher Sharpe ratio is considered better.
+
+To calculate the Sharpe ratio, we need to take the average return and divide it by the volatility.
+
+```py
+import yfinance as yf
+import numpy as np
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+weights = [0.3, 0.2, 0.4, 0.1]
+
+data = yf.download(stocks, start='2021-01-01')
+
+#daily returns
+x = data['Close'].pct_change()
+
+#portfolio return
+ret = (x * weights).sum(axis = 1)
+
+annual_std = np.std(ret) * np.sqrt(252)
+
+sharpe = (np.mean(ret) / np.std(ret))*np.sqrt(252)
+
+print(sharpe)
+
+>>>
+
+[                       0%                       ]
+[**********************50%                       ]  2 of 4 completed
+[**********************75%***********            ]  3 of 4 completed
+[*********************100%***********************]  4 of 4 completed
+1.5722641351351114
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
