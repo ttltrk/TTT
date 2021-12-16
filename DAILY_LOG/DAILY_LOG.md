@@ -9,6 +9,8 @@
 
 ---
 
+- D31 - 2021-12-16 (TH): IBM Blockchain, Python for Finance
+- D30 - 2021-12-15 (WE): Blockchain
 - D29 - 2021-12-14 (TU): Python for Finance
 - D28 - 2021-12-13 (MO): Python for Finance, HTML, CSS
 - D27 - 2021-12-12 (SU): Python for Finance - Accessing data
