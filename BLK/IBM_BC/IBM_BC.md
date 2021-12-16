@@ -63,7 +63,11 @@ Cash is also an asset
     - if Dave pays Matt money, then car passes from Matt to Dave (simple)
     - if car won't start, funds do not pass to Matt (as decided by third party arbitrator) (more complex)
 
-#####
+##### Different types of blockchain
+
+- All blockchains aim to provide irrefutable proof that a set of transactions occurred between participants
+- Different types of blockchain exist:
+
 #####
 #####
 #####
