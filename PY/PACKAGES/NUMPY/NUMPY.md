@@ -14,22 +14,6 @@ NumPy includes functions and data structures that can perform a wide variety of 
 
 ---
 
-@startuml
-
-Instance <|-- VulkanRootObject
-
-class Instance {
-    -- Contructors & destructors --
-    - Instance()
-
-    -- Public methods --
-    + Initialize() : bool
-}
-
-@enduml
-
----
-
 * [LINKS](#LINKS)
 * [ARRAYS](#ARRAYS)
 * [ARANGE](#ARANGE)
