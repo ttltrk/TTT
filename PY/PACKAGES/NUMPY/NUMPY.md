@@ -7,17 +7,6 @@
 
 ### NUMPY
 
-```plantuml
-@startuml component
-actor client
-node app
-database db
-
-db -> app
-app -> client
-@enduml
-```
-
 NumPy is a library for the Python programming language, adding support for large,
 multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 NumPy (Numerical Python) is a Python library used to work with numerical data.
