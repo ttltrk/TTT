@@ -2205,6 +2205,52 @@ print(sharpe)
 >>>
 ```
 
+##### ##### Analyzing data - Loops
+
+Before we can do portfolio optimization, we need to learn about for loops and ranges.
+
+A loop allows you to run a block of code multiple times.
+Each time the code in a loop is executed, it is called an iteration.
+
+For example, we can use a for loop to iterate over an array and calculate the product of all elements:
+
+```py
+prices = [3, 5, 2, 8]
+
+prod = 1
+for p in prices:
+  prod = prod * p
+
+print(prod)
+
+>>>
+240
+>>>
+```
+
+
+The code creates a variable named prod, which will store the result and initialize it to 1.
+Next, during each iteration of the for loop, the prod variable is multipliedby the current item of the array:
+
+```py
+prices = [3, 5, 2, 8]
+
+prod = 1
+for p in prices:
+  prod = prod * p
+
+print(prod)
+
+>>>
+240
+>>>
+```
+
+Note the syntax of the for loop: it uses a temporary variable, which represents the current item of the array. We named it p, but you could name it anything you like.
+The for loop starts with a colon :.
+After that, the code that belongs to the for loop needs to be indented with spaces.
+
+
 [^^^](#NUMPY)
 
 ---
