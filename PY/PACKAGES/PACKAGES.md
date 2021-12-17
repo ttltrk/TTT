@@ -23,5 +23,6 @@
 * [TENSORFLOW](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/TENSORFLOW/TENSORFLOW.md)
 * [TKINTER](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/TKINTER/TKINTER.md)
 * [WEBSCRAPING](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/WEBSCRAPING/WEBSCRAPING.md)
+* [YFINANCE](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/YFINANCE/YFINANCE.md)
 
 ---
