@@ -2351,19 +2351,223 @@ p_sharpe = []
 
 [] defines an empty list.
 
+We are going to randomly assign a weight to each stock in our portfolio, and then calculate the metrics for that portfolio, including the Sharpe ratio.
+To generate random weights, we will use the NumPy random function:
 
 ```py
+import numpy as np
 
+wts = np.random.uniform(size = 4)
+wts = wts/np.sum(wts)
+
+print(wts)
+
+>>>
+[0.45283931 0.04801451 0.32930313 0.16984305]
+>>>
 ```
+
+We divide the resulting weights by their sum to normalize them, so that the sum of the random weights is always 1.
+Running the code above will generate random weights that sum up to 1.
+
+Now we need to run a for loop, generate the random weights and calculate the returns, volatility and Sharpe ratio of the portfolio.
+We already learned how to calculate these metrics, so here comes the code:
 
 ```py
+count = 500
+for k in range(0, count):
+   wts = np.random.uniform(size = len(x.columns))
+   wts = wts/np.sum(wts)
+   p_weights.append(wts)
 
+   #returns
+   mean_ret = (x.mean() * wts).sum()*252
+   p_returns.append(mean_ret)
+
+   #volatility
+   ret = (x * wts).sum(axis = 1)
+   annual_std = np.std(ret) * np.sqrt(252)
+   p_risk.append(annual_std)
+
+   #Sharpe ratio
+   sharpe = (np.mean(ret) / np.std(ret))*np.sqrt(252)
+   p_sharpe.append(sharpe)
 ```
+
+The for loop runs 500 times. During each iteration we calculate the metrics and store them in the corresponding lists using the append() function.
+We used 500 to optimize the time to run the code in our Playground. In other scenarios, you could generate thousands of portfolios, to get a better result.
+The code seems long and complex, however it simply calculates the metrics using their formulas that we have seen before, and stores them in the lists.
+
+We now have the metrics for 500 portfolios!
+Let's find the index of the portfolio with the maximum Sharpe ratio using the Numpy argmax() function and output the max Sharpe ratio and the weights:
 
 ```py
+import yfinance as yf
+import numpy as np
+import pandas as pd
 
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+
+data = yf.download(stocks, start='2018-01-01')
+
+#daily returns
+data = data['Close']
+x = data.pct_change()
+
+p_weights = []
+p_returns = []
+p_risk = []
+p_sharpe = []
+
+count = 500
+for k in range(0, count):
+    wts = np.random.uniform(size = len(x.columns))
+    wts = wts/np.sum(wts)
+    p_weights.append(wts)
+
+    #returns
+    mean_ret = (x.mean() * wts).sum()*252
+    p_returns.append(mean_ret)
+
+    #volatility
+    ret = (x * wts).sum(axis = 1)
+    annual_std = np.std(ret) * np.sqrt(252)
+    p_risk.append(annual_std)
+
+    #Sharpe ratio
+    sharpe = (np.mean(ret) / np.std(ret))*np.sqrt(252)
+    p_sharpe.append(sharpe)
+
+
+max_ind = np.argmax(p_sharpe)
+
+#Max Sharpe ratio
+print(p_sharpe[max_ind])
+
+#weights
+print(p_weights[max_ind])
+
+>>>
+[                       0%                       ]
+[**********************50%                       ]  2 of 4 completed
+[**********************75%***********            ]  3 of 4 completed
+[*********************100%***********************]  4 of 4 completed
+1.58204756708192
+[0.24768789 0.01605864 0.41115028 0.32510319]
+>>>
 ```
 
+This portfolio results in the maximum Sharpe ratio.
+
+Let's draw a bar chart visualizing the weights:
+
+```py
+import yfinance as yf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+
+data = yf.download(stocks, start='2018-01-01')
+
+#daily returns
+data = data['Close']
+x = data.pct_change()
+
+p_weights = []
+p_returns = []
+p_risk = []
+p_sharpe = []
+
+count = 500
+for k in range(0, count):
+    wts = np.random.uniform(size = len(x.columns))
+    wts = wts/np.sum(wts)
+    p_weights.append(wts)
+
+    #returns
+    mean_ret = (x.mean() * wts).sum()*252
+    p_returns.append(mean_ret)
+
+    #volatility
+    ret = (x * wts).sum(axis = 1)
+    annual_std = np.std(ret) * np.sqrt(252)
+    p_risk.append(annual_std)
+
+    #Sharpe ratio
+    sharpe = (np.mean(ret) / np.std(ret))*np.sqrt(252)
+    p_sharpe.append(sharpe)
+
+
+max_ind = np.argmax(p_sharpe)
+
+s = pd.Series(p_weights[max_ind], index=x.columns)
+s.plot(kind='bar')
+
+plt.savefig('plot.png')
+```
+
+We found the best portfolio weights!
+As a last step, let's plot all the 500 portfolios.
+The chart is called Efficient Frontier and shows the returns on the Y-axis and volatility on the X-axis.
+
+We can create the chart using the scatter() function, providing the volatility and return lists as parameters:
+
+```py
+import yfinance as yf
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+
+data = yf.download(stocks, start='2018-01-01')
+
+#daily returns
+data = data['Close']
+x = data.pct_change()
+
+p_weights = []
+p_returns = []
+p_risk = []
+p_sharpe = []
+
+count = 500
+for k in range(0, count):
+    wts = np.random.uniform(size = len(x.columns))
+    wts = wts/np.sum(wts)
+    p_weights.append(wts)
+
+    #returns
+    mean_ret = (x.mean() * wts).sum()*252
+    p_returns.append(mean_ret)
+
+    #volatility
+    ret = (x * wts).sum(axis = 1)
+    annual_std = np.std(ret) * np.sqrt(252)
+    p_risk.append(annual_std)
+
+    #Sharpe ratio
+    sharpe = (np.mean(ret) / np.std(ret))*np.sqrt(252)
+    p_sharpe.append(sharpe)
+
+
+max_ind = np.argmax(p_sharpe)
+
+plt.scatter(p_risk, p_returns, c=p_sharpe, cmap='plasma')
+plt.colorbar(label='Sharpe Ratio')
+
+plt.scatter(p_risk[max_ind], p_returns[max_ind], color='r', marker='*', s=500)
+plt.show()
+
+plt.savefig('plot.png')
+```
+
+We used additional parameters to make the chart prettier and add a color bar for the Sharpe ratio.
+
+We have also added a red star marker to the chart, showing the most efficient portfolio with the best Sharpe ratio.
+The Efficient Frontier chart shows the return we can get for the given volatility, or, the volatility that we get for a certain return.
 
 [^^^](#NUMPY)
 
