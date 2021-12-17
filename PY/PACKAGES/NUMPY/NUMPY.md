@@ -2205,7 +2205,7 @@ print(sharpe)
 >>>
 ```
 
-##### ##### Analyzing data - Loops
+##### Analyzing data - Loops
 
 Before we can do portfolio optimization, we need to learn about for loops and ranges.
 
@@ -2249,6 +2249,120 @@ print(prod)
 Note the syntax of the for loop: it uses a temporary variable, which represents the current item of the array. We named it p, but you could name it anything you like.
 The for loop starts with a colon :.
 After that, the code that belongs to the for loop needs to be indented with spaces.
+
+##### Analyzing data - Ranges
+
+If you need to run a for loop a given number of times, you can use a range.
+
+What is a range? It is a function that is used to create sequences.
+For example, the following range creates a sequence of numbers from 0 to 10:
+
+```py
+print(list(range(0, 10)))
+
+>>>
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>>
+```
+
+The parameters specify the start and end of the sequence.
+Note that the end parameter is not included in the resulting sequence, while the start parameter is included.
+
+##### Analyzing data - Ranges and Loops
+
+When we have a range, we can use the for loop to run over that range.
+For example, the following code will output 'hello!' 5 times:
+
+```py
+for i in range(0, 5):
+   print("hello!")
+
+>>>
+hello!
+hello!
+hello!
+hello!
+hello!
+>>>
+```
+
+for loops with ranges allow you to execute a block of code a specific number of times.
+We will use this technique in the next lesson, while performing Portfolio Optimization!
+
+##### Analyzing data - Portfolio Optimization
+
+We learned how to calculate the main metrics to analyze and evaluate a portfolio of stocks.
+Now we can use the power of Python to optimize a portfolio!
+Portfolio optimization is the technique of allocating assets so that it has the maximum return and minimum risk.
+This can be done by finding the allocation that results in the maximum Sharpe ratio.
+
+The simplest way to find the best allocation is to check many random allocations and find the one that has the best Sharpe ratio.
+This process of randomly guessing is known as a Monte Carlo Simulation.
+
+To get started, let's define the initial stocks, download their price data, and calculate the daily returns.
+
+```py
+import yfinance as yf
+import numpy as np
+import pandas as pd
+
+stocks = ['AAPL', 'AMZN', 'MSFT', 'TSLA']
+
+data = yf.download(stocks, start='2018-01-01')
+
+#daily returns
+data = data['Close']
+x = data.pct_change()
+
+print(x)
+
+>>>
+[                       0%                       ]
+[**********************50%                       ]  2 of 4 completed
+[**********************75%***********            ]  3 of 4 completed
+[*********************100%***********************]  4 of 4 completed
+                AAPL      AMZN      MSFT      TSLA
+Date                                              
+2018-01-02       NaN       NaN       NaN       NaN
+2018-01-03 -0.000174  0.012775  0.004654 -0.010233
+2018-01-04  0.004645  0.004476  0.008801 -0.008290
+2018-01-05  0.011385  0.016163  0.012398  0.006230
+2018-01-08 -0.003714  0.014425  0.001020  0.062638
+...              ...       ...       ...       ...
+2021-12-10  0.028013 -0.011248  0.028340  0.013180
+2021-12-13 -0.020674 -0.015356 -0.009167 -0.049772
+2021-12-14 -0.008023 -0.002807 -0.032587 -0.008175
+2021-12-15  0.028509  0.024978  0.019218  0.018237
+2021-12-16 -0.039264 -0.025641 -0.029135 -0.050277
+
+[998 rows x 4 columns]
+>>>
+```
+
+We need to store the weights, returns and Sharpe ratios for each portfolio we will be checking so that we can then find the one that is best.
+We will define lists to store these values for each portfolio.
+
+```py
+p_weights = []
+p_returns = []
+p_risk = []
+p_sharpe = []
+```
+
+[] defines an empty list.
+
+
+```py
+
+```
+
+```py
+
+```
+
+```py
+
+```
 
 
 [^^^](#NUMPY)
