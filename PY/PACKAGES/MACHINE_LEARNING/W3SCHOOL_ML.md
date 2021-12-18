@@ -88,6 +88,8 @@ You will learn more about statistics and analyzing data in the next chapters.
 
 [^^^](#W3SCHOOL_ML)
 
+---
+
 #### MEAN_MEDIAN_MODE
 
 ##### Mean, Median, and Mode
@@ -132,7 +134,81 @@ print(x)
 >>>
 ```
 
+##### Median
+
+The median value is the value in the middle, after you have sorted all the values:
+
+```
+77, 78, 85, 86, 86, 86, >>> 87 <<<, 87, 88, 94, 99, 103, 111
+```
+
+It is important that the numbers are sorted before you can find the median.
+
+```py
+import numpy
+
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+x = numpy.median(speed)
+
+print(x)
+
+>>>
+87.0
+>>>
+```
+
+If there are two numbers in the middle, divide the sum of those numbers by two.
+
+```
+77, 78, 85, 86, 86, >>> 86 <<<, >>> 87 <<<, 87, 94, 98, 99, 103
+```
+
+```
+(86 + 87) / 2 = 86.5
+```
+
+```py
+import numpy
+
+speed = [99,86,87,88,86,103,87,94,78,77,85,86]
+
+x = numpy.median(speed)
+
+print(x)
+
+>>>
+86.5
+>>>
+```
+
+##### Mode
+
+The Mode value is the value that appears the most number of times:
+
+```
+99, >>> 86 <<<, 87, 88, 111, >>> 86 <<<, 103, 87, 94, 78, 77, 85, >>> 86 <<< = 86
+```
+
+```py
+from scipy import stats
+
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+x = stats.mode(speed)
+
+print(x)
+
+>>>
+ModeResult(mode=array([86]), count=array([3]))
+>>>
+```
+
+The Mean, Median, and Mode are techniques that are often used in Machine Learning, so it is important to understand the concept behind them.
+
 [^^^](#W3SCHOOL_ML)
+
+---
 
 #### STANDARD_DEVIATION
 
@@ -142,6 +218,8 @@ print(x)
 
 [^^^](#W3SCHOOL_ML)
 
+---
+
 #### PERCENTILE
 
 ```py
@@ -149,6 +227,8 @@ print(x)
 ```
 
 [^^^](#W3SCHOOL_ML)
+
+---
 
 #### DATA_DISTRIBUTION
 
@@ -158,6 +238,8 @@ print(x)
 
 [^^^](#W3SCHOOL_ML)
 
+---
+
 #### NORMAL_DATA_DISTRIBUTION
 
 ```py
@@ -165,6 +247,8 @@ print(x)
 ```
 
 [^^^](#W3SCHOOL_ML)
+
+---
 
 #### SCATTER_PLOT
 
@@ -174,6 +258,8 @@ print(x)
 
 [^^^](#W3SCHOOL_ML)
 
+---
+
 #### LINEAR_REGRESSION
 
 ```py
@@ -181,6 +267,8 @@ print(x)
 ```
 
 [^^^](#W3SCHOOL_ML)
+
+---
 
 #### POLYNOMINAL_REGRESSION
 
@@ -190,6 +278,8 @@ print(x)
 
 [^^^](#W3SCHOOL_ML)
 
+---
+
 #### MULTIPLE_REGRESSION
 
 ```py
@@ -197,6 +287,8 @@ print(x)
 ```
 
 [^^^](#W3SCHOOL_ML)
+
+---
 
 #### SCALE
 
@@ -206,6 +298,8 @@ print(x)
 
 [^^^](#W3SCHOOL_ML)
 
+---
+
 #### TRAIN_TEST
 
 ```py
@@ -213,6 +307,8 @@ print(x)
 ```
 
 [^^^](#W3SCHOOL_ML)
+
+---
 
 #### DECISION_TREE
 
