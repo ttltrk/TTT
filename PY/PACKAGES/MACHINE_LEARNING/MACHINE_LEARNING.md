@@ -16,6 +16,7 @@
 ---
 
 * [LINKS](#LINKS)
+* [W3SCHOOL_ML](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/W3SCHOOL_ML.md)
 * [THE_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/THE_BASICS.md)
 * [CLASSIFICATION](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/CLASSIFICATION.md)
 * [MODEL_EVALUATION](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/MODEL_EVALUATION.md)
