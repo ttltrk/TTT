@@ -90,7 +90,64 @@ import numpy
 ```
 
 ```py
+import numpy
 
+arr = numpy.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+>>>
+[1 2 3 4 5]
+>>>
+```
+
+##### NumPy as np
+
+NumPy is usually imported under the np alias.
+alias: In P
+##### NumPy as np
+
+NumPy is us
+
+##### NumPy as np
+
+NumPy is us
+
+##### NumPy as np
+
+NumPy is usython alias are an alternate name for referring to the same thing.
+Create an alias with the as keyword while importing:
+
+```py
+import numpy as np
+```
+
+Now the NumPy package can be referred to as np instead of numpy.
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+>>>
+[1 2 3 4 5]
+>>>
+```
+
+##### Checking NumPy Version
+
+The version string is stored under __version__ attribute.
+
+```py
+import numpy as np
+
+print(np.__version__)
+
+>>>
+1.16.2
+>>>
 ```
 
 ```py
@@ -104,7 +161,6 @@ import numpy
 ```py
 
 ```
-
 [^^^](#NUMPY)
 
 ---
