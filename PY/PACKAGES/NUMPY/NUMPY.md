@@ -104,18 +104,7 @@ print(arr)
 ##### NumPy as np
 
 NumPy is usually imported under the np alias.
-alias: In P
-##### NumPy as np
-
-NumPy is us
-
-##### NumPy as np
-
-NumPy is us
-
-##### NumPy as np
-
-NumPy is usython alias are an alternate name for referring to the same thing.
+alias: In Python alias are an alternate name for referring to the same thing.
 Create an alias with the as keyword while importing:
 
 ```py
