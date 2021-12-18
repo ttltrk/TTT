@@ -15,7 +15,8 @@ NumPy includes functions and data structures that can perform a wide variety of 
 ---
 
 * [LINKS](#LINKS)
-* [INTRO](#INTRO)
+* [INTRO_W3](#INTRO_W3)
+* [GETTING_STARTED_W3](#GETTING_STARTED_W3)
 * [ARRAYS](#ARRAYS)
 * [ARANGE](#ARANGE)
 * [ZEROS](#ZEROS)
@@ -42,7 +43,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 
 ---
 
-#### INTRO
+#### INTRO_W3
 
 ##### What is NumPy?
 
@@ -73,6 +74,36 @@ NumPy is a Python library and is written partially in Python, but most of the pa
 
 The source code for NumPy is located at this (github repository)[https://github.com/numpy/numpy]
 github: enables many people to work on the same codebase.
+
+[^^^](#NUMPY)
+
+---
+
+#### GETTING_STARTED_W3
+
+##### Import NumPy
+
+Once NumPy is installed, import it in your applications by adding the import keyword:
+
+```py
+import numpy
+```
+
+```py
+
+```
+
+```py
+
+```
+
+```py
+
+```
+
+```py
+
+```
 
 [^^^](#NUMPY)
 
