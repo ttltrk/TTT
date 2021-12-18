@@ -1,0 +1,138 @@
+
+---
+
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [PY](https://github.com/ttltrk/TTT/blob/master/PY/PY.md) - [PACKAGES](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/PACKAGES.md) - [MACHINE_LEARNING](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/MACHINE_LEARNING/MACHINE_LEARNING.md)
+
+---
+
+### W3SCHOOL_ML
+
+---
+
+```
+
+```
+
+---
+
+* [GETTING_STARTED](#GETTING_STARTED)
+* [MEAN_MEDIAN_MODE](#MEAN_MEDIAN_MODE)
+* [STANDARD_DEVIATION](#STANDARD_DEVIATION)
+* [PERCENTILE](#PERCENTILE)
+* [DATA_DISTRIBUTION](#DATA_DISTRIBUTION)
+* [NORMAL_DATA_DISTRIBUTION](#NORMAL_DATA_DISTRIBUTION)
+* [SCATTER_PLOT](#SCATTER_PLOT)
+* [LINEAR_REGRESSION](#LINEAR_REGRESSION)
+* [POLYNOMINAL_REGRESSION](#POLYNOMINAL_REGRESSION)
+* [MULTIPLE_REGRESSION](#MULTIPLE_REGRESSION)
+* [SCALE](#SCALE)
+* [TRAIN_TEST](#TRAIN_TEST)
+* [DECISION_TREE](#DECISION_TREE)
+
+---
+
+#### GETTING_STARTED
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### MEAN_MEDIAN_MODE
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### STANDARD_DEVIATION
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### PERCENTILE
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### DATA_DISTRIBUTION
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### NORMAL_DATA_DISTRIBUTION
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### SCATTER_PLOT
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### LINEAR_REGRESSION
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### POLYNOMINAL_REGRESSION
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### MULTIPLE_REGRESSION
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### SCALE
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### TRAIN_TEST
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+#### DECISION_TREE
+
+```py
+
+```
+
+[^^^](#W3SCHOOL_ML)
+
+---
