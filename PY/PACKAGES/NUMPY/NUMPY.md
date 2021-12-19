@@ -19,6 +19,10 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [GETTING_STARTED_W3](#GETTING_STARTED_W3)
 * [CREATING_ARRAYS_W3](#CREATING_ARRAYS_W3)
 * [ARRAY_INDEXING_W3](#ARRAY_INDEXING_W3)
+* [ARRAY_SLICING_W3](#ARRAY_SLICING_W3)
+
+---
+
 * [ARRAYS](#ARRAYS)
 * [ARANGE](#ARANGE)
 * [ZEROS](#ZEROS)
@@ -402,6 +406,65 @@ print('Last element from 2nd dim: ', arr[1, -1])
 
 >>>
 Last element from 2nd dim:  10
+>>>
+```
+
+[^^^](#NUMPY)
+
+---
+
+#### ARRAY_SLICING_W3
+
+##### Slicing arrays
+
+Slicing in python means taking elements from one given index to another given index.
+We pass slice instead of index like this: ```[start:end]```.
+We can also define the step, like this: ```[start:end:step]```.
+If we don't pass start its considered 0
+If we don't pass end its considered length of array in that dimension
+If we don't pass step its considered 1
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[1:5])
+
+>>>
+[2 3 4 5]
+>>>
+```
+
+The result includes the start index, but excludes the end index.
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[4:])
+print(arr[:4])
+
+>>>
+[5 6 7]
+[1 2 3 4]
+>>>
+```
+
+##### Negative Slicing
+
+Use the minus operator to refer to an index from the end:
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[-3:-1])
+
+>>>
+[5 6]
 >>>
 ```
 
