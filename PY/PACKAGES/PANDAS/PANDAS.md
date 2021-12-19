@@ -51,11 +51,112 @@ import pandas as pd
 
 #### INTRO_W3
 
+##### What is Pandas?
+
+Pandas is a Python library used for working with data sets.
+It has functions for analyzing, cleaning, exploring, and manipulating data.
+The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008.
+
+##### Why Use Pandas?
+
+Pandas allows us to analyze big data and make conclusions based on statistical theories.
+Pandas can clean messy data sets, and make them readable and relevant.
+Relevant data is very important in data science.
+
+##### What Can Pandas Do?
+
+Pandas gives you answers about the data. Like:
+
+- Is there a correlation between two or more columns?
+- What is average value?
+- Max value?
+- Min value?
+
+Pandas are also able to delete rows that are not relevant, or contains wrong values, like empty or NULL values. This is called cleaning the data.
+
+##### Where is the Pandas Codebase?
+
+The source code for Pandas is located at this github repository https://github.com/pandas-dev/pandas
+
 [^^^](#PANDAS)
 
 ---
 
 #### GETTING_STARTED_W3
+
+##### Import Pandas
+
+Once Pandas is installed, import it in your applications by adding the import keyword:
+
+```py
+import pandas
+```
+
+```py
+import pandas
+
+mydataset = {
+  'cars': ["BMW", "Volvo", "Ford"],
+  'passings': [3, 7, 2]
+}
+
+myvar = pandas.DataFrame(mydataset)
+
+print(myvar)
+
+>>>
+    cars  passings
+0    BMW         3
+1  Volvo         7
+2   Ford         2
+>>>
+```
+
+##### Pandas as pd
+
+Pandas is usually imported under the pd alias.
+alias: In Python alias are an alternate name for referring to the same thing.
+Create an alias with the as keyword while importing:
+
+```py
+import pandas as pd
+```
+
+Now the Pandas package can be referred to as pd instead of pandas.
+
+```py
+import pandas as pd
+
+mydataset = {
+  'cars': ["BMW", "Volvo", "Ford"],
+  'passings': [3, 7, 2]
+}
+
+myvar = pd.DataFrame(mydataset)
+
+print(myvar)
+
+>>>
+    cars  passings
+0    BMW         3
+1  Volvo         7
+2   Ford         2
+>>>
+```
+
+##### Checking Pandas Version
+
+The version string is stored under __version__ attribute.
+
+```py
+import pandas as pd
+
+print(pd.__version__)
+
+>>>
+1.0.3
+>>>
+```
 
 [^^^](#PANDAS)
 
