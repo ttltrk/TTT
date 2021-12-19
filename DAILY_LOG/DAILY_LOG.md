@@ -9,7 +9,7 @@
 
 ---
 
-- D34 - 2021-12-19 (SU): Numpy
+- D34 - 2021-12-19 (SU): Numpy, Pandas 
 - D33 - 2021-12-18 (SA): Numpy, Pandas, Machine learning
 - D32 - 2021-12-17 (FR): Python for Finance (certificate)
 - D31 - 2021-12-16 (TH): IBM Blockchain, Python for Finance
