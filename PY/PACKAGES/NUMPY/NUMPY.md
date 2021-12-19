@@ -18,6 +18,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [INTRO_W3](#INTRO_W3)
 * [GETTING_STARTED_W3](#GETTING_STARTED_W3)
 * [CREATING_ARRAYS_W3](#CREATING_ARRAYS_W3)
+* [ARRAY_INDEXING_W3](#ARRAY_INDEXING_W3)
 * [ARRAYS](#ARRAYS)
 * [ARANGE](#ARANGE)
 * [ZEROS](#ZEROS)
@@ -299,6 +300,30 @@ print('number of dimensions :', arr.ndim)
 >>>
 [[[[[1 2 3 4]]]]]
 number of dimensions : 5
+>>>
+```
+
+[^^^](#NUMPY)
+
+---
+
+#### ARRAY_INDEXING_W3
+
+##### Access Array Elements
+
+Array indexing is the same as accessing an array element.
+You can access an array element by referring to its index number.
+The indexes in NumPy arrays start with 0, meaning that the first element has index 0, and the second has index 1 etc.
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr[0])
+
+>>>
+1
 >>>
 ```
 
