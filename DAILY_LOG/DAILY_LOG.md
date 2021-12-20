@@ -9,6 +9,7 @@
 
 ---
 
+- D35 - 2021-12-20 (MO): Pandas
 - D34 - 2021-12-19 (SU): Numpy, Pandas
 - D33 - 2021-12-18 (SA): Numpy, Pandas, Machine learning
 - D32 - 2021-12-17 (FR): Python for Finance (certificate)
