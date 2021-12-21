@@ -549,11 +549,83 @@ print(pd.options.display.max_rows)
 >>>
 ```
 
+In my system the number is 60, which means that if the DataFrame contains more than 60 rows, the print(df) statement will return only the headers and the first and last 5 rows.
+
+You can change the maximum rows number with the same statement.
+
+```py
+import pandas as pd
+
+pd.options.display.max_rows = 9999
+
+df = pd.read_csv('data.csv')
+
+print(df)
+
+>>>
+Duration  Pulse  Maxpulse  Calories
+0          60    110       130     409.1
+1          60    117       145     479.0
+2          60    103       135     340.0
+3          45    109       175     282.4
+4          45    117       148     406.0
+5          60    102       127     300.5
+6          60    110       136     374.0
+7          45    104       134     253.3
+8          30    109       133     195.1
+9          60     98       124     269.0
+10         60    103       147     329.3
+11         60    100       120     250.7
+12         60    106       128     345.3
+13         60    104       132     379.3
+14         60     98       123     275.0
+15         60     98       120     215.2
+16         60    100       120     300.0
+>>>
+```
+
 [^^^](#PANDAS)
 
 ---
 
 #### READ_JSON_W3
+
+##### Read JSON
+
+Big data sets are often stored, or extracted as JSON.
+JSON is plain text, but has the format of an object, and is well known in the world of programming, including Pandas.
+In our examples we will be using a JSON file called 'data.json'.
+
+```py
+import pandas as pd
+
+df = pd.read_json('data.json')
+
+print(df.to_string())
+
+>>>
+Duration  Pulse  Maxpulse  Calories
+0          60    110       130     409.1
+1          60    117       145     479.0
+2          60    103       135     340.0
+3          45    109       175     282.4
+4          45    117       148     406.0
+5          60    102       127     300.5
+6          60    110       136     374.0
+7          45    104       134     253.3
+8          30    109       133     195.1
+9          60     98       124     269.0
+10         60    103       147     329.3
+11         60    100       120     250.7
+12         60    106       128     345.3
+13         60    104       132     379.3
+14         60     98       123     275.0
+15         60     98       120     215.2
+16         60    100       120     300.0
+>>>
+```
+
+use ```to_string()``` to print the entire DataFrame.
 
 [^^^](#PANDAS)
 
