@@ -800,6 +800,19 @@ Empty values, or Null values, can be bad when analyzing data, and you should con
 
 #### CLEANING_DATA_W3
 
+##### Data Cleaning
+
+Data cleaning means fixing bad data in your data set.
+
+Bad data could be:
+
+- Empty cells
+- Data in wrong format
+- Wrong data
+- Duplicates
+
+In this tutorial you will learn how to deal with all of them.
+
 [^^^](#PANDAS)
 
 ---
