@@ -470,6 +470,85 @@ Duration  Pulse  Maxpulse  Calories
 
 #### READ_CSV_W3
 
+##### Read CSV Files
+
+A simple way to store big data sets is to use CSV files (comma separated files).
+CSV files contains plain text and is a well know format that can be read by everyone including Pandas.
+In our examples we will be using a CSV file called 'data.csv'.
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+print(df.to_string())
+
+>>>
+Duration  Pulse  Maxpulse  Calories
+0          60    110       130     409.1
+1          60    117       145     479.0
+2          60    103       135     340.0
+3          45    109       175     282.4
+4          45    117       148     406.0
+5          60    102       127     300.5
+6          60    110       136     374.0
+7          45    104       134     253.3
+8          30    109       133     195.1
+9          60     98       124     269.0
+10         60    103       147     329.3
+11         60    100       120     250.7
+12         60    106       128     345.3
+13         60    104       132     379.3
+14         60     98       123     275.0
+15         60     98       120     215.2
+16         60    100       120     300.0
+>>>
+```
+
+use ```to_string()``` to print the entire DataFrame.
+
+If you have a large DataFrame with many rows, Pandas will only return the first 5 rows, and the last 5 rows:
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+print(df)
+
+>>>
+Duration  Pulse  Maxpulse  Calories
+0          60    110       130     409.1
+1          60    117       145     479.0
+2          60    103       135     340.0
+3          45    109       175     282.4
+4          45    117       148     406.0
+..        ...    ...       ...       ...
+164        60    105       140     290.8
+165        60    110       145     300.4
+166        60    115       145     310.2
+167        75    120       150     320.4
+168        75    125       150     330.4
+
+[169 rows x 4 columns]
+>>>
+```
+
+##### max_rows
+
+The number of rows returned is defined in Pandas option settings.
+You can check your system's maximum rows with the pd.options.display.max_rows statement.
+
+```py
+import pandas as pd
+
+print(pd.options.display.max_rows)
+
+>>>
+60
+>>>
+```
+
 [^^^](#PANDAS)
 
 ---
