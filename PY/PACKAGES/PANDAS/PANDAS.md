@@ -1193,6 +1193,8 @@ Duration          Date  Pulse  Maxpulse  Calories
 >>>
 ```
 
+Mode = the value that appears most frequently.
+
 [^^^](#PANDAS)
 
 ---
