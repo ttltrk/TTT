@@ -819,6 +819,25 @@ In this tutorial you will learn how to deal with all of them.
 
 #### CLEANING_EMPTY_CELLS_W3
 
+##### Empty Cells
+
+Empty cells can potentially give you a wrong result when you analyze data.
+
+##### Remove Rows
+
+##### Replace Empty Values
+
+##### Replace Only For Specified Columns
+
+##### Replace Using Mean, Median, or Mode
+
+#####
+
+#####
+#####
+#####
+#####
+
 [^^^](#PANDAS)
 
 ---
