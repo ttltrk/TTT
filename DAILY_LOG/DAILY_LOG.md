@@ -9,6 +9,8 @@
 
 ---
 
+- D37 - 2021-12-22 (WE): Pandas, own project 
+- D36 - 2021-12-21 (TU): Pandas
 - D35 - 2021-12-20 (MO): Pandas
 - D34 - 2021-12-19 (SU): Numpy, Pandas
 - D33 - 2021-12-18 (SA): Numpy, Pandas, Machine learning
