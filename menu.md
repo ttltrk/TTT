@@ -6,6 +6,7 @@
 ---
 
 * [DAILY_LOG](https://github.com/ttltrk/TTT/blob/master/DAILY_LOG/DAILY_LOG.md)
+* [OWN_PROJECTS](https://github.com/ttltrk/TTT/blob/master/PROJ/PROJ.md)
 
 ---
 
