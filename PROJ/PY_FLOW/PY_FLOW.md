@@ -23,6 +23,7 @@ yfinance >> csv >> postgre >> flask
 ---
 
 * [EXTRACT_DIVIDENDS](#EXTRACT_DIVIDENDS)
+* [PREPARE_THE_FILE_BEFORE_IMPORT](#PREPARE_THE_FILE_BEFORE_IMPORT)
 * [DROP_TABLE_IN_POSTGRES](#DROP_TABLE_IN_POSTGRES)
 * [CREATE_TABLE_IN_POSTGRES](#CREATE_TABLE_IN_POSTGRES)
 * [IMPORT_CSV_INTO_POSTGRES](#IMPORT_CSV_INTO_POSTGRES)
@@ -33,6 +34,18 @@ yfinance >> csv >> postgre >> flask
 #### EXTRACT_DIVIDENDS
 
 url: https://bit.ly/dividendchampionsexcel
+
+```py
+import webbrowser
+
+webbrowser.open('https://bit.ly/dividendchampionsexcel')
+```
+
+[^^^](PY_FLOW)
+
+---
+
+#### PREPARE_THE_FILE_BEFORE_IMPORT
 
 [^^^](PY_FLOW)
 
