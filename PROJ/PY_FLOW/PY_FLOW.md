@@ -23,9 +23,9 @@ yfinance >> csv >> postgre >> flask
 ---
 
 * [EXTRACT_DIVIDENDS](#EXTRACT_DIVIDENDS)
-* [](#)
-* [](#)
-* [](#)
+* [DROP_TABLE_IN_POSTGRES](#DROP_TABLE_IN_POSTGRES)
+* [CREATE_TABLE_IN_POSTGRES](#CREATE_TABLE_IN_POSTGRES)
+* [IMPORT_CSV_INTO_POSTGRES](#IMPORT_CSV_INTO_POSTGRES)
 * [FLASK_AND_POSTGRES](#FLASK_AND_POSTGRES)
 
 ---
@@ -35,6 +35,69 @@ yfinance >> csv >> postgre >> flask
 url: https://bit.ly/dividendchampionsexcel
 
 [^^^](PY_FLOW)
+
+---
+
+#### DROP_TABLE_IN_POSTGRES
+
+```py
+import psycopg2 as p2
+import pandas as pd
+
+conn = p2.connect(host="127.0.0.1", database="test", user="postgres", password="19830209")
+
+cur = conn.cursor()
+cur.execute("drop table trk_test_xy;")
+
+conn.commit() # <- We MUST commit to reflect the inserted data
+cur.close()
+conn.close()
+```
+
+[^^^](PY_FLOW)
+
+---
+
+#### CREATE_TABLE_IN_POSTGRES
+
+```py
+import psycopg2 as p2
+import pandas as pd
+
+conn = p2.connect(host="127.0.0.1", database="test", user="postgres", password="19830209")
+cur = conn.cursor()
+
+#create table
+cur.execute("CREATE TABLE trk_test_xy (personid int, lastname varchar(255), firstname varchar(255), \
+address varchar(255), city varchar(255));")
+
+conn.commit() # <- We MUST commit to reflect the inserted data
+cur.close()
+conn.close()
+```
+
+[^^^](PY_FLOW)
+
+---
+
+#### IMPORT_CSV_INTO_POSTGRES
+
+```py
+import psycopg2 as p2
+import pandas as pd
+
+conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
+cur = conn.cursor()
+
+with open('test.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'trk_test_xy', sep=',')
+
+conn.commit() # <- We MUST commit to reflect the inserted data
+cur.close()
+conn.close()
+```
 
 ---
 
