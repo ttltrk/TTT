@@ -44,7 +44,7 @@ url: https://bit.ly/dividendchampionsexcel
 import psycopg2 as p2
 import pandas as pd
 
-conn = p2.connect(host="127.0.0.1", database="test", user="postgres", password="19830209")
+conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
 
 cur = conn.cursor()
 cur.execute("drop table trk_test_xy;")
@@ -64,7 +64,7 @@ conn.close()
 import psycopg2 as p2
 import pandas as pd
 
-conn = p2.connect(host="127.0.0.1", database="test", user="postgres", password="19830209")
+conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
 cur = conn.cursor()
 
 #create table
