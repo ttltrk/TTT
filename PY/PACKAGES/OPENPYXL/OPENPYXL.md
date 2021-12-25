@@ -15,6 +15,7 @@
 
 ---
 
+* [CREATING_WORKBOOK](#CREATING_WORKBOOK)
 * [ACCESSING_WORKBOOK](#ACCESSING_WORKBOOK)
 * [ACCESSING_CELL_VALUES](#ACCESSING_CELL_VALUES)
 * [CHANGE_CELL_VALUES](#CHANGE_CELL_VALUES)
@@ -28,6 +29,34 @@
 * [](#)
 * [](#)
 * [](#)
+
+---
+
+#### CREATING_WORKBOOK
+
+```py
+from openpyxl import Workbook
+wb = Workbook()
+
+# grab the active spreadsheet
+ws = wb.active
+
+# data can be assigned directly to cells
+ws['A1'] = 333
+
+# rows can also be appened
+ws.append([1,2,3,4,5])
+
+# save the worksheet
+wb.save("temp_01.xlsx")
+
+>>>
+333				
+1	2	3	4	5
+>>>
+```
+
+[^^^](#OPENPYXL)
 
 ---
 
