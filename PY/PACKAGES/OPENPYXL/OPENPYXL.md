@@ -17,6 +17,7 @@
 
 * [CREATING_WORKBOOK](#CREATING_WORKBOOK)
 * [ACCESSING_WORKBOOK](#ACCESSING_WORKBOOK)
+* [HOW_TO_REACH_VALUES](#HOW_TO_REACH_VALUES)
 * [ACCESSING_CELL_VALUES](#ACCESSING_CELL_VALUES)
 * [CHANGE_CELL_VALUES](#CHANGE_CELL_VALUES)
 * [CREATING_LISTING_CHANGING_SHEETS](#CREATING_LISTING_CHANGING_SHEETS)
@@ -38,16 +39,16 @@
 from openpyxl import Workbook
 wb = Workbook()
 
-# grab the active spreadsheet
+#grab the active spreadsheet
 ws = wb.active
 
-# data can be assigned directly to cells
+#data can be assigned directly to cells
 ws['A1'] = 333
 
-# rows can also be appened
+#rows can also be appened
 ws.append([1,2,3,4,5])
 
-# save the worksheet
+#save the worksheet
 wb.save("temp_01.xlsx")
 
 >>>
@@ -65,6 +66,7 @@ wb.save("temp_01.xlsx")
 ```py
 from openpyxl import Workbook, load_workbook
 
+#how to load a workbook
 wb = load_workbook('Grades.xlsx')
 ws = wb.active
 
@@ -74,6 +76,61 @@ print(ws)
 <Worksheet "Sheet1">
 >>>
 ```
+
+[^^^](#OPENPYXL)
+
+---
+
+#### HOW_TO_REACH_VALUES
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+data_a = sh1['A3'].value
+data_b = sh1['B3'].value
+data_d = sh1['D3'].value
+data_e = sh1['E3'].value
+data_f = sh1['F3'].value
+data_g = sh1['G3'].value
+
+data_x = wb['Champions']['A3'].value
+
+print(sh1)
+print(data_a)
+print(data_b)
+print(data_d)
+print(data_e)
+print(data_f)
+print(data_g)
+print(' ')
+
+print(data_x)
+print(' ')
+
+print(wb.active.title)
+print(sheets)
+
+>>>
+<Worksheet "Champions">
+Symbol
+Company
+Sector
+No Years
+Price
+Div Yield
+
+Symbol
+
+Sheet1
+['Radar', 'Champions', 'Sheet1', 'Contenders', 'Challengers', 'All', 'Leaders', 'Additions', 'Cuts']
+>>>
+```
+
 
 [^^^](#OPENPYXL)
 
