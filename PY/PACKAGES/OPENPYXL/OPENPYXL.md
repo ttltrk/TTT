@@ -25,7 +25,7 @@
 * [ACCESSING_MULTIPLE_CELLS](#ACCESSING_MULTIPLE_CELLS)
 * [GET_ALL_SHEETNAME](#GET_ALL_SHEETNAME)
 * [HOW_MANY_ROWS_AND_COLUMNS](#HOW_MANY_ROWS_AND_COLUMNS)
-* [](#)
+* [HOW_TO_GET_THE_FULL_SHEET](#HOW_TO_GET_THE_FULL_SHEET)
 * [](#)
 * [](#)
 * [](#)
@@ -399,6 +399,43 @@ print(column)
 40
 >>>
 ```
+
+[^^^](#OPENPYXL)
+
+---
+
+#### HOW_TO_GET_THE_FULL_SHEET
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#how many rows and how many columns
+row=sh1.max_row
+column=sh1.max_column
+
+#reach the full sheet
+
+for i in range (1,row+1)
+    for j in range (1,column+1)
+        print(sh1.cell(i,j).value)
+
+>>>
+
+>>>
+```
+
+[^^^](#OPENPYXL)
+
+---
+
+[^^^](#OPENPYXL)
+
+---
 
 [^^^](#OPENPYXL)
 
