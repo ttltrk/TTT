@@ -96,7 +96,7 @@ for i in range (4,row+1):
 #how to reach the 2nd column from 4th row
 for i in range (4,row+1):
     result2 = sh1.cell(i,2).value
-    res2 = result2.replace(",", "-")
+    res2 = result2.replace(",", " ")
     l2.append(res2)
 
 #how to reach the 4th column from 4th row
