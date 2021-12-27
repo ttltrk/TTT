@@ -96,7 +96,8 @@ for i in range (4,row+1):
 #how to reach the 2nd column from 4th row
 for i in range (4,row+1):
     result2 = sh1.cell(i,2).value
-    l2.append(result2)
+    res2 = result2.replace(",", "-")
+    l2.append(res2)
 
 #how to reach the 4th column from 4th row
 for i in range (4,row+1):
@@ -148,9 +149,9 @@ import psycopg2 as p2
 import pandas as pd
 
 conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
-
 cur = conn.cursor()
-cur.execute("drop table trk_test_xy;")
+
+cur.execute("drop table us_div;")
 
 conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
@@ -171,8 +172,7 @@ conn = p2.connect(host="*****", database="*****", user="*****", password="*****"
 cur = conn.cursor()
 
 #create table
-cur.execute("CREATE TABLE trk_test_xy (personid int, lastname varchar(255), firstname varchar(255), \
-address varchar(255), city varchar(255));")
+cur.execute("CREATE TABLE us_div (id int, symbol varchar(255), company varchar(255), sector varchar(255), years int, price dec, div_yield dec);")
 
 conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
@@ -192,10 +192,10 @@ import pandas as pd
 conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
 cur = conn.cursor()
 
-with open('test.csv', 'r') as f:
+with open('new_data.csv', 'r') as f:
     # Notice that we don't need the `csv` module.
     next(f) # Skip the header row.
-    cur.copy_from(f, 'trk_test_xy', sep=',')
+    cur.copy_from(f, 'us_div', sep=',')
 
 conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
