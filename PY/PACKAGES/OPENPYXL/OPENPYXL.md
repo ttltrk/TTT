@@ -83,6 +83,8 @@ print(ws)
 
 #### HOW_TO_REACH_VALUES
 
+##### OPTION_1
+
 ```py
 from openpyxl import Workbook, load_workbook
 
@@ -131,6 +133,30 @@ Sheet1
 >>>
 ```
 
+##### OPTION_2
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#option 1
+print(wb['Champions']['A3'].value)
+
+#option 2 (row,column)
+print(sh1.cell(14,1).value)
+
+#print(wb.active.title)
+#print(sheets)
+
+>>>
+Symbol
+ATR
+>>>
+```
 
 [^^^](#OPENPYXL)
 
