@@ -24,6 +24,7 @@ yfinance >> csv >> postgre >> flask
 
 * [EXTRACT_DIVIDENDS](#EXTRACT_DIVIDENDS)
 * [PREPARE_THE_FILE_BEFORE_IMPORT](#PREPARE_THE_FILE_BEFORE_IMPORT)
+* [MOVING CLEARED DATA INTO A NEW FILE](#MOVING CLEARED DATA INTO A NEW FILE)
 * [DROP_TABLE_IN_POSTGRES](#DROP_TABLE_IN_POSTGRES)
 * [CREATE_TABLE_IN_POSTGRES](#CREATE_TABLE_IN_POSTGRES)
 * [IMPORT_CSV_INTO_POSTGRES](#IMPORT_CSV_INTO_POSTGRES)
@@ -46,6 +47,92 @@ webbrowser.open('https://bit.ly/dividendchampionsexcel')
 ---
 
 #### PREPARE_THE_FILE_BEFORE_IMPORT
+
+```py
+#download the source file
+import webbrowser
+
+webbrowser.open('https://bit.ly/dividendchampionsexcel')
+```
+
+```py
+#rename and move the file
+import os
+
+# Absolute path of a file
+old_name = r"C:\bla\bla\bla\U.S.DividendChampions.xlsx"
+new_name = r"C:\bla\bla\bla\US_DIV_EX.xlsx"
+
+# Renaming the file
+os.rename(old_name, new_name)
+```
+
+[^^^](PY_FLOW)
+
+---
+
+#### MOVING CLEARED DATA INTO A NEW FILE
+
+```py
+from openpyxl import Workbook, load_workbook
+import pandas as pd
+
+wb = load_workbook('US_DIV_EX.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#creating the empty lists
+l1,l2,l4,l5,l6,l7 = [],[],[],[],[],[]
+
+#how to reach the 1st column from 4th row
+for i in range (4,row+1):
+    result1 = sh1.cell(i,1).value
+    l1.append(result1)
+
+#how to reach the 2nd column from 4th row
+for i in range (4,row+1):
+    result2 = sh1.cell(i,2).value
+    l2.append(result2)
+
+#how to reach the 4th column from 4th row
+for i in range (4,row+1):
+    result4 = sh1.cell(i,4).value
+    l4.append(result4)
+
+#how to reach the 5th column from 4th row
+for i in range (4,row+1):
+    result5 = sh1.cell(i,5).value
+    l5.append(result5)
+
+#how to reach the 6th column from 4th row
+for i in range (4,row+1):
+    result6 = sh1.cell(i,6).value
+    l6.append(result6)
+
+#how to reach the 7th column from 4th row
+for i in range (4,row+1):
+    result7 = sh1.cell(i,7).value
+    l7.append(result7)
+
+#adding the headers    
+data = {
+    'Symbol':l1,
+    'Company':l2,
+    'Sector': l4,
+    'Years': l5,
+    'Price': l6,
+    'DIV Yield': l7
+}
+
+#preparing the dataframe
+df = pd.DataFrame(data)
+
+#print(df)
+
+#creating the final file
+final = df.to_csv('new_data.csv')
+```
 
 [^^^](PY_FLOW)
 
