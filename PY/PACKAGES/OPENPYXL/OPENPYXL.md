@@ -26,8 +26,8 @@
 * [GET_ALL_SHEETNAME](#GET_ALL_SHEETNAME)
 * [HOW_MANY_ROWS_AND_COLUMNS](#HOW_MANY_ROWS_AND_COLUMNS)
 * [HOW_TO_GET_THE_FULL_SHEET](#HOW_TO_GET_THE_FULL_SHEET)
-* [](#)
-* [](#)
+* [HOW_TO_GET_ONE_FULL_ROW](#HOW_TO_GET_ONE_FULL_ROW)
+* [HOW_TO_GET_ONE_FULL_COLUMN](#HOW_TO_GET_ONE_FULL_COLUMN)
 * [](#)
 * [](#)
 
@@ -433,9 +433,225 @@ for i in range (1,row+1)
 
 ---
 
+### HOW_TO_GET_ONE_FULL_ROW
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#how many rows and how many columns
+row=sh1.max_row
+column=sh1.max_column
+
+#how to reach the 3rd row
+for i in range (1,column+1):
+    print(sh1.cell(3,i).value)
+
+>>>
+Symbol
+Company
+FV
+Sector
+No Years
+Price
+Div Yield
+5Y Avg Yield
+Current Div
+Payouts/ Year
+Annualized
+Previous Div
+Ex-Date
+Pay-Date
+Low
+High
+DGR 1Y
+DGR 3Y
+DGR 5Y
+DGR 10Y
+TTR 1Y
+TTR 3Y
+Fair Value
+FV %
+None
+Streak Basis
+Chowder Number
+EPS 1Y
+Revenue 1Y
+NPM
+CF/Share
+ROE
+Current R
+Debt/Capital
+ROTC
+P/E
+P/BV
+PEG
+New Member
+Industry
+>>>
+```
+
 [^^^](#OPENPYXL)
 
 ---
+
+#### HOW_TO_GET_ONE_FULL_COLUMN
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#how many rows and how many columns
+row=sh1.max_row
+column=sh1.max_column
+
+#how to reach the 1st column
+for i in range (1,row+1):
+    print(sh1.cell(i,1).value)
+
+>>>
+Dividend Champions
+=AsOfDate
+Symbol
+ABM
+ADM
+ADP
+AFL
+ALB
+AOS
+APD
+AROW
+ARTN.A
+ATO
+ATR
+AWR
+BANF
+BDX
+BEN
+BF.B
+BKH
+BMI
+BRC
+BRO
+CAH
+CAT
+CB
+CBSH
+CBU
+CFR
+CHD
+CINF
+CL
+CLX
+CNI
+CSL
+CTAS
+CTBI
+CVX
+CWT
+DCI
+DOV
+EBTC
+ECL
+ED
+EMR
+ENB
+ERIE
+ESS
+EV
+EXPD
+FELE
+FLIC
+FRT
+FUL
+GD
+GPC
+GWW
+HRL
+IBM
+ITW
+JKHY
+JNJ
+JW.A
+KMB
+KO
+LANC
+LECO
+LEG
+LIN
+LOW
+MATW
+MCD
+MCY
+MDT
+MDU
+MGEE
+MGRC
+MKC.V
+MMM
+MSA
+NDSN
+NEE
+NFG
+NJR
+NNN
+NUE
+NWN
+O
+ORI
+OZK
+PBCT
+PEP
+PG
+PH
+PII
+PPG
+RLI
+RNR
+ROP
+RPM
+RTX
+SBSI
+SCL
+SEIC
+SHW
+SJW
+SON
+SPGI
+SRCE
+SWK
+SYK
+SYY
+T
+TDS
+TGT
+THFF
+TMP
+TNC
+TRI
+TROW
+UBSI
+UGI
+UHT
+UMBF
+UVV
+WABC
+WBA
+WEYS
+WMT
+WST
+WTRG
+XOM
+>>>
+```
 
 [^^^](#OPENPYXL)
 
