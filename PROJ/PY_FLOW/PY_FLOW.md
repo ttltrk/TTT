@@ -82,6 +82,9 @@ sheets = wb.sheetnames
 
 sh1 = wb['Champions']
 
+row=sh1.max_row
+column=sh1.max_column
+
 #creating the empty lists
 l1,l2,l4,l5,l6,l7 = [],[],[],[],[],[]
 
