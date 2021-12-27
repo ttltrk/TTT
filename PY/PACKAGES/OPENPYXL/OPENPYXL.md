@@ -24,7 +24,7 @@
 * [CREATING_A_NEW_WORKBOOK](#CREATING_A_NEW_WORKBOOK)
 * [ACCESSING_MULTIPLE_CELLS](#ACCESSING_MULTIPLE_CELLS)
 * [GET_ALL_SHEETNAME](#GET_ALL_SHEETNAME)
-* [](#)
+* [HOW_MANY_ROWS_AND_COLUMNS](#HOW_MANY_ROWS_AND_COLUMNS)
 * [](#)
 * [](#)
 * [](#)
@@ -155,6 +155,35 @@ print(sh1.cell(14,1).value)
 >>>
 Symbol
 ATR
+>>>
+```
+
+##### OPTION_3
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#option 1
+print(wb['Champions']['A3'].value)
+
+#option 2 (row,column)
+print(sh1.cell(14,1).value)
+
+#option 3
+print(sh1.cell(row=15,column=1).value)
+
+#print(wb.active.title)
+#print(sheets)
+
+>>>
+Symbol
+ATR
+AWR
 >>>
 ```
 
@@ -347,6 +376,29 @@ Notes
 [^^^](#OPENPYXL)
 
 ---
+
+#### HOW_MANY_ROWS_AND_COLUMNS
+
+```py
+from openpyxl import Workbook, load_workbook
+
+wb = load_workbook('DIV_EX_21.xlsx')
+sheets = wb.sheetnames
+
+sh1 = wb['Champions']
+
+#how many rows and how many columns
+row=sh1.max_row
+column=sh1.max_column
+
+print(row)
+print(column)
+
+>>>
+132
+40
+>>>
+```
 
 [^^^](#OPENPYXL)
 
