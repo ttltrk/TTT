@@ -279,6 +279,8 @@ if __name__ == "__main__":
 
 ##### jobs.html (in the templates folder)
 
+using jinja template 
+
 ```html
 <!DOCTYPE html>
 <head>
