@@ -24,7 +24,7 @@ yfinance >> csv >> postgre >> flask
 
 * [EXTRACT_DIVIDENDS](#EXTRACT_DIVIDENDS)
 * [PREPARE_THE_FILE_BEFORE_IMPORT](#PREPARE_THE_FILE_BEFORE_IMPORT)
-* [MOVING CLEARED DATA INTO A NEW FILE](#MOVING CLEARED DATA INTO A NEW FILE)
+* [MOVING_CLEARED_DATA_INTO_A_NEW_FILE](#MOVING_CLEARED_DATA_INTO_A_NEW_FILE)
 * [DROP_TABLE_IN_POSTGRES](#DROP_TABLE_IN_POSTGRES)
 * [CREATE_TABLE_IN_POSTGRES](#CREATE_TABLE_IN_POSTGRES)
 * [IMPORT_CSV_INTO_POSTGRES](#IMPORT_CSV_INTO_POSTGRES)
@@ -71,7 +71,7 @@ os.rename(old_name, new_name)
 
 ---
 
-#### MOVING CLEARED DATA INTO A NEW FILE
+#### MOVING_CLEARED_DATA_INTO_A_NEW_FILE
 
 ```py
 from openpyxl import Workbook, load_workbook
@@ -279,7 +279,7 @@ if __name__ == "__main__":
 
 ##### jobs.html (in the templates folder)
 
-using jinja template 
+using jinja template
 
 ```html
 <!DOCTYPE html>
