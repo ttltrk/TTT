@@ -9,6 +9,9 @@
 
 ---
 
+- D44 - 2021-12-29 (WE): Flask, own project
+- D43 - 2021-12-28 (TU): Flask, own project
+- D42 - 2021-12-27 (MO): Pandas, own project
 - D41 - 2021-12-26 (SU): Pandas, own project 
 - D40 - 2021-12-25 (SA): Pandas, own project
 - D39 - 2021-12-24 (FR): Pandas, own project
