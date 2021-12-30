@@ -211,14 +211,37 @@ conn.close()
 ```py
 import psycopg2
 
+conn = psycopg2.connect(host="******", database="******", user="******", password="******")
+
 def get_all_jobs():
-  conn = psycopg2.connect(host="******", database="*****", user="*****", password="*****")
   cur = conn.cursor()
-  cur.execute("select * from blablabla")
+  cur.execute("select * from us_div order by price desc limit 10")
   jobs = cur.fetchall()
   cur.close()
   conn.close()
   return jobs
+
+def get_most_expensive():
+  cur = conn.cursor()
+  cur.execute("select price, company, symbol from us_div order by price desc limit 10")
+  most_exps = cur.fetchall()
+  #cur.close()
+  #conn.close()
+  return most_exps
+
+def get_most_cheapest():
+  cur = conn.cursor()
+  cur.execute("select price, company, symbol from us_div order by price asc limit 10")
+  most_cheaps = cur.fetchall()
+  #cur.close()
+  #conn.close()
+  return most_cheaps
+
+def get_oldest():
+    pass
+
+def biggest_div_yield():
+    pass
 ```
 
 ##### app.py
@@ -226,6 +249,9 @@ def get_all_jobs():
 ```py
 from flask import Flask, render_template
 import db
+import pandas as pd
+import psycopg2 as p2
+from openpyxl import Workbook, load_workbook
 
 app = Flask(__name__)
 
@@ -236,6 +262,18 @@ def index():
 @app.route('/jobs', methods=["GET", "POST"])
 def jobs():
     return render_template('jobs.html', jobs=db.get_all_jobs())
+
+@app.route('/details', methods=["GET", "POST"])
+def details():
+    return render_template('basic.html',details=db.get_all_details())
+
+@app.route('/most_exps', methods=["GET", "POST"])
+def most_exps():
+    return render_template('most_exps.html',most_exps=db.get_most_expensive())
+
+@app.route('/most_cheaps', methods=["GET", "POST"])
+def most_cheaps():
+    return render_template('most_cheaps.html',most_cheaps=db.get_most_cheapest())
 
 if __name__ == "__main__":
     app.run(debug=True)
