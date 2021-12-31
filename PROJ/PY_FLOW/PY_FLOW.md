@@ -211,15 +211,7 @@ conn.close()
 ```py
 import psycopg2
 
-conn = psycopg2.connect(host="******", database="******", user="******", password="******")
-
-def get_all_jobs():
-  cur = conn.cursor()
-  cur.execute("select * from us_div order by price desc limit 10")
-  jobs = cur.fetchall()
-  cur.close()
-  conn.close()
-  return jobs
+conn = psycopg2.connect(host="*******", database="*******", user="*******", password="*******")
 
 def get_most_expensive():
   cur = conn.cursor()
@@ -238,10 +230,16 @@ def get_most_cheapest():
   return most_cheaps
 
 def get_oldest():
-    pass
+  cur = conn.cursor()
+  cur.execute("select years, price, company, symbol from us_div order by years desc limit 10")
+  oldest = cur.fetchall()
+  return oldest
 
-def biggest_div_yield():
-    pass
+def get_biggest_dy():
+  cur = conn.cursor()
+  cur.execute("select div_yield, price, company, symbol from us_div order by div_yield desc limit 10")
+  biggest_dy = cur.fetchall()
+  return biggest_dy
 ```
 
 ##### app.py
@@ -259,14 +257,6 @@ app = Flask(__name__)
 def index():
     return render_template('base.html')
 
-@app.route('/jobs', methods=["GET", "POST"])
-def jobs():
-    return render_template('jobs.html', jobs=db.get_all_jobs())
-
-@app.route('/details', methods=["GET", "POST"])
-def details():
-    return render_template('basic.html',details=db.get_all_details())
-
 @app.route('/most_exps', methods=["GET", "POST"])
 def most_exps():
     return render_template('most_exps.html',most_exps=db.get_most_expensive())
@@ -274,6 +264,14 @@ def most_exps():
 @app.route('/most_cheaps', methods=["GET", "POST"])
 def most_cheaps():
     return render_template('most_cheaps.html',most_cheaps=db.get_most_cheapest())
+
+@app.route('/oldest_papers', methods=["GET", "POST"])
+def oldest():
+    return render_template('oldest_papers.html',oldest=db.get_oldest())
+
+@app.route('/biggest_dy', methods=["GET", "POST"])
+def biggest_dy():
+    return render_template('biggest_dy.html',biggest_dy=db.get_biggest_dy())
 
 if __name__ == "__main__":
     app.run(debug=True)
