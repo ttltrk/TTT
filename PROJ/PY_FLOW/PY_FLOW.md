@@ -10,7 +10,7 @@
 ---
 
 ```
-yfinance >> csv >> postgre >> flask
+dripinvesting.org >> csv >> postgre >> flask
 ```
 
 ---
@@ -59,9 +59,13 @@ webbrowser.open('https://bit.ly/dividendchampionsexcel')
 #rename and move the file
 import os
 
+#preparing the files - hous-keeping, removing the old/used files
+os.remove("US_DIV_EX.xlsx")
+os.remove("US_DIV_EX.csv")
+
 # Absolute path of a file
-old_name = r"C:\bla\bla\bla\U.S.DividendChampions.xlsx"
-new_name = r"C:\bla\bla\bla\US_DIV_EX.xlsx"
+old_name = r"C:\Users\AttilaTorok\Downloads\U.S.DividendChampions (13).xlsx"
+new_name = r"C:\Users\AttilaTorok\Desktop\ADM\MM\PY\GOPAS\US_DIV_EX.xlsx"
 
 # Renaming the file
 os.rename(old_name, new_name)
