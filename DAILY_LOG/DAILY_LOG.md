@@ -1,11 +1,4 @@
-.CVX = 1.34
-WBA = 1.64
-IBM = 0.96
-MATW = 0.66
-MMM = 1.48
-KO = 1.68
-TNC = 0.25
-TDS = 1.22
+
 ---
 
 #### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
