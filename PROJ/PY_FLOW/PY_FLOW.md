@@ -80,6 +80,7 @@ os.rename(old_name, new_name)
 ```py
 from openpyxl import Workbook, load_workbook
 import pandas as pd
+import os
 
 wb = load_workbook('US_DIV_EX.xlsx')
 sheets = wb.sheetnames
@@ -102,6 +103,7 @@ for i in range (4,row+1):
     result2 = sh1.cell(i,2).value
     res2 = result2.replace(",", " ")
     l2.append(res2)
+
 
 #how to reach the 4th column from 4th row
 for i in range (4,row+1):
@@ -139,7 +141,7 @@ df = pd.DataFrame(data)
 #print(df)
 
 #creating the final file
-final = df.to_csv('new_data.csv')
+final = df.to_csv('US_DIV_EX.csv')
 ```
 
 [^^^](PY_FLOW)
@@ -196,7 +198,7 @@ import pandas as pd
 conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
 cur = conn.cursor()
 
-with open('new_data.csv', 'r') as f:
+with open('US_DIV_EX.csv', 'r') as f:
     # Notice that we don't need the `csv` module.
     next(f) # Skip the header row.
     cur.copy_from(f, 'us_div', sep=',')
