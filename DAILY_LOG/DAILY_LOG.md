@@ -9,6 +9,10 @@
 
 ---
 
+#### 2021-JAN 
+
+#### 2021-DEC
+
 - D45 - 2021-12-31 (FR): Flask, bootstrap, own project
 - D45 - 2021-12-30 (TH): Flask, sql, own project
 - D44 - 2021-12-29 (WE): Flask, sql, own project
