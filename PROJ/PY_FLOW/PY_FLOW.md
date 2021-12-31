@@ -277,66 +277,159 @@ if __name__ == "__main__":
     app.run(debug=True)
 ```
 
-#### base.html (in the templates folder)
+#### base.html
 
 ```html
 <!DOCTYPE html>
-<header>$jobs</header>
 <html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
 
-    <head>
-        <title>My first blog post</title>
-    </head>
+<div class="container mt-3">
+  <h2>dividend details</h2>
+  <a href="http://127.0.0.1:5000/">H</a> | <a href="http://127.0.0.1:5000/most_exps">most_expensive</a> | <a href="http://127.0.0.1:5000/most_cheaps">most_cheapest</a> | <a href="http://127.0.0.1:5000/oldest_papers">oldest_papers</a> | <a href="http://127.0.0.1:5000/biggest_dy">biggest_div_yield</a>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>dividend details</h1>
+	<p>enjoy..</p>
+  </div>
+</div>
 
-    <body>
-
-        <h1>My first blog post</h1>
-        <h2>This is my first blog post</h2>
-
-        <p>
-          This is very <strong>strong</strong> text! I would like to <em>emphasize</em> how important it is.<br> And also never <u>forget</u>.<br>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-        </p>
-
-        <a href="http://127.0.0.1:5000/jobs">check the divs</a>
-
-        <h2>HTML is amazing</h2>
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
-        </p>
-
-        <p>Loretta Howell</p>
-
-    </body>
-
+</body>
 </html>
 ```
 
-##### jobs.html (in the templates folder)
+##### most_exps.html
 
 using jinja template
 
 ```html
 <!DOCTYPE html>
+<html>
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <style>li:nth-child(odd) { background: rgb(233, 233, 240); }</style>
-    <style>li:nth-child(even) { background: rgb(212, 212, 236); }</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<a href="http://127.0.0.1:5000/">HOME</a>
-<!--Print each job from the Postgres "Jobs" database | "Listings" table -->
 
-{% block content %}
-    <ul>
-    {% for job in jobs %}
-        <li>{{ job }}</li>
+<div class="container mt-3">
+  <h2>dividend details</h2>
+  <a href="http://127.0.0.1:5000/">H</a> | <a href="http://127.0.0.1:5000/most_exps">most_expensive</a> | <a href="http://127.0.0.1:5000/most_cheaps">most_cheapest</a> | <a href="http://127.0.0.1:5000/oldest_papers">oldest_papers</a> | <a href="http://127.0.0.1:5000/biggest_dy">biggest_div_yield</a>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>top 10 most expensive champion dividend</h1>
+	<p>below you can find the top 10 most expensive champion dividend </p>
+    {% block content %}
+      <ul>
+      {% for most_exp in most_exps %}
+        <li>{{ most_exp }}</li>
+      {% endfor %}
+      </ul>
+    {% endblock %}
+  </div>
+</div>
 
-    {% endfor %}
-    </ul>
-{% endblock %}
 </body>
+</html>
+```
+
+#### most_cheaps.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>dividend details</h2>
+  <a href="http://127.0.0.1:5000/">H</a> | <a href="http://127.0.0.1:5000/most_exps">most_expensive</a> | <a href="http://127.0.0.1:5000/most_cheaps">most_cheapest</a> | <a href="http://127.0.0.1:5000/oldest_papers">oldest_papers</a> | <a href="http://127.0.0.1:5000/biggest_dy">biggest_div_yield</a>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>top 10 most cheapest champion dividend</h1>
+	<p>below you can find the top 10 most cheapest champion dividend </p>
+    {% block content %}
+      <ul>
+      {% for most_cheap in most_cheaps %}
+        <li>{{ most_cheap }}</li>
+      {% endfor %}
+      </ul>
+    {% endblock %}
+  </div>
+</div>
+
+</body>
+</html>
+```
+
+#### oldest_papers.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>dividend details</h2>
+  <a href="http://127.0.0.1:5000/">H</a> | <a href="http://127.0.0.1:5000/most_exps">most_expensive</a> | <a href="http://127.0.0.1:5000/most_cheaps">most_cheapest</a> | <a href="http://127.0.0.1:5000/oldest_papers">oldest_papers</a> | <a href="http://127.0.0.1:5000/biggest_dy">biggest_div_yield</a>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>top 10 oldest champion dividend</h1>
+	<p>below you can find the top 10 oldest champion dividend </p>
+    {% block content %}
+      <ul>
+      {% for old in oldest %}
+        <li>{{ old }}</li>
+      {% endfor %}
+      </ul>
+    {% endblock %}
+  </div>
+</div>
+
+</body>
+</html>
+```
+
+#### biggest_dy.html
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>dividend details</h2>
+  <a href="http://127.0.0.1:5000/">H</a> | <a href="http://127.0.0.1:5000/most_exps">most_expensive</a> | <a href="http://127.0.0.1:5000/most_cheaps">most_cheapest</a> | <a href="http://127.0.0.1:5000/oldest_papers">oldest_papers</a> | <a href="http://127.0.0.1:5000/biggest_dy">biggest_div_yield</a>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>top 10 biggest dividend yield champion dividend</h1>
+	<p>below you can find the top 10 biggest dividend yield champion dividend </p>
+    {% block content %}
+      <ul>
+      {% for biggest in biggest_dy %}
+        <li>{{ biggest }}</li>
+      {% endfor %}
+      </ul>
+    {% endblock %}
+  </div>
+</div>
+
+</body>
+</html>
 ```
 
 [^^^](PY_FLOW)
