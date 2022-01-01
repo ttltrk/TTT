@@ -9,7 +9,9 @@
 
 ---
 
-#### 2021-JAN 
+#### 2021-JAN
+
+- D46 - 2022-01-01 (SA): Flask, REST_API, own project
 
 #### 2021-DEC
 
