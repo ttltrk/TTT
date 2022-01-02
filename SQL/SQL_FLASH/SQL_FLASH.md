@@ -65,3 +65,29 @@ testdb_02|
 [^^^](#SQL_FLASH)
 
 ---
+
+#### CREATE_TABLE
+
+```
+The CREATE TABLE statement is used to create a new table in a database.
+```
+
+```sql
+CREATE TABLE trk (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+```
+
+##### CREATE TABLE USING ANOTHER TABLE
+
+```sql
+create table trk_test_xx as select * from trk_test_01;
+```
+
+[^^^](#SQL_FLASH)
+
+---
