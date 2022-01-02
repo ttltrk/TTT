@@ -13,7 +13,7 @@
 * [VARIABLES](#VARIABLES)
 * [DATA_TYPES](#DATA_TYPES)
 * [NUMBERS](#NUMBERS)
-* [](#)
+* [NUMBER_TYPE_CONVERSION](#NUMBER_TYPE_CONVERSION)
 * [](#)
 * [](#)
 * [](#)
@@ -324,12 +324,66 @@ print(type(z))
 
 ---
 
-####
+#### NUMBER_TYPE_CONVERSION
 
-#####
+##### INT_TO_FLOAT
 
 ```py
+x = 1 # int
+a = float(x)
 
+print(x)
+print(type(x))
+
+print(a)
+print(type(a))
+
+>>>
+1
+<class 'int'>
+1.0
+<class 'float'>
+>>>
+```
+
+##### FLOAT_TO_INT
+
+```py
+y = 2.8 # float
+b = int(y)
+
+print(y)
+print(type(y))
+
+print(b)
+print(type(b))
+
+>>>
+2.8
+<class 'float'>
+2
+<class 'int'>
+>>>
+```
+
+##### INT_TO_COMPLEX
+
+```py
+x = 1 # int
+c = complex(x)
+
+print(x)
+print(type(x))
+
+print(c)
+print(type(c))
+
+>>>
+1
+<class 'int'>
+(1+0j)
+<class 'complex'>
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
