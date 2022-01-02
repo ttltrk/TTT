@@ -13,6 +13,10 @@
 
 ---
 
+* [PYTHON_FLASH](https://github.com/ttltrk/TTT/blob/master/PY/FLASH/FLASH.md)
+
+---
+
 * [BASICS](https://github.com/ttltrk/TTT/blob/master/PY/BASICS/BASICS.md)
 * [DOWNLOAD_AND_INSTALL](https://github.com/ttltrk/TTT/blob/master/PY/DOWNLOAD_AND_INSTALL/DOWNLOAD_AND_INSTALL.md)
 * [ESSENTIALS](https://github.com/ttltrk/TTT/blob/master/PY/ESSENTIALS/ESSENTIALS.md)
