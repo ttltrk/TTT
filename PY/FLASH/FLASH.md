@@ -12,7 +12,7 @@
 * [COMMENTS](#COMMENTS)
 * [VARIABLES](#VARIABLES)
 * [DATA_TYPES](#DATA_TYPES)
-* [](#)
+* [NUMBERS](#NUMBERS)
 * [](#)
 * [](#)
 * [](#)
@@ -246,12 +246,78 @@ print(type(x))
 
 ---
 
-####
+#### NUMBERS
 
-#####
+```
+- int
+- float
+- complex
+```
+
+##### INT
 
 ```py
+'''
+Int, or integer, is a whole number, positive or negative,
+without decimals, of unlimited length.
+'''
 
+x = 1
+y = 35656222554887711
+z = -3255522
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+>>>
+<class 'int'>
+<class 'int'>
+<class 'int'>
+>>>
+```
+
+##### FLOAT
+
+```py
+'''
+Float, or "floating point number" is a number,
+positive or negative, containing one or more decimals.
+'''
+
+x = 1.10
+y = 1.0
+z = -35.59
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+>>>
+<class 'float'>
+<class 'float'>
+<class 'float'>
+>>>
+```
+
+##### COMPLEX
+
+```py
+#Complex numbers are written with a "j" as the imaginary part:
+
+x = 3+5j
+y = 5j
+z = -5j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+>>>
+<class 'complex'>
+<class 'complex'>
+<class 'complex'>
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
