@@ -17,6 +17,10 @@ HTML is easy to learn - You will enjoy it!
 
 ---
 
+* [HTML_FLASH](https://github.com/ttltrk/TTT/tree/master/HTML/HTML_FLASH/HTML_FLASH.md)
+
+---
+
 * [INTRO](https://github.com/ttltrk/TTT/tree/master/HTML/INTRO/INTRO.md)
 * [EDITORS](https://github.com/ttltrk/TTT/tree/master/HTML/EDITORS/EDITORS.md)
 * [BASIC](https://github.com/ttltrk/TTT/tree/master/HTML/BASIC/BASIC.md)
