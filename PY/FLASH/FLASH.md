@@ -37,7 +37,28 @@
 ##### SINGLE_LINE_COMMENT
 
 ```py
+#This is a comment
+print("Hello, World!")
 
+>>>
+Hello, World!
+>>>
+```
+
+##### MULTI_LINE_COMMENTS
+
+```py
+"""
+This is a comment
+written in
+more than just one line
+"""
+
+print("Hello, World!")
+
+>>>
+Hello, World!
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
