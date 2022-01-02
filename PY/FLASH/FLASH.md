@@ -10,7 +10,7 @@
 ---
 
 * [COMMENTS](#COMMENTS)
-* [](#)
+* [VARIABLES](#VARIABLES)
 * [](#)
 * [](#)
 * [](#)
@@ -65,12 +65,35 @@ Hello, World!
 
 ---
 
-####
-
-#####
+#### VARIABLES
 
 ```py
+char_name = "John"
+char_age = "35"
 
+print("There once was a man named " + char_name + ", ")
+print("he was " + char_age + " years old")
+
+>>>
+There once was a man named John,
+he was 35 years old
+>>>
+```
+
+##### MULTIPLE_VARIABLES
+
+```py
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z)
+
+>>>
+Orange
+Banana
+Cherry
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
