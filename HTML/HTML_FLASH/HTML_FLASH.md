@@ -13,7 +13,7 @@
 * [SIMPLE_HTML_CODE](#SIMPLE_HTML_CODE)
 * [DOCTYPE](#DOCTYPE)
 * [HEADINGS](#HEADINGS)
-* [](#)
+* [PARAGRAPHS](#PARAGRAPHS)
 * [](#)
 * [](#)
 * [](#)
@@ -86,10 +86,13 @@ HTML headings are defined with the ```<h1>``` to ```<h6>``` tags.
 
 ---
 
-####
+#### PARAGRAPHS
+
+HTML paragraphs are defined with the ```<p>``` tag
 
 ```html
-
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 ```
 
 [^^^](#HTML_FLASH)
