@@ -11,8 +11,8 @@
 
 * [WHAT_IS_HTML](#WHAT_IS_HTML)
 * [SIMPLE_HTML_CODE](#SIMPLE_HTML_CODE)
-* [](#)
-* [](#)
+* [DOCTYPE](#DOCTYPE)
+* [HEADINGS](#HEADINGS)
 * [](#)
 * [](#)
 * [](#)
@@ -58,20 +58,28 @@
 
 ---
 
-####
+#### DOCTYPE
+
+The ```<!DOCTYPE>``` declaration represents the document type, and helps browsers to display web pages correctly.
+It must only appear once, at the top of the page (before any HTML tags).
+The ```<!DOCTYPE>``` declaration is not case sensitive.
 
 ```html
-
+<!DOCTYPE html>
 ```
 
 [^^^](#HTML_FLASH)
 
 ---
 
-####
+#### HEADINGS
+
+HTML headings are defined with the ```<h1>``` to ```<h6>``` tags.
 
 ```html
-
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
 ```
 
 [^^^](#HTML_FLASH)
