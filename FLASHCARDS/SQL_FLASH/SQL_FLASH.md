@@ -9,23 +9,45 @@
 
 ---
 
+DDL – Data Definition Language
+
 * [CREATE_DB](#CREATE_DB)
+* [CREATE_TABLE](#CREATE_TABLE)
+* [CREATE_INDEX](#CREATE_INDEX)
+* [](#)
+* [](#)
+* [](#)
+
+DML – Data Manipulation Language
+
 * [](#)
 * [](#)
 * [](#)
 * [](#)
 * [](#)
+
+DRL/DQL – Data Retrieval Language/Data Query Language
+
 * [](#)
 * [](#)
 * [](#)
 * [](#)
 * [](#)
+
+ELSE
+
 * [](#)
 * [](#)
+* [](#)
+* [](#)
+* [](#)
+
 
 ---
 
 #### CREATE_DB
+
+DDL – Data Definition Language
 
 ```
 The CREATE DATABASE statement is used to create a new SQL database.
@@ -68,6 +90,8 @@ testdb_02|
 
 #### CREATE_TABLE
 
+DDL – Data Definition Language
+
 ```
 The CREATE TABLE statement is used to create a new table in a database.
 ```
@@ -86,6 +110,28 @@ CREATE TABLE trk (
 
 ```sql
 create table trk_test_xx as select * from trk_test_01;
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+#### CREATE_INDEX
+
+The SQL statement below creates an index named "idx_lastname"
+on the "LastName" column in the "Persons" table:
+
+```sql
+CREATE INDEX idx_lastname
+ON Persons (LastName);
+```
+
+If you want to create an index on a combination of columns, you can list the column names
+within the parentheses, separated by commas:
+
+```sql
+CREATE INDEX idx_pname
+ON Persons (LastName, FirstName);
 ```
 
 [^^^](#SQL_FLASH)
