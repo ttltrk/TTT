@@ -215,9 +215,18 @@ conn.close()
 ##### db.py
 
 ```py
+#-----------------------------------------------------------------
+# mandatory packages
+
 import psycopg2
 
+#-----------------------------------------------------------------
+# postgre connection
+
 conn = psycopg2.connect(host="*******", database="*******", user="*******", password="*******")
+
+#-----------------------------------------------------------------
+# separate sql queries
 
 def get_most_expensive():
   cur = conn.cursor()
@@ -229,6 +238,7 @@ def get_most_expensive():
 
 def get_most_cheapest():
   cur = conn.cursor()
+  var = 'TDS'
   cur.execute("select price, company, symbol from us_div order by price asc limit 10")
   most_cheaps = cur.fetchall()
   #cur.close()
@@ -246,18 +256,33 @@ def get_biggest_dy():
   cur.execute("select div_yield, price, company, symbol from us_div order by div_yield desc limit 10")
   biggest_dy = cur.fetchall()
   return biggest_dy
+
+def actual_search(name):
+  cur = conn.cursor()
+  cur.execute("select * from us_div where symbol = '" + name + "'")
+  actualSearch = cur.fetchall()
+  return actualSearch
 ```
 
 ##### app.py
 
 ```py
-from flask import Flask, render_template
+#-----------------------------------------------------------------
+# mandatory packages
+
 import db
 import pandas as pd
 import psycopg2 as p2
+from flask import Flask, render_template, request, redirect, url_for
 from openpyxl import Workbook, load_workbook
+import psycopg2
+#from flask_restful import Resource, Api
+
+#-----------------------------------------------------------------
+# site settings
 
 app = Flask(__name__)
+#api = App(app)
 
 @app.route('/', methods=["GET", "POST"])
 def index():
@@ -278,6 +303,10 @@ def oldest():
 @app.route('/biggest_dy', methods=["GET", "POST"])
 def biggest_dy():
     return render_template('biggest_dy.html',biggest_dy=db.get_biggest_dy())
+
+@app.route('/<name>', methods=["GET", "POST"])
+def actual_search(name):
+    return render_template('search.html',actual_search=db.actual_search(name))
 
 if __name__ == "__main__":
     app.run(debug=True)
@@ -428,6 +457,38 @@ using jinja template
       <ul>
       {% for biggest in biggest_dy %}
         <li>{{ biggest }}</li>
+      {% endfor %}
+      </ul>
+    {% endblock %}
+  </div>
+</div>
+
+</body>
+</html>
+```
+
+#### search.html 
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>dividend details</h2>
+  <a href="http://127.0.0.1:5000/">H</a> | <a href="http://127.0.0.1:5000/most_exps">most_expensive</a> | <a href="http://127.0.0.1:5000/most_cheaps">most_cheapest</a> | <a href="http://127.0.0.1:5000/oldest_papers">oldest_papers</a> | <a href="http://127.0.0.1:5000/biggest_dy">biggest_div_yield</a> | <a href="http://127.0.0.1:5000/actualSearch">search</a>
+  <div class="mt-4 p-5 bg-primary text-white rounded">
+    <h1>Search</h1>
+	<p>below you can find your actaul search... </p>
+	{% block content %}
+	  <ul>
+      {% for search in actual_search %}
+        <li>{{ search }}</li>
       {% endfor %}
       </ul>
     {% endblock %}
