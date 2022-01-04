@@ -118,6 +118,9 @@ create table trk_test_xx as select * from trk_test_01;
 
 #### CREATE_INDEX
 
+Indexes are used to retrieve data from the database more quickly than otherwise.
+The users cannot see the indexes, they are just used to speed up searches/queries.
+
 The SQL statement below creates an index named "idx_lastname"
 on the "LastName" column in the "Persons" table:
 
