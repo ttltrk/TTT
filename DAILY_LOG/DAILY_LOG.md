@@ -11,6 +11,8 @@
 
 #### 2021-JAN
 
+- D49 - 2022-01-04 (TU): PY_FLASH, SQL_FLASH, NW_FLASH 
+- D48 - 2022-01-03 (MO): Flask, REST_API, own project
 - D47 - 2022-01-02 (SU): PY_FLASH, SQL_FLASH
 - D46 - 2022-01-01 (SA): Flask, REST_API, own project
 
