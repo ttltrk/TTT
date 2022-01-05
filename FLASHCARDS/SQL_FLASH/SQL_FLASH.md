@@ -14,7 +14,7 @@ DDL – Data Definition Language
 * [CREATE_DB](#CREATE_DB)
 * [CREATE_TABLE](#CREATE_TABLE)
 * [CREATE_INDEX](#CREATE_INDEX)
-* [](#)
+* [CREATE_VIEW](#CREATE_VIEW)
 * [](#)
 * [](#)
 
@@ -135,6 +135,27 @@ within the parentheses, separated by commas:
 ```sql
 CREATE INDEX idx_pname
 ON Persons (LastName, FirstName);
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+#### CREATE_VIEW
+
+view = virtual table
+
+In SQL, a view is a virtual table based on the result-set of an SQL statement.
+A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
+You can add SQL functions, WHERE, and JOIN statements to a view and present the data as if the data were coming from one single table.
+
+The following SQL creates a view that shows all customers from Brazil:
+
+```sql
+CREATE VIEW [Brazil Customers] AS
+SELECT CustomerName, ContactName
+FROM Customers
+WHERE Country = 'Brazil';
 ```
 
 [^^^](#SQL_FLASH)
