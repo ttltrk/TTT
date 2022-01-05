@@ -14,8 +14,8 @@
 * [DATA_TYPES](#DATA_TYPES)
 * [NUMBERS](#NUMBERS)
 * [NUMBER_TYPE_CONVERSION](#NUMBER_TYPE_CONVERSION)
-* [](#)
-* [](#)
+* [RANDOM_NUMBER](#RANDOM_NUMBER)
+* [MATH](#MATH)
 * [](#)
 * [](#)
 * [](#)
@@ -386,28 +386,82 @@ print(type(c))
 >>>
 ```
 
-[^^^](#PYTHON_FLASH)
-
----
-
-####
-
-#####
+##### INT_TO_STRING
 
 ```py
+my_num=20
 
+print(type(my_num))
+print(type(str(my_num)))
+
+>>>
+<class 'int'>
+<class 'str'>
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
 
 ---
 
-####
-
-#####
+#### RANDOM_NUMBER
 
 ```py
+import random
 
+print(random.randrange(1,10))
+
+>>>
+4
+>>>
+```
+
+```py
+import random
+
+print(random.randrange(10,20))
+
+x = ['a', 'b', 'c', 'd', 'e']
+
+print(random.choice(x))
+
+random.shuffle(x)
+
+print(x)
+print(random.random())
+
+>>>
+14
+e
+['b', 'd', 'a', 'e', 'c']
+0.14933393166286335
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### MATH
+
+```py
+import math
+
+print(math.pi)
+print(math.cos(math.pi))
+print(math.exp(10))
+print(math.log10(1000))
+print(math.sinh(1))
+print(math.factorial(6))
+
+>>>
+3.141592653589793
+-1.0
+22026.465794806718
+3.0
+1.1752011936438014
+720
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
