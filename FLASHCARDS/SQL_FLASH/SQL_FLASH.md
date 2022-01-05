@@ -158,6 +158,18 @@ FROM Customers
 WHERE Country = 'Brazil';
 ```
 
+- check views in postgre
+
+```sql
+select table_name from INFORMATION_SCHEMA.views;
+```
+
+- If you don't want the system views is your result, try this:
+
+```sql
+select table_name from INFORMATION_SCHEMA.views WHERE table_schema = ANY (current_schemas(false))
+```
+
 [^^^](#SQL_FLASH)
 
 ---
