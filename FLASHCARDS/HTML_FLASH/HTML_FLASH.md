@@ -16,7 +16,7 @@
 * [PARAGRAPHS](#PARAGRAPHS)
 * [LINKS](#LINKS)
 * [ELEMENTS](#ELEMENTS)
-* [](#)
+* [ATTRIBUTES](#ATTRIBUTES)
 * [](#)
 * [](#)
 * [](#)
@@ -134,6 +134,77 @@ examples:
 
 ```html
 <html>, <body>, <h1> and <p>
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+#### ATTRIBUTES
+
+HTML attributes provide additional information about HTML elements.
+
+- All HTML elements can have attributes
+- The href attribute of ```<a>``` specifies the URL of the page the link goes to
+- The src attribute of ```<img>``` specifies the path to the image to be displayed
+- The width and height attributes of ```<img>``` provide size information for images
+- The alt attribute of ```<img>``` provides an alternate text for an image
+- The style attribute is used to add styles to an element, such as color, font, size, and more
+- The lang attribute of the <html> tag declares the language of the Web page
+- The title attribute defines some extra information about an element
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
 ```
 
 [^^^](#HTML_FLASH)
