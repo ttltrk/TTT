@@ -198,7 +198,7 @@ ALTER TABLE Customers
 DROP COLUMN Email;
 ```
 
-##### MODIFY_COLUMN
+##### MODIFY_RENAME_COLUMN
 
 To change a column name use the following syntax
 
@@ -207,7 +207,7 @@ ALTER TABLE trk_test_02
 RENAME COLUMN department TO dep;
 ```
 
-##### MODIFY_TABLENAME
+##### MODIFY_RENAME_TABLENAME
 
 To change a table name use the following syntax
 
