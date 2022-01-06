@@ -10,7 +10,7 @@
 ---
 
 * [WHAT_IS_BLOCKCHAIN](#WHAT_IS_BLOCKCHAIN)
-* [](#)
+* [SHA256](#SHA256)
 * [](#)
 * [](#)
 * [](#)
@@ -57,7 +57,28 @@ Blockchain Blocks are cryptographically linked together
 
 ---
 
-####
+#### SHA256
+
+NSA developed the SHA256
+
+```
+256 bit
+64 char
+digits and chars = hexadecimal
+
+every char = 4 bit
+64x4=256
+```
+
+the 5 requirements for hash algorithms
+
+```
+1. one-way
+2. deterministic
+3. fast computation
+4. the avalanche effect
+5. must withstand collisions
+```
 
 [^^^](#BLOCKCHAIN_FLASH)
 
