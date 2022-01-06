@@ -154,7 +154,36 @@ HTML attributes provide additional information about HTML elements.
 - The title attribute defines some extra information about an element
 
 ```html
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+```
 
+```html
+<img src="img_girl.jpg">
+```
+
+```html
+<img src="img_girl.jpg" width="500" height="600">
+```
+
+```html
+<img src="img_girl.jpg" alt="Girl with a jacket">
+```
+
+```html
+<p style="color:red;">This is a red paragraph.</p>
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en-US">
+<body>
+...
+</body>
+</html>
+```
+
+```html
+<p title="I'm a tooltip">This is a paragraph.</p>
 ```
 
 [^^^](#HTML_FLASH)
