@@ -15,6 +15,8 @@ DDL – Data Definition Language
 * [CREATE_TABLE](#CREATE_TABLE)
 * [CREATE_INDEX](#CREATE_INDEX)
 * [CREATE_VIEW](#CREATE_VIEW)
+* [ALTER](#ALTER)
+* [](#)
 * [](#)
 * [](#)
 
@@ -168,6 +170,50 @@ select table_name from INFORMATION_SCHEMA.views;
 
 ```sql
 select table_name from INFORMATION_SCHEMA.views WHERE table_schema = ANY (current_schemas(false))
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+#### ALTER
+
+The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+
+##### ADD_COLUMN
+
+To add a column in a table, use the following syntax
+
+```sql
+ALTER TABLE trk_test_02
+ADD city varchar(255);
+```
+
+##### DROP_COLUMN
+
+To delete a column in a table, use the following syntax
+
+```sql
+ALTER TABLE Customers
+DROP COLUMN Email;
+```
+
+##### MODIFY_COLUMN
+
+To change a column name use the following syntax
+
+```sql
+ALTER TABLE trk_test_02
+RENAME COLUMN department TO dep;
+```
+
+##### MODIFY_TABLENAME
+
+To change a table name use the following syntax
+
+```sql
+ALTER TABLE trk_test
+RENAME TO trk_test_01;
 ```
 
 [^^^](#SQL_FLASH)
