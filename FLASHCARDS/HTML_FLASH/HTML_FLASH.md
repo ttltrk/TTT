@@ -20,7 +20,7 @@
 * [HEADINGS](#HEADINGS)
 * [PARAGRAPHS](#PARAGRAPHS)
 * [HORIZONTAL_RULES](#HORIZONTAL_RULES)
-* [](#)
+* [LINE_BREAKS](#LINE_BREAKS)
 * [](#)
 * [](#)
 * [](#)
@@ -247,11 +247,16 @@ The <hr> tag is an empty tag, which means that it has no end tag.
 
 ---
 
-####
+#### LINE_BREAKS
+
+The HTML ```<br>``` element defines a line break.
+Use ```<br>``` if you want a line break (a new line) without starting a new paragraph.
 
 ```html
-
+<p>This is<br>a paragraph<br>with line breaks.</p>
 ```
+
+The ```<br>``` tag is an empty tag, which means that it has no end tag.
 
 [^^^](#HTML_FLASH)
 
