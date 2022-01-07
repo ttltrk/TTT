@@ -11,8 +11,8 @@
 
 * [WHAT_IS_BLOCKCHAIN](#WHAT_IS_BLOCKCHAIN)
 * [SHA256](#SHA256)
-* [](#)
-* [](#)
+* [DISTRIBUTED_P2P_NETWORK](#DISTRIBUTED_P2P_NETWORK)
+* [HOW_MINING_WORKS](#HOW_MINING_WORKS)
 * [](#)
 * [](#)
 * [](#)
@@ -84,13 +84,41 @@ the 5 requirements for hash algorithms
 
 ---
 
-####
+#### DISTRIBUTED_P2P_NETWORK
+
+one hacked blockchain will be recovery asap from the p2p network clients and will be replaced by the correct chain, but if the 51% of the blockchain is hacked in this case the p2p network will replace the wrong/hacked hash
 
 [^^^](#BLOCKCHAIN_FLASH)
 
 ---
 
-####
+#### HOW_MINING_WORKS
+
+changing nonce can change the hash - avalanche effect
+
+```
+BLOCK: #3
+
+NONCE: 34
+
+DATA:
+
+  Joe -> Karl 500 hadcoins
+  Joe -> Greg 100 hadcoins
+  Karl -> Ebay 100 hadcoins
+
+PREV.HASH:
+
+  000ER45DEW31Q
+
+HASH:
+
+  8899WE00SER0E
+```
+
+a hash is a number
+
+miners trying to hit the smallest nonce (from the all possible hashes) below the target 0000 it means keep iterating the nonce until you get to the target
 
 [^^^](#BLOCKCHAIN_FLASH)
 
