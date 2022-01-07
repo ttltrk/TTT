@@ -18,7 +18,7 @@
 * [ELEMENTS](#ELEMENTS)
 * [ATTRIBUTES](#ATTRIBUTES)
 * [HEADINGS](#HEADINGS)
-* [](#)
+* [PARAGRAPHS](#PARAGRAPHS)
 * [](#)
 * [](#)
 * [](#)
@@ -209,11 +209,19 @@ The ```<h1>``` defines the most important heading. <h6> defines the least import
 
 ---
 
-####
+#### PARAGRAPHS
+
+A paragraph always starts on a new line, and is usually a block of text.
+The HTML ```<p>``` element defines a paragraph.
+A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
 
 ```html
-
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
 ```
+
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+The browser will automatically remove any extra spaces and lines when the page is displayed.
 
 [^^^](#HTML_FLASH)
 
