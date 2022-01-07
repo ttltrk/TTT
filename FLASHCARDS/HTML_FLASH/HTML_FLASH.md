@@ -19,7 +19,7 @@
 * [ATTRIBUTES](#ATTRIBUTES)
 * [HEADINGS](#HEADINGS)
 * [PARAGRAPHS](#PARAGRAPHS)
-* [](#)
+* [HORIZONTAL_RULES](#HORIZONTAL_RULES)
 * [](#)
 * [](#)
 * [](#)
@@ -227,11 +227,21 @@ The browser will automatically remove any extra spaces and lines when the page i
 
 ---
 
-####
+#### HORIZONTAL_RULES
+
+The ```<hr>``` tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The ```<hr>``` element is used to separate content (or define a change) in an HTML page.
 
 ```html
-
+<h1>This is heading 1</h1>
+<p>This is some text.</p>
+<hr>
+<h2>This is heading 2</h2>
+<p>This is some other text.</p>
+<hr>
 ```
+
+The <hr> tag is an empty tag, which means that it has no end tag.
 
 [^^^](#HTML_FLASH)
 
