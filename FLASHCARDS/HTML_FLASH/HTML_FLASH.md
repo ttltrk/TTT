@@ -21,7 +21,7 @@
 * [PARAGRAPHS](#PARAGRAPHS)
 * [HORIZONTAL_RULES](#HORIZONTAL_RULES)
 * [LINE_BREAKS](#LINE_BREAKS)
-* [](#)
+* [PRE_ELEMENT](#PRE_ELEMENT)
 * [](#)
 * [](#)
 * [](#)
@@ -262,10 +262,21 @@ The ```<br>``` tag is an empty tag, which means that it has no end tag.
 
 ---
 
-####
+#### PRE_ELEMENT
+
+The HTML ```<pre>``` element defines preformatted text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
 
 ```html
+<pre>
+  My Bonnie lies over the ocean.
 
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+</pre>
 ```
 
 [^^^](#HTML_FLASH)
