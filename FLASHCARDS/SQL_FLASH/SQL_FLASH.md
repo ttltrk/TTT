@@ -16,7 +16,7 @@ DDL – Data Definition Language
 * [CREATE_INDEX](#CREATE_INDEX)
 * [CREATE_VIEW](#CREATE_VIEW)
 * [ALTER](#ALTER)
-* [](#)
+* [DROP_DB](#DROP_DB)
 * [](#)
 * [](#)
 
@@ -214,6 +214,126 @@ To change a table name use the following syntax
 ```sql
 ALTER TABLE trk_test
 RENAME TO trk_test_01;
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+#### DROP_DB
+
+The DROP DATABASE statement is used to drop an existing SQL database.
+
+```sql
+DROP DATABASE databasename;
+```
+
+```sql
+--list out all the dbs
+SELECT datname FROM pg_database
+WHERE datistemplate = false;
+
+datname  |
+---------+
+postgres |
+test     |
+for_rec  |
+testdb   |
+testdb_01|
+testdb_02|
+
+drop database testdb_02;
+
+SELECT datname FROM pg_database
+WHERE datistemplate = false;
+
+datname  |
+---------+
+postgres |
+test     |
+for_rec  |
+testdb   |
+testdb_01|
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
+```
+
+[^^^](#SQL_FLASH)
+
+---
+
+####
+
+```sql
+
 ```
 
 [^^^](#SQL_FLASH)
