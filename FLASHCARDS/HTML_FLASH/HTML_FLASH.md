@@ -22,6 +22,12 @@
 * [HORIZONTAL_RULES](#HORIZONTAL_RULES)
 * [LINE_BREAKS](#LINE_BREAKS)
 * [PRE_ELEMENT](#PRE_ELEMENT)
+* [STYLE](#STYLE)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -277,6 +283,101 @@ The text inside a <pre> element is displayed in a fixed-width font (usually Cour
 
   Oh, bring back my Bonnie to me.
 </pre>
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+#### STYLE
+
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+Setting the style of an HTML element, can be done with the style attribute.
+
+- Use the style attribute for styling HTML elements
+- Use background-color for background color
+- Use color for text colors
+- Use font-family for text fonts
+- Use font-size for text sizes
+- Use text-align for text alignment
+
+```html
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+```
+
+```html
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+
+```html
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+
+```html
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+
+```html
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
 ```
 
 [^^^](#HTML_FLASH)
