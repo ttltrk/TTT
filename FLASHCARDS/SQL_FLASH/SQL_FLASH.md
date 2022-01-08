@@ -18,7 +18,7 @@ DDL – Data Definition Language
 * [ALTER](#ALTER)
 * [DROP_DB](#DROP_DB)
 * [DROP_TABLE](#DROP_TABLE)
-* [](#)
+* [DROP_INDEX](#DROP_INDEX)
 * [](#)
 * [](#)
 * [](#)
@@ -294,10 +294,14 @@ SQL Error [42P01]: ERROR: relation "trk_test_xx" does not exist
 
 ---
 
-####
+#### DROP_INDEX
+
+The DROP INDEX statement is used to delete an index in a table.
+
+- DB2
 
 ```sql
-
+DROP INDEX index_name;
 ```
 
 [^^^](#SQL_FLASH)
