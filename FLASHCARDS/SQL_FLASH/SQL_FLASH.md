@@ -20,13 +20,10 @@ DDL – Data Definition Language
 * [DROP_TABLE](#DROP_TABLE)
 * [DROP_INDEX](#DROP_INDEX)
 * [TRUNCATE_TABLE](#TRUNCATE_TABLE)
-* [](#)
-* [](#)
-* [](#)
 
 DML – Data Manipulation Language
 
-* [](#)
+* [INSERT_INTO](#INSERT_INTO)
 * [](#)
 * [](#)
 * [](#)
@@ -344,10 +341,40 @@ personid|lastname|firstname|address|city|
 
 ---
 
-####
+#### INSERT_INTO
+
+The INSERT INTO statement is used to insert new records in a table.
 
 ```sql
+select * from trk_test_01 order by personid;
 
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+       6|kawhi   |leo      |canada  |toronto|
+>>>
+
+INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
+VALUES(7, 'ray', 'brent', 'still', 'GER');
+
+select * from trk_test_01 order by personid;
+
+>>>
+personid|lastname|firstname|address |city   |
+--------|--------|---------|--------|-------|
+       1|trk     |ttl      |Hlavna 5|TNO    |
+       2|doe     |jon      |CA      |GS     |
+       3|ewong   |samatha  |SFR     |Dallas |
+       4|bbking  |bbe      |hemp    |ams    |
+       5|petofi  |alex     |var     |BP     |
+       6|kawhi   |leo      |canada  |toronto|
+       7|ray     |brent    |still   |GER    |
+>>>
 ```
 
 [^^^](#SQL_FLASH)
