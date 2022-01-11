@@ -31,8 +31,8 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 
 * [SELECT](#SELECT)
 * [SELECT_FROM_SELECT](#SELECT_FROM_SELECT)
-* [SELECT_DISTINCT](#)
-* [](#)
+* [SELECT_DISTINCT](#SELECT_DISTINCT)
+* [SELECT_DISTINCT_ONLY_EVENS](#SELECT_DISTINCT_ONLY_EVENS)
 * [](#)
 * [](#)
 * [](#)
@@ -591,10 +591,19 @@ count|
 
 ---
 
-####
+#### SELECT_DISTINCT_ONLY_EVENS
 
 ```sql
+--only even numbers
+SELECT DISTINCT personid FROM trk_test_01 WHERE Mod(personid,2)=0;
 
+>>>
+personid|
+--------|
+       2|
+       4|
+       6|
+>>>
 ```
 
 [^^^](#SQL_FLASH)
