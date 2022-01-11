@@ -33,8 +33,8 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 * [SELECT_FROM_SELECT](#SELECT_FROM_SELECT)
 * [SELECT_DISTINCT](#SELECT_DISTINCT)
 * [SELECT_DISTINCT_ONLY_EVENS](#SELECT_DISTINCT_ONLY_EVENS)
-* [](#)
-* [](#)
+* [SELECT_DISTINCT_ONLY_ODD_NUMS](#SELECT_DISTINCT_ONLY_ODD_NUMS)
+* [SELECT_DISTINCT_DIFFERENCE](#SELECT_DISTINCT_DIFFERENCE)
 * [](#)
 * [](#)
 * [](#)
@@ -610,20 +610,37 @@ personid|
 
 ---
 
-####
+#### SELECT_DISTINCT_ONLY_ODD_NUMS
 
 ```sql
+--only odd numbers
+SELECT DISTINCT personid FROM trk_test_01 WHERE Mod(personid,2)=1;
 
+>>>
+personid|
+--------|
+       1|
+       3|
+       5|
+>>>
 ```
 
 [^^^](#SQL_FLASH)
 
 ---
 
-####
+#### SELECT_DISTINCT_DIFFERENCE
 
 ```sql
+--Write a query to find the difference between the total number of cities
+--and the unique number of cities in the table STATION.
+SELECT COUNT(city) - COUNT(DISTINCT city) FROM trk_test_02;
 
+>>>
+?column?|
+--------|
+       1|
+>>>
 ```
 
 [^^^](#SQL_FLASH)
