@@ -31,7 +31,7 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 
 * [SELECT](#SELECT)
 * [SELECT_FROM_SELECT](#SELECT_FROM_SELECT)
-* [](#)
+* [SELECT_DISTINCT](#)
 * [](#)
 * [](#)
 * [](#)
@@ -550,10 +550,41 @@ petofi  |
 
 ---
 
-####
+#### SELECT_DISTINCT
+
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+Inside a table, a column often contains many duplicate values;
+and sometimes you only want to list the different (distinct) values.
 
 ```sql
+SELECT DISTINCT city FROM trk_test_02;
 
+>>>
+city|
+----|
+LA  |
+SF  |
+LN  |
+BA  |
+NYC |
+BP  |
+>>>
+
+SELECT COUNT(DISTINCT city) FROM trk_test_02;
+
+>>>
+count|
+-----|
+    6|
+>>>
+
+SELECT COUNT(city) FROM trk_test_02;
+
+>>>
+count|
+-----|
+    7|
+>>>
 ```
 
 [^^^](#SQL_FLASH)
