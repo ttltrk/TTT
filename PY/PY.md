@@ -13,7 +13,7 @@
 
 ---
 
-* [PYTHON_FLASH](https://github.com/ttltrk/TTT/blob/master/PY/FLASH/FLASH.md)
+* [CODEWARS](https://github.com/ttltrk/TTT/blob/master/PY/CODEWARS/CODEWARS.md)
 
 ---
 
