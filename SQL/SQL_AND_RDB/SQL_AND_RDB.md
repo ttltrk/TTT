@@ -18,7 +18,7 @@
 MODULE_01 - SQL AND RELATIONAL DB 101
 
 * [INTRO](#INTRO)
-* [](#)
+* [INFORMATION_AND_DATA_MODELS](#INFORMATION_AND_DATA_MODELS)
 * [](#)
 * [](#)
 * [](#)
@@ -153,11 +153,57 @@ table.
 
 ---
 
-####
+#### INFORMATION_AND_DATA_MODELS
 
-```
-
-```
+Hello, and welcome to Information models and Data models. In this video, we will
+learn about different types of models. At the end of this lesson, you will be able to
+describe the difference between an information model and a data model, explain the advantage
+of the relational model, and describe the difference between an entity and an attribute.
+This figure illustrates the relationship between an Information Model and a Data Model.
+An Information Model is an abstract, formal representation of entities that includes their
+properties, relationships and the operations that can be performed on them. The entities
+being modeled can be from the real world, such as a library. Information Models
+and Data Models are different and serve different purposes. An Information Model is at the conceptual
+level, and defines relationships between objects. Data Models are defined at a more
+concrete level, are specific and include details. A data model is the blueprint of any database
+system. There are several types of Information Models. The most popular is the Hierarchical,
+typically used to show organization charts. As shown is in this figure, the hierarchical
+model organizes its data using a tree structure. The root of the tree is the parent node followed
+by child nodes. A child node cannot have more than one parent, however, a parent can have
+many child nodes. The first hierarchical database management system was the Information Management
+System released by IBM in 1968 and was originally built as the database for the Apollo space
+program. The Relational Model is the most used data model for databases because
+this model allows for data independence. Data is stored in a simple data structure, tables.
+This provides logical data independence, physical data independence, and physical storage independence.
+An Entity-Relationship Data Model, or ER Data Model, is an alternative to a relational
+data model. Using a simplified library database as an example, this figure shows an Entity-Relationship
+Diagram, or ERD, that represents entities (called tables) and their relationships.
+We have authors who write books, borrowers who take books out on loan, various copies
+of each book, etc. This is the final ER diagram. But how do we get there? An Entity-Relationship
+Model proposes thinking of a database as a collection of entities. Rather than being
+used as a model on its own, the ER Model is used as a tool to design relational databases.
+In the ER Model, entities are objects that exist independently of any other entities
+in the database. It is simple to convert an ER Diagram into a collection of tables.
+The building blocks of an ER Diagram are entities and attributes. Entities have attributes,
+which are the data elements that characterize the entity. Attributes tell us more about
+the entity. In an ER Diagram, an entity is drawn as a rectangle, and attributes are drawn
+as ovals. Entities can be a noun (person, place, or thing). Using a simplified library
+as an example, a book is an example of an entity. Attributes are certain properties
+or characteristics of an entity, and tell us more about the entity. The entity Book
+has attributes such as book title, the edition of the book, the year the book was written,
+etc. Attributes are connected to exactly one entity. The entity Book becomes a table
+in the database, and the attributes become the columns in a table. Continuing the
+simplified library example, books are written by authors. Book is an entity, and Author
+is an entity . For the entity Author, the ER Diagram would look like this. The entity
+Author has attributes such as the author's last name, first name, email, city, country
+and an author ID (to uniquely identify the author). The entity Author becomes a table
+in the database, and the attributes become the columns in the table. In the simplified
+library database, we progress through the process of identifying entities, such as borrowers
+who take books out on loan, various copies of each book, and copies of books out on loan.
+This is the final ER Diagram. Each entity becomes a table in the database. You
+can now describe the difference between an information model and a data model, explain
+the advantage of the relational model, and describe the difference between an entity
+and an attribute
 
 [^^^](#SQL_AND_RDB)
 
