@@ -19,7 +19,7 @@ MODULE_01 - SQL AND RELATIONAL DB 101
 
 * [INTRO](#INTRO)
 * [INFORMATION_AND_DATA_MODELS](#INFORMATION_AND_DATA_MODELS)
-* [](#)
+* [TYPE_OF_RELATIONSHIP](#TYPE_OF_RELATIONSHIP)
 * [](#)
 * [](#)
 
@@ -209,11 +209,45 @@ and an attribute
 
 ---
 
-####
+#### TYPE_OF_RELATIONSHIP
 
-```
-
-```
+Hello, and welcome to Types of Relationships.
+In this video, we will provide an overview
+of the relationships that exists between entities. At the end of this lesson, you will be able
+to describe the building blocks of a relationship, explain the symbols used in a relationship
+set, and describe the difference between the one-to-one and many-to-many relationship.
+The building blocks of a relationship are: entities, relationship sets, and crows
+foot notations. Entity sets are represented by a rectangle. Relationship sets are represented
+by a diamond, the lines connecting associated entities. Different techniques are used in
+representing relationships. For ease of understanding, this lesson uses the crows foot notations.
+Some of these are the greater-than symbol, the less-than symbol and a vertical line.
+An Entity-Relationship diagram, or ER diagram, for the entity book would look like this.
+The entity, Book, is drawn as a rectangle, and the attributes are drawn as ovals. Attributes
+are certain properties of that entity, for example title, edition, year, price, etc.
+Attributes are connected to exactly one entity. For the entity Author, the ER diagram
+would look like this. The entity Author has attributes last name, first name, email, city,
+country and author ID. Let's see how the entities Book and Author relate to each other.
+A book must be written by at least one author. However, a book can be written by two authors.
+and a book can be written my many authors. As another example, one author can write
+just one book, or two books or multiple books. In both cases, there is a relationship between
+the book and the author.
+In our examples we see that a book needs at least one author.
+The relationship set that comes here is authored-by. One book must be written by one author.
+The thick lines indicate each entity in the entity set is involved in at least one and exactly
+one relationship. This is called a one-to-one relationship. Only entities are used in the
+relationship diagrams. Attributes are omitted because they can clutter the diagrams.
+Earlier we saw that more than one author can write a book. This can be represented
+with a different notation called crows foot notation. In this case, a less than symbol.
+This indicates, that one book entity is participating in more than one relationship in the relationship set.
+This is called a one-to-many relationship. This could also be called a many-to-one relationship
+in that many authors write a single book.
+To represent many authors writing many
+books, use the greater-than and less-than symbols on either side of the relationship set.
+This is called a many-to-many relationship. Each entity in the entity set is participating
+in more than one relationship.Many books being written by many authors, or, many authors
+writing many books. You can now describe the building blocks of a relationship, explain
+the symbols used in a relationship set, and describe the difference between the one-to-one
+and many-to-many relationship.
 
 [^^^](#SQL_AND_RDB)
 
