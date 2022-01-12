@@ -59,36 +59,34 @@ Create a function called shortcut to remove all the lowercase vowels in a given 
 ```
 
 ```py
-a = "heyho ES heyho"
+a = "szia szia Hello mivan"
 m = ['e', 'u', 'i', 'o', 'a']
-l,l1,l2 = [],[],[]
+
+l = []
+l2 = []
+l3 = []
 
 l.append(a)
-
-#Split a sentence into list of words
 l1 = [i for item in l for i in item.split()]
-
 print(l1)
 
-#for chars in l1:
-#    if chars.islower() and chars in m:
+ll = len(l1)
+x = 0
+while x < ll:
+    if l1[x].islower():
+        l1[x] = "kicsi"    
+    l3.append(l1[x])
+    x += 1
 
-'''
-for chars in l1:
-    if chars.isupper():
-        l2.append(chars)
-    else:
-        if chars not in l:
-            l1.append(chars)
-
-'''
-str1 = ''.join(l1)            
+print(l3)
+str1 = ' '.join(l3)            
 print(str1)
 ```
 
 ```
-['heyho', 'ES', 'heyho']
-heyhoESheyho
+['szia', 'szia', 'Hello', 'mivan']
+['kicsi', 'kicsi', 'Hello', 'kicsi']
+kicsi kicsi Hello kicsi
 ```
 
 [^^^](#CODEWARS)
