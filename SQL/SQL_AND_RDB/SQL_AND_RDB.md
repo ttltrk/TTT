@@ -9,6 +9,10 @@
 
 ---
 
+* [link](https://courses.cognitiveclass.ai/courses/course-v1:BDU+DB0101EN+v1/course/)
+
+---
+
 * [WELCOME](#WELCOME)
 
 MODULE_01 - SQL AND RELATIONAL DB 101
