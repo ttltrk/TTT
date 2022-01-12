@@ -9,6 +9,10 @@
 
 ---
 
+* [link](https://courses.cognitiveclass.ai/courses/course-v1:developerWorks+BC0101EN+v1/course/)
+
+---
+
 ```
 BC0101EN
 Blockchain Essentials
