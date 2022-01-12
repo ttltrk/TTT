@@ -19,8 +19,8 @@ MODULE_01 - SQL AND RELATIONAL DB 101
 
 * [INTRO](#INTRO)
 * [INFORMATION_AND_DATA_MODELS](#INFORMATION_AND_DATA_MODELS)
-* [TYPE_OF_RELATIONSHIP](#TYPE_OF_RELATIONSHIP)
-* [](#)
+* [TYPE_OF_RELATIONSHIPS](#TYPE_OF_RELATIONSHIPS)
+* [MAPPING_ENTITIES_TO_TABLES](#MAPPING_ENTITIES_TO_TABLES)
 * [](#)
 
 MODULE_02
@@ -209,7 +209,7 @@ and an attribute
 
 ---
 
-#### TYPE_OF_RELATIONSHIP
+#### TYPE_OF_RELATIONSHIPS
 
 Hello, and welcome to Types of Relationships.
 In this video, we will provide an overview
@@ -244,7 +244,7 @@ in that many authors write a single book.
 To represent many authors writing many
 books, use the greater-than and less-than symbols on either side of the relationship set.
 This is called a many-to-many relationship. Each entity in the entity set is participating
-in more than one relationship.Many books being written by many authors, or, many authors
+in more than one relationship. Many books being written by many authors, or, many authors
 writing many books. You can now describe the building blocks of a relationship, explain
 the symbols used in a relationship set, and describe the difference between the one-to-one
 and many-to-many relationship.
@@ -253,11 +253,33 @@ and many-to-many relationship.
 
 ---
 
-####
+#### MAPPING_ENTITIES_TO_TABLES
 
-```
-
-```
+Hello, and welcome to Mapping Entities to Tables.
+In this video, we will learn how entities are mapped to relational database tables.
+At the end of this lesson, you will be able to explain how an E-R Diagram translates into
+a relational database table with rows and columns.
+Entity Relationship Diagrams are the basic foundation for designing a database.
+In the relational database design, begin with an ER diagram, or ERD, and later map the ERD
+to the tables in a database.
+In this example, we use the ERD for entity Book.
+Entity Book has several attributes.
+The entity and its attributes will be mapped to a table.
+For ease of understanding, lets separate the entity from the attributes.
+In this case, entity Book becomes a table with the same name Book.
+All the attributes translate into columns in the table.
+We will now see how a table would be represented in a Relational database model.
+A table is a combination of rows and columns.
+While mapping, the entity becomes the table.
+Having said that, the table has not yet taken the form of rows and columns.
+The attributes get translated into columns in a table providing the actual table form
+of rows and columns.
+Later we add some data values to each of the columns, which completes the table form.
+For the Author example, the entity Author becomes the table, and the attributes get
+translated to columns in the table.
+Adding some data values into the columns complete the table.
+You can now explain how an E-R Diagram translates into a relational database table with rows
+and columns.
 
 [^^^](#SQL_AND_RDB)
 
