@@ -287,7 +287,54 @@ and columns.
 
 #### RELATIONAL_MODEL_CONCEPTS
 
-
+Hello, and welcome to Relational Model Concepts.
+In this video, we will learn the history of the relational model, and some relational
+terms.
+At the end of this lesson, you will be able to define the relational terms: relation,
+degree, and cardinality, and, explain the difference between a relational schema and
+a relational instance.
+The relational model was first proposed in 1970, and is based on a mathematical model
+and mathematical terms.
+The building blocks of the Relational Model are: Relation and Sets.
+The Relational Model of data is based on the concept of relation.
+A relation is a mathematical concept based on the idea of sets.
+A set is an unordered collection of distinct elements.
+It is a collection of items of the same type.
+It would have no order and no duplicates.
+A relational database is a set of relations.
+A relation is also the mathematical term for a table.
+A table is a combination of rows and columns.
+A Relation is made up of 2 parts: Relational Schema and Relational Instance.
+The Relational Schema specifies: the name of a relation, name and type of each of the
+columns, which are the attributes.
+The example here is the entity Author.
+Author is the name of the relation.
+Author_ID is an attribute which can hold the data type char, which is a character string
+of a fixed length.
+Likewise last name, first name, email and city have the data type varchar, which is
+a character string of a variable length.
+The last attribute, Country, also has a data type of char.
+This constitutes the Relational Schema.
+A Relational Instance is a table made up of rows and columns.
+The columns are the attributes, or fields.
+The rows are tuples.
+Degree refers to the number of attributes, or columns, in a relation.
+Cardinality refers to the number of tuples, or rows.
+In this example, the Degree is 6 because there are 6 columns, and the Cardinality is 5 because
+there are 5 tuples, or rows.
+You have heard a lot of new terms in this session.
+Let's review them.
+The Relational Model of data is based on the concept of relation.
+A relation is a mathematical concept based on idea of sets, and is the mathematical term
+for a table.
+A Relation is made up of 2 parts: Relational Schema and Relational Instance.
+A Relational Schema specifies: the name of a relation, and the attributes.
+A Relational Instance is a table made up of the attributes, or columns, and the tuples,
+or rows.
+Degree refers to the number of attributes, or columns, in a relation.
+Cardinality refers to the number of tuples, or rows in a relation.
+You can now define the relational terms: relation, degree, and cardinality, and, explain the
+difference between a relational schema and a relational instance.
 
 [^^^](#SQL_AND_RDB)
 
