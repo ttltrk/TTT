@@ -27,9 +27,9 @@ MODULE_02
 
 * [RM_CONSTRAINTS_INTRO](#RM_CONSTRAINTS_INTRO)
 * [RM_CONSTRAINTS_ADVANCED](#RM_CONSTRAINTS_ADVANCED)
-* [](#)
-* [](#)
-* [](#)
+* [PRIMARY_KEYS](#PRIMARY_KEYS)
+* [SEMANTIC_INTEGRITY](#SEMANTIC_INTEGRITY)
+* [SEMANTIC_CONSTRAINTS](#SEMANTIC_CONSTRAINTS)
 
 MODULE_03
 
@@ -463,31 +463,47 @@ Now you can describe the six different types of relational model constraints.
 
 ---
 
-####
+#### PRIMARY_KEYS
 
-```
+If a relation schema has more than one key, then each key is called a candidate key.One of the candidate keys is designated as the primary key, and the others are called secondary keys.
 
-```
+In a practical relational database, each relation schema must have a primary key.
 
-[^^^](#SQL_AND_RDB)
+Rules for primary keys:
+The value of the Primary Key must be unique for each instance of the entity.
 
----
-
-####
-
-```
-
-```
+- There can be no missing values( ie. Not Null) for Primary Keys. If the Primary Key is composed of multiple attributes, each of those attributes must have a value for each instance.
+- The Primary Key is immutable.i.e., once created the value of the Primary Key cannot be changed.
+If the Primary Key consists of multiple attributes, none of these values can be updated.
 
 [^^^](#SQL_AND_RDB)
 
 ---
 
-####
+#### SEMANTIC_INTEGRITY
 
-```
+Semantic integrity ensures that data entered into a row reflects an allowable value for that row. The value must be within the domain, or allowable set of values, for that column. For example, the quantity column of the items table permits only numbers. If a value outside the domain can be entered into a column, the semantic integrity of the data is violated.
 
-```
+[^^^](#SQL_AND_RDB)
+
+---
+
+#### SEMANTIC_CONSTRAINTS
+
+Semantic Constraints are constraints that cannot be directly expressed in the schemas of the data model. Semantic constraints are also called application-based rules or business rules.  They are additional rules specified by users or database administrators. For example, a class can have a maximum of 30 students; salary of an employee cannot exceed the salary of the employee’s manager.
+
+Domain constraints specify that within a tuple the value of each attribute must be an element from the domain of that attribute. The data types associated with the domains include:
+
+- Integers (short integer, integer, long integer)
+- Real numbers (float and double precision float)
+- Characters
+- Booleans
+- Fixed-length strings and variable length strings
+- Date, time, timestamp
+- Money
+- Other special data types
+
+Other possible domain values may be a sub-range of values from a data type or as an enumerated data type in which values are explicitly listed.
 
 [^^^](#SQL_AND_RDB)
 
