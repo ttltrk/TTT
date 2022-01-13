@@ -25,8 +25,8 @@ MODULE_01 - SQL AND RELATIONAL DB 101
 
 MODULE_02
 
-* [](#)
-* [](#)
+* [RM_CONSTRAINTS_INTRO](#RM_CONSTRAINTS_INTRO)
+* [RM_CONSTRAINTS_ADVANCED](#RM_CONSTRAINTS_ADVANCED)
 * [](#)
 * [](#)
 * [](#)
@@ -340,17 +340,54 @@ difference between a relational schema and a relational instance.
 
 ---
 
-####
+#### RM_CONSTRAINTS_INTRO
 
-```
-
-```
+Hello, and welcome to an introduction to Relational Model Constraints.
+This video provides an overview.
+We will learn about referencing between entities and we will learn some new terminology that
+is used in a relational model.
+At the end of this lesson, you will be able to explain referencing, differentiate between
+a primary key and foreign key, and identify a parent table and a dependent table.
+Within any business, data must adhere to certain restrictions or rules.
+In this lesson, we will use the Book and Author example.
+At least one author writes one book.
+This is a one-to-one relationship.
+To look up the Author information, the Book entity refers to the Author entity.
+To look up the Book information, the Author entity refers to the Book entity.
+In a relational data model this is called referencing.
+In relational databases, this establishes the data integrity between two relations.
+The Entity-Relationship Diagram represents the Relational Data Model for the Author entity
+and Book entity as part of a simplified library database model.
+Other entities have been added, such as Borrower, Loan, Copy, and Author List.
+Notice that the attributes Author_ID, Book_ID, and Borrower_ID have a special icon.
+This identifies the Primary Key.
+A Primary Key of a relational table uniquely identifies each row in a table.
+Notice the entities on the lower half of the
+screen.
+Some attributes have FK in brackets next to them.
+For example, the Copy entity has attribute Book_ID with the FK in brackets.
+This identifies the Foreign Key.
+A Foreign Key is a set of columns referring to a primary key of another table.
+These entities are part of the relationship set between the entities above them.
+All of the entities have a one-to-many relationship established between them.
+Let's learn a couple of new terms that are used in a relational model.
+A table containing a primary key that is related to at least one foreign key is called a Parent
+table.
+In the example, the Author entity is the parent table.
+The Book entity is also a parent table.
+A table containing one or more foreign keys is called a dependent table.
+It might also be referred to as a child table.
+In the example, the Author_List entity has foreign keys that refer to different parent
+tables, Author and Book.
+There's more to learn about Relational Model Constraints, but with this overview, now you
+can explain referencing, differentiate between a primary key and foreign key, and identify
+a parent table and a dependent table.
 
 [^^^](#SQL_AND_RDB)
 
 ---
 
-####
+#### RM_CONSTRAINTS_ADVANCED
 
 ```
 
