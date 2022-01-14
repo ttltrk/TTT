@@ -34,7 +34,7 @@ MODULE_02
 MODULE_03
 
 * [TYPE_OF_SQL_STATEMENTS](#TYPE_OF_SQL_STATEMENTS)
-* [](#)
+* [CREATE_TABLE_STATEMENT](#CREATE_TABLE_STATEMENT)
 * [](#)
 * [](#)
 * [](#)
@@ -543,7 +543,7 @@ data in tables.
 
 ---
 
-####
+#### CREATE_TABLE_STATEMENT
 
 ```
 
