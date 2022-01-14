@@ -545,9 +545,69 @@ data in tables.
 
 #### CREATE_TABLE_STATEMENT
 
-```
-
-```
+In this video, we will learn how to create a relational database table.
+At the end of the video,
+you will be able to distinguish between
+data definition language statements and data manipulation language statements,
+and explain how the entity name and attributes
+are used to create a relational database table.
+SQL Statements are used for interacting with Entities (that is Tables),
+Attributes (that is Columns) and their tuples (or rows with data values) in relational databases.
+SQL statements fall into two different categories:
+Data Definition Language statements, and Data Manipulation Language statements.
+Data Definition Language (or DDL) statements are used to define, change, or drop database objects such as tables.
+Common DDL statement types include: CREATE, ALTER, TRUNCATE and DROP.
+CREATE: which is used for creating tables and defining its columns
+ALTER: is used for altering tables including adding and dropping columns and modifying their datatypes
+TRUNCATE: is used for deleting data in a table but not the table itself
+DROP: is used for deleting tables
+Data Manipulation Language (or DML) statements are used to read and modify data in tables.
+These are also sometimes referred to as CRUD operations,
+that is, Create, Read, Update and Delete rows in a table.
+Common DML statement types include: INSERT, SELECT, UPDATE and DELETE .
+INSERT: is used for inserting a row or several rows of data into a table
+SELECT: reads or selects row or rows from a table
+UPDATE: edits row or rows in a table
+And DELETE: removes a row or rows of data from a table
+Now let’s look at the most common DDL statement – CREATE.
+The syntax of the CREATE table is shown here:
+You start with “CREATE TABLE” followed by the name of the table you want to create
+Then enclose rest of the statement inside a pair of parenthesis or round brackets.
+Each row inside the parenthesis specifies the name of a column followed by its datatype
+and possibly some additional optional values that we will see later.
+Each attribute or column definition is separated by a comma.
+For example, if we want to create a table for provinces in Canada you would specify:
+CREATE TABLE provinces (id char(2) Primary key not null comma name varchar(24) close parenthesis
+In this example, the data types used are: CHAR which is a character string of a fixed length, in this case 2.
+And VARCHAR, which is a character string of a variable length.
+In this case, this variable character field can be up to 24 characters long.
+Issuing this statement would create a table in the database with 2 columns.
+The first column id for storing the abbreviated 2 letter province short codes such as AB , BC, etc.
+And the second column called name for storing the full name of the province, such as ALBERTA, BRITISH COLUMBIA, etc.
+Now, let’s look at a more elaborate example based on the Library database.
+This database includes several entities such as AUTHOR, BOOK, BORROWER, etc.
+Let’s start by creating the table for the AUTHOR entity.
+The name of the table will be AUTHOR, and its attributes
+such as AUTHOR_ID, FIRSTNAME, LASTNAME, etc. will be the columns of the table.
+In this table, we will also assign the Author_ID attribute as the Primary Key,
+so that no duplicate values can exist.
+Recall, the Primary Key of a relational table uniquely identifies each tuple (or row) in a table.
+To create the Author table, issue the following command:
+CREATE TABLE author ( author_id CHAR(2) PRIMARY KEY NOT NULL, lastname VARCHAR(15) NOT NULL,
+firstname VARCHAR(15) NOT NULL, email VARCHAR(40), city VARCHAR(15), country CHAR(2) )
+Note that the Author_ID is the Primary Key.
+This constraint prevents duplicate values in the table.
+Also note that Last Name and First Name have the constraint NOT NULL.
+This ensures that these fields cannot contain a NULL value, since an author must have a name.
+Now you know that:
+DDL or Data Definition Language statements are used for defining or changing objects
+in a database such as tables.
+DML or Data Manipulation Language statements are used for manipulating or working with data in tables.
+CREATE is a DDL statement for creating Entities or tables in a database.
+The CREATE TABLE statement includes definition of attributes of columns in the table, including
+Names of columns
+Datatypes of columns
+And other Optional values if required such as the Primary Key constraint
 
 [^^^](#SQL_AND_RDB)
 
