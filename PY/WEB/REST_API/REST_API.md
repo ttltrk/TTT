@@ -9,6 +9,11 @@
 ---
 
 ```
+URL = Universal Resource Locator
+URI = Universal Resource Identifier 
+```
+
+```
 API = Application Programming Interface
 REST = Representation State Transfer
 ```
