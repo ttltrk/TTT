@@ -41,7 +41,7 @@ MODULE_03
 
 MODULE_04
 
-* [](#)
+* [STRING_PATTERNS_RANGES_SETS](#STRING_PATTERNS_RANGES_SETS)
 * [](#)
 * [](#)
 * [](#)
@@ -783,11 +783,70 @@ DELETE statement and explain the importance of the WHERE clause in these stateme
 
 ---
 
-####
+#### STRING_PATTERNS_RANGES_SETS
 
-```
-
-```
+In this video we will learn about some advanced techniques in retrieving data from
+a relational database table.
+At the end of this lesson, you will be able to describe how to simplify a SELECT statement
+by using string patterns, ranges, or sets of values.
+The main purpose of a database management system is not just to store the data, but
+also facilitate retrieval of the data.
+In its simplest form, a SELECT statement is: 6 select * from tablename Based on our
+simplified library database model, and the table Book, select * from book gives a result
+set of four rows.
+All the data rows for all columns in the table Book are displayed.
+Or you can retrieve a subset of columns, for example, just two columns from the table
+Book, such as book_id and title.
+Or you can restrict the result set by using the WHERE clause.
+For example, you can select the title of the book whose book_id is B1. But what if
+we don't know exactly what value to specify in the WHERE clause?
+The Where clause always requires a predicate, which is a condition that evaluates to true,
+false or unknown.
+But what if we don?t know exactly what value the predicate is?
+For example, what if we can't remember the name of the author, but we remember that
+their first name starts with R?
+In a relational database, we can use string patterns to search data rows that match this
+condition.
+Lets look at some examples of using string patterns.
+If we can't remember the name of the author, but we remember that their first name starts
+with R, we use the Where clause with the LIKE predicate.
+The LIKE predicate is used in a WHERE clause to search for a pattern in a column.
+The percent sign is used to define missing letters.
+The percent sign can be placed before the pattern, after the pattern, or both before
+and after the pattern.
+In this example, we use the percent sign after the pattern, which is the letter R.
+The percent sign is called a wildcard character.
+A wildcard character is used to substitute other characters.
+So, if we can't remember the name of the author, but we can remember that their first name
+starts with the letter R, we add the LIKE predicate to the Where clause.
+For example, select FirstName from Author where FirstName like R%.
+This will return all rows in the Author table whose authors first name starts with
+the letter R. And here is the result set.
+Two rows are returned for authors Raul and Rav. What if we wanted to
+retrieve the list of books whose number of pages is more than 290 but less than 300.
+We could write the select statement like this, specifying the WHERE clause as: WHERE pages
+is greater-than or equal to 290 AND pages is less-than or equal to 300.
+But in a relational database, we can use a range of numbers to specify the same
+condition.
+Instead of using the Comparison Operators greater-than or equal to, we use the Comparison
+Operator BETWEEN AND.
+BETWEEN AND compares two values.
+The values in the range are inclusive.
+In this case, we re-write the query to specify the WHERE clause as: WHERE pages
+BETWEEN 290 AND 300.
+The result set is the same, but the SELECT statement is easier and quicker to write.
+In some cases there are data values that cannot be grouped under ranges.
+For example, if we want to know which countries the authors come from.
+If we wanted to retrieve authors from Australia or Brazil, we could write the SELECT statement
+with the WHERE clause repeating the two country values.
+However, what if we want to retrieve authors from Canada, India, and China?
+The WHERE clause would become very long repeatedly listing the required country conditions.
+Instead, we can use the IN operator.
+The IN operator allows us to specify a set of values in a WHERE clause.
+This operator takes a list of expressions to compare against.
+In this case, the countries Australia or Brazil.
+Now you can describe how to simplify a SELECT statement by using string patterns,
+ranges, or sets of values.
 
 [^^^](#SQL_AND_RDB)
 
