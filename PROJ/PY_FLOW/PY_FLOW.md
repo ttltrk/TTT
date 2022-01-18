@@ -22,44 +22,37 @@ dripinvesting.org >> csv >> postgre >> flask
 
 ---
 
-* [EXTRACT_DIVIDENDS](#EXTRACT_DIVIDENDS)
-* [PREPARE_THE_FILE_BEFORE_IMPORT](#PREPARE_THE_FILE_BEFORE_IMPORT)
-* [MOVING_CLEARED_DATA_INTO_A_NEW_FILE](#MOVING_CLEARED_DATA_INTO_A_NEW_FILE)
-* [DROP_TABLE_IN_POSTGRES](#DROP_TABLE_IN_POSTGRES)
-* [CREATE_TABLE_IN_POSTGRES](#CREATE_TABLE_IN_POSTGRES)
-* [IMPORT_CSV_INTO_POSTGRES](#IMPORT_CSV_INTO_POSTGRES)
+* [PREPARE_AND_DB_PART](#PREPARE_AND_DB_PART)
 * [FLASK_AND_POSTGRES](#FLASK_AND_POSTGRES)
 
 ---
 
-#### EXTRACT_DIVIDENDS
-
-url: https://bit.ly/dividendchampionsexcel
+#### PREPARE_AND_DB_PART
 
 ```py
+#-----------------------------------------------------------------
+# mandatory packages
+#-----------------------------------------------------------------
+
 import webbrowser
-
-webbrowser.open('https://bit.ly/dividendchampionsexcel')
-```
-
-[^^^](PY_FLOW)
-
----
-
-#### PREPARE_THE_FILE_BEFORE_IMPORT
-
-```py
-#download the source file
-import webbrowser
-
-webbrowser.open('https://bit.ly/dividendchampionsexcel')
-```
-
-```py
-#rename and move the file
 import os
+from openpyxl import Workbook, load_workbook
+import json
+import pandas as pd
+import psycopg2 as p2
 
+#-----------------------------------------------------------------
+# prepare the file
+#-----------------------------------------------------------------
+
+webbrowser.open('https://bit.ly/dividendchampionsexcel')
+
+print('01 - source file load >> DONE')
+#-----------------------------------------------------------------
+#rename and move the file
 #preparing the files - hous-keeping, removing the old/used files
+#-----------------------------------------------------------------
+
 os.remove("US_DIV_EX.xlsx")
 os.remove("US_DIV_EX.csv")
 
@@ -69,18 +62,11 @@ new_name = r"C:\Users\AttilaTorok\Desktop\ADM\MM\PY\GOPAS\US_DIV_EX.xlsx"
 
 # Renaming the file
 os.rename(old_name, new_name)
-```
 
-[^^^](PY_FLOW)
-
----
-
-#### MOVING_CLEARED_DATA_INTO_A_NEW_FILE
-
-```py
-from openpyxl import Workbook, load_workbook
-import pandas as pd
-import os
+print('02 - rename and file move >> DONE')
+#-----------------------------------------------------------------
+# preparing/selecting the file/worksheet
+#-----------------------------------------------------------------
 
 wb = load_workbook('US_DIV_EX.xlsx')
 sheets = wb.sheetnames
@@ -93,6 +79,10 @@ column=sh1.max_column
 #creating the empty lists
 l1,l2,l4,l5,l6,l7 = [],[],[],[],[],[]
 
+#-----------------------------------------------------------------
+# iterating through the cells
+#-----------------------------------------------------------------
+
 #how to reach the 1st column from 4th row
 for i in range (4,row+1):
     result1 = sh1.cell(i,1).value
@@ -103,7 +93,6 @@ for i in range (4,row+1):
     result2 = sh1.cell(i,2).value
     res2 = result2.replace(",", " ")
     l2.append(res2)
-
 
 #how to reach the 4th column from 4th row
 for i in range (4,row+1):
@@ -125,6 +114,10 @@ for i in range (4,row+1):
     result7 = sh1.cell(i,7).value
     l7.append(result7)
 
+#-----------------------------------------------------------------    
+# pandas part
+#-----------------------------------------------------------------
+
 #adding the headers    
 data = {
     'Symbol':l1,
@@ -138,64 +131,45 @@ data = {
 #preparing the dataframe
 df = pd.DataFrame(data)
 
-#print(df)
-
 #creating the final file
 final = df.to_csv('US_DIV_EX.csv')
-```
 
-[^^^](PY_FLOW)
+print('03 - preparing the worksheet >> DONE')
 
----
+#-----------------------------------------------------------------    
+# DB part
+#-----------------------------------------------------------------
 
-#### DROP_TABLE_IN_POSTGRES
-
-```py
-import psycopg2 as p2
-import pandas as pd
-
-conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
+# credentials
+conn = p2.connect(host="127.0.0.1", database="******", user="******", password="******")
 cur = conn.cursor()
 
+#drop table
 cur.execute("drop table us_div;")
 
 conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
 conn.close()
-```
 
-[^^^](PY_FLOW)
-
----
-
-#### CREATE_TABLE_IN_POSTGRES
-
-```py
-import psycopg2 as p2
-import pandas as pd
-
-conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
-cur = conn.cursor()
+print('04 - drop target table >> DONE')
 
 #create table
+conn = p2.connect(host="127.0.0.1", database="******", user="******", password="******")
+cur = conn.cursor()
+
 cur.execute("CREATE TABLE us_div (id int, symbol varchar(255), company varchar(255), sector varchar(255), years int, price dec, div_yield dec);")
 
 conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
 conn.close()
-```
 
-[^^^](PY_FLOW)
+print('05 - create target table >> DONE')
 
----
+#-----------------------------------------------------------------
+# upload the values into the target table
+#-----------------------------------------------------------------
 
-#### IMPORT_CSV_INTO_POSTGRES
-
-```py
-import psycopg2 as p2
-import pandas as pd
-
-conn = p2.connect(host="*****", database="*****", user="*****", password="*****")
+conn = p2.connect(host="127.0.0.1", database="******", user="******", password="******")
 cur = conn.cursor()
 
 with open('US_DIV_EX.csv', 'r') as f:
@@ -206,6 +180,11 @@ with open('US_DIV_EX.csv', 'r') as f:
 conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
 conn.close()
+
+print('06 - upload the values into the target table >> DONE')
+print('1-7 part DONE, start the flask....')
+
+#%run C:\Users\AttilaTorok\Desktop\ADM\MM\PY\GOPAS\FL\flask_sql\app.py
 ```
 
 ---
@@ -467,7 +446,7 @@ using jinja template
 </html>
 ```
 
-#### search.html 
+#### search.html
 
 ```html
 <!DOCTYPE html>
