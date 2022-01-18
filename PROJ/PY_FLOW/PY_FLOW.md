@@ -48,6 +48,7 @@ import psycopg2 as p2
 webbrowser.open('https://bit.ly/dividendchampionsexcel')
 
 print('01 - source file load >> DONE')
+
 #-----------------------------------------------------------------
 #rename and move the file
 #preparing the files - hous-keeping, removing the old/used files
@@ -57,13 +58,14 @@ os.remove("US_DIV_EX.xlsx")
 os.remove("US_DIV_EX.csv")
 
 # Absolute path of a file
-old_name = r"C:\Users\AttilaTorok\Downloads\U.S.DividendChampions (13).xlsx"
-new_name = r"C:\Users\AttilaTorok\Desktop\ADM\MM\PY\GOPAS\US_DIV_EX.xlsx"
+old_name = r"C:\****\****\Downloads\U.S.DividendChampions (13).xlsx"
+new_name = r"C:\****\****\Desktop\****\****\****\****\US_DIV_EX.xlsx"
 
 # Renaming the file
 os.rename(old_name, new_name)
 
 print('02 - rename and file move >> DONE')
+
 #-----------------------------------------------------------------
 # preparing/selecting the file/worksheet
 #-----------------------------------------------------------------
@@ -151,7 +153,7 @@ conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
 conn.close()
 
-print('04 - drop target table >> DONE')
+print('04 - drop the target table >> DONE')
 
 #create table
 conn = p2.connect(host="127.0.0.1", database="******", user="******", password="******")
@@ -163,7 +165,7 @@ conn.commit() # <- We MUST commit to reflect the inserted data
 cur.close()
 conn.close()
 
-print('05 - create target table >> DONE')
+print('05 - create the target table >> DONE')
 
 #-----------------------------------------------------------------
 # upload the values into the target table
