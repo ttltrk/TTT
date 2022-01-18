@@ -42,7 +42,7 @@ MODULE_03
 MODULE_04
 
 * [STRING_PATTERNS_RANGES_SETS](#STRING_PATTERNS_RANGES_SETS)
-* [](#)
+* [SORTING_RESULT_SET](#SORTING_RESULT_SET)
 * [](#)
 * [](#)
 * [](#)
@@ -852,11 +852,39 @@ ranges, or sets of values.
 
 ---
 
-####
+#### SORTING_RESULT_SET
 
-```
-
-```
+about some advanced techniques in retrieving data from a relational database table and
+sorting how the result set displays. At the end of this lesson, you will be able to describe
+how to sort the result set by either ascending or descending order and explain how to indicate
+which column to use for the sorting order.
+The main purpose of a database management
+system is not just to store the data, but also facilitate retrieval of the data.
+In its simplest form, a SELECT statement is: select * from tablename. Based on our simplified
+library database model, and the table Book, select * from book gives a result set of
+four rows. All the data rows for all columns in the table Book are displayed.
+We can choose to list the book titles only, as shown in this example, select title from book. However,
+the order does not seem to be in any order. Displaying the result set in alphabetical
+order would make the result set more convenient. To do this, we use the ORDER BY clause.
+To select the result set in alphabetical order,
+we add the ORDER BY clause to the SELECT statement.
+The ORDER BY clause is used in a query to sort the result set by a specified
+column. In this example, we have used ORDER BY on the column Title to sort the result set.
+By default, the result set is sorted in ascending order. In this example, the result
+set is sorted in alphabetical order by book title.
+To sort in descending order, we use the keyword DESC.
+The result-set is now sorted according to the specified column ,
+which is Title, and is sorted in descending order. Notice the order of the first three rows.
+The first three words of the title are the same. So, the sorting starts at the
+point where the characters differ. Another way of specifying the sort column is to indicate
+the column sequence number. In this example, select title, pages from book ORDER BY 2
+indicates the column sequence number in the query for the sorting order.
+Instead of specifying the column name Pages, the number 2 is used. In the SELECT statement, the second
+column specified in the column list is "Pages", so the sort order is based on the values in
+the Pages column. In this case, the Pages column indicates the number of pages in the book.
+As you can see, the result set is in an ascending order by number of pages.
+Now you can describe how to sort the result set by either ascending or descending order,
+and explain how to indicate which column to use for the sorting order.
 
 [^^^](#SQL_AND_RDB)
 
