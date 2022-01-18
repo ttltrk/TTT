@@ -75,6 +75,7 @@ sheets = wb.sheetnames
 
 sh1 = wb['Champions']
 
+#count the rows and columns
 row=sh1.max_row
 column=sh1.max_column
 
