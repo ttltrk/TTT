@@ -48,7 +48,7 @@ MODULE_04
 MODULE_05
 
 * [JOINS_OVERVIEW](#JOINS_OVERVIEW)
-* [](#)
+* [INNER_JOIN](#INNER_JOIN)
 * [](#)
 * [](#)
 * [](#)
@@ -998,7 +998,75 @@ and list different types of JOIN operators.
 
 ---
 
-####
+#### INNER_JOIN
+
+In this video, we will learn about joining two tables to create a result set.
+At the end of this lesson,
+you will be able to explain the sequel syntax to
+join two or more tables and interpret the result set.
+A simple select statement retrieves data from one or more columns from a single table.
+The next level of complexity is retrieving data from two or more tables.
+This is referred to as joining tables.
+A join combines the rows from two or more tables based
+on a relationship between certain columns in these tables.
+There are two types of table joins: inner join and outer join.
+The most common type of join is the inner join.
+An inner join matches the results from two tables and displays
+only the result set that matches the criteria specified in the query.
+An inner join returns only the rows that match.
+Based on our simplified library database model,
+if we want to check the names of people who have borrowed a book,
+this information is split between two tables.
+We need to find the names of people from the borrower table,
+who are listed in the loan table.
+So we need to identify the relationship between the two tables.
+We do this by identifying a column in each table to link the tables.
+In this example, we do this by matching the borrower ID,
+notice that the column borrower ID exists in both the borrower table as the primary key,
+and the loan table as the foreign key.
+A primary key uniquely identifies each row in a table.
+A foreign key is a set of columns referring to a primary key of another table.
+We use the inner join operator to match
+occurrences of the borrower ID in the borrower table,
+with occurrences of the borrower ID in the loan table.
+This is the syntax of the select statement for an inner join.
+In the from clause,
+we identify the borrower table as B,
+and the loan table as L. For this join,
+we select borrower ID, last name,
+and country from the borrower table,
+and borrower ID, and the loan date from the loan table-
+on the condition that the borrower ID in
+the borrower table is equal to the borrower ID in the loan table.
+Notice that in this join
+each column name is prefixed with either the letter B or L. In sequel,
+this prefect is referred to as an alias.
+Using an alias is much easier than rewriting the whole table name.
+And here is the result set.
+The result set shows the rows from both tables that have the same borrower ID.
+So far, we have seen an example of combining two tables.
+But what if you need to combine data from three or more different tables?
+You simply add new joins to the sequel statement.
+For example, we want to know which borrowers have a book on loan,
+but we also want to know which copy of the book they have.
+This is how the three tables relate to each other.
+In this case, we join the tables two by two.
+First we join the information from the borrower table and
+the loan table where the borrower IDs match.
+Then, we join the information from
+the loan table and the copy table with a copy IDs match.
+We select the last name from the borrower table,
+the copy ID from the loan table,
+and the status from the copy table.
+And here is the result set.
+We see the name of the borrower,
+the ID of each book,
+and the status they have.
+There are five books on loan.
+If you wanted to add more tables,
+you simply add new joins to the sequel statement.
+Now you can explain the sequel syntax to join
+two or more tables and interpret the result set.
 
 [^^^](#SQL_AND_RDB)
 
