@@ -49,9 +49,7 @@ MODULE_05
 
 * [JOINS_OVERVIEW](#JOINS_OVERVIEW)
 * [INNER_JOIN](#INNER_JOIN)
-* [](#)
-* [](#)
-* [](#)
+* [OUTER_JOIN](#OUTER_JOIN)
 
 ---
 
@@ -1072,19 +1070,87 @@ two or more tables and interpret the result set.
 
 ---
 
-####
+#### OUTER_JOIN
 
-[^^^](#SQL_AND_RDB)
-
----
-
-####
-
-[^^^](#SQL_AND_RDB)
-
----
-
-####
+After watching this video, you will be able to:
+Describe left outer joins, right outer joins, and full outer joins
+Explain when to use each type of outer join
+Describe the syntax of the OUTER JOIN statement
+Outer joins, like inner joins, return the rows from each table that have matching values
+in the join columns.
+Unlike inner joins, outer joins also return the rows that do not have a match between
+the tables.
+SQL offers you three types of outer joins: left outer join, right outer join and full
+outer join.
+In a left outer join, all the rows from the first table (on the left side of the join
+predicate) are included, and only the matching rows from the second table (on the right side
+of the join predicate).
+In this diagram, a Left Join matches all the rows from the left table and combines the
+information with rows from the right table that match the criteria specified in the query.
+In a right outer join, all the rows from the first table (on the left side of the join
+predicate) are included, and only the matching rows from the second table (on the right side
+of the join predicate).
+In this diagram, a Right Join matches all the rows from the right table and combines
+the information with rows from the left table that match the criteria specified in the query.
+A full join returns all rows from both the right table and the left table.
+So, the FULL JOIN can return a very large result set.
+In this diagram, the result set of a RIGHT JOIN is all rows from both tables matching
+the criteria specified in the query, plus all non-matching rows from the RIGHT table.
+This is the syntax of the SELECT statement for a LEFT JOIN.
+In this example, the Borrower table is the first table specified in the FROM clause of
+the SELECT statement, so the Borrower table is the LEFT table, and the Loan table is the
+RIGHT table.
+In the FROM clause, Borrower is listed on the left side of the join operator, therefore
+you will select all rows from the Borrower table and combine them with the contents of
+the Loan table based on the criteria specified in the query.
+In this example, the criteria is the BORROWER ID column.
+For a LEFT OUTER JOIN, simply called a LEFT JOIN, you will select the following columns
+from the Borrower table: BorrowerID, LastName, and Country, and you will also select the
+following columns from the Loan table: BorrowerID, and LoanDate.
+The LEFT JOIN selects each BORROWER ID in the Borrower table and displays the LoanDate
+from the Loan table.
+The result set shows each Borrower ID from the borrower table, and the loan date for
+that borrower.
+There is no loan date for the last three rows, so the borrower ID and loan date show null
+values.
+This is the syntax of the SELECT statement for a RIGHT JOIN.
+In this example, the Borrower table is the first table specified in the FROM clause of
+the SELECT statement, so the Borrower table is the LEFT table, and the Loan table is the
+RIGHT table.
+In the FROM clause, the Loan table is listed on the right side of the join operator, therefore
+you will select all rows from the Loan table and combine them with the contents of the
+Borrower table based on the criteria specified in the query.
+In this example, the criteria is the BORROWER_ID column.
+For a RIGHT JOIN, you will select the following columns from the Loan table: Borrower_ID,
+and LoanDate, and you will also select the following columns from the Borrower table:
+Borrower_ID, LastName, and Country where the Borrower_ID in the Loan table matches the
+Borrower_ID in the Borrower table.
+The result set shows each Borrower ID from the Loan table and the Loan Date for that
+Borrower, where the Borrower ID in the Loan table also exists in the Borrower table.
+For the last row, there is no matching row in the borrower table, so the Borrower_ID,
+Lastname, and Country show null values.
+This could indicate a problem for the library; it indicates there is a book on loan to an
+unknown person.
+This is the syntax of the SELECT statement for a FULL JOIN.
+For a FULL JOIN, you select all rows from the Borrower table and all rows from the Loan
+table.
+The result set shows all eight records from the Borrower table listed with the corresponding
+data from the Loan table.
+Once again, three rows return a NULL value because Borrowers Peters, Li, and Wong have
+never taken a book out on loan.
+The last row returns values for Borrower_ID and Loan_Date from the Laon table, but returns
+NULLs from the Borrower table.
+In this instance, there is no match in the Borrower table – the borrower of this book
+is unknown.
+In this video, you learned that:
+There are many varieties of outer join that you can use to refine your result set.
+Left outer joins return all rows from the left table, and all the rows form the right
+table that match that an inner join would return and all the rows in the first table
+that do not have a match in the second table.
+Right outer joins return all the rows that an inner join would return and all the rows
+in the second table that do not have a match in the first table.
+Full outer joins return all matching rows from both tables and all the rows from both
+tables that don’t have a match.
 
 [^^^](#SQL_AND_RDB)
 
