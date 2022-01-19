@@ -44,12 +44,10 @@ MODULE_04
 * [STRING_PATTERNS_RANGES_SETS](#STRING_PATTERNS_RANGES_SETS)
 * [SORTING_RESULT_SET](#SORTING_RESULT_SET)
 * [GROUPING_RESULT_SETS](#GROUPING_RESULT_SETS)
-* [](#)
-* [](#)
 
 MODULE_05
 
-* [](#)
+* [JOINS_OVERVIEW](#JOINS_OVERVIEW)
 * [](#)
 * [](#)
 * [](#)
@@ -941,6 +939,84 @@ In this example, those countries are China with 6 authors, and India also with 6
 Now you can explain how to eliminate duplicates from a result set, and describe
 how to further restrict a result set.
 
+
+[^^^](#SQL_AND_RDB)
+
+---
+
+#### JOINS_OVERVIEW
+
+In this video, we will learn about JOINing two tables to create a result set.
+At the end of this lesson, you will be able to define the JOIN operator,
+explain the role of primary keys and foreign keys in a JOIN operation,
+and list different types of JOIN operators.
+A simple select statement retrieves data from one or more columns from a single table.
+The next level of complexity is retrieving data from two or more tables.
+This leads to multiple possibilities of how the ResultSet is generated.
+To combine data from two tables,
+we use the JOIN operator.
+A JOIN combines the rows from two or more tables
+based on a relationship between certain columns in these tables.
+Based on the book and author entity examples,
+these are part of a simplified library database model.
+This entity relationship diagram represents the relational data model for
+the author and book entity as well as other entities such as borrower,
+loan, copy, and author list.
+In this model, the information is split into different tables.
+If you wanted to know which borrower has which copy of a book out on loan,
+you need to gather data from three tables:
+the borrower, loan, and copy tables.
+This is when you need to use the JOIN operator.
+With the JOIN operator,
+you are combining data from more than one table based on
+a relationship between certain columns in these tables.
+So, the first thing you need to do is identify the relationship between those tables.
+That is, the column or columns in
+each table that will be used as a link between the tables.
+In this entity relationship diagram, notice the author_ID,
+book_ID, borrower_ID, and copy_ID had the primary key icon.
+A primary key uniquely identifies each row in a table.
+Notice also the entities on the lower half of the screen-
+some attributes have FK in brackets next to them.
+For example, the copy entity has attribute book_ID with the FK in brackets.
+This identifies the foreign key.
+A foreign key is a set of columns referring to a primary key of another table.
+So, if you wanted to know which borrower has a book out on loan,
+you need to gather data from the borrower and loan tables.
+You will need the borrower ID from both tables.
+SQL offers you several different types of JOINs.
+It all depends on what you are looking for.
+For example, you can extract a data set corresponding to
+the intersection of the two tables involved or you can choose a bigger data set.
+You can go up to the point of selecting
+the combination of all the data from those two tables.
+Now, you can define the JOIN operator,
+explain the role of primary keys and foreign keys in a JOIN operation,
+and list different types of JOIN operators.
+
+[^^^](#SQL_AND_RDB)
+
+---
+
+####
+
+[^^^](#SQL_AND_RDB)
+
+---
+
+####
+
+[^^^](#SQL_AND_RDB)
+
+---
+
+####
+
+[^^^](#SQL_AND_RDB)
+
+---
+
+####
 
 [^^^](#SQL_AND_RDB)
 
