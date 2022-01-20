@@ -71,6 +71,14 @@ Cash is also an asset
 
 - All blockchains aim to provide irrefutable proof that a set of transactions occurred between participants
 - Different types of blockchain exist:
+  - bitcoin is an example of an unpermissioned, public blockchain
+    - the first blockchain application
+    - defines a shadow-currency and its ledger
+    - resource intensive
+- Blockchain for business generally prioritize
+  - assets over crypto
+  - identity over anonymity
+  - selective endorsement over proof of work
 
 #####
 #####
