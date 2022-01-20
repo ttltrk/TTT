@@ -75,7 +75,7 @@ Cash is also an asset
     - the first blockchain application
     - defines a shadow-currency and its ledger
     - resource intensive
-- Blockchain for business generally prioritize
+- Blockchain for business generally prioritize:
   - assets over crypto
   - identity over anonymity
   - selective endorsement over proof of work
