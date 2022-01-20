@@ -80,10 +80,15 @@ Cash is also an asset
   - identity over anonymity
   - selective endorsement over proof of work
 
-#####
-#####
-#####
-#####
+##### Summary
+
+- Consider the way businesses operate:
+  - business network, assets, transactions contracts, ledgers
+  - ledgers and contracts are prone to disputes
+
+- Blockchain is a shared, replicated ledger with smart contracts
+- All blockchains provide cryptographic proof of transactions:
+  - Different blockchains have different characters (prioritizing privacy over anonymity)
 
 [^^^](#IBM_BLOCKCHAIN_ESSENTIALS)
 
