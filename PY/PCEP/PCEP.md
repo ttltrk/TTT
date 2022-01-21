@@ -33,6 +33,13 @@ PCEP – Certified Entry-Level Python Programmer
 * [35_SORTING_SIMPLE_LISTS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_3/35_SORTING_SIMPLE_LISTS/35_SORTING_SIMPLE_LISTS.md)
 * [36_LIST_PROCESSING](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_3/36_LIST_PROCESSING/36_LIST_PROCESSING.md)
 * [37_MULTIDIMENSIONAL_ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_3/37_MULTIDIMENSIONAL_ARRAYS/37_MULTIDIMENSIONAL_ARRAYS.md)
+##### [MODULE_4](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/MODULE_4.md)
+* [41_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/41_FUNCTIONS/41_FUNCTIONS.md)
+* [42_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/42_FUNCTIONS/42_FUNCTIONS.md)
+* [43_WRITING_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/43_WRITING_FUNCTIONS/43_WRITING_FUNCTIONS.md)
+* [44_WRITING_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/44_WRITING_FUNCTIONS/44_WRITING_FUNCTIONS.md)
+* [45_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/45_FUNCTIONS/45_FUNCTIONS.md)
+* [46_SUMMARY](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/46_SUMMARY/46_SUMMARY.md)
 
 ---
 
