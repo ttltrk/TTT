@@ -35,11 +35,11 @@ PCEP – Certified Entry-Level Python Programmer
 * [37_MULTIDIMENSIONAL_ARRAYS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_3/37_MULTIDIMENSIONAL_ARRAYS/37_MULTIDIMENSIONAL_ARRAYS.md)
 ##### [MODULE_4](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/MODULE_4.md)
 * [41_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/41_FUNCTIONS/41_FUNCTIONS.md)
-* [42_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/42_FUNCTIONS/42_FUNCTIONS.md)
-* [43_WRITING_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/43_WRITING_FUNCTIONS/43_WRITING_FUNCTIONS.md)
-* [44_WRITING_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/44_WRITING_FUNCTIONS/44_WRITING_FUNCTIONS.md)
-* [45_FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/45_FUNCTIONS/45_FUNCTIONS.md)
-* [46_SUMMARY](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/46_SUMMARY/46_SUMMARY.md)
+* [42_FUN_PARAM_ARG_PASSING](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/42_FUN_PARAM_ARG_PASSING/42_FUN_PARAM_ARG_PASSING.md)
+* [43_RETURN_RES_FROM_FUNC](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/43_RETURN_RES_FROM_FUNC/43_RETURN_RES_FROM_FUNC.md)
+* [44_FUNC_AND_SCOPES](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/44_FUNC_AND_SCOPES/44_FUNC_AND_SCOPES.md)
+* [45_CREATING_FUNCS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/45_CREATING_FUNCS/45_CREATING_FUNCS.md)
+* [46_TUPLES_AND_DICT](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/46_TUPLES_AND_DICT/46_TUPLES_AND_DICT.md)
 
 ---
 
