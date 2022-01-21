@@ -5,6 +5,15 @@
 
 ---
 
+* [41_FUNCTIONS]()
+* [42_FUNCTIONS]()
+* [43_WRITING_FUNCTIONS]()
+* [44_WRITING_FUNCTIONS]()
+* [45_FUNCTIONS]()
+* [46_SUMMARY]()
+
+---
+
 #### 41_FUNCTIONS
 
 ##### Why do we need functions?
