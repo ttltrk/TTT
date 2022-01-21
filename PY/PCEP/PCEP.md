@@ -40,6 +40,7 @@ PCEP – Certified Entry-Level Python Programmer
 * [44_FUNC_AND_SCOPES](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/44_FUNC_AND_SCOPES/44_FUNC_AND_SCOPES.md)
 * [45_CREATING_FUNCS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/45_CREATING_FUNCS/45_CREATING_FUNCS.md)
 * [46_TUPLES_AND_DICT](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/46_TUPLES_AND_DICT/46_TUPLES_AND_DICT.md)
+* [47_EXCEPTIONS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_4/47_EXCEPTIONS/47_EXCEPTIONS.md)
 
 ---
 
