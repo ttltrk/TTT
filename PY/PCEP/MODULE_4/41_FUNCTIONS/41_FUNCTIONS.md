@@ -53,3 +53,33 @@ This decomposition continues until you get a set of short functions, easy to und
 [^^^](#41_FUNCTIONS)
 
 ---
+
+#### 4112_FUNCTIONS
+
+[^^^](#41_FUNCTIONS)
+
+---
+
+#### 4113_WRITING_FUNCTIONS
+
+[^^^](#41_FUNCTIONS)
+
+---
+
+#### 4114_WRITING_FUNCTIONS
+
+[^^^](#41_FUNCTIONS)
+
+---
+
+#### 4115_FUNCTIONS
+
+[^^^](#41_FUNCTIONS)
+
+---
+
+#### 4116_SUMMARY
+
+[^^^](#41_FUNCTIONS)
+
+---
