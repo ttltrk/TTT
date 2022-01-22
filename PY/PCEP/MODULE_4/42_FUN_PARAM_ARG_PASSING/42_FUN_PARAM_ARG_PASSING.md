@@ -75,72 +75,72 @@ Failure to do so will cause an error.
 
 ---
 
-####
+#### 4212_HOW_FUNC_COMMUNICATE
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
 
-####
+#### 4213_HOW_FUNC_COMMUNICATE
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
 
-####
+#### 4214_HOW_FUNC_COMMUNICATE
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
 
-####
+#### 4215_HOW_FUNC_COMMUNICATE
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
 
-####
+#### 4216_HOW_FUNC_COMMUNICATE
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
 
-####
+#### 4217_HOW_FUNC_COMMUNICATE
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
 
-####
+#### 4218_SUMMARY
 
 ```py
 
 ```
 
-[^^^](#42_FUNCTIONS)
+[^^^](#42_FUN_PARAM_ARG_PASSING)
 
 ---
