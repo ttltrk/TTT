@@ -87,9 +87,23 @@ This is what you'll see in the console:
 TypeError: message() missing 1 required positional argument: 'number'
 ```
 
-```py
+This looks better, for sure:
 
+```py
+def message(number):
+    print("Enter a number:", number)
+
+message(1)
 ```
+
+Moreover, it behaves better. The code will produce the following output:
+
+```py
+Enter a number: 1
+```
+
+Can you see how it works? The value of the argument used during invocation (1) has been passed into the function, setting the initial value of the parameter named number.
+
 
 [^^^](#42_FUN_PARAM_ARG_PASSING)
 
