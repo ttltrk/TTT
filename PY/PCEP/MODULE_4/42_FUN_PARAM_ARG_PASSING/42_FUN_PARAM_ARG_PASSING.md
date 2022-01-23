@@ -104,6 +104,34 @@ Enter a number: 1
 
 Can you see how it works? The value of the argument used during invocation (1) has been passed into the function, setting the initial value of the parameter named number.
 
+We have to make you sensitive to one important circumstance.
+
+It's legal, and possible, to have a variable named the same as a function's parameter.
+
+The snippet illustrates the phenomenon:
+
+```py
+def message(number):
+    print("Enter a number:", number)
+
+number = 1234
+message(1)
+print(number)
+```
+
+A situation like this activates a mechanism called shadowing:
+
+- parameter x shadows any variable of the same name, but...
+- ... only inside the function defining the parameter.
+
+The parameter named number is a completely different entity from the variable named number.
+
+This means that the snippet above will produce the following output:
+
+```py
+Enter a number: 1
+1234
+```
 
 [^^^](#42_FUN_PARAM_ARG_PASSING)
 
