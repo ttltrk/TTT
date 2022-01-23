@@ -77,6 +77,16 @@ Failure to do so will cause an error.
 
 #### 4212_HOW_FUNC_COMMUNICATE
 
+##### Parametrized functions: continued
+
+Try to run the code in the editor.
+
+This is what you'll see in the console:
+
+```py
+TypeError: message() missing 1 required positional argument: 'number'
+```
+
 ```py
 
 ```
