@@ -139,9 +139,42 @@ Enter a number: 1
 
 #### 4213_HOW_FUNC_COMMUNICATE
 
-```py
+##### Parametrized functions: continued
 
+A function can have as many parameters as you want, but the more parameters you have, the harder it is to memorize their roles and purposes.
+
+Let's modify the function - it has two parameters now:
+
+```py
+def message(what, number):
+    print("Enter", what, "number", number)
 ```
+
+This also means that invoking the function will require two arguments.
+
+The first new parameter is intended to carry the name of the desired value.
+
+Here it is:
+
+```py
+def message(what, number):
+    print("Enter", what, "number", number)
+
+message("telephone", 11)
+message("price", 5)
+message("number", "number")
+```
+
+This is the output you're about to see:
+
+```py
+Enter telephone number 11
+Enter price number 5
+Enter number number number
+```
+
+Run the code, modify it, add more parameters, and see how this affects the output.
+
 
 [^^^](#42_FUN_PARAM_ARG_PASSING)
 
