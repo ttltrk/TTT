@@ -379,9 +379,84 @@ Everything is right, but leaving in just one keyword argument looks a bit weird 
 
 #### 4217_HOW_FUNC_COMMUNICATE
 
-```py
+##### Parametrized functions - more details
 
+It happens at times that a particular parameter's values are in use more often than others. Such arguments may have their default (predefined) values taken into consideration when their corresponding arguments have been omitted.
+
+They say that the most popular English last name is Smith. Let's try to take this into account.
+
+The default parameter's value is set using clear and pictorial syntax:
+
+```py
+def introduction(first_name, last_name="Smith"):
+    print("Hello, my name is", first_name, last_name)
 ```
+
+You only have to extend the parameter's name with the = sign, followed by the default value.
+
+Let's invoke the function as usual:
+
+```py
+introduction("James", "Doe")
+```
+
+Can you guess the output of the program? Run it and check if you were right.
+
+And? Everything looks the same, but when you invoke the function in a way that looks a bit suspicious at first sight, like this:
+
+```py
+introduction("Henry")
+```
+
+or this:
+
+```py
+introduction(first_name="William")
+```
+
+there will be no error, and both invocations will succeed, while the console will show the following output:
+
+```py
+Hello, my name is Henry Smith
+Hello, my name is William Smith
+```
+
+Test it.
+
+You can go further if it's useful. Both parameters have their default values now, look at the code below:
+
+```py
+def introduction(first_name="John", last_name="Smith"):
+    print("Hello, my name is", first_name, last_name)
+```
+
+This makes the following invocation absolutely valid:
+
+```py
+introduction()
+```
+
+And this is the expected output:
+
+```py
+Hello, my name is John Smith
+```
+
+If you use one keyword argument, the remaining one will take the default value:
+
+```py
+introduction(last_name="Hopkins")
+```
+
+The output is:
+
+```py
+Hello, my name is John Hopkins
+```
+
+Test it.
+
+Congratulations - you have just learned the basic ways of communicating with functions.
 
 [^^^](#42_FUN_PARAM_ARG_PASSING)
 
