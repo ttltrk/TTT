@@ -109,6 +109,44 @@ The boring_function has returned its result. It's: 123
 
 Let's investigate it for a while.
 
+The return instruction, enriched with the expression (the expression is very simple here), "transports" the expression's value to the place where the function has been invoked.
+
+The result may be freely used here, e.g., to be assigned to a variable.
+
+It may also be completely ignored and lost without a trace.
+
+
+Note, we're not being too polite here - the function returns a value, and we ignore it (we don't use it in any way):
+
+```py
+def boring_function():
+    print("'Boredom Mode' ON.")
+    return 123
+
+print("This lesson is interesting!")
+boring_function()
+print("This lesson is boring...")
+```
+
+The program produces the following output:
+
+```py
+This lesson is interesting!
+'Boredom Mode' ON.
+This lesson is boring...
+```
+
+Is it punishable? Not at all.
+
+The only disadvantage is that the result has been irretrievably lost.
+
+Don't forget:
+
+- you are always allowed to ignore the function's result, and be satisfied with the function's effect (if the function has any)
+- if a function is intended to return a useful result, it must contain the second variant of the return instruction.
+
+Wait a minute - does this mean that there are useless results, too? Yes - in some sense.
+
 [^^^](#43_WRITING_FUNCTIONS)
 
 ---
