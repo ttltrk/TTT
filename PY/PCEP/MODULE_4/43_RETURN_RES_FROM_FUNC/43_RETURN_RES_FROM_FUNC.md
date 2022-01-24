@@ -26,7 +26,9 @@ Of course, functions - like their mathematical siblings - may have results.
 To get functions to return a value (but not only for this purpose) you use the return instruction.
 This word gives you a full picture of its capabilities. Note: it's a Python keyword.
 The return instruction has two different variants - let's consider them separately.
-return without an expression
+
+##### return without an expression
+
 The first consists of the keyword itself, without anything following it.
 When used inside a function, it causes the immediate termination of the function's execution, and an instant return (hence the name) to the point of invocation.
 Note: if a function is not intended to produce a result, using the return instruction is not obligatory - it will be executed implicitly at the end of the function.
@@ -73,6 +75,39 @@ Three...
 Two...
 One...
 ```
+
+##### return with an expression
+
+The second return variant is extended with an expression:
+
+```py
+def function():
+    return expression
+```
+
+There are two consequences of using it:
+
+- it causes the immediate termination of the function's execution (nothing new compared to the first variant)
+- moreover, the function will evaluate the expression's value and will return (hence the name once again) it as the function's result.
+
+Yes, we already know - this example isn't really sophisticated:
+
+```py
+def boring_function():
+    return 123
+
+x = boring_function()
+
+print("The boring_function has returned its result. It's:", x)
+```
+
+The snippet writes the following text to the console:
+
+```py
+The boring_function has returned its result. It's: 123
+```
+
+Let's investigate it for a while.
 
 [^^^](#43_WRITING_FUNCTIONS)
 
