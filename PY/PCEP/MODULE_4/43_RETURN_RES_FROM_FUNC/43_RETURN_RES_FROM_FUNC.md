@@ -45,6 +45,35 @@ def happy_new_year(wishes = True):
     print("Happy New Year!")
 ```
 
+When invoked without any arguments:
+
+```py
+happy_new_year()
+```
+
+The function causes a little noise - the output will look like this:
+
+```py
+Three...
+Two...
+One...
+Happy New Year!
+```
+
+Providing False as an argument:
+
+```py
+happy_new_year(False)
+```
+
+will modify the function's behavior - the return instruction will cause its termination just before the wishes - this is the updated output:
+
+```py
+Three...
+Two...
+One...
+```
+
 [^^^](#43_WRITING_FUNCTIONS)
 
 ---
