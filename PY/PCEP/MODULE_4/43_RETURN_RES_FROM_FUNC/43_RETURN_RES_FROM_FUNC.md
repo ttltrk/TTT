@@ -11,6 +11,10 @@
 
 * [4311_RETURN_RES_FROM_FUNC](#4311_RETURN_RES_FROM_FUNC)
 * [4312_RETURN_RES_FROM_FUNC](#4312_RETURN_RES_FROM_FUNC)
+* [4313_RETURN_RES_FROM_FUNC](#4313_RETURN_RES_FROM_FUNC)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -189,6 +193,50 @@ if value is None:
 Don't forget this: if a function doesn't return a certain value using a return expression clause, it is assumed that it implicitly returns None.
 
 Let's test it.
+
+[^^^](#43_WRITING_FUNCTIONS)
+
+---
+
+#### 4313_RETURN_RES_FROM_FUNC
+
+##### A few words about None: continued
+
+Take a look at the code in the editor.
+
+It's obvious that the strangeFunction function returns True when its argument is even.
+
+What does it return otherwise?
+
+We can use the following code to check it:
+
+```py
+print(strange_function(2))
+print(strange_function(1))
+```
+
+This is what we see in the console:
+
+```py
+True
+None
+```
+
+Don't be surprised next time you see None as a function result - it may be the symptom of a subtle mistake inside the function.
+
+```py
+def strange_function(n):
+    if(n % 2 == 0):
+        return True
+
+print(strange_function(2))
+print(strange_function(1))
+
+>>>
+True
+None
+>>>
+```
 
 [^^^](#43_WRITING_FUNCTIONS)
 
