@@ -10,7 +10,7 @@
 ---
 
 * [4311_RETURN_RES_FROM_FUNC](#4311_RETURN_RES_FROM_FUNC)
-* [](#)
+* [4312_RETURN_RES_FROM_FUNC](#4312_RETURN_RES_FROM_FUNC)
 * [](#)
 * [](#)
 * [](#)
@@ -146,6 +146,49 @@ Don't forget:
 - if a function is intended to return a useful result, it must contain the second variant of the return instruction.
 
 Wait a minute - does this mean that there are useless results, too? Yes - in some sense.
+
+[^^^](#43_WRITING_FUNCTIONS)
+
+---
+
+#### 4312_RETURN_RES_FROM_FUNC
+
+##### A few words about None
+
+Let us introduce you to a very curious value (to be honest, a none value) named None.
+
+Its data doesn't represent any reasonable value - actually, it's not a value at all; hence, it mustn't take part in any expressions.
+
+For example, a snippet like this:
+
+```py
+print(None + 2)
+```
+
+will cause a runtime error, described by the following diagnostic message:
+
+```py
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+```
+
+Note: None is a keyword.
+
+There are only two kinds of circumstances when None can be safely used:
+
+- when you assign it to a variable (or return it as a function's result)
+- when you compare it with a variable to diagnose its internal state.
+
+Just like here:
+
+```py
+value = None
+if value is None:
+    print("Sorry, you don't carry any value")
+```
+
+Don't forget this: if a function doesn't return a certain value using a return expression clause, it is assumed that it implicitly returns None.
+
+Let's test it.
 
 [^^^](#43_WRITING_FUNCTIONS)
 
