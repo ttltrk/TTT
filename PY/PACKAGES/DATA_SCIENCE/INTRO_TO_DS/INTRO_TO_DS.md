@@ -9,7 +9,7 @@
 
 ---
 
-* [LINK](#https://courses.cognitiveclass.ai/courses/course-v1:BigDataUniversity+DS0101EN+2016/course/)
+* [LINK](https://courses.cognitiveclass.ai/courses/course-v1:BigDataUniversity+DS0101EN+2016/course/)
 
 ---
 
