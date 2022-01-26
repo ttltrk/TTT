@@ -10,7 +10,7 @@
 ---
 
 * [LINKS](#LINKS)
-* [INTRO_TO_DS](#INTRO_TO_DS)
+* [INTRO_TO_DS](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DATA_SCIENCE/INTRO_TO_DS/INTRO_TO_DS.md)
 * [METHODOLOGY](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DATA_SCIENCE/METHODOLOGY/METHODOLOGY.md)
 * [STATISTICS](#STATISTICS)
 * [MEDIAN](#MEDIAN)
