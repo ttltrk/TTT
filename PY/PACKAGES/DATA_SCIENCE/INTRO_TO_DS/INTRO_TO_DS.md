@@ -231,7 +231,75 @@ the next thing would be to apply your skills to
 real problems and then tell rest of the world
 what you can do with it.
 
-#####
+##### What is the cloud?
+
+- Cloud is a, it's a godsend for data scientists.
+Primarily because you're able to take the,
+or you take your data, take your information
+and put it in the cloud,
+put it in the central storage system.
+It allows you to bypass the physical limitations
+of the computers and the systems you're using
+and it allows you to deploy the analytics
+and storage capacities of advanced machines
+that do not necessarily have to be your machine
+or your company's machine.
+Cloud allows you not just to store large amounts of data
+on servers somewhere in California or in Nevada,
+but it also allows you to deploy very advanced
+computing algorithms and the ability to do
+high performance computing
+using machines that are not yours.
+So, think of it as you have some information,
+you can't store it, so you send it to storage space,
+let's call it cloud, and the algorithms that you need to use
+you don't have them with you, but then on the cloud
+you have those algorithms available.
+So, what you do, is you deploy those algorithms
+on very large data sets and you're able to do it
+even though your own systems, your own machines,
+your own computing environments
+were not allowing you to do so.
+So, cloud is beautiful.
+And, the other thing that cloud is beautiful for
+is that it allows multiple entities
+to work with same data at the same time.
+So, you can be working with the same data
+that your colleagues in, say, Germany,
+and another team in India, and another team in Ghana,
+they are collectively working
+and they are able to do so because the information
+and the algorithms and the tools and the answers
+and the results, whatever they needed
+is available at a central place.
+Which we call cloud, so cloud is beautiful.
+At the Big Data University which is an IBM initiative,
+we have these courses people can take
+and learn about data science,
+but at the same time we provide this cloud based environment
+for not only analytics,
+but also for working with big and small data.
+So one of the products that is integrated
+with Big Data University is Data Scientist Workbench.
+Data Scientist Workbench is an internet based solution,
+you log in and the moment you log in,
+you now have access to some
+very advanced computing environment.
+As simple as R and Rstudio and data
+and algorithms to define the data set using OpenRefine,
+but also the ability to work with very large data sets
+using technologies like Spark.
+So, the advantage of working with Data Scientist Workbench
+is not only that you have the ability to work with
+these advanced algorithms and two computing platforms,
+but you also have the ability to work with
+very large data sets because Spark
+is integrated and it's all in the cloud,
+you don't have to maintain it,
+you don't have to download it,
+you don't have to worry about updating it.
+All is being done for you in the cloud
+by the Data Scientist Workbench.
 
 #####
 
