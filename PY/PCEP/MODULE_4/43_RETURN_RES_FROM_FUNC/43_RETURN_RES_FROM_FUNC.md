@@ -14,10 +14,7 @@
 * [4313_RETURN_RES_FROM_FUNC](#4313_RETURN_RES_FROM_FUNC)
 * [4314_RETURN_RES_FROM_FUNC](#4314_RETURN_RES_FROM_FUNC)
 * [4315_RETURN_RES_FROM_FUNC](#4315_RETURN_RES_FROM_FUNC)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [4316_SUMMARY](#4316_SUMMARY)
 
 ---
 
@@ -309,35 +306,114 @@ print(list_sum([5, 4, 3]))
 
 #### 4315_RETURN_RES_FROM_FUNC
 
+##### Effects and results: lists and functions - continued
+
+The second question is: may a list be a function result?
+
+Yes, of course! Any entity recognizable by Python can be a function result.
+
+Look at the code in the editor. The program's output will be like this:
+
+```py
+[4, 3, 2, 1, 0]
+```
+
+Now you can write functions with and without results.
+Let's dive a little deeper into the issues connected with variables in functions. This is essential for creating effective and safe functions.
+
+```py
+def strange_list_fun(n):
+    strange_list = []
+
+    for i in range(0, n):
+        strange_list.insert(0, i)
+
+    return strange_list
+
+print(strange_list_fun(5))
+
+>>>
+[4, 3, 2, 1, 0]
+>>>
+```
+
 [^^^](#43_WRITING_FUNCTIONS)
 
 ---
 
-####
+#### 4316_SUMMARY
 
-[^^^](#43_WRITING_FUNCTIONS)
+##### Key takeaways
 
----
+1. You can use the return keyword to tell a function to return some value. The return statement exits the function, e.g.:
 
-####
+```py
+def multiply(a, b):
+    return a * b
 
-[^^^](#43_WRITING_FUNCTIONS)
+print(multiply(3, 4))    # outputs: 12
 
----
 
-####
+def multiply(a, b):
+    return
 
-[^^^](#43_WRITING_FUNCTIONS)
+print(multiply(3, 4))    # outputs: None
+```
 
----
+2. The result of a function can be easily assigned to a variable, e.g.:
 
-####
+```py
+def wishes():
+    return "Happy Birthday!"
 
-[^^^](#43_WRITING_FUNCTIONS)
+w = wishes()
 
----
+print(w)    # outputs: Happy Birthday!
+```
 
-####
+Look at the difference in output in the following two examples:
+
+```py
+# Example 1
+def wishes():
+    print("My Wishes")
+    return "Happy Birthday"
+
+wishes()    # outputs: My Wishes
+
+
+# Example 2
+def wishes():
+    print("My Wishes")
+    return "Happy Birthday"
+
+print(wishes())
+
+# outputs: My Wishes
+#          Happy Birthday
+```
+
+3. You can use a list as a function's argument, e.g.:
+
+```py
+def hi_everybody(my_list):
+    for name in my_list:
+        print("Hi,", name)
+
+hi_everybody(["Adam", "John", "Lucy"])
+```
+
+4. A list can be a function result, too, e.g.:
+
+```py
+def create_list(n):
+    my_list = []
+    for i in range(n):
+        my_list.append(i)
+    return my_list
+
+print(create_list(5))
+```
 
 [^^^](#43_WRITING_FUNCTIONS)
 
