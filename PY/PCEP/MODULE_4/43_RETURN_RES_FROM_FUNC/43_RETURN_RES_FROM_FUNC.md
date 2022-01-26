@@ -415,6 +415,83 @@ def create_list(n):
 print(create_list(5))
 ```
 
+Exercise 1
+
+What is the output of the following snippet?
+
+```py
+def hi():
+    return
+    print("Hi!")
+
+hi()
+```
+
+```
+the function will return an implicit None value
+```
+
+Exercise 2
+
+What is the output of the following snippet?
+
+```py
+def is_int(data):
+    if type(data) == int:
+        return True
+    elif type(data) == float:
+        return False
+
+print(is_int(5))
+print(is_int(5.0))
+print(is_int("5"))
+
+>>>
+True
+False
+None
+>>>
+```
+
+Exercise 3
+
+What is the output of the following snippet?
+
+```py
+def even_num_lst(ran):
+    lst = []
+    for num in range(ran):
+        if num % 2 == 0:
+            lst.append(num)
+    return lst
+
+print(even_num_lst(11))
+
+>>>
+[0, 2, 4, 6, 8, 10]
+>>>
+```
+
+Exercise 4
+
+What is the output of the following snippet?
+
+```py
+def list_updater(lst):
+    upd_list = []
+    for elem in lst:
+        elem **= 2
+        upd_list.append(elem)
+    return upd_list
+
+foo = [1, 2, 3, 4, 5]
+print(list_updater(foo))
+
+>>>
+[1, 4, 9, 16, 25]
+>>>
+```
+
 [^^^](#43_WRITING_FUNCTIONS)
 
 ---
