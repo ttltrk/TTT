@@ -197,9 +197,33 @@ select count(*) from employees where salary > 200000; -- 0
 ```
 
 ```sql
-select * from employees where department = 'Clothing';
-select * from employees where department = 'Clothing' and salary > 90000;
+select * from employees where department = 'Clothing' limit 5;
+
+employee_id|first_name|last_name |email                     |hire_date |department|gender|salary|region_id|
+-----------+----------+----------+--------------------------+----------+----------+------+------+---------+
+          3|Sydney    |Symonds   |ssymonds2@hhs.gov         |2010-05-17|Clothing  |F     | 95313|        4|
+          7|Ardeen    |Curwood   |acurwood6@1und1.de        |2006-02-19|Clothing  |F     | 28995|        7|
+         10|Redford   |Roberti   |                          |2008-07-21|Clothing  |M     | 72225|        7|
+         21|Bernardo  |Davage    |                          |2013-07-11|Clothing  |M     |124949|        6|
+         48|Birgitta  |Stanbrooke|bstanbrooke1b@netvibes.com|2016-09-12|Clothing  |F     | 77259|        1|
+
+select * from employees where department = 'Clothing' and salary > 90000 limit 5;
+
+employee_id|first_name|last_name|email               |hire_date |department|gender|salary|region_id|
+-----------+----------+---------+--------------------+----------+----------+------+------+---------+
+          3|Sydney    |Symonds  |ssymonds2@hhs.gov   |2010-05-17|Clothing  |F     | 95313|        4|
+         21|Bernardo  |Davage   |                    |2013-07-11|Clothing  |M     |124949|        6|
+         54|Verney    |McQuirk  |vmcquirk1h@ning.com |2012-06-17|Clothing  |M     | 97156|        2|
+         80|Hester    |Seakin   |hseakin27@netlog.com|2006-11-30|Clothing  |F     |150887|        5|
+         84|Kippie    |Petrolli |kpetrolli2b@wsj.com |2008-06-27|Clothing  |M     |128327|        2|
+
 select * from employees where department = 'Clothing' and salary > 90000 and region_id = 2;
+
+employee_id|first_name|last_name|email                  |hire_date |department|gender|salary|region_id|
+-----------+----------+---------+-----------------------+----------+----------+------+------+---------+
+         54|Verney    |McQuirk  |vmcquirk1h@ning.com    |2012-06-17|Clothing  |M     | 97156|        2|
+         84|Kippie    |Petrolli |kpetrolli2b@wsj.com    |2008-06-27|Clothing  |M     |128327|        2|
+        607|Maryanna  |Billin   |mbillingu@woothemes.com|2006-01-26|Clothing  |F     |132264|        2|
 ```
 
 ```sql
