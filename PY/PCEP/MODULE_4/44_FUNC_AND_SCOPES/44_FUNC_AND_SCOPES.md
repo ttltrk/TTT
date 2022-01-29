@@ -378,6 +378,75 @@ The NameError exception will be thrown (NameError: name 'alt' is not defined)
 >>>
 ```
 
+- Exercise 2
+
+What is the output of the following snippet?
+
+```py
+a = 1
+
+
+def fun():
+    a = 2
+    print(a)
+
+
+fun()
+print(a)
+
+>>>
+2
+1
+>>>
+```
+
+- Exercise 3
+
+What is the output of the following snippet?
+
+```py
+a = 1
+
+def fun():
+    global a
+    a = 2
+    print(a)
+
+
+fun()
+a = 3
+print(a)
+
+>>>
+2
+3
+>>>
+```
+
+- Exercise 4
+
+What is the output of the following snippet?
+
+```py
+a = 1
+
+
+def fun():
+    global a
+    a = 2
+    print(a)
+
+
+a = 3
+fun()
+print(a)
+
+>>>
+2
+2
+>>>
+```
+
 [^^^](#44_WRITING_FUNCTIONS)
 
 ---
