@@ -121,7 +121,9 @@ Do I know that variable? 1
 
 ---
 
-#### Functions and scopes: the global keyword
+#### 4413_SCOPES_IN_PYTHON
+
+##### Functions and scopes: the global keyword
 
 Hopefully, you should now have arrived at the following question: does this mean that a function is not able to modify a variable defined outside it? This would create a lot of discomfort.
 
@@ -175,7 +177,112 @@ Do I know that variable? 2
 
 ---
 
-####
+#### 4414_SCOPES_IN_PYTHON
+
+##### How the function interacts with its arguments
+
+Now let's find out how the function interacts with its arguments.
+
+The code in the editor should teach you something. As you can see, the function changes the value of its parameter. Does the change affect the argument?
+
+Run the program and check.
+
+The code's output is:
+
+```py
+I got 1
+I have 2
+1
+```
+
+The conclusion is obvious - changing the parameter's value doesn't propagate outside the function (in any case, not when the variable is a scalar, like in the example).
+
+This also means that a function receives the argument's value, not the argument itself. This is true for scalars.
+
+Is it worth checking how it works with lists (do you recall the peculiarities of assigning list slices versus assigning lists as a whole?).
+
+The following example will shed some light on the issue:
+
+```py
+def my_function(my_list_1):
+    print("Print #1:", my_list_1)
+    print("Print #2:", my_list_2)
+    my_list_1 = [0, 1]
+    print("Print #3:", my_list_1)
+    print("Print #4:", my_list_2)
+
+
+my_list_2 = [2, 3]
+my_function(my_list_2)
+print("Print #5:", my_list_2)
+```
+
+The code's output is:
+
+```py
+Print #1: [2, 3]
+Print #2: [2, 3]
+Print #3: [0, 1]
+Print #4: [2, 3]
+Print #5: [2, 3]
+```
+
+It seems that the former rule still works.
+
+Finally, can you see the difference in the example below:
+
+```py
+def my_function(my_list_1):
+    print("Print #1:", my_list_1)
+    print("Print #2:", my_list_2)
+    del my_list_1[0]  # Pay attention to this line.
+    print("Print #3:", my_list_1)
+    print("Print #4:", my_list_2)
+
+
+my_list_2 = [2, 3]
+my_function(my_list_2)
+print("Print #5:", my_list_2)
+```
+
+We don't change the value of the parameter my_list_1 (we already know it will not affect the argument), but instead modify the list identified by it.
+
+The output may be surprising. Run the code and check:
+
+```py
+Print #1: [2, 3]
+Print #2: [2, 3]
+Print #3: [3]
+Print #4: [3]
+Print #5: [3]
+```
+
+Can you explain it?
+
+Let's try:
+
+- if the argument is a list, then changing the value of the corresponding parameter doesn't affect the list (remember: variables containing lists are stored in a different way than scalars),
+- but if you change a list identified by the parameter (note: the list, not the parameter!), the list will reflect the change.
+
+It's time to write some example functions. You'll do that in the next section.
+
+```py
+def my_function(n):
+    print("I got", n)
+    n += 1
+    print("I have", n)
+
+
+var = 1
+my_function(var)
+print(var)
+
+>>>
+I got 1
+I have 2
+1
+>>>
+```
 
 [^^^](#44_WRITING_FUNCTIONS)
 
