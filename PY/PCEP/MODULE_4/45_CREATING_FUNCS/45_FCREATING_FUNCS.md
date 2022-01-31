@@ -9,15 +9,28 @@
 
 ---
 
-* [](#)
-* [](#)
+* [4511_CREATING_FUNC_2_PARAM](#4511_CREATING_FUNC_2_PARAM)
+* [4512_CREATING_FUNC_2_PARAM](#4512_CREATING_FUNC_2_PARAM)
 * [](#)
 * [](#)
 * [](#)
 
 ---
 
-####
+#### 4511_CREATING_FUNC_2_PARAM
+
+##### Some simple functions: evaluating the BMI
+
+Let's get started on a function to evaluate the Body Mass Index (BMI).
+
+As you can see, the formula gets two values:
+
+- weight (originally in kilograms)
+- height (originally in meters)
+
+It seems that this new function will have two parameters. Its name will be bmi, but if you prefer any other name, use it instead.
+
+Let's code the function:
 
 ```py
 
