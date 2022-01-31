@@ -11,6 +11,9 @@
 
 #### 2022-JAN
 
+
+- D01 - 2022-01-31 (SU): PY_PCEP
+- Missed day due to covid
 - D74 - 2022-01-29 (SA): PY_PCEP
 - D73 - 2022-01-28 (FR): PY_PCEP, SQL, INTRO_TO_DS
 - D72 - 2022-01-27 (TH): PY_PCEP, SQL, INTRO_TO_DS
