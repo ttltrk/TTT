@@ -144,6 +144,73 @@ And this is the output:
 1.8288000000000002
 ```
 
+It's quite possible that sometimes you may want to use just feet without inches. Will Python help you? Of course it will.
+
+We've modified the code a bit:
+
+```py
+def ft_and_inch_to_m(ft, inch = 0.0):
+    return ft * 0.3048 + inch * 0.0254
+
+
+print(ft_and_inch_to_m(6))
+```
+
+Now the inch parameter has its default value equal to 0.0.
+
+The code produces the following output - this is what is expected:
+
+```py
+1.8288000000000002
+```
+
+Finally, the code is able to answer the question: what is the BMI of a person 5'7" tall and weighing 176 lbs?
+
+This is the code we have built:
+
+```py
+def ft_and_inch_to_m(ft, inch = 0.0):
+    return ft * 0.3048 + inch * 0.0254
+
+
+def lb_to_kg(lb):
+    return lb * 0.45359237
+
+
+def bmi(weight, height):
+    if height < 1.0 or height > 2.5 or weight < 20 or weight > 200:
+        return None
+
+    return weight / height ** 2
+
+
+print(bmi(weight = lb_to_kg(176), height = ft_and_inch_to_m(5, 7)))
+```
+
+And the answer is:
+
+```py
+27.565214082533313
+```
+
+Run the code and test it.
+
+```py
+def bmi(weight, height):
+    if height < 1.0 or height > 2.5 or \
+    weight < 20 or weight > 200:
+        return None
+
+    return weight / height ** 2
+
+
+print(bmi(352.5, 1.65))
+
+>>>
+None
+>>>
+```
+
 [^^^](#45_FUNCTIONS)
 
 ---
