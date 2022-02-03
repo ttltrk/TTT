@@ -12,7 +12,7 @@
 * [4511_CREATING_FUNC_2_PARAM](#4511_CREATING_FUNC_2_PARAM)
 * [4512_CREATING_FUNC_2_PARAM](#4512_CREATING_FUNC_2_PARAM)
 * [4513_CREATING_FUNC_3_PARAM](#4513_CREATING_FUNC_3_PARAM)
-* [](#)
+* [4514_CREATING_FUNC_TEST_TRIANGLES](#4514_CREATING_FUNC_TEST_TRIANGLES)
 * [](#)
 
 ---
@@ -288,6 +288,42 @@ True
 False
 >>>
 ```
+
+[^^^](#45_FUNCTIONS)
+
+---
+
+#### 4514_CREATING_FUNC_TEST_TRIANGLES
+
+[^^^](#45_FUNCTIONS)
+
+---
+
+####
+
+[^^^](#45_FUNCTIONS)
+
+---
+
+####
+
+[^^^](#45_FUNCTIONS)
+
+---
+
+####
+
+[^^^](#45_FUNCTIONS)
+
+---
+
+####
+
+[^^^](#45_FUNCTIONS)
+
+---
+
+####
 
 [^^^](#45_FUNCTIONS)
 
