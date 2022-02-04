@@ -398,6 +398,31 @@ It's odd - the code produces the following output:
 0.49999999999999983
 ```
 
+It's very close to 0.5, but it isn't exactly 0.5. What does it mean? Is it an error?
+No, it isn't. This is the specifics of floating-point calculations. We'll tell you more about it soon.
+
+```py
+def is_a_triangle(a, b, c):
+    return a + b > c and b + c > a and c + a > b
+
+
+a = float(input('Enter the first side\'s length: '))
+b = float(input('Enter the second side\'s length: '))
+c = float(input('Enter the third side\'s length: '))
+
+if is_a_triangle(a, b, c):
+    print('Yes, it can be a triangle.')
+else:
+    print('No, it can\'t be a triangle.')
+
+>>>
+Enter the first side's length: 10
+Enter the second side's length: 8
+Enter the third side's length: 6
+Yes, it can be a triangle.
+>>>
+```
+
 [^^^](#45_FUNCTIONS)
 
 ---
