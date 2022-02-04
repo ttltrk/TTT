@@ -13,7 +13,7 @@
 * [4512_CREATING_FUNC_2_PARAM](#4512_CREATING_FUNC_2_PARAM)
 * [4513_CREATING_FUNC_3_PARAM](#4513_CREATING_FUNC_3_PARAM)
 * [4514_CREATING_FUNC_TEST_TRIANGLES](#4514_CREATING_FUNC_TEST_TRIANGLES)
-* [](#)
+* [4515_CREATING_FUNC_RIGHT_ANGLE_TRIANGLES](#4515_CREATING_FUNC_RIGHT_ANGLE_TRIANGLES)
 * [](#)
 * [](#)
 * [](#)
@@ -363,7 +363,40 @@ Yes, it can be a triangle.
 
 ---
 
-####
+#### 4515_CREATING_FUNC_RIGHT_ANGLE_TRIANGLES
+
+##### Some simple functions: evaluating a triangle's area
+
+We can also evaluate a triangle's area. Heron's formula will be handy here:
+We're going use the exponentiation operator to find the square root - it may seem strange, but it works:
+This is the resulting code:
+
+```py
+def is_a_triangle(a, b, c):
+    return a + b > c and b + c > a and c + a > b
+
+
+def heron(a, b, c):
+    p = (a + b + c) / 2
+    return (p * (p - a) * (p - b) * (p - c)) ** 0.5
+
+
+def area_of_triangle(a, b, c):
+    if not is_a_triangle(a, b, c):
+        return None
+    return heron(a, b, c)
+
+
+print(area_of_triangle(1., 1., 2. ** .5))
+```
+
+We try it with a right-angle triangle as a half of a square with one side equal to 1. This means that its area should be equal to 0.5.
+
+It's odd - the code produces the following output:
+
+```py
+0.49999999999999983
+```
 
 [^^^](#45_FUNCTIONS)
 
