@@ -465,6 +465,18 @@ for n in range(1, 6):  # testing
     print(n, factorial_function(n))
 ```
 
+Notice how we mirror step by step the mathematical definition, and how we use the for loop to find the product.
+
+We add a simple testing code, and these are the results we get:
+
+```py
+1 1
+2 2
+3 6
+4 24
+5 120
+```
+
 [^^^](#45_FUNCTIONS)
 
 ---
