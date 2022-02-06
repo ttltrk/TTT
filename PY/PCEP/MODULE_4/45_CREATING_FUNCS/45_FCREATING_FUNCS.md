@@ -529,6 +529,22 @@ for n in range(1, 10):  # testing
     print(n, "->", fib(n))
 ```
 
+Analyze the for loop body carefully, and find out how we move the elem_1 and elem_2 variables through the subsequent Fibonacci numbers.
+
+The test part of the code produces the following output:
+
+```py
+1 -> 1
+2 -> 1
+3 -> 2
+4 -> 3
+5 -> 5
+6 -> 8
+7 -> 13
+8 -> 21
+9 -> 34
+```
+
 [^^^](#45_FUNCTIONS)
 
 ---
