@@ -141,7 +141,9 @@ my_tuple[1] = -10
 
 This is the message that Python will give you in the console window:
 
+```py
 AttributeError: 'tuple' object has no attribute 'append'
+```
 
 [^^^](#46_TUPLES_AND_DICT)
 
