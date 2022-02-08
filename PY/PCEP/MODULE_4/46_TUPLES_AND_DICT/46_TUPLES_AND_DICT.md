@@ -83,6 +83,25 @@ This is what you should see in the console:
 (1.0, 0.5, 0.25, 0.125)
 ```
 
+Note: each tuple element may be of a different type (floating-point, integer, or any other not-as-yet-introduced kind of data).
+
+##### How to create a tuple?
+
+It is possible to create an empty tuple - parentheses are required then:
+
+```py
+empty_tuple = ()
+```
+
+If you want to create a one-element tuple, you have to take into consideration the fact that, due to syntax reasons (a tuple has to be distinguishable from an ordinary, single value), you must end the value with a comma:
+
+```py
+one_element_tuple_1 = (1, )
+one_element_tuple_2 = 1.,
+```
+
+Removing the commas won't spoil the program in any syntactical sense, but you will instead get two single variables, not tuples.
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
