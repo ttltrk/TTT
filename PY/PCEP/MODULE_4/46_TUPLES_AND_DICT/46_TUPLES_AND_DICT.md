@@ -106,7 +106,42 @@ Removing the commas won't spoil the program in any syntactical sense, but you wi
 
 ---
 
-####
+#### 4612_TUP_AND_DIC
+
+##### How to use a tuple?
+
+If you want to get the elements of a tuple in order to read them over, you can use the same conventions to which you're accustomed while using lists.
+
+Take a look at the code in the editor.
+
+The program should produce the following output - run it and check:
+
+```py
+1
+1000
+(10, 100, 1000)
+(1, 10)
+1
+10
+100
+1000
+```
+
+The similarities may be misleading - don't try to modify a tuple's contents! It's not a list!
+
+All of these instructions (except the topmost one) will cause a runtime error:
+
+```py
+my_tuple = (1, 10, 100, 1000)
+
+my_tuple.append(10000)
+del my_tuple[0]
+my_tuple[1] = -10
+```
+
+This is the message that Python will give you in the console window:
+
+AttributeError: 'tuple' object has no attribute 'append'
 
 [^^^](#46_TUPLES_AND_DICT)
 
