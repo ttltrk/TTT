@@ -59,25 +59,29 @@ The first and the clearest distinction between lists and tuples is the syntax us
 
 Look at the example:
 
+```py
 tuple_1 = (1, 2, 4, 8)
 tuple_2 = 1., .5, .25, .125
-
+```
 
 There are two tuples, both containing four elements.
 
 Let's print them:
 
+```py
 tuple_1 = (1, 2, 4, 8)
 tuple_2 = 1., .5, .25, .125
 
 print(tuple_1)
 print(tuple_2)
-
+```
 
 This is what you should see in the console:
 
+```py
 (1, 2, 4, 8)
 (1.0, 0.5, 0.25, 0.125)
+```
 
 [^^^](#46_TUPLES_AND_DICT)
 
