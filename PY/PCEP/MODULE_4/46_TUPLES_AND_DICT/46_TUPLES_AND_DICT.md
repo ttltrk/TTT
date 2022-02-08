@@ -145,6 +145,29 @@ This is the message that Python will give you in the console window:
 AttributeError: 'tuple' object has no attribute 'append'
 ```
 
+```py
+my_tuple = (1, 10, 100, 1000)
+
+print(my_tuple[0])
+print(my_tuple[-1])
+print(my_tuple[1:])
+print(my_tuple[:-2])
+
+for elem in my_tuple:
+    print(elem)
+
+>>>
+1
+1000
+(10, 100, 1000)
+(1, 10)
+1
+10
+100
+1000
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
