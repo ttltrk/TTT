@@ -215,6 +215,27 @@ It shows three tuples interacting - in effect, the values stored in them "circul
 
 Note: the example presents one more important fact: a tuple's elements can be variables, not only literals. Moreover, they can be expressions if they're on the right side of the assignment operator.
 
+```py
+my_tuple = (1, 10, 100)
+
+t1 = my_tuple + (1000, 10000)
+t2 = my_tuple * 3
+
+print(len(t2))
+print(t1)
+print(t2)
+print(10 in my_tuple)
+print(-10 not in my_tuple)
+
+>>>
+9
+(1, 10, 100, 1000, 10000)
+(1, 10, 100, 1, 10, 100, 1, 10, 100)
+True
+True
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
