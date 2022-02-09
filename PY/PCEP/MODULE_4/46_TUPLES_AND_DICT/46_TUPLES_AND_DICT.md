@@ -172,7 +172,48 @@ for elem in my_tuple:
 
 ---
 
-####
+#### 4613_TUP_AND_DIC
+
+##### How to use a tuple: continued
+
+What else can tuples do for you?
+
+- the len() function accepts tuples, and returns the number of elements contained inside;
+- the + operator can join tuples together (we've shown you this already)
+- the * operator can multiply tuples, just like lists;
+- the in and not in operators work in the same way as in lists.
+
+The snippet in the editor presents them all.
+
+The output should look as follows:
+
+```py
+9
+(1, 10, 100, 1000, 10000)
+(1, 10, 100, 1, 10, 100, 1, 10, 100)
+True
+True
+```
+
+One of the most useful tuple properties is their ability to appear on the left side of the assignment operator. You saw this phenomenon some time ago, when it was necessary to find an elegant tool to swap two variables' values.
+
+Take a look at the snippet below:
+
+```py
+var = 123
+
+t1 = (1, )
+t2 = (2, )
+t3 = (3, var)
+
+t1, t2, t3 = t2, t3, t1
+
+print(t1, t2, t3)
+```
+
+It shows three tuples interacting - in effect, the values stored in them "circulate" - t1 becomes t2, t2 becomes t3, and t3 becomes t1.
+
+Note: the example presents one more important fact: a tuple's elements can be variables, not only literals. Moreover, they can be expressions if they're on the right side of the assignment operator.
 
 [^^^](#46_TUPLES_AND_DICT)
 
