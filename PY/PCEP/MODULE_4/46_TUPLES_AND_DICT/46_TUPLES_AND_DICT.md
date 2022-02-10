@@ -240,7 +240,15 @@ True
 
 ---
 
-####
+#### 4614_TUP_AND_DIC
+
+##### What is a dictionary?
+
+The dictionary is another Python data structure. It's not a sequence type (but can be easily adapted to sequence processing) and it is mutable.
+
+To explain what the Python dictionary actually is, it is important to understand that it is literally a dictionary.
+
+The Python dictionary works in the same way as a bilingual dictionary. For example, you have an English word (e.g., cat) and need its French equivalent. You browse the dictionary in order to find the word (you may use different techniques to do that - it doesn't matter) and eventually you get it. Next, you check the French counterpart and it is (most probably) the word "chat".
 
 [^^^](#46_TUPLES_AND_DICT)
 
