@@ -293,6 +293,14 @@ The dictionary as a whole can be printed with a single print() invocation. The s
 {}
 ```
 
+Have you noticed anything surprising? The order of the printed pairs is different than in the initial assignment. What does that mean?
+
+First of all, it's a confirmation that dictionaries are not lists - they don't preserve the order of their data, as the order is completely meaningless (unlike in real, paper dictionaries). The order in which a dictionary stores its data is completely out of your control, and your expectations. That's normal. (*)
+
+NOTE
+
+(*) In Python 3.6x dictionaries have become ordered collections by default. Your results may vary depending on what Python version you're using.
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
