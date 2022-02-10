@@ -250,6 +250,49 @@ To explain what the Python dictionary actually is, it is important to understand
 
 The Python dictionary works in the same way as a bilingual dictionary. For example, you have an English word (e.g., cat) and need its French equivalent. You browse the dictionary in order to find the word (you may use different techniques to do that - it doesn't matter) and eventually you get it. Next, you check the French counterpart and it is (most probably) the word "chat".
 
+In Python's world, the word you look for is named a key. The word you get from the dictionary is called a value.
+
+This means that a dictionary is a set of key-value pairs. Note:
+
+- each key must be unique - it's not possible to have more than one key of the same value;
+- a key may be any immutable type of object: it can be a number (integer or float), or even a string, but not a list;
+- a dictionary is not a list - a list contains a set of numbered values, while a dictionary holds pairs of values;
+- the len() function works for dictionaries, too - it returns the numbers of key-value elements in the dictionary;
+- a dictionary is a one-way tool - if you have an English-French dictionary, you can look for French equivalents of English terms, but not vice versa.
+
+Now we can show you some working examples.
+
+##### How to make a dictionary?
+
+If you want to assign some initial pairs to a dictionary, you should use the following syntax:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+phone_numbers = {'boss': 5551234567, 'Suzy': 22657854310}
+empty_dictionary = {}
+
+print(dictionary)
+print(phone_numbers)
+print(empty_dictionary)
+```
+
+In the first example, the dictionary uses keys and values which are both strings. In the second one, the keys are strings, but the values are integers. The reverse layout (keys → numbers, values → strings) is also possible, as well as number-number combination.
+
+The list of pairs is surrounded by curly braces, while the pairs themselves are separated by commas, and the keys and values by colons.
+
+The first of our dictionaries is a very simple English-French dictionary. The second - a very tiny telephone directory.
+
+The empty dictionaries are constructed by an empty pair of curly braces - nothing unusual.
+
+
+The dictionary as a whole can be printed with a single print() invocation. The snippet may produce the following output:
+
+```py
+{'dog': 'chien', 'horse': 'cheval', 'cat': 'chat'}
+{'Suzy': 5557654321, 'boss': 5551234567}
+{}
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
