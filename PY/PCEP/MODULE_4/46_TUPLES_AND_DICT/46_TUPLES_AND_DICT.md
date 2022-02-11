@@ -379,6 +379,22 @@ phone_numbers = {'boss': 5551234567,
 
 Such ways of formatting code are called hanging indents.
 
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+phone_numbers = {'boss' : 5551234567, 'Suzy' : 22657854310}
+empty_dictionary = {}
+
+# Print the values here.
+
+print(dictionary)
+print(phone_numbers)
+
+>>>
+{'cat': 'chat', 'dog': 'chien', 'horse': 'cheval'}
+{'boss': 5551234567, 'Suzy': 22657854310}
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
