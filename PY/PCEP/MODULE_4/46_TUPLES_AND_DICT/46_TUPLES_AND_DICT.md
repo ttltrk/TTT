@@ -329,6 +329,30 @@ chat
 5557654321
 ```
 
+And now the most important news: you mustn't use a non-existent key. Trying something like this:
+
+```py
+print(phone_numbers['president'])
+```
+
+will cause a runtime error. Try to do it.
+
+
+Fortunately, there's a simple way to avoid such a situation. The in operator, together with its companion, not in, can salvage this situation.
+
+The following code safely searches for some French words:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+words = ['cat', 'lion', 'horse']
+
+for word in words:
+    if word in dictionary:
+        print(word, "->", dictionary[word])
+    else:
+        print(word, "is not in dictionary")
+```
+        
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
