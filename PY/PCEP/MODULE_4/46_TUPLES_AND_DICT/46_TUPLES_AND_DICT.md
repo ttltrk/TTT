@@ -352,7 +352,33 @@ for word in words:
     else:
         print(word, "is not in dictionary")
 ```
-        
+
+The code's output looks as follows:
+
+```py
+cat -> chat
+lion is not in dictionary
+horse -> cheval
+```
+
+When you write a big or lengthy expression, it may be a good idea to keep it vertically aligned. This is how you can make your code more readable and more programmer-friendly, e.g.:
+
+```py
+# Example 1:
+dictionary = {
+              "cat": "chat",
+              "dog": "chien",
+              "horse": "cheval"
+              }
+
+# Example 2:
+phone_numbers = {'boss': 5551234567,
+                 'Suzy': 22657854310
+                 }
+```
+
+Such ways of formatting code are called hanging indents.
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
