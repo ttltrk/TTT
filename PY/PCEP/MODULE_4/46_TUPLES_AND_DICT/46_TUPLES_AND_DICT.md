@@ -305,7 +305,29 @@ NOTE
 
 ---
 
-####
+#### 4615_TUP_AND_DIC
+
+##### How to use a dictionary?
+
+If you want to get any of the values, you have to deliver a valid key value:
+
+```py
+print(dictionary['cat'])
+print(phone_numbers['Suzy'])
+```
+
+Getting a dictionary's value resembles indexing, especially thanks to the brackets surrounding the key's value.
+
+Note:
+
+if the key is a string, you have to specify it as a string;
+keys are case-sensitive: 'Suzy' is something different from 'suzy'.
+The snippet outputs two lines of text:
+
+```py
+chat
+5557654321
+```
 
 [^^^](#46_TUPLES_AND_DICT)
 
