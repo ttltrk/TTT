@@ -10,6 +10,7 @@
 ---
 
 * [VERY_FIRST](#VERY_FIRST)
+* [LABELS_INPUT_GUI](#LABELS_INPUT_GUI)
 
 ---
 
@@ -39,6 +40,12 @@ class MyApp(App):
 if __name__=="__main__":
     MyApp().run()
 ```
+
+[^^^](#KIVY)
+
+---
+
+#### LABELS_INPUT_GUI
 
 [^^^](#KIVY)
 
