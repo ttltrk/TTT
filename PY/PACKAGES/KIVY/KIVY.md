@@ -9,6 +9,10 @@
 
 ---
 
+* [VERY_FIRST](#VERY_FIRST)
+
+---
+
 * [LINKS](#LINKS)
 * [SOURCE](#SOURCE)
 * [MAIN_PY](#MAIN_PY)
@@ -18,6 +22,25 @@
 * [SIZE_HINT_VS_POS_HINT](#SIZE_HINT_VS_POS_HINT)
 * [EMBED_A_LAYOUT](#EMBED_A_LAYOUT)
 * [ANCHOR_LAYOUT](#ANCHOR_LAYOUT)
+
+---
+
+#### VERY_FIRST
+
+```py
+import kivy
+from kivy.app import App
+from kivy.uix.label import Label
+
+class MyApp(App):
+    def build(self):
+        return Label(text="very first App")
+
+if __name__=="__main__":
+    MyApp().run()
+```
+
+[^^^](#KIVY)
 
 ---
 
