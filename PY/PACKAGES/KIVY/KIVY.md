@@ -13,6 +13,7 @@
 * [LABELS_INPUT_GUI](#LABELS_INPUT_GUI)
 * [BUTTONS_TRIGGERS](#BUTTONS_TRIGGERS)
 * [KV_DESIGN](#KV_DESIGN)
+* [OBJECT_PROPERTIES_KV_CONTINUED](#OBJECT_PROPERTIES_KV_CONTINUED)
 
 ---
 
@@ -337,6 +338,40 @@ if __name__ == "__main__":
         Button:
             text: "Submit"
 ```
+
+##### Playing with positions
+
+```
+<MyGrid>
+    GridLayout:
+        cols:1
+        size: root.width -200, root.height -200
+        pos: 100, 100
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Name: "
+
+            TextInput:
+                multiline: False
+
+            Label:
+                text: "Email: "
+
+            TextInput:
+                multiline: False
+
+        Button:
+            text: "Submit"
+```
+
+[^^^](#KIVY)
+
+---
+
+#### OBJECT_PROPERTIES_KV_CONTINUED
 
 [^^^](#KIVY)
 
