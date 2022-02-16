@@ -14,6 +14,7 @@
 * [BUTTONS_TRIGGERS](#BUTTONS_TRIGGERS)
 * [KV_DESIGN](#KV_DESIGN)
 * [OBJECT_PROPERTIES_KV_CONTINUED](#OBJECT_PROPERTIES_KV_CONTINUED)
+* [FLOATLAYOUT](#FLOATLAYOUT)
 
 ---
 
@@ -434,6 +435,12 @@ if __name__ == "__main__":
             text: "Submit"
             on_press: root.btn()
 ```
+
+[^^^](#KIVY)
+
+---
+
+#### FLOATLAYOUT
 
 [^^^](#KIVY)
 
