@@ -12,6 +12,7 @@
 * [VERY_FIRST](#VERY_FIRST)
 * [LABELS_INPUT_GUI](#LABELS_INPUT_GUI)
 * [BUTTONS_TRIGGERS](#BUTTONS_TRIGGERS)
+* [KV_DESIGN](#KV_DESIGN)
 
 ---
 
@@ -273,6 +274,41 @@ class MyApp(App):
 
 if __name__=="__main__":
     MyApp().run()
+```
+
+[^^^](#KIVY)
+
+---
+
+#### KV_DESIGN
+
+```py
+import kivy
+from kivy.app import App
+from kivy.uix.label import Label
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.textinput import TextInput
+from kivy.uix.button import Button
+from kivy.uix.widget import Widget
+
+class MyGrid(Widget):
+    pass
+
+class MyApp(App):
+    def build(self):
+        return MyGrid()
+
+
+if __name__ == "__main__":
+    MyApp().run()
+```
+
+##### Very first .kv file
+
+```
+<MyGrid>
+    Label:
+        text: "heyho"
 ```
 
 [^^^](#KIVY)
