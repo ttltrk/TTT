@@ -311,6 +311,33 @@ if __name__ == "__main__":
         text: "heyho"
 ```
 
+##### Previous example with .kv file
+
+```
+<MyGrid>
+    GridLayout:
+        cols:1
+        size: root.width, root.height
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Name: "
+
+            TextInput:
+                multiline: False
+
+            Label:
+                text: "Email: "
+
+            TextInput:
+                multiline: False
+
+        Button:
+            text: "Submit"
+```
+
 [^^^](#KIVY)
 
 ---
