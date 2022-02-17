@@ -547,6 +547,14 @@ Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
 #### EGESZSEG
 #### JOVO_IDO
 
+```
+They will fall off the sofa. - le fognak esni a kanaperol
+I will get used to it - hozza fogok szokni
+One day you will have more friends than me. - egy napon tobb baratod lesz neked mint nekem
+We will arrive in the city in two hours. - ket ora mulva megerkezunk a varosba
+Today I will have to go eat with my mother. - ma el kell majd mennem enni edesanyammal
+
+```
 
 [^^^](#ENG)
 
