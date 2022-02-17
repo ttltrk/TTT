@@ -472,6 +472,24 @@ if __name__ == "__main__":
         text: "trk"
 ```
 
+##### updated .kv file
+
+```<Button>:
+    font_size: 40
+    color: 0.3,0.6,0.7,1
+    size_hint: 0.3, 0.5
+
+<FloatLayout>:
+    Button:
+        pos_hint: {"x":0.5,"top":1}
+        text: "heyho"
+
+    Button:
+        id: btn
+        text: "trk" if btn.state == "normal" else "Down"
+        background_color: 0.3,0.4,0.5,1
+```
+
 [^^^](#KIVY)
 
 ---
