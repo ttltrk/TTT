@@ -517,7 +517,7 @@ He is not afraid of anything. - semmitol sem fel
 He eats anything. - barmit megeszik
 none - egyik sem
 None of them are popular. - egyikuk sem nepszeru
-Please take a few days off. - kerlek, vagyel ki nehany szabadnapot 
+Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
 
 ```
 
@@ -525,11 +525,33 @@ Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
 
 ---
 
-####
-####
-####
-####
-####
+#### SZAMOK
+#### IGEK_JELEN_3
+#### OKTATAS
+#### MULT_IDO_1
+#### FONEVI_IGENEV
+#### MULT_IDO_2
+#### ELVONT_FONEV_1
+#### MINOSEGI_ALAKOK
+#### BEFEJEZETT_JELEN
+#### FONEVI_IGENEV_2
+#### VONATKOZO_NEVMAS
+#### BEFEJEZETT_MULT
+#### ELVONT_FONEV_2
+#### VISSZAHATO_NEVMAS
+#### TERMESZET
+#### IGENEVEK
+#### SPORT
+#### MUVESZET
+#### KOMMUNIKACIO
+#### EGESZSEG
+#### JOVO_IDO
+
+
+[^^^](#ENG)
+
+---
+
 ####
 ####
 ####
