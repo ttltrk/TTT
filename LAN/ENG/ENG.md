@@ -514,6 +514,10 @@ she has few friends - keves baratja van
 I remember everything. - mindenre emlekszem
 I have few books. - keves konyvem van
 He is not afraid of anything. - semmitol sem fel
+He eats anything. - barmit megeszik
+none - egyik sem
+None of them are popular. - egyikuk sem nepszeru
+Please take a few days off. - kerlek, vagyel ki nehany szabadnapot 
 
 ```
 
