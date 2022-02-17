@@ -350,14 +350,6 @@ If you love him, tell him. - Ha szereted őt, akkor mondd el neki.
 She eats bread when she wants. - Akkor eszik kenyeret, amikor akar.
 Eat pasta whenever you want. - Egyél tésztát, amikor csak akarsz.
 eat cheese whenever you want - Egyél sajtot, amikor csak akarsz.
-
-
-
-
-
-
-
-
 ```
 
 [^^^](#ENG)
@@ -414,7 +406,7 @@ eat cheese whenever you want - Egyél sajtot, amikor csak akarsz.
 
 ---
 
-#### IGEK_JELEN_1
+#### IGEK_JELEN_2
 
 ```
 
@@ -507,10 +499,28 @@ Sunday we see the cook's kitchen. - Vasárnap megnézzük a szakács konyháját
 
 ---
 
-####
-####
-####
-####
+#### TARGYAK
+#### EMBEREK
+#### UTAZAS
+#### TOVABBI_NEVMAS
+
+```
+I do not have anything - nincs semmim
+Someone is at the door. - valaki van ajtonal
+Everyone likes this place. - mindenki szereti ezt a helyet
+Everything is possible. - minden lehetseges
+Nothing is more important! - semmi sem fontosabb
+she has few friends - keves baratja van
+I remember everything. - mindenre emlekszem
+I have few books. - keves konyvem van
+He is not afraid of anything. - semmitol sem fel
+
+```
+
+[^^^](#ENG)
+
+---
+
 ####
 ####
 ####
