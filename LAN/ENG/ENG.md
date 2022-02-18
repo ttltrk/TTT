@@ -526,6 +526,15 @@ Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
 ---
 
 #### SZAMOK
+
+```
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### IGEK_JELEN_3
 #### OKTATAS
 #### MULT_IDO_1
