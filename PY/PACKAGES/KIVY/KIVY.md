@@ -9,6 +9,16 @@
 
 ---
 
+* [GFG_LINKS](#GFG_LINKS)
+* [WHAT_IS_KIVY](#WHAT_IS_KIVY)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+
+---
+
 * [VERY_FIRST](#VERY_FIRST)
 * [LABELS_INPUT_GUI](#LABELS_INPUT_GUI)
 * [BUTTONS_TRIGGERS](#BUTTONS_TRIGGERS)
@@ -27,6 +37,22 @@
 * [SIZE_HINT_VS_POS_HINT](#SIZE_HINT_VS_POS_HINT)
 * [EMBED_A_LAYOUT](#EMBED_A_LAYOUT)
 * [ANCHOR_LAYOUT](#ANCHOR_LAYOUT)
+
+---
+
+#### GFG_LINKS
+
+https://www.geeksforgeeks.org/kivy-tutorial/?ref=lbp
+
+[^^^](#KIVY)
+
+---
+
+#### WHAT_IS_KIVY
+
+Kivy is an opensource multi-platform GUI development library for Python and can run on iOS, Android, Windows, OS X, and GNU/Linux. It helps develop applications that make use of innovative, multi-touch UI. The fundamental idea behind Kivy is to enable the developer to build an app once and use it across all devices, making the code reusable and deployable, allowing for quick and easy interaction design and rapid prototyping.
+
+[^^^](#KIVY)
 
 ---
 
