@@ -415,7 +415,7 @@ The first of them is a method named keys(), possessed by each dictionary. The me
 
 Just like here:
 
-```py
+```
 dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
 
 for key in dictionary.keys():
@@ -428,6 +428,35 @@ The codes output looks as follows:
 horse -> cheval
 dog -> chien
 cat -> chat
+```
+
+##### The sorted() function
+
+Do you want it sorted? Just enrich the for loop to get such a form:
+
+```py
+for key in sorted(dictionary.keys()):
+```
+
+The sorted() function will do its best - the output will look like this:
+
+```py
+cat -> chat
+dog -> chien
+horse -> cheval
+```
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+for key in dictionary.keys():
+    print(key, "->", dictionary[key])
+
+>>>
+cat -> chat
+dog -> chien
+horse -> cheval
+>>>
 ```
 
 [^^^](#46_TUPLES_AND_DICT)
