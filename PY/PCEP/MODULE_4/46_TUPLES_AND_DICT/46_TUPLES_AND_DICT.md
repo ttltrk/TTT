@@ -14,8 +14,8 @@
 * [4613_TUP_AND_DIC](#4613_TUP_AND_DIC)
 * [4614_TUP_AND_DIC](#4614_TUP_AND_DIC)
 * [4615_TUP_AND_DIC](#4615_TUP_AND_DIC)
-* [](#)
-* [](#)
+* [4616_TUP_AND_DIC](#4616_TUP_AND_DIC)
+* [4617_TUP_AND_DIC](#4617_TUP_AND_DIC)
 * [](#)
 * [](#)
 * [](#)
@@ -463,7 +463,13 @@ horse -> cheval
 
 ---
 
-####
+#### 4617_TUP_AND_DIC
+
+##### How to use a dictionary: The items() and values() methods
+
+Another way is based on using a dictionary's method named items(). The method returns tuples (this is the first example where tuples are something more than just an example of themselves) where each tuple is a key-value pair.
+
+This is how it works:
 
 [^^^](#46_TUPLES_AND_DICT)
 
