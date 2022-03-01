@@ -471,6 +471,44 @@ Another way is based on using a dictionary's method named items(). The method re
 
 This is how it works:
 
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+for english, french in dictionary.items():
+    print(english, "->", french)
+```
+
+Note the way in which the tuple has been used as a for loop variable.
+
+The example prints:
+
+```py
+cat -> chat
+dog -> chien
+horse -> cheval
+```
+
+There is also a method named values(), which works similarly to keys(), but returns values.
+
+Here is a simple example:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+for french in dictionary.values():
+    print(french)
+```
+
+As the dictionary is not able to automatically find a key for a given value, the role of this method is rather limited.
+
+Here is the expected output:
+
+```py
+cheval
+chien
+chat
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
