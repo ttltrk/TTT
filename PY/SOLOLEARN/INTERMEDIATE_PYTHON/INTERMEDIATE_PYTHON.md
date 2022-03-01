@@ -171,6 +171,31 @@ Woof
 >>>
 ```
 
+In the example above, Wolf is the superclass, Dog is the subclass.
+
+The function super is a useful inheritance-related function that refers to the parent class. It can be used to find the method with a certain name in an object's superclass.
+
+```py
+class A:
+    def spam(self):
+        print(1)
+
+class B(A):
+    def spam(self):
+        print(2)
+        super().spam()
+
+B().spam()
+
+>>>
+2
+1
+>>>
+```
+
+super().spam() calls the spam method of the superclass.
+
+
 [^^^](#INTERMEDIATE_PYTHON)
 
 ---
