@@ -633,11 +633,345 @@ to have a team, so it's not one data scientist
 but a team of them, that each of them have strengths
 in different areas of data science.
 
+##### Recruiting for data science
+
+- When the companies are hiring
+people for a data science team,
+maybe a data scientist or an analyst,
+or a chief data scientist,
+the tendency would be to find the person
+who has all the skills,
+that they know the domain specific knowledge,
+they are excellent in analyzing structured
+and unstructured data,
+and they are great at presenting,
+and they've got great storytelling skills.
+So if you'll put all this together,
+you will realize you're looking for a unicorn,
+and your odds of finding a unicorn are pretty rare.
+I think what you need to do is to see,
+given the pool of applicants you have,
+who has the most resonance with your firm's DNA.
+Because, see, you can teach analytic skills.
+Anyone can learn analytic skills
+if they would dedicate time and effort to it.
+But what really matters is who is passionate
+about the kind of business that you do.
+Someone could be a great data scientist
+in the retail environment,
+but they may not be that exited about
+working in IT-related firms,
+or working with gigabytes of web logs.
+But if someone is excited about those web logs,
+or someone is excited about health-related data,
+then they would be able to contribute
+to your productivity much more so.
+And I would say if I'm looking for someone,
+if I have to put together a data science team,
+I would first look for curiosity.
+Is that person curious about things?
+Not just for data science, but anything.
+Are they curious about why this room
+is painted a certain way?
+Why the bookshelves have books and what kind of books?
+They have to have a certain degree of curiosity
+about everything that is in their vision
+that they look at.
+The second thing is, do they have a sense of humor?
+Because you see, you have to have lighthearted about it.
+If someone is too serious about it,
+they probably would take it too seriously,
+and would not be able to look at the lighter elements.
+The third thing I think,
+and I think the last that I would look for,
+if I have to have a hierarchy,
+the last thing I would look for are technical skills.
+I would go through these social skills,
+curiosity, sense of humor, the ability to tell a story,
+the ability to know that there is a story there.
+And then once all is there,
+then I will say,
+"Well, can you do the technical side of it?"
+And if there is some hope
+or some sign of some technical skills,
+I would take them because I can train them
+in whatever skills they need.
+But I cannot teach curiosity.
+I cannot teach storytelling.
+I cannot certainly instill sense of humor in anyone.
+- I think there's no hard and fast rule
+for hiring data scientists.
+I think it's gonna be a case by case thing.
+I would say there has to be some sort of
+technical component.
+Somebody should be able to manipulate the data.
+They should be able to communicate
+what they find in the data.
+I find quite often, nobody really cares about the
+R squared or confidence interval.
+So you have to be able to introduce those things
+and explain something in a compelling way.
+And they also have to find somebody who is relatable,
+because data science, it being typically new means that
+the person in that role has to make relationships
+and they have to work across different departments.
+- If this data scientist has a good mathematics
+and statistic background.
+- They have to consider problem solving abilities
+and analysis.
+A data scientist needs to be good in analyzing problems.
+- The persons they are hiring,
+they should love to play with data,
+and then they know how to play with the data visualization.
+They have analytical thinking.
+- When a company is hiring,
+anyone to work on a data science team,
+they need to think about what role that person
+is going to take.
+Before a company begins, they need to understand
+what they want out of their data science team.
+And then they need to hire to begin it.
+As they grow a data science team,
+they need to understand whether they need
+engineers, architects, designers to work on visualization,
+or whether they just need more people
+who can multiply large matrices.
+- From a skills point, let's focus on the technical skills,
+and in that case, first thing would be
+what kind of technical platform would you like to adopt.
+Let's say you wanna work in a structured data environment,
+and let's say you wanna work in market research.
+Then the type of skills you need are slightly different
+than someone who would like to work
+in big data environments.
+If you wanna work in the traditional market research
+structured data environment,
+your skills should be some statistical knowledge,
+some knowledge of basic statistical algorithms,
+maybe some machine learning algorithms,
+and these are the tools that you would like to develop.
+If you wanna work in big data,
+then there's the other aspect of it,
+and that is to be able to store data.
+So you start with the expertise
+in storing large amounts of data,
+and then you look into platforms that allow you to do that.
+The next step would be able to manipulate
+large amounts of data,
+and the final step would be to apply
+algorithms to those large sets of data.
+So it's a three-step process,
+but most likely it starts...
+Most importantly, it starts with where you would like to be,
+in what field, in what domain.
+So, in terms of platforms,
+let's say you wanna be in a traditional
+predictive analytics environment,
+and you're not working with big data,
+then R, or Stata, or Python would be your tools.
+If you're working mostly with unstructured data,
+then Python is more suitable than R.
+If you're working with big data, then Hadoop and Spark
+are the environments that you will be working with.
+So it all depends upon where you would like to be,
+and what kind of work excites you,
+and then you pick your tools.
+In additional to technical skills,
+the second aspect of the data science
+is to have the ability communicate,
+the communication skills or presentation skills.
+I call them storytelling skills.
+That is that you have your analysis done,
+now can you tell a great story from it?
+If you have a very large table,
+can you synthesize this and make it more appealing
+that when it goes on the screen,
+or is it part of document that it just speaks,
+it sings the findings,
+and the reader just gets it right there?
+So, the ability to present your findings,
+either verbally, or in a presentation,
+or in a document,
+so that communication and presentation skills
+are equally important as the technical skills are.
+When you have a great insight,
+and when you're presenting your results...
+Imagine you're driving on a mountain
+and then there's a sharp turn,
+and you can't see what's beyond the turn,
+and then you make that turn,
+and then suddenly you see
+a tremendous valley in front of you,
+and this great sense of awe that,
+"I didn't know that."
+Right?
+So when you present your findings
+and you have this great finding,
+and you communicate it well,
+this is what people feel because they were not expecting it.
+They were not aware of it,
+and then this great sense of happiness that,
+"Now I know. And I didn't notice. Now I know."
+And then it empowers them.
+It gives them ideas what they can do with this knowledge,
+this new insight.
+It's a great sense of joy.
+As a data scientist, you're able to share it
+with your clients because you enabled it.
+
 [^^^](#INTRO_TO_DS)
 
 ---
 
 #### MODULE_4
+
+##### Applications of data science
+
+- I think one of the good new applications
+of data science is in the medical field.
+Like in drug delivery or cancer treatment.
+- I think a very interesting one
+is how now companies can use all the information
+they're gathering from their customers
+to actually develop new products
+that respond to the needs
+of the customers.
+- A good new application of data science
+was the high trending news of Pokémon Go.
+So they used Ingress.
+They used data of the Ingress app.
+The last app of the same company
+and they choose the locations
+for Pokémons and gyms
+according to data from the last app.
+So they learned with their errors.
+- Google Search is an application of data science.
+The Google Search, whenever we want to search anything.
+So I think its all because of data science.
+Whatever Google is now, it's all because of data science.
+- Augmented reality is my favorite
+new implementation of data science.
+I think you can't look at a new technology
+and not see data science in there
+but augmented reality is the one
+I'm just the most excited about.
+The ability to walk around and see things on walls
+or around us that aren't really there.
+Pokémon's just the start.
+- So what has happened is that now the tools are available
+and datasets are available,
+people are applying them with not much diligence
+and I think one of the strange cases
+which got reported in the newspapers is about the story
+of a father walking into a Target store in the US
+and complaining about the fact
+that the Target was sending mails to his teenage daughter
+about diapers and milk, baby formula.
+He was angry with them.
+He said, "Why would you like
+"for my teenage daughter to have a baby?"
+And he was obviously disturbed
+by this mail or the ad campaign.
+And they obviously apologized
+but then the father returned two weeks later
+and he apologized to them
+saying he didn't know his daughter was pregnant.
+Now the question is, how did Target know this thing
+before the father knew.
+And what has happened is that they would look
+at the purchasing behavior of individuals.
+So if you're buying some sort of supplements or vitamins
+then you know that this is the first trimester of pregnancy.
+So they know what products to send to you
+assuming that the person
+who bought those supplements were pregnant.
+Now this is a great story about data science
+and how data science can forecast and predict
+these consumer behaviors
+even before the family would find out.
+And I find it disturbing and strange and odd
+for a variety of reasons.
+First of all, for every correct prediction,
+you have hundreds of incorrect predictions
+which we call the false positives
+and no data scientist actually advertises
+his or her false positives.
+We only advertise and promote what we got it right.
+But when we got it wrong hundreds of times we don't tell it.
+Second thing is, that's an abuse of data.
+That's basically not really not giving you much insight.
+You've just found a correlation
+but someone could be purchasing the same material
+for someone else.
+So, and then the odds of getting it wrong
+and the odds of getting false positives is much higher.
+So I find it strange and I think it gives a false sense
+of our ability to predict the future.
+The reality is about data science
+and the most important thing
+for the budding data scientist to know
+that all forecasts are wrong.
+They're useful but they're wrong.
+And so one should not put their faith
+into the fact that now that we can do predictive analytics
+that we can solve all problems.
+I think a good example is the Google Search.
+Google published a paper saying
+they can predict flu epidemics
+before the Center for Disease Control.
+And what they did was they were looking
+at what people were searching on Google so flu symptoms.
+So Google saw the flu symptom searches
+before anybody else and they were able to predict it.
+The thing is these searches are good
+and they are correlated with some outcomes
+but not necessarily all the time.
+So at that time, when Google announced,
+it was a big thing and everybody really like it
+and well that's a new era of predictive analytics.
+Only that a few years later they realized
+that Google started to predict false positives.
+That they were predicting things that were not really there
+or the predictions were not that accurate
+for a variety or reasons.
+They changed probably their algorithms
+and the datasets were not really correlated
+with the outcomes.
+So what's the lesson to learn here?
+One has to avoid what we call the data hubris.
+That you should not believe in your models too much
+because they can lead you astray.
+Data science has tremendous potential to bring change
+in parts of the world, in parts of our society
+that have been disenfranchised for years.
+One sees great examples of data science
+especially in the developing countries
+where they are targeting relief efforts.
+They're targeting food
+and other aid to individuals,
+to places that have not been targeted in the past.
+And the reason it is happening now
+is the greater availability of data and models and analytics
+to be able to pinpoint where the greatest needs are.
+The ability to design and conduct experiments
+to see if one were to give micro-credits,
+small loans to very poor households
+in developing parts of the world,
+to see how they affect
+the individual household's ability to get out a poverty
+and also the local community's ability
+to collectively improve their economic well-being
+by just very small infusions of cash or credit.
+So these experiments happening all over the world
+are allowing that is a direct result
+of our ability to analyze data
+and be able to design experiments
+and then roll out humongous efforts
+in providing relief, providing credit,
+providing an opportunity
+to those who have been disenfranchised in the past
+an opportunity to join the rest of the world
+in prosperity and happiness and health.
 
 [^^^](#INTRO_TO_DS)
 
