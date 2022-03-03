@@ -1428,7 +1428,7 @@ KVM.
 The other type of hypervisor is a Type 2 hypervisor, over here. And what
 makes these different is that there is a layer of host OS that sits between the
 physical server and the hypervisor. By that nature they are also called, Hosted.
-Hhese are a lot less frequent. They're mostly used for end-user virtualization.
+These are a lot less frequent. They're mostly used for end-user virtualization.
 You might see some in the market that are called: Oracle, VirtualBox,
 or VMware Workstation. Again, they're a lot less frequent. They're a bit more...
 They have a higher latency than a Type 1 hypervisor. So once you have your
