@@ -13,7 +13,7 @@
 
 ---
 
-* [MODULE_1 - INTRO](#MODULE_1 - INTRO)
+* [MODULE_1](#MODULE_1)
 * []()
 * []()
 * []()
@@ -21,7 +21,7 @@
 
 ---
 
-#### MODULE_1 - INTRO
+#### MODULE_1
 
 ##### Introduction to Data Analysis with Python
 
