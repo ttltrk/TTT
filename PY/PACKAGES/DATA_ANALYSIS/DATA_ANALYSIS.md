@@ -14,10 +14,10 @@
 ---
 
 * [MODULE_1](#MODULE_1)
-* []()
-* []()
-* []()
-* []()
+* [MODULE_2](#MODULE_2)
+* [MODULE_3](#MODULE_3)
+* [MODULE_4](#MODULE_4)
+* [MODULE_5](#MODULE_5)
 
 ---
 
@@ -277,6 +277,40 @@ This is because that particular statistical metric cannot be calculated for that
 column data type.
 Another method you can use to check your dataset is the dataframe.info function.
 This function shows the top 30 rows and bottom 30 rows of the dataframe.
+
+[^^^](#DATA_ANALYSIS)
+
+---
+
+#### MODULE_2
+
+##### Pre-processing Data in Python
+
+##### Dealing with Missing Values in Python
+
+##### Data Formatting in Python
+
+##### Data Normalization in Python
+
+##### Binning in Python
+
+[^^^](#DATA_ANALYSIS)
+
+---
+
+#### MODULE_3
+
+[^^^](#DATA_ANALYSIS)
+
+---
+
+#### MODULE_4
+
+[^^^](#DATA_ANALYSIS)
+
+---
+
+#### MODULE_5
 
 [^^^](#DATA_ANALYSIS)
 
