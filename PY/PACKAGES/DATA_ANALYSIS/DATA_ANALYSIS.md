@@ -484,15 +484,19 @@ After normalization, both variables now have a similar influence on the models w
 build later.
 There are several ways to normalize data.
 I will just outline three techniques.
+
 The first method, called “simple feature scaling”, just divides each value by the
 maximum value for that feature.
 This makes the new values range between 0 and 1.
+
 The second method, called “Min-Max”, takes each value, X_old, subtracted from the minimum
 value of that feature, then divides by the range of that feature.
 Again, the resulting new values range between 0 and 1.
+
 The third method is called “z-score” or “standard score”.
 In this formula, for each value, you subtract the Mu which is the average of the feature,
 and then divide by the standard deviation (sigma).
+
 The resulting values hover around 0, and typically range between -3 and +3, but can be higher
 or lower.
 Following our earlier example, we can apply the normalization method on the “length”
@@ -509,6 +513,31 @@ mean() method will return the average value of the feature in the dataset, and s
 will return the standard deviation of the features in the dataset.
 
 ##### Binning in Python
+
+In this video, we’ll talk about binning as a method of data pre-processing.
+Binning is when you group values together into bins. For example, you can bin “age”
+into [0 to 5], [6 to 10], [11 to 15] and so on.
+Sometimes, binning can improve accuracy of the predictive models.
+In addition, sometimes we use data binning to group a set of numerical values into a
+smaller number of bins to have a better understanding of the data distribution.
+As example, “price” here is an attribute range from 5,000 to 45,500.
+Using binning, we categorize the price into three bins: low price, medium price, and high
+prices.
+In the actual car dataset, ”price" is a numerical variable ranging from 5188 to 45400,
+it has 201 unique values.
+We can categorize them into 3 bins: low, medium, and high-priced cars.
+In Python we can easily implement the binning: We would like 3 bins of equal binwidth, so
+we need 4 numbers as dividers that are equal distance apart.
+First we use the numpy function “linspace” to return the array “bins” that contains
+4 equally spaced numbers over the specified interval of the price.
+We create a list “group_names “ that contains the different bin names.
+We use the pandas function ”cut” to segment and sort the data values into bins.
+You can then use histograms to visualize the distribution of the data after they’ve been
+divided into bins.
+This is the histogram that we plotted based on the binning that we applied in the price
+feature.
+From the plot, it is clear that most cars have a low price, and only very few cars have
+high price.
 
 [^^^](#DATA_ANALYSIS)
 
