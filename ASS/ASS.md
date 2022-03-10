@@ -40,10 +40,6 @@
 
 #### HELLO_WORLD
 
-```
-test
-```
-
 compile >> run
 
 ```
