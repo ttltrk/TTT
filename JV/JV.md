@@ -15,6 +15,7 @@
 * [VARIABLES](https://github.com/ttltrk/TTT/tree/master/JV/VARIABLES/VARIABLES.md)
 * [DATA_TYPES]()
 * [PRIMITIVE_TYPES](https://github.com/ttltrk/TTT/tree/master/JV/PRIMITIVE_TYPES/PRIMITIVE_TYPES.md)
+* [NUMBERS](https://github.com/ttltrk/TTT/tree/master/JV/NUMBERS/NUMBERS.md)
 * [TYPE_CASTING]()
 * [OPERATORS]()
 * [STRINGS]()
