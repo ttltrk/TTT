@@ -16,7 +16,7 @@
 * [4615_TUP_AND_DIC](#4615_TUP_AND_DIC)
 * [4616_TUP_AND_DIC](#4616_TUP_AND_DIC)
 * [4617_TUP_AND_DIC](#4617_TUP_AND_DIC)
-* [](#)
+* [4618_TUP_AND_DIC](#4618_TUP_AND_DIC)
 * [](#)
 * [](#)
 * [](#)
@@ -513,7 +513,49 @@ chat
 
 ---
 
-####
+#### 4618_TUP_AND_DIC
+
+##### How to use a dictionary: modifying and adding values
+
+Assigning a new value to an existing key is simple - as dictionaries are fully mutable, there are no obstacles to modifying them.
+
+We're going to replace the value "chat" with "minou", which is not very accurate, but it will work well with our example.
+
+Look:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+dictionary['cat'] = 'minou'
+print(dictionary)
+```
+
+The output is:
+
+```py
+{'cat': 'minou', 'dog': 'chien', 'horse': 'cheval'}
+```
+
+##### Adding a new key
+
+Adding a new key-value pair to a dictionary is as simple as changing a value - you only have to assign a value to a new, previously non-existent key.
+
+Note: this is very different behavior compared to lists, which don't allow you to assign values to non-existing indices.
+
+Let's add a new pair of words to the dictionary - a bit weird, but still valid:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+dictionary['swan'] = 'cygne'
+print(dictionary)
+```
+
+The example outputs:
+
+```py
+{'cat': 'chat', 'dog': 'chien', 'horse': 'cheval', 'swan': 'cygne'}
+```
 
 [^^^](#46_TUPLES_AND_DICT)
 
