@@ -557,6 +557,51 @@ The example outputs:
 {'cat': 'chat', 'dog': 'chien', 'horse': 'cheval', 'swan': 'cygne'}
 ```
 
+You can also insert an item to a dictionary by using the update() method, e.g.:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+dictionary.update({"duck": "canard"})
+print(dictionary)
+```
+
+##### Removing a key
+
+Can you guess how to remove a key from a dictionary?
+
+Note: removing a key will always cause the removal of the associated value. Values cannot exist without their keys.
+
+This is done with the del instruction.
+
+Here's the example:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+del dictionary['dog']
+print(dictionary)
+```
+
+Note: removing a non-existing key causes an error.
+
+The example outputs:
+
+```py
+{'cat': 'chat', 'horse': 'cheval'}
+```
+
+To remove the last item in a dictionary, you can use the popitem() method:
+
+```py
+dictionary = {"cat": "chat", "dog": "chien", "horse": "cheval"}
+
+dictionary.popitem()
+print(dictionary)    # outputs: {'cat': 'chat', 'dog': 'chien'}
+```
+
+In the older versions of Python, i.e., before 3.6.7, the popitem() method removes a random item from a dictionary.
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
