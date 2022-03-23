@@ -49,6 +49,7 @@
 * [sort](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/SORT/SORT.md)
 * [sudo](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/SUDO/SUDO.md)
 * [tail](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TAIL/TAIL.md)
+* [tar](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TAR/TAR.md)
 * [touch](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TOUCH/TOUCH.md)
 * [tty](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/TTY/TTY.md)
 * [unzip](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/UNZIP/UNZIP.md)
