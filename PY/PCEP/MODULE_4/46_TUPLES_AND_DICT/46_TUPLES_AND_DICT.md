@@ -17,7 +17,8 @@
 * [4616_TUP_AND_DIC](#4616_TUP_AND_DIC)
 * [4617_TUP_AND_DIC](#4617_TUP_AND_DIC)
 * [4618_TUP_AND_DIC](#4618_TUP_AND_DIC)
-* [](#)
+* [4619_TUP_AND_DIC](#4619_TUP_AND_DIC)
+* [46110_SUMMARY](#46110_SUMMARY)
 * [](#)
 * [](#)
 
@@ -687,7 +688,35 @@ for name in sorted(school_class.keys()):
 
 ---
 
-####
+#### 46110_SUMMARY
+
+1. Tuples are ordered and unchangeable (immutable) collections of data. They can be thought of as immutable lists. They are written in round brackets:
+
+```py
+my_tuple = (1, 2, True, "a string", (3, 4), [5, 6], None)
+print(my_tuple)
+
+my_list = [1, 2, True, "a string", (3, 4), [5, 6], None]
+print(my_list)
+
+>>>
+(1, 2, True, 'a string', (3, 4), [5, 6], None)
+[1, 2, True, 'a string', (3, 4), [5, 6], None]
+>>>
+```
+
+Each tuple element may be of a different type (i.e., integers, strings, booleans, etc.). What is more, tuples can contain other tuples or lists (and the other way round).
+
+2. You can create an empty tuple like this:
+
+```py
+empty_tuple = ()
+print(type(empty_tuple))    
+
+>>>
+<class 'tuple'>
+>>>
+```
 
 [^^^](#46_TUPLES_AND_DICT)
 
