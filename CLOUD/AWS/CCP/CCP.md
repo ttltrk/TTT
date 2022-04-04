@@ -180,7 +180,7 @@ In November 2010, it was reported that all of Amazon.com's retail sites had migr
 To support industry-wide training and skills standardization, AWS began offering
 a certification program for computer engineers, on April 2013.  
 
-Adam Selipsky >> CEO of AWS 
+Adam Selipsky >> CEO of AWS
 
 [^^^](#AWS_CCP)
 
@@ -310,6 +310,13 @@ https://www.aws.amazon.com/
 - Multiple apps can run side by side without being limited by to the same OS requirements  
 
 ##### Functions
+
+- Are managed VMs running managed containers.
+- Known as Serverless Compute
+- You upload a piece of code, choose the amount of memory and duration
+- Only responsible for code and data, nothing else
+- Very cost-effective, only pay for the time code is running, VMs only run when there is code to be executed
+- Cold starts is a side-effect of this setup  
 
 [^^^](#AWS_CCP)
 
