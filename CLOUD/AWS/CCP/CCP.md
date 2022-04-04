@@ -180,6 +180,8 @@ In November 2010, it was reported that all of Amazon.com's retail sites had migr
 To support industry-wide training and skills standardization, AWS began offering
 a certification program for computer engineers, on April 2013.  
 
+Adam Selipsky >> CEO of AWS 
+
 [^^^](#AWS_CCP)
 
 ---
