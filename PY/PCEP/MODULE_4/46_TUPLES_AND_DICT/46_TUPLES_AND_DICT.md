@@ -820,3 +820,79 @@ print(type(my_list))    # outputs: <class 'list'>
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
+
+#### 46111_SUMMARY
+
+Key takeaways: dictionaries
+
+1. Dictionaries are unordered*, changeable (mutable), and indexed collections of data. (*In Python 3.6x dictionaries have become ordered by default.
+
+Each dictionary is a set of key: value pairs. You can create it by using the following syntax:
+
+```py
+my_dictionary = {
+    key1: value1,
+    key2: value2,
+    key3: value3,
+    }
+```
+
+2. If you want to access a dictionary item, you can do so by making a reference to its key inside a pair of square brackets (ex. 1) or by using the get() method (ex. 2):
+
+```py
+pol_eng_dictionary = {
+    "kwiat": "flower",
+    "woda": "water",
+    "gleba": "soil"
+    }
+
+item_1 = pol_eng_dictionary["gleba"]
+print(item_1)    
+
+item_2 = pol_eng_dictionary.get("woda")
+print(item_2)    
+
+>>>
+soil
+water
+>>>
+```
+
+3. If you want to change the value associated with a specific key, you can do so by referring to the item's key name in the following way:
+
+```py
+pol_eng_dictionary = {
+    "zamek": "castle",
+    "woda": "water",
+    "gleba": "soil"
+    }
+
+pol_eng_dictionary["zamek"] = "lock"
+item = pol_eng_dictionary["zamek"]    
+print(item)  # outputs: lock
+
+>>>
+lock
+>>>
+```
+
+4. To add or remove a key (and the associated value), use the following syntax:
+
+```py
+phonebook = {}    # an empty dictionary
+
+phonebook["Adam"] = 3456783958    # create/add a key-value pair
+print(phonebook)    # outputs: {'Adam': 3456783958}
+
+del phonebook["Adam"]
+print(phonebook)    # outputs: {}
+
+>>>
+{'Adam': 3456783958}
+{}
+>>>
+```
+
+[^^^](#46_TUPLES_AND_DICT)
+
+---
