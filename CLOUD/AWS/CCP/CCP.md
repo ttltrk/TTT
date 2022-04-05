@@ -339,6 +339,18 @@ https://www.aws.amazon.com/
 
 #### CLOUD_COMPUTING_DEPLOYMENT_MODELS
 
+- Public cloud
+  Everything (the workload or project) is built on the CSP also known as: Cloud-Native or Cloud first
+
+- Private Cloud
+  Everything built on companys datacenters. Also known as On-premise. The cloud could be openstack.
+
+- Hybrid
+  Using both On-Premise and CSP
+
+- Cross-Cloud
+  Using Multiple Cloud providers aka multi-cloud
+
 ```
 - Cloud
   - Fully utilizing cloud computing
