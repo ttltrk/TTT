@@ -325,10 +325,13 @@ https://www.aws.amazon.com/
 #### TYPES_OF_CC
 
 - SAAS for customers - Software as a Service, A completed product that is run and managed by the service providers
+                      (Salesforce, gmail, office)
 - PAAS for developers - Platform as a Service, Removes the need for your organization to manage the underlying
                         infrastructure. Focus on the deployment and management of your applications.
+                        (heroku)
 - IAAS for admins - Infrastructures as a Service, The basic building blocks for cloud IT. Provides access to networking
                     feature, computers and data storage space
+                    (azure, aws, ...)
 
 [^^^](#AWS_CCP)
 
