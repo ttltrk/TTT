@@ -893,6 +893,42 @@ print(phonebook)    # outputs: {}
 >>>
 ```
 
+You can also insert an item to a dictionary by using the update() method, and remove the last element by using the popitem() method, e.g.:
+
+```py
+pol_eng_dictionary = {"kwiat": "flower"}
+
+pol_eng_dictionary.update({"gleba": "soil"})
+print(pol_eng_dictionary)    # outputs: {'kwiat': 'flower', 'gleba': 'soil'}
+
+pol_eng_dictionary.popitem()
+print(pol_eng_dictionary)    # outputs: {'kwiat': 'flower'}
+
+>>>
+{'kwiat': 'flower', 'gleba': 'soil'}
+{'kwiat': 'flower'}
+>>>
+```
+
+5. You can use the for loop to loop through a dictionary, e.g.:
+
+```py
+pol_eng_dictionary = {
+    "zamek": "castle",
+    "woda": "water",
+    "gleba": "soil"
+    }
+
+for item in pol_eng_dictionary:
+    print(item)
+
+>>>
+zamek
+woda
+gleba
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
