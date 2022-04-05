@@ -1012,3 +1012,9 @@ print(copy_dictionary)
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
+
+#### 46112_SUMMARY
+
+[^^^](#46_TUPLES_AND_DICT)
+
+---
