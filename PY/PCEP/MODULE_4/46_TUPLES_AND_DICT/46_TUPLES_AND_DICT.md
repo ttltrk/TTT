@@ -929,6 +929,25 @@ gleba
 >>>
 ```
 
+6. If you want to loop through a dictionary's keys and values, you can use the items() method, e.g.:
+
+```py
+pol_eng_dictionary = {
+    "zamek": "castle",
+    "woda": "water",
+    "gleba": "soil"
+    }
+
+for key, value in pol_eng_dictionary.items():
+    print("Pol/Eng ->", key, ":", value)
+
+>>>
+Pol/Eng -> zamek : castle
+Pol/Eng -> woda : water
+Pol/Eng -> gleba : soil
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
