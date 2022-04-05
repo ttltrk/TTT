@@ -351,12 +351,18 @@ https://www.aws.amazon.com/
 - Cross-Cloud
   Using Multiple Cloud providers aka multi-cloud
 
-```
+[^^^](#AWS_CCP)
+
+---
+
+#### DEPLOYMENT_MODEL_USE_CASES
+
 - Cloud
   - Fully utilizing cloud computing
     - startups
     - SaaS offerings
     - New projects and companies
+    - Companys that are starting out today, or are small enough to make the leap from VSP to a CSP
 
 - Hybrid
   - Using both Cloud and On-Premise
@@ -364,13 +370,15 @@ https://www.aws.amazon.com/
     - FinTech, Investment management
     - Large Professional Service providers
     - Legacy on-premise
+    - Organizations that started with their own datacenter, cant fully move to cloud due to effort of migration or
+    security compliance
 
 - On-Premise
   - Deploying resources on-premises, using virtualization and resource management tools, is sometimes called "private cloud"
     - Public sector
     - Super sensitive data - hospitals
-    -  large enterprise with heavy regulation - insure companies
-```
+    - large enterprise with heavy regulation - insure companies
+    - organizations that cannot run on cloud due to strict regulatory compliance or the sheer size of their organization
 
 [^^^](#AWS_CCP)
 
