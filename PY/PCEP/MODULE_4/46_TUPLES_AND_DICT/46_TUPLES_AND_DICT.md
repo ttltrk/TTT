@@ -992,6 +992,23 @@ del pol_eng_dictionary    # removes the dictionary
 >>>
 ```
 
+9. To copy a dictionary, use the copy() method:
+
+```py
+pol_eng_dictionary = {
+    "zamek": "castle",
+    "woda": "water",
+    "gleba": "soil"
+    }
+
+copy_dictionary = pol_eng_dictionary.copy()
+print(copy_dictionary)
+
+>>>
+{'zamek': 'castle', 'woda': 'water', 'gleba': 'soil'}
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
