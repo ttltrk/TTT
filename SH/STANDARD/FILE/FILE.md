@@ -34,7 +34,14 @@ xxx:yyy:/zzz/trk_exp/trk$
 ```
 
 ```sh
-
+file .profile
+.profile: commands text
+file first
+first: directory
+file temp.txt
+temp.txt: empty
+file tp.log
+tp.log: ascii text
 ```
 
 [^^^](#FILE)
