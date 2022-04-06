@@ -543,6 +543,11 @@ We count on you. - szamitunk rad
 I miss her. - Hiányzik nekem.
 He follows the man. - a ferfit koveti
 A number of different letters appear on the screen. - Számos különböző betű jelenik meg a képernyőn.
+She signs and he pays. - a no alair es a ferfi fizet
+We import coffee from Colombia. - Kávét importálunk Kolumbiából.
+He helps the family. - segit a csaladnak
+One of my friends knows you. - Egyik barátom ismer téged.
+
 
 
 ```
