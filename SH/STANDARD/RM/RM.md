@@ -35,7 +35,7 @@ rm filename
 
 ```sh
 rm -r dirname
-rmdir dirname (empty)
+rmdir dirname (empty) # will remove only the empty dirs 
 ```
 
 - remove many records
