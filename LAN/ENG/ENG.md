@@ -555,6 +555,14 @@ One of my friends knows you. - Egyik barátom ismer téged.
 
 #### OKTATAS
 
+```
+Currently there are three schools. - Jelenleg három iskola van.
+That is my application. - Az az én kérelmem.
+He is in his library. - A könyvtárában van.
+
+
+```
+
 [^^^](#ENG)
 
 ---
