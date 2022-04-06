@@ -547,9 +547,6 @@ She signs and he pays. - a no alair es a ferfi fizet
 We import coffee from Colombia. - Kávét importálunk Kolumbiából.
 He helps the family. - segit a csaladnak
 One of my friends knows you. - Egyik barátom ismer téged.
-
-
-
 ```
 
 [^^^](#ENG)
@@ -557,6 +554,11 @@ One of my friends knows you. - Egyik barátom ismer téged.
 ---
 
 #### OKTATAS
+
+[^^^](#ENG)
+
+---
+
 #### MULT_IDO_1
 #### FONEVI_IGENEV
 #### MULT_IDO_2
