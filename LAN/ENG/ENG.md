@@ -539,6 +539,11 @@ She watches me from her house. - a hazabol figyel engem
 Sunday follows Saturday. - A vasárnap követi a szombatot.
 I miss my country. - Hiányzik a hazám.
 He looks for me. - engem keres
+We count on you. - szamitunk rad
+I miss her. - Hiányzik nekem.
+He follows the man. - a ferfit koveti
+A number of different letters appear on the screen. - Számos különböző betű jelenik meg a képernyőn.
+
 
 ```
 
