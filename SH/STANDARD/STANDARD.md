@@ -35,6 +35,7 @@
 * [ln](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LN/LN.md)
 * [ls](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LS/LS.md)
 * [lsuser](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/LSUSER/LSUSER.md)
+* [mkdir](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MKDIR/MKDIR.md)
 * [more](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MORE/MORE.md)
 * [mount](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MOUNT/MOUNT.md)
 * [mv](https://github.com/ttltrk/TTT/blob/master/SH/STANDARD/MV/MV.md)
