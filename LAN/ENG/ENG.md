@@ -518,7 +518,6 @@ He eats anything. - barmit megeszik
 none - egyik sem
 None of them are popular. - egyikuk sem nepszeru
 Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
-
 ```
 
 [^^^](#ENG)
@@ -527,7 +526,19 @@ Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
 
 #### SZAMOK
 
+
+[^^^](#ENG)
+
+---
+
+#### IGEK_JELEN_3
+
 ```
+she looks at the mirror - a tukorbe nez
+She watches me from her house. - a hazabol figyel engem
+Sunday follows Saturday. - A vasárnap követi a szombatot.
+I miss my country. - Hiányzik a hazám.
+He looks for me. - engem keres
 
 ```
 
@@ -535,7 +546,6 @@ Please take a few days off. - kerlek, vagyel ki nehany szabadnapot
 
 ---
 
-#### IGEK_JELEN_3
 #### OKTATAS
 #### MULT_IDO_1
 #### FONEVI_IGENEV
