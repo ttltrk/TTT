@@ -634,6 +634,29 @@ I spend more than her. - tobbet koltokmint o
 
 
 #### BEFEJEZETT_JELEN
+
+```
+she has not been my teacher - nem volt a tanarom
+I have wanted to do it. - azt akartam csinalni
+It has been a long night. - ez egy hosszu ejszaka volt
+My uncle has walked on that street. - A nagybátyám sétált már abban az utcában.
+My father has never cooked for us. - Az édesapám még sosem főzött nekünk.
+we have never spoken - mi meg sosem beszeltunk
+There are more women than previously - Több nő van, mint korábban
+My previous boyfriend did not have a job. - Az előző barátomnak nem volt állása.
+There have previously been such cases. - Korábban is voltak ilyen esetek.
+It has not rained this summer. - Nem esett az eső ezen a nyáron.
+Not everyone has eaten today. - nem mindenki evett ma meg
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### FONEVI_IGENEV_2
 #### VONATKOZO_NEVMAS
 #### BEFEJEZETT_MULT
