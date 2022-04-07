@@ -577,6 +577,10 @@ We use the same presentation again. - Megint ugyanazt a prezentációt használj
 #### FONEVI_IGENEV
 
 ```
+I am too tired to cook. - Túl fáradt vagyok a főzéshez.
+does he sleep - alszik?
+I do not pay for it. - nem fizetem ki ezt 
+
 ```
 
 [^^^](#ENG)
