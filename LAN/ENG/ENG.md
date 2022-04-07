@@ -559,6 +559,10 @@ One of my friends knows you. - Egyik barátom ismer téged.
 Currently there are three schools. - Jelenleg három iskola van.
 That is my application. - Az az én kérelmem.
 He is in his library. - A könyvtárában van.
+The book is in the next section. - A könyv a következő részlegen van.
+There are still many difficulties. - Még mindig sok nehézség van.
+
+
 
 
 ```
