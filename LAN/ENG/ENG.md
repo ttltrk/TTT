@@ -579,7 +579,12 @@ We use the same presentation again. - Megint ugyanazt a prezentációt használj
 ```
 I am too tired to cook. - Túl fáradt vagyok a főzéshez.
 does he sleep - alszik?
-I do not pay for it. - nem fizetem ki ezt 
+I do not pay for it. - nem fizetem ki ezt
+I want to sleep for ten days. - Szeretnék tíz napig aludni.
+i do not want him to have a tv - Nem akarom, hogy neki tévéje legyen.
+We have to go now. - Most mennünk kell.
+
+
 
 ```
 
