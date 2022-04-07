@@ -561,10 +561,7 @@ That is my application. - Az az én kérelmem.
 He is in his library. - A könyvtárában van.
 The book is in the next section. - A könyv a következő részlegen van.
 There are still many difficulties. - Még mindig sok nehézség van.
-
-
-
-
+We use the same presentation again. - Megint ugyanazt a prezentációt használjuk.
 ```
 
 [^^^](#ENG)
