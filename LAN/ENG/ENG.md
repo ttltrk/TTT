@@ -569,7 +569,20 @@ We use the same presentation again. - Megint ugyanazt a prezentációt használj
 ---
 
 #### MULT_IDO_1
+
+[^^^](#ENG)
+
+---
+
 #### FONEVI_IGENEV
+
+```
+```
+
+[^^^](#ENG)
+
+---
+
 #### MULT_IDO_2
 #### ELVONT_FONEV_1
 #### MINOSEGI_ALAKOK
