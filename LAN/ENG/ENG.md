@@ -583,6 +583,19 @@ I do not pay for it. - nem fizetem ki ezt
 I want to sleep for ten days. - Szeretnék tíz napig aludni.
 i do not want him to have a tv - Nem akarom, hogy neki tévéje legyen.
 We have to go now. - Most mennünk kell.
+I want to do something for him. - Szeretnék tenni érte valamit.
+He likes to listen to the radio. - Szereti hallgatni a rádiót.
+Little children like to touch everything. - A kisgyerekek szeretnek mindent megérinteni.
+I have something to say. - van valami mondanivalom
+She does not listen to him. - nem hallgat ra
+He does not want them to close the door. - Nem akarja, hogy becsukják az ajtót.
+Why does it not rain? - Miért nem esik?
+What do you listen to in the car? - Mit hallgatsz az autóban?
+
+
+
+
+
 
 
 
