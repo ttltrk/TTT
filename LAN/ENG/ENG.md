@@ -607,7 +607,32 @@ What do you listen to in the car? - Mit hallgatsz az autóban?
 
 #### MULT_IDO_2
 #### ELVONT_FONEV_1
+
+```
+there are many ways to write - sokfele keppen lehet irni
+This is not the case. - nem ez a helyzet
+There are many types of books. - Sokféle könyv van.
+Six groups come at one. - Hat csoport jön egy órakor.
+
+
+
+```
+
+
+[^^^](#ENG)
+
+---
 #### MINOSEGI_ALAKOK
+
+```
+I spend more than her. - tobbet koltokmint o
+```
+
+[^^^](#ENG)
+
+---
+
+
 #### BEFEJEZETT_JELEN
 #### FONEVI_IGENEV_2
 #### VONATKOZO_NEVMAS
