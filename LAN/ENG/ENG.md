@@ -609,10 +609,15 @@ What do you listen to in the car? - Mit hallgatsz az autóban?
 #### ELVONT_FONEV_1
 
 ```
-there are many ways to write - sokfele keppen lehet irni
+there are many ways to write - sokfelekeppen lehet irni
 This is not the case. - nem ez a helyzet
 There are many types of books. - Sokféle könyv van.
 Six groups come at one. - Hat csoport jön egy órakor.
+Way to knowledge - ut a tudashoz
+Take the umbrella in case it rains. - Vidd el az ernyőt, hátha elered az eső.
+It is impossible to do some other way. - Lehetetlen más módon csinálni.
+Over time everything changes. - Idővel minden megváltozik.
+
 
 
 
@@ -647,6 +652,10 @@ My previous boyfriend did not have a job. - Az előző barátomnak nem volt áll
 There have previously been such cases. - Korábban is voltak ilyen esetek.
 It has not rained this summer. - Nem esett az eső ezen a nyáron.
 Not everyone has eaten today. - nem mindenki evett ma meg
+He has not told me his name. - Nem mondta meg nekem a nevét.
+We have not seen each other since Wednesday. - Szerda óta nem láttuk egymást.
+
+
 
 
 
