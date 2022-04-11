@@ -11,7 +11,7 @@
 
 * [HTML_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/HTML_FLASH/HTML_FLASH.md)
 * [CSS_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/CSS_FLASH/CSS_FLASH.md)
-* [CSS_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/BOOTSTRAP_FLASH/BOOTSTRAP_FLASH.md)
+* [BOOTSTRAP_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/BOOTSTRAP_FLASH/BOOTSTRAP_FLASH.md)
 
 ---
 
