@@ -374,10 +374,20 @@ In this chapter we will go through the ```<blockquote>```,```<q>```, ```<abbr>``
 
 ---
 
-####
+#### COMMENTS
+
+HTML comments are not displayed in the browser, but they can help document your HTML source code.
 
 ```html
+<!-- Write your comments here -->
+```
 
+```HTML
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+
+<!-- Remember to add more information here -->
 ```
 
 [^^^](#HTML_FLASH)
