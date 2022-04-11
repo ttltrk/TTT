@@ -617,10 +617,12 @@ Way to knowledge - ut a tudashoz
 Take the umbrella in case it rains. - Vidd el az ernyőt, hátha elered az eső.
 It is impossible to do some other way. - Lehetetlen más módon csinálni.
 Over time everything changes. - Idővel minden megváltozik.
-
-
-
-
+I am in charge. - meg vagyok bizva
+The activities - a tevekenysegek
+The office is at street level. - az iroda utcaszinten talalhato
+What is his career profile ? - Mi a szakmai profilja?
+My father is one of the members. - Apám a tagok egyike.
+Here's my account number. - Itt van a számlaszámom.
 ```
 
 
