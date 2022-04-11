@@ -23,7 +23,7 @@
 * [LINE_BREAKS](#LINE_BREAKS)
 * [PRE_ELEMENT](#PRE_ELEMENT)
 * [STYLE](#STYLE)
-* [](#)
+* [TEXT_FROMATTING](#TEXT_FROMATTING)
 * [](#)
 * [](#)
 * [](#)
@@ -334,10 +334,23 @@ Setting the style of an HTML element, can be done with the style attribute.
 
 ---
 
-####
+#### TEXT_FROMATTING
+
+HTML contains several elements for defining text with a special meaning.
+
+- formatting elements
 
 ```html
-
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
 ```
 
 [^^^](#HTML_FLASH)
