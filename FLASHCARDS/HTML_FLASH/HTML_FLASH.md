@@ -23,7 +23,7 @@
 * [LINE_BREAKS](#LINE_BREAKS)
 * [PRE_ELEMENT](#PRE_ELEMENT)
 * [STYLE](#STYLE)
-* [TEXT_FROMATTING](#TEXT_FROMATTING)
+* [TEXT_FORMATTING](#TEXT_FORMATTING)
 * [QUOTATIONS](#QUOTATIONS)
 * [COMMENTS](#COMMENTS)
 * [](#)
@@ -334,7 +334,7 @@ Setting the style of an HTML element, can be done with the style attribute.
 
 ---
 
-#### TEXT_FROMATTING
+#### TEXT_FORMATTING
 
 HTML contains several elements for defining text with a special meaning.
 
