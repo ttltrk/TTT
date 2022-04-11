@@ -24,7 +24,7 @@
 * [PRE_ELEMENT](#PRE_ELEMENT)
 * [STYLE](#STYLE)
 * [TEXT_FROMATTING](#TEXT_FROMATTING)
-* [](#)
+* [QUOTATIONS](#QUOTATIONS)
 * [](#)
 * [](#)
 * [](#)
@@ -357,10 +357,17 @@ HTML contains several elements for defining text with a special meaning.
 
 ---
 
-####
+#### QUOTATIONS
+
+In this chapter we will go through the ```<blockquote>```,```<q>```, ```<abbr>```, ```<address>```, ```<cite>```, and ```<bdo>``` HTML elements.
 
 ```html
-
+<abbr>	Defines an abbreviation or acronym
+<address>	Defines contact information for the author/owner of a document
+<bdo>	Defines the text direction
+<blockquote>	Defines a section that is quoted from another source
+<cite>	Defines the title of a work
+<q>	Defines a short inline quotation
 ```
 
 [^^^](#HTML_FLASH)
