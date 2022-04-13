@@ -59,6 +59,50 @@ Let's start the journey through the land of errors and bugs.
 
 #### 4712_EXCEPTIONS
 
+##### When data is not what it should be
+
+Let's write a piece of extremely trivial code – it will read a natural number (a non-negative integer) and print its reciprocal. In this way, 2 will turn into 0.5 (1/2) and 4 into 0.25 (1/4). Here’s the program:
+
+Is there anything that can go wrong with it? The code is so brief and so compact that it doesn't seem like we’ll find any trouble there.
+
+It seems that you already know where we are going. Yes, you're right – entering data that is not an integer (which also includes entering nothing at all) will completely ruin the program execution. This is what the code's user will see:
+
+```py
+Traceback (most recent call last):
+  File "code.py", line 1, in
+    value = int(input('Enter a natural number: '))
+ValueError: invalid literal for int() with base 10: ''
+```
+
+All the lines Python shows you are meaningful and important, but the last line seems to be the most valuable. The first word in the line is the name of the exception which causes your code to stop. It's ValueError here. The rest of the line is just a brief explanation which more precisely specifies the cause of the occurred exception.
+
+
+How do you deal with it? How do you protect your code from termination, the user from disappointment, and yourself from the user's dissatisfaction?
+
+The very first thought that can come to your mind is to check if the data provided by the user is valid and to refuse to cooperate if the data is incorrect. In this case, the check can rely on the fact that we expect the input string to contain digits only.
+
+You should already be able to implement this check and write it yourself, shouldn’t you? It is also possible to check if the value variable's type is an int (Python has a special means for these kinds of checks – it's an operator named is. The check itself may look like this:
+
+```py
+type(value) is int
+```
+
+and evaluates to true if the current value variable's type is int.
+
+Please forgive us if we don't spend any more time on it now – you will find more detailed explanations of the is operator in a course module devoted to Object-Oriented Programming.
+
+You may be surprised to learn that we don't want you to do any preliminary data validation. Why? Because this is not the way Python recommends. Really.
+
+```py
+value = int(input('Enter a natural number: '))
+print('The reciprocal of', value, 'is', 1/value)
+
+>>>
+Enter a natural number: 2
+The reciprocal of 2 is 0.5
+>>>
+```
+
 [^^^](47_EXCEPTIONS)
 
 ---
