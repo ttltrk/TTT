@@ -148,17 +148,109 @@ except:
 
 #### 4714_EXCEPTIONS
 
+##### The exception proves the rule
+
+Let's rewrite the code to adopt the Python approach to life:
+
+Let us summarize what we talked about:
+
+- any part of the code placed between try and except is executed in a very special way – any error which occurs here won't terminate program execution. Instead, the control will immediately jump to the first line situated after the except keyword, and no other part of the try branch is executed;
+
+- the code in the except branch is activated only when an exception has been encountered inside the try block. There is no way to get there by any other means;
+
+- when either the try block or the except block is executed successfully, the control returns to the normal path of execution, and any code located beyond in the source file is executed as if nothing happened.
+
+Now we want to ask you an innocent question: is ValueError the only way the control could fall into the except branch?
+
+Analyze the code carefully and think over your answer!
+
+```py
+try:
+    value = int(input('Enter a natural number: '))
+    print('The reciprocal of', value, 'is', 1/value)        
+except:
+    print('I do not know what to do.')
+
+>>>
+Enter a natural number: 32
+The reciprocal of 32 is 0.03125
+>>>
+```
+
 [^^^](47_EXCEPTIONS)
 
 ---
 
 #### 4715_EXCEPTIONS
 
+##### How to deal with more than one exception
+
+The answer is obviously "no" – there is more than one possible way to raise an exception. For example, a user may enter zero as an input – can you predict what will happen next?
+
+Yes, you're right – the division placed inside the print() function invocation will raise the ZeroDivisionError. As you may expect, the code's behavior will be the same as in the previous case – the user will see the "I do not know what to do..." message, which seems to be quite reasonable in this context, but it's also possible that you would want to handle this kind of problem in a bit different way.
+
+Is it possible? Of course, it is. There are at least two approaches you can implement here.
+
+The first of them is simple and complicated at the same time: you can just add two separate try blocks, one including the input() function invocation where the ValueError may be raised, and the second devoted to handling possible issues induced by the division. Both these try blocks would have their own except branches, and in effect you will gain full control over two different errors.
+
+This solution is good, but it is a bit lengthy – the code becomes unnecessarily bloated. Moreover, it's not the only danger that awaits you. Note that leaving the first try-except block leaves a lot of uncertainty – you will have to add extra code to ensure that the value the user has entered is safe to use in division. This is how a seemingly simple solution becomes overly complicated.
+
+Fortunately, Python offers a simpler way to deal with this kind of challenge.
+
+##### Two exceptions after one try
+
+Look at the code in the editor. As you can see, we've just introduced the second except branch. This is not the only difference – note that both branches have exception names specified. In this variant, each of the expected exceptions has its own way of handling the error, but it must be emphasized that only one of all branches can intercept the control – if one of the branches is executed, all the other branches remain idle.
+
+Additionally, the number of except branches is not limited – you can specify as many or as few of them as you need, but don't forget that none of the exceptions can be specified more than once.
+
+But this still isn't the last Python word on exceptions. Stay tuned.
+
+```py
+try:
+    value = int(input('Enter a natural number: '))
+    print('The reciprocal of', value, 'is', 1/value)        
+except ValueError:
+    print('I do not know what to do.')    
+except ZeroDivisionError:
+    print('Division by zero is not allowed in our Universe.')
+
+>>>
+Enter a natural number: 22
+The reciprocal of 22 is 0.045454545454545456
+>>>
+```
+
 [^^^](47_EXCEPTIONS)
 
 ---
 
 #### 4716_EXCEPTIONS
+
+##### The default exception and how to use it
+The code has changed again – can you see the difference?
+
+We've added a third except branch, but this time it has no exception name specified – we can say it's anonymous or (what is closer to its actual role) it's the default. You can expect that when an exception is raised and there is no except branch dedicated to this exception, it will be handled by the default branch.
+
+Note:
+
+The default except branch must be the last except branch. Always!
+
+```py
+try:
+    value = int(input('Enter a natural number: '))
+    print('The reciprocal of', value, 'is', 1/value)        
+except ValueError:
+    print('I do not know what to do.')    
+except ZeroDivisionError:
+    print('Division by zero is not allowed in our Universe.')    
+except:
+    print('Something strange has happened here... Sorry!')
+
+>>>
+Enter a natural number: 20
+The reciprocal of 20 is 0.05
+>>>
+```
 
 [^^^](47_EXCEPTIONS)
 
