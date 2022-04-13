@@ -109,6 +109,39 @@ The reciprocal of 2 is 0.5
 
 #### 4713_EXCEPTIONS
 
+##### The try-except branch
+In the Python world, there is a rule that says: "It’s better to beg for forgiveness than to ask for permission".
+
+Let's stop here for a moment. Don't get us wrong – we don't want you to apply the rule in your everyday life. Don't take anyone's car without permission in the hope that you can be so convincing that you will avoid conviction. The rule is about something else.
+
+Actually, the rule reads: "it's better to handle an error when it happens than to try to avoid it".
+
+"Okay," you may say now, 'but how should I beg for forgiveness when the program is terminated and there is nothing left that can be done?" This is where the exception comes on the scene.
+
+Look at the code in the editor.
+
+You can see two branches here:
+
+- first, starting with the try keyword – this is the place where you put the code you suspect is risky and may be terminated in case of error; note: this kind of error is called an exception, while the exception occurrence is called raising – we can say that an exception is (or was) raised;
+
+- second, the part of the code starting with the except keyword is designed to handle the exception; it's up to you what you want to do here: you can clean up the mess or you can just sweep the problem under the carpet (although we would prefer the first solution).
+So, we could say that these two blocks work like this:
+
+- the try keyword marks the place where you try to do something without permission;
+- the except keyword starts a location where you can show off your apology talents.
+
+As you can see, this approach accepts errors (treats them as a normal part of the program's life) instead of escalating efforts to avoid errors at all.
+
+```py
+try:
+	# It's a place where
+	# you can do something
+    # without asking for permission.
+except:
+	# It's a spot dedicated to
+    # solemnly begging for forgiveness.
+```
+
 [^^^](47_EXCEPTIONS)
 
 ---
