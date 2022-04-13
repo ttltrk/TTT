@@ -58,14 +58,73 @@ Let's start the journey through the land of errors and bugs.
 ---
 
 #### 4712_EXCEPTIONS
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4713_EXCEPTIONS
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4714_EXCEPTIONS
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4715_EXCEPTIONS
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4716_EXCEPTIONS
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4717_EXCEPTIONS
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4718_TEST_DEBUG
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 4719_TEST_DEBUG
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 47110_TESTING
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 47111_PRINT_DEBUG
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 47112_TEST_DEBUG
+
+[^^^](47_EXCEPTIONS)
+
+---
+
 #### 47113_SUMMARY
+
+[^^^](47_EXCEPTIONS)
+
+---
