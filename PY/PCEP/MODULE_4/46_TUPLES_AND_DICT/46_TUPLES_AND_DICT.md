@@ -1015,6 +1015,45 @@ print(copy_dictionary)
 
 #### 46112_SUMMARY
 
+Exercise 1
+
+What happens when you attempt to run the following snippet?
+
+```py
+my_tup = (1, 2, 3)
+print(my_tup[2])
+
+>>>
+3
+>>>
+```
+
+Exercise 2
+
+What is the output of the following snippet?
+
+```py
+tup = 1, 2, 3
+a, b, c = tup
+
+print(a * b * c)
+
+>>>
+6
+>>>
+```
+
+```py
+tup = 1, 2, 3, 2, 4, 5, 6, 2, 7, 2, 8, 9
+duplicates = tup.count(2)
+
+print(duplicates)   
+
+>>>
+4
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
