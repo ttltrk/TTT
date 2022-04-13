@@ -1077,6 +1077,75 @@ print(d3)
 >>>
 ```
 
+Exercise 5
+
+Write a program that will convert the my_list list to a tuple.
+
+```py
+my_list = ["car", "Ford", "flower", "Tulip"]
+
+t = tuple(my_list)
+print(t)
+
+>>>
+('car', 'Ford', 'flower', 'Tulip')
+>>>
+```
+
+Exercise 6
+
+Write a program that will convert the colors tuple to a dictionary.
+
+```py
+colors = (("green", "#008000"), ("blue", "#0000FF"))
+
+colors_dictionary = dict(colors)
+print(colors_dictionary)
+
+>>>
+{'green': '#008000', 'blue': '#0000FF'}
+>>>
+```
+
+Exercise 7
+
+What will happen when you run the following code?
+
+```py
+my_dictionary = {"A": 1, "B": 2}
+copy_my_dictionary = my_dictionary.copy()
+my_dictionary.clear()
+
+print(copy_my_dictionary)
+
+>>>
+{'A': 1, 'B': 2}
+>>>
+```
+
+Exercise 8
+
+What is the output of the following program?
+
+```py
+colors = {
+    "white": (255, 255, 255),
+    "grey": (128, 128, 128),
+    "red": (255, 0, 0),
+    "green": (0, 128, 0)
+    }
+
+for col, rgb in colors.items():
+    print(col, ":", rgb)
+
+>>>
+white : (255, 255, 255)
+grey : (128, 128, 128)
+red : (255, 0, 0)
+green : (0, 128, 0)
+>>>
+```
+
 [^^^](#46_TUPLES_AND_DICT)
 
 ---
