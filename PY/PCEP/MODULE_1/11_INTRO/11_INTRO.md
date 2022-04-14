@@ -27,9 +27,9 @@
 
 #### 1111_BASICS_1
 
-##### How does a computer program work?
-
 ##### 1
+
+##### How does a computer program work?
 
 This course aims to show you what the Python language is and what it is used for. Let's start from the absolute basics.
 
@@ -62,9 +62,9 @@ Language is the keyword.
 
 #### 1111_BASICS_2
 
-##### Natural languages vs. programming languages
-
 ##### 2
+
+##### Natural languages vs. programming languages
 
 A language is a means (and a tool) for expressing and recording thoughts. There are many languages all around us. Some of them require neither speaking nor writing, such as body language; it's possible to express your deepest feelings very precisely without saying a word.
 
@@ -88,9 +88,9 @@ Moreover, they are still evolving, and new words are created every day as old wo
 
 #### 1111_BASICS_3
 
-##### What makes a language?
-
 ##### 3
+
+##### What makes a language?
 
 We can say that each language (machine or natural, it doesn't matter) consists of the following elements:
 
@@ -114,9 +114,9 @@ A program written in a high-level programming language is called a source code (
 
 #### 1114_BASICS_4
 
-##### Compilation vs. interpretation
-
 ##### 4
+
+##### Compilation vs. interpretation
 
 Computer programming is the act of composing the selected programming language's elements in the order that will cause the desired effect. The effect could be different in every specific case – it's up to the programmer's imagination, knowledge and experience.
 
@@ -147,9 +147,9 @@ There are very few languages that can be both compiled and interpreted. Usually,
 
 #### 1115_BASICS_5
 
-##### What does the interpreter actually do?
-
 ##### 5
+
+##### What does the interpreter actually do?
 
 Let's assume once more that you have written a program. Now, it exists as a computer file: a computer program is actually a piece of text, so the source code is usually placed in text files.
 
@@ -179,9 +179,9 @@ You may ask now: which is better? The "compiling" model or the "interpreting" mo
 
 #### 1116_BASICS_6
 
-##### Compilation vs. interpretation - advantages and disadvantages
-
 ##### 6
+
+##### Compilation vs. interpretation - advantages and disadvantages
 
 Advantages and Compilation
 
@@ -217,9 +217,9 @@ Due to historical reasons, languages designed to be utilized in the interpretati
 
 #### 1121_TOOL_1
 
-##### What is Python?
-
 ##### 7
+
+##### What is Python?
 
 Python is a widely-used, interpreted, object-oriented, and high-level programming language with dynamic semantics, used for general-purpose programming.
 
@@ -243,9 +243,9 @@ The speed with which Python has spread around the world is a result of the conti
 
 #### 1122_TOOL_2
 
-##### A hobby programming project
-
 ##### 8
+
+##### A hobby programming project
 
 The circumstances in which Python was created are a bit puzzling. According to Guido van Rossum:
 
@@ -273,9 +273,9 @@ Python isn't a young language anymore. It is mature and trustworthy. It's not a 
 
 #### 1123_TOOL_3
 
-##### What makes Python special?
-
 ##### 9
+
+##### What makes Python special?
 
 How does it happen that programmers, young and old, experienced and novice, want to use it? How did it happen that large companies adopted Python and implemented their flagship products using it?
 
@@ -301,9 +301,9 @@ It has lots of followers, but there are many who prefer other languages and don'
 
 #### 1124_TOOL_4
 
-##### Python rivals?
-
 ##### 10
+
+##### Python rivals?
 
 Python has two direct competitors, with comparable properties and predispositions. These are:
 
@@ -333,9 +333,9 @@ Despite Python's growing popularity, there are still some niches where Python is
 
 #### 1131_PY2_VS_PY3
 
-##### There is more than one Python
-
 ##### 11
+
+##### There is more than one Python
 
 There are two main kinds of Python, called Python 2 and Python 3.
 
@@ -363,9 +363,9 @@ All the code samples you will find during the course have been tested against Py
 
 #### 1132_CPYTHON_AND_CYTHON
 
-##### Python aka CPython
-
 ##### 12
+
+##### Python aka CPython
 
 In addition to Python 2 and Python 3, there is more than one version of each.
 
@@ -391,9 +391,9 @@ This is what Cython is intended to do – to automatically translate the Python 
 
 #### 1133_JYTHON_PYPY_RPYTHON
 
-##### Jython
-
 ##### 13
+
+##### Jython
 
 Another version of Python is called Jython.
 
