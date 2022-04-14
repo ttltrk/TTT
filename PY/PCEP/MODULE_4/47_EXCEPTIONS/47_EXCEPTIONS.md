@@ -258,6 +258,22 @@ The reciprocal of 20 is 0.05
 
 #### 4717_EXCEPTIONS
 
+##### Some useful exceptions
+
+Let’s discuss in more detail some useful (or rather, the most common) exceptions you may experience.
+
+##### ZeroDivisionError
+
+This appears when you try to force Python to perform any operation which provokes division in which the divider is zero, or is indistinguishable from zero. Note that there is more than one Python operator which may cause this exception to raise. Can you guess them all?
+
+```
+Yes, they are: /, //, and %.
+```
+
+##### ValueError
+
+Expect this exception when you're dealing with values which may be inappropriately used in some context. In general, this exception is raised when a function (like int() or float()) receives an argument of a proper type, but its value is unacceptable.
+
 [^^^](#47_EXCEPTIONS)
 
 ---
