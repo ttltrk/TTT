@@ -23,9 +23,9 @@
 
 #### 1211_BEGIN_1
 
-##### How to get Python and how to get to use it
-
 ##### 14
+
+##### How to get Python and how to get to use it
 
 There are several ways to get your own copy of Python 3, depending on the operating system you use.
 
@@ -60,9 +60,9 @@ All non-Linux users can download a copy at [https://www.python.org/downloads/](h
 
 #### 1212_BEGIN_2
 
-##### Downloading and installing Python
-
 ##### 15
+
+##### Downloading and installing Python
 
 Because the browser tells the site you've entered the OS you use, the only step you have to take is to click the appropriate Python version you want.
 In this case, select Python 3. The site always offers you the latest version of it.
@@ -77,9 +77,9 @@ If you're a macOS user, a version of Python 2 may already have been preinstalled
 
 #### 1213_BEGIN_3
 
-##### Starting your work with Python
-
 ##### 16
+
+##### Starting your work with Python
 
 Now that you have Python 3 installed, it's time to check if it works and make the very first use of it.
 
@@ -105,9 +105,9 @@ Navigate through your OS menus, find IDLE somewhere under Python 3.x and launch 
 
 #### 1214_BEGIN_4
 
-##### How to write and run your very first program
-
 ##### 17
+
+##### How to write and run your very first program
 
 It is now time to write and run your first Python 3 program. It will be very simple, for now.
 The first step is to create a new source file and fill it with code. Click File in the IDLE menu and choose New file.
@@ -124,9 +124,9 @@ Note: don't set any extension for the file name you are going to use. Python nee
 
 #### 1215_BEGIN_5
 
-##### How to write and run your very first program
-
 ##### 18
+
+##### How to write and run your very first program
 
 Now put just one line into your newly opened and named editor window.
 
@@ -151,9 +151,9 @@ Now close both windows now and return to the desktop.
 
 #### 1216_BEGIN_6
 
-##### How to spoil and fix your code
-
 ##### 19
+
+##### How to spoil and fix your code
 
 Now start IDLE again.
 
@@ -181,9 +181,9 @@ Try to run the program again. IDLE will remind you to save the modified file. Fo
 
 #### 1217_BEGIN_7
 
-##### How to spoil and fix your code
-
 ##### 20
+
+##### How to spoil and fix your code
 
 Watch all the windows carefully.
 
@@ -205,9 +205,9 @@ Let's spoil the code one more time. Remove one letter from the word print. Run t
 
 #### 1218_BEGIN_8
 
-##### How to spoil and fix your code
-
 ##### 21
+
+##### How to spoil and fix your code
 
 You may have noticed that the error message generated for the previous error is quite different from the first one.
 This is because the nature of the error is different and the error is discovered at a different stage of interpretation.
@@ -228,9 +228,9 @@ Experiment with creating new files and running your code. Try to output a differ
 
 #### 1219_BEGIN_9
 
-##### Congratulations!
-
 ##### 22
+
+##### Congratulations!
 
 You have completed Module 1.
 
