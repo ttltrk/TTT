@@ -477,6 +477,59 @@ See you soon!
 
 #### 47113_SUMMARY
 
+##### Key takeaways – Exceptions
+
+1. In Python, there is a distinction between two kinds of errors:
+
+syntax errors (parsing errors), which occur when the parser comes across a statement that is incorrect. For example:
+Trying to execute the following line:
+
+```py
+print("Hello, World!)
+```
+
+will cause a SyntaxError, and result in the following (or similar) message being displayed in the console:
+
+```py
+  File "main.py", line 1
+
+    print("Hello, World!)
+                        ^
+SyntaxError: EOL while scanning string literal
+```
+
+Pay attention to the arrow – it indicates the place where the Python parser has run into trouble. In our case, it's the missing double quote. Did you notice it?
+
+exceptions, which occur even when a statement/expression is syntactically correct; these are the errors that are detected during execution when your code results in an error which is not uncoditionally fatal. For example:
+Trying to execute the following line:
+
+```py
+print(1/0)
+```
+
+will cause a ZeroDivisionError exception, and result in the following (or similar) message being displayed in the console:
+
+```py
+Traceback (most recent call last):
+  File "main.py", line 1, in
+    print(1/0)
+ZeroDivisionError: division by zero
+```
+
+Pay attention to the last line of the error message – it actually tells you what happened. There are many different types of exceptions, such as ZeroDivisionError, NameError, TypeError, and many more; and this part of the message informs you of what type of exception has been raised. The preceding lines show you the context in which the exception has occured.
+
+2. You can "catch" and handle exceptions in Python by using the try-except block. So, if you have a suspicion that any particular snippet may raise an exception, you can write the code that will gracefully handle it, and will not interrupt the program. Look at the example:
+
+```py
+while True:
+    try:
+        number = int(input("Enter an integer number: "))
+        print(number/2)
+        break
+    except:
+        print("Warning: the value entered is not a valid number. Try again...")
+```
+
 [^^^](#47_EXCEPTIONS)
 
 ---
