@@ -31,6 +31,15 @@ PCEP – Certified Entry-Level Python Programmer
   - 12 - Python aka CPython | Cython
   - 13 - Jython | PyPy and RPython
 * [12_DOWNLOAD_AND_INSTALL](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md)
+  - 14 - How to get Python and how to get to use it
+  - 15 - Downloading and installing Python
+  - 16 - Starting your work with Python
+  - 17 - How to write and run your very first program
+  - 18 - How to write and run your very first program
+  - 19 - How to spoil and fix your code
+  - 20 - How to spoil and fix your code
+  - 21 - How to spoil and fix your code
+  - 22 - Congratulations!
 ##### [MODULE_2](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/MODULE_2.md)
 * [21_HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md)
 * [22_PY_LITERALS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/22_PY_LITERALS/22_PY_LITERALS.md)
