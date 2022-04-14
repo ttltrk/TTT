@@ -53,7 +53,7 @@ This idea is not as mad as it may look – such incidents were common in times w
 
 Let's start the journey through the land of errors and bugs.
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
@@ -103,7 +103,7 @@ The reciprocal of 2 is 0.5
 >>>
 ```
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
@@ -142,7 +142,7 @@ except:
     # solemnly begging for forgiveness.
 ```
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
@@ -177,7 +177,7 @@ The reciprocal of 32 is 0.03125
 >>>
 ```
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
@@ -220,7 +220,7 @@ The reciprocal of 22 is 0.045454545454545456
 >>>
 ```
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
@@ -252,48 +252,48 @@ The reciprocal of 20 is 0.05
 >>>
 ```
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 4717_EXCEPTIONS
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 4718_TEST_DEBUG
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 4719_TEST_DEBUG
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 47110_TESTING
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 47111_PRINT_DEBUG
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 47112_TEST_DEBUG
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
 
 #### 47113_SUMMARY
 
-[^^^](47_EXCEPTIONS)
+[^^^](#47_EXCEPTIONS)
 
 ---
