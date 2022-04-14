@@ -17,29 +17,29 @@ PCEP – Certified Entry-Level Python Programmer
 
 ##### [MODULE_1](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/MODULE_1.md)
 * [11_INTRO](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/11_INTRO/11_INTRO.md)
-  - 1 - How does a computer program work?
-  - 2 - Natural languages vs. programming languages
-  - 3 - What makes a language?
-  - 4 - Compilation vs. interpretation
-  - 5 - What does the interpreter actually do?
-  - 6 - Compilation vs. interpretation - advantages and disadvantages
-  - 7 - What is Python? | Who created Python?
-  - 8 - A hobby programming project | Python goals
-  - 9 - What makes Python special?
-  - 10 - Python rivals? | Where can we see Python in action? | Why not Python?
-  - 11 - There is more than one Python
-  - 12 - Python aka CPython | Cython
-  - 13 - Jython | PyPy and RPython
+  - 1 - [How does a computer program work?](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#1)
+  - 2 - [Natural languages vs. programming languages](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#2)
+  - 3 - [What makes a language?](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#3)
+  - 4 - [Compilation vs. interpretation](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#4)
+  - 5 - [What does the interpreter actually do?](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#5)
+  - 6 - [Compilation vs. interpretation - advantages and disadvantages](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#6)
+  - 7 - [What is Python? | Who created Python?](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#7)
+  - 8 - [A hobby programming project | Python goals](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#8)
+  - 9 - [What makes Python special?](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#9)
+  - 10 - [Python rivals? | Where can we see Python in action? | Why not Python?](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#10)
+  - 11 - [There is more than one Python](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#11)
+  - 12 - [Python aka CPython | Cython](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#12)
+  - 13 - [Jython | PyPy and RPython](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#13)
 * [12_DOWNLOAD_AND_INSTALL](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md)
-  - 14 - How to get Python and how to get to use it
-  - 15 - Downloading and installing Python
-  - 16 - Starting your work with Python
-  - 17 - How to write and run your very first program
-  - 18 - How to write and run your very first program
-  - 19 - How to spoil and fix your code
-  - 20 - How to spoil and fix your code
+  - 14 - [How to get Python and how to get to use it](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#14)
+  - 15 - [Downloading and installing Python](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#15)
+  - 16 - [Starting your work with Python](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#16)
+  - 17 - [How to write and run your very first program](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#17)
+  - 18 - [How to write and run your very first program](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#18)
+  - 19 - [How to spoil and fix your code](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#19)
+  - 20 - [How to spoil and fix your code](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#20)
   - 21 - [How to spoil and fix your code](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#21)
-  - 22 - Congratulations!
+  - 22 - [Congratulations!](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md#22)
 ##### [MODULE_2](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/MODULE_2.md)
 * [21_HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md)
 * [22_PY_LITERALS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/22_PY_LITERALS/22_PY_LITERALS.md)
