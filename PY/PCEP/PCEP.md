@@ -63,8 +63,21 @@ PCEP – Certified Entry-Level Python Programmer
   - 40 - [](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#40)
   - 41 - [](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#41)
   - 42 - [Key takeaways](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#42)
-  
+
 * [22_PY_LITERALS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/22_PY_LITERALS/22_PY_LITERALS.md)
+  - 43 - []()
+  - 44 - []()
+  - 45 - []()
+  - 46 - []()
+  - 47 - []()
+  - 48 - []()
+  - 49 - []()
+  - 50 - []()
+  - 51 - []()
+  - 52 - []()
+  - 53 - []()
+  - 54 - []()
+
 * [23_ARITHMETIC_OPERATOTS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md)
 * [24_VARIABLES](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/24_VARIABLES/24_VARIABLES.md)
 * [25_COMMENTS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/25_COMMENTS/25_COMMENTS.md)

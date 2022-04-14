@@ -26,6 +26,8 @@
 
 #### 2211_PY_LIT_1
 
+##### 43
+
 ##### Literals - the data in itself
 
 Now that you have a little knowledge of some of the powerful features offered by the print() function, it's time to learn about some new issues, and one important new term - the literal.
@@ -54,6 +56,8 @@ You use literals to encode data and to put them into your code. We're now going 
 ---
 
 #### 2211_PY_LIT_2
+
+##### 44
 
 ##### Literals - the data in itself
 
@@ -87,6 +91,8 @@ print(2)
 
 #### 2211_PY_LIT_3
 
+##### 45
+
 ##### Integers
 
 You may already know a little about how computers perform calculations on numbers. Perhaps you've heard of the binary system, and know that it's the system computers use for storing numbers, and that they can perform any operation upon them.
@@ -112,6 +118,8 @@ Positive numbers do not need to be preceded by the plus sign, but it's permissib
 ---
 
 #### 2211_PY_LIT_4
+
+##### 46
 
 ##### Integers: octal and hexadecimal numbers
 
@@ -144,6 +152,8 @@ print(0x123)
 ---
 
 #### 2211_PY_LIT_5
+
+##### 47
 
 ##### Floats
 
@@ -186,6 +196,8 @@ This will change neither its type nor its value.
 
 #### 2211_PY_LIT_6
 
+##### 48
+
 ##### Ints vs. floats
 
 The decimal point is essentially important in recognizing floating-point numbers in Python.
@@ -221,6 +233,8 @@ Note:
 ---
 
 #### 2211_PY_LIT_7
+
+##### 49
 
 ##### Coding floats
 
@@ -260,6 +274,8 @@ Python always chooses the more economical form of the number's presentation, and
 
 #### 2211_PY_LIT_8
 
+##### 50
+
 ##### Strings
 
 Strings are used when you need to process text (like names of all kinds, addresses, novels, etc.), not numbers.
@@ -297,6 +313,8 @@ Note: you don't need to do any escaping here.
 
 #### 2211_PY_LIT_9
 
+##### 51
+
 ##### Coding strings
 
 Now, the next question is: how do you embed an apostrophe into a string placed between apostrophes?
@@ -322,6 +340,8 @@ An empty string still remains a string:
 ---
 
 #### 2211_PY_LIT_10
+
+##### 52
 
 ##### Boolean values
 
@@ -360,11 +380,15 @@ Run the code in the Sandbox to check. Can you explain the result?
 
 #### 2211_PY_LIT_11
 
+##### 53
+
 [^^^](#22_PY_LITERALS)
 
 ---
 
 #### 2211_PY_LIT_12
+
+##### 54
 
 ##### Key takeaways
 
