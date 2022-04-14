@@ -34,6 +34,8 @@
 
 #### 2111_FIRST_PRG_1
 
+##### 23
+
 ##### Hello, World!
 
 It's time to start writing some real, working Python code. It'll be very simple for the time being.
@@ -65,6 +67,8 @@ Hello, World!
 ---
 
 #### 2112_FIRST_PRG_2
+
+##### 24
 
 ##### The print() function
 
@@ -107,6 +111,8 @@ Of course, if you're going to make use of any already existing function, you hav
 
 #### 2113_FIRST_PRG_3
 
+##### 25
+
 ##### The print() function
 
 As we said before, a function may have:
@@ -146,6 +152,8 @@ Of course it does, but what are they?
 
 #### 2114_FIRST_PRG_4
 
+##### 26
+
 ##### The print() function
 
 The only argument delivered to the print() function in this example is a string:
@@ -172,6 +180,8 @@ So far, you have learned about two important parts of the code: the function and
 ---
 
 #### 2115_FIRST_PRG_5
+
+##### 27
 
 ##### The print() function
 
@@ -206,11 +216,15 @@ Let's see:
 
 #### 2116_FIRST_PRG_6
 
+##### 28
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 2117_FIRST_PRG_7
+
+##### 29
 
 ##### The print() function
 
@@ -241,6 +255,8 @@ None. Its effect is enough.
 ---
 
 #### 2118_FIRST_PRG_8
+
+##### 30
 
 ##### The print() function - instructions
 
@@ -284,6 +300,8 @@ Down came the rain and washed the spider out.
 
 #### 2119_FIRST_PRG_9
 
+##### 31
+
 ##### The print() function - instructions
 
 We've changed the example a bit - we've added one empty print() function invocation. We call it empty because we haven't delivered any arguments to the function.
@@ -321,6 +339,8 @@ Down came the rain and washed the spider out.
 ---
 
 #### 21110_FIRST_PRG_10
+
+##### 32
 
 ##### The print() function - the escape and newline characters
 
@@ -371,6 +391,8 @@ and washed the spider out.
 
 #### 21111_FIRST_PRG_11
 
+##### 33
+
 ##### The print() function - the escape and newline characters
 
 This convention has two important consequences:
@@ -410,6 +432,8 @@ and washed the spider out.
 ---
 
 #### 21112_FIRST_PRG_12
+
+##### 34
 
 ##### The print() function - using multiple arguments
 
@@ -462,6 +486,8 @@ The itsy bitsy spider climbed up the waterspout.
 
 #### 21113_FIRST_PRG_13
 
+##### 35
+
 ##### The print() function - the positional way of passing the arguments
 
 Now that you know a bit about print() function customs, we're going to show you how to change them.
@@ -487,6 +513,8 @@ Monty Python.
 ---
 
 #### 21114_FIRST_PRG_14
+
+##### 36
 
 ##### The print() function - the keyword arguments
 
@@ -528,6 +556,8 @@ My name is Python. Monty Python.
 
 #### 21115_FIRST_PRG_15
 
+##### 37
+
 ##### The print() function - the keyword arguments
 
 And now it's time to try something more difficult.
@@ -559,6 +589,8 @@ My name is Monty Python.
 
 #### 21116_FIRST_PRG_16
 
+##### 38
+
 ##### The print() function - the keyword arguments
 
 We've said previously that the print() function separates its outputted arguments with spaces. This behavior can be changed, too.
@@ -588,6 +620,8 @@ My-name-is-Monty-Python.
 
 #### 21117_FIRST_PRG_17
 
+##### 39
+
 ##### The print() function - the keyword arguments
 
 Both keyword arguments may be mixed in one invocation, just like here in the editor window.
@@ -612,17 +646,23 @@ My_name_is*Monty*Python.*
 
 #### 21118_PRINT
 
+##### 40
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 21119_FORMAT_THE_OUT
 
+##### 41
+
 [^^^](#21_HELLO_WORLD)
 
 ---
 
 #### 21120_SUMMARY
+
+##### 42
 
 ##### Key takeaways
 
