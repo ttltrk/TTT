@@ -309,6 +309,48 @@ It's a bad idea to handle this exception in your programs. You should produce co
 
 #### 4718_TEST_DEBUG
 
+##### Why you can’t avoid testing your code
+
+Although we're going to wrap up our exceptional considerations here, don't think it's all Python can offer to help you with begging for forgiveness. Python's exception machinery is far more complex, and its capabilities allow you to build expanded error handling strategies. We'll return to these issues – we promise. Feel free to conduct your experiments and to dive into exceptions yourself.
+
+Now we want to tell you about the second side of the never-ending struggle with errors – the inevitable destiny of a developer's life. As you are not able to avoid making bugs in your code, you must always be ready to seek out and destroy them. Don't bury your head in the sand – ignoring errors won't make them disappear.
+
+An important duty for developers is to test the newly created code, but you must not forget that testing isn't a way to prove that the code is error-free. Paradoxically, the only proof testing can provide is that your code contains errors. Don’t think you can relax after a successful test.
+
+The second important aspect of software testing is strictly psychological. It's a truth known for years that authors – even those who are reliable and self-aware – aren't able to objectively evaluate and verify their works.
+
+This is why each novelist needs an editor and each programmer needs a tester. Some say – a little spitefully but truthfully – that developers test the code to show their perfection, not to find problems that may frustrate them. Testers are free of such dilemmas, and this is why their work is more effective and profitable.
+
+Of course, this doesn't absolve you from being attentive and careful. Test your code as best you can. Don't make the testers' work too easy.
+
+Your primary duty is to ensure that you’ve checked all execution paths your code can go through. Does that sound mysterious? Nothing of the kind!
+
+##### Tracing the execution paths
+
+Now look at the code in the editor. Suppose you've just finished writing it.
+
+There are three independent execution paths in the code – can you see them? They are determined by the if-elif-else statements. Of course, the execution paths can be built by many other statements, like loops, or even try-except blocks.
+
+If you're going to test your code fairly and you want to sleep soundly and to dream without nightmares (nightmares about bugs can be devastating for a developer’s performance) you are obliged to prepare a test data set that will force your code to negotiate all possible paths.
+
+In our example, the set should contain at least three float values: one positive, one negative, and zero.
+
+```py
+temperature = float(input('Enter current temperature:'))
+
+if temperature > 0:
+    print("Above zero")
+elif temperature < 0:
+    print("Below zero")
+else:
+    print("Zero")
+
+>>>
+Enter current temperature:30
+Above zero
+>>>
+```
+
 [^^^](#47_EXCEPTIONS)
 
 ---
