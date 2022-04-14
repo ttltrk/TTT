@@ -58,11 +58,12 @@ PCEP – Certified Entry-Level Python Programmer
   - 35 - [The print function - the positional way of passing the arguments](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#35)
   - 36 - [The print function - the keyword arguments](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#36)
   - 37 - [The print function - the keyword arguments](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#37)
-  - 38 - [The print function - the keyword arguments](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#38) 
+  - 38 - [The print function - the keyword arguments](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#38)
   - 39 - [The print function - the keyword arguments](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#39)
   - 40 - [](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#40)
   - 41 - [](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#41)
   - 42 - [Key takeaways](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md#42)
+  
 * [22_PY_LITERALS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/22_PY_LITERALS/22_PY_LITERALS.md)
 * [23_ARITHMETIC_OPERATOTS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md)
 * [24_VARIABLES](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/24_VARIABLES/24_VARIABLES.md)
