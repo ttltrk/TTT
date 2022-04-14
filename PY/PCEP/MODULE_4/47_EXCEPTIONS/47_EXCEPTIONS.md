@@ -530,6 +530,12 @@ while True:
         print("Warning: the value entered is not a valid number. Try again...")
 ```
 
+The code above asks the user for input until they enter a valid integer number. If the user enters a value that cannot be converted to an int, the program will print Warning: the value entered is not a valid number. Try again..., and ask the user to enter a number again. What happens in such a case?
+
+1. The program enters the while loop.
+2. The try block/clause is executed. The user enters a wrong value, for example: hello!.
+3. An exception occurs, and the rest of the try clause is skipped. The program jumps to the except block, executes it, and then continues running after the try-except block.
+If the user enters a correct value and no exception occurs, the subsequent instructions in the try block are executed.
 [^^^](#47_EXCEPTIONS)
 
 ---
