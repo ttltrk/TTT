@@ -29,6 +29,8 @@
 
 ##### How does a computer program work?
 
+##### 1
+
 This course aims to show you what the Python language is and what it is used for. Let's start from the absolute basics.
 
 A program makes a computer usable. Without a program, a computer, even the most powerful one, is nothing more than an object. Similarly, without a player, a piano is nothing more than a wooden box.
@@ -62,6 +64,8 @@ Language is the keyword.
 
 ##### Natural languages vs. programming languages
 
+##### 2
+
 A language is a means (and a tool) for expressing and recording thoughts. There are many languages all around us. Some of them require neither speaking nor writing, such as body language; it's possible to express your deepest feelings very precisely without saying a word.
 
 Another language you use each day is your mother tongue, which you use to manifest your will and to ponder reality. Computers have their own language, too, called machine language, which is very rudimentary.
@@ -86,6 +90,8 @@ Moreover, they are still evolving, and new words are created every day as old wo
 
 ##### What makes a language?
 
+##### 3
+
 We can say that each language (machine or natural, it doesn't matter) consists of the following elements:
 
 - an alphabet: a set of symbols used to build words of a certain language (e.g., the Latin alphabet for English, the Cyrillic alphabet for Russian, Kanji for Japanese, and so on)
@@ -109,6 +115,8 @@ A program written in a high-level programming language is called a source code (
 #### 1114_BASICS_4
 
 ##### Compilation vs. interpretation
+
+##### 4
 
 Computer programming is the act of composing the selected programming language's elements in the order that will cause the desired effect. The effect could be different in every specific case – it's up to the programmer's imagination, knowledge and experience.
 
@@ -141,6 +149,8 @@ There are very few languages that can be both compiled and interpreted. Usually,
 
 ##### What does the interpreter actually do?
 
+##### 5
+
 Let's assume once more that you have written a program. Now, it exists as a computer file: a computer program is actually a piece of text, so the source code is usually placed in text files.
 
 Note: it has to be pure text, without any decorations like different fonts, colors, embedded images or other media. Now you have to invoke the interpreter and let it read your source file.
@@ -170,6 +180,8 @@ You may ask now: which is better? The "compiling" model or the "interpreting" mo
 #### 1116_BASICS_6
 
 ##### Compilation vs. interpretation - advantages and disadvantages
+
+##### 6
 
 Advantages and Compilation
 
@@ -207,6 +219,8 @@ Due to historical reasons, languages designed to be utilized in the interpretati
 
 ##### What is Python?
 
+##### 7
+
 Python is a widely-used, interpreted, object-oriented, and high-level programming language with dynamic semantics, used for general-purpose programming.
 
 And while you may know the python as a large snake, the name of the Python programming language comes from an old BBC television comedy sketch series called Monty Python's Flying Circus.
@@ -230,6 +244,8 @@ The speed with which Python has spread around the world is a result of the conti
 #### 1122_TOOL_2
 
 ##### A hobby programming project
+
+##### 8
 
 The circumstances in which Python was created are a bit puzzling. According to Guido van Rossum:
 
@@ -259,6 +275,8 @@ Python isn't a young language anymore. It is mature and trustworthy. It's not a 
 
 ##### What makes Python special?
 
+##### 9
+
 How does it happen that programmers, young and old, experienced and novice, want to use it? How did it happen that large companies adopted Python and implemented their flagship products using it?
 
 There are many reasons – we've listed some of them already, but let's enumerate them again in a more practical manner:
@@ -284,6 +302,8 @@ It has lots of followers, but there are many who prefer other languages and don'
 #### 1124_TOOL_4
 
 ##### Python rivals?
+
+##### 10
 
 Python has two direct competitors, with comparable properties and predispositions. These are:
 
@@ -315,6 +335,8 @@ Despite Python's growing popularity, there are still some niches where Python is
 
 ##### There is more than one Python
 
+##### 11
+
 There are two main kinds of Python, called Python 2 and Python 3.
 
 Python 2 is an older version of the original Python. Its development has since been intentionally stalled, although that doesn't mean that there are no updates to it. On the contrary, the updates are issued on a regular basis, but they are not intended to modify the language in any significant way. They rather fix any freshly discovered bugs and security holes. Python 2's development path has reached a dead end already, but Python 2 itself is still very much alive.
@@ -343,6 +365,8 @@ All the code samples you will find during the course have been tested against Py
 
 ##### Python aka CPython
 
+##### 12
+
 In addition to Python 2 and Python 3, there is more than one version of each.
 
 Python Software Foundation logoFirst of all, there are the Pythons which are maintained by the people gathered around the PSF (Python Software Foundation), a community that aims to develop, improve, expand, and popularize Python and its environment. The PSF's president is Guido von Rossum himself, and for this reason, these Pythons are called canonical. They are also considered to be reference Pythons, as any other implementation of the language should follow all standards established by the PSF.
@@ -368,6 +392,8 @@ This is what Cython is intended to do – to automatically translate the Python 
 #### 1133_JYTHON_PYPY_RPYTHON
 
 ##### Jython
+
+##### 13
 
 Another version of Python is called Jython.
 
