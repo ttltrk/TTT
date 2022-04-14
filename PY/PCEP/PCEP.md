@@ -17,6 +17,19 @@ PCEP – Certified Entry-Level Python Programmer
 
 ##### [MODULE_1](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/MODULE_1.md)
 * [11_INTRO](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/11_INTRO/11_INTRO.md)
+  - 1 - How does a computer program work?
+  - 2 - Natural languages vs. programming languages
+  - 3 - What makes a language?
+  - 4 - Compilation vs. interpretation
+  - 5 - What does the interpreter actually do?
+  - 6 - Compilation vs. interpretation - advantages and disadvantages
+  - 7 - What is Python? | Who created Python?
+  - 8 - A hobby programming project | Python goals
+  - 9 - What makes Python special?
+  - 10 - Python rivals? | Where can we see Python in action? | Why not Python?
+  - 11 - There is more than one Python
+  - 12 - Python aka CPython | Cython
+  - 13 - Jython | PyPy and RPython
 * [12_DOWNLOAD_AND_INSTALL](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_1/12_DOWNLOAD_AND_INSTALL/12_DOWNLOAD_AND_INSTALL.md)
 ##### [MODULE_2](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/MODULE_2.md)
 * [21_HELLO_WORLD](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/21_HELLO_WORLD/21_HELLO_WORLD.md)
