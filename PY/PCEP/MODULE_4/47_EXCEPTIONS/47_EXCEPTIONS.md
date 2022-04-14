@@ -532,10 +532,70 @@ while True:
 
 The code above asks the user for input until they enter a valid integer number. If the user enters a value that cannot be converted to an int, the program will print Warning: the value entered is not a valid number. Try again..., and ask the user to enter a number again. What happens in such a case?
 
-1. The program enters the while loop.
-2. The try block/clause is executed. The user enters a wrong value, for example: hello!.
-3. An exception occurs, and the rest of the try clause is skipped. The program jumps to the except block, executes it, and then continues running after the try-except block.
+- The program enters the while loop.
+- The try block/clause is executed. The user enters a wrong value, for example: hello!.
+- An exception occurs, and the rest of the try clause is skipped. The program jumps to the except block, executes it, and then continues running after the try-except block.
 If the user enters a correct value and no exception occurs, the subsequent instructions in the try block are executed.
+
+3. You can handle multiple exceptions in your code block. Look at the following examples:
+
+```py
+while True:
+    try:
+        number = int(input("Enter an int number: "))
+        print(5/number)
+        break
+    except ValueError:
+        print("Wrong value.")
+    except ZeroDivisionError:
+        print("Sorry. I cannot divide by zero.")
+    except:
+        print("I don't know what to do...")
+```
+
+You can use multiple except blocks within one try statement, and specify particular exception names. If one of the except branches is executed, the other branches will be skipped. Remember: you can specify a particular built-in exception only once. Also, don't forget that the default (or generic) exception, that is the one with no name specified, should be placed at the bottom of the branch (use the more specific exceptions first, and the more general last).
+
+You can also specify and handle multiple built-in exceptions within a single except clause:
+
+```py
+while True:
+    try:
+        number = int(input("Enter an int number: "))
+        print(5/number)
+        break
+    except (ValueError, ZeroDivisionError):
+        print("Wrong value or No division by zero rule broken.")
+    except:
+        print("Sorry, something went wrong...")
+```
+
+4. Some of the most useful Python built-in exceptions are: ZeroDivisionError, ValueError, TypeError, AttributeError, and SyntaxError. One more exception that, in our opinion, deserves your attention is the KeyboardInterrupt exception, which is raised when the user hits the interrupt key (CTRL-C or Delete). Run the code above and hit the key combination to see what happens.
+
+To learn more about the Python built-in exceptions, consult the official Python documentation.
+
+5. Last but not least, you should remember about testing and debugging your code. Use such debugging techniques as print debugging; if possible – ask someone to read your code and help you to find bugs in it or to improve it; try to isolate the fragment of code that is problematic and susceptible to errors: test your functions by applying predictable argument values, and try to handle the situations when someone enters wrong values; comment out the parts of the code that obscure the issue. Finally, take breaks and come back to your code after some time with a fresh pair of eyes.
+
+Exercise
+
+What is the output of the following program if the user enters 0?
+
+```
+try:
+    value = int(input("Enter a value: "))
+    print(value/value)
+except ValueError:
+    print("Bad input...")
+except ZeroDivisionError:
+    print("Very bad input...")
+except:
+    print("Booo!")
+
+>>>
+Enter a value: ee
+Bad input...
+>>>
+```
+
 [^^^](#47_EXCEPTIONS)
 
 ---
