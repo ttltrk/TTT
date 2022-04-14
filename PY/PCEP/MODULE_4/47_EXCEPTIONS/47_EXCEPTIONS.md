@@ -357,6 +357,36 @@ Above zero
 
 #### 4719_TEST_DEBUG
 
+##### When Python closes its eyes
+
+Such a test is crucial. We want to show you why you mustn't skip it. Look at the code in the editor.
+
+We intentionally introduced an error into the code – we hope your watchful eyes noticed it immediately. Yes, we removed just one letter and in effect, the valid print() function invocation turns into the obviously invalid clause "prin()". There is no such function as "prin()" in our program's scope, but is it really obvious for Python?
+
+Run the code and enter 0.
+
+As you can see, the code finishes its execution without any obstacles.
+
+How is that possible? Why does Python overlook such an evident developer mistake?
+
+Can you find the answers to these fundamental questions?
+
+```py
+temperature = float(input('Enter current temperature:'))
+
+if temperature > 0:
+    print("Above zero")
+elif temperature < 0:
+    prin("Below zero")
+else:
+    print("Zero")
+
+>>>
+Enter current temperature:25
+Above zero
+>>>
+```
+
 [^^^](#47_EXCEPTIONS)
 
 ---
