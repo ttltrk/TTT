@@ -80,6 +80,17 @@ PCEP – Certified Entry-Level Python Programmer
   - 54 - [Key takeaways](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/22_PY_LITERALS/22_PY_LITERALS.md#54)
 
 * [23_ARITHMETIC_OPERATOTS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md)
+  - 55 - [Python as a calculator | Basic operators](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#55)
+  - 56 - [Arithmetic operators - exponentiation](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#56)
+  - 57 - [Arithmetic operators - multiplication | Arithmetic operators - division](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#57)
+  - 58 - [Arithmetic operators - integer division](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#58)
+  - 59 - [Operators - remainder modulo | Operators - how not to divide](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#59)
+  - 60 - [Operators - addition | The subtraction operator, unary and binary operators](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#60)
+  - 61 - [Operators and their priorities | Operators and their bindings](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#61)
+  - 62 - [Operators and their bindings - exponentiation](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#62)
+  - 63 - [List of priorities | Operators and parentheses](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#63)
+  - 64 - [Key takeaways](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/23_ARITHMETIC_OPERATORS/23_ARITHMETIC_OPERATORS.md#64)
+
 * [24_VARIABLES](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/24_VARIABLES/24_VARIABLES.md)
 * [25_COMMENTS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/25_COMMENTS/25_COMMENTS.md)
 * [26_INPUT_AND_STRING_OPS](https://github.com/ttltrk/TTT/blob/master/PY/PCEP/MODULE_2/26_INPUT_AND_STRING_OPS/26_INPUT_AND_STRING_OPS.md)
