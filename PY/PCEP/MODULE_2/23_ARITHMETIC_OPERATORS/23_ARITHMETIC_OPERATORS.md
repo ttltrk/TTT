@@ -23,6 +23,8 @@
 
 #### 2311_DATA_MANIPULATION_1
 
+##### 55
+
 ##### Python as a calculator
 
 Now, we're going to show you a completely new side of the ```print()``` function. You already know that the function is able to show you the values of the literals passed to it by arguments.
@@ -61,6 +63,8 @@ Remember: Data and operators when connected together form expressions. The simpl
 
 #### 2312_DATA_MANIPULATION_2
 
+##### 56
+
 ##### Arithmetic operators: exponentiation
 
 A ```**``` (double asterisk) sign is an exponentiation (power) operator. Its left argument is the base, its right, the exponent.
@@ -97,6 +101,8 @@ print(2. ** 3.)
 ---
 
 #### 2313_DATA_MANIPULATION_3
+
+##### 57
 
 ##### Arithmetic operators: multiplication
 
@@ -148,6 +154,8 @@ Fortunately, Python can help you with that.
 ---
 
 #### 2314_DATA_MANIPULATION_4
+
+##### 58
 
 ##### Arithmetic operators: integer division
 
@@ -218,6 +226,8 @@ Integer division can also be called floor division. You will definitely come acr
 ---
 
 #### 2315_DATA_MANIPULATION_5
+
+##### 59
 
 ##### Operators: remainder (modulo)
 
@@ -334,6 +344,8 @@ Take a look at the snippet above - can you guess its output?
 
 #### 2317_DATA_MANIPULATION_7
 
+##### 60
+
 ##### Operators and their priorities
 
 So far, we've treated each operator as if it had no connection with the others. Obviously, such an ideal and simple situation is a rarity in real programming.
@@ -382,6 +394,8 @@ The result should be 1. This operator has left-sided binding. But there's one in
 
 #### 2318_DATA_MANIPULATION_8
 
+##### 61
+
 ##### Operators and their bindings: exponentiation
 
 Repeat the experiment, but now with exponentiation.
@@ -408,6 +422,8 @@ The result clearly shows that the exponentiation operator uses right-sided bindi
 ---
 
 #### 2319_DATA_MANIPULATION_9
+
+##### 62
 
 ##### List of priorities
 
@@ -459,6 +475,8 @@ Try to compute the value that's printed to the console. What's the result of the
 ---
 
 #### 23110_DATA_MANIPULATION_10
+
+##### 63
 
 ##### Key takeaways
 
