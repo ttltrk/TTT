@@ -281,6 +281,8 @@ Do not try to:
 
 #### 2316_DATA_MANIPULATION_6
 
+##### 60
+
 ##### Operators: addition
 
 The addition operator is the ```+``` (plus) sign, which is fully in line with mathematical standards.
@@ -344,7 +346,7 @@ Take a look at the snippet above - can you guess its output?
 
 #### 2317_DATA_MANIPULATION_7
 
-##### 60
+##### 61
 
 ##### Operators and their priorities
 
@@ -394,7 +396,7 @@ The result should be 1. This operator has left-sided binding. But there's one in
 
 #### 2318_DATA_MANIPULATION_8
 
-##### 61
+##### 62
 
 ##### Operators and their bindings: exponentiation
 
@@ -423,7 +425,7 @@ The result clearly shows that the exponentiation operator uses right-sided bindi
 
 #### 2319_DATA_MANIPULATION_9
 
-##### 62
+##### 63
 
 ##### List of priorities
 
@@ -476,7 +478,7 @@ Try to compute the value that's printed to the console. What's the result of the
 
 #### 23110_DATA_MANIPULATION_10
 
-##### 63
+##### 64
 
 ##### Key takeaways
 
