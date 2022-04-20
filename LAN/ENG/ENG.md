@@ -623,6 +623,9 @@ The office is at street level. - az iroda utcaszinten talalhato
 What is his career profile ? - Mi a szakmai profilja?
 My father is one of the members. - Apám a tagok egyike.
 Here's my account number. - Itt van a számlaszámom.
+the content - a tartalom
+Nobody is content. - Senki sem elégedett.
+He explains his act. - Megindokolja a cselekedetét.
 ```
 
 
