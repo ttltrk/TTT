@@ -636,6 +636,10 @@ He explains his act. - Megindokolja a cselekedetét.
 
 ```
 I spend more than her. - tobbet koltokmint o
+This train leaves at nine sharp. - Ez a vonat pontosan kilenckor indul.
+My house is especially large. - Az én házam különösen nagy.
+
+
 ```
 
 [^^^](#ENG)
