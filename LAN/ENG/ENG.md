@@ -700,7 +700,7 @@ They have not paid me this year. - Nem fizettek nekem az idén.
 ```
 He found another path. - Ő talált egy másik utat.
 
-
+ddd
 ```
 
 [^^^](#ENG)
