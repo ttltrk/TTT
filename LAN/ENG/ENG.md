@@ -666,6 +666,16 @@ It has not rained this summer. - Nem esett az eső ezen a nyáron.
 Not everyone has eaten today. - nem mindenki evett ma meg
 He has not told me his name. - Nem mondta meg nekem a nevét.
 We have not seen each other since Wednesday. - Szerda óta nem láttuk egymást.
+We have had many problems. - Sok problémánk volt.
+We have not paid for the chicken. - Nem fizettünk a csirkéért.
+My wife has told me everything. - A feleségem mindent elmondott nekem.
+The last train has left already. - Az utolsó vonat már elment.
+They have not paid me this year. - Nem fizettek nekem az idén.
+
+
+
+
+
 
 
 
@@ -686,6 +696,17 @@ We have not seen each other since Wednesday. - Szerda óta nem láttuk egymást.
 #### TERMESZET
 #### IGENEVEK
 #### SPORT
+
+```
+He found another path. - Ő talált egy másik utat.
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### MUVESZET
 #### KOMMUNIKACIO
 #### EGESZSEG
