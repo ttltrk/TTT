@@ -512,7 +512,7 @@ print((2 ** 4), (2 * 4.), (2 * 4))
 >>>
 ```
 
-- Exercise 2
+- Exercise 02
 
 What is the output of the following snippet?
 
