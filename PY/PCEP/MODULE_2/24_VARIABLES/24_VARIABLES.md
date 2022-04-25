@@ -25,7 +25,7 @@
 
 #### 2411_DATA_SHAPED_BOXES_1
 
-65
+##### 65
 
 ##### What are variables?
 
@@ -59,7 +59,7 @@ If you want to give a name to a variable, you must follow some strict rules:
 
 #### 2412_DATA_SHAPED_BOXES_2
 
-66
+##### 66
 
 ##### Correct and incorrect variable names
 
@@ -115,7 +115,7 @@ These words might be a mystery to you now, but you'll soon learn the meaning of 
 
 #### 2413_DATA_SHAPED_BOXES_3
 
-67
+##### 67
 
 ##### Creating variables
 
@@ -161,7 +161,7 @@ Note: ```print()``` has yet another side to it - it can handle variables too. Do
 
 #### 2414_DATA_SHAPED_BOXES_4
 
-68
+##### 68
 
 ##### Using variables
 
@@ -213,7 +213,7 @@ Can you guess the output of the snippet above?
 
 #### 2415_DATA_SHAPED_BOXES_5
 
-69
+##### 69
 
 ##### Assigning a new value to an already existing variable
 
@@ -266,7 +266,7 @@ print(var)
 
 #### 2416_DATA_SHAPED_BOXES_6
 
-70
+##### 70
 
 ##### Solving simple mathematical problems
 
@@ -299,7 +299,7 @@ c = 5.0
 
 #### 2418_DATA_SHAPED_BOXES_8
 
-71
+##### 71
 
 ##### Shortcut operators
 
@@ -369,7 +369,7 @@ x = x ** 2 ⇒ x **= 2
 
 #### 24110_DATA_SHAPED_BOXES_11
 
-72
+##### 72
 
 ##### Key takeaways
 
