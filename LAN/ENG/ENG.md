@@ -671,6 +671,8 @@ We have not paid for the chicken. - Nem fizettünk a csirkéért.
 My wife has told me everything. - A feleségem mindent elmondott nekem.
 The last train has left already. - Az utolsó vonat már elment.
 They have not paid me this year. - Nem fizettek nekem az idén.
+I have just come. - Éppen most jöttem meg.
+
 
 
 
