@@ -672,8 +672,9 @@ My wife has told me everything. - A feleségem mindent elmondott nekem.
 The last train has left already. - Az utolsó vonat már elment.
 They have not paid me this year. - Nem fizettek nekem az idén.
 I have just come. - Éppen most jöttem meg.
-
-
+I have done it - megcsinaltam
+No one has called him today - ma meg senki sem hivta fel
+she has written two books - eddig ket konyvet irt 
 
 
 
