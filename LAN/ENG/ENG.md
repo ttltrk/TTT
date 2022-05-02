@@ -674,7 +674,13 @@ They have not paid me this year. - Nem fizettek nekem az idén.
 I have just come. - Éppen most jöttem meg.
 I have done it - megcsinaltam
 No one has called him today - ma meg senki sem hivta fel
-she has written two books - eddig ket konyvet irt 
+she has written two books - eddig ket konyvet irt
+She has put the apples in the basket. - A kosárba tette az almákat.
+She has not written us since February. - Nem írt nekünk február óta.
+He feels worse than before. - Rosszabbul érzi magát, mint előtte.
+
+
+
 
 
 
