@@ -682,6 +682,10 @@ He has given me the car. - Ideadta nekem az autót.
 She has put shoes on. - Cipőt vett fel.
 What has he done? - Mit végzett el?
 It has become very cold. - Nagyon hideg lett.
+Yes, he has already written it. - Igen, már megírta.
+We have not put our shoes on yet. - Még nem vettük fel a cipőnket.
+
+
 
 
 
