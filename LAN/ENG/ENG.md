@@ -678,6 +678,14 @@ she has written two books - eddig ket konyvet irt
 She has put the apples in the basket. - A kosárba tette az almákat.
 She has not written us since February. - Nem írt nekünk február óta.
 He feels worse than before. - Rosszabbul érzi magát, mint előtte.
+He has given me the car. - Ideadta nekem az autót.
+She has put shoes on. - Cipőt vett fel.
+What has he done? - Mit végzett el?
+It has become very cold. - Nagyon hideg lett.
+
+
+
+
 
 
 
