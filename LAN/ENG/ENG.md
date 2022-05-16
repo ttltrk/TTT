@@ -700,6 +700,12 @@ She does not remember. - Nem emlékszik.
 We have to increase the amount. - Növelnünk kell az összeget.
 The dog seems to remember you. - Úgy néz ki, hogy a kutya emlékszik rád.
 Do you want to meet my parents? - Akarsz találkozni a szüleimmel?
+We want to meet her. - Találkozni akarunk vele.
+No, I don't feel like it. - Nem, nincs kedvem hozzá.
+He wants to apply for this job. - Jelentkezni akar erre a munkára.
+I do not believe that he wanted it. - Nem hiszem, hogy akarta.
+
+
 
 
 
