@@ -695,6 +695,16 @@ We have not put our shoes on yet. - Még nem vettük fel a cipőnket.
 ```
 I do not remember it. - Nem emlékszem rá.
 That sheet needs to cover the bed. - Annak a lepedőnek be kell fednie az ágyat.
+She wants to increase the control. - Növelni akarja a befolyást.
+She does not remember. - Nem emlékszik.
+We have to increase the amount. - Növelnünk kell az összeget.
+The dog seems to remember you. - Úgy néz ki, hogy a kutya emlékszik rád.
+Do you want to meet my parents? - Akarsz találkozni a szüleimmel?
+
+
+
+
+
 
 
 
