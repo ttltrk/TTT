@@ -684,22 +684,17 @@ What has he done? - Mit végzett el?
 It has become very cold. - Nagyon hideg lett.
 Yes, he has already written it. - Igen, már megírta.
 We have not put our shoes on yet. - Még nem vettük fel a cipőnket.
+```
 
+[^^^](#ENG)
 
+---
 
+#### FONEVI_IGENEV_2
 
-
-
-
-
-
-
-
-
-
-
-
-
+```
+I do not remember it. - Nem emlékszem rá.
+That sheet needs to cover the bed. - Annak a lepedőnek be kell fednie az ágyat.
 
 
 
@@ -709,7 +704,6 @@ We have not put our shoes on yet. - Még nem vettük fel a cipőnket.
 
 ---
 
-#### FONEVI_IGENEV_2
 #### VONATKOZO_NEVMAS
 #### BEFEJEZETT_MULT
 #### ELVONT_FONEV_2
