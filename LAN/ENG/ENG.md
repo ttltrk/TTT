@@ -704,6 +704,10 @@ We want to meet her. - Találkozni akarunk vele.
 No, I don't feel like it. - Nem, nincs kedvem hozzá.
 He wants to apply for this job. - Jelentkezni akar erre a munkára.
 I do not believe that he wanted it. - Nem hiszem, hogy akarta.
+He was not able to continue his studies. - Nem tudta folytatni a tanulmányait.
+Who to believe? - Kinek higgyünk?
+
+
 
 
 
