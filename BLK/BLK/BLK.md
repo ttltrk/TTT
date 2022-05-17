@@ -110,6 +110,7 @@ will replace the wrong/hacked hash
 #### HOW_MINING_WORKS
 
 changing nonce can change the hash - avalanche effect
+and with changing nonce you can manipulate and generate the smallest hash
 
 ```
 BLOCK: #3
