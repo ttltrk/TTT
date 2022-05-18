@@ -159,7 +159,7 @@ Consensus Protocols:
 
 - one of the node was updated by a new block, but before the spread for the rest of the nodes/chains
   some serious checks must be done   
-  if check doesn't go thru, then reject the block
+  if check doesn't go through, then reject the block
 
 cryptographic puzzles: Hard to solve - Easy to verify   
 
