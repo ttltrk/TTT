@@ -164,7 +164,7 @@ Consensus Protocols:
 cryptographic puzzles: Hard to solve - Easy to verify   
 
 - what if two nodes receives two separate blocks at the same time
-  the longest and/or the faster network will adopt the new blocks and the weakest network blocks goes by side
+  the longest and/or the faster network will adopt the new blocks and the weakest network blocks goes by side (orphand block)
 
 - the longest chain/network is king - if two same blocks were created at the same time, the fastest/longest chain win
   in this case the hashing power is the key
