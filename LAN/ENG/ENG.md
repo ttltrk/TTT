@@ -708,6 +708,10 @@ He was not able to continue his studies. - Nem tudta folytatni a tanulmányait.
 Who to believe? - Kinek higgyünk?
 He runs though he is tired. - Ő fut, bár fáradt.
 I eat rice even though I do not like it. - rizst eszem, annak ellenére, hogy nem szeretem .
+He tries to improve his English. - Ő próbálja fejleszteni az angolját.
+They do not let us see Pedro. - Nem engedik, hogy lássuk Pedrót.
+I used to know how to swim. - Valaha tudtam úszni.
+
 
 
 
