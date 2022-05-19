@@ -706,6 +706,10 @@ He wants to apply for this job. - Jelentkezni akar erre a munkára.
 I do not believe that he wanted it. - Nem hiszem, hogy akarta.
 He was not able to continue his studies. - Nem tudta folytatni a tanulmányait.
 Who to believe? - Kinek higgyünk?
+He runs though he is tired. - Ő fut, bár fáradt.
+I eat rice even though I do not like it. - rizst eszem, annak ellenére, hogy nem szeretem .
+
+
 
 
 
