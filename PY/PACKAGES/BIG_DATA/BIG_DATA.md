@@ -77,6 +77,16 @@ local vs distributed
 
 #### SPARK
 
+```
+Original data 
+
+    ---> server --->
+    ---> server --->
+    ---> server --->
+
+              Transformed data
+```
+
 - Spark is one of the latest technologies being used to quickly and easily handle Big Data
 - it is an open source project on Apache
 - you can think of Spark as a flexible alternative to MapReduce
