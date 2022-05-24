@@ -48,6 +48,7 @@ It extends the MapReduce model and takes it to a whole other level.
 The speed comes from the in-memory computations. Applications running in memory allows for
 a much faster processing and response. Spark is even faster than MapReduce for complex
 applications on disks.
+
 This generality covers a wide range of workloads under one system. You can run batch application
 such as MapReduce types jobs or iterative algorithms that builds upon each other. You
 can also run interactive queries and process streaming data with your application. In a
