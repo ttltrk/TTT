@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [DEPLOYMENT_MODEL_USE_CASES](#DEPLOYMENT_MODEL_USE_CASES)
 * [CREATE_AN_AWS_ACCOUNT](#CREATE_AN_AWS_ACCOUNT)
-* [](#)
+* [AWS_REGION_SELECTOR](#AWS_REGION_SELECTOR)
 * [](#)
 * [](#)
 * [](#)
@@ -394,6 +394,12 @@ https://www.aws.amazon.com/
 #### CREATE_AN_AWS_ACCOUNT
 
 https://www.aws.amazon.com/
+
+[^^^](#AWS_CCP)
+
+---
+
+#### AWS_REGION_SELECTOR
 
 [^^^](#AWS_CCP)
 
