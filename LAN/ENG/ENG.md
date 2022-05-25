@@ -787,6 +787,16 @@ I do not forget such damage. - Nem felejtek el egy ilyen veszteséget.
 The signal comes from a large town. - A jel egy nagy városból jön.
 What is the origin of our name? - Honnan ered a nevünk?
 Reality is not always interesting. - A valóság nem mindig érdekes.
+It was a total failure. - Ez teljes kudarc volt.
+She gave us the signal to begin. - Megadta nekünk a jelet, hogy kezdjünk.
+This word is French in origin. - Ez a szó francia eredetű.
+there was a lack of food in europe - Hiány volt élelemből Európában.
+This scene is beautiful. - Ez a helyszín gyönyörű.
+There was a great lack of rice that year. - Nagy hiány volt rizsből abban az évben.
+
+
+
+
 
 
 
