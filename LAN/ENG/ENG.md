@@ -730,6 +730,14 @@ I let the dog play in the garden. - Hagyom a kutyát játszani a kertben.
 I know a girl whose father is a lawyer. - ismerek egy lanyt akinek az apja ugyved
 to whom? - kinek?
 He goes where I go. - Oda megy, ahova én megyek.
+Who knows where they put it! - Ki tudja, hová tették!
+We know whose work it is. - Mi tudjuk, kinek a munkája ez.
+I see what really counts. - Értem, mi számít igazán.
+We do not know which student has asked. - nem tudjuk, melyik diák kérdezett.
+
+
+
+
 
 
 ```
