@@ -749,6 +749,15 @@ we know whose it is - Tudjuk, hogy kié.
 ```
 She had never walked. - Ő sosem sétált azelőtt.
 The girls had already eaten. - A lányok már ettek előtte.
+We had given you love. - Azelőtt szeretetet adtunk nektek.
+you had led the horses to the water - Előtte a vízhez vezetted a lovakat.
+The mother had taken him away. - Az anya előzőleg elvitte őt.
+They had led the country. - Ők vezették az országot előtte.
+He had gone home. - Addigra hazament.
+We had decided to eat. - Előtte elhatároztuk, hogy eszünk.
+He said thousands had died. - Azt mondta, hogy ezrek haltak meg.
+
+
 
 
 ```
