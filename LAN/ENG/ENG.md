@@ -793,6 +793,14 @@ This word is French in origin. - Ez a szó francia eredetű.
 there was a lack of food in europe - Hiány volt élelemből Európában.
 This scene is beautiful. - Ez a helyszín gyönyörű.
 There was a great lack of rice that year. - Nagy hiány volt rizsből abban az évben.
+Since then her behavior is excellent. - Azóta kitűnő a magatartása.
+He goes in the opposite direction. - Az ellenkező irányba megy.
+One of his attempts was a success. - Az egyik kísérlete sikeres volt.
+What is the signature for? - Mihez kell az aláírás?
+
+
+
+
 
 
 
