@@ -716,24 +716,8 @@ The grandmother lets them play. - A nagymama hagyja őket játszani.
 I want him to understand the problem. - akarom, hogy megértse a problémát.
 do you want me to repeat it - Akarod, hogy megismételjem?
 My friend lets her son run. - A barátnőm engedi futni a fiát.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+The teacher let him go. - A tanár elengedte.
+I let the dog play in the garden. - Hagyom a kutyát játszani a kertben.
 ```
 
 [^^^](#ENG)
