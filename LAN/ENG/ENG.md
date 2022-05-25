@@ -760,12 +760,6 @@ I thought he had died. - Azt gondoltam, hogy meghalt.
 The Portuguese had discovered Brazil. - addigra mar a portugalok felfedeztek braziliat
 We had known the answer. - Tudtuk a választ előtte.
 I had not assumed anything. - Azelőtt semmit sem feltételeztem.
-
-
-
-
-
-
 ```
 
 [^^^](#ENG)
