@@ -32,6 +32,9 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [EVOLUTION_OF_COMPUTING](#EVOLUTION_OF_COMPUTING)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
+* [DEPLOYMENT_MODEL_USE_CASES](#DEPLOYMENT_MODEL_USE_CASES)
+* [CREATE_AN_AWS_ACCOUNT](#CREATE_AN_AWS_ACCOUNT)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -359,12 +362,6 @@ https://www.aws.amazon.com/
 
 ---
 
-#### 
-
-[^^^](#AWS_CCP)
-
----
-
 #### DEPLOYMENT_MODEL_USE_CASES
 
 - Cloud
@@ -389,6 +386,14 @@ https://www.aws.amazon.com/
     - Super sensitive data - hospitals
     - large enterprise with heavy regulation - insure companies
     - organizations that cannot run on cloud due to strict regulatory compliance or the sheer size of their organization
+
+[^^^](#AWS_CCP)
+
+---
+
+#### CREATE_AN_AWS_ACCOUNT
+
+https://www.aws.amazon.com/
 
 [^^^](#AWS_CCP)
 
