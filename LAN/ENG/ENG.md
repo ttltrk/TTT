@@ -756,6 +756,12 @@ They had led the country. - Ők vezették az országot előtte.
 He had gone home. - Addigra hazament.
 We had decided to eat. - Előtte elhatároztuk, hogy eszünk.
 He said thousands had died. - Azt mondta, hogy ezrek haltak meg.
+I thought he had died. - Azt gondoltam, hogy meghalt.
+The Portuguese had discovered Brazil. - addigra mar a portugalok felfedeztek braziliat
+We had known the answer. - Tudtuk a választ előtte.
+I had not assumed anything. - Azelőtt semmit sem feltételeztem.
+
+
 
 
 
