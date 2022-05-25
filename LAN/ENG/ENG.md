@@ -711,6 +711,14 @@ I eat rice even though I do not like it. - rizst eszem, annak ellenére, hogy ne
 He tries to improve his English. - Ő próbálja fejleszteni az angolját.
 They do not let us see Pedro. - Nem engedik, hogy lássuk Pedrót.
 I used to know how to swim. - Valaha tudtam úszni.
+We do not consider it tea. - Ezt nem tekintjük teának.
+The grandmother lets them play. - A nagymama hagyja őket játszani.
+I want him to understand the problem. - akarom, hogy megértse a problémát.
+do you want me to repeat it - Akarod, hogy megismételjem?
+My friend lets her son run. - A barátnőm engedi futni a fiát.
+
+
+
 
 
 
