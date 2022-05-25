@@ -862,6 +862,23 @@ I saw the match on television. - Televízión láttam a meccset.
 
 #### MUVESZET
 #### KOMMUNIKACIO
+
+```
+The search for the airplane continues.
+This channel has good programs. - Ezen a csatornán jó műsorok vannak.
+She gave me some stamps. - Adott nekem néhány bélyeget.
+Only the teacher has access to that room. - Csak a tanárnak van hozzáférése ahhoz a szobához.
+Someone called the press and the journalists are here now. - Valaki hívta a sajtót, és az újságírók most itt vannak.
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### EGESZSEG
 #### JOVO_IDO
 
