@@ -797,31 +797,6 @@ Since then her behavior is excellent. - Azóta kitűnő a magatartása.
 He goes in the opposite direction. - Az ellenkező irányba megy.
 One of his attempts was a success. - Az egyik kísérlete sikeres volt.
 What is the signature for? - Mihez kell az aláírás?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 [^^^](#ENG)
@@ -829,6 +804,30 @@ What is the signature for? - Mihez kell az aláírás?
 ---
 
 #### VISSZAHATO_NEVMAS
+
+```
+She does not love herself. - nem szereti magát.
+He loves himself. - Önmagát szereti.
+We do not see ourselves. - nem látjuk önmagunkat.
+I see myself in the mirror - Látom magam a tükörben.
+Go tell her yourself! - Menj és mondd el neki te magad!
+The idea itself is not bad. - Az ötlet önmagában nem rossz.
+We do not see ourselves. - Nem látjuk magunkat.
+i introduce myself - Bemutatom magam.
+My aunt has not seen herself in the mirror. - A nagynénim nem látta magát a tükörben.
+Magadnak - For yourself
+The farmers eat by themselves. - A földművesek magukban esznek.
+He makes himself breakfast. - Ő készít magának reggelit.
+You always eat by yourself. - Te mindig egymagadban eszel.
+Hallgassatok magatokra! - listen to yourselves
+My record speaks for itself. - A rekordom önmagáért beszél.
+I do not know exactly myself. - Én pontosan nem ismerem önmagam.
+Magatoknak kell megcsinálnotok. - You need to do this yourselves.
+That shows how much we know about ourselves. - Az mutatja ,mennyit tudunk önmagunkról.
+Go tell him yourself! - Menj és mondd el neki te magad!
+She has never seen herself in the mirror. - Soha nem látta magát a tükörben.
+Now we have introduced ourselves. - Most bemutatkoztunk.
+```
 
 [^^^](#ENG)
 
