@@ -32,6 +32,10 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [EVOLUTION_OF_COMPUTING](#EVOLUTION_OF_COMPUTING)
 * [TYPES_OF_CC](#TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [INTRO_AND_MAP_OVERVIEW](#INTRO_AND_MAP_OVERVIEW)
 * [REGIONS](#REGIONS)
 * [AVAILABILITY_ZONES](#AVAILABILITY_ZONES)
@@ -350,6 +354,12 @@ https://www.aws.amazon.com/
 
 - Cross-Cloud
   Using Multiple Cloud providers aka multi-cloud
+
+[^^^](#AWS_CCP)
+
+---
+
+#### 
 
 [^^^](#AWS_CCP)
 
