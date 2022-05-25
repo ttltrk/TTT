@@ -725,6 +725,19 @@ I let the dog play in the garden. - Hagyom a kutyát játszani a kertben.
 ---
 
 #### VONATKOZO_NEVMAS
+
+```
+I know a girl whose father is a lawyer. - ismerek egy lanyt akinek az apja ugyved
+to whom? - kinek?
+He goes where I go. - Oda megy, ahova én megyek.
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### BEFEJEZETT_MULT
 #### ELVONT_FONEV_2
 #### VISSZAHATO_NEVMAS
