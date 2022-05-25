@@ -768,6 +768,29 @@ I had not assumed anything. - Azelőtt semmit sem feltételeztem.
 
 #### ELVONT_FONEV_2
 
+```
+There are many religions in India. - Sok vallás van Indiában.
+Success is the result of your efforts. - A siker az erőfeszítéseid eredménye.
+I pay attention to her. - Figyelek rá.
+You are wrong in some respects. - Tévedsz néhány tekintetben.
+He never pays attention. - Soha nem figyel.
+He only writes the truth. - Ő csak az igazat írja .
+They won many competitions. - Sok versenyt nyertek.
+I only tell the truth. - Csak az igazat mondom.
+The interest - Az érdek
+my faith does not allow it - A hitem nem engedi.
+
+
+
+
+
+
+
+
+
+
+```
+
 [^^^](#ENG)
 
 ---
