@@ -779,6 +779,21 @@ They won many competitions. - Sok versenyt nyertek.
 I only tell the truth. - Csak az igazat mondom.
 The interest - Az érdek
 my faith does not allow it - A hitem nem engedi.
+It is a secret. - Ez titok.
+The origin of the banks - A bankok eredete
+In reality she is a good citizen. - Valójában ő egy jó állampolgár.
+This was the signal to stop. - Ez volt a jel a megállásra.
+I do not forget such damage. - Nem felejtek el egy ilyen veszteséget.
+The signal comes from a large town. - A jel egy nagy városból jön.
+What is the origin of our name? - Honnan ered a nevünk?
+Reality is not always interesting. - A valóság nem mindig érdekes.
+
+
+
+
+
+
+
 
 
 
