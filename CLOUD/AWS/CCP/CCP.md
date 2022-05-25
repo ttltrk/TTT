@@ -35,7 +35,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [DEPLOYMENT_MODEL_USE_CASES](#DEPLOYMENT_MODEL_USE_CASES)
 * [CREATE_AN_AWS_ACCOUNT](#CREATE_AN_AWS_ACCOUNT)
 * [AWS_REGION_SELECTOR](#AWS_REGION_SELECTOR)
-* [](#)
+* [OVERBILLING_STORY](#OVERBILLING_STORY)
 * [](#)
 * [](#)
 * [](#)
@@ -400,6 +400,14 @@ https://www.aws.amazon.com/
 ---
 
 #### AWS_REGION_SELECTOR
+
+Some services are global services and for example cloudfront does not require region selection
+
+[^^^](#AWS_CCP)
+
+---
+
+#### OVERBILLING_STORY
 
 [^^^](#AWS_CCP)
 
