@@ -734,10 +734,21 @@ Who knows where they put it! - Ki tudja, hová tették!
 We know whose work it is. - Mi tudjuk, kinek a munkája ez.
 I see what really counts. - Értem, mi számít igazán.
 We do not know which student has asked. - nem tudjuk, melyik diák kérdezett.
+Where and with whom? - Hol és kivel?
+I trust what she says. - Bízom abban, amit mond.
+This is the village in which my father was born. - Ez az a falu, amelyben apám született.
+we know whose it is - Tudjuk, hogy kié.
+```
 
+[^^^](#ENG)
 
+---
 
+#### BEFEJEZETT_MULT
 
+```
+She had never walked. - Ő sosem sétált azelőtt.
+The girls had already eaten. - A lányok már ettek előtte.
 
 
 ```
@@ -746,11 +757,30 @@ We do not know which student has asked. - nem tudjuk, melyik diák kérdezett.
 
 ---
 
-#### BEFEJEZETT_MULT
 #### ELVONT_FONEV_2
+
+[^^^](#ENG)
+
+---
+
 #### VISSZAHATO_NEVMAS
+
+[^^^](#ENG)
+
+---
+
 #### TERMESZET
+
+[^^^](#ENG)
+
+---
+
 #### IGENEVEK
+
+[^^^](#ENG)
+
+---
+
 #### SPORT
 
 ```
