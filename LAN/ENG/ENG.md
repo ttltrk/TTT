@@ -849,8 +849,11 @@ Now we have introduced ourselves. - Most bemutatkoztunk.
 
 ```
 He found another path. - Ő talált egy másik utat.
-
-ddd
+The fish jumps out of the water. - A hal kiugrik a vízből.
+There are six players in a volleyball team. - Hat játékos van egy röplabdacsapatban.
+The men are athletes. - A férfiak sportolók.
+He used to be a great athlete. - Valamikor nagyszerű sportoló volt.
+I saw the match on television. - Televízión láttam a meccset.
 ```
 
 [^^^](#ENG)
