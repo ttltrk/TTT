@@ -841,6 +841,28 @@ Now we have introduced ourselves. - Most bemutatkoztunk.
 
 #### IGENEVEK
 
+```
+I am making a basket for my mother. - Éppen kosarat készítek édesanyámnak.
+I do not like having a car. - Nem szeretem, hogy van autóm.
+The child was touching the cat. - A gyerek éppen megérintette a macskát.
+My aunt likes having tea in the afternoon. - A nagynéném szeret teázni délután.
+This year, another visit is following. - Idén egy újabb látogatás következik.
+As if I were speaking to myself. - Mintha önmagamhoz beszélnék.
+Where are you taking me? - hova viszel?
+He is giving the dog meat. - Éppen húst ad a kutyának.
+We were always giving her new books. - Mindig új könyveket adtunk neki.
+Are we taking a plane? - Repülővel megyünk?
+
+
+
+
+
+
+
+
+
+```
+
 [^^^](#ENG)
 
 ---
@@ -897,10 +919,20 @@ We will help my brother. - segiteni fogunk a fiveremnek
 
 ---
 
-####
-####
-####
-####
+#### POLITIKA
+#### S_IGES_JOVO
+#### TUDOMANY
+#### BEFEJEZETT_JOVO
+
+```
+She will have taken our bag. - Addigra már el fogja venni a táskánkat.
+He will have taken the medicine to the hospital. - Addigra el fogja vinni a gyógyszert a kórházba.
+Who will have taken my toothpaste? - Ki veszi el addigra a fogkrémemet?
+This change will have created more jobs by next month. - Jövő hónapra ez a módosítás további munkahelyeket teremt.
+
+
+```
+
 ####
 ####
 ####
