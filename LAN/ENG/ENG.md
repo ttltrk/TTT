@@ -874,6 +874,37 @@ I saw the match on television. - Televízión láttam a meccset.
 ---
 
 #### MUVESZET
+
+```
+I listen to the music. - zenét hallgatok.
+Please play the violin. - Kérlek, hegedülj!
+Did you like the movie? - Tetszett a film?
+At least two cameras are here. - Legalább kettő kamera van itt.
+He does not like the music I listen to. - nem szereti a zenét, amit hallgatok.
+She saw this movie only one time. - Csak egyszer látta ezt a filmet.
+what is a note - Mi az a hangjegy?
+I was sad after the film. - Szomorú voltam a film után.
+i study art history - Művészettörténetet tanulok.
+We heard a sound in the kitchen. - Hangot hallottunk a konyhában.
+When did you hear the sound? - Mikor hallottad a hangot?
+What do you think of modern art? - Mit gondolsz a modern művészetről?
+The clock makes a sound. - Az óra hangot ad.
+
+
+
+
+
+
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### KOMMUNIKACIO
 
 ```
@@ -889,6 +920,46 @@ Someone called the press and the journalists are here now. - Valaki hívta a saj
 ---
 
 #### EGESZSEG
+
+```
+cheers - Egészségedre!
+The wine goes to the head. - A bor a fejbe száll.
+She finds the body beautiful. - Gyönyörűnek találja a testet.
+I am taking care of my health. - Vigyázok az egészségemre.
+How to prevent cancer? - Hogyan előzzük meg a rákot?
+What is your blood type? - Mi a vércsoportod?
+Her hair is usually yellow. - A haja általában sárga.
+What disease does he have? - Milyen betegsége van?
+I have a disease myself. - Nekem magamnak is van betegségem.
+The disease has four stages. - A betegségnek négy szakasza van.
+The heart needs more blood. - A szívnek több vérre van szüksége.
+Ennek a pincérnek a haja fekete. - This waiter's hair is black.
+It took eight hours to do the operation. - Nyolc órába telt elvégezni a műtétet.
+I have a pain here. - Itt fáj.
+We go to work on foot. - gyalog megyünk munkába.
+The drugs had a positive effect. - A gyógyszereknek pozitív hatásuk volt.
+Do I have to change my diet? - Meg kell változtatnom az étrendemet?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### JOVO_IDO
 
 ```
@@ -923,15 +994,13 @@ He is in debt to me. - Ő az adósom.
 We have won the elections. - Megnyertük a választásokat.
 He is a member of congress. - Ő kongresszusi képviselő.
 The president has to speak with Congress. - Az elnöknek beszélnie kell a kongresszussal.
-
-
-
-
-
-
-
-
+What is the strategy of his campaign? - Mi a kampányának a stratégiája?
+The artists had more freedom. - A művészeknek több szabadsága volt.
 ```
+
+[^^^](#ENG)
+
+---
 
 #### S_IGES_JOVO
 #### TUDOMANY
@@ -978,4 +1047,27 @@ My wife will have decided by tomorrow. - A feleségem holnapig eldönti.
 ####
 ####
 ####
-####
+#### TULAJDONSAGOK
+
+```
+Thanks, I will take a look at it. - Köszönöm, utána fogok nézni.
+It is full of good qualities. - Tele van jó tulajdonságokkal.
+They took it by force. - Erővel elvették.
+She is also a beauty. - Ő is egy szépség.
+I went to see the Air Force. - Elmentem megnézni a légierőt.
+May the force be with you. - Az erő legyen veled.
+We need to accept the differences. - El kell fogadnunk a különbségeket.
+She gave me a nice look - Egy kedves pillantást vetett rám.
+Quality is more important than quantity. - A minőség fontosabb, mint a mennyiség.
+His personality is like yours. - Az ő személyisége olyan, mint a tied.
+This advantage helps me in my job. - Ez az előny segít nekem a munkámban.
+This problem is of great importance. - Ez a probléma nagy fontosságú.
+She is a woman who has a strong personality. - Ő egy nő, akinek erős személyisége van.
+In basketball, tall players have an advantage. - A kosárlabdában a magas játékosoknak előnyük van.
+What is the significance of this date? - Mi a jelentősége ennek a dátumnak?
+She put on a sad expression. - Szomorú arckifejezést vett fel.
+```
+
+[^^^](#ENG)
+
+---
