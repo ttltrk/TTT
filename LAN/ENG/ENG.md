@@ -885,10 +885,10 @@ She saw this movie only one time. - Csak egyszer látta ezt a filmet.
 what is a note - Mi az a hangjegy?
 I was sad after the film. - Szomorú voltam a film után.
 i study art history - Művészettörténetet tanulok.
-We heard a sound in the kitchen. - Hangot hallottunk a konyhában.
-When did you hear the sound? - Mikor hallottad a hangot?
+We heard a  in the kitchen. - Hangot hallottunk a konyhában.
+When did you hear the ? - Mikor hallottad a hangot?
 What do you think of modern art? - Mit gondolsz a modern művészetről?
-The clock makes a sound. - Az óra hangot ad.
+The clock makes a . - Az óra hangot ad.
 
 
 
@@ -1045,7 +1045,58 @@ My wife will have decided by tomorrow. - A feleségem holnapig eldönti.
 ####
 ####
 ####
-####
+#### ESEMENYEK
+
+```
+Is there a life after death? - Van élet a halál után?
+I do not like his actions. - Nem tetszik nekem, amit csinál.
+The bridge is open to traffic. - A híd nyitva áll a forgalom előtt.
+A new cycle starts. - Egy új ciklus kezdődik.
+When spring ends, summer starts. - Amikor a tavasz véget ér, a nyár kezdődik.
+We need actions, not words. - Tettekre van szükségünk, nem szavakra.
+I do not think of death. - Nem gondolok a halálra.
+In September fall starts. - Szeptemberben kezdődik az ősz.
+He is a traffic police officer. - Ő egy forgalomirányítási rendőr.
+When will the delivery arrive? - Mikor fog a küldemény megérkezni?
+I don't mind my actions. - Nem bánom a cselekedeteimet.
+Why does he not want to take action? - Miért nem akar cselekedni?
+It even had its own train stop. - Még saját vasútállomása is volt.
+today is a special occasion - A mai nap egy különleges alkalom.
+I heard a noise in the kitchen. - Zajt hallottam a konyhában.
+I cannot sleep because of the noise. - nem tudok aludni a zaj miatt
+She will have a heart attack. - Szívrohama lesz.
+I study here when there is no noise. - Akkor tanulok itt, amikor nincs zaj.
+We cannot sleep because of the noise. - Nem tudunk aludni a zaj miatt.
+I have wine for the occasion. - Van borom az alkalomra.
+On that occasion - Abból az alkalomból
+Life is full of battles. - Az élet csupa küzdelem.
+I have heard a noise behind me. - Zajt hallottam magam mögött.
+It is reserved for very special occasions. - Nagyon különleges alkalmakra tartogatja.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 ####
 #### TULAJDONSAGOK
 
