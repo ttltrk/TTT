@@ -852,15 +852,6 @@ Where are you taking me? - hova viszel?
 He is giving the dog meat. - Éppen húst ad a kutyának.
 We were always giving her new books. - Mindig új könyveket adtunk neki.
 Are we taking a plane? - Repülővel megyünk?
-
-
-
-
-
-
-
-
-
 ```
 
 [^^^](#ENG)
@@ -891,10 +882,6 @@ This channel has good programs. - Ezen a csatornán jó műsorok vannak.
 She gave me some stamps. - Adott nekem néhány bélyeget.
 Only the teacher has access to that room. - Csak a tanárnak van hozzáférése ahhoz a szobához.
 Someone called the press and the journalists are here now. - Valaki hívta a sajtót, és az újságírók most itt vannak.
-
-
-
-
 ```
 
 [^^^](#ENG)
@@ -920,6 +907,11 @@ We will help my brother. - segiteni fogunk a fiveremnek
 ---
 
 #### POLITIKA
+
+```
+Do I have to pay any tax? - kell adot fizetnem?
+```
+
 #### S_IGES_JOVO
 #### TUDOMANY
 
@@ -928,11 +920,19 @@ What is the purpose of the research? - Mi a kutatás célja?
 I work in the technology field. - technológiai pályán dolgozok .
 Last week's edition - A múlt heti kiadás
 We need a sample of her blood. - Szükségünk van mintára a véréből.
-
-
-
-
+The water volume is not enough. - A vízmennyiség nem elég.
+the author has had many publications - A szerzőnek sok publikációja volt már.
+It is not the minimum distance. - Ez nem a minimális távolság.
+At what speed does he run? - Milyen sebességgel fut?
+Its length is about one meter thirty. - A hossza nagyjából egy méter harminc.
+Photos are important to a publication. - A fényképek fontosak egy kiadványban.
+What is the distance between the two points? - Mennyi a két pont közötti távolság?
+The length of pieces is very different. - A darabok hossza nagyon különböző.
 ```
+
+[^^^](#ENG)
+
+---
 
 #### BEFEJEZETT_JOVO
 
@@ -945,11 +945,11 @@ The animal will have died without water. - Addigra már elpusztul majd víz nél
 We will have chosen this house. - Addigra már ezt a házat fogjuk választani.
 He will have decided to swim. - Addigra már az úszás mellett fog dönteni .
 My wife will have decided by tomorrow. - A feleségem holnapig eldönti.
-
-
-
-
 ```
+
+[^^^](#ENG)
+
+---
 
 ####
 ####
