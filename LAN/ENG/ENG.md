@@ -922,6 +922,16 @@ We will help my brother. - segiteni fogunk a fiveremnek
 #### POLITIKA
 #### S_IGES_JOVO
 #### TUDOMANY
+
+```
+What is the purpose of the research? - Mi a kutatás célja?
+I work in the technology field. - technológiai pályán dolgozok .
+Last week's edition - A múlt heti kiadás
+
+
+
+```
+
 #### BEFEJEZETT_JOVO
 
 ```
@@ -929,6 +939,12 @@ She will have taken our bag. - Addigra már el fogja venni a táskánkat.
 He will have taken the medicine to the hospital. - Addigra el fogja vinni a gyógyszert a kórházba.
 Who will have taken my toothpaste? - Ki veszi el addigra a fogkrémemet?
 This change will have created more jobs by next month. - Jövő hónapra ez a módosítás további munkahelyeket teremt.
+The animal will have died without water. - Addigra már elpusztul majd víz nélkül az állat.
+We will have chosen this house. - Addigra már ezt a házat fogjuk választani.
+He will have decided to swim. - Addigra már az úszás mellett fog dönteni .
+My wife will have decided by tomorrow. - A feleségem holnapig eldönti.
+
+
 
 
 ```
