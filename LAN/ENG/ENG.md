@@ -927,6 +927,8 @@ We will help my brother. - segiteni fogunk a fiveremnek
 What is the purpose of the research? - Mi a kutatás célja?
 I work in the technology field. - technológiai pályán dolgozok .
 Last week's edition - A múlt heti kiadás
+We need a sample of her blood. - Szükségünk van mintára a véréből.
+
 
 
 
