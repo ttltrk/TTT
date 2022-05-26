@@ -910,6 +910,27 @@ We will help my brother. - segiteni fogunk a fiveremnek
 
 ```
 Do I have to pay any tax? - kell adot fizetnem?
+They both court the woman. - Mindketten udvarolnak a nőnek.
+They have a new government. - Új kormányuk van.
+Both of his sons died during the war. - Mindkét fia a háborúban halt meg.
+The coach has given me advice. - Az edző tanácsot adott nekem.
+It is a national issue. - Ez nemzeti ügy.
+Each society has its laws. - Minden társadalomnak megvannak a maga törvényei.
+It is the national book week. - Ez az országos könyvhét.
+The army has a good strategy. - A hadseregnek jó stratégiája van.
+the society wants to live in peace - A társadalom békében akar élni.
+He is in debt to me. - Ő az adósom.
+We have won the elections. - Megnyertük a választásokat.
+He is a member of congress. - Ő kongresszusi képviselő.
+The president has to speak with Congress. - Az elnöknek beszélnie kell a kongresszussal.
+
+
+
+
+
+
+
+
 ```
 
 #### S_IGES_JOVO
