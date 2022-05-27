@@ -852,6 +852,12 @@ Where are you taking me? - hova viszel?
 He is giving the dog meat. - Éppen húst ad a kutyának.
 We were always giving her new books. - Mindig új könyveket adtunk neki.
 Are we taking a plane? - Repülővel megyünk?
+He was trying to eat. - Enni próbált.
+I have been thinking about what you said. - Gondolkodtam azon, amit mondtál.
+That day I was eating at my house. - Éppen ettem aznap a házamban.
+Were you walking all day? - Egész nap gyalogoltál?
+What is happening to her? - Mi történik vele?
+But my grandmother was always watching her. - De a nagymamám mindig figyelte őt.
 ```
 
 [^^^](#ENG)
@@ -891,6 +897,11 @@ What do you think of modern art? - Mit gondolsz a modern művészetről?
 The clock makes a . - Az óra hangot ad.
 This is a familiar sound. - Ez egy ismerős hang.
 The figure is a man. - Az ábrán egy férfi van.
+It was a center for literature and theater. - Irodalmi és színházi központ volt.
+The opening is this Friday. - A megnyitó e hét pénteken van.
+A contest is going on here. - Itt egy verseny folyik.
+
+
 
 
 
