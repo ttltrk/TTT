@@ -1097,7 +1097,27 @@ It is reserved for very special occasions. - Nagyon különleges alkalmakra tart
 
 ---
 
-####
+#### FELTETELES_MULT
+
+```
+They would have written that story. - Megírták volna azt a történetet.
+We would have been happy. - Boldogok lettünk volna.
+They would have had to go there. - Oda kellett volna menniük.
+No, this would have been worse. - Nem, ez rosszabb lett volna.
+I would have had to live with my sister. - A nővéremnél kellett volna laknom.
+They would have been able to walk. - Tudtak volna járni.
+
+
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
 #### TULAJDONSAGOK
 
 ```
