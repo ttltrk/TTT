@@ -889,6 +889,10 @@ We heard a  in the kitchen. - Hangot hallottunk a konyhában.
 When did you hear the ? - Mikor hallottad a hangot?
 What do you think of modern art? - Mit gondolsz a modern művészetről?
 The clock makes a . - Az óra hangot ad.
+This is a familiar sound. - Ez egy ismerős hang.
+The figure is a man. - Az ábrán egy férfi van.
+
+
 
 
 
@@ -1043,8 +1047,63 @@ My wife will have decided by tomorrow. - A feleségem holnapig eldönti.
 
 ####
 ####
-####
-####
+#### UZLET
+
+```
+That book is not for sale here. - Az a könyv nem eladó itt.
+He gave them food and money. - Ételt és pénzt adott nekik.
+These are good deals. - Ezek jó megállapodások.
+How much is my coat worth? - Mennyit ér a kabátom?
+The two countries use different currencies. - A két ország más-más pénznemet használ.
+My father has many contracts to write. - Apámnak sok szerződést kell írnia.
+We decided to make a deal with him. - Úgy döntöttünk, megegyezünk vele.
+How much is this worth? - Ez mennyit ér?
+I trust this brand of computers. - Ebben a számítógépmárkában bízom.
+The awards are worth the effort. - A díjak megérik az erőfeszítést.
+My wife has received a promotion. - A feleségem előléptetést kapott.
+We made a contract with the firm. - Leszerződtünk a céggel.
+The advertisements make him popular. - A reklámok népszerűvé teszik.
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
+[^^^](#ENG)
+
+---
+
+#### MOD_S_IGEK
+
+```
+I would like a new car. - Szeretnék egy új autót.
+They may go. - Lehet, hogy mennek.
+They should learn more words. - Több szót kellene megtanulniuk.
+he must be very happy - Biztosan nagyon boldog.
+I could not go to school for a week. - Egy hétig nem mehettem iskolába.
+They could not forget. - nem tudtak elfelejteni
+You should talk to her in person. - Személyesen kellene vele beszélned.
+One cannot live without water. - Az ember nem élhet víz nélkül.
+Can I buy you a coffee? - Meghívhatlak egy kávéra?
+You can talk to some people. - Beszélhetsz néhány emberrel.
+I would ask her. - megkernem ot
+we could eat fruit - Ehetnénk gyümölcsöt.
+They may go. - Lehet, hogy mennek.
+```
+
+[^^^](#ENG)
+
+---
+
 #### ESEMENYEK
 
 ```
@@ -1072,25 +1131,6 @@ On that occasion - Abból az alkalomból
 Life is full of battles. - Az élet csupa küzdelem.
 I have heard a noise behind me. - Zajt hallottam magam mögött.
 It is reserved for very special occasions. - Nagyon különleges alkalmakra tartogatja.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 [^^^](#ENG)
@@ -1106,12 +1146,11 @@ They would have had to go there. - Oda kellett volna menniük.
 No, this would have been worse. - Nem, ez rosszabb lett volna.
 I would have had to live with my sister. - A nővéremnél kellett volna laknom.
 They would have been able to walk. - Tudtak volna járni.
-
-
-
-
-
-
+My uncle would have returned today. - Ma tért volna vissza a nagybátyám.
+they would have figured out the answer - Rájöttek volna a válaszra.
+He would have said that he liked me. - Azt mondta volna, hogy kedvel engem.
+She would have managed to eat the whole fish. - Sikerült volna megennie az egész halat.
+He would have discovered a different country. - Egy másmilyen országot fedezett volna fel.
 ```
 
 [^^^](#ENG)
