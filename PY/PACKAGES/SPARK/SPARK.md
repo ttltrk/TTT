@@ -16,10 +16,17 @@
 
 ---
 
+* []()
+* []()
+* []()
+* []()
+* []()
+
+---
+
 #### LINKS
 
-- YT
-
+* [PYSPARK_TUTORIAL](https://www.youtube.com/watch?v=_C8kWso4ne4&t=1780s)
 * [SPARK_FUN_1](https://courses.cognitiveclass.ai/courses/course-v1:BigDataUniversity+BD0211EN+v1/courseware/50e2f47dec3341ab984fb0505c202b99/7f3e68eea7e7416e9481ec7e69f212b4/?child=first)
 
 ---
@@ -144,6 +151,79 @@ say a node goes offline. All it needs to do when it comes back online is to re-e
 the graph to where it left off.
 Caching is provided with Spark to enable the processing to happen in memory. If it does
 not fit in memory, it will spill to disk.
+
+[^^^](#SPARK)
+
+---
+
+[^^^](#SPARK)
+
+---
+
+####
+
+- setup config
+
+```py
+!apt-get install openjdk-8-jdk-headless -qq > /dev/null
+!wget -q http://archive.apache.org/dist/spark/spark-3.1.1/spark-3.1.1-bin-hadoop3.2.tgz
+!tar xf spark-3.1.1-bin-hadoop3.2.tgz
+!pip install -q findspark
+```
+
+```py
+import os
+os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+os.environ["SPARK_HOME"] = "/content/spark-3.1.1-bin-hadoop3.2"
+```
+
+```py
+import findspark
+findspark.init()
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.master("local[*]").getOrCreate()
+spark.conf.set("spark.sql.repl.eagerEval.enabled", True) # Property used to format output tables better
+spark
+```
+
+```py
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName('Practise').getOrCreate()
+spark
+```
+
+[^^^](#SPARK)
+
+---
+
+####
+
+```py
+# read the uploaded file
+df_pyspark=spark.read.csv('test.csv')
+df_pyspark
+```
+
+```py
+df_pyspark.show()
+```
+
+```py
+#read with header
+spark.read.option('header', 'true').csv('test.csv')
+```
+
+```py
+spark.read.option('header', 'true').csv('test.csv').show()
+```
+
+[^^^](#SPARK)
+
+---
+
+[^^^](#SPARK)
+
+---
 
 [^^^](#SPARK)
 
