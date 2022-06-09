@@ -217,6 +217,20 @@ spark.read.option('header', 'true').csv('test.csv')
 spark.read.option('header', 'true').csv('test.csv').show()
 ```
 
+```py
+# check the datatype of dataset
+df_pyspark = spark.read.option('header', 'true').csv('test.csv')
+type(df_pyspark)
+```
+
+```py
+df_pyspark.head(3)
+```
+
+```py
+df_pyspark.printSchema()
+```
+
 [^^^](#SPARK)
 
 ---
