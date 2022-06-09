@@ -235,6 +235,99 @@ df_pyspark.printSchema()
 
 ---
 
+####  
+
+```py
+# read the dataset
+spark.read.option('header','true').csv('test.csv')
+```
+
+```py
+# read the dataset
+spark.read.option('header','true').csv('test.csv').show()
+```
+
+```py
+df_pyspark=spark.read.option('header','true').csv('test.csv')
+```
+
+```py
+# check the schema
+df_pyspark.printSchema()
+```
+
+```py
+# change the data types
+df_pyspark=spark.read.option('header','true').csv('test.csv', inferSchema=True)
+df_pyspark.printSchema()
+```
+
+```py
+df_pyspark=spark.read.csv('test.csv', header=True, inferSchema=True)
+df_pyspark.show()
+```
+
+```py
+df_pyspark.printSchema()
+```
+
+```py
+# check the columns
+df_pyspark.columns
+```
+
+```py
+# pick-up a column
+df_pyspark.select('lastname')
+```
+
+```py
+type(df_pyspark.select('lastname'))
+```
+
+```py
+# pick-up more columns
+df_pyspark.select(['personid','lastname'])
+```
+
+```py
+df_pyspark['lastname']
+```
+
+```py
+df_pyspark.dtypes
+```
+
+```py
+df_pyspark.describe()
+```
+
+```py
+# adding columns
+df_pyspark.withColumn('personid_plus_2', df_pyspark['personid']+2)
+```
+
+```py
+# adding columns
+df_pyspark.withColumn('Experience', df_pyspark['city'])
+```
+
+```py
+
+```
+
+```py
+
+```
+
+```py
+
+```
+
+```py
+
+```
+
 [^^^](#SPARK)
 
 ---
