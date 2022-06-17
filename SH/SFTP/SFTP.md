@@ -28,7 +28,7 @@ later you will be able to use this cmd
 ssh -i /path/path/.ssh/id_rsa.name_of_the_key 'user@host'
 ```
 
-on the target server go to your own folder and create a ```.ssh``` folder with permission 700 in the ```.ssh``` folder create a file with name ```authorized_keys``` and past the content from the ```id_rsa.name_of_the_key``` and save it. change the permission of the file to 600
+on the target server go to your own folder and create a ```.ssh``` folder with permission 700 in the ```.ssh``` folder create a file with name ```authorized_keys``` and past the content from the ```id_rsa.name_of_the_key.pub``` and save it. change the permission of the file to 600
 
 check the sshd_config and according to the settings change your file name
 
