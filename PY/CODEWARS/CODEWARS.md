@@ -68,8 +68,6 @@ build_string('Cheese','Milk','Chocolate')
 
 ---
 
----
-
 #### Vowel_remover
 
 8 kyu
