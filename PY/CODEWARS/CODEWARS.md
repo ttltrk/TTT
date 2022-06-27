@@ -11,8 +11,8 @@
 
 8 kyu
 
+* [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
-* [](#)
 * [](#)
 * [](#)
 
@@ -38,6 +38,35 @@
 * [](#)
 * [](#)
 * [](#)
+
+
+---
+
+#### String_Templates_BugFixing5
+
+8 kyu
+
+- [link](https://www.codewars.com/kata/55c90cad4b0fe31a7200001f/train/python)
+
+```
+Oh no! Timmy hasn't followed instructions very carefully and forgot how to use the new String Template feature, Help Timmy with his string template so it works as he expects!
+```
+
+```py
+# DONE - https://www.codewars.com/kata/55c90cad4b0fe31a7200001f/train/python
+def build_string(*args):
+    return f"I like %s!" % ', '.join(map(str, args))
+
+build_string('Cheese','Milk','Chocolate')
+
+>>>
+'I like Cheese, Milk, Chocolate!'
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
 
 ---
 
