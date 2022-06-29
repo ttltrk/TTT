@@ -11,9 +11,10 @@
 
 8 kyu
 
+* [powers_of_two](#powers_of_two)
+* [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
-* [](#)
 * [](#)
 
 7 kyu
@@ -39,6 +40,45 @@
 * [](#)
 * [](#)
 
+
+---
+
+#### powers_of_two
+
+```py
+#DONE - https://www.codewars.com/kata/57a083a57cb1f31db7000028/train/python
+
+def powers_of_two(n):
+    l = []    
+    for nums in range(n+1):
+        l.append(2**nums)   
+    return l
+
+powers_of_two(4)
+
+>>>
+[1, 2, 4, 8, 16]
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### Replace_all_dots
+
+```py
+def replace_dots(str):
+    return str.replace(".", "-")
+
+replace_dots("one.two.three")
+
+>>>
+'one-two-three'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
