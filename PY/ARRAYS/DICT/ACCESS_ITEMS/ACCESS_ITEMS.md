@@ -155,13 +155,70 @@ dict_values(['Ford', 'Mustang', 1964, 'red'])
 
 ---
 
+#### GET_ITEMS
+
+The items() method will return each item in a dictionary, as tuples in a list.
+
+```py
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = thisdict.items()
+
+print(x)
+
+>>>
+dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+>>>
+```
+
+The returned list is a view of the items of the dictionary, meaning that any changes done to the dictionary will be reflected in the items list.
+
+```py
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.items()
+
+print(x) #before the change
+
+car["year"] = 2020
+
+print(x) #after the change
+
+>>>
+dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 2020)])
+>>>
+```
+
 [^^^](#ACCESS_ITEMS)
 
 ---
 
-[^^^](#ACCESS_ITEMS)
+#### CHECK_IF_KEY_EXISTS
 
----
+To determine if a specified key is present in a dictionary use the in keyword:
+
+```py
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+if "model" in thisdict:
+  print("Yes, 'model' is one of the keys in the thisdict dictionary")
+
+>>>
+Yes, 'model' is one of the keys in the thisdict dictionary
+>>>
+```
 
 [^^^](#ACCESS_ITEMS)
 
