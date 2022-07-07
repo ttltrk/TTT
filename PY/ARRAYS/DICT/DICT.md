@@ -10,6 +10,7 @@
 ---
 
 * [DICTIONARY_BASICS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_BASICS/DICT_BASICS.md)
+* [ACCESS_ITEMS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/ACCESS_ITEMS/ACCESS_ITEMS.md)
 * [DICTIONARY_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_METH/DICT_METH.md)
 
 ---
