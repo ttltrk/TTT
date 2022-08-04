@@ -9,6 +9,12 @@
 
 ---
 
+#### 2022-AUG
+
+- D03 - 2022-AUG-04 (TH): Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial
+- D02 - 2022-AUG-03 (WE): Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial
+- D01 - 2022-AUG-02 (TU): Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial
+
 #### 2022-FEB
 
 - D05 - 2022-02-04 (FR): PY_PCEP
