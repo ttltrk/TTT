@@ -11,6 +11,7 @@
 
 #### 2022-AUG
 
+- D04 - 2022-AUG-05 (FR): [Python TensorFlow for Machine Learning](https://www.youtube.com/watch?v=VtRLrQ3Ev-U&t=921s)
 - D03 - 2022-AUG-04 (TH): [Python TensorFlow for Machine Learning](https://www.youtube.com/watch?v=VtRLrQ3Ev-U&t=921s)
 - D02 - 2022-AUG-03 (WE): [Python TensorFlow for Machine Learning](https://www.youtube.com/watch?v=VtRLrQ3Ev-U&t=921s)
 - D01 - 2022-AUG-02 (TU): [Python TensorFlow for Machine Learning](https://www.youtube.com/watch?v=VtRLrQ3Ev-U&t=921s)
