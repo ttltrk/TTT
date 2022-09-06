@@ -47,11 +47,31 @@ It is, to date, the largest cloud provider in the world.
 
 #### CLOUD_CERTIFICATION
 
+##### AWS Certified Cloud Practitioner
+
+AWS offers a Certification Program for AWS Cloud Practitioner.
+Completing the exam grants the AWS Certified Cloud Practitioner title.
+The certificate is for you who want to boost your skills and add credentials to your CV.
+
+##### Document Your Skills
+
+Knowledge is power, especially in the current job market. Documentation of your skills enables you to advance your career, or help you to start a new one.
+
+##### Get a Certificate
+
+Getting a certificate proves your commitment to upgrade your skills, gives you the credibility needed for more responsibilities, larger projects, and a higher salary.
+
 [^^^](#W3_AWS_CT)
 
 ---
 
 #### GET_STARTED
+
+##### FREE_AWS_ACC
+
+AWS offers a free tier, letting you explore and try out their services.
+The free tier offers you limited use of services for free.
+So let us get started with creating your free account!
 
 [^^^](#W3_AWS_CT)
 
