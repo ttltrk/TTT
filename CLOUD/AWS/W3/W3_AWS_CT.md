@@ -19,6 +19,8 @@ https://www.w3schools.com/aws/index.php
 
 * [INTRO](#INTRO)
 * [CLOUD_CERTIFICATION](#CLOUD_CERTIFICATION)
+* [GET_STARTED](#GET_STARTED)
+* [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 
 ---
 
