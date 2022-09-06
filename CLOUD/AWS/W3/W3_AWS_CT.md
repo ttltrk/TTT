@@ -73,6 +73,12 @@ AWS offers a free tier, letting you explore and try out their services.
 The free tier offers you limited use of services for free.
 So let us get started with creating your free account!
 
+##### HOW_TO_SIGN_UP
+
+- Step 1: Go to the AWS website to get your free account: Sign up for free
+- Step 2: Click the "Create a free account" button.
+- Step 3: Complete the registration steps.
+
 [^^^](#W3_AWS_CT)
 
 ---
