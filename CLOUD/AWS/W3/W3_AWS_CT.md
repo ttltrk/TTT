@@ -21,6 +21,7 @@ https://www.w3schools.com/aws/index.php
 * [CLOUD_CERTIFICATION](#CLOUD_CERTIFICATION)
 * [GET_STARTED](#GET_STARTED)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
+* [CLOUD_BENEFITS](#CLOUD_BENEFITS)
 
 ---
 
@@ -44,25 +45,25 @@ It is, to date, the largest cloud provider in the world.
 
 ---
 
-####
+#### CLOUD_CERTIFICATION
 
 [^^^](#W3_AWS_CT)
 
 ---
 
-####
+#### GET_STARTED
 
 [^^^](#W3_AWS_CT)
 
 ---
 
-####
+#### CLOUD_COMPUTING
 
 [^^^](#W3_AWS_CT)
 
 ---
 
-####
+#### CLOUD_BENEFITS
 
 [^^^](#W3_AWS_CT)
 
