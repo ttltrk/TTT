@@ -246,10 +246,6 @@ Users can connect and access the computer desktop by logging in.
 Once connected, you can use the instance.
 Execute commands to install software, add storage, copy, and organize files, and much more.
 
-#####
-#####
-#####
-
 [^^^](#W3_AWS_CT)
 
 ---
