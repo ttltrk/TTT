@@ -212,7 +212,16 @@ You can pick the ones near your clients to reduce the latency.
 
 ---
 
-####
+#### EC2_INTRO
+
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
 
 [^^^](#W3_AWS_CT)
 
