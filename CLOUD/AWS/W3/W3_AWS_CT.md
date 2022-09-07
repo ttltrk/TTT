@@ -161,6 +161,53 @@ For example, you are working with sensitive data or are under specific governmen
 
 #### CLOUD_BENEFITS
 
+##### Why Choose Cloud Computing?
+
+There are many reasons for going with the cloud.
+Cloud computing enables benefits such as:
+
+- Cost savings
+- Security
+- Scalability
+- Flexibility
+
+##### Payment Model
+
+The cloud payment model is flexible.
+You do not have to invest in a data center, servers, and other resources.
+The cloud services is a variable expense.
+You can use the services from the start and consume more as you grow.
+
+##### Fewer Operations
+
+Having your own data centers and servers requires resources and staffing.
+Cloud computing reduces operation and lets you focus on important things, such as your applications and customers.
+
+##### Flexible Capacity
+
+Having and managing your own servers can result in unused capacity and limitations.
+On the other hand, you can grow freely with cloud computing.
+You pay for what you use
+
+##### Economies at Scale
+
+Cloud computing is about shared resources.
+Sharing the infrastructure cost with hundreds of thousands of other customers lowers the overall costs.
+
+##### Increased Speed
+
+The flexibility of cloud computing makes it easier to develop and deploy applications.
+You can test and utilize resources as you want in minutes.
+This freedom allows you to experiment and invent more.
+It allows for instant resource access.
+
+##### Global Reach
+
+AWS has data centers all over the world.
+The AWS Cloud's global reach allows you to swiftly deploy apps to consumers anywhere.
+Customers can access your apps quickly.
+You can pick the ones near your clients to reduce the latency.
+
 [^^^](#W3_AWS_CT)
 
 ---
