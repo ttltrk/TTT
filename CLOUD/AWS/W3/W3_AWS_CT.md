@@ -214,11 +214,38 @@ You can pick the ones near your clients to reduce the latency.
 
 #### EC2_INTRO
 
-#####
-#####
-#####
-#####
-#####
+##### AWS EC2 - Virtual Cloud Server
+
+EC2 is a virtual server in the AWS Cloud.
+AWS EC2 is short for AWS Elastic Cloud Compute.
+It makes scaling of capacity up and down easy.
+
+##### Why AWS EC2?
+
+It makes the process of increasing and decreasing capacity easier.
+As a result, you can access the resources at demand.
+No upfront investment is needed.
+You only pay for what you need.
+EC2 is secure.
+
+##### 1. Launch
+
+Start with selecting a template with basic configurations.
+The config includes the operating system, application server, or applications.
+Next, decide the instance type and hardware configuration of your instance.
+Finally, specify the security settings to control the traffic in and out of your instance.
+
+##### 2. Connect
+
+There are many ways to connect an instance.
+Programs and applications have multiple connection methods to exchange data.
+Users can connect and access the computer desktop by logging in.
+
+##### 3. Use
+
+Once connected, you can use the instance.
+Execute commands to install software, add storage, copy, and organize files, and much more.
+
 #####
 #####
 #####
