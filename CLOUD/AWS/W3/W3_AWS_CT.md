@@ -275,10 +275,38 @@ It fits many purposes. Such as:
 
 The General Purpose Instances are best when there is a balance between the resources.
 
-#####
-#####
-#####
-#####
+##### Compute Optimized Instances
+
+The Compute Optimized Instances are best there is a need for high compute.
+This type is also good for application servers, gaming servers, and web applications.
+The main difference is that this type is ideal for high-performance and compute-intensive needs.
+
+##### Memory Optimized Instances
+
+This type can deliver large dataset workloads fast.
+
+Memory is a temporary storage area.
+It loads from storage, holds the data, and processes it before the computer can run it.
+The processing allows for a preloading process and gives the CPU direct access to the computer program.
+The Memory Optimized Instances are best when huge amounts of data need to be preloaded before running the app.
+
+##### Accelerated Computing Instances
+
+This type use hardware accelerators.
+The accelerators boost the data processing.
+The Accelerated Computing Instances are best for graphics applications and streaming.
+
+##### Storage Optimized Instances
+
+This type is best when you have large datasets on local storage.
+Some examples:
+
+- Large file systems
+- Data warehouses
+- Online transaction systems
+
+The Storage Optimized Instances are designed to deliver many inputs as fast as possible.
+
 #####
 #####
 #####
