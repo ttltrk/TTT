@@ -250,7 +250,40 @@ Execute commands to install software, add storage, copy, and organize files, and
 
 ---
 
-####
+#### EC2_INSTANCE_TYPE
+
+##### AWS EC2 Instance Types
+
+There are different instance types.
+Which one to use depends on the needs.
+
+##### More About EC2 Instance Types
+
+The types are best used for different things.
+Therefore, when selecting an instance type, consider the needs.
+For example, needs can be a requirement for compute, memory, or storage.
+
+##### General Purpose Instance
+
+The General Purpose Instance balances computing, memory, and networking resources.
+It fits many purposes. Such as:
+
+- Application servers
+- Gaming servers
+- Backend servers for companies
+- Small and medium databases
+
+The General Purpose Instances are best when there is a balance between the resources.
+
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
+#####
 
 [^^^](#W3_AWS_CT)
 
