@@ -343,7 +343,12 @@ This pricing model is best for workloads with flexible start and end times, whic
 Spot instances can give up to a 90% cost savings.
 The reason behind the discount is that AWS can optimize its capacity, giving you better prices.
 
-#####
+##### Dedicated Hosts
+
+Dedicated hosts are physical servers fully dedicated to you.
+You can use your existing VM software licenses.
+The Dedicated Host is the most expensive model.
+
 #####
 
 [^^^](#W3_AWS_CT)
