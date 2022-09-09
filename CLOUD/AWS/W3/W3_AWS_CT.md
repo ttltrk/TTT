@@ -349,7 +349,27 @@ Dedicated hosts are physical servers fully dedicated to you.
 You can use your existing VM software licenses.
 The Dedicated Host is the most expensive model.
 
-#####
+##### EC2_SCALING
+
+###### AWS EC2 Scaling
+
+Scaling is about only using the resources that you need.
+In addition, have the flexibility to grow freely.
+Make sure to have an architecture that can handle changes in demand.
+Designing a scalable achitecture allow you to only pay for the resources that you need at any given time.
+
+###### AWS EC2 Auto Scaling
+
+Servers can get more requests than they can handle.
+Too many requests can cause timeouts and outages.
+AWS EC2 Auto Scaling allows you to add or remove EC2 instances automatically.
+It automates the capacity to the demand.
+
+There are two approaches:
+
+- Dynamic scaling: responds to changing demand
+- Predictive scaling: schedules the number of instances based on a predicted demand
+- Dynamic and Predictive scaling can be combined to scale faster
 
 [^^^](#W3_AWS_CT)
 
