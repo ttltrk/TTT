@@ -307,17 +307,44 @@ Some examples:
 
 The Storage Optimized Instances are designed to deliver many inputs as fast as possible.
 
-#####
-#####
-#####
-#####
-#####
-
 [^^^](#W3_AWS_CT)
 
 ---
 
-####
+#### EC2_PRICING
+
+##### AWS EC2 Pricing
+
+With AWS EC2 you pay for the compute time.
+You only pay for the compute time that you use.
+It offers different pricing options.
+
+##### On Demand Instances
+
+On Demand Instances are best used for short-term workloads.
+It requires no upfront costs or minimum amount on the purchase.
+The instances run until you stop them.
+You pay for what you use.
+
+##### AWS EC2 Savings Plan
+
+The savings plan is a commitment for usage over a 1-year or 3-year term.
+Committing to a period gives a discounted price.
+If you surpass the budget, the cost goes to normal (on-demand) prices.
+
+##### Reserved Instances
+
+The Reserved Instances are used to reserve instances for an agreed period.
+The options are for 1-year or 3-years. The latter one gives the highest discount.
+
+##### Spot Instances
+
+This pricing model is best for workloads with flexible start and end times, which can take interruptions.
+Spot instances can give up to a 90% cost savings.
+The reason behind the discount is that AWS can optimize its capacity, giving you better prices.
+
+#####
+#####
 
 [^^^](#W3_AWS_CT)
 
