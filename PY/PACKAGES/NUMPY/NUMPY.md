@@ -20,6 +20,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 * [CREATING_ARRAYS_W3](#CREATING_ARRAYS_W3)
 * [ARRAY_INDEXING_W3](#ARRAY_INDEXING_W3)
 * [ARRAY_SLICING_W3](#ARRAY_SLICING_W3)
+* [NP_DATA_TYPES_W3](#NP_DATA_TYPES_W3)
 
 ---
 
@@ -535,6 +536,24 @@ print(arr[0:2, 1:4])
 [[2 3 4]
  [7 8 9]]
 >>>
+```
+
+[^^^](#NUMPY)
+
+---
+
+#### NP_DATA_TYPES_W3
+
+##### Data Types in Python
+
+By default Python have these data types:
+
+```
+- strings - used to represent text data, the text is given under quote marks. e.g. "ABCD"
+- integer - used to represent integer numbers. e.g. -1, -2, -3
+- float - used to represent real numbers. e.g. 1.2, 42.42
+- boolean - used to represent True or False.
+- complex - used to represent complex numbers. e.g. 1.0 + 2.0j, 1.5 + 2.5j
 ```
 
 [^^^](#NUMPY)
