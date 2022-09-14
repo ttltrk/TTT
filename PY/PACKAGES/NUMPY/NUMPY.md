@@ -576,6 +576,34 @@ U - unicode string
 V - fixed chunk of memory for other type ( void )
 ```
 
+#### checking the data type of an array
+
+The NumPy array object has a property called dtype that returns the data type of the array.
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr.dtype)
+
+>>>
+int32
+>>>
+```
+
+```py
+import numpy as np
+
+arr = np.array(['apple', 'banana', 'cherry'])
+
+print(arr.dtype)
+
+>>>
+<U6
+>>>
+```
+
 [^^^](#NUMPY)
 
 ---
