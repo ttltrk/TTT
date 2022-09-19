@@ -1030,7 +1030,6 @@ set accordingly.
 
 ##### Polynomial Regression and Pipelines
 
-Start of transcript. Skip to the end.
 In this video we will cover Polynomial Regression and Pipelines.
 What do we do when a linear model is not the best fit for our data?
 Let’s look into another type of regression model: the polynomial regression.
