@@ -1485,8 +1485,76 @@ This may improve the results in the unseen data, but the model has worse perform
 on the test data.
 See the lab on how to generate this plot.
 
-#####
+##### Grid Search
 
+Grid search allows us to scan through multiple free parameters with few lines of code.
+Parameters like the alpha term discussed in the previous video are not part of the fitting
+or training process.
+These values are called hyperparameters.
+Scikit-learn has a means of automatically iterating over these hyperparameters using
+cross-validation.
+This method is called Grid search.
+Grid search takes the model or objects you would like to train and different values of
+the hyperparameters.
+It then calculates the mean square error or R squared for various hyperparameter values,
+allowing you to choose the best values.
+Let the small circles represent different hyperparameters.
+We start off with one value for hyperparameters and train the model.
+We use different hyperparameters to train the model.
+We continue the process until we have exhausted the different free parameter values.
+Each model produces an error.
+We select the hyperparameter that minimizes the error.
+To select the hyperparameter, we split our dataset into three parts, the training set,
+validation set, and test set.
+We train the model for different hyperparameters.
+We use the R squared or mean square error for each model.
+We select the hyperparameter that minimizes the mean squared error or maximizes the
+R squared on the validation set.
+We finally test our model performance using the test data.
+This is the scikit learn web-page where the object constructor parameters are given.
+It should be noted that the attributes of an object are also called parameters.
+We will not make the distinction even though some of the options are not hyperparameters
+per say.
+In this module, we will focus on the hyperparameter alpha and the normalization parameter.
+The value of your grid search is a Python list that contains a Python dictionary.
+The key is the name of the free parameter.
+The value of the dictionary is the different values of the free parameter.
+This can be viewed as a table with various free parameter values.
+We also have the object or model.
+The grid search takes on the scoring method, in this case R squared, the number of folds,
+the model or object, and the free parameter values.
+Some of the outputs include the different scores for different free parameter values;
+in this case the R squared along with the free parameter values that have the best score.
+First, we import the libraries we need including Grid Search CV, the dictionary of parameter
+values.
+We create a ridge regression object or model.
+We then create a Grid Search CV object; the inputs are the ridge regression object, the
+parameter values and the number of folds.
+We will use R squared; this is the default scoring method.
+We fit the object.
+We can find the best values for the free parameters using the attribute best estimator.
+We can also get information like the mean score on the validation data using the attribute
+cv result.
+One of the advantages of Grid search is how quickly we can test multiple parameters.
+For example, Ridge regression has the option to normalize the data.
+To see how to standardize, see Module 4.
+The term alpha is the first element in the dictionary, the second element is the normalize
+option.
+The key is the name of the parameter.
+The value is the different options, in this case, because we can either normalize the
+data or not, the values are true or false, respectively.
+The Dictionary is a table or grid that contains two different values.
+As before, we need the ridge regression object or model.
+The procedure is similar, except that we have a table or grid of different parameter values.
+The output is the score for all the different combinations of parameter values.
+The code is also similar.
+The dictionary contains the different free parameter values.
+We can find the best value for the free parameters.
+The resulting scores of the different free parameters are stored in this dictionary:
+Grid1.cv_results_.
+We can print out the score for the different free parameter values.
+The parameter values are stored as shown here.
+See the course labs for more examples.
 
 
 [^^^](#DATA_ANALYSIS)
