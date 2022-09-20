@@ -19,6 +19,7 @@
 ---
 
 * [DATA_ANALYSIS](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DATA_ANALYSIS/DATA_ANALYSIS.md)
+* [DATA_VISUAL](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DATA_VISUAL/DATA_VISUAL.md)
 * [BIG_DATA](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/BIG_DATA/BIG_DATA.md)
 * [DATA_SCIENCE](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DATA_SCIENCE/DATA_SCIENCE.md)
 * [DEEP_LEARNING](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/DEEP_LEARNING/DEEP_LEARNING.md)
