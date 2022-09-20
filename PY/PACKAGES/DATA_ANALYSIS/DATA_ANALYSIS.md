@@ -1221,15 +1221,23 @@ Polynomial regression will also have a smaller MSE then regular regression.
 A similar inverse relationship holds for R^2.
 In the next section we’ll look at better ways to evaluate the model.
 
-#####
-
-#####
-
 [^^^](#DATA_ANALYSIS)
 
 ---
 
 #### MODULE_5
+
+##### Model Evaluation and Refinement
+
+In this module, we are going to talk about model evaluation.
+In this lesson you will learn about: Model Evaluation
+Over-fitting, Under-fitting and Model Selection Ridge Regression
+Grid Search And answer the Question:
+How can you be certain your model works in the real world and performs optimally.
+
+#####
+
+#####
 
 #####
 
