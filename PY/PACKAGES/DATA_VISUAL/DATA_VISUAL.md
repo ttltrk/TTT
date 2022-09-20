@@ -281,16 +281,78 @@ In the lab session, we explore line plots in more details so make sure to
 complete this module's lab session. This concludes our video on line plots. I'll
 see you in the next video.
 
-#####
+[^^^](#DATA_VISUALIZATION)
 
-#####
-
-#####
+---
 
 #### MODULE_2
 
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+[^^^](#DATA_VISUALIZATION)
+
+---
+
 #### MODULE_3
+
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+[^^^](#DATA_VISUALIZATION)
+
+---
 
 #### MODULE_4
 
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+[^^^](#DATA_VISUALIZATION)
+
+---
+
 #### MODULE_5
+
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+#####
+
+[^^^](#DATA_VISUALIZATION)
+
+---
