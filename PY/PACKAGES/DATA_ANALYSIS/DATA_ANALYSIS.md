@@ -1487,9 +1487,7 @@ See the lab on how to generate this plot.
 
 #####
 
-#####
 
-#####
 
 [^^^](#DATA_ANALYSIS)
 
