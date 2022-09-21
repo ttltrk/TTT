@@ -664,12 +664,6 @@ make sure to complete this module's lab session. And with this we conclude our
 short introduction to Seaborn and regression plots. I'll see you in the
 next video.
 
-#####
-
-#####
-
-#####
-
 [^^^](#DATA_VISUALIZATION)
 
 ---
