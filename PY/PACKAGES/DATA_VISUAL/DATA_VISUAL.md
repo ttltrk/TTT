@@ -702,6 +702,14 @@ Canada in stamen terrain. This style is great for visualizing hill shading and
 natural vegetation colors. And with this we conclude our introduction to Folium.
 I'll see you in the next video.
 
+```py
+#generate map
+canada_map = folium.Map(
+    location=[55.555, -100.200],
+    zoom_start=4
+)
+```
+
 ##### Maps with Markers
 
 In this video, we will continue working with the Folium library and learn how
@@ -732,6 +740,24 @@ very interesting one so please make sure to complete it.
 And with this, we conclude our video on adding markers to maps with Folium. I'll
 see you in the next video.
 
+```py
+#generate map
+canada_map = folium.Map(
+    location=[55.555, -100.200],
+    zoom_start=4
+)
+
+#create a feature group
+ontario = folium.map.FeatureGroup()
+
+#style the feature group
+ontario.add.child(
+    folium.feature.CircleMarker(
+    [50.50, 60.60] radius = 5,
+    color = "red", fill_color = "Red"
+    )
+)
+```
 
 #####
 
