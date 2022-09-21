@@ -65,7 +65,13 @@ plt is a common name used for importing this module.
 #### W3_GET_STARTED
 
 ```py
+import matplotlib
 
+print(matplotlib.__version__)
+
+>>>
+3.4.3
+>>>
 ```
 
 [^^^](#MATPLOTLIB)
@@ -74,8 +80,21 @@ plt is a common name used for importing this module.
 
 #### W3_PYPLOT
 
-```py
+Most of the Matplotlib utilities lies under the pyplot submodule, and are usually imported under the plt alias
 
+```py
+import matplotlib.pyplot as plt
+```
+
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+
+xpoints = np.array([0, 6])
+ypoints = np.array([0, 250])
+
+plt.plot(xpoints, ypoints)
+plt.show()
 ```
 
 [^^^](#MATPLOTLIB)
