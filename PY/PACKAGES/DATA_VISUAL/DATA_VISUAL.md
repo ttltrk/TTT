@@ -757,6 +757,13 @@ ontario.add.child(
     color = "red", fill_color = "Red"
     )
 )
+
+#label the marker
+folium.Marker([50.50, 60.60],
+    popup='Ontario').add_to(canada_map)
+
+#display map
+canada_map
 ```
 
 #####
