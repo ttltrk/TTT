@@ -51,6 +51,136 @@ plt is a common name used for importing this module.
 
 ---
 
+#### W3_INTRO
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_GET_STARTED
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_PYPLOT
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_PLOTTING
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_MARKERS
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_LINE
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_LABELS
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_GRID
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_SUBPLOT
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_SCATTER
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_BARS
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_HISTOGRAMS
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
+#### W3_PIE_CHARTS
+
+```py
+
+```
+
+[^^^](#MATPLOTLIB)
+
+---
+
 #### LINKS
 
 - YT
