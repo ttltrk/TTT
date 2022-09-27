@@ -23,29 +23,54 @@
 
 #### MODULE_1
 
-##### Introduction to Data Visualization
+- 1.1 - Introduction to Data Visualization
+- 1.2 - Introduction to Matplotlib
+- 1.3 - Basic Plotting with Matplotlib
+- 1.4 - Dataset on Immigration to Canada
+- 1.5 - Line Plots
 
-Hello everyone and welcome to the first module of the data visualization with
-Python course. In this video, we're gonna introduce data visualization and go over
+##### 1.1 - Introduction to Data Visualization
+
+We're gonna introduce data visualization and go over
 an example of transforming a given visual into one which is more effective
 attractive and impactive. So let's get started. Now one might ask, "Why would I
-need to learn how to visualize data?" Well, data visualization is a way to show a
-complex data in a form that is graphical and easy to understand. This can be
-especially useful when one is trying to explore the data and getting acquainted
-with it. Also since a picture is worth a thousand words, then plots and graphs can
+need to learn how to visualize data?"
+
+```
+1. for exploratory data analysis
+2. communicate data clearly
+3. share unbiased representation of data
+4. use them to support recommendations to different stakeholders
+```
+
+- Well, data visualization is a way to show a complex data in a form that is graphical and easy to understand. This can be especially useful when one is trying to explore the data and getting acquainted
+with it.
+
+- Also since a picture is worth a thousand words, then plots and graphs can
 be very effective in conveying a clear description of the data especially when
 disclosing findings to an audience or sharing the data with other peer data
-scientists. Also, they can be very valuable when it comes to supporting any
+scientists.
+
+- Also, they can be very valuable when it comes to supporting any
 recommendations you make to clients managers or other decision-makers in
-your field. Darkhorse Analytics is a company that spun out of a research lab
+your field.
+
+Darkhorse Analytics is a company that spun out of a research lab
 at the University of Alberta in 2008 and has done fascinating work on data
 visualization. Darkhorse Analytics specializes in quantitative consulting
 in several areas including data visualization and geospatial analysis.
-Their approach when creating a visual revolves around three key points: less is
-more effective, it is more attractive, and it is more impactive. In other words, any
+Their approach when creating a visual revolves around three key points:
+
+1. less is more effective,
+2. less is more attractive,
+3. less is more impactive.
+
+In other words, any
 feature or design you incorporate in your plot to make it more attractive or
 pleasing should support the message that the plot is meant to get across and not
-distract from it. Let's take a look at an example. So here is a pie chart of what
+distract from it. Let's take a look at an example.
+
+So here is a pie chart of what
 looks like people's preferences when it comes to different types of pig meat. The
 charts message is almost half of the people surveyed preferred bacon over the
 other types of pig meat. But I'm sure that almost all of you agree that there
@@ -78,7 +103,7 @@ examples, check out Darkhorse Analytics website. They have a couple more example
 on how to clean bar graphs and maps of geospatial data. All these examples
 reinforce the concept of less is more effective, attractive, and impactive.
 
-##### Introduction to Matplotlib
+##### 1.2 - Introduction to Matplotlib
 
 In this video, we will start learning about Matplotlib. This video will focus
 on the history of Matplotlib and its architecture. Matplotlib is one of the
@@ -150,7 +175,7 @@ interface. If you're interested in learning more about the history of
 Matplotlib and its architecture, this link will take you to a chapter written
 by the creators of Matplotlib themselves. It is definitely a recommended read.
 
-##### Basic Plotting with Matplotlib
+##### 1.3 - Basic Plotting with Matplotlib
 
 In this video, we will learn how to use Matplotlib to create plots and we will
 do so using the Jupyter notebook as our environment.
@@ -204,7 +229,7 @@ And there you have it. A histogram of the number of Indian immigrants
 to Canada from 1980 to 1996. This concludes our video on basic plotting
 with Matplotlib. See you in the next video.
 
-##### Dataset on Immigration to Canada
+##### 1.4 - Dataset on Immigration to Canada
 
 In this video, we will learn more about the dataset that we will be using
 throughout the course. The population division of the United Nations compiled
@@ -238,7 +263,7 @@ containing the total number of immigrants from that country. This
 concludes our video on the immigration to Canada dataset. I will see you in the
 next video.
 
-##### Line Plots
+##### 1.5 - Line Plots
 
 In this video, things will start getting more exciting. We will generate our first
 visualization tool: the line plot. So what is a line plot? As its name suggests, it
