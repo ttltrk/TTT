@@ -14,7 +14,7 @@ NumPy includes functions and data structures that can perform a wide variety of 
 
 ---
 
-* [W3](#https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/NUMPY/W3/W3.md)
+* [W3](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/NUMPY/W3/W3.md)
 
 ---
 
