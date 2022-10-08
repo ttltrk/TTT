@@ -50,6 +50,7 @@
 * [WEB](https://github.com/ttltrk/TTT/blob/master/PY/WEB/WEB.md)
 * [PROFILER](https://github.com/ttltrk/TTT/blob/master/PY/PROFILER/PROFILER.md)
 * [USER_INPUT](https://github.com/ttltrk/TTT/blob/master/PY/USER_INPUT/USER_INPUT.md)
+* [ALGO](https://github.com/ttltrk/TTT/blob/master/PY/ALGO/ALGO.md)
 
 ---
 
