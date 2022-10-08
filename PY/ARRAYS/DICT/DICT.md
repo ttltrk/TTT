@@ -13,6 +13,7 @@
 * [ACCESS_ITEMS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/ACCESS_ITEMS/ACCESS_ITEMS.md)
 * [CHANGE_ITEMS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/CHANGE_ITEMS/CHANGE_ITEMS.md)
 * [ADD_ITEMS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/ADD_ITEMS/ADD_ITEMS.md)
+* [REMOVE_ITEMS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/REMOVE_ITEMS/REMOVE_ITEMS.md)
 * [DICTIONARY_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_METH/DICT_METH.md)
 
 ---
