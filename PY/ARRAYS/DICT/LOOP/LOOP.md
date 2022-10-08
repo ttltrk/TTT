@@ -50,37 +50,44 @@ Mustang
 ```
 
 ```py
+l1,l2 = [],[]
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+for x in thisdict.keys():
+  l1.append(x)
+
+for x in thisdict.values():
+  l2.append(x)
+
+print(l1)
+print(l2)
 
 >>>
-
->>>
-```
-
-```py
-
->>>
-
->>>
-```
-
-```py
-
->>>
-
->>>
-```
-
-```py
-
->>>
-
+['brand', 'model', 'year']
+['Ford', 'Mustang', 1964]
 >>>
 ```
 
+Loop through both keys and values, by using the ```items()``` method
+
 ```py
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x, y in thisdict.items():
+  print(x, y)
 
 >>>
-
+brand Ford
+model Mustang
+year 1964
 >>>
 ```
 
