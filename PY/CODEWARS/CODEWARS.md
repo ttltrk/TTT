@@ -83,7 +83,7 @@ def is_square(n):
 is_square(24)
 
 >>>
-
+False
 >>>
 ```
 
