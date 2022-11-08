@@ -16,6 +16,15 @@
 * [is_square](#is_square2)
 * [kooka_counter](#kooka_counter)
 * [get_count](#get_count)
+* [shorter_reverse_longer](#shorter_reverse_longer)
+* [get_sum_of_digits](#get_sum_of_digits)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -243,12 +252,23 @@ get_count('aeiou')
 
 ---
 
-####
+#### shorter_reverse_longer
 
 ```py
+#DONE - https://www.codewars.com/kata/54557d61126a00423b000a45/train/python
+
+def shorter_reverse_longer(a,b):
+
+    #reverse the string
+    if len(a) >= len(b):
+        return b+a[::-1]+b
+    else:
+        return a+b[::-1]+a
+
+shorter_reverse_longer("first", "abcde")
 
 >>>
-
+abcdetsrifabcde
 >>>
 ```
 
@@ -256,12 +276,27 @@ get_count('aeiou')
 
 ---
 
-####
+#### get_sum_of_digits
 
 ```py
+#DONE - https://www.codewars.com/kata/563d59dd8e47a5ed220000ba/train/python
+
+#
+# BS
+#
+# return sum(int(d) for d in str(n))
+#
+
+def get_sum_of_digits(num):
+    s = str(num)
+    ls = [num for num in s]
+    li = [int(num) for num in ls]
+    return sum(li)
+
+get_sum_of_digits(123)
 
 >>>
-
+6
 >>>
 ```
 
