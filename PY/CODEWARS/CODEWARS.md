@@ -9,39 +9,386 @@
 
 ---
 
-8 kyu
-
+* [vowel_one](#vowel_one)
+* [is_square](#is_square)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
-* [](#)
-
-7 kyu
-
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-
-6 kyu
-
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-
 
 ---
+
+#### vowel_one
+
+```py
+#DONE - https://www.codewars.com/kata/580751a40b5a777a200000a1/train/python
+
+def vowel_one(s):
+
+    for vowel in s:
+        if vowel in ('a','e','i','o','u','A','E','I','O','U'):
+            s = s.replace(vowel, '1')
+        else:
+            s = s.replace(vowel, '0')
+    return s
+
+vowel_one('Hello')
+
+>>>
+'01001'
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### is_square
+
+```py
+#DONE - https://www.codewars.com/kata/54c27a33fb7da0db0100040e/train/python
+
+#
+# BS
+#
+# return n >= 0 and (n**0.5) % 1 == 0
+#
+
+def is_square(n):   
+
+    simp = [nums*nums for nums in range(0,100)]
+
+    if n in simp:
+        return True
+    else:
+        return False
+
+
+is_square(24)
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 
 #### powers_of_two
 

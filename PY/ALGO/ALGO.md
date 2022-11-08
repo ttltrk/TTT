@@ -83,6 +83,8 @@ ABC
 >>>
 ```
 
+- 8 Queens problem 
+
 ```py
 
 >>>
