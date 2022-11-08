@@ -15,7 +15,7 @@
 * [expanded_form](#expanded_form)
 * [is_square](#is_square2)
 * [kooka_counter](#kooka_counter)
-* [](#)
+* [get_count](#get_count)
 * [](#)
 * [](#)
 * [](#)
@@ -224,12 +224,18 @@ kooka_counter("HAhaHAhahahahahahaHAhaHAHAHA")
 
 ---
 
-####
+#### get_count
 
 ```py
+#DONE - https://www.codewars.com/kata/54ff3102c1bad923760001f3/solutions/python
+
+def get_count(sentence):
+    return len([ch for ch in sentence if ch in 'aeiou'])
+
+get_count('aeiou')
 
 >>>
-
+5
 >>>
 ```
 
