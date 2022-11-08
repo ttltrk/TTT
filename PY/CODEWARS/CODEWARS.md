@@ -12,7 +12,7 @@
 * [vowel_one](#vowel_one)
 * [is_square](#is_square)
 * [changing_letters](#changing_letters)
-* [](#)
+* [expanded_form](#expanded_form)
 * [](#)
 * [](#)
 * [](#)
