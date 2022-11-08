@@ -13,8 +13,8 @@
 * [is_square](#is_square)
 * [changing_letters](#changing_letters)
 * [expanded_form](#expanded_form)
-* [](#)
-* [](#)
+* [is_square](#is_square2)
+* [kooka_counter](#kooka_counter)
 * [](#)
 * [](#)
 * [](#)
@@ -157,12 +157,30 @@ expanded_form(70304)
 
 ---
 
-####
+#### is_square2
 
 ```py
+#DONE - https://www.codewars.com/kata/56853c44b295170b73000007/train/python
+
+def is_square(arr):
+
+    simp = [nums*nums for nums in range(0,1000)]
+    h = []
+    for n in arr:
+        if n not in simp:
+            h.append(n)    
+
+    if len(arr) == 0:
+        return None
+    elif len(h)>0:
+        return False
+    else:
+        return True
+
+is_square([1,2,3,4,5])
 
 >>>
-
+False
 >>>
 ```
 
@@ -170,12 +188,35 @@ expanded_form(70304)
 
 ---
 
-####
+#### kooka_counter
 
 ```py
+#DONE - https://www.codewars.com/kata/58e8cad9fd89ea0c6c000258/solutions/python
+
+def kooka_counter(laughing):
+    ed = laughing.replace('a','').replace('A','')
+    l=[]
+
+    if len(laughing) == 0:
+        return 0
+    elif ed[0] == 'h':
+        l.append('h')
+        for ch in ed:
+            if ch != l[-1]:
+                l.append(ch)
+        return len(l)
+    elif ed[0] == 'H':
+        l.append('H')
+        for ch in ed:
+            if ch != l[-1]:
+                l.append(ch)
+        return len(l)
+
+
+kooka_counter("HAhaHAhahahahahahaHAhaHAHAHA")
 
 >>>
-
+7
 >>>
 ```
 
