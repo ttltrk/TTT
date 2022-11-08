@@ -11,7 +11,7 @@
 
 * [vowel_one](#vowel_one)
 * [is_square](#is_square)
-* [](#)
+* [changing_letters](#changing_letters)
 * [](#)
 * [](#)
 * [](#)
@@ -91,12 +91,26 @@ False
 
 ---
 
-####
+#### changing_letters
 
 ```py
+#DONE - https://www.codewars.com/kata/5831c204a31721e2ae000294/solutions/python
+
+#
+# changing_letters
+#
+# BS
+#
+#for vowel in st:
+#    if vowel in ('a','e','i','o','u'):
+#          st = st.replace(vowel, vowel.upper())
+
+s = "HelloWorld"
+fin = s.replace('a','A').replace('e','E').replace('i','I').replace('o','O').replace('u','U')
+print(fin)
 
 >>>
-
+HEllOWOrld
 >>>
 ```
 
@@ -104,12 +118,38 @@ False
 
 ---
 
-####
+#### expanded_form
 
 ```py
+#DONE - https://www.codewars.com/kata/5842df8ccbd22792a4000245/train/python
+
+def expanded_form(num):
+
+    conv = str(num)
+    cr = len(conv)
+    l = [nums for nums in conv if nums != '0']
+    li = [nums for nums in conv]
+
+    x = []
+    for nums in range(0,cr):
+        x.append(nums*'0')
+
+    x.reverse()
+
+    #Element-wise addition of 2 lists
+    fin = [a+b for a,b in zip(li, x)]
+    ff = []
+    for nums in fin:
+        if nums[0] != '0':
+            ff.append(nums)
+
+    str1 = " + ".join(ff)
+    return str1    
+
+expanded_form(70304)
 
 >>>
-
+'70000 + 300 + 4'
 >>>
 ```
 
