@@ -9,6 +9,7 @@
 
 ---
 
+* [volumes_of_cuboids](#volumes_of_cuboids)
 * [vowel_one](#vowel_one)
 * [is_square](#is_square)
 * [changing_letters](#changing_letters)
@@ -40,6 +41,38 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### volumes_of_cuboids
+
+```py
+#DONE - https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/python
+
+#
+# BS
+#
+# return abs((a[1]*a[2]*a[0])-b[1]*b[2]*b[0])
+#
+
+def find_difference(a, b):
+
+    ar = (a[0]*a[1]*a[2])
+    br = (b[0]*b[1]*b[2])
+
+    if ar > br:
+        return ar-br
+    else:
+        return br-ar
+
+find_difference([28, 21, 2], [26, 12, 20])
+
+>>>
+5064
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
