@@ -9,6 +9,7 @@
 
 ---
 
+* [html_special_chars](#html_special_chars)
 * [volumes_of_cuboids](#volumes_of_cuboids)
 * [vowel_one](#vowel_one)
 * [is_square](#is_square)
@@ -41,6 +42,39 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### html_special_chars
+
+```py
+#DONE but wrong in CW - https://www.codewars.com/kata/56bcaedfcf6b7f2125001118/train/python
+
+#< --> &lt;
+#> --> &gt;
+#" --> &quot;
+#& --> &amp;
+
+def html_special_chars(data):
+    for ch in data:
+        if ch == '<':
+            data = data.replace(ch,'&lt;')
+        elif ch == '>':
+            data = data.replace(ch,'&gt;')
+        elif ch == '"':
+            data = data.replace(ch,'&quot;')
+        elif ch == '&':
+            data = data.replace(ch,'&amp;')
+    return data
+
+html_special_chars("<h2>Hello World</h2>")
+
+>>>
+'&lt;h2&gt;Hello World&lt;/h2&gt;'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
