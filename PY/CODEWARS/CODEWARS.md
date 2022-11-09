@@ -9,6 +9,7 @@
 
 ---
 
+* [fizzbuzz](#fizzbuzz)
 * [html_special_chars](#html_special_chars)
 * [volumes_of_cuboids](#volumes_of_cuboids)
 * [vowel_one](#vowel_one)
@@ -42,6 +43,37 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### fizzbuzz
+
+```py
+#DONE - https://www.codewars.com/kata/5300901726d12b80e8000498/train/python
+
+def fizzbuzz(n):
+
+    l = []
+
+    for num in range(1,n+1):
+        if num%15 == 0:
+            l.append('fizzbuzz')
+        elif num%5 == 0:
+            l.append('buzz')
+        elif num%3 == 0:
+            l.append('fizz')
+        else:
+            l.append(num)
+    return l
+
+fizzbuzz(15)
+
+>>>
+[1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz']
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
