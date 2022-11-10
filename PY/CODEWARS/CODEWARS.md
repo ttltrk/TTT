@@ -9,6 +9,7 @@
 
 ---
 
+* [largest_elements](#largest_elements)
 * [fizzbuzz](#fizzbuzz)
 * [html_special_chars](#html_special_chars)
 * [volumes_of_cuboids](#volumes_of_cuboids)
@@ -43,6 +44,36 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### largest_elements
+
+```py
+#DONE - https://www.codewars.com/kata/53d32bea2f2a21f666000256/train/python
+
+#
+# BS
+#
+#xs.sort()
+#return xs[-n:]
+#
+
+def largest(n,xs):
+    xs.sort()
+    xs.reverse()
+    fin = xs[:n]
+    fin.sort()
+    return fin
+
+largest(2,[10,9,8,7,6,5,4,3,2,1])
+
+>>>
+[9, 10]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
