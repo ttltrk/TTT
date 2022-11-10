@@ -9,6 +9,7 @@
 
 ---
 
+* [incrementer](#incrementer)
 * [largest_elements](#largest_elements)
 * [fizzbuzz](#fizzbuzz)
 * [html_special_chars](#html_special_chars)
@@ -44,6 +45,37 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### incrementer
+
+```py
+#DONE - https://www.codewars.com/kata/590e03aef55cab099a0002e8/train/python
+
+def incrementer(nums):
+    l = [n for n in range(1,len(nums)+1)]
+    #Element-wise addition of 2 lists
+    m1 = [a+b for a,b in zip(l, nums)]
+    m2 = [str(n) for n in m1]
+
+    f = []
+
+    for n in m2:
+        if len(n)>1:
+            f.append(n[1])
+        else:
+            f.append(n)
+    return [int(n) for n in f]
+
+incrementer([3, 6, 9, 8, 9])
+
+>>>
+[4, 8, 2, 2, 4]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
