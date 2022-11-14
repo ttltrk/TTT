@@ -9,6 +9,7 @@
 
 ---
 
+* [open_or_senior](#open_or_senior)
 * [get_positions](#get_positions)
 * [incrementer](#incrementer)
 * [largest_elements](#largest_elements)
@@ -46,6 +47,33 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### open_or_senior
+
+```py
+#DONE - https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/python
+
+def open_or_senior(data):
+
+    l = []
+    for nums in data:
+        if nums[0] >= 55 and nums[1] > 7:
+            l.append("Senior")
+        else:
+            l.append("Open")
+
+    return l
+
+open_or_senior([(16, 23),(73,1),(56, 20),(1, -1)])
+
+>>>
+['Open', 'Open', 'Senior', 'Open']
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
