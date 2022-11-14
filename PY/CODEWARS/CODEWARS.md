@@ -9,6 +9,7 @@
 
 ---
 
+* [get_positions](#get_positions)
 * [incrementer](#incrementer)
 * [largest_elements](#largest_elements)
 * [fizzbuzz](#fizzbuzz)
@@ -45,6 +46,34 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### get_positions
+
+```py
+#DONE - https://www.codewars.com/kata/56d8f14cba01a83cdb0002a2/train/python
+
+def get_positions(n):
+    l1 = [0,1,2]
+    l2 = [0,0,0,1,1,1,2,2,2]
+    l3 = [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2]
+    f = []
+
+    f.append(l1[n%3])
+    f.append(l2[n%9])
+    f.append(l3[n%27])
+
+    return tuple(f)
+
+get_positions(98)
+
+>>>
+(2, 2, 1)
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
