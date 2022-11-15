@@ -9,6 +9,7 @@
 
 ---
 
+* [is_sorted_and_how](#is_sorted_and_how)
 * [open_or_senior](#open_or_senior)
 * [get_positions](#get_positions)
 * [incrementer](#incrementer)
@@ -47,6 +48,39 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### is_sorted_and_how
+
+```py
+#DONE - https://www.codewars.com/kata/580a4734d6df748060000045/train/python
+
+def is_sorted_and_how(arr):
+
+    la = arr.copy()  
+    ld = arr.copy()
+
+    la.sort()   
+    ld.sort()
+    ld = ld[::-1]
+
+
+    if arr == la:
+        return 'yes, ascending'
+    elif arr == ld:
+        return 'yes, descending'
+    else:
+        return 'no'
+
+is_sorted_and_how([1,2,5,4])
+
+>>>
+'no'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
