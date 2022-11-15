@@ -26,6 +26,11 @@
 * [get_count](#get_count)
 * [shorter_reverse_longer](#shorter_reverse_longer)
 * [get_sum_of_digits](#get_sum_of_digits)
+* [solve](#solve)
+* [disemvowel](#disemvowel)
+* [squares](#squares)
+* [is_it_a_num](#is_it_a_num)
+* [sort_dict](#sort_dict)
 * [](#)
 * [](#)
 * [](#)
@@ -556,12 +561,29 @@ get_sum_of_digits(123)
 [^^^](#CODEWARS)
 
 ---
-####
+
+#### solve
 
 ```py
+#DONE - https://www.codewars.com/kata/5a29a0898f27f2d9c9000058/train/python
+
+#the order is: uppercase letters, lowercase, numbers and special characters.
+
+def solve(s):
+    res = []
+
+    isupper = [chars for chars in s if chars.isupper()]
+    islower = [chars for chars in s if chars.islower()]
+    isnumeric = [chars for chars in s if chars.isnumeric()]
+
+    res.extend([len(isupper), len(islower), len(isnumeric), (len(s)-(len(isupper)+len(islower)+len(isnumeric)))])
+
+    return res
+
+solve("Codewars@codewars123.com")
 
 >>>
-
+[1, 18, 3, 2]
 >>>
 ```
 
@@ -569,12 +591,27 @@ get_sum_of_digits(123)
 
 ---
 
-####
+#### disemvowel
 
 ```py
+#DONE - https://www.codewars.com/kata/52fba66badcd10859f00097e/solutions/python
+
+#
+# BS
+#
+# return "".join(c for c in string if c.lower() not in "aeiou")
+#
+
+def disemvowel(string_):
+    x = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
+    l = [chars for chars in string_ if chars not in x]
+    str1 = ''.join(l)
+    return str1
+
+disemvowel('HellO')
 
 >>>
-
+'Hll'
 >>>
 ```
 
@@ -582,12 +619,37 @@ get_sum_of_digits(123)
 
 ---
 
-####
+#### squares
 
 ```py
+#DONE - https://www.codewars.com/kata/5546180ca783b6d2d5000062/train/python
+
+# multiply always with the latest result
+
+#
+# BS
+#
+# return [x**(2**i) for i in range(n)]
+#
+
+def squares(x, n):
+    if n <= 0:
+        return []
+    else:
+        l,fin = [], []
+        l.append(x)
+        x = 2
+        while x < n+1:
+            m = l[-1]*l[-1]
+            l.append(m)
+            x += 1
+        return l
+
+
+squares(2, 5)
 
 >>>
-
+[2, 4, 16, 256, 65536]
 >>>
 ```
 
@@ -595,12 +657,27 @@ get_sum_of_digits(123)
 
 ---
 
-####
+#### is_it_a_num
 
 ```py
+#DONE - https://www.codewars.com/kata/596343a24489a8b2a00000a2/train/python
+
+#find the number in the string
+
+def is_it_a_num(s):
+
+    l = [vals for vals in s if vals.isdigit()]    
+    str1 = ''.join(l)
+
+    if len(l) == 11 and l[0] == '0':
+        return str1
+    else:
+        return "Not a phone number"
+
+is_it_a_num('S:)0207ERGQREG88349F82!efRF)')
 
 >>>
-
+'02078834982'
 >>>
 ```
 
@@ -608,12 +685,29 @@ get_sum_of_digits(123)
 
 ---
 
-####
+#### sort_dict
 
 ```py
+#DONE - https://www.codewars.com/kata/53da6a7e112bd15cbc000012/train/python
+
+def sort_dict(d):
+    #l = d.items()
+    sorted_dict = {}
+    sorted_values = sorted(d.values())
+    sorted_values.sort(reverse=True)
+
+    for i in sorted_values:
+        for k in d.keys():
+            if d[k] == i:
+                sorted_dict[k] = d[k]
+
+    fin = sorted_dict.items()
+    return [ch for ch in fin]
+
+sort_dict({3:1, 2:2, 1:3})
 
 >>>
-
+[(1, 3), (2, 2), (3, 1)]
 >>>
 ```
 
