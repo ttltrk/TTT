@@ -9,6 +9,7 @@
 
 ---
 
+* [number_joy](#number_joy)
 * [is_sorted_and_how](#is_sorted_and_how)
 * [open_or_senior](#open_or_senior)
 * [get_positions](#get_positions)
@@ -53,6 +54,41 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### number_joy
+
+```py
+#DONE - https://www.codewars.com/kata/570523c146edc287a50014b1/train/python
+
+def number_joy(n):
+
+    #int to list
+    l = [int(nums) for nums in str(n)]
+
+    r1 = sum(l)
+
+    r2 = str(r1)
+    r2 = r2[::-1]
+
+    f = int(r1)*int(r2)
+
+    if f == n and n%r1==0:
+        return True, 'Harshad and digit '+str(r1)+', and '+str(r1)+'x'+str(r2)+' = '+str(n)
+    elif f != n and n%r1==0:
+        return False, 'Harshad but digit '+str(r1)+', and '+str(r1)+'x'+str(r2)+' does not equal '+str(n)
+    else:
+        return False, 'Not a Harshad number'
+
+number_joy(1998)
+
+>>>
+(False, 'Harshad but digit 27, and 27x72 does not equal 1998')
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
