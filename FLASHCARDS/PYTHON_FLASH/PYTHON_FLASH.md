@@ -137,7 +137,7 @@ print(type(x))
 - Numeric Types: int, float, complex
 ```
 
-- INT
+- INTEGER
 
 ```py
 x = 20
