@@ -114,8 +114,6 @@ Cherry
 - Binary Types: bytes, bytearray, memoryview
 ```
 
-##### SETTING_THE_DT
-
 ##### TEXT_TYPE
 
 ```
@@ -301,7 +299,7 @@ print(type(x))
 >>>
 ```
 
-- MEMORYVIEW 
+- MEMORYVIEW
 
 ```py
 x = memoryview(bytes(5))
