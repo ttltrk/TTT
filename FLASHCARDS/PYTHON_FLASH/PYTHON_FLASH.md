@@ -245,7 +245,7 @@ print(type(x))
 >>>
 ```
 
-- FROZENSET 
+- FROZENSET
 
 ```py
 x = frozenset({"apple", "banana", "cherry"})
@@ -256,7 +256,13 @@ print(type(x))
 >>>
 ```
 
-##### BOOL
+##### BOOLEAN_TYPE
+
+```
+- Boolean Type: bool
+```
+
+- BOOLEAN
 
 ```py
 x = True
@@ -267,6 +273,14 @@ print(type(x))
 >>>
 ```
 
+##### BINARY_TYPES
+
+```
+- Binary Types: bytes, bytearray, memoryview
+```
+
+- BYTES
+
 ```py
 x = b"Hello"
 print(type(x))
@@ -276,6 +290,8 @@ print(type(x))
 >>>
 ```
 
+- BYTEARRAY
+
 ```py
 x = bytearray(5)
 print(type(x))
@@ -284,6 +300,8 @@ print(type(x))
 <class 'bytearray'>
 >>>
 ```
+
+- MEMORYVIEW 
 
 ```py
 x = memoryview(bytes(5))
