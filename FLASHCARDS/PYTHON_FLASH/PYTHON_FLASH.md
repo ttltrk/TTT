@@ -116,6 +116,14 @@ Cherry
 
 ##### SETTING_THE_DT
 
+##### TEXT_TYPE
+
+```
+- Text Type: str
+```
+
+- STRING  
+
 ```py
 x = "Hello World"
 print(type(x))
@@ -124,6 +132,14 @@ print(type(x))
 <class 'str'>
 >>>
 ```
+
+##### NUMERIC_TYPES
+
+```
+- Numeric Types: int, float, complex
+```
+
+- INT
 
 ```py
 x = 20
@@ -134,6 +150,8 @@ print(type(x))
 >>>
 ```
 
+- FLOAT
+
 ```py
 x = 20.5
 print(type(x))
@@ -142,6 +160,8 @@ print(type(x))
 <class 'float'>
 >>>
 ```
+
+- COMPLEX
 
 ```py
 x = 1j
@@ -152,6 +172,14 @@ print(type(x))
 >>>
 ```
 
+##### SEQUENCE_TYPES
+
+```
+- Sequence Types: list, tuple, range
+```
+
+- LIST
+
 ```py
 x = ["apple", "banana", "cherry"]
 print(type(x))
@@ -160,6 +188,8 @@ print(type(x))
 <class 'list'>
 >>>
 ```
+
+- TUPLE
 
 ```py
 x = ("apple", "banana", "cherry")
@@ -170,6 +200,8 @@ print(type(x))
 >>>
 ```
 
+- RANGE
+
 ```py
 x = range(6)
 print(type(x))
@@ -178,6 +210,14 @@ print(type(x))
 <class 'range'>
 >>>
 ```
+
+##### MAPPING_TYPES
+
+```
+- Mapping Type: dict
+```
+
+- DICTIONARY
 
 ```py
 x = {"name" : "John", "age" : 36}
@@ -188,6 +228,14 @@ print(type(x))
 >>>
 ```
 
+##### SET_TYPES
+
+```
+- Set Types: set, frozenset
+```
+
+- SET
+
 ```py
 x = {"apple", "banana", "cherry"}
 print(type(x))
@@ -197,6 +245,8 @@ print(type(x))
 >>>
 ```
 
+- FROZENSET 
+
 ```py
 x = frozenset({"apple", "banana", "cherry"})
 print(type(x))
@@ -205,6 +255,8 @@ print(type(x))
 <class 'frozenset'>
 >>>
 ```
+
+##### BOOL
 
 ```py
 x = True
