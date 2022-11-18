@@ -9,6 +9,7 @@
 
 ---
 
+* [generate_hashtag](#generate_hashtag)
 * [luck_check](#luck_check)
 * [number_joy](#number_joy)
 * [is_sorted_and_how](#is_sorted_and_how)
@@ -55,6 +56,40 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### generate_hashtag
+
+```py
+#DONE - https://www.codewars.com/kata/52449b062fb80683ec000024/train/python
+
+#
+# nice
+#
+# return False if (len(s) == 0 or len(output) > 140) else output
+#
+
+def generate_hashtag(s):
+    l = s.split()    
+    l1 = [chars.capitalize() for chars in l]    
+    s1 = "".join(l1)
+    s1 = '#'+s1
+
+    if len(s1) > 140 or len(s) == 0:
+        return False
+    else:
+        return s1
+
+
+generate_hashtag('hello world')
+
+>>>
+'#HelloWorld'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
