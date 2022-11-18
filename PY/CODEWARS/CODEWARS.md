@@ -9,6 +9,7 @@
 
 ---
 
+* [luck_check](#luck_check)
 * [number_joy](#number_joy)
 * [is_sorted_and_how](#is_sorted_and_how)
 * [open_or_senior](#open_or_senior)
@@ -54,6 +55,44 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### luck_check
+
+```py
+#DONE - https://www.codewars.com/kata/5314b3c6bb244a48ab00076c/train/python
+
+def luck_check(string):
+    co = len(str(string))
+    half = co//2
+    l = [str(nums) for nums in str(string)]
+    l1 = l[:co//2]
+    l2 = l[co//2:]
+    ln1 = [int(num) for num in l1]
+    ln2 = [int(num) for num in l2]
+
+    if len(ln1) != len(ln2):
+        ln2.pop(0)
+        if sum(ln1) == sum(ln2):
+            return True
+        else:
+
+            return False
+    else:
+        if sum(ln1) == sum(ln2):
+            return True
+        else:
+            return False
+
+luck_check(683000)
+
+>>>
+False
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
