@@ -546,7 +546,7 @@ Casting in python is therefore done using constructor functions:
 - ```float()``` - constructs a float number from an integer literal, a float literal or a string literal (providing the string represents a float or an integer)
 - ```str()``` - constructs a string from a wide variety of data types, including strings, integer literals and float literals
 
-- INT
+- INT_CASTING
 
 ```py
 x = int(1)   # x will be 1
@@ -554,7 +554,7 @@ y = int(2.8) # y will be 2
 z = int("3") # z will be 3
 ```
 
-- FLOAT
+- FLOAT_CASTING
 
 ```py
 x = float(1)     # x will be 1.0
@@ -563,7 +563,7 @@ z = float("3")   # z will be 3.0
 w = float("4.2") # w will be 4.2
 ```
 
-- STR
+- STRING_CASTING
 
 ```py
 x = str("s1") # x will be 's1'
