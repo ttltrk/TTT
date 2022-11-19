@@ -17,7 +17,7 @@
 * [RANDOM_NUMBER](#RANDOM_NUMBER)
 * [MATH](#MATH)
 * [CASTING](#CASTING)
-* [](#)
+* [STRINGS](#STRINGS)
 * [](#)
 * [](#)
 * [](#)
