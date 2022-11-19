@@ -9,6 +9,7 @@
 
 ---
 
+* [pythagorean_triple](#pythagorean_triple)
 * [generate_hashtag](#generate_hashtag)
 * [luck_check](#luck_check)
 * [number_joy](#number_joy)
@@ -56,6 +57,27 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### pythagorean_triple
+
+```py
+#DONE - https://www.codewars.com/kata/5951d30ce99cf2467e000013/train/python
+
+def pythagorean_triple(integers):
+    integers.sort()
+    if (integers[0]*integers[0])+(integers[1]*integers[1]) == (integers[2]*integers[2]):
+        return True
+    else:
+        return False
+
+pythagorean_triple([3,4,5])
+
+>>>
+True
+>>>
+```
 
 ---
 
