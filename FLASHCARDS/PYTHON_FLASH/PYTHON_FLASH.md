@@ -575,10 +575,22 @@ z = str(3.0)  # z will be '3.0'
 
 ---
 
-#####
+##### STRINGS
+
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
+```'hello'``` is the same as ```"hello"```.
+You can display a string literal with the ```print()``` function:
 
 ```py
+#You can use double or single quotes:
 
+print("Hello")
+print('Hello')
+
+>>>
+Hello
+Hello
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
