@@ -18,7 +18,7 @@
 * [MATH](#MATH)
 * [CASTING](#CASTING)
 * [STRINGS](#STRINGS)
-* [](#)
+* [SLICING_STRINGS](#SLICING_STRINGS)
 * [](#)
 * [](#)
 * [](#)
@@ -575,7 +575,7 @@ z = str(3.0)  # z will be '3.0'
 
 ---
 
-##### STRINGS
+#### STRINGS
 
 Strings in python are surrounded by either single quotation marks, or double quotation marks.
 ```'hello'``` is the same as ```"hello"```.
@@ -597,12 +597,43 @@ Hello
 
 ---
 
-####
+#### SLICING_STRINGS
 
-#####
+##### SLICE_FROM_START
+
+- till the index
 
 ```py
+b = "Hello, World!"
+print(b[:5])
 
+>>>
+Hello
+>>>
+```
+
+##### SLICE_TO_THE_END
+
+- from the index
+
+```py
+b = "Hello, World!"
+print(b[2:])
+
+>>>
+llo, World!
+>>>
+```
+
+##### NEGATIV_INDEX
+
+```py
+b = "Hello, World!"
+print(b[-5:-2])
+
+>>>
+orl
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
