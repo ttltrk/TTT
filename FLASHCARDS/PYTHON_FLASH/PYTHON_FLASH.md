@@ -625,7 +625,7 @@ llo, World!
 >>>
 ```
 
-##### NEGATIV_INDEX
+##### NEGATIVE_INDEX
 
 ```py
 b = "Hello, World!"
