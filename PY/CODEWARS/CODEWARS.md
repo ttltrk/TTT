@@ -9,6 +9,7 @@
 
 ---
 
+* [most_frequent_item_count](#most_frequent_item_count)
 * [pythagorean_triple](#pythagorean_triple)
 * [generate_hashtag](#generate_hashtag)
 * [luck_check](#luck_check)
@@ -60,6 +61,29 @@
 
 ---
 
+#### most_frequent_item_count
+
+```py
+#DONE - https://www.codewars.com/kata/56582133c932d8239900002e/train/python
+
+def most_frequent_item_count(collection):
+    if len(collection) == 0:
+        return 0
+    else:
+        return max([collection.count(nums) for nums in collection])
+
+
+most_frequent_item_count([3, -1, -1])
+
+>>>
+2
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### pythagorean_triple
 
 ```py
@@ -78,6 +102,8 @@ pythagorean_triple([3,4,5])
 True
 >>>
 ```
+
+[^^^](#CODEWARS)
 
 ---
 
