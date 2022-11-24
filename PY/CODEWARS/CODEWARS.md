@@ -9,6 +9,7 @@
 
 ---
 
+* [solution](#solution)
 * [most_frequent_item_count](#most_frequent_item_count)
 * [pythagorean_triple](#pythagorean_triple)
 * [generate_hashtag](#generate_hashtag)
@@ -58,6 +59,26 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### solution
+
+```py
+#INP - https://www.codewars.com/kata/514b92a657cdc65150000006/train/python
+
+def solution(number):
+
+    return sum([num for num in range(1, number) if num%3 == 0 or num%5 == 0])
+
+solution(10)
+
+>>>
+23
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
