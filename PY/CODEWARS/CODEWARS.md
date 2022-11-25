@@ -9,6 +9,7 @@
 
 ---
 
+* [unscramble_eggs](#unscramble_eggs)
 * [solution](#solution)
 * [most_frequent_item_count](#most_frequent_item_count)
 * [pythagorean_triple](#pythagorean_triple)
@@ -59,6 +60,29 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### unscramble_eggs
+
+```py
+#DONE - https://www.codewars.com/kata/55ea5650fe9247a2ea0000a7/train/python
+
+def unscramble_eggs(word):
+    if 'egg' in word:
+        word = word.replace('egg','')
+        return word
+    else:
+        return word
+
+unscramble_eggs('ceggodegge heggeregge')
+
+>>>
+'code here'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
