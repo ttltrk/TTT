@@ -9,6 +9,7 @@
 
 ---
 
+* [alphanumeric](#alphanumeric)
 * [unscramble_eggs](#unscramble_eggs)
 * [solution](#solution)
 * [most_frequent_item_count](#most_frequent_item_count)
@@ -60,6 +61,44 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### alphanumeric
+
+```py
+#DONE - https://www.codewars.com/kata/526dbd6c8c0eb53254000110/train/python
+
+#
+# BS
+#
+# return string.isalnum()
+#
+
+def alphanumeric(pwd):
+
+    l = [chars for chars in pwd]
+    lx = []
+
+    for chars in l:
+        if chars.isalpha() or chars.isdigit():
+            lx.append(True)
+
+    if len(l) == 0:
+        return False
+    elif len(l) == len(lx):
+        return True
+    else:
+        return False
+
+alphanumeric('axbs34.0')
+
+>>>
+False
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
