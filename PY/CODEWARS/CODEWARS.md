@@ -9,6 +9,7 @@
 
 ---
 
+* [args_count](#args_count)
 * [alphanumeric](#alphanumeric)
 * [unscramble_eggs](#unscramble_eggs)
 * [solution](#solution)
@@ -61,6 +62,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### args_count
+
+```py
+#DONE - https://www.codewars.com/kata/5c44b0b200ce187106452139/train/python
+
+def args_count(*a,**b):
+    return len(a)+len(b)
+
+args_count(2,a=1)
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
