@@ -9,6 +9,7 @@
 
 ---
 
+* [find_it](#find_it)
 * [args_count](#args_count)
 * [alphanumeric](#alphanumeric)
 * [unscramble_eggs](#unscramble_eggs)
@@ -65,6 +66,26 @@
 
 ---
 
+#### find_it
+
+```py
+#DONE - https://www.codewars.com/kata/54da5a58ea159efa38000836/train/python
+
+def find_it(seq):
+    l = [n for n in seq if seq.count(n)%2 == 1]
+    return l[0]
+
+find_it([5,5,5])  
+
+>>>
+5
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### args_count
 
 ```py
@@ -76,7 +97,7 @@ def args_count(*a,**b):
 args_count(2,a=1)
 
 >>>
-
+2
 >>>
 ```
 
