@@ -9,6 +9,8 @@
 
 ---
 
+* [diamond](#diamond)
+* [isLeapYear](#isLeapYear)
 * [create_phone_number](#create_phone_number)
 * [find_it](#find_it)
 * [args_count](#args_count)
@@ -59,11 +61,71 @@
 * [](#)
 * [](#)
 * [](#)
-* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### diamond
+
+```py
+#DONE - https://www.codewars.com/kata/5503013e34137eeeaa001648/train/python
+
+def diamond(n):
+
+    if n%2 == 0 or n<0:
+        return None
+    else:
+        x = [num*'*' for num in range(n+1) if num%2 == 1]
+        x1 = [str(ch) + '\n' for ch in x]
+        x2 = []
+        x2.append(x1[-1])
+        x1.pop(-1)
+        test = [num for num in range(1,n)]
+        pos = ((n-1)//2)
+        ws = [num*' ' for num in range(1,n)][:pos]
+        ws.reverse()
+        #add each element in both list
+        wws = [ws[i] + x1[i] for i in range(len(ws))]
+        x3 = wws.copy()
+        x3.reverse()
+        wws.extend(x2)
+        wws.extend(x3)
+        res = "".join(wws)
+        return res
+
+diamond(5)
+
+>>>
+'  *\n ***\n*****\n ***\n  *\n'
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### isLeapYear
+
+```py
+#DONE - https://www.codewars.com/kata/526c7363236867513f0005ca/train/python
+
+def isLeapYear(year):
+    v1 = (year % 4 == 0)
+    v2 = (year % 100 != 0)
+    v3 = (year % 400 == 0)
+    return v1 and (v2 or v3)
+
+isLeapYear(1984)
+
+>>>
+True
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
