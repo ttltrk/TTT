@@ -9,6 +9,7 @@
 
 ---
 
+* [create_phone_number](#create_phone_number)
 * [find_it](#find_it)
 * [args_count](#args_count)
 * [alphanumeric](#alphanumeric)
@@ -63,6 +64,34 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### create_phone_number
+
+```py
+#DONE - https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/python
+
+def create_phone_number(n):
+
+    n1 = [str(ch) for ch in n[:3]]
+    n2 = [str(ch) for ch in n[3:6]]
+    n3 = [str(ch) for ch in n[6:]]
+
+    s1 = "".join(n1)
+    s2 = "".join(n2)
+    s3 = "".join(n3)
+
+    return (f'({s1}) {s2}-{s3}')
+
+create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
+
+>>>
+'(123) 456-7890'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
