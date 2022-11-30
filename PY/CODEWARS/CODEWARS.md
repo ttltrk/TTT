@@ -9,6 +9,7 @@
 
 ---
 
+* [high_and_low](#high_and_low)
 * [diamond](#diamond)
 * [isLeapYear](#isLeapYear)
 * [create_phone_number](#create_phone_number)
@@ -65,6 +66,38 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### high_and_low
+
+```py
+#DONE - https://www.codewars.com/kata/554b4ac871d6813a03000035/train/python
+
+#
+# BS
+#
+# nn = [int(s) for s in numbers.split(" ")]
+#
+
+import re
+
+def high_and_low(numbers):
+
+    #Filter positive and negative integers from string
+    l = [int(d) for d in re.findall(r'-?\d+', numbers)]
+    mx = max([num for num in l])
+    mn = min([num for num in l])
+    return (f'{mx} {mn}')
+
+high_and_low("8 3 -5 42 -1 0 0 -9 4 7 4 -4")
+
+>>>
+'42 -9'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
