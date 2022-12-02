@@ -9,6 +9,7 @@
 
 ---
 
+* [find_multiples](#find_multiples)
 * [digital_root](#digital_root)
 * [high_and_low](#high_and_low)
 * [diamond](#diamond)
@@ -62,11 +63,29 @@
 * [](#)
 * [](#)
 * [](#)
-* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### find_multiples
+
+```py
+#DONE - https://www.codewars.com/kata/58ca658cc0d6401f2700045f/train/python
+
+def find_multiples(integer, limit):
+    return [num for num in range(1,limit+1) if num%integer == 0]
+
+find_multiples(5, 25)
+
+>>>
+[5, 10, 15, 20, 25]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
