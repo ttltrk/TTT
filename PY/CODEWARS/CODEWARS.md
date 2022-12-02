@@ -9,6 +9,7 @@
 
 ---
 
+* [digital_root](#digital_root)
 * [high_and_low](#high_and_low)
 * [diamond](#diamond)
 * [isLeapYear](#isLeapYear)
@@ -66,6 +67,38 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### digital_root
+
+```py
+#DONE - https://www.codewars.com/kata/541c8630095125aba6000c00/train/python
+
+def digital_root(n):
+    l1 = [int(num) for num in str(n)]
+
+    res1 = sum(l1)
+
+    if len(str(res1)) == 1:
+        return res1
+    else:
+        l2 = [int(num) for num in str(res1)]
+        res2 = sum(l2)
+        if len(str(res2)) == 1:
+            return sum(l2)
+        else:
+            l3 = [int(num) for num in str(res2)]
+            return sum(l3)
+
+digital_root(493193)
+
+>>>
+2
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
