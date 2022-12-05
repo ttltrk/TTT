@@ -9,6 +9,7 @@
 
 ---
 
+* [stray](#stray)
 * [find_multiples](#find_multiples)
 * [digital_root](#digital_root)
 * [high_and_low](#high_and_low)
@@ -62,11 +63,31 @@
 * [](#)
 * [](#)
 * [](#)
-* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### stray
+
+```py
+#DONE - https://www.codewars.com/kata/57f609022f4d534f05000024/train/python
+
+def stray(arr):
+    l = [num for num in arr if arr.count(num) == 1]
+    for num in l:
+        return num
+
+stray([1, 1, 1, 1, 1, 1, 2])
+
+>>>
+2
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
