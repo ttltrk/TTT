@@ -9,6 +9,7 @@
 
 ---
 
+* [get_sum](#get_sum)
 * [stray](#stray)
 * [find_multiples](#find_multiples)
 * [digital_root](#digital_root)
@@ -62,11 +63,32 @@
 * [](#)
 * [](#)
 * [](#)
-* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### get_sum
+
+```py
+#DONE - https://www.codewars.com/kata/55f2b110f61eb01779000053/train/python
+
+def get_sum(a,b):
+    if a < b:
+        return sum([n for n in range(a,b+1)])
+    else:
+        return sum([n for n in range(b,a+1)])
+
+get_sum(-1,0)
+
+>>>
+-1
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
