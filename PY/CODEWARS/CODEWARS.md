@@ -9,6 +9,7 @@
 
 ---
 
+* [reverse_letter](#reverse_letter)
 * [get_sum](#get_sum)
 * [stray](#stray)
 * [find_multiples](#find_multiples)
@@ -62,11 +63,32 @@
 * [](#)
 * [](#)
 * [](#)
-* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### reverse_letter
+
+```py
+#DONE - https://www.codewars.com/kata/58b8c94b7df3f116eb00005b/train/python
+
+def reverse_letter(string):
+    l = [chars for chars in string if chars.isalpha()]   
+    l.reverse()
+    str1 = "".join(l)
+    return str1
+
+reverse_letter('ab23c')
+
+>>>
+'cba'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
