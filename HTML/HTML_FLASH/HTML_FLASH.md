@@ -15,7 +15,7 @@
 * [HEADINGS](#HEADINGS)
 * [PARAGRAPHS](#PARAGRAPHS)
 * [LINKS](#LINKS)
-* [](#)
+* [IMAGES](#IMAGES)
 * [](#)
 * [](#)
 * [](#)
@@ -122,10 +122,13 @@ Attributes are used to provide additional information about HTML elements.
 
 ---
 
-####
+#### IMAGES
+
+HTML images are defined with the ```<img>``` tag.
+The source file (src), alternative text (alt), width, and height are provided as attributes
 
 ```html
-
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
 ```
 
 [^^^](#HTML_FLASH)
