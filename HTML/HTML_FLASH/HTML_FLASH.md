@@ -14,7 +14,7 @@
 * [DOCTYPE](#DOCTYPE)
 * [HEADINGS](#HEADINGS)
 * [PARAGRAPHS](#PARAGRAPHS)
-* [](#)
+* [LINKS](#LINKS)
 * [](#)
 * [](#)
 * [](#)
@@ -106,11 +106,17 @@ HTML paragraphs are defined with the ```<p>``` tag
 
 ---
 
-####
+#### LINKS
+
+HTML links are defined with the ```<a>``` tag
 
 ```html
-
+<a href="https://www.w3schools.com">This is a link</a>
 ```
+
+The link's destination is specified in the href attribute.
+Attributes are used to provide additional information about HTML elements.
+
 
 [^^^](#HTML_FLASH)
 
