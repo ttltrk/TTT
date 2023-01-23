@@ -16,7 +16,7 @@
 * [PARAGRAPHS](#PARAGRAPHS)
 * [LINKS](#LINKS)
 * [IMAGES](#IMAGES)
-* [](#)
+* [ELEMENTS](#ELEMENTS)
 * [](#)
 * [](#)
 * [](#)
@@ -135,11 +135,19 @@ The source file (src), alternative text (alt), width, and height are provided as
 
 ---
 
-####
+#### ELEMENTS
+
+An HTML element is defined by a start tag, some content, and an end tag.
+
+
 
 ```html
-
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 ```
+
+HTML elements can be nested (this means that elements can contain other elements).
+All HTML documents consist of nested HTML elements.
 
 [^^^](#HTML_FLASH)
 
