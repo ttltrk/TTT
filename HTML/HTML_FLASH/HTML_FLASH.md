@@ -148,6 +148,12 @@ An HTML element is defined by a start tag, some content, and an end tag.
 
 HTML elements can be nested (this means that elements can contain other elements).
 All HTML documents consist of nested HTML elements.
+HTML elements with no content are called empty elements.
+The ```<br>``` tag defines a line break, and is an empty element without a closing tag
+
+```html
+<p>This is a <br> paragraph with a line break.</p>
+```
 
 [^^^](#HTML_FLASH)
 
