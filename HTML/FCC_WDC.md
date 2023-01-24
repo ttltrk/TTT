@@ -93,38 +93,57 @@ Commenting allows you to leave messages without affecting the browser display. I
 
 #### 05_STEP_5
 
-```html
+HTML5 has some elements that identify different content areas. These elements make your HTML easier to read and help with Search Engine Optimization (SEO) and accessibility.
 
+```html
+<main>  
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <!-- TODO: Add link to cat photos -->
+    <p>See more cat photos in our gallery.</p>
+</main>    
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 06_STEP_6
+
+In the previous step, you put the h1, h2, comment, and p elements inside the main element. This is called nesting. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation and it is used to make HTML easier to read.
 
 ```html
-
+<main>
+  <h1>CatPhotoApp</h1>
+  <h2>Cat Photos</h2>
+  <!-- TODO: Add link to cat photos -->
+  <p>See more cat photos in our gallery.</p>
+</main>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 07_STEP_7
+
+You can add images to your website by using the img element. img elements have an opening tag without a closing tag. A tag for an element without a closing tag is known as a self-closing tag.
 
 ```html
-
+<p>See more cat photos in our gallery.</p>
+<img>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 08_STEP_8
+
+HTML attributes are special words used inside the opening tag of an element to control the element's behavior. The src attribute in an img element specifies the image's URL (where the image is located). An example of an img element using an src attribute: ```<img src="https://www.example.com/the-image.jpg">```.
 
 ```html
-
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">
 ```
 
 [^^^](#FCC_WDC)
