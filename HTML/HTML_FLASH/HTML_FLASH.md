@@ -17,7 +17,7 @@
 * [LINKS](#LINKS)
 * [IMAGES](#IMAGES)
 * [ELEMENTS](#ELEMENTS)
-* [](#)
+* [ATTRIBUTES](#ATTRIBUTES)
 * [](#)
 * [](#)
 * [](#)
@@ -153,6 +153,101 @@ The ```<br>``` tag defines a line break, and is an empty element without a closi
 
 ```html
 <p>This is a <br> paragraph with a line break.</p>
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+#### ATTRIBUTES
+
+All HTML elements can have attributes.
+Attributes provide additional information about elements.
+Attributes are always specified in the start tag.
+Attributes usually come in name/value pairs like: name="value".
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
+```
+
+[^^^](#HTML_FLASH)
+
+---
+
+####
+
+```html
+
 ```
 
 [^^^](#HTML_FLASH)
