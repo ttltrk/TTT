@@ -29,6 +29,12 @@ Responsive Web Design Certification
 * [08_STEP_8](#08_STEP_8)
 * [09_STEP_9](#09_STEP_9)
 * [10_STEP_10](#10_STEP_10)
+* [11_STEP_11](#11_STEP_11)
+* [12_STEP_12](#12_STEP_12)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -175,20 +181,25 @@ You can link to another page with the anchor (a) element. For example, ```<a hre
 
 ---
 
-####
+#### 11_STEP_11
+
+A link's text must be placed between the opening and closing tags of an anchor (a) element. For example, ```<a href="https://www.freecodecamp.org">click here to go to freeCodeCamp.org</a>``` is a link with the text click here to go to freeCodeCamp.org.
 
 ```html
-
+<a href="https://freecatphotoapp.com">link to cat pictures</a>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 12_STEP_12
+
+In the previous step you turned the words link to cat pictures into a link by placing them between opening and closing anchor (a) tags. You can do the same to words inside of an element, such as a p element.
 
 ```html
-
+<p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+<a href="https://freecatphotoapp.com">link to cat pictures</a>
 ```
 
 [^^^](#FCC_WDC)
