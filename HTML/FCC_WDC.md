@@ -32,6 +32,13 @@ Responsive Web Design Certification
 * [11_STEP_11](#11_STEP_11)
 * [12_STEP_12](#12_STEP_12)
 * [13_STEP_13](#13_STEP_13)
+* [14_STEP_14](#14_STEP_14)
+* [15_STEP_15](#15_STEP_15)
+* [16_STEP_16](#16_STEP_16)
+* [17_STEP_17](#17_STEP_17)
+* [18_STEP_18](#18_STEP_18)
+* [19_STEP_19](#19_STEP_19)
+* [20_STEP_20](#20_STEP_20)
 * [](#)
 * [](#)
 * [](#)
@@ -40,8 +47,6 @@ Responsive Web Design Certification
 * [](#)
 * [](#)
 * [](#)
-* [](#)
-
 
 ---
 
@@ -218,7 +223,19 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 ---
 
-####
+#### 14_STEP_14
+
+Add a target attribute with the value _blank to the anchor (a) element's opening tag, so that the link opens in a new tab.
+
+```html
+<p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### 15_STEP_15
 
 ```html
 
@@ -228,7 +245,7 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 ---
 
-####
+#### 16_STEP_16
 
 ```html
 
@@ -238,7 +255,7 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 ---
 
-####
+#### 17_STEP_17
 
 ```html
 
@@ -248,7 +265,7 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 ---
 
-####
+#### 18_STEP_18
 
 ```html
 
@@ -258,7 +275,7 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 ---
 
-####
+#### 19_STEP_19
 
 ```html
 
@@ -268,17 +285,7 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 ---
 
-####
-
-```html
-
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
+#### 20_STEP_20
 
 ```html
 
