@@ -31,7 +31,7 @@ Responsive Web Design Certification
 * [10_STEP_10](#10_STEP_10)
 * [11_STEP_11](#11_STEP_11)
 * [12_STEP_12](#12_STEP_12)
-* [](#)
+* [13_STEP_13](#13_STEP_13)
 * [](#)
 * [](#)
 * [](#)
@@ -206,10 +206,12 @@ In the previous step you turned the words link to cat pictures into a link by pl
 
 ---
 
-####
+#### 13_STEP_13
+
+Now that you turned the text cat photos inside the p element into a link, you don't need the second link below the p element. Delete the entire anchor element below the p element.
 
 ```html
-
+<p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
 ```
 
 [^^^](#FCC_WDC)
