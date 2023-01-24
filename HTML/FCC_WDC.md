@@ -22,13 +22,13 @@ Responsive Web Design Certification
 * [01_STEP_1](#01_STEP_1)
 * [02_STEP_2](#02_STEP_2)
 * [03_STEP_3](#03_STEP_3)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [04_STEP_4](#04_STEP_4)
+* [05_STEP_5](#05_STEP_5)
+* [06_STEP_6](#06_STEP_6)
+* [07_STEP_7](#07_STEP_7)
+* [08_STEP_8](#08_STEP_8)
+* [09_STEP_9](#09_STEP_9)
+* [10_STEP_10](#10_STEP_10)
 * [](#)
 * [](#)
 * [](#)
@@ -78,17 +78,20 @@ The p element is used to create a paragraph of text on websites.
 
 ---
 
-####
+#### 04_STEP_4
+
+Commenting allows you to leave messages without affecting the browser display. It also allows you to make code inactive. A comment in HTML starts with ```<!--```, contains any number of lines of text, and ends with ```-->```. For example, the comment ```<!--``` TODO: Remove h1 ```-->``` contains the text TODO: Remove h1.
 
 ```html
-
+<!--TODO: Add link to cat photos-->
+<p>See more cat photos in our gallery.</p>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 05_STEP_5
 
 ```html
 
