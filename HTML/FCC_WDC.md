@@ -237,8 +237,10 @@ Add a target attribute with the value _blank to the anchor (a) element's opening
 
 #### 15_STEP_15
 
-```html
+Turn the image into a link by surrounding it with necessary element tags. Use ```htps://freecatphotoapp.com``` as the anchor's href attribute value.
 
+```html
+<a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
 ```
 
 [^^^](#FCC_WDC)
