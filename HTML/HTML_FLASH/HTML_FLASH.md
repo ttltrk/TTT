@@ -166,6 +166,24 @@ Attributes provide additional information about elements.
 Attributes are always specified in the start tag.
 Attributes usually come in name/value pairs like: name="value".
 
+- All HTML elements can have attributes
+
+```html
+The href attribute of <a> specifies the URL of the page the link goes to
+
+<a href="https://www.w3schools.com">Visit W3Schools</a>
+
+The src attribute of <img> specifies the path to the image to be displayed
+
+<img src="img_girl.jpg">
+
+The width and height attributes of <img> provide size information for images
+The alt attribute of <img> provides an alternate text for an image
+The style attribute is used to add styles to an element, such as color, font, size, and more
+The lang attribute of the <html> tag declares the language of the Web page
+The title attribute defines some extra information about an element
+```
+
 ```html
 
 ```
