@@ -322,8 +322,13 @@ When you add a lower rank heading element to the page, it's implied that you're 
 
 #### 20_STEP_20
 
-```html
+After the h3 element with the Things cats love: text, add an unordered list (ul) element. Note that nothing will be displayed at this point.
 
+```html
+<h2>Cat Lists</h2>
+<h3>Things cats love:</h3>
+  <ul>
+  </ul>
 ```
 
 [^^^](#FCC_WDC)
