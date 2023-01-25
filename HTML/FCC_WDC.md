@@ -293,8 +293,12 @@ It is time to add a new section. Add a second section element below the existing
 
 #### 18_STEP_18
 
-```html
+Within the second section element, add a new h2 element with the text Cat Lists.
 
+```html
+<section>
+  <h2>Cat Lists</h2>
+</section>
 ```
 
 [^^^](#FCC_WDC)
@@ -303,8 +307,13 @@ It is time to add a new section. Add a second section element below the existing
 
 #### 19_STEP_19
 
-```html
+When you add a lower rank heading element to the page, it's implied that you're starting a new subsection.
 
+```html
+<section>
+  <h2>Cat Lists</h2>
+  <h3>Things cats love:</h3>
+</section>
 ```
 
 [^^^](#FCC_WDC)
