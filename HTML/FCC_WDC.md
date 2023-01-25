@@ -225,7 +225,7 @@ Now that you turned the text cat photos inside the p element into a link, you do
 
 #### 14_STEP_14
 
-Add a target attribute with the value _blank to the anchor (a) element's opening tag, so that the link opens in a new tab.
+Add a target attribute with the value ```_blank``` to the anchor (a) element's opening tag, so that the link opens in a new tab.
 
 ```html
 <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
@@ -240,7 +240,9 @@ Add a target attribute with the value _blank to the anchor (a) element's opening
 Turn the image into a link by surrounding it with necessary element tags. Use ```htps://freecatphotoapp.com``` as the anchor's href attribute value.
 
 ```html
-<a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+<a href="https://freecatphotoapp.com">
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+</a>
 ```
 
 [^^^](#FCC_WDC)
@@ -249,8 +251,20 @@ Turn the image into a link by surrounding it with necessary element tags. Use ``
 
 #### 16_STEP_16
 
-```html
+Before adding any new content, you should make use of a section element to separate the cat photos content from the future content.
 
+```html
+<main>
+  <h1>CatPhotoApp</h1>
+
+  <section>
+  <h2>Cat Photos</h2>
+  <!-- TODO: Add link to cat photos -->
+  <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+  <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+  </section>
+
+</main>
 ```
 
 [^^^](#FCC_WDC)
