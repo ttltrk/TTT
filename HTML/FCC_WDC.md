@@ -39,11 +39,11 @@ Responsive Web Design Certification
 * [18_STEP_18](#18_STEP_18)
 * [19_STEP_19](#19_STEP_19)
 * [20_STEP_20](#20_STEP_20)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [21_STEP_21](#21_STEP_21)
+* [22_STEP_22](#22_STEP_22)
+* [23_STEP_23](#23_STEP_23)
+* [24_STEP_24](#24_STEP_24)
+* [25_STEP_25](#25_STEP_25)
 * [](#)
 * [](#)
 * [](#)
@@ -335,20 +335,39 @@ After the h3 element with the Things cats love: text, add an unordered list (ul)
 
 ---
 
-####
+#### 21_STEP_21
+
+Use list item (li) elements to create items in a list.
 
 ```html
-
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 22_STEP_22
+
+After the unordered list, add a new image with an src attribute value set to:
+
+```https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg```
+
+And its alt attribute value to:
+
+```A slice of lasagna on a plate.```
 
 ```html
-
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
 ```
 
 [^^^](#FCC_WDC)
