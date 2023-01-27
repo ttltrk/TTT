@@ -47,6 +47,9 @@ Responsive Web Design Certification
 * [](#)
 * [](#)
 * [](#)
+* [](#)
+* [](#)
+* [](#)
 
 ---
 
@@ -374,10 +377,14 @@ And its alt attribute value to:
 
 ---
 
-####
+#### 23_STEP_23
+
+The figure element represents self-contained content and will allow you to associate an image with a caption.
 
 ```html
-
+<figure>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+</figure>
 ```
 
 [^^^](#FCC_WDC)
