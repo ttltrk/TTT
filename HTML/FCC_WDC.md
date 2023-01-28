@@ -44,11 +44,11 @@ Responsive Web Design Certification
 * [23_STEP_23](#23_STEP_23)
 * [24_STEP_24](#24_STEP_24)
 * [25_STEP_25](#25_STEP_25)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [26_STEP_26](#26_STEP_26)
+* [27_STEP_27](#27_STEP_27)
+* [28_STEP_28](#28_STEP_28)
+* [29_STEP_29](#29_STEP_29)
+* [30_STEP_30](#30_STEP_30)
 * [](#)
 
 ---
@@ -418,11 +418,18 @@ Emphasize the word love in the figcaption element by wrapping it in an emphasis 
 
 ---
 
-####
+#### 26_STEP_26
 
+After the figure element, add another h3 element with the text:
+
+```Top 3 things cats hate:```
 
 ```html
-
+<figure>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+  <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+</figure>
+<h3>Top 3 things cats hate:</h3>
 ```
 
 [^^^](#FCC_WDC)
