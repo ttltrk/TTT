@@ -436,22 +436,35 @@ After the figure element, add another h3 element with the text:
 
 ---
 
-####
+#### 27_STEP_27
 
+The code for an ordered list (ol) is similar to an unordered list, but list items in an ordered list are numbered when displayed.
 
 ```html
-
+<h3>Top 3 things cats hate:</h3>
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 28_STEP_28
 
+After the ordered list, add another figure element.
 
 ```html
-
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+<figure>
+</figure>
 ```
 
 [^^^](#FCC_WDC)
