@@ -471,11 +471,14 @@ After the ordered list, add another figure element.
 
 ---
 
-####
+#### 29_STEP_29
 
+Inside the figure element you just added, nest an img element with a src attribute set to ```https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.```
 
 ```html
-
+<figure>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg">
+</figure>
 ```
 
 [^^^](#FCC_WDC)
