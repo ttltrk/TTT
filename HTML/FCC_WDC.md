@@ -577,22 +577,30 @@ It is time to add a new section. Add a third section element below the second se
 
 ---
 
-####
+#### 34_STEP_34
 
+Inside the third section element, add an h2 element with the text: ```Cat Form```
 
 ```html
-
+<section>
+  <h2>Cat Form</h2>
+</section>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 35_STEP_35
 
+Now you will add a web form to collect information from users.
+
+After the Cat Form heading, add a form element.
 
 ```html
-
+<h2>Cat Form</h2>
+  <form>
+  </form>
 ```
 
 [^^^](#FCC_WDC)
