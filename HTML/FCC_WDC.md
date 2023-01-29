@@ -49,6 +49,21 @@ Responsive Web Design Certification
 * [28_STEP_28](#28_STEP_28)
 * [29_STEP_29](#29_STEP_29)
 * [30_STEP_30](#30_STEP_30)
+* [31_STEP_31](#31_STEP_31)
+* [32_STEP_32](#32_STEP_32)
+* [33_STEP_33](#33_STEP_33)
+* [34_STEP_34](#34_STEP_34)
+* [35_STEP_35](#35_STEP_35)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 
 ---
@@ -499,11 +514,15 @@ To improve accessibility of the image you added, add an alt attribute with the t
 
 ---
 
-####
+#### 31_STEP_31
 
+After the last img element, add a figcaption element with the text Cats hate other cats.
 
 ```html
-
+<figure>
+  <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+  <figcaption>Cats hate other cats.</figcaption>
+</figure>
 ```
 
 [^^^](#FCC_WDC)
