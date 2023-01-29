@@ -529,22 +529,48 @@ After the last img element, add a figcaption element with the text Cats hate oth
 
 ---
 
-####
+#### 32_STEP_32
 
+The strong element is used to indicate that some text is of strong importance or urgent.
 
 ```html
-
+<figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 33_STEP_33
 
+It is time to add a new section. Add a third section element below the second section element.
 
 ```html
-
+<section>
+  <h2>Cat Lists</h2>
+  <h3>Things cats love:</h3>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <figure>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+    <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+  </figure>
+  <h3>Top 3 things cats hate:</h3>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <figure>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+  </figure>
+</section>
+<section>
+</section>
 ```
 
 [^^^](#FCC_WDC)
