@@ -619,11 +619,14 @@ The action attribute indicates where form data should be sent. For example, ```<
 
 ---
 
-####
+#### 37_STEP_37
 
+The input element allows you several ways to collect data from a web form. Like img elements, input elements are self-closing and do not need closing tags.
 
 ```html
-
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+  <input>
+</form>
 ```
 
 [^^^](#FCC_WDC)
