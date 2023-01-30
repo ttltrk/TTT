@@ -54,12 +54,12 @@ Responsive Web Design Certification
 * [33_STEP_33](#33_STEP_33)
 * [34_STEP_34](#34_STEP_34)
 * [35_STEP_35](#35_STEP_35)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [36_STEP_36](#36_STEP_36)
+* [37_STEP_37](#37_STEP_37)
+* [38_STEP_38](#38_STEP_38)
+* [39_STEP_39](#39_STEP_39)
+* [40_STEP_40](#40_STEP_40)
+* [41_STEP_41](#41_STEP_41)
 * [](#)
 * [](#)
 * [](#)
@@ -607,11 +607,12 @@ After the Cat Form heading, add a form element.
 
 ---
 
-####
+#### 36_STEP_36
 
+The action attribute indicates where form data should be sent. For example, ```<form action="/submit-url"></form>``` tells the browser that the form data should be sent to the path ```/submit-url```.
 
 ```html
-
+<form action="https://freecatphotoapp.com/submit-cat-photo"></form>
 ```
 
 [^^^](#FCC_WDC)
