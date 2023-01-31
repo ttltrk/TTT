@@ -633,33 +633,36 @@ The input element allows you several ways to collect data from a web form. Like 
 
 ---
 
-####
+#### 38_STEP_38
 
+There are many kinds of inputs you can create using the type attribute. You can easily create a password field, reset button, or a control to let users select a file from their computer.
 
 ```html
-
+<input type="text">
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 39_STEP_39
 
+In order for a form's data to be accessed by the location specified in the action attribute, you must give the text field a name attribute and assign it a value to represent the data being submitted. For example, you could use the following syntax for an email address text field: ```<input type="text" name="email">```.
 
 ```html
-
+<input type="text" name="catphotourl">
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 40_STEP_40
 
+Placeholder text is used to give people a hint about what kind of information to enter into an input. For example, ```<input type="text" placeholder="Email address">```.
 
 ```html
-
+<input type="text" name="catphotourl" placeholder="cat photo URL">
 ```
 
 [^^^](#FCC_WDC)
