@@ -60,6 +60,19 @@ Responsive Web Design Certification
 * [39_STEP_39](#39_STEP_39)
 * [40_STEP_40](#40_STEP_40)
 * [41_STEP_41](#41_STEP_41)
+* [42_STEP_42](#42_STEP_42)
+* [43_STEP_43](#43_STEP_43)
+* [44_STEP_44](#44_STEP_44)
+* [45_STEP_45](#45_STEP_45)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -681,22 +694,26 @@ To prevent a user from submitting your form when required information is missing
 
 ---
 
-####
+#### 42_STEP_42
 
+Use the button element to create a clickable button. For example, ```<button>Click Here</button>``` creates a button with the text Click Here.
 
 ```html
-
+<input type="text" name="catphotourl" placeholder="cat photo URL" required>
+<button>Submit</button>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 43_STEP_43
+
+Even though you added your button below the text input, they appear next to each other on the page. That's because both input and button elements are inline elements, which don't appear on new lines.
 
 
 ```html
-
+<button type="submit">Submit</button>
 ```
 
 [^^^](#FCC_WDC)
