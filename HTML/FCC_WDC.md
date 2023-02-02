@@ -727,7 +727,8 @@ You can use radio buttons for questions where you want only one answer out of mu
 Here is an example of a radio button with the option of ```cat: <input type="radio"> cat```. Remember that input elements are self-closing.
 
 ```html
-
+<input type="radio"> Indoor
+<input type="text" name="catphotourl" placeholder="cat photo URL" required> 
 ```
 
 [^^^](#FCC_WDC)
