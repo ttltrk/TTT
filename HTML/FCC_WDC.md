@@ -728,18 +728,19 @@ Here is an example of a radio button with the option of ```cat: <input type="rad
 
 ```html
 <input type="radio"> Indoor
-<input type="text" name="catphotourl" placeholder="cat photo URL" required> 
+<input type="text" name="catphotourl" placeholder="cat photo URL" required>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 45_STEP_45
 
+label elements are used to help associate the text for an input element with the input element itself (especially for assistive technologies like screen readers). For example, ```<label><input type="radio"> cat</label>``` makes it so clicking the word cat also selects the corresponding radio button.
 
 ```html
-
+<label><input type="radio"> Indoor</label>
 ```
 
 [^^^](#FCC_WDC)
