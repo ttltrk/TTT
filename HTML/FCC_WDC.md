@@ -64,12 +64,12 @@ Responsive Web Design Certification
 * [43_STEP_43](#43_STEP_43)
 * [44_STEP_44](#44_STEP_44)
 * [45_STEP_45](#45_STEP_45)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [46_STEP_46](#46_STEP_46)
+* [47_STEP_47](#47_STEP_47)
+* [48_STEP_48](#48_STEP_48)
+* [49_STEP_49](#49_STEP_49)
+* [50_STEP_50](#50_STEP_50)
+* [51_STEP_51](#51_STEP_51)
 * [](#)
 * [](#)
 * [](#)
@@ -747,33 +747,38 @@ label elements are used to help associate the text for an input element with the
 
 ---
 
-####
+#### 46_STEP_46
 
+The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
 
 ```html
-
+<label><input type="radio" id="indoor"> Indoor</label>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 47_STEP_47
 
+Create another radio button below the first one. Nest it inside a label element with Outdoor as the label text. Give the radio button an id attribute with outdoor as the value.
 
 ```html
-
+<label><input id="indoor" type="radio"> Indoor</label>
+<label><input id="outdoor" type="radio"> Outdoor</label>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 48_STEP_48
 
+Notice that both radio buttons can be selected at the same time. To make it so selecting one radio button automatically deselects the other, both buttons must have a name attribute with the same value.
 
 ```html
-
+<label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+<label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
 ```
 
 [^^^](#FCC_WDC)
