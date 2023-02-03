@@ -50,7 +50,7 @@
 * [squares](#squares)
 * [is_it_a_num](#is_it_a_num)
 * [sort_dict](#sort_dict)
-* [](#)
+* [square_num](#square_num)
 * [](#)
 * [](#)
 * [](#)
@@ -1239,12 +1239,36 @@ sort_dict({3:1, 2:2, 1:3})
 
 ---
 
-####
+#### square_num
 
 ```py
+#DONE - https://www.codewars.com/kata/5a805d8cafa10f8b930005ba/train/python
+
+#
+# BS
+#
+# return round(n ** 0.5) ** 2
+#
+
+def nearest_sq(n):
+    simp = [numsk*numsk for numsk in range(0,2000)]
+    simp.append(n)
+    simp.sort()    
+    x = simp.index(n)    
+    l = []
+    l.append(simp[x])
+    l.append(simp[x+1])
+    l.append(simp[x-1])    
+    l.sort()    
+    if l[1]-l[0]<l[2]-l[1]:
+        return l[0]
+    else:
+        return l[2]
+
+nearest_sq(200)
 
 >>>
-
+196
 >>>
 ```
 
