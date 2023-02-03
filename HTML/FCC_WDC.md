@@ -785,22 +785,28 @@ Notice that both radio buttons can be selected at the same time. To make it so s
 
 ---
 
-####
+#### 49_STEP_49
 
+If you select the Indoor radio button and submit the form, the form data for the button is based on its name and value attributes. Since your radio buttons do not have a value attribute, the form data will include indoor-outdoor=on, which is not useful when you have multiple buttons.
 
 ```html
-
+<label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+<label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 50_STEP_50
 
+The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
 
 ```html
-
+<fieldset>
+  <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+</fieldset>
 ```
 
 [^^^](#FCC_WDC)
