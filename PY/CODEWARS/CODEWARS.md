@@ -51,7 +51,7 @@
 * [is_it_a_num](#is_it_a_num)
 * [sort_dict](#sort_dict)
 * [square_num](#square_num)
-* [](#)
+* [covfefe](#covfefe)
 * [](#)
 * [](#)
 * [](#)
@@ -1276,12 +1276,36 @@ nearest_sq(200)
 
 ---
 
-####
+#### covfefe
 
 ```py
+#DONE - https://www.codewars.com/kata/592fd8f752ee71ac7e00008a/train/python
+
+def covfefe(s):
+
+    l = s.split()
+    print(l)
+
+    #replace a list item with something
+    for i in range(len(l)):
+        if l[i] == 'coverage':
+            l[i] = 'covfefe'
+
+    ss = " ".join(l)
+    print(ss)
+
+
+    if "coverage" in s:
+        return ss
+    else:
+        return s+" covfefe"
+
+covfefe('coverage coverage')
 
 >>>
-
+['coverage', 'coverage']
+covfefe covfefe
+'covfefe covfefe'
 >>>
 ```
 
