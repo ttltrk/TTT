@@ -813,11 +813,16 @@ The fieldset element is used to group related inputs and labels together in a we
 
 ---
 
-####
+#### 51_STEP_51
 
+The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form.
 
 ```html
-
+<fieldset>
+  <legend>Is your cat an indoor or outdoor cat?</legend>
+  <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+</fieldset>
 ```
 
 [^^^](#FCC_WDC)
