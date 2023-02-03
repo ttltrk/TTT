@@ -869,18 +869,25 @@ Add a legend element with the text What's your cat's personality? inside the sec
 
 ---
 
-####
+#### 54_STEP_54
+
+Forms commonly use checkboxes for questions that may have more than one answer. For example, here's a checkbox with the option of ```tacos: <input type="checkbox"> tacos```.
 
 ```html
+<legend>What's your cat's personality?</legend>
+<input type="checkbox"> Loving
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 55_STEP_55
+
+Add an id attribute with the value loving to the checkbox input.
 
 ```html
+<input type="checkbox" id="loving"> Loving
 ```
 
 [^^^](#FCC_WDC)
