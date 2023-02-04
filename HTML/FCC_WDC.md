@@ -907,9 +907,12 @@ There's another way to associate an input element's text with the element itself
 
 ---
 
-####
+#### 57
+
+Add the name attribute with the value personality to the checkbox input element.
 
 ```html
+<input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
 ```
 
 [^^^](#FCC_WDC)
