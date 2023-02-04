@@ -896,7 +896,11 @@ Add an id attribute with the value loving to the checkbox input.
 
 #### 56_STEP_56
 
+There's another way to associate an input element's text with the element itself. You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute.
+
 ```html
+<input id="loving" type="checkbox">
+<label for="loving">Loving</label>
 ```
 
 [^^^](#FCC_WDC)
