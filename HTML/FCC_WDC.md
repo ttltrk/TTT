@@ -932,18 +932,37 @@ Add another checkbox after the one you just added. The id attribute value should
 
 ---
 
-####
+#### 59_STEP_59
+
+Add a final checkbox after the previous one with an id attribute value of energetic. The name attribute should be the same as the previous checkbox.
+Also add a label element to the right of the new checkbox with text Energetic. Make sure to associate the label element with the new checkbox.
 
 ```html
+<input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+<input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
+<input id="energetic" type="checkbox" name="personality"> <label for="energetic">Energetic</label>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### 60_STEP_60
+
+Like radio buttons, form data for selected checkboxes are name / value attribute pairs. While the value attribute is optional, it's best practice to include it with any checkboxes or radio buttons on the page.
 
 ```html
+<fieldset>
+  <legend>Is your cat an indoor or outdoor cat?</legend>
+  <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+  <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+</fieldset>
+<fieldset>
+  <legend>What's your cat's personality?</legend>
+  <input id="loving" type="checkbox" name="personality" value="loving"> <label for="loving">Loving</label>
+  <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+  <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic"> Energetic</label>
+</fieldset>
 ```
 
 [^^^](#FCC_WDC)
