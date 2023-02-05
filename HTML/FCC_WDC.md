@@ -919,9 +919,13 @@ Add the name attribute with the value personality to the checkbox input element.
 
 ---
 
-####
+#### 58_STEP_58
+
+Add another checkbox after the one you just added. The id attribute value should be lazy and the name attribute value should be the same as the last checkbox.
 
 ```html
+<input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
+<input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
 ```
 
 [^^^](#FCC_WDC)
