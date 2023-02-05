@@ -79,8 +79,15 @@ Responsive Web Design Certification
 * [58_STEP_58](#58_STEP_58)
 * [59_STEP_59](#59_STEP_59)
 * [60_STEP_60](#60_STEP_60)
-* [](#)
-* [](#)
+* [61_STEP_61](#61_STEP_61)
+* [62_STEP_62](#62_STEP_62)
+* [63_STEP_63](#63_STEP_63)
+* [64_STEP_64](#64_STEP_64)
+* [65_STEP_65](#65_STEP_65)
+* [66_STEP_66](#66_STEP_66)
+* [67_STEP_67](#67_STEP_67)
+* [68_STEP_68](#68_STEP_68)
+* [69_STEP_69](#69_STEP_69)
 * [](#)
 * [](#)
 * [](#)
@@ -969,7 +976,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 61_STEP_61
 
 ```html
 ```
@@ -978,7 +985,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 62_STEP_62
 
 ```html
 ```
@@ -987,7 +994,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 63_STEP_63
 
 ```html
 ```
@@ -996,7 +1003,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 64_STEP_64
 
 ```html
 ```
@@ -1005,7 +1012,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 65_STEP_65
 
 ```html
 ```
@@ -1014,7 +1021,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 66_STEP_66
 
 ```html
 ```
@@ -1023,7 +1030,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 67_STEP_67
 
 ```html
 ```
@@ -1032,7 +1039,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 68_STEP_68
 
 ```html
 ```
@@ -1041,7 +1048,7 @@ Like radio buttons, form data for selected checkboxes are name / value attribute
 
 ---
 
-####
+#### 69_STEP_69
 
 ```html
 ```
