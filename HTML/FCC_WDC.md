@@ -1059,7 +1059,14 @@ Add a head element above the body element.
 
 #### 66_STEP_66
 
+The title element determines what browsers show in the title bar or tab for the page.
+Add a title element within the head element using the text below:
+```CatPhotoApp```
+
 ```html
+<head>
+  <title>CatPhotoApp</title>
+</head>
 ```
 
 [^^^](#FCC_WDC)
@@ -1068,7 +1075,11 @@ Add a head element above the body element.
 
 #### 67_STEP_67
 
+Notice that the entire contents of the page are nested within an html element. All other elements must be descendants of this html element.
+Add the lang attribute with the value en to the opening html tag to specify that the language of the page is English.
+
 ```html
+<html lang="en">
 ```
 
 [^^^](#FCC_WDC)
@@ -1077,7 +1088,12 @@ Add a head element above the body element.
 
 #### 68_STEP_68
 
+All pages should begin with ```<!DOCTYPE html>```. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
+Add this declaration as the first line of the code.
+
 ```html
+<!DOCTYPE html>
+<html lang="en">
 ```
 
 [^^^](#FCC_WDC)
@@ -1086,7 +1102,15 @@ Add a head element above the body element.
 
 #### 69_STEP_69
 
+You can set browser behavior by adding self-closing meta elements in the head. Here's an example:
+```<meta attribute="value">```
+Tell the browser to parse the markup into multiple languages by creating a meta element as a child of the head element. Set its charset attribute to UTF-8.
+
 ```html
+<head>
+  <meta charset="UTF-8">
+  <title>CatPhotoApp</title>
+</head>
 ```
 
 [^^^](#FCC_WDC)
