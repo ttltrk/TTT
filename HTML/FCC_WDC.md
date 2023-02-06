@@ -1001,7 +1001,14 @@ Make the first radio button and the first checkbox selected by default.
 
 #### 62_STEP_62
 
+Now you will add a footer section to the page.
+After the main element, add a footer element.
+
 ```html
+  </main>
+  <footer>
+  </footer>
+</body>
 ```
 
 [^^^](#FCC_WDC)
@@ -1010,7 +1017,12 @@ Make the first radio button and the first checkbox selected by default.
 
 #### 63_STEP_63
 
+Nest a p element with the text No Copyright - freeCodeCamp.org within the footer element.
+
 ```html
+<footer>
+  <p>No Copyright - freeCodeCamp.org</p>
+</footer>
 ```
 
 [^^^](#FCC_WDC)
