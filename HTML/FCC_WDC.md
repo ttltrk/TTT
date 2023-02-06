@@ -1031,7 +1031,10 @@ Nest a p element with the text No Copyright - freeCodeCamp.org within the footer
 
 #### 64_STEP_64
 
+Make the text ```freeCodeCamp.org``` into a link by enclosing it in an anchor (a) element. The href attribute should be set to ```https://www.freecodecamp.org```.
+
 ```html
+<p>No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
 ```
 
 [^^^](#FCC_WDC)
@@ -1040,7 +1043,14 @@ Nest a p element with the text No Copyright - freeCodeCamp.org within the footer
 
 #### 65_STEP_65
 
+Notice that everything you've added to the page so far is inside the body element. All page content elements that should be rendered to the page go inside the body element. However, other important information goes inside the head element.
+Add a head element above the body element.
+
 ```html
+<html>
+  <head>
+  </head>
+  <body>
 ```
 
 [^^^](#FCC_WDC)
