@@ -283,27 +283,49 @@ Delete the three existing type selectors and replace them with one selector list
 
 ---
 
-####
+#### CSS_14
+
+You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it.
+
+We have created a separate styles.css file for you and switched the editor view to that file. You can change between files with the tabs at the top of the editor.
+
+Start by rewriting the styles you have created into the styles.css file. Make sure to exclude the opening and closing style tags.
 
 ```html
+h1, h2, p {
+  text-align: center;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_15
+
+Now that you have the CSS in the styles.css file, go ahead and remove the style element and all its content. Once it is removed, the text that was centered will shift back to the left.
 
 ```html
+<head>
+  <meta charset="utf-8" />
+  <title>Cafe Menu</title>
+</head>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_16
+
+Now you need to link the styles.css file so the styles will be applied again. Nest a self-closing link element in the head element. Give it a rel attribute value stylesheet and an href attribute value of styles.css.
 
 ```html
+<head>
+  <meta charset="utf-8" />
+  <title>Cafe Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 ```
 
 [^^^](#FCC_WDC)
