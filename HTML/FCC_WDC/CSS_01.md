@@ -21,16 +21,16 @@
 * [CSS_08](#CSS_08)
 * [CSS_09](#CSS_09)
 * [CSS_10](#CSS_10)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [CSS_11](#CSS_11)
+* [CSS_12](#CSS_12)
+* [CSS_13](#CSS_13)
+* [CSS_14](#CSS_14)
+* [CSS_15](#CSS_15)
+* [CSS_16](#CSS_16)
+* [CSS_17](#CSS_17)
+* [CSS_18](#CSS_18)
+* [CSS_19](#CSS_19)
+* [CSS_20](#CSS_20)
 * [](#)
 * [](#)
 * [](#)
@@ -211,18 +211,48 @@ Up until now, you have been limited regarding the presentation and appearance of
 
 ---
 
-####
+#### CSS_11
+
+You can add style to an element by specifying it in the style element and setting a property for it like this:
+
+```css
+element {
+ property: value;
+}
+```
+
+Center your h1 element by setting its text-align property to the value center.
 
 ```html
+<style>
+  h1 {
+    text-align: center;
+  }
+</style>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_12
+
+In the previous step, you used a type selector to style the h1 element. Center the h2 and p elements by adding a new type selector for each one to the existing style element.
 
 ```html
+<style>
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+</style>
 ```
 
 [^^^](#FCC_WDC)
