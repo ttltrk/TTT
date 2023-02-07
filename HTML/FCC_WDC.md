@@ -88,6 +88,39 @@ Responsive Web Design Certification
 * [67_STEP_67](#67_STEP_67)
 * [68_STEP_68](#68_STEP_68)
 * [69_STEP_69](#69_STEP_69)
+
+- Learn Basic CSS by building a Cafe Menu
+
+* [CSS_01](#CSS_01)
+* [CSS_02](#CSS_02)
+* [CSS_03](#CSS_03)
+* [CSS_04](#CSS_04)
+* [CSS_05](#CSS_05)
+* [CSS_06](#CSS_06)
+* [CSS_07](#CSS_07)
+* [CSS_08](#CSS_08)
+* [CSS_09](#CSS_09)
+* [CSS_10](#CSS_10)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -95,6 +128,8 @@ Responsive Web Design Certification
 * [](#)
 
 ---
+
+### Learn HTML by Building a Cat Photo App
 
 #### 01_STEP_1
 
@@ -1117,16 +1152,24 @@ Tell the browser to parse the markup into multiple languages by creating a meta 
 
 ---
 
-####
+### Learn Basic CSS by building a Cafe Menu
+
+#### CSS_01
+
+As you learned in the last few steps of the Cat Photo App, there is a basic structure needed to start building your web page.
+Add the ```<!DOCTYPE html>``` tag, and an html element with a lang attribute of en.
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+</html>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_02
 
 ```html
 ```
