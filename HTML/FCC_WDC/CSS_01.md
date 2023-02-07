@@ -259,9 +259,24 @@ In the previous step, you used a type selector to style the h1 element. Center t
 
 ---
 
-####
+#### CSS_13
+
+You now have three type selectors with the exact same styling. You can add the same group of styles to many elements by creating a list of selectors. Each selector is separated with commas like this:
+
+```css
+selector1, selector2 {
+  property: value;
+}
+```
+
+Delete the three existing type selectors and replace them with one selector list that centers the text for the h1, h2, and p elements.
 
 ```html
+<style>
+  h1, h2, p {
+    text-align: center;
+  }
+</style>
 ```
 
 [^^^](#FCC_WDC)
