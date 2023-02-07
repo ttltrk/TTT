@@ -474,9 +474,15 @@ In your style sheet, comment out the line containing the background-color proper
 
 ---
 
-####
+#### CSS_23
+
+Now use the existing div selector to set the background color of the div element to be burlywood.
 
 ```html
+div {
+  width: 300px;
+  background-color: burlywood;
+}
 ```
 
 [^^^](#FCC_WDC)
