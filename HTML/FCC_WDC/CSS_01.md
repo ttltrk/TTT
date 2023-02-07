@@ -489,18 +489,32 @@ div {
 
 ---
 
-####
+#### CSS_24
+
+Now it's easy to see that the text is centered inside the div element. Currently, the width of the div element is specified in pixels (px). Change the width property's value to be 80%, to make it 80% the width of its parent element (body).
 
 ```html
+div {
+  width: 80%;
+  background-color: burlywood;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_25
+
+Next, you want to center the div horizontally. You can do this by setting its margin-left and margin-right properties to auto. Think of the margin as invisible space around an element. Using these two margin properties, center the div element within the body element.
 
 ```html
+div {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
 ```
 
 [^^^](#FCC_WDC)
