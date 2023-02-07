@@ -332,7 +332,48 @@ Now you need to link the styles.css file so the styles will be applied again. Ne
 
 ---
 
-####
+#### CSS_17
+
+For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+
+Add the following within the head element:
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+```
+
+```html
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafe Menu</title>
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_18
+
+The text is centered again so the link to the CSS file is working. Add another style to the file that changes the background-color property to brown for the body element.
+
+```html
+h1, h2, p {
+  text-align: center;
+}
+
+body {
+  background-color: brown;
+}
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_19
 
 ```html
 ```
@@ -341,25 +382,7 @@ Now you need to link the styles.css file so the styles will be applied again. Ne
 
 ---
 
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
+#### CSS_20
 
 ```html
 ```
