@@ -521,18 +521,37 @@ div {
 
 ---
 
-####
+#### CSS_26
+
+So far you have been using type selectors to style elements. A class selector is defined by a name with a dot directly in front of it, like this:
+
+```
+.class-name {
+  styles
+}
+```
+
+Change the existing div selector into a class selector by replacing div with a class named menu.
 
 ```html
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_27
+
+To apply the class's styling to the div element, add a class attribute to the div element's opening tag and set its value to menu.
 
 ```html
+<div class="menu">
 ```
 
 [^^^](#FCC_WDC)
