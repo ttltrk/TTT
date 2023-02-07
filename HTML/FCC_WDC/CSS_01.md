@@ -375,7 +375,12 @@ body {
 
 #### CSS_19
 
+That brown background makes it hard to read the text. Change the body element's background color to be burlywood so it has some color but you are still be able to read the text.
+
 ```html
+body {
+  background-color: burlywood;
+}
 ```
 
 [^^^](#FCC_WDC)
@@ -384,7 +389,20 @@ body {
 
 #### CSS_20
 
+The div element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a div element inside the body element and then move all the other elements inside the new div.
+
 ```html
+<body>
+  <div>
+  <main>
+    <h1>CAMPER CAFE</h1>
+    <p>Est. 2020</p>
+    <section>
+      <h2>Coffee</h2>
+    </section>
+  </main>
+  </div>
+</body>
 ```
 
 [^^^](#FCC_WDC)
