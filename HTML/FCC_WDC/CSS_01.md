@@ -558,27 +558,43 @@ To apply the class's styling to the div element, add a class attribute to the di
 
 ---
 
-####
+#### CSS_28
+
+Since the cafe's main product for sale is coffee, you could use an image of coffee beans for the background of the page.
+Delete the comment and its contents inside the body type selector. Now add a background-image property and set its value to ```url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)```.
 
 ```html
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_29
+
+It’s looking good. Time to start adding some menu items. Add an empty article element under the Coffee heading. It will contain a flavor and price of each coffee you currently offer.
 
 ```html
+<h2>Coffee</h2>
+<article></article>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_30
+
+article elements commonly contain multiple elements that have related information. In this case, it will contain a coffee flavor and a price for that flavor. Nest two p elements inside your article element. The first one's text should be ```French Vanilla```, and the second's text ```3.00```.
 
 ```html
+<article>
+  <p>French Vanilla</p>
+  <p>3.00</p>
+</article>
 ```
 
 [^^^](#FCC_WDC)
