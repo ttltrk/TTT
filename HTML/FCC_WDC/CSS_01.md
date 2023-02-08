@@ -46,11 +46,11 @@
 * [CSS_33](#CSS_33)
 * [CSS_34](#CSS_34)
 * [CSS_35](#CSS_35)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [CSS_36](#CSS_36)
+* [CSS_37](#CSS_37)
+* [CSS_38](#CSS_38)
+* [CSS_39](#CSS_39)
+* [CSS_40](#CSS_40)
 * [](#)
 * [](#)
 * [](#)
@@ -718,18 +718,41 @@ Using the above selector, add a display property with value inline-block so the 
 
 ---
 
-####
+#### CSS_38
+
+That's closer, but the price didn't stay over on the right. This is because inline-block elements only take up the width of their content. To spread them out, add a width property to the flavor and price class selectors that have a value of ```50%``` each.
 
 ```html
+.flavor {
+  text-align: left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 50%;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_39
+
+Well that did not work. Styling the p elements as inline-block and placing them on separate lines in the code creates an extra space to the right of the first p element, causing the second one to shift to the next line. One way to fix this is to make each p element's width a little less than ```50%```.
+Change the width value to ```49%``` for each class to see what happens.
 
 ```html
+.flavor {
+  text-align: left;
+  width: 49%;
+}
+
+.price {
+  text-align: right;
+  width: 49%;
+}
 ```
 
 [^^^](#FCC_WDC)
