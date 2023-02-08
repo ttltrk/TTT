@@ -681,18 +681,37 @@ Now align the text to the right for the elements with the price class.
 
 ---
 
-####
+#### CSS_36
+
+That is kind of what you want, but now it would be nice if the flavor and price were on the same line. p elements are block-level elements, so they take up the entire width of their parent element.
+To get them on the same line, you need to apply some styling to the p elements, so they behave more like inline elements. Add a class attribute with the value item to the first article element under the Coffee heading.
 
 ```html
+<h2>Coffee</h2>
+<article class="item">
+  <p class="flavor">French Vanilla</p>
+  <p class="price">3.00</p>
+</article>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_37
+
+The p elements are nested in an article element with the class attribute of item. You can style all the p elements nested anywhere in elements with a class named item like this:
+
+```
+.item p { }
+```
+
+Using the above selector, add a display property with value inline-block so the p elements behave more like inline elements.
 
 ```html
+.item p {
+  display: inline-block;
+}
 ```
 
 [^^^](#FCC_WDC)
