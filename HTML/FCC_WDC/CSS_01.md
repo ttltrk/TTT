@@ -41,11 +41,11 @@
 * [CSS_28](#CSS_28)
 * [CSS_29](#CSS_29)
 * [CSS_30](#CSS_30)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [CSS_31](#CSS_31)
+* [CSS_32](#CSS_32)
+* [CSS_33](#CSS_33)
+* [CSS_34](#CSS_34)
+* [CSS_35](#CSS_35)
 * [](#)
 * [](#)
 * [](#)
@@ -643,7 +643,12 @@ Add the class name flavor to the French Vanilla p element.
 
 #### CSS_33
 
+Using your new flavor class as a selector, set the text-align property's value to left.
+
 ```html
+.flavor {
+  text-align: left;
+}
 ```
 
 [^^^](#FCC_WDC)
@@ -652,7 +657,10 @@ Add the class name flavor to the French Vanilla p element.
 
 #### CSS_34
 
+Next, you want to align the price to the right. Add a class named price to your p element that has ```3.00``` as its text.
+
 ```html
+<p class="price">3.00</p>
 ```
 
 [^^^](#FCC_WDC)
@@ -661,7 +669,12 @@ Add the class name flavor to the French Vanilla p element.
 
 #### CSS_35
 
+Now align the text to the right for the elements with the price class.
+
 ```html
+.price {
+  text-align: right;
+}
 ```
 
 [^^^](#FCC_WDC)
