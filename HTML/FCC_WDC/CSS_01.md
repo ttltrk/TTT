@@ -601,7 +601,47 @@ article elements commonly contain multiple elements that have related informatio
 
 ---
 
-####
+#### CSS_31
+
+Starting below the existing coffee/price pair, add the following coffee and prices using article elements with two nested p elements inside each. As before, the first p element's text should contain the coffee flavor and the second p element's text should contain the price.
+
+```html
+<article>
+  <p>French Vanilla</p><p>3.00</p>
+</article>
+<article>
+  <p>Caramel Macchiato</p><p>3.75</p>
+</article>
+<article>
+  <p>Pumpkin Spice</p><p>3.50</p>
+</article>
+<article>
+  <p>Hazelnut</p><p>4.00</p>
+</article>
+<article>
+  <p>Mocha</p><p>4.50</p>
+</article>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_32
+
+The flavors and prices are currently stacked on top of each other and centered with their respective p elements. It would be nice if the flavor was on the left and the price was on the right.
+Add the class name flavor to the French Vanilla p element.
+
+```html
+<p class="flavor">French Vanilla</p>
+<p>3.00</p>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_33
 
 ```html
 ```
@@ -610,7 +650,7 @@ article elements commonly contain multiple elements that have related informatio
 
 ---
 
-####
+#### CSS_34
 
 ```html
 ```
@@ -619,25 +659,7 @@ article elements commonly contain multiple elements that have related informatio
 
 ---
 
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
+#### CSS_35
 
 ```html
 ```
