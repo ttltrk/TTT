@@ -51,11 +51,11 @@
 * [CSS_38](#CSS_38)
 * [CSS_39](#CSS_39)
 * [CSS_40](#CSS_40)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [CSS_41](#CSS_41)
+* [CSS_42](#CSS_42)
+* [CSS_43](#CSS_43)
+* [CSS_44](#CSS_44)
+* [CSS_45](#CSS_45)
 * [](#)
 * [](#)
 * [](#)
@@ -786,6 +786,273 @@ Now go ahead and change both the flavor and price class' widths to be ```50%``` 
   text-align: right;
   width: 50%;
 }
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_42
+
+Now that you know it works, you can change the remaining article and p elements to match the first set. Start by adding the class item to the other article elements.
+
+```html
+<article class="item">
+  <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+</article>
+<article class="item">
+  <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+</article>
+<article class="item">
+  <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+</article>
+<article class="item">
+  <p class="flavor">Mocha</p><p class="price">4.50</p>
+</article>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_43
+
+Next, position the other p elements to be on the same line with no space between them.
+
+```html
+<article class="item">
+  <p>Caramel Macchiato</p><p>3.75</p>
+</article>
+<article class="item">
+  <p>Pumpkin Spice</p><p>3.50</p>
+</article>
+<article class="item">
+  <p>Hazelnut</p><p>4.00</p>
+</article>
+<article class="item">
+  <p>Mocha</p><p>4.50</p>
+</article>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_44
+
+To complete the styling, add the applicable class names flavor and price to all the remaining p elements.
+
+```html
+<article class="item">
+  <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+</article>
+<article class="item">
+  <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+</article>
+<article class="item">
+  <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+</article>
+<article class="item">
+  <p class="flavor">Mocha</p><p class="price">4.50</p>
+</article>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
 ```
 
 [^^^](#FCC_WDC)
