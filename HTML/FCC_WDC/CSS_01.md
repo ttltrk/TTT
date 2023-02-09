@@ -759,18 +759,33 @@ Change the width value to ```49%``` for each class to see what happens.
 
 ---
 
-####
+#### CSS_40
+
+That worked, but there is still a little space on the right of the price.
+You could keep trying various percentages for the widths. Instead, use the back space key on your keyboard to move the p element with the class price next to the p element with the class flavor so that they are on the same line in the editor. Make sure there is no space between them.
 
 ```html
+<p class="flavor">French Vanilla</p><p class="price">3.00</p>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_41
+
+Now go ahead and change both the flavor and price class' widths to be ```50%``` again.
 
 ```html
+.flavor {
+  text-align: left;
+  width: 50%;
+}
+
+.price {
+  text-align: right;
+  width: 50%;
+}
 ```
 
 [^^^](#FCC_WDC)
