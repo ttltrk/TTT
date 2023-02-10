@@ -861,9 +861,21 @@ To complete the styling, add the applicable class names flavor and price to all 
 
 ---
 
-####
+#### CSS_45
+
+If you make the width of the page preview smaller, you will notice at some point, some of the text on the left starts wrapping around to the next line. This is because the width of the p elements on the left side can only take up 50% of the space.
+Since you know the prices on the right have significantly fewer characters, change the flavor class width value to be ```75%``` and the price class width value to be ```25%```.
 
 ```html
+.flavor {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+}
 ```
 
 [^^^](#FCC_WDC)
