@@ -56,11 +56,11 @@
 * [CSS_43](#CSS_43)
 * [CSS_44](#CSS_44)
 * [CSS_45](#CSS_45)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [CSS_46](#CSS_46)
+* [CSS_47](#CSS_47)
+* [CSS_48](#CSS_48)
+* [CSS_49](#CSS_49)
+* [CSS_50](#CSS_50)
 * [](#)
 * [](#)
 * [](#)
@@ -882,7 +882,38 @@ Since you know the prices on the right have significantly fewer characters, chan
 
 ---
 
-####
+#### CSS_46
+
+You will come back to styling the menu in a few steps, but for now, go ahead and add a second section element below the first for displaying the desserts offered by the cafe.
+
+```html
+<section>
+  <h2>Coffee</h2>
+  <article class="item">
+    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+  </article>
+  <article class="item">
+    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+  </article>
+  <article class="item">
+    <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+  </article>
+  <article class="item">
+    <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+  </article>
+  <article class="item">
+    <p class="flavor">Mocha</p><p class="price">4.50</p>
+  </article>
+</section>
+<section>
+</section>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_47
 
 ```html
 ```
@@ -891,7 +922,7 @@ Since you know the prices on the right have significantly fewer characters, chan
 
 ---
 
-####
+#### CSS_48
 
 ```html
 ```
@@ -900,7 +931,7 @@ Since you know the prices on the right have significantly fewer characters, chan
 
 ---
 
-####
+#### CSS_49
 
 ```html
 ```
@@ -909,16 +940,7 @@ Since you know the prices on the right have significantly fewer characters, chan
 
 ---
 
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
+#### CSS_50
 
 ```html
 ```
