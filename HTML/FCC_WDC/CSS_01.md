@@ -966,18 +966,39 @@ For the two p elements you just added, add dessert as the value of the first p e
 
 ---
 
-####
+#### CSS_51
+
+Something does not look right. You added the correct class attribute value to the p element with Donut as its text, but you have not defined a selector for it.
+Since the flavor class selector already has the properties you want, just add the dessert class name to it.
 
 ```html
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_52
+
+Below the dessert you just added, add the rest of the desserts and prices using three more article elements, each with two nested p elements. Each element should have the correct dessert and price text, and all of them should have the correct classes.
 
 ```html
+<article class="item">
+  <p class="dessert">Donut</p><p class="price">1.50</p>
+</article>
+<article class="item">
+  <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+</article>
+<article class="item">
+  <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+</article>
+<article class="item">
+  <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+</article>
 ```
 
 [^^^](#FCC_WDC)
