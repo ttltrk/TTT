@@ -1015,9 +1015,20 @@ Below the dessert you just added, add the rest of the desserts and prices using 
 
 ---
 
-####
+#### CSS_53
+
+You can give your menu some space between the content and the sides with various padding properties.
+Give the menu class a padding-left and a padding-right with the same value 20px.
 
 ```html
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 ```
 
 [^^^](#FCC_WDC)
