@@ -1095,27 +1095,49 @@ Add a max-width property to the menu class with a value of 500px to prevent it f
 
 ---
 
-####
+#### CSS_57
+
+You can change the font-family of text, to make it look different from the default font of your browser. Each browser has some common fonts available to it.
+
+Change all the text in your body, by adding a font-family property with the value sans-serif. This is a fairly common font that is very readable.
 
 ```html
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_58
+
+It is a bit boring for all the text to have the same font-family. You can still have the majority of the text sans-serif and make just the h1 and h2 elements different using a different selector.
+
+Style both the h1 and the h2 elements so that only these elements' text use Impact font.
 
 ```html
+h1, h2 {
+  font-family: Impact;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_59
+
+You can add a fallback value for the font-family by adding another font name separated by a comma. Fallbacks are used in instances where the initial is not found/available.
+
+Add the fallback font serif after the Impact font.
 
 ```html
+h1, h2 {
+  font-family: Impact, serif;
+}
 ```
 
 [^^^](#FCC_WDC)
