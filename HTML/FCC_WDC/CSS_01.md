@@ -61,6 +61,26 @@
 * [CSS_48](#CSS_48)
 * [CSS_49](#CSS_49)
 * [CSS_50](#CSS_50)
+* [CSS_51](#CSS_51)
+* [CSS_52](#CSS_52)
+* [CSS_53](#CSS_53)
+* [CSS_54](#CSS_54)
+* [CSS_55](#CSS_55)
+* [CSS_56](#CSS_56)
+* [CSS_57](#CSS_57)
+* [CSS_58](#CSS_58)
+* [CSS_59](#CSS_59)
+* [CSS_60](#CSS_60)
+* [CSS_61](#CSS_61)
+* [CSS_62](#CSS_62)
+* [CSS_63](#CSS_63)
+* [CSS_64](#CSS_64)
+* [CSS_65](#CSS_65)
+* [CSS_66](#CSS_66)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -1144,9 +1164,14 @@ h1, h2 {
 
 ---
 
-####
+#### CSS_60
+
+Make the Est. 2020 text italicized by creating an established class selector and giving it the font-style property with the value italic.
 
 ```html
+.established {
+  font-style: italic;
+}
 ```
 
 [^^^](#FCC_WDC)
