@@ -1191,36 +1191,97 @@ Now apply the established class to the Est. 2020 text.
 
 ---
 
-####
+#### CSS_62
+
+The typography of heading elements (e.g. h1, h2) is set by default values of users' browsers.
+Add two new type selectors (h1 and h2). Use the font-size property for both, but use the value 40px for the h1 and 30px for the h2.
 
 ```html
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_63
+
+Add a footer element below the main element, where you can add some additional information.
 
 ```html
+<main>
+  <h1>CAMPER CAFE</h1>
+  <p class="established">Est. 2020</p>
+  <section>
+    <h2>Coffee</h2>
+    <article class="item">
+      <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+    </article>
+    <article class="item">
+      <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+    </article>
+    <article class="item">
+      <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+    </article>
+    <article class="item">
+      <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+    </article>
+    <article class="item">
+      <p class="flavor">Mocha</p><p class="price">4.50</p>
+    </article>
+  </section>
+  <section>
+    <h2>Desserts</h2>
+    <article class="item">
+      <p class="dessert">Donut</p><p class="price">1.50</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+    </article>
+    <article class="item">
+      <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+    </article>
+  </section>
+</main>
+<footer></footer>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_64
+
+Inside the footer, add a p element. Then, nest an anchor (a) element in the p that links to https://www.freecodecamp.org and has the text Visit our website.
 
 ```html
+<footer>
+  <p><a href="https://www.freecodecamp.org">Visit our website</a></p>
+</footer>
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_65
+
+Add a second p element below the one with the link and give it the text 123 Free Code Camp Drive.
 
 ```html
+<p>
+  <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+</p>
+<p>123 Free Code Camp Drive</p>
 ```
 
 [^^^](#FCC_WDC)
