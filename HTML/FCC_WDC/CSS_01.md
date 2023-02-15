@@ -1178,9 +1178,13 @@ Make the Est. 2020 text italicized by creating an established class selector and
 
 ---
 
-####
+#### CSS_61
+
+Now apply the established class to the Est. 2020 text.
 
 ```html
+<h1>CAMPER CAFE</h1>
+<p class="established">Est. 2020</p>
 ```
 
 [^^^](#FCC_WDC)
