@@ -18,6 +18,12 @@
 * []()
 * []()
 * []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
 
 ---
 
@@ -131,7 +137,7 @@ second_database=>
 
 ---
 
-#### DETAILS_ABOUT_TABLE
+#### DISPLAY_TABLE
 
 ```
 second_database=> \d second_table
@@ -143,6 +149,125 @@ second_database=> \d second_table
 
 second_database=>
 ```
+
+[^^^](#POSTGRESQL)
+
+---
+
+#### ADD_COLUMN
+
+```
+second_database=> ALTER TABLE second_table ADD COLUMN first_column INT;
+ALTER TABLE
+second_database=>
+```
+
+```
+second_database=> ALTER TABLE second_table ADD COLUMN id INT;
+ALTER TABLE
+second_database=> \d second_table
+                Table "public.second_table"
++--------------+---------+-----------+----------+---------+
+|    Column    |  Type   | Collation | Nullable | Default |
++--------------+---------+-----------+----------+---------+
+| first_column | integer |           |          |         |
+| id           | integer |           |          |         |
++--------------+---------+-----------+----------+---------+
+
+second_database=>
+
+second_database=> ALTER TABLE second_table ADD COLUMN age INT;
+ALTER TABLE
+second_database=> \d second_table
+                Table "public.second_table"
++--------------+---------+-----------+----------+---------+
+|    Column    |  Type   | Collation | Nullable | Default |
++--------------+---------+-----------+----------+---------+
+| first_column | integer |           |          |         |
+| id           | integer |           |          |         |
+| age          | integer |           |          |         |
++--------------+---------+-----------+----------+---------+
+
+second_database=>
+```
+
+[^^^](#POSTGRESQL)
+
+---
+
+#### DROP_COLUMN
+
+```
+second_database=> ALTER TABLE second_table DROP COLUMN age;
+ALTER TABLE
+second_database=>
+```
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
+
+[^^^](#POSTGRESQL)
+
+---
+
+####
 
 [^^^](#POSTGRESQL)
 
