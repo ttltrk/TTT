@@ -49,6 +49,10 @@ postgres=> \l
 postgres=>
 ```
 
+[^^^](#POSTGRESQL)
+
+---
+
 #### CREATE_DB
 
 ```
@@ -90,6 +94,10 @@ postgres=> \l
 postgres=>
 ```
 
+[^^^](#POSTGRESQL)
+
+---
+
 #### CONNECT_TO_THE_DB
 
 ```
@@ -97,6 +105,10 @@ postgres=> \c second_database
 You are now connected to database "second_database" as user "freecodecamp".
 second_database=>
 ```
+
+[^^^](#POSTGRESQL)
+
+---
 
 #### CREATE_AND_CHECK_TABLE
 
@@ -115,6 +127,10 @@ second_database=> \d
 second_database=>
 ```
 
+[^^^](#POSTGRESQL)
+
+---
+
 #### DETAILS_ABOUT_TABLE
 
 ```
@@ -127,3 +143,7 @@ second_database=> \d second_table
 
 second_database=>
 ```
+
+[^^^](#POSTGRESQL)
+
+---
