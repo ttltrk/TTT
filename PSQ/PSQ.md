@@ -207,13 +207,25 @@ second_database=>
 
 ---
 
-####
+#### ADD_COLUMN
+
+```
+second_database=> ALTER TABLE second_table ADD COLUMN name VARCHAR(30);
+ALTER TABLE
+second_database=>
+```
 
 [^^^](#POSTGRESQL)
 
 ---
 
-####
+#### RENAME_COLUMN
+
+```
+second_database=> ALTER TABLE second_table RENAME COLUMN name TO username;
+ALTER TABLE
+second_database=>
+```
 
 [^^^](#POSTGRESQL)
 
