@@ -231,7 +231,14 @@ second_database=>
 
 ---
 
-####
+#### INSERT_INTO
+
+```
+second_database=> INSERT INTO second_table(id, username) VALUES(1, 'Samus');
+second_database=> INSERT 0 1
+
+second_database=>
+```
 
 [^^^](#POSTGRESQL)
 
