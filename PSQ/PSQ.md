@@ -242,14 +242,20 @@ INSERT 0 1
 second_database=>
 second_database=> INSERT INTO second_table(id, username) VALUES(3, 'Luigi');
 INSERT 0 1
-second_database=> 
+second_database=>
 ```
 
 [^^^](#POSTGRESQL)
 
 ---
 
-####
+#### DELETE_ROW
+
+```
+second_database=> DELETE FROM second_table Where username='Luigi';
+DELETE 1
+second_database=>
+```
 
 [^^^](#POSTGRESQL)
 
