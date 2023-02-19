@@ -236,8 +236,13 @@ second_database=>
 ```
 second_database=> INSERT INTO second_table(id, username) VALUES(1, 'Samus');
 second_database=> INSERT 0 1
-
 second_database=>
+second_database=> INSERT INTO second_table(id, username) VALUES(2, 'Mario');
+INSERT 0 1
+second_database=>
+second_database=> INSERT INTO second_table(id, username) VALUES(3, 'Luigi');
+INSERT 0 1
+second_database=> 
 ```
 
 [^^^](#POSTGRESQL)
