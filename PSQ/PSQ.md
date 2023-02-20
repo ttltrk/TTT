@@ -35,17 +35,22 @@
 
 - check dbs: \l
 - login to db: \c second_database
+
 - create dbs: CREATE DATABASE second_database;
+- rename database: ALTER DATABASE first_database RENAME TO mario_database;
+- drop database: DROP DATABASE second_database;
 
 ---------------------------------- TABLES ------------------------------------
 
 - check tables: \d
+
 - create table: CREATE TABLE first_table();
 - drop table: DROP TABLE second_table;
 
 ---------------------------------- COLUMNS ------------------------------------
 
 - check the columns: \d username
+
 - create column: ALTER TABLE second_table ADD COLUMN name VARCHAR(30);
 - drop column: ALTER TABLE second_table DROP COLUMN age;
 - rename column: ALTER TABLE second_table RENAME COLUMN name TO username;
@@ -300,7 +305,7 @@ second_database=>
 ```
 second_database=> DROP TABLE second_table;
 DROP TABLE
-second_database=> 
+second_database=>
 ```
 
 [^^^](#POSTGRESQL)
