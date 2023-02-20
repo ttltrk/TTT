@@ -41,6 +41,7 @@
 
 - check tables: \d
 - create table: CREATE TABLE first_table();
+- drop table: DROP TABLE second_table;
 
 ---------------------------------- COLUMNS ------------------------------------
 
@@ -48,6 +49,8 @@
 - create column: ALTER TABLE second_table ADD COLUMN name VARCHAR(30);
 - drop column: ALTER TABLE second_table DROP COLUMN age;
 - rename column: ALTER TABLE second_table RENAME COLUMN name TO username;
+- fill out values to the column: INSERT INTO second_table(id, username) VALUES(1, 'Samus');
+- delete rows from columns: DELETE FROM second_table Where username='Luigi';
 
 ```
 
@@ -292,7 +295,13 @@ second_database=>
 
 ---
 
-####
+#### DROP_TABLE
+
+```
+second_database=> DROP TABLE second_table;
+DROP TABLE
+second_database=> 
+```
 
 [^^^](#POSTGRESQL)
 
