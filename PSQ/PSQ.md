@@ -255,6 +255,11 @@ second_database=>
 second_database=> DELETE FROM second_table Where username='Luigi';
 DELETE 1
 second_database=>
+second_database=> DELETE FROM second_table WHERE username='Mario';
+DELETE 1
+second_database=> DELETE FROM second_table WHERE username='Samus';
+DELETE 1
+second_database=>
 ```
 
 [^^^](#POSTGRESQL)
