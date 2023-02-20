@@ -81,7 +81,13 @@
     INSERT INTO characters(name, homeland, favorite_color) VALUES('Mario', 'Mushroom Kingdom', 'Red');
     INSERT INTO characters(name, homeland, favorite_color) VALUES('Luigi', 'Mushroom Kingdom', 'Green');
     INSERT INTO characters(name, homeland, favorite_color) VALUES('Peach', 'Mushroom Kingdom', 'Pink');
-    
+
+- mass insert:
+
+    INSERT INTO characters(name, homeland, favorite_color)
+    VALUES('Toadstool', 'Mushroom Kingdom', 'Red'),
+    ('Bowser', 'Mushroom Kingdom', 'Green');
+
 - delete rows from columns:
 
     DELETE FROM second_table Where username='Luigi';
