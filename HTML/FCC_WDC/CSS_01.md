@@ -1462,18 +1462,47 @@ Go ahead and add another hr element between the main element and the footer elem
 
 ---
 
-####
+#### CSS_72
+
+To create a little more room around the menu, add 20px of space on the inside of the body element by using the padding property.
 
 ```html
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_73
+
+Focusing on the menu items and prices, there is a fairly large gap between each line.
+
+Target all the p elements nested in elements with the class named item and set their top and bottom margin to be 5px.
 
 ```html
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin: 5px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
+}
 ```
 
 [^^^](#FCC_WDC)
