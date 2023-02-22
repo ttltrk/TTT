@@ -1526,9 +1526,16 @@ Using the same style selector in the previous step, make the font size of the it
 
 ---
 
-####
+#### CSS_75
+
+Changing the margin-bottom to 5px looks great. However, now the space between the Cinnamon Roll menu item and the second hr element does not match the space between the top hr element and the Coffee heading.
+
+Add some more space by creating a class named bottom-line using 25px for the margin-top property.
 
 ```html
+.bottom-line {
+  margin-top: 25px;
+}
 ```
 
 [^^^](#FCC_WDC)
