@@ -1554,18 +1554,26 @@ Now add the bottom-line class to the second hr element so the styling is applied
 
 ---
 
-####
+#### CSS_77
+
+Next you are going to be styling the footer element. To keep the CSS organized, add a comment at the end of styles.css with the text FOOTER.
 
 ```html
+/* FOOTER */
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_78
+
+Moving down to the footer element, make all the text have a value of 14px for the font size.
 
 ```html
+footer {
+  font-size: 14px;
+}
 ```
 
 [^^^](#FCC_WDC)
