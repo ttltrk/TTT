@@ -96,6 +96,11 @@
 
     DELETE FROM second_table Where username='Luigi';
 
+- update column:
+
+    UPDATE characters SET favorite_color='Orange' WHERE name='Daisy';
+    UPDATE characters SET name='Toad' WHERE favorite_color='Red';
+
 ---------------------------------- DRL/DQL ------------------------------------
 
 - select * from ... :
