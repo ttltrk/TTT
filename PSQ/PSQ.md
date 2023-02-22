@@ -88,6 +88,10 @@
     VALUES('Toadstool', 'Mushroom Kingdom', 'Red'),
     ('Bowser', 'Mushroom Kingdom', 'Green');
 
+    INSERT INTO characters(name, homeland, favorite_color)
+    VALUES('Daisy', 'Sarasaland', 'Yellow'),
+    ('Yoshi', 'Dinosaur Land', 'Green');
+
 - delete rows from columns:
 
     DELETE FROM second_table Where username='Luigi';

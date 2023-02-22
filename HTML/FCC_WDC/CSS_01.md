@@ -1509,9 +1509,17 @@ h1, h2 {
 
 ---
 
-####
+#### CSS_74
+
+Using the same style selector in the previous step, make the font size of the items and prices larger by using a value of 18px.
 
 ```html
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
 ```
 
 [^^^](#FCC_WDC)
