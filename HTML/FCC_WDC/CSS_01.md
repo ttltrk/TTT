@@ -1612,43 +1612,78 @@ a:visited {
 
 ---
 
-####
+#### CSS_81
+
+You change properties of a link when the mouse hovers over them by using a pseudo-selector that looks like a:hover { propertyName: propertyValue; }.
+
+Change the color of the footer Visit our website link to be brown when a user hovers over it.
 
 ```html
+a:hover {
+  color: brown;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_82
+
+You change properties of a link when the link is actually being clicked by using a pseudo-selector that looks like a:active { propertyName: propertyValue; }.
+
+Change the color of the footer Visit our website link to be white when clicked on.
 
 ```html
+a:active {
+  color: white;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_83
+
+To keep with the same color theme you have already been using (black and brown), change the color for when the link is visited to black and use brown for when the link is actually clicked.
 
 ```html
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_84
+
+The menu text CAMPER CAFE has a different space from the top than the address's space at the bottom of the menu. This is due to the browser having some default top margin for the h1 element.
+
+Change the top margin of the h1 element to 0 to remove all the top margin.
 
 ```html
+h1 {
+  font-size: 40px;
+  margin: 0px;
+}
 ```
 
 [^^^](#FCC_WDC)
 
 ---
 
-####
+#### CSS_85
 
 ```html
 ```
