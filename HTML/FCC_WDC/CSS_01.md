@@ -1685,6 +1685,103 @@ h1 {
 
 #### CSS_85
 
+To remove some of the vertical space between the h1 element and the text Est. 2020, change the bottom margin of the h1 to 15px.
+
+```html
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
+```html
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+####
+
 ```html
 ```
 

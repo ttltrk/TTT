@@ -100,6 +100,8 @@
 
     UPDATE characters SET favorite_color='Orange' WHERE name='Daisy';
     UPDATE characters SET name='Toad' WHERE favorite_color='Red';
+    UPDATE characters SET name='Mario' WHERE character_id=1;
+    UPDATE characters SET favorite_color='Blue' WHERE character_id=4;
 
 ---------------------------------- DRL/DQL ------------------------------------
 
