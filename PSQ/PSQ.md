@@ -67,6 +67,18 @@
     ALTER TABLE characters ADD COLUMN homeland VARCHAR(60);
     ALTER TABLE characters ADD COLUMN favorite_color VARCHAR(30);
 
+- add primary key:
+
+    ALTER TABLE characters ADD PRIMARY KEY(name);
+
+- check primary key in the table:
+
+    \d characters
+
+- drop PRIM KEY / CONSTRAINT
+
+  ALTER TABLE characters DROP CONSTRAINT characters_pkey;
+
 - drop column:
 
     ALTER TABLE second_table DROP COLUMN age;
@@ -102,6 +114,8 @@
     UPDATE characters SET name='Toad' WHERE favorite_color='Red';
     UPDATE characters SET name='Mario' WHERE character_id=1;
     UPDATE characters SET favorite_color='Blue' WHERE character_id=4;
+    UPDATE characters SET favorite_color='Yellow' WHERE character_id=5;
+    UPDATE characters SET homeland='Koopa Kingdom' WHERE character_id=5;
 
 ---------------------------------- DRL/DQL ------------------------------------
 
@@ -109,6 +123,55 @@
 
   select * from characters;
 
+- ORDER BY:
 
+  select * from characters ORDER BY character_id;
 
+  mario_database=>                                
++--------------+--------+------------------+----------------+
+| character_id |  name  |     homeland     | favorite_color |
++--------------+--------+------------------+----------------+
+|            1 | Mario  | Mushroom Kingdom | Red            |
+|            2 | Luigi  | Mushroom Kingdom | Green          |
+|            3 | Peach  | Mushroom Kingdom | Pink           |
+|            4 | Toad   | Mushroom Kingdom | Blue           |
+|            5 | Bowser | Koopa Kingdom    | Yellow         |
+|            6 | Daisy  | Sarasaland       | Orange         |
+|            7 | Yoshi  | Dinosaur Land    | Green          |
++--------------+--------+------------------+----------------+
+(7 rows)
+
+```
+
+#### HOW_TO_CHANGE_PRIMARY_KEY
+
+1. create the primary key
+
+```
+ALTER TABLE characters ADD PRIMARY KEY(name);
+```
+
+2. check the PRIM KEY
+
+```
+mario_database=> \d characters
+                                             Table "public.characters"
++----------------+-----------------------+-----------+----------+--------------------------------------------------+
+|     Column     |         Type          | Collation | Nullable |                     Default                      |
++----------------+-----------------------+-----------+----------+--------------------------------------------------+
+| character_id   | integer               |           | not null | nextval('characters_character_id_seq'::regclass) |
+| name           | character varying(30) |           | not null |                                                  |
+| homeland       | character varying(60) |           |          |                                                  |
+| favorite_color | character varying(30) |           |          |                                                  |
++----------------+-----------------------+-----------+----------+--------------------------------------------------+
+Indexes:
+    "characters_pkey" PRIMARY KEY, btree (name)
+
+mario_database=>
+```
+
+3. DROP PRIM KEY
+
+```
+ALTER TABLE characters DROP CONSTRAINT characters_pkey;
 ```
