@@ -1699,7 +1699,73 @@ h1 {
 
 ---
 
-####
+#### CSS_86
+
+Now the top spacing looks good. The space below the address at the bottom of the menu is a little bigger than the space at the top of the menu and the h1 element.
+
+To decrease the default margin space below the address p element, create a class selector named address and use the value 5px for the margin-bottom property.
+
+```html
+.address {
+  margin-bottom: 5px;
+}
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_87
+
+Now apply the address class to the p element containing the address.
+
+```html
+<footer>
+  <p>
+    <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+  </p>
+  <p class='address'>123 Free Code Camp Drive</p>
+</footer>
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_88
+
+The menu looks good, but other than the coffee beans background image, it is mainly just text.
+
+Under the Coffee heading, add an image using the url ```https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg```. Give the image an alt value of coffee icon.
+
+```html
+<h2>Coffee</h2>
+<img src='https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg' alt="coffee icon">
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_89
+
+The image you added is not centered horizontally like the Coffee heading above it. img elements are "like" inline elements.
+
+To make the image behave like heading elements (which are block-level), create an img type selector and use the value block for the display property and use the applicable margin-left and margin-right values to center it horizontally.
+
+```html
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+```
+
+[^^^](#FCC_WDC)
+
+---
+
+#### CSS_90
 
 ```html
 ```
@@ -1708,43 +1774,7 @@ h1 {
 
 ---
 
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
-
-```html
-```
-
-[^^^](#FCC_WDC)
-
----
-
-####
+#### CSS_91
 
 ```html
 ```
