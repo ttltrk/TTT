@@ -48,6 +48,7 @@
 - create table:
 
     CREATE TABLE first_table();
+    CREATE TABLE more_info();
 
 - drop table:
 
