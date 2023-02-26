@@ -67,10 +67,12 @@
     ALTER TABLE characters ADD COLUMN name VARCHAR(30) NOT NULL;
     ALTER TABLE characters ADD COLUMN homeland VARCHAR(60);
     ALTER TABLE characters ADD COLUMN favorite_color VARCHAR(30);
+    ALTER TABLE more_info ADD COLUMN more_info_id SERIAL;
 
 - add primary key:
 
     ALTER TABLE characters ADD PRIMARY KEY(name);
+    ALTER TABLE more_info ADD PRIMARY KEY(more_info_id);
 
 - check primary key in the table:
 
