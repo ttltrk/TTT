@@ -63,11 +63,18 @@
 - create column:
 
     ALTER TABLE second_table ADD COLUMN name VARCHAR(30);
+
     ALTER TABLE characters ADD COLUMN character_id SERIAL;
     ALTER TABLE characters ADD COLUMN name VARCHAR(30) NOT NULL;
     ALTER TABLE characters ADD COLUMN homeland VARCHAR(60);
     ALTER TABLE characters ADD COLUMN favorite_color VARCHAR(30);
+
     ALTER TABLE more_info ADD COLUMN more_info_id SERIAL;
+    ALTER TABLE more_info ADD COLUMN birthday DATE;
+    ALTER TABLE more_info ADD COLUMN height INT;
+    That data type is for decimals. NUMERIC(4, 1) has up to four digits and one of them has to be to the right of the decimal.
+    ALTER TABLE more_info ADD COLUMN weight NUMERIC(4, 1);
+
 
 - add primary key:
 
