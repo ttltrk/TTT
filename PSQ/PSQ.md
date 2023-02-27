@@ -89,6 +89,10 @@
 
   ALTER TABLE characters DROP CONSTRAINT characters_pkey;
 
+- cretae foreign key:
+
+  ALTER TABLE more_info ADD COLUMN character_id INT REFERENCES characters(character_id);
+
 - drop column:
 
     ALTER TABLE second_table DROP COLUMN age;
@@ -221,4 +225,22 @@ mario_database=>                                              Table "public.char
 Indexes:
     "characters_pkey" PRIMARY KEY, btree (character_id)
 
+```
+
+---
+
+#### HOW_TO_CREATE_FOREIGN_KEY
+
+There’s your four columns and the primary key you created at the bottom. To know what row is for a character, you need to set a foreign key so you can relate rows from this table to rows from your characters table. Here's an example that creates a column as a foreign key:
+
+```
+ALTER TABLE table_name ADD COLUMN column_name DATATYPE REFERENCES referenced_table_name(referenced_column_name);
+```
+
+That's quite the command. In the more_info table, create a character_id column. Make it an INT and a foreign key that references the character_id column from the characters table. Good luck.
+
+solution:
+
+```
+ALTER TABLE more_info ADD COLUMN character_id INT REFERENCES characters(character_id);
 ```
