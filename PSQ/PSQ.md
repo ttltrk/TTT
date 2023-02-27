@@ -87,11 +87,19 @@
 
 - drop PRIM KEY / CONSTRAINT
 
-  ALTER TABLE characters DROP CONSTRAINT characters_pkey;
+    ALTER TABLE characters DROP CONSTRAINT characters_pkey;
 
 - cretae foreign key:
 
-  ALTER TABLE more_info ADD COLUMN character_id INT REFERENCES characters(character_id);
+    ALTER TABLE more_info ADD COLUMN character_id INT REFERENCES characters(character_id);
+
+- add unique constraint:
+
+    ALTER TABLE more_info ADD UNIQUE(character_id);
+
+- add NOT NULL constraint:
+
+    ALTER TABLE more_info ALTER COLUMN character_id SET NOT NULL;
 
 - drop column:
 
