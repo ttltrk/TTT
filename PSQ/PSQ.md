@@ -118,7 +118,8 @@
 
     INSERT INTO more_info(birthday, height, weight, character_id) VALUES('1981-07-09', 155, 64.5, 1);
     INSERT INTO more_info(birthday, height, weight, character_id) VALUES('1983-07-14', 175, 48.8, 2);
-    
+    INSERT INTO more_info(birthday, height, weight, character_id) VALUES('1985-10-18', 173, 52.2, 3);
+
 - mass insert:
 
     INSERT INTO characters(name, homeland, favorite_color)
