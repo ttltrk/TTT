@@ -77,6 +77,8 @@
     That data type is for decimals. NUMERIC(4, 1) has up to four digits and one of them has to be to the right of the decimal.
     ALTER TABLE more_info ADD COLUMN weight NUMERIC(4, 1);
 
+    ALTER TABLE sounds ADD COLUMN filename VARCHAR(40) NOT NULL UNIQUE;
+
 
 - add primary key:
 
