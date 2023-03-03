@@ -50,6 +50,8 @@
     CREATE TABLE first_table();
     CREATE TABLE more_info();
 
+    CREATE TABLE sounds(sound_id SERIAL PRIMARY KEY);
+
 - drop table:
 
     DROP TABLE second_table;
@@ -109,6 +111,7 @@
 
     ALTER TABLE second_table RENAME COLUMN name TO username;
     ALTER TABLE more_info RENAME COLUMN height TO height_in_cm;
+    ALTER TABLE more_info RENAME COLUMN weight TO weight_in_kg;
 
 - fill out values to the column:
 
