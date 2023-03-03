@@ -108,6 +108,7 @@
 - rename column:
 
     ALTER TABLE second_table RENAME COLUMN name TO username;
+    ALTER TABLE more_info RENAME COLUMN height TO height_in_cm;
 
 - fill out values to the column:
 
