@@ -9,16 +9,17 @@
 
 ---
 
+- MAIN LOGIN
+
 ```
-
----------------------------------- MAIN LOGIN ------------------------------------
-
 - login to postgre:
 
     psql --username=freecodecamp --dbname=postgres
+```
 
----------------------------------- DBS ------------------------------------
+- DBS
 
+```
 - check dbs:
 
     \l
@@ -38,9 +39,11 @@
 - drop database:
 
     DROP DATABASE second_database;
+```
 
----------------------------------- TABLES ------------------------------------
+- TABLES
 
+```
 - check tables:
 
     \d
@@ -55,9 +58,11 @@
 - drop table:
 
     DROP TABLE second_table;
+```
 
----------------------------------- COLUMNS ------------------------------------
+- COLUMNS
 
+```
 - check the columns:
 
     \d username
@@ -152,9 +157,11 @@
     UPDATE characters SET favorite_color='Blue' WHERE character_id=4;
     UPDATE characters SET favorite_color='Yellow' WHERE character_id=5;
     UPDATE characters SET homeland='Koopa Kingdom' WHERE character_id=5;
+```
 
----------------------------------- DRL/DQL ------------------------------------
+- DRL/DQL
 
+```
 - select * from ... :
 
   select * from characters;
@@ -176,7 +183,6 @@
 |            7 | Yoshi  | Dinosaur Land    | Green          |
 +--------------+--------+------------------+----------------+
 (7 rows)
-
 ```
 
 #### HOW_TO_CHANGE_PRIMARY_KEY
