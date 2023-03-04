@@ -187,6 +187,11 @@
 
 #### HOW_TO_CHANGE_PRIMARY_KEY
 
+```
+The PRIMARY KEY constraint uniquely identifies each record in a table.
+Primary keys must contain UNIQUE values, and cannot contain NULL values.
+```
+
 1. create the primary key
 
 ```
@@ -258,6 +263,12 @@ Indexes:
 ---
 
 #### HOW_TO_CREATE_FOREIGN_KEY
+
+```
+The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables.
+A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table.
+The table with the foreign key is called the child table, and the table with the primary key is called the referenced or parent table.
+```
 
 There’s your four columns and the primary key you created at the bottom. To know what row is for a character, you need to set a foreign key so you can relate rows from this table to rows from your characters table. Here's an example that creates a column as a foreign key:
 
