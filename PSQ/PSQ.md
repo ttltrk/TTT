@@ -101,6 +101,7 @@
 - cretae foreign key:
 
     ALTER TABLE more_info ADD COLUMN character_id INT REFERENCES characters(character_id);
+    ALTER TABLE sounds ADD COLUMN character_id INT NOT NULL REFERENCES characters(character_id);
 
 - add unique constraint:
 
