@@ -56,6 +56,8 @@
     CREATE TABLE sounds(sound_id SERIAL PRIMARY KEY);
     CREATE TABLE actions(action_id SERIAL PRIMARY KEY);
 
+    CREATE TABLE character_actions();
+
 - drop table:
 
     DROP TABLE second_table;
@@ -86,6 +88,8 @@
     ALTER TABLE sounds ADD COLUMN filename VARCHAR(40) NOT NULL UNIQUE;
     ALTER TABLE actions ADD COLUMN action VARCHAR(20) UNIQUE NOT NULL;
 
+    ALTER TABLE character_actions ADD COLUMN character_id INT NOT NULL;
+
 
 - add primary key:
 
@@ -104,6 +108,10 @@
 
     ALTER TABLE more_info ADD COLUMN character_id INT REFERENCES characters(character_id);
     ALTER TABLE sounds ADD COLUMN character_id INT NOT NULL REFERENCES characters(character_id);
+
+- set foreign key if the column is already exists:
+
+    ALTER TABLE character_actions ADD FOREIGN KEY(character_id) REFERENCES characters(character_id);
 
 - add unique constraint:
 
