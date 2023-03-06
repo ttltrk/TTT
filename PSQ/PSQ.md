@@ -139,6 +139,9 @@
     INSERT INTO sounds(sound_id, filename, character_id) VALUES(1, 'its-a-me.wav', 1);
     INSERT INTO sounds(sound_id, filename, character_id) VALUES(2, 'yippee.wav', 1);
     INSERT INTO sounds(sound_id, filename, character_id) VALUES(3, 'ha-ha.wav', 2);
+    INSERT INTO sounds(sound_id, filename, character_id) VALUES(4, 'oh-yeah.wav', 2);
+    INSERT INTO sounds(sound_id, filename, character_id) VALUES(5, 'yay.wav', 3);
+    INSERT INTO sounds(sound_id, filename, character_id) VALUES(6, 'woo-hoo.wav', 3);
 
 - mass insert:
 
