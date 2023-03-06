@@ -187,6 +187,21 @@
     (6, 2),
     (6, 3);
 
+    INSERT INTO character_actions(character_id, action_id)
+    VALUES(5, 1),
+    (5, 2),
+    (5, 3);
+
+    INSERT INTO character_actions(character_id, action_id)
+    VALUES(4, 1),
+    (4, 2),
+    (4, 3);
+
+    INSERT INTO character_actions(character_id, action_id)
+    VALUES(3, 1),
+    (3, 2),
+    (3, 3);
+
 - delete rows from columns:
 
     DELETE FROM second_table Where username='Luigi';
