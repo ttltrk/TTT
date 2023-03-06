@@ -177,6 +177,16 @@
     VALUES(7, 'mm-hmm.wav', 3),
     (8, 'yahoo.wav', 1);
 
+    INSERT INTO character_actions(character_id, action_id)
+    VALUES(7, 1),
+    (7, 2),
+    (7, 3);
+
+    INSERT INTO character_actions(character_id, action_id)
+    VALUES(6, 1),
+    (6, 2),
+    (6, 3);
+
 - delete rows from columns:
 
     DELETE FROM second_table Where username='Luigi';
