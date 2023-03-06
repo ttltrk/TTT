@@ -89,6 +89,7 @@
     ALTER TABLE actions ADD COLUMN action VARCHAR(20) UNIQUE NOT NULL;
 
     ALTER TABLE character_actions ADD COLUMN character_id INT NOT NULL;
+    ALTER TABLE character_actions ADD COLUMN action_id INT NOT NULL;
 
 
 - add primary key:
@@ -112,6 +113,11 @@
 - set foreign key if the column is already exists:
 
     ALTER TABLE character_actions ADD FOREIGN KEY(character_id) REFERENCES characters(character_id);
+    ALTER TABLE character_actions ADD FOREIGN KEY(action_id) REFERENCES actions(action_id);
+
+- create a composite primary key
+
+    ALTER TABLE character_actions ADD PRIMARY KEY(character_id, action_id);
 
 - add unique constraint:
 
