@@ -145,6 +145,10 @@
     INSERT INTO sounds(sound_id, filename, character_id) VALUES(5, 'yay.wav', 3);
     INSERT INTO sounds(sound_id, filename, character_id) VALUES(6, 'woo-hoo.wav', 3);
 
+    INSERT INTO actions(action_id, action) VALUES(1, 'run');
+    INSERT INTO actions(action_id, action) VALUES(2, 'jump');
+    INSERT INTO actions(action_id, action) VALUES(3, 'duck');
+
 - mass insert:
 
     INSERT INTO characters(name, homeland, favorite_color)
