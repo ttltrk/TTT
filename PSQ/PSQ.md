@@ -54,6 +54,7 @@
     CREATE TABLE more_info();
 
     CREATE TABLE sounds(sound_id SERIAL PRIMARY KEY);
+    CREATE TABLE actions(action_id SERIAL PRIMARY KEY);
 
 - drop table:
 
@@ -83,6 +84,7 @@
     ALTER TABLE more_info ADD COLUMN weight NUMERIC(4, 1);
 
     ALTER TABLE sounds ADD COLUMN filename VARCHAR(40) NOT NULL UNIQUE;
+    ALTER TABLE actions ADD COLUMN action VARCHAR(20) UNIQUE NOT NULL;
 
 
 - add primary key:
@@ -152,6 +154,10 @@
     INSERT INTO characters(name, homeland, favorite_color)
     VALUES('Daisy', 'Sarasaland', 'Yellow'),
     ('Yoshi', 'Dinosaur Land', 'Green');
+
+    INSERT INTO sounds(sound_id, filename, character_id)
+    VALUES(7, 'mm-hmm.wav', 3),
+    (8, 'yahoo.wav', 1);
 
 - delete rows from columns:
 
