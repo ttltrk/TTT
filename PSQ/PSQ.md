@@ -136,6 +136,8 @@
     INSERT INTO more_info(birthday, height, weight, character_id) VALUES('1989-07-31', NULL, NULL, 6);
     INSERT INTO more_info(birthday, height, weight, character_id) VALUES('1990-04-13', 162, 59.1, 7);
 
+    INSERT INTO sounds(sound_id, filename, character_id) VALUES(1, 'its-a-me.wav', 1);
+
 - mass insert:
 
     INSERT INTO characters(name, homeland, favorite_color)
