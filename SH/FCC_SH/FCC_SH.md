@@ -38,3 +38,27 @@ codeally@f3c7a03cf601:~/project/freeCodeCamp/test$ pwd
 /home/codeally/project/freeCodeCamp/test
 codeally@f3c7a03cf601:~/project/freeCodeCamp/test$
 ```
+
+#### more
+
+```
+codeally@f3c7a03cf601:~/project/freeCodeCamp$ more package.json
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "programmatic-test": "mocha --config .mocharc.json",
+    "test": "mocha --config .mocharc.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.2.0",
+    "mocha-tap-reporter": "^0.1.3",
+    "shell-quote": "^1.7.2"
+  }
+}
+codeally@f3c7a03cf601:~/project/freeCodeCamp$
+```
