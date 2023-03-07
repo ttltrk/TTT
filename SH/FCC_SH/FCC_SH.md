@@ -30,3 +30,11 @@ codeally@da6e51fd166e:~/project$
 codeally@da6e51fd166e:~/project$ cd freeCodeCamp
 codeally@da6e51fd166e:~/project/freeCodeCamp$
 ```
+
+#### pwd
+
+```
+codeally@f3c7a03cf601:~/project/freeCodeCamp/test$ pwd
+/home/codeally/project/freeCodeCamp/test
+codeally@f3c7a03cf601:~/project/freeCodeCamp/test$
+```
