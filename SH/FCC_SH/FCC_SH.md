@@ -61,4 +61,25 @@ codeally@f3c7a03cf601:~/project/freeCodeCamp$ more package.json
   }
 }
 codeally@f3c7a03cf601:~/project/freeCodeCamp$
+
+codeally@5eacbb904d9e:~/project/freeCodeCamp/node_modules/has$ more README.md
+# has
+
+> Object.prototype.hasOwnProperty.call shortcut
+
+## Installation
+
+```sh
+npm install --save has
+```
+
+## Usage
+
+```js
+var has = require('has');
+
+has({}, 'hasOwnProperty'); // false
+has(Object.prototype, 'hasOwnProperty'); // true
+```
+codeally@5eacbb904d9e:~/project/freeCodeCamp/node_modules/has$ 
 ```
