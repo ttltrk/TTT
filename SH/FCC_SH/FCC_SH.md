@@ -89,5 +89,12 @@ codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$ more index.js
 var bind = require('function-bind');
 
 module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
-codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$ 
+codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$
+```
+
+#### mkdir
+
+```
+codeally@99d73b93a3f7:~/project$ mkdir website
+codeally@99d73b93a3f7:~/project$ 
 ```
