@@ -81,5 +81,13 @@ var has = require('has');
 has({}, 'hasOwnProperty'); // false
 has(Object.prototype, 'hasOwnProperty'); // true
 ```
-codeally@5eacbb904d9e:~/project/freeCodeCamp/node_modules/has$ 
+codeally@5eacbb904d9e:~/project/freeCodeCamp/node_modules/has$
+
+codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$ more index.js
+'use strict';
+
+var bind = require('function-bind');
+
+module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
+codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$ 
 ```
