@@ -9,7 +9,7 @@ codeally@da6e51fd166e:~/project$
 
 codeally@dd03ae60c37d:~/project/website$ echo hello website
 hello website
-codeally@dd03ae60c37d:~/project/website$ 
+codeally@dd03ae60c37d:~/project/website$
 ```
 
 #### pwd
@@ -101,4 +101,29 @@ codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$
 ```
 codeally@99d73b93a3f7:~/project$ mkdir website
 codeally@99d73b93a3f7:~/project$
+```
+
+#### touch (create new file)
+
+```
+codeally@dd03ae60c37d:~/project/website$ touch index.html
+codeally@dd03ae60c37d:~/project/website$ ls -l
+total 0
+-rw-r--r-- 1 codeally strove 0 Mar 10 07:31 index.html
+codeally@dd03ae60c37d:~/project/website$
+
+codeally@dd03ae60c37d:~/project/website$ touch styles.css
+codeally@dd03ae60c37d:~/project/website$ ls -l
+total 0
+-rw-r--r-- 1 codeally strove 0 Mar 10 07:31 index.html
+-rw-r--r-- 1 codeally strove 0 Mar 10 07:32 styles.css
+codeally@dd03ae60c37d:~/project/website$
+
+codeally@dd03ae60c37d:~/project/website$ touch .gitignore
+codeally@dd03ae60c37d:~/project/website$ ls -l
+total 0
+-rw-r--r-- 1 codeally strove 0 Mar 10 07:31 index.html
+-rw-r--r-- 1 codeally strove 0 Mar 10 07:33 index.js
+-rw-r--r-- 1 codeally strove 0 Mar 10 07:32 styles.css
+codeally@dd03ae60c37d:~/project/website$ 
 ```
