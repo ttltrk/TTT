@@ -6,6 +6,10 @@
 codeally@da6e51fd166e:~/project$ echo hello terminal
 hello terminal
 codeally@da6e51fd166e:~/project$
+
+codeally@dd03ae60c37d:~/project/website$ echo hello website
+hello website
+codeally@dd03ae60c37d:~/project/website$ 
 ```
 
 #### pwd
@@ -96,5 +100,5 @@ codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$
 
 ```
 codeally@99d73b93a3f7:~/project$ mkdir website
-codeally@99d73b93a3f7:~/project$ 
+codeally@99d73b93a3f7:~/project$
 ```
