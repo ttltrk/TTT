@@ -125,5 +125,21 @@ total 0
 -rw-r--r-- 1 codeally strove 0 Mar 10 07:31 index.html
 -rw-r--r-- 1 codeally strove 0 Mar 10 07:33 index.js
 -rw-r--r-- 1 codeally strove 0 Mar 10 07:32 styles.css
-codeally@dd03ae60c37d:~/project/website$ 
+codeally@dd03ae60c37d:~/project/website$
+
+codeally@803128ad6a9b:~/project/website$ touch roboto.font
+codeally@803128ad6a9b:~/project/website$ touch lato.font
+codeally@803128ad6a9b:~/project/website$ touch menlo.font
+codeally@803128ad6a9b:~/project/website$ ls -l
+total 0
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:39 background.jpg
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:39 footer.jpeg
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:39 header.png
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:39 index.html
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:39 index.js
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:40 lato.font
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:40 menlo.font
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:40 roboto.font
+-rw-r--r-- 1 codeally strove 0 Mar 11 07:39 styles.css
+codeally@803128ad6a9b:~/project/website$ 
 ```
