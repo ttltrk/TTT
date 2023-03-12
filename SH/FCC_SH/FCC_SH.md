@@ -141,5 +141,24 @@ total 0
 -rw-r--r-- 1 codeally strove 0 Mar 11 07:40 menlo.font
 -rw-r--r-- 1 codeally strove 0 Mar 11 07:40 roboto.font
 -rw-r--r-- 1 codeally strove 0 Mar 11 07:39 styles.css
-codeally@803128ad6a9b:~/project/website$ 
+codeally@803128ad6a9b:~/project/website$
+
+codeally@32dfb6c6adab:~/project/website$ touch CodeRoad.svg
+codeally@32dfb6c6adab:~/project/website$ touch freeCodeCamp.svg
+codeally@32dfb6c6adab:~/project/website$
+codeally@32dfb6c6adab:~/project/website$ ls -l
+total 0
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 background.jpg
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 CodeAlly.svg
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 CodeRoad.svg
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 footer.jpeg
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 freeCodeCamp.svg
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 header.png
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 index.html
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 index.js
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 lato.font
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 menlo.font
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 roboto.font
+-rw-r--r-- 1 codeally strove 0 Mar 12 16:09 styles.css
+codeally@32dfb6c6adab:~/project/website$ 
 ```
