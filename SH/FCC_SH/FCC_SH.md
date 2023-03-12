@@ -169,3 +169,24 @@ codeally@32dfb6c6adab:~/project/website$
 codeally@32dfb6c6adab:~/project/website$ cp background.jpg images
 codeally@32dfb6c6adab:~/project/website$
 ```
+
+#### rm
+
+```
+codeally@32dfb6c6adab:~/project/website$ rm background.jpg
+codeally@32dfb6c6adab:~/project/website$ ls -l
+total 4
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 CodeAlly.svg
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 CodeRoad.svg
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 footer.jpeg
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 freeCodeCamp.svg
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 header.png
+drwxr-sr-x 2 codeally strove 4096 Mar 12 16:11 images
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 index.html
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 index.js
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 lato.font
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 menlo.font
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 roboto.font
+-rw-r--r-- 1 codeally strove    0 Mar 12 16:09 styles.css
+codeally@32dfb6c6adab:~/project/website$
+```
