@@ -191,11 +191,11 @@ drwxr-sr-x 2 codeally strove 4096 Mar 12 16:11 images
 codeally@32dfb6c6adab:~/project/website$
 ```
 
-#### mv (move or rename)
+#### mv (rename)
 
 ```
 codeally@4d482d2b03b2:~/project/website$ mv roboto.font roboto.woff
-codeally@4d482d2b03b2:~/project/website$ 
+codeally@4d482d2b03b2:~/project/website$
 codeally@4d482d2b03b2:~/project/website$ ls -l
 total 4
 -rw-r--r-- 1 codeally strove    0 Mar 13 11:46 CodeAlly.svg
@@ -208,5 +208,35 @@ drwxr-sr-x 2 codeally strove 4096 Mar 13 11:46 images
 -rw-r--r-- 1 codeally strove    0 Mar 13 11:46 menlo.font
 -rw-r--r-- 1 codeally strove    0 Mar 13 11:46 roboto.woff
 -rw-r--r-- 1 codeally strove    0 Mar 13 11:46 styles.css
+codeally@4d482d2b03b2:~/project/website$
+```
+
+#### mv (move)
+
+```
+odeally@4d482d2b03b2:~/project/website$ mv roboto.woff fonts
+codeally@4d482d2b03b2:~/project/website$
+```
+
+#### find (crosscheck the whole tree in the actual dir) 
+
+```
+codeally@4d482d2b03b2:~/project/website$ find
+.
+./fonts
+./fonts/roboto.woff
+./index.html
+./images
+./images/background.jpg
+./images/footer.jpeg
+./images/header.png
+./freeCodeCamp.svg
+./.gitignore
+./menlo.otf
+./styles.css
+./lato.ttf
+./index.js
+./CodeRoad.svg
+./CodeAlly.svg
 codeally@4d482d2b03b2:~/project/website$
 ```
