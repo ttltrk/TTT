@@ -190,3 +190,23 @@ drwxr-sr-x 2 codeally strove 4096 Mar 12 16:11 images
 -rw-r--r-- 1 codeally strove    0 Mar 12 16:09 styles.css
 codeally@32dfb6c6adab:~/project/website$
 ```
+
+#### mv (move or rename)
+
+```
+codeally@4d482d2b03b2:~/project/website$ mv roboto.font roboto.woff
+codeally@4d482d2b03b2:~/project/website$ 
+codeally@4d482d2b03b2:~/project/website$ ls -l
+total 4
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 CodeAlly.svg
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 CodeRoad.svg
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 freeCodeCamp.svg
+drwxr-sr-x 2 codeally strove 4096 Mar 13 11:46 images
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 index.html
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 index.js
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 lato.font
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 menlo.font
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 roboto.woff
+-rw-r--r-- 1 codeally strove    0 Mar 13 11:46 styles.css
+codeally@4d482d2b03b2:~/project/website$
+```
