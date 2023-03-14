@@ -271,5 +271,9 @@ codeally@6833bc513657:~/project/website$
 
 codeally@99555441148a:~/project/website$ find -name index.html
 ./client/src/index.html
+codeally@99555441148a:~/project/website$
+
+codeally@99555441148a:~/project/website$ find -name styles.css
+./client/src/styles.css
 codeally@99555441148a:~/project/website$ 
 ```
