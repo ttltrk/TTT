@@ -218,7 +218,7 @@ odeally@4d482d2b03b2:~/project/website$ mv roboto.woff fonts
 codeally@4d482d2b03b2:~/project/website$
 ```
 
-#### find (crosscheck the whole tree in the actual dir) 
+#### find (crosscheck the whole tree in the actual dir)
 
 ```
 codeally@4d482d2b03b2:~/project/website$ find
@@ -239,4 +239,25 @@ codeally@4d482d2b03b2:~/project/website$ find
 ./CodeRoad.svg
 ./CodeAlly.svg
 codeally@4d482d2b03b2:~/project/website$
+
+codeally@6833bc513657:~/project/website$ find
+.
+./client
+./client/src
+./client/src/index.html
+./client/src/styles.css
+./client/src/index.js
+./fonts
+./fonts/roboto.woff
+./fonts/menlo.otf
+./fonts/lato.ttf
+./images
+./images/background.jpg
+./images/footer.jpeg
+./images/header.png
+./freeCodeCamp.svg
+./.gitignore
+./CodeRoad.svg
+./CodeAlly.svg
+codeally@6833bc513657:~/project/website$ 
 ```
