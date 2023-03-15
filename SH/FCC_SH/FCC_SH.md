@@ -103,7 +103,7 @@ codeally@99d73b93a3f7:~/project$ mkdir website
 codeally@99d73b93a3f7:~/project$
 
 codeally@0e8df08e70d9:~/project/website$ mkdir ./client/assets/fonts
-codeally@0e8df08e70d9:~/project/website$ 
+codeally@0e8df08e70d9:~/project/website$
 ```
 
 #### touch (create new file)
@@ -164,6 +164,9 @@ total 0
 -rw-r--r-- 1 codeally strove 0 Mar 12 16:09 roboto.font
 -rw-r--r-- 1 codeally strove 0 Mar 12 16:09 styles.css
 codeally@32dfb6c6adab:~/project/website$
+
+codeally@0e8df08e70d9:~/project/website$ touch ./client/assets/fonts/roboto-bold.woff
+codeally@0e8df08e70d9:~/project/website$ 
 ```
 
 #### cp
