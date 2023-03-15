@@ -101,6 +101,9 @@ codeally@99d73b93a3f7:~/project/freeCodeCamp/node_modules/has/src$
 ```
 codeally@99d73b93a3f7:~/project$ mkdir website
 codeally@99d73b93a3f7:~/project$
+
+codeally@0e8df08e70d9:~/project/website$ mkdir ./client/assets/fonts
+codeally@0e8df08e70d9:~/project/website$ 
 ```
 
 #### touch (create new file)
