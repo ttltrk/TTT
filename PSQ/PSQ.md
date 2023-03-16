@@ -31,6 +31,7 @@
 - create dbs:
 
     CREATE DATABASE second_database;
+    CREATE DATABASE universe;
 
 - rename database:
 
@@ -57,6 +58,16 @@
     CREATE TABLE actions(action_id SERIAL PRIMARY KEY);
 
     CREATE TABLE character_actions();
+
+    universe=> CREATE TABLE galaxy();
+    CREATE TABLE
+    universe=> CREATE TABLE star();
+    CREATE TABLE
+    universe=> CREATE TABLE planet();
+    CREATE TABLE
+    universe=> CREATE TABLE moon();
+    CREATE TABLE
+    universe=> 
 
 - drop table:
 
