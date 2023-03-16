@@ -10,6 +10,14 @@ codeally@da6e51fd166e:~/project$
 codeally@dd03ae60c37d:~/project/website$ echo hello website
 hello website
 codeally@dd03ae60c37d:~/project/website$
+
+codeally@bb3ea1ce28d6:~/project/website$ echo Yay!
+Yay!
+codeally@bb3ea1ce28d6:~/project/website$ echo I finished the boilerplate!
+I finished the boilerplate!
+codeally@bb3ea1ce28d6:~/project/website$ echo one more thing...
+one more thing...
+codeally@bb3ea1ce28d6:~/project/website$ 
 ```
 
 #### pwd
