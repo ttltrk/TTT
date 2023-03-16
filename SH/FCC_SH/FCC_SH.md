@@ -166,7 +166,10 @@ total 0
 codeally@32dfb6c6adab:~/project/website$
 
 codeally@0e8df08e70d9:~/project/website$ touch ./client/assets/fonts/roboto-bold.woff
-codeally@0e8df08e70d9:~/project/website$ 
+codeally@0e8df08e70d9:~/project/website$
+
+codeally@dcf853902231:~/project/website$ touch ./client/assets/fonts/lato-bold.ttf
+codeally@dcf853902231:~/project/website$ 
 ```
 
 #### cp
