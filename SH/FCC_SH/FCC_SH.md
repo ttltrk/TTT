@@ -21,6 +21,9 @@ codeally@bb3ea1ce28d6:~/project/website$
 
 codeally@bb3ea1ce28d6:~/project/website$ echo I made this boilerplate >> README.md
 codeally@bb3ea1ce28d6:~/project/website$
+
+codeally@bb3ea1ce28d6:~/project/website$ echo from the command line >> README.md
+codeally@bb3ea1ce28d6:~/project/website$ 
 ```
 
 #### pwd
@@ -60,7 +63,7 @@ codeally@f3c7a03cf601:~/project/freeCodeCamp/test$
 codeally@bb3ea1ce28d6:~/project/website$ more README.md
 I made this bolierplate
 I made this boilerplate
-codeally@bb3ea1ce28d6:~/project/website$ 
+codeally@bb3ea1ce28d6:~/project/website$
 ```
 
 #### mkdir
