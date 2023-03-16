@@ -172,7 +172,7 @@ codeally@dcf853902231:~/project/website$ touch ./client/assets/fonts/lato-bold.t
 codeally@dcf853902231:~/project/website$
 
 codeally@dcf853902231:~/project/website$ touch ./client/assets/fonts/lato-light.ttf
-codeally@dcf853902231:~/project/website$ 
+codeally@dcf853902231:~/project/website$
 ```
 
 #### cp
@@ -201,6 +201,13 @@ drwxr-sr-x 2 codeally strove 4096 Mar 12 16:11 images
 -rw-r--r-- 1 codeally strove    0 Mar 12 16:09 roboto.font
 -rw-r--r-- 1 codeally strove    0 Mar 12 16:09 styles.css
 codeally@32dfb6c6adab:~/project/website$
+```
+
+#### rm -r (recursively - if it is not empty)
+
+```
+codeally@bb3ea1ce28d6:~/project/website$ rm -r fonts
+codeally@bb3ea1ce28d6:~/project/website$
 ```
 
 #### mv (rename)
