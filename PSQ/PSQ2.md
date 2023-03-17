@@ -1,7 +1,11 @@
 
 
 ```
+- You should create a database named universe
+
 CREATE DATABASE universe;
+
+- You should add tables named galaxy, star, planet, and moon
 
 universe=> CREATE TABLE galaxy();
 CREATE TABLE
@@ -12,6 +16,9 @@ CREATE TABLE
 universe=> CREATE TABLE moon();
 CREATE TABLE
 universe=>
+
+- Each table should have a primary key
+- Each primary key should automatically increment
 
 universe=> ALTER TABLE galaxy ADD COLUMN galaxy_id SERIAL;
 ALTER TABLE
@@ -30,4 +37,11 @@ ALTER TABLE
 universe=> ALTER TABLE star ADD PRIMARY KEY(star_id);
 ALTER TABLE
 universe=>
+
+- Each table should have a name column
+
+ALTER TABLE galaxy ADD COLUMN name VARCHAR(30);
+ALTER TABLE moon ADD COLUMN name VARCHAR(30);
+ALTER TABLE planet ADD COLUMN name VARCHAR(30);
+ALTER TABLE star ADD COLUMN name VARCHAR(30);
 ```
