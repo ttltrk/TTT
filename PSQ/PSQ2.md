@@ -5,7 +5,7 @@
 
 CREATE DATABASE universe;
 
-- You should add tables named galaxy, star, planet, and moon
+- You should add tables named galaxy, star, planet, and moon +1 extra table sun 
 
 universe=> CREATE TABLE galaxy();
 CREATE TABLE
@@ -15,7 +15,10 @@ universe=> CREATE TABLE planet();
 CREATE TABLE
 universe=> CREATE TABLE moon();
 CREATE TABLE
+universe=> CREATE TABLE sun();
+CREATE TABLE
 universe=>
+
 
 - Each table should have a primary key
 - Each primary key should automatically increment
@@ -39,6 +42,7 @@ ALTER TABLE
 universe=>
 
 - Each table should have a name column
+- All columns named name should be of type VARCHAR
 
 ALTER TABLE galaxy ADD COLUMN name VARCHAR(30);
 ALTER TABLE moon ADD COLUMN name VARCHAR(30);
