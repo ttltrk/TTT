@@ -5,7 +5,7 @@
 
 CREATE DATABASE universe;
 
-- You should add tables named galaxy, star, planet, and moon +1 extra table sun 
+- You should add tables named galaxy, star, planet, and moon +1 extra table sun
 
 universe=> CREATE TABLE galaxy();
 CREATE TABLE
@@ -38,6 +38,10 @@ ALTER TABLE
 universe=> ALTER TABLE star ADD COLUMN star_id SERIAL;
 ALTER TABLE
 universe=> ALTER TABLE star ADD PRIMARY KEY(star_id);
+ALTER TABLE
+universe=> ALTER TABLE sun ADD COLUMN sun_id SERIAL;
+ALTER TABLE
+universe=> ALTER TABLE sun ADD PRIMARY KEY(sun_id);
 ALTER TABLE
 universe=>
 
