@@ -52,4 +52,11 @@ ALTER TABLE galaxy ADD COLUMN name VARCHAR(30);
 ALTER TABLE moon ADD COLUMN name VARCHAR(30);
 ALTER TABLE planet ADD COLUMN name VARCHAR(30);
 ALTER TABLE star ADD COLUMN name VARCHAR(30);
+ALTER TABLE sun ADD COLUMN name VARCHAR(30);
+
+- You should use the INT data type for at least two columns that are not a primary or foreign key
+
+ALTER TABLE moon ADD COLUMN distance_from_earth INT;
+ALTER TABLE sun ADD COLUMN distance_from_earth INT;
+
 ```
