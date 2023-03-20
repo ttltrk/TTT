@@ -52,7 +52,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 ---
 
-free exam 
+free exam
 
 ```
 https://www.exampro.co/clf-c01
@@ -82,10 +82,14 @@ certification roadmap >> 5.35
 ```
 
 ```
-cloud concepts 28%
-security 24%
-technology 36%
-billing and pricing 12%
+domain 1: cloud concepts 28%
+domain 2: security 24%
+domain 3: technology 36%
+domain 4: billing and pricing 12%
+```
+
+```
+minimum 70% pass the exam  
 ```
 
 White papers:
