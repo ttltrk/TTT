@@ -18,12 +18,12 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 ---
 
-* [INTRO](#INTRO)
-* [CLOUD_COMPUTING](#CLOUD_COMPUTING)
-* [EVOLUTION_OF_CLOUD_HOSTING](#EVOLUTION_OF_CLOUD_HOSTING)
-* [WHAT_IS_AMAZON](#WHAT_IS_AMAZON)
-* [WHAT_IS_AWS](#WHAT_IS_AWS)
-* [WHAT_IS_A_CSP](#WHAT_IS_A_CSP)
+* [00_INTRO](#00_INTRO)
+* [01_CLOUD_COMPUTING](#01_CLOUD_COMPUTING)
+* [02_EVOLUTION_OF_CLOUD_HOSTING](#02_EVOLUTION_OF_CLOUD_HOSTING)
+* [03_WHAT_IS_AMAZON](#03_WHAT_IS_AMAZON)
+* [04_WHAT_IS_AWS](#04_WHAT_IS_AWS)
+* [05_WHAT_IS_A_CSP](#05_WHAT_IS_A_CSP)
 * [LANDSCAPE_OF_CSPS](#LANDSCAPE_OF_CSPS)
 * [GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
 * [COMMON_CLOUD_SERVICES](#COMMON_CLOUD_SERVICES)
@@ -68,7 +68,7 @@ https://www.exampro.co/clf-c01
 
 ---
 
-#### INTRO
+#### 00_INTRO
 
 AWS Certified Cloud Practitioner
 
@@ -103,7 +103,7 @@ White papers:
 
 ---
 
-#### CLOUD_COMPUTING
+#### 01_CLOUD_COMPUTING
 
 The practice of using a network of remote servers hosted on the Internet to store,
 manage, and process data, rather than a local server or a personal computer
@@ -144,7 +144,7 @@ Six advantages and benefits of cloud computing
 
 ---
 
-#### EVOLUTION_OF_CLOUD_HOSTING
+#### 02_EVOLUTION_OF_CLOUD_HOSTING
 
 - Dedicated server: One physical machine dedicated to single a business. runs a single
   web-app/site. Very expensive, high maintenance.
@@ -163,7 +163,7 @@ Six advantages and benefits of cloud computing
 
 ---
 
-#### WHAT_IS_AMAZON
+#### 03_WHAT_IS_AMAZON
 
 An American multinational computer technology corporation headquartered in Seattle, Washington.
 Amazon was founded in 1994 by Jeff Bezos and the company started as an online store for books and expanded to
@@ -183,7 +183,7 @@ Andy Jassy is the current CEO of Amazon.
 
 ---
 
-#### WHAT_IS_AWS
+#### 04_WHAT_IS_AWS
 
 Amazon calls their cloud provider service Amazon Web Services - commonly referred to just AWS.
 AWS was launched in 2006 is the leading cloud service provider in the world. Cloud Service Providers
@@ -203,7 +203,7 @@ Adam Selipsky >> CEO of AWS
 
 ---
 
-#### WHAT_IS_A_CSP
+#### 05_WHAT_IS_A_CSP
 
 A Cloud Service Provider is a company which:
 
