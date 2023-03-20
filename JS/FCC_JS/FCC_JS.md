@@ -18,3 +18,12 @@ var myName;
 var a;
 a = 7;
 ```
+
+#### 4 - assigne variable to another
+
+```js
+var a;
+a = 7;
+var b;
+b = a;
+```
