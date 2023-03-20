@@ -52,6 +52,8 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 
 ---
 
+free exam 
+
 ```
 https://www.exampro.co/clf-c01
 ```
@@ -74,6 +76,10 @@ AWS Certified Cloud Practitioner
 - Security
 - Technology
 - Billing and Pricing
+
+```
+certification roadmap >> 5.35
+```
 
 ```
 cloud concepts 28%
