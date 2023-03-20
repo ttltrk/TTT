@@ -27,3 +27,16 @@ a = 7;
 var b;
 b = a;
 ```
+
+#### 5 - initializing variables
+
+```js
+var a = 9;
+```
+
+#### 6 declare string variables
+
+```js
+var myFirstName = 'ttl';
+var myLastName = 'trk';
+```
