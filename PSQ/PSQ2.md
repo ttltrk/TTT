@@ -59,4 +59,8 @@ ALTER TABLE sun ADD COLUMN name VARCHAR(30);
 ALTER TABLE moon ADD COLUMN distance_from_earth INT;
 ALTER TABLE sun ADD COLUMN distance_from_earth INT;
 
+- Each "star" should have a foreign key that references one of the rows in galaxy
+
+ALTER TABLE star ADD FOREIGN KEY(star_id) REFERENCES galaxy(galaxy_id);
+
 ```
