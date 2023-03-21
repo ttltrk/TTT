@@ -24,8 +24,8 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [03_WHAT_IS_AMAZON](#03_WHAT_IS_AMAZON)
 * [04_WHAT_IS_AWS](#04_WHAT_IS_AWS)
 * [05_WHAT_IS_A_CSP](#05_WHAT_IS_A_CSP)
-* [LANDSCAPE_OF_CSPS](#LANDSCAPE_OF_CSPS)
-* [GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
+* [06_LANDSCAPE_OF_CSPS](#06_LANDSCAPE_OF_CSPS)
+* [07_GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#07_GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
 * [COMMON_CLOUD_SERVICES](#COMMON_CLOUD_SERVICES)
 * [AWS_TECH_OVERVIEW](#AWS_TECH_OVERVIEW)
 * [AWS_SERVICE_PREVIEW](#AWS_SERVICE_PREVIEW)
@@ -239,7 +239,7 @@ requirements, it would be referred to as a Cloud Platform e.g. Twilio, HashiCorp
 
 ---
 
-#### GARTNER_MAGIC_QUADRANT_FOR_CLOUD
+#### 07_GARTNER_MAGIC_QUADRANT_FOR_CLOUD
 
 Magic Quadrant (MQ) is a series of market research reports published by IT consulting firm Gartner that rely on proprietary
 qualitative data analysis methods to demonstrate market trends, such as direction, maturity and participants.
