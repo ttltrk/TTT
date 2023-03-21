@@ -224,7 +224,7 @@ requirements, it would be referred to as a Cloud Platform e.g. Twilio, HashiCorp
 
 ---
 
-#### LANDSCAPE_OF_CSPS
+#### 06_LANDSCAPE_OF_CSPS
 
 - Tier-1 (Top Tier) - Early to market, wide offering, strong synergies between services, well recognized in the industry
 (AWS, Microsoft Azure, Google Cloud Platform, Alibaba Cloud)
