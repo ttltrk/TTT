@@ -26,8 +26,8 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [05_WHAT_IS_A_CSP](#05_WHAT_IS_A_CSP)
 * [06_LANDSCAPE_OF_CSPS](#06_LANDSCAPE_OF_CSPS)
 * [07_GARTNER_MAGIC_QUADRANT_FOR_CLOUD](#07_GARTNER_MAGIC_QUADRANT_FOR_CLOUD)
-* [COMMON_CLOUD_SERVICES](#COMMON_CLOUD_SERVICES)
-* [AWS_TECH_OVERVIEW](#AWS_TECH_OVERVIEW)
+* [08_COMMON_CLOUD_SERVICES](#08_COMMON_CLOUD_SERVICES)
+* [09_AWS_TECH_OVERVIEW](#09_AWS_TECH_OVERVIEW)
 * [AWS_SERVICE_PREVIEW](#AWS_SERVICE_PREVIEW)
 * [EVOLUTION_OF_COMPUTING](#EVOLUTION_OF_COMPUTING)
 * [TYPES_OF_CC](#TYPES_OF_CC)
@@ -248,7 +248,7 @@ qualitative data analysis methods to demonstrate market trends, such as directio
 
 ---
 
-#### COMMON_CLOUD_SERVICES
+#### 08_COMMON_CLOUD_SERVICES
 
 A cloud service provider can have hundreds of cloud services that are grouped into various types
 of services. The four most common types of cloud services (the 4 core) for Infrastructure as a Service (IaaS)
@@ -266,7 +266,7 @@ AWS has over 200+ cloud services
 
 ---
 
-#### AWS_TECH_OVERVIEW
+#### 09_AWS_TECH_OVERVIEW
 
 Cloud Service Provider (CSPs) that are Infrastructure as a Service (IaaS) will always have 4 core cloud service offerings:
 
