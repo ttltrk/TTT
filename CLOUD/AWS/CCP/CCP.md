@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [09_AWS_TECH_OVERVIEW](#09_AWS_TECH_OVERVIEW)
 * [10_AWS_SERVICE_PREVIEW](#10_AWS_SERVICE_PREVIEW)
 * [11_EVOLUTION_OF_COMPUTING](#11_EVOLUTION_OF_COMPUTING)
-* [TYPES_OF_CC](#TYPES_OF_CC)
+* [12_TYPES_OF_CC](#12_TYPES_OF_CC)
 * [CLOUD_COMPUTING_DEPLOYMENT_MODELS](#CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [DEPLOYMENT_MODEL_USE_CASES](#DEPLOYMENT_MODEL_USE_CASES)
 * [CREATE_AN_AWS_ACCOUNT](#CREATE_AN_AWS_ACCOUNT)
@@ -339,7 +339,7 @@ https://www.aws.amazon.com/
 
 ---
 
-#### TYPES_OF_CC
+#### 12_TYPES_OF_CC
 
 - SAAS for customers - Software as a Service, A completed product that is run and managed by the service providers
                       (Salesforce, gmail, office)
@@ -354,7 +354,7 @@ https://www.aws.amazon.com/
 
 ---
 
-#### CLOUD_COMPUTING_DEPLOYMENT_MODELS
+#### 13_CLOUD_COMPUTING_DEPLOYMENT_MODELS
 
 - Public cloud
   Everything (the workload or project) is built on the CSP also known as: Cloud-Native or Cloud first
