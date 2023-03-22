@@ -35,7 +35,23 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [14_DEPLOYMENT_MODEL_USE_CASES](#14_DEPLOYMENT_MODEL_USE_CASES)
 * [15_CREATE_AN_AWS_ACCOUNT](#15_CREATE_AN_AWS_ACCOUNT)
 * [16_AWS_REGION_SELECTOR](#16_AWS_REGION_SELECTOR)
-* [OVERBILLING_STORY](#OVERBILLING_STORY)
+* [17_OVERBILLING_STORY](#17_OVERBILLING_STORY)
+* [18_AWS_BUDGETS](#18_AWS_BUDGETS)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -417,7 +433,193 @@ Some services are global services and for example cloudfront does not require re
 
 ---
 
-#### OVERBILLING_STORY - 59:00
+#### 17_OVERBILLING_STORY - 59:00
+
+- almost every service is cost effective, take care!
+- you can request (but only once) a single free pass
+
+[^^^](#AWS_CCP)
+
+---
+
+#### 18_AWS_BUDGETS
+
+- check the details in the AWS Budgets service
+- you can setup daily/weekly/monthly budgets with alerts
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
+
+[^^^](#AWS_CCP)
+
+---
+
+####
 
 [^^^](#AWS_CCP)
 
