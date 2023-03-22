@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [13_CLOUD_COMPUTING_DEPLOYMENT_MODELS](#13_CLOUD_COMPUTING_DEPLOYMENT_MODELS)
 * [14_DEPLOYMENT_MODEL_USE_CASES](#14_DEPLOYMENT_MODEL_USE_CASES)
 * [15_CREATE_AN_AWS_ACCOUNT](#15_CREATE_AN_AWS_ACCOUNT)
-* [AWS_REGION_SELECTOR](#AWS_REGION_SELECTOR)
+* [16_AWS_REGION_SELECTOR](#16_AWS_REGION_SELECTOR)
 * [OVERBILLING_STORY](#OVERBILLING_STORY)
 * [](#)
 * [](#)
@@ -409,7 +409,7 @@ https://www.aws.amazon.com/
 
 ---
 
-#### AWS_REGION_SELECTOR
+#### 16_AWS_REGION_SELECTOR
 
 Some services are global services and for example cloudfront does not require region selection
 
