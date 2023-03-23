@@ -446,12 +446,13 @@ Some services are global services and for example cloudfront does not require re
 
 - check the details in the AWS Budgets service
 - you can setup daily/weekly/monthly budgets with alerts
+- SNS (Simple Notification Service) with your email
 
 [^^^](#AWS_CCP)
 
 ---
 
-####
+#### AWS_FREE_TIER
 
 [^^^](#AWS_CCP)
 
