@@ -37,7 +37,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [16_AWS_REGION_SELECTOR](#16_AWS_REGION_SELECTOR)
 * [17_OVERBILLING_STORY](#17_OVERBILLING_STORY)
 * [18_AWS_BUDGETS](#18_AWS_BUDGETS)
-* [](#)
+* [19_AWS_FREE_TIER](#19_AWS_FREE_TIER)
 * [](#)
 * [](#)
 * [](#)
@@ -452,7 +452,9 @@ Some services are global services and for example cloudfront does not require re
 
 ---
 
-#### AWS_FREE_TIER
+#### 19_AWS_FREE_TIER
+
+- you can check your details in billing display
 
 [^^^](#AWS_CCP)
 
