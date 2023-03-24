@@ -75,4 +75,10 @@ ALTER TABLE planet ADD COLUMN description TEXT;
 
 ALTER TABLE planet ADD COLUMN rotation_speed NUMERIC(5, 1);
 
+- You should use the BOOLEAN data type on at least two columns
+
+ALTER TABLE planet ADD COLUMN has_life BOOLEAN;
+ALTER TABLE moon ADD COLUMN has_life BOOLEAN;
+
+
 ```
