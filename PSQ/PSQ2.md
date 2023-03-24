@@ -63,7 +63,6 @@ ALTER TABLE sun ADD COLUMN distance_from_earth INT;
 
 ALTER TABLE star ADD FOREIGN KEY(star_id) REFERENCES galaxy(galaxy_id);
 
-- Each table should have at least three rows
 - You should use the TEXT data type at least once
 
 ALTER TABLE star ADD COLUMN description TEXT;
@@ -71,5 +70,9 @@ ALTER TABLE galaxy ADD COLUMN description TEXT;
 ALTER TABLE moon ADD COLUMN description TEXT;
 ALTER TABLE sun ADD COLUMN description TEXT;
 ALTER TABLE planet ADD COLUMN description TEXT;
+
+- You should use the NUMERIC data type at least once
+
+ALTER TABLE planet ADD COLUMN rotation_speed NUMERIC(5, 1);
 
 ```
