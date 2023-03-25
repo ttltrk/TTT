@@ -80,5 +80,11 @@ ALTER TABLE planet ADD COLUMN rotation_speed NUMERIC(5, 1);
 ALTER TABLE planet ADD COLUMN has_life BOOLEAN;
 ALTER TABLE moon ADD COLUMN has_life BOOLEAN;
 
+- The galaxy, star, planet, and moon tables should each have at least five columns
+
+ALTER TABLE galaxy ADD COLUMN has_life BOOLEAN;
+ALTER TABLE star ADD COLUMN has_life BOOLEAN;
+ALTER TABLE galaxy ADD COLUMN rotation_speed NUMERIC(5,1);
+ALTER TABLE star ADD COLUMN rotation_speed NUMERIC(5,1);
 
 ```
