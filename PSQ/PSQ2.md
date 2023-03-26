@@ -60,8 +60,12 @@ ALTER TABLE moon ADD COLUMN distance_from_earth INT;
 ALTER TABLE sun ADD COLUMN distance_from_earth INT;
 
 - Each "star" should have a foreign key that references one of the rows in galaxy
+- Each "planet" should have a foreign key that references one of the rows in star
 
 ALTER TABLE star ADD FOREIGN KEY(star_id) REFERENCES galaxy(galaxy_id);
+
+
+ALTER TABLE star ADD COLUMN planet_id INT;
 
 - You should use the TEXT data type at least once
 
