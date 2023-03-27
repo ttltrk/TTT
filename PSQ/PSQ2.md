@@ -68,10 +68,9 @@ ALTER TABLE sun ADD COLUMN distance_from_earth INT;
 
 ALTER TABLE characters DROP CONSTRAINT characters_pkey;
 
-ALTER TABLE star ADD FOREIGN KEY(star_id) REFERENCES galaxy(galaxy_id);
-
-
-ALTER TABLE star ADD COLUMN planet_id INT;
+ALTER TABLE star ADD FOREIGN KEY(galaxy_id) REFERENCES galaxy(galaxy_id);
+ALTER TABLE planet ADD FOREIGN KEY(planet_id) REFERENCES star(planet_id);
+ALTER TABLE moon ADD FOREIGN KEY(planet_id) REFERENCES planet(planet_id);
 
 - You should use the TEXT data type at least once
 
