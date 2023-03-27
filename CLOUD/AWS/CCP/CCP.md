@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=3hLmDS179YE&t=1964s
 * [19_AWS_FREE_TIER](#19_AWS_FREE_TIER)
 * [20_BILLING_ALARM](#20_BILLING_ALARM)
 * [21_TURNING_ON_MFA](#21_TURNING_ON_MFA)
-* [](#)
+* [22_INNOVATION_WAVES](#22_INNOVATION_WAVES)
 * [](#)
 * [](#)
 * [](#)
@@ -476,7 +476,11 @@ Some services are global services and for example cloudfront does not require re
 
 ---
 
-####
+#### 22_INNOVATION_WAVES
+
+- Kondratiev waves (Innovation Waves or K-Waves) are hypothesized cycle-like phenomena in the
+global world economy. The phenomenon is closely connected with Technology life cycles.
+- Each wave irrevirsibly changes the society on global scale. The latest wave is cloud technology.
 
 [^^^](#AWS_CCP)
 
