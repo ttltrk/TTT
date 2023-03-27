@@ -469,7 +469,9 @@ Some services are global services and for example cloudfront does not require re
 ---
 
 #### 21_TURNING_ON_MFA
-1:15
+
+- MFA = Multi Factor Authentication
+
 [^^^](#AWS_CCP)
 
 ---
