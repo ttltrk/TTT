@@ -102,4 +102,6 @@ ALTER TABLE galaxy ADD UNIQUE (galaxy_id);
 ALTER TABLE planet ADD UNIQUE (planet_id);
 ALTER TABLE sun ADD UNIQUE (sun_id);
 
+
+
 ```
