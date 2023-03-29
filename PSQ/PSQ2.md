@@ -102,6 +102,12 @@ ALTER TABLE galaxy ADD UNIQUE (galaxy_id);
 ALTER TABLE planet ADD UNIQUE (planet_id);
 ALTER TABLE sun ADD UNIQUE (sun_id);
 
+- At least two columns per table should not accept NULL values
 
+ALTER TABLE galaxy ALTER COLUMN rotation_speed SET NOT NULL;
+ALTER TABLE moon ALTER COLUMN planet_id SET NOT NULL;
+ALTER TABLE planet ALTER COLUMN rotation_speed SET NOT NULL;
+ALTER TABLE star ALTER COLUMN planet_id SET NOT NULL;
+ALTER TABLE sun ALTER COLUMN distance_from_earth SET NOT NULL;
 
 ```
