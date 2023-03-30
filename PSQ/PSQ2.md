@@ -125,4 +125,16 @@ VALUES
 (5, 'eee', 'blabla', 'Y', 1000),
 (6, 'fff', 'blabla', 'N', 1000);
 
+INSERT INTO star (galaxy_id, name, description, has_life, rotation_speed, planet_id)
+VALUES(1, 'aa', 'blabla', 'N', 1000, 1);
+
+INSERT INTO star (galaxy_id, name, description, has_life, rotation_speed, planet_id)
+VALUES(2, 'bb', 'blabla', 'N', 1000, 2),
+(3, 'cc', 'blabla', 'N', 1000, 3),
+(4, 'dd', 'blabla', 'N', 1000, 4);
+
+INSERT INTO star (galaxy_id, name, description, has_life, rotation_speed, planet_id)
+VALUES(5, 'ee', 'blabla', 'N', 1000, 5),
+(6, 'ff', 'blabla', 'Y', 1000, 6);
+
 ```
