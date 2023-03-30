@@ -110,4 +110,19 @@ ALTER TABLE planet ALTER COLUMN rotation_speed SET NOT NULL;
 ALTER TABLE star ALTER COLUMN planet_id SET NOT NULL;
 ALTER TABLE sun ALTER COLUMN distance_from_earth SET NOT NULL;
 
+- The galaxy and star tables should each have at least six rows
+
+INSERT INTO galaxy(galaxy_id, name, description, has_life, rotation_speed) VALUES(1, 'aaa', 'blabla', 'N', 1000);
+
+INSERT INTO galaxy (galaxy_id, name, description, has_life, rotation_speed)
+VALUES
+(2, 'bbb', 'blabla', 'N', 1000),
+(3, 'ccc', 'blabla', 'N', 1000),
+(4, 'ddd', 'blabla', 'N', 1000);
+
+INSERT INTO galaxy (galaxy_id, name, description, has_life, rotation_speed)
+VALUES
+(5, 'eee', 'blabla', 'Y', 1000),
+(6, 'fff', 'blabla', 'N', 1000);
+
 ```
