@@ -137,4 +137,13 @@ INSERT INTO star (galaxy_id, name, description, has_life, rotation_speed, planet
 VALUES(5, 'ee', 'blabla', 'N', 1000, 5),
 (6, 'ff', 'blabla', 'Y', 1000, 6);
 
+- Each "planet" should have a foreign key that references one of the rows in star
+
+INSERT INTO planet (planet_id, name, description, rotation_speed, has_life) VALUES (1, 'a', 'bla', 1000, 'N');
+INSERT INTO planet (planet_id, name, description, rotation_speed, has_life) VALUES (2, 'b', 'bla', 1000, 'N'), (3, 'c', 'bla', 1000, 'Y'), (4, 'd', 'bla', 1000, 'N'), (5, 'e', 'bla', 1000, 'N');
+
+universe=> INSERT INTO planet (planet_id, name, description, rotation_speed, has_life) VALUES (6, 'f', 'bla', 1000, 'N'), (7, 'g', 'bla', 1000, 'N'), (8, 'h', 'bla', 1000, 'Y'), (9, 'i', 'bla', 1000, 'N');
+ERROR:  insert or update on table "planet" violates foreign key constraint "planet_planet_id_fkey"
+DETAIL:  Key (planet_id)=(7) is not present in table "star".
+universe=> 
 ```
