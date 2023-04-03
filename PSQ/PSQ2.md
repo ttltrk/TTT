@@ -146,4 +146,6 @@ INSERT INTO galaxy (galaxy_id, name, description, has_life, rotation_speed) VALU
 
 INSERT INTO galaxy (galaxy_id, name, description, has_life, rotation_speed) VALUES (14, 'nnn', 'blabla', 'N', 1000), (15, 'ooo', 'blabla', 'Y', 1000), (16, 'ppp', 'blabla', 'N', 1000), (17, 'qqq', 'blabla', 'N', 1000);
 INSERT INTO galaxy (galaxy_id, name, description, has_life, rotation_speed) VALUES (18, 'rrr', 'blabla', 'Y', 1000), (19, 'sss', 'blabla', 'N', 1000), (20, 'ttt', 'blabla', 'Y', 1000);
+
+INSERT INTO star (galaxy_id, name, description, has_life, rotation_speed, planet_id) VALUES (13, 'mm', 'bla', 'N', 1000, 13), (14, 'nn', 'bla', 'N', 1000, 14), (15, 'oo', 'bla', 'Y', 1000, 15);
 ```
