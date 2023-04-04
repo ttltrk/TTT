@@ -52,7 +52,7 @@
 * [sort_dict](#sort_dict)
 * [square_num](#square_num)
 * [covfefe](#covfefe)
-* [](#)
+* [between_extremes](#between_extremes)
 * [](#)
 * [](#)
 * [](#)
@@ -1313,12 +1313,19 @@ covfefe covfefe
 
 ---
 
-####
+#### between_extremes
 
 ```py
+#DONE - https://www.codewars.com/kata/56d19b2ac05aed1a20000430/train/python
+
+def between_extremes(numbers):
+    return max(numbers) - min(numbers)
+
+
+between_extremes([21, 34, 54, 43, 26, 12])
 
 >>>
-
+42
 >>>
 ```
 
