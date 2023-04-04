@@ -53,7 +53,7 @@
 * [square_num](#square_num)
 * [covfefe](#covfefe)
 * [between_extremes](#between_extremes)
-* [](#)
+* [cube_checker](#cube_checker)
 * [](#)
 * [](#)
 * [](#)
@@ -1333,12 +1333,21 @@ between_extremes([21, 34, 54, 43, 26, 12])
 
 ---
 
-####
+#### cube_checker
 
 ```py
+#DONE - https://www.codewars.com/kata/58d248c7012397a81800005c/train/python
+
+def cube_checker(volume, side):
+    if volume == side*side*side and volume > 0:
+        return True
+    else:
+        return False
+
+cube_checker(125, 5)
 
 >>>
-
+True
 >>>
 ```
 
