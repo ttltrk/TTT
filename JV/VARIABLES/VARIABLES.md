@@ -22,6 +22,8 @@ boolean - stores values with two states: true or false
 ---
 
 * [BASICS](#BASICS)
+* [DISPLAY_VARIABLES](#DISPLAY_VARIABLES)
+
 
 ---
 
@@ -64,6 +66,46 @@ public class Hello {
 
 >>>
 42
+>>>
+```
+
+[^^^](#VARIABLES)
+
+---
+
+#### DISPLAY_VARIABLES
+
+The ```println()``` method is often used to display variables.
+To combine both text and a variable, use the + character.
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String name = "John";
+        System.out.println("Hello " + name);
+    }
+}
+
+>>>
+Hello John
+>>>
+```
+
+You can also use the + character to add a variable to another variable:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String firstName = "John ";
+        String lastName = "Doe";
+
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
+    }
+}
+
+>>>
+John Doe
 >>>
 ```
 
