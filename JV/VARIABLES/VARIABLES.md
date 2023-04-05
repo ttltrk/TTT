@@ -24,6 +24,7 @@ boolean - stores values with two states: true or false
 * [BASICS](#BASICS)
 * [DISPLAY_VARIABLES](#DISPLAY_VARIABLES)
 * [DECLARE_MANY_VARIABLES](#DECLARE_MANY_VARIABLES)
+* [IDENTIFIERS](#IDENTIFIERS)
 
 ---
 
@@ -165,6 +166,54 @@ public class HelloWorld {
 
 >>>
 61
+>>>
+```
+
+You can also assign the same value to multiple variables in one line:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int x, y, z;
+        x = y = z = 50;
+
+        System.out.println(x + y + z);
+    }
+}
+
+>>>
+150
+>>>
+```
+
+[^^^](#VARIABLES)
+
+---
+
+#### IDENTIFIERS
+
+All Java variables must be identified with unique names.
+These unique names are called identifiers.
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+Note: It is recommended to use descriptive names in order to create understandable and maintainable code:
+
+```Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Good
+        int minutesPerHour = 60;
+
+        // OK, but not so easy to understand what m actually is
+        int m = 60;
+
+        System.out.println(minutesPerHour);
+        System.out.println(m);
+    }
+}
+
+>>>
+60
+60
 >>>
 ```
 
