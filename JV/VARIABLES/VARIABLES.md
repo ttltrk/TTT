@@ -23,7 +23,7 @@ boolean - stores values with two states: true or false
 
 * [BASICS](#BASICS)
 * [DISPLAY_VARIABLES](#DISPLAY_VARIABLES)
-
+* [DECLARE_MANY_VARIABLES](#DECLARE_MANY_VARIABLES)
 
 ---
 
@@ -106,6 +106,65 @@ public class HelloWorld {
 
 >>>
 John Doe
+>>>
+```
+
+For numeric values, the ```+``` character works as a mathematical operator (notice that we use int (integer) variables here):
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 6;
+
+        System.out.println(x + y); // Print the value of x + y
+    }
+}
+
+>>>
+11
+>>>
+```
+
+[^^^](#VARIABLES)
+
+---
+
+#### DECLARE_MANY_VARIABLES
+
+To declare more than one variable of the same type, you can use a comma-separated list:
+
+- Instead of writing:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 6;
+        int z = 50;
+
+        System.out.println(x + y + z);
+    }
+}
+
+>>>
+61
+>>>
+```
+
+- You can simply write:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int x = 5, y = 6, z = 50;
+
+        System.out.println(x + y + z);
+    }
+}
+
+>>>
+61
 >>>
 ```
 
