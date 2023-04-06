@@ -54,7 +54,7 @@
 * [covfefe](#covfefe)
 * [between_extremes](#between_extremes)
 * [cube_checker](#cube_checker)
-* [](#)
+* [trim](#trim)
 * [](#)
 * [](#)
 * [](#)
@@ -1355,12 +1355,22 @@ True
 
 ---
 
-####
+#### trim
 
 ```py
+#DONE - https://www.codewars.com/kata/563fb342f47611dae800003c/train/python
+def trim(phrase, size):
+    if len(phrase) <= size:
+        return phrase
+    elif size <= 3:
+        return phrase[:size]+'...'
+    else:
+        return phrase[:(size-3)]+'...'
+
+trim("Creating kata is fun", 14)
 
 >>>
-
+'Creating ka...'
 >>>
 ```
 
