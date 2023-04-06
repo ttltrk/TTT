@@ -13,7 +13,7 @@
 * [COMMENTS](https://github.com/ttltrk/TTT/tree/master/JV/COMMENTS/COMMENTS.md)
 * [HELLO_WORLD](https://github.com/ttltrk/TTT/tree/master/JV/HELLO_WORLD/HELLO_WORLD.md)
 * [VARIABLES](https://github.com/ttltrk/TTT/tree/master/JV/VARIABLES/VARIABLES.md)
-* [DATA_TYPES]()
+* [DATA_TYPES](https://github.com/ttltrk/TTT/tree/master/JV/DATA_TYPES/DATA_TYPES.md)
 * [PRIMITIVE_TYPES](https://github.com/ttltrk/TTT/tree/master/JV/PRIMITIVE_TYPES/PRIMITIVE_TYPES.md)
 * [NUMBERS](https://github.com/ttltrk/TTT/tree/master/JV/NUMBERS/NUMBERS.md)
 * [TYPE_CASTING]()
