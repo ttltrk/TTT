@@ -17,7 +17,7 @@ Data types are divided into two groups:
 ---
 
 * [PRIMITIVE_DATA_TYPES](#PRIMITIVE_DATA_TYPES)
-* [](#)
+* [NUMBERS](#NUMBERS)
 * [](#)
 * [](#)
 * [](#)
@@ -41,6 +41,18 @@ float	    | 4 bytes	| Stores fractional numbers. Sufficient for storing 6 to 7 d
 double	  | 8 bytes	| Stores fractional numbers. Sufficient for storing 15 decimal digits
 boolean	  | 1 bit	  | Stores true or false values
 char	    | 2 bytes	| Stores a single character/letter or ASCII values
+
+[^^^](#DATA_TYPES)
+
+---
+
+#### NUMBERS
+
+Primitive number types are divided into two groups:
+
+- Integer types stores whole numbers, positive or negative (such as 123 or -456), without decimals. Valid types are byte, short, int and long. Which type you should use, depends on the numeric value.
+
+- Floating point types represents numbers with a fractional part, containing one or more decimals. There are two types: float and double.
 
 [^^^](#DATA_TYPES)
 
