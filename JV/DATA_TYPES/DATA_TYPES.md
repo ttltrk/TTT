@@ -87,6 +87,54 @@ public class HelloWorld {
 >>>
 ```
 
+##### FLOATING_POINT_TYPES
+
+You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+
+The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        float myNumFloat = 5.75f;
+        double myNumDouble = 19.99d;
+
+        System.out.println(myNumFloat);
+        System.out.println(myNumDouble);
+    }
+}
+
+>>>
+5.75
+19.99
+>>>
+```
+
+Use float or double?
+
+The precision of a floating point value indicates how many digits the value can have after the decimal point. The precision of float is only six or seven decimal digits, while double variables have a precision of about 15 digits. Therefore it is safer to use double for most calculations.
+
+- Scientific Numbers
+
+A floating point number can also be a scientific number with an "e" to indicate the power of 10:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+
+        System.out.println(f1);
+        System.out.println(d1);
+    }
+}
+
+>>>
+35000.0
+120000.0
+>>>
+```
+
 [^^^](#DATA_TYPES)
 
 ---
