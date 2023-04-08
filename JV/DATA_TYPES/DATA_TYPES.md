@@ -19,7 +19,7 @@ Data types are divided into two groups:
 * [PRIMITIVE_DATA_TYPES](#PRIMITIVE_DATA_TYPES)
 * [NUMBERS](#NUMBERS)
 * [BOOLEANS](#BOOLEANS)
-* [](#)
+* [CHARACTERS](#CHARACTERS)
 * [](#)
 * [](#)
 * [](#)
@@ -151,7 +151,62 @@ TRUE / FALSE
 For this, Java has a boolean data type, which can only take the values true or false:
 
 ```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        boolean isJavaFun = true;
+        boolean isFishTasty = false;
 
+        System.out.println(isJavaFun);    
+        System.out.println(isFishTasty);   
+    }
+}
+
+>>>
+true
+false
+>>>
+```
+
+[^^^](#DATA_TYPES)
+
+---
+
+#### CHARACTERS
+
+The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        char myGrade = 'B';
+
+        System.out.println(myGrade);
+    }
+}
+
+>>>
+B
+>>>
+```
+
+Alternatively, if you are familiar with ASCII values, you can use those to display certain characters:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+
+        System.out.println(myVar1);
+        System.out.println(myVar2);
+        System.out.println(myVar3);
+    }
+}
+
+>>>
+A
+B
+C 
+>>>
 ```
 
 [^^^](#DATA_TYPES)
