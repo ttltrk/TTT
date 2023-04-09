@@ -16,7 +16,7 @@
 * [DATA_TYPES](https://github.com/ttltrk/TTT/tree/master/JV/DATA_TYPES/DATA_TYPES.md)
 * [PRIMITIVE_TYPES](https://github.com/ttltrk/TTT/tree/master/JV/PRIMITIVE_TYPES/PRIMITIVE_TYPES.md)
 * [NUMBERS](https://github.com/ttltrk/TTT/tree/master/JV/NUMBERS/NUMBERS.md)
-* [TYPE_CASTING]()
+* [TYPE_CASTING](https://github.com/ttltrk/TTT/tree/master/JV/TYPE_CASTING/TYPE_CASTING.md)
 * [OPERATORS]()
 * [STRINGS]()
 * [MATH]()
