@@ -29,9 +29,57 @@ double -> float -> long -> int -> char -> short -> byte
 
 ---
 
-* [](#)
-
+* [WIDENING_CASTING](#WIDENING_CASTING)
+* [NARROW_CASTING](#NARROW_CASTING)
 
 ---
 
-####
+#### WIDENING_CASTING
+
+Widening casting is done automatically when passing a smaller size type to a larger size type:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int myInt = 9;
+        double myDouble = myInt; // Automatic casting: int to double
+
+        System.out.println(myInt);
+        System.out.println(myDouble);
+    }
+}
+
+>>>
+9
+9.0
+>>>
+```
+
+[^^^](#TYPE_CASTING)
+
+---
+
+#### NARROW_CASTING
+
+Narrowing casting must be done manually by placing the type in parentheses in front of the value:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        double myDouble = 9.78d;
+        int myInt = (int) myDouble; // Manual casting: double to int
+
+        System.out.println(myDouble);
+        System.out.println(myInt);     
+    }
+}
+
+>>>
+9.78
+9
+>>>
+```
+
+[^^^](#TYPE_CASTING)
+
+---
