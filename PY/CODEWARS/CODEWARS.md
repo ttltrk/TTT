@@ -55,7 +55,7 @@
 * [between_extremes](#between_extremes)
 * [cube_checker](#cube_checker)
 * [trim](#trim)
-* [](#)
+* [sort_by_length](#sort_by_length)
 * [](#)
 * [](#)
 * [](#)
@@ -1378,12 +1378,27 @@ trim("Creating kata is fun", 14)
 
 ---
 
-####
+#### sort_by_length
 
 ```py
+#DONE - https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c/train/python
+
+def sort_by_length(arr):
+    len1 =  [len(vals) for vals in arr]
+
+    ### join two lists into a dictionary
+    dic = dict(zip(arr,len1))
+
+    ### sort a dictionary by value
+    thisdict = dict(sorted(dic.items(), key=lambda item: item[1]))
+
+    return [x for x in thisdict]
+
+
+sort_by_length(['beg', 'i', 'life', 'to'])
 
 >>>
-
+['i', 'to', 'beg', 'life']
 >>>
 ```
 
