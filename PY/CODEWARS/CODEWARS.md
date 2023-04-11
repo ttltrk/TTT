@@ -56,7 +56,7 @@
 * [cube_checker](#cube_checker)
 * [trim](#trim)
 * [sort_by_length](#sort_by_length)
-* [](#)
+* [no_odds](#no_odds)
 * [](#)
 * [](#)
 * [](#)
@@ -1406,12 +1406,18 @@ sort_by_length(['beg', 'i', 'life', 'to'])
 
 ---
 
-####
+#### no_odds
 
 ```py
+#DONE - https://www.codewars.com/kata/51fd6bc82bc150b28e0000ce/train/python
+
+def no_odds(values):
+    return [nums for nums in values if nums%2 == 0]
+
+no_odds([0, 1, 2, 3])
 
 >>>
-
+[0, 2]
 >>>
 ```
 
