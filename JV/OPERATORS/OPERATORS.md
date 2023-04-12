@@ -105,6 +105,40 @@ public class HelloWorld {
 >>>
 ```
 
+The addition assignment operator (+=) adds a value to a variable:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int x = 10;
+        x += 5;
+
+        System.out.println(x);
+
+    }
+}
+
+>>>
+15
+>>>
+```
+
+A list of all assignment operators:
+
+| Operator	| Example	| Same As	|
+| --------- | ------- | ------- |
+| =	| x = 5	| x = 5 | 	
+| +=	| x += 3	| x = x + 3 |
+| *=	| x *= 3	| x = x * 3 |
+| -=	| x -= 3	| x = x - 3 |
+| /=	| x /= 3	| x = x / 3 |
+| %=	| x %= 3	| x = x % 3 |
+| ```|=```	| ```x |= 3```	| ```x = x | 3``` |
+| &=	| x &= 3	| x = x & 3 |
+| ^=	| x ^= 3	| x = x ^ 3 |
+| >>=	| x >>= 3	| x = x >> 3 |
+| <<=	| x <<= 3	| x = x << 3 |
+
 [^^^](#OPERATORS)
 
 ---
