@@ -58,7 +58,7 @@
 * [sort_by_length](#sort_by_length)
 * [no_odds](#no_odds)
 * [keep_order](#keep_order)
-* [](#)
+* [contamination](#contamination)
 * [](#)
 * [](#)
 * [](#)
@@ -1446,12 +1446,21 @@ keep_order([1, 2, 3, 4, 7], 5)
 
 ---
 
-####
+#### contamination
 
 ```py
+#DONE - https://www.codewars.com/kata/596fba44963025c878000039/train/python
+
+def contamination(text, char):
+    if len(text) == 0 or len(char) == 0:
+        return ''
+    else:
+        return len(text)*char
+
+contamination('abc', 'z')
 
 >>>
-
+'zzz'
 >>>
 ```
 
