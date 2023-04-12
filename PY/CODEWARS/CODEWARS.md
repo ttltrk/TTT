@@ -57,7 +57,7 @@
 * [trim](#trim)
 * [sort_by_length](#sort_by_length)
 * [no_odds](#no_odds)
-* [](#)
+* [keep_order](#keep_order)
 * [](#)
 * [](#)
 * [](#)
@@ -1425,12 +1425,20 @@ no_odds([0, 1, 2, 3])
 
 ---
 
-####
+#### keep_order
 
 ```py
+#DONE - https://www.codewars.com/kata/582aafca2d44a4a4560000e7/train/python
+
+def keep_order(ary, val):
+    ary.append(val)
+    ary.sort()
+    return ary.index(val)
+
+keep_order([1, 2, 3, 4, 7], 5)
 
 >>>
-
+4
 >>>
 ```
 
