@@ -59,7 +59,7 @@
 * [no_odds](#no_odds)
 * [keep_order](#keep_order)
 * [contamination](#contamination)
-* [](#)
+* [tower_builder](#tower_builder)
 * [](#)
 * [](#)
 * [](#)
@@ -1468,12 +1468,47 @@ contamination('abc', 'z')
 
 ---
 
-####
+#### tower_builder
 
 ```py
+#DONE - https://www.codewars.com/kata/576757b1df89ecf5bd00073b/train/python
+
+def tower_builder(n_floors):
+
+    #creating odd range
+    x = [num  for num in range(1, (n_floors*n_floors+1)) if num%2 == 1]
+    #print(x)
+
+    #slice it till n_floors
+    xx = x[:n_floors]
+    #print(xx)
+
+    #transfer it to the list
+    xxx = [vals*'*' for vals in xx]
+    #print(xxx)
+
+    xxx.reverse()
+    #print(xxx)
+
+    l = []
+    x = 0
+    while x < n_floors:
+        l.append(x*' ' + xxx[x] + x*' ')
+        x += 1
+
+    l.reverse()
+
+    for vals in l:
+        print(vals)
+
+
+tower_builder(4)
 
 >>>
-
+   *   
+  ***  
+ *****
+*******
 >>>
 ```
 
