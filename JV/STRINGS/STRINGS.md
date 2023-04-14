@@ -10,7 +10,7 @@
 ---
 
 * [STRING_LENGTH](#STRING_LENGTH)
-* [](#)
+* [STRING_METHODS](#STRING_METHODS)
 * [](#)
 * [](#)
 
@@ -62,7 +62,45 @@ The length of the txt string is: 26
 
 ---
 
-####
+#### STRING_METHODS
+
+* [the whole list](https://www.w3schools.com/java/java_ref_string.asp)
+
+There are many string methods available, for example toUpperCase() and toLowerCase():
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String txt = "Hello World";
+
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());  
+    }
+}
+
+>>>
+HELLO WORLD
+hello world
+>>>
+```
+
+The indexOf() method returns the index (the position) of the first occurrence of a specified text in a string (including whitespace):
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String txt = "Please locate where 'locate' occurs!";
+
+        System.out.println(txt.indexOf("locate"));
+        System.out.println(txt.indexOf("w"));
+    }
+}
+
+>>>
+7
+14
+>>>
+```
 
 [^^^](#STRINGS)
 
