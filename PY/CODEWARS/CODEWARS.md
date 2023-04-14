@@ -60,7 +60,7 @@
 * [keep_order](#keep_order)
 * [contamination](#contamination)
 * [tower_builder](#tower_builder)
-* [](#)
+* [second_symbol](#second_symbol)
 * [](#)
 * [](#)
 * [powers_of_two](#powers_of_two)
@@ -1516,12 +1516,21 @@ tower_builder(4)
 
 ---
 
-####
+#### second_symbol
 
 ```py
+#DONE - https://www.codewars.com/kata/63f96036b15a210058300ca9/train/python
+
+def second_symbol(s, symbol):
+    if s.count(symbol) <= 1:
+        return -1
+    else:
+        return (s.index(symbol, (s.index(symbol))+1, len(s)))
+
+second_symbol('Hello world!!!','o')
 
 >>>
-
+7
 >>>
 ```
 
