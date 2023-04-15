@@ -11,7 +11,7 @@
 
 * [STRING_LENGTH](#STRING_LENGTH)
 * [STRING_METHODS](#STRING_METHODS)
-* [](#)
+* [STRING_CONCATENATION](#STRING_CONCATENATION)
 * [](#)
 
 ---
@@ -106,7 +106,41 @@ public class HelloWorld {
 
 ---
 
-####
+#### STRING_CONCATENATION
+
+The + operator can be used between strings to combine them. This is called concatenation:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String firstName = "John";
+        String lastName = "Doe";
+
+        System.out.println(firstName + " " + lastName);
+    }
+}
+
+>>>
+John Doe
+>>>
+```
+
+You can also use the concat() method to concatenate two strings:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String firstName = "John ";
+        String lastName = "Doe";
+
+        System.out.println(firstName.concat(lastName));
+    }
+}
+
+>>>
+John Doe
+>>>
+```
 
 [^^^](#STRINGS)
 
