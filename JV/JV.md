@@ -18,7 +18,7 @@
 * [NUMBERS](https://github.com/ttltrk/TTT/tree/master/JV/NUMBERS/NUMBERS.md)
 * [TYPE_CASTING](https://github.com/ttltrk/TTT/tree/master/JV/TYPE_CASTING/TYPE_CASTING.md)
 * [OPERATORS](https://github.com/ttltrk/TTT/tree/master/JV/OPERATORS/OPERATORS.md)
-* [STRINGS]()
+* [STRINGS](https://github.com/ttltrk/TTT/tree/master/JV/STRINGS/STRINGS.md)
 * [MATH]()
 * [BOOLEANS]()
 * [IF_ELSE]()
