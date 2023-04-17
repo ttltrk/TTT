@@ -13,7 +13,7 @@
 * [STRING_METHODS](#STRING_METHODS)
 * [STRING_CONCATENATION](#STRING_CONCATENATION)
 * [NUMBERS_AND_STRINGS](#NUMBERS_AND_STRINGS)
-* [](#)
+* [SPECIAL_CHARACTERS](#SPECIAL_CHARACTERS)
 * [](#)
 
 ---
@@ -208,7 +208,72 @@ public class HelloWorld {
 
 ---
 
-####
+#### SPECIAL_CHARACTERS
+
+Because strings must be written within quotes, Java will misunderstand this string, and generate an error:
+
+| Escape character |	Result |	Description |
+| ----------------- | ------ | ------------ |
+| \'	| ' |	Single quote |
+| \"	| "	| Double quote |
+| \\  |	\ |	Backslash |
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String txt = "We are the so-called \"Vikings\" from the north.";
+
+
+
+        System.out.println(txt);
+    }
+}
+
+>>>
+We are the so-called "Vikings" from the north.
+>>>
+```
+
+The sequence \'  inserts a single quote in a string:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String txt = "It\'s alright.";
+
+        System.out.println(txt);
+    }
+}
+
+>>>
+"It's alright."
+>>>
+```
+
+The sequence ```\\```  inserts a single backslash in a string:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String txt = "The character \\ is called backslash.";
+
+        System.out.println(txt);
+    }
+}
+
+>>>
+The character \ is called backslash.
+>>>
+```
+
+
+| Code	| Result |
+| ----- | ------ |
+| \n	| New Line	|
+| \r	| Carriage Return |
+| \t	| Tab	|
+| \b	| Backspace |
+| \f	| Form Feed |
 
 [^^^](#STRINGS)
 
