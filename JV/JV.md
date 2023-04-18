@@ -19,7 +19,7 @@
 * [TYPE_CASTING](https://github.com/ttltrk/TTT/tree/master/JV/TYPE_CASTING/TYPE_CASTING.md)
 * [OPERATORS](https://github.com/ttltrk/TTT/tree/master/JV/OPERATORS/OPERATORS.md)
 * [STRINGS](https://github.com/ttltrk/TTT/tree/master/JV/STRINGS/STRINGS.md)
-* [MATH]()
+* [MATH](https://github.com/ttltrk/TTT/tree/master/JV/MATH/MATH.md)
 * [BOOLEANS]()
 * [IF_ELSE]()
 * [SWITCH]()
