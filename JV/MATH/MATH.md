@@ -9,10 +9,7 @@
 
 ---
 
-* [](#)
-* [](#)
-* [](#)
-* [](#)
+* [RANDOM_NUMBERS](#RANDOM_NUMBERS)
 
 ---
 
@@ -41,11 +38,41 @@ public class HelloWorld {
 >>>
 ```
 
+[^^^](#MATH)
+
+---
+
+#### RANDOM_NUMBERS
+
+Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive):
 
 ```java
+public class HelloWorld {
+    public static void main(String[] args) {
+
+        System.out.println(Math.random());
+    }
+}
 
 >>>
+0.12958760074794629
+>>>
+```
 
+To get more control over the random number, for example, if you only want a random number between 0 and 100, you can use the following formula:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+
+        int randomNum = (int)(Math.random() * 101);
+
+        System.out.println(randomNum);
+    }
+}
+
+>>>
+82
 >>>
 ```
 
