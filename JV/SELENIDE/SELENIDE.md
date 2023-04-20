@@ -1,0 +1,125 @@
+
+---
+
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [JV](https://github.com/ttltrk/TTT/tree/master/JV/JV.md)
+
+---
+
+### SELENIDE
+
+---
+
+#### pom.xml
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>selenide_series</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>6.13.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.7.1</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+</project>
+```
+
+---
+
+#### HomeTest.java
+
+```java
+import com.codeborne.selenide.CollectionCondition;
+import com.codeborne.selenide.ElementsCollection;
+import com.codeborne.selenide.WebDriverRunner;
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import java.util.List;
+
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Condition.*;
+import static org.testng.Assert.*;
+
+public class HomeTest {
+
+    @Test
+    public void testPageUrlAndTitle() {
+        //Open Page URL
+        open("https://practice.automationbro.com/");
+
+        String url = WebDriverRunner.url();
+        assertEquals(url, "https://practice.automationbro.com/");
+
+        String title = title();
+        assertEquals(title, "Practice E-Commerce Site - Automation Bro");
+    }
+
+    @Test
+    public void testInteractingWithElements() {
+
+        open("https://practice.automationbro.com/");
+
+        //By ID
+        $(By.id("get-started")).click();
+
+        //verify url contains
+        String url = WebDriverRunner.url();
+        assertTrue(url.contains("get-started"));
+
+        //verify heading by CssSelector
+        //Think different.
+        $("h1")
+                .shouldHave(text("Think different. Make different."));
+
+        //verify by xpath
+        //a[@class="custom-logo-link"]
+        $(By.xpath("//a[@class=\"custom-logo-link\"]"))
+                .should(be(visible));
+    }
+
+    @Test
+    public void testMultipleElements() {
+
+        //Open Page URL
+        open("https://practice.automationbro.com/");
+
+        List<String> expectedLinks = List.of("Home", "About", "Shop", "Blog", "Contact", "My account");
+
+        //check the inspect part on the website
+        ElementsCollection LinkLists = $$ ("#primary-menu li[id*=menu-item]");
+
+        //1st version
+        //List<String> linkListsText = LinkLists.texts();
+        //assertion
+        //assertEquals(linkListsText, expectedLinks );
+
+        //2nd version
+        //assertion
+        LinkLists.shouldHave(CollectionCondition.texts(expectedLinks));
+    }
+}
+```
