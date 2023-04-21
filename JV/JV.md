@@ -27,7 +27,7 @@
 * [FOR_LOOP]()
 * [BREAK_CONTINUE]()
 * [ARRAYS]()
-* [METHODS]()
+* [METHODS](https://github.com/ttltrk/TTT/tree/master/JV/METHODS/METHODS.md)
 
 ---
 
