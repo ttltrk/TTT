@@ -13,6 +13,8 @@
 * [CALL_METHOD](#CALL_METHOD)
 * [METHOD_PARAMETERS](#METHOD_PARAMETERS)
 * [MULTIPLE_PARAMETERS](#MULTIPLE_PARAMETERS)
+* [RETURN_VALUES](#RETURN_VALUES)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -160,6 +162,44 @@ Note that when you are working with multiple parameters, the method call must ha
 [^^^](#METHODS)
 
 ---
+
+#### RETURN_VALUES
+
+The void keyword, used in the examples above, indicates that the method should not return a value. If you want the method to return a value, you can use a primitive data type (such as int, char, etc.) instead of void, and use the return keyword inside the method:
+
+```java
+public class HelloWorld {
+    static int myMethod(int x) {
+        return 5 + x;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(myMethod(3));
+    }
+}
+
+>>>
+8
+>>>
+```
+
+This example returns the sum of a method's two parameters:
+
+```java
+public class HelloWorld {
+    static int myMethod(int x, int y) {
+        return x + y;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(myMethod(5, 3));
+    }
+}
+
+>>>
+8
+>>>
+```
 
 [^^^](#METHODS)
 
