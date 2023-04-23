@@ -14,7 +14,7 @@
 * [METHOD_PARAMETERS](#METHOD_PARAMETERS)
 * [MULTIPLE_PARAMETERS](#MULTIPLE_PARAMETERS)
 * [RETURN_VALUES](#RETURN_VALUES)
-* [](#)
+* [METHOD_WITH_IF_ELSE](#METHOD_WITH_IF_ELSE)
 * [](#)
 * [](#)
 * [](#)
@@ -200,6 +200,78 @@ public class HelloWorld {
 8
 >>>
 ```
+
+You can also store the result in a variable (recommended, as it is easier to read and maintain):
+
+```java
+public class HelloWorld {
+    static int myMethod(int x, int y) {
+        return x + y;
+    }
+
+    public static void main(String[] args) {
+        int z = myMethod(6,6);
+        System.out.println(z);
+    }
+}
+
+>>>
+12
+>>>
+```
+
+[^^^](#METHODS)
+
+---
+
+#### METHOD_WITH_IF_ELSE
+
+```java
+public class HelloWorld {
+    static void checkAge(int age) {
+        if (age < 18) {
+            System.out.println("Access denied - You are not old enough!");
+        } else {
+            System.out.println("Access granted - You are old enough!");
+        }
+    }
+    public static void main(String[] args) {
+        checkAge(20); // Call the checkAge method and pass along an age of 20
+    }
+}
+
+>>>
+Access granted - You are old enough!
+>>>
+```
+
+[^^^](#METHODS)
+
+---
+
+[^^^](#METHODS)
+
+---
+
+[^^^](#METHODS)
+
+---
+
+[^^^](#METHODS)
+
+---
+
+[^^^](#METHODS)
+
+---
+
+[^^^](#METHODS)
+
+---
+
+[^^^](#METHODS)
+
+---
 
 [^^^](#METHODS)
 
