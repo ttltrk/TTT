@@ -16,7 +16,7 @@
 * [RETURN_VALUES](#RETURN_VALUES)
 * [METHOD_WITH_IF_ELSE](#METHOD_WITH_IF_ELSE)
 * [METHOD_OVERLOADING](#METHOD_OVERLOADING)
-* [](#)
+* [METHOD_SCOPE](#METHOD_SCOPE)
 * [](#)
 * [](#)
 * [](#)
@@ -283,6 +283,31 @@ double: 10.559999999999999
 [^^^](#METHODS)
 
 ---
+
+#### METHOD_SCOPE
+
+In Java, variables are only accessible inside the region they are created. This is called scope.
+Variables declared directly inside a method are available anywhere in the method following the line of code in which they were declared:
+
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+
+        // Code here CANNOT use x
+
+        int x = 100;
+
+        // Code here can use x
+
+        System.out.println(x);
+    }
+}
+
+>>>
+100
+>>>
+```
 
 [^^^](#METHODS)
 
