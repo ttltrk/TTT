@@ -28,6 +28,7 @@
 * [BREAK_CONTINUE]()
 * [ARRAYS]()
 * [METHODS](https://github.com/ttltrk/TTT/tree/master/JV/METHODS/METHODS.md)
+* [CLASSES](https://github.com/ttltrk/TTT/tree/master/JV/CLASSES/CLASSES.md)
 
 ---
 
