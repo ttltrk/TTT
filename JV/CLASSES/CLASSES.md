@@ -14,6 +14,8 @@
 * [CREATE_CLASS](#CREATE_CLASS)
 * [CREATE_OBJECT](#CREATE_OBJECT)
 * [MULTIPLE_OBJECTS](#MULTIPLE_OBJECTS)
+* [CLASS_ATTRIBUTES](#CLASS_ATTRIBUTES)
+* [ACCESSING_ATTRIBUTES](#ACCESSING_ATTRIBUTES)
 * [](#)
 * [](#)
 
@@ -138,9 +140,33 @@ public class HelloWorld {
 
 ---
 
+#### CLASS_ATTRIBUTES
+
+```java
+public class HelloWorld {
+    int x = 100;
+    int y = 120;
+
+    public static void main(String[] args) {
+        HelloWorld myObj1 = new HelloWorld();
+        HelloWorld myObj2 = new HelloWorld();
+
+        System.out.println(myObj1.x);
+        System.out.println(myObj2.y);
+    }
+}
+
+>>>
+100
+120
+>>>
+```
+
 [^^^](#CLASSES)
 
 ---
+
+#### ACCESSING_ATTRIBUTES
 
 [^^^](#CLASSES)
 
