@@ -26,7 +26,7 @@
 * [WHILE_LOOP]()
 * [FOR_LOOP]()
 * [BREAK_CONTINUE]()
-* [ARRAYS]()
+* [ARRAYS](https://github.com/ttltrk/TTT/tree/master/JV/ARRAYS/ARRAYS.md)
 * [METHODS](https://github.com/ttltrk/TTT/tree/master/JV/METHODS/METHODS.md)
 * [CLASSES](https://github.com/ttltrk/TTT/tree/master/JV/CLASSES/CLASSES.md)
 
