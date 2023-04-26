@@ -20,7 +20,7 @@
 * [OPERATORS](https://github.com/ttltrk/TTT/tree/master/JV/OPERATORS/OPERATORS.md)
 * [STRINGS](https://github.com/ttltrk/TTT/tree/master/JV/STRINGS/STRINGS.md)
 * [MATH](https://github.com/ttltrk/TTT/tree/master/JV/MATH/MATH.md)
-* [BOOLEANS]()
+* [BOOLEANS](https://github.com/ttltrk/TTT/tree/master/JV/BOOLEANS/BOOLEANS.md)
 * [IF_ELSE]()
 * [SWITCH]()
 * [WHILE_LOOP]()
