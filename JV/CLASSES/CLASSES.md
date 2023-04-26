@@ -16,6 +16,10 @@
 * [MULTIPLE_OBJECTS](#MULTIPLE_OBJECTS)
 * [CLASS_ATTRIBUTES](#CLASS_ATTRIBUTES)
 * [ACCESSING_ATTRIBUTES](#ACCESSING_ATTRIBUTES)
+* [MODIFY_ATTRIBUTES](#MODIFY_ATTRIBUTES)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 
@@ -167,6 +171,97 @@ public class HelloWorld {
 ---
 
 #### ACCESSING_ATTRIBUTES
+
+You can access attributes by creating an object of the class, and by using the dot syntax (.)
+
+```java
+public class HelloWorld {
+    int x = 5;
+
+    public static void main(String[] args) {
+        HelloWorld myObj = new HelloWorld();
+        System.out.println(myObj.x);
+    }
+}
+
+>>>
+5
+>>>
+```
+
+[^^^](#CLASSES)
+
+---
+
+#### MODIFY_ATTRIBUTES
+
+```java
+public class HelloWorld {
+    int x;
+
+    public static void main(String[] args) {
+        HelloWorld myObj = new HelloWorld();
+        myObj.x = 40;
+        System.out.println(myObj.x);
+    }
+}
+
+>>>
+40
+>>>
+```
+
+```java
+public class HelloWorld {
+    int x = 10;
+
+    public static void main(String[] args) {
+        HelloWorld myObj = new HelloWorld();
+        myObj.x = 25;
+        System.out.println(myObj.x);
+    }
+}
+
+>>>
+25
+>>>
+```
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
+
+[^^^](#CLASSES)
+
+---
 
 [^^^](#CLASSES)
 
