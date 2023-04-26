@@ -52,6 +52,39 @@ false
 
 ---
 
+#### BOLLEAN_EXPRESSION
+
+A Boolean expression returns a boolean value: true or false.
+This is useful to build logic, and find answers.
+For example, you can use a comparison operator, such as the greater than (>) operator, to find out if an expression (or a variable) is true or false:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 9;
+
+        System.out.println(x > y);
+    }
+}
+
+>>>
+true
+>>>
+```
+
+[^^^](#BOOLEANS)
+
+---
+
+[^^^](#BOOLEANS)
+
+---
+
+[^^^](#BOOLEANS)
+
+---
+
 [^^^](#BOOLEANS)
 
 ---
