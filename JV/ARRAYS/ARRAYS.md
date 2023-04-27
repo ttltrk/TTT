@@ -12,6 +12,8 @@
 * [ACCESS_ELEMENTS](#ACCESS_ELEMENTS)
 * [CHANGE_ELEMENT](#CHANGE_ELEMENT)
 * [ARRAY_LENGTH](#ARRAY_LENGTH)
+* [LOOP_THROUGH](#LOOP_THROUGH)
+* [](#)
 * [](#)
 * [](#)
 
@@ -99,6 +101,68 @@ public class HelloWorld {
 4
 >>>
 ```
+
+[^^^](#ARRAYS)
+
+---
+
+#### LOOP_THROUGH
+
+You can loop through the array elements with the for loop, and use the length property to specify how many times the loop should run.
+
+The following example outputs all elements in the cars array:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]); }
+    }
+}
+
+>>>
+Volvo
+BMW
+Ford
+Mazda
+>>>
+```
+
+[^^^](#ARRAYS)
+
+---
+
+#### LOOP_FOR_EACH
+
+There is also a "for-each" loop, which is used exclusively to loop through elements in arrays:
+The following example outputs all elements in the cars array, using a "for-each" loop:
+
+
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+        for (String i : cars) {
+            System.out.println(i);
+        }
+    }
+}
+
+>>>
+Volvo
+BMW
+Ford
+Mazda
+>>>
+```
+
+[^^^](#ARRAYS)
+
+---
 
 [^^^](#ARRAYS)
 
