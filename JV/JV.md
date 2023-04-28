@@ -21,7 +21,7 @@
 * [STRINGS](https://github.com/ttltrk/TTT/tree/master/JV/STRINGS/STRINGS.md)
 * [MATH](https://github.com/ttltrk/TTT/tree/master/JV/MATH/MATH.md)
 * [BOOLEANS](https://github.com/ttltrk/TTT/tree/master/JV/BOOLEANS/BOOLEANS.md)
-* [IF_ELSE]()
+* [IF_ELSE](https://github.com/ttltrk/TTT/tree/master/JV/IFELSE/IFELSE.md)
 * [SWITCH]()
 * [WHILE_LOOP]()
 * [FOR_LOOP]()
