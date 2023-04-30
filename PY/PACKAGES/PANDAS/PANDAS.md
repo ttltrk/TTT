@@ -112,6 +112,26 @@ print(myvar)
 >>>
 ```
 
+```py
+import pandas
+
+DS = {
+  'cars': ["A", "B", "C"],
+  'passings': [1,2,3]
+}
+
+res = pandas.DataFrame(DS)
+
+print(res)
+
+>>>
+cars  passings
+0    A         1
+1    B         2
+2    C         3
+>>>
+```
+
 ##### Pandas as pd
 
 Pandas is usually imported under the pd alias.
@@ -143,6 +163,35 @@ print(myvar)
 2   Ford         2
 >>>
 ```
+
+```py
+import pandas as pd
+
+DS = {
+  'words': ["A", "B", "C", "X", "Y", "Z"],
+  'numbers': [1,2,3,4,5,6]
+}
+
+res = pd.DataFrame(DS)
+
+print(res)
+
+>>>
+words  numbers
+0     A        1
+1     B        2
+2     C        3
+3     X        4
+4     Y        5
+5     Z        6
+>>>
+```  words  numbers
+0     A        1
+1     B        2
+2     C        3
+3     X        4
+4     Y        5
+5     Z        6
 
 ##### Checking Pandas Version
 
