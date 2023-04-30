@@ -235,6 +235,24 @@ dtype: int64
 >>>
 ```
 
+```py
+import pandas as pd
+
+a = ["a", "b", "c", "d"]
+
+res = pd.Series(a)
+
+print(res)
+
+>>>
+0    a
+1    b
+2    c
+3    d
+dtype: object
+>>>
+```
+
 ##### Labels
 
 If nothing else is specified, the values are labeled with their index number. First value has index 0, second value has index 1 etc.
@@ -458,6 +476,34 @@ calories  duration
 day1       420        50
 day2       380        40
 day3       390        45
+>>>
+```
+
+```py
+import pandas as pd
+
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
+
+df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
+dx = pd.DataFrame(data)
+
+print(df)
+print(' ')
+print(dx)
+
+>>>
+calories  duration
+day1       420        50
+day2       380        40
+day3       390        45
+
+calories  duration
+0       420        50
+1       380        40
+2       390        45
 >>>
 ```
 
