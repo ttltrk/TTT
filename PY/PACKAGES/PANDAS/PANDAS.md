@@ -1451,6 +1451,42 @@ Duration       Date  Pulse  Maxpulse  Calories
 
 #### CLEANING_WRONG_DATA_W3
 
+"Wrong data" does not have to be "empty cells" or "wrong format", it can just be wrong, like if someone registered "199" instead of "1.99".
+
+Sometimes you can spot wrong data by looking at the data set, because you have an expectation of what it should be.
+
+##### REPLACING_VALUES
+
+One way to fix wrong values is to replace them with something else.
+In our example, it is most likely a typo, and the value should be "45" instead of "450", and we could just insert "45" in row 7:
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+df.loc[7,'Duration'] = 45
+
+print(df.to_string())
+
+>>>
+Duration          Date  Pulse  Maxpulse  Calories
+0         60  '2020/12/01'    110       130     409.1
+1         60  '2020/12/02'    117       145     479.0
+2         60  '2020/12/03'    103       135     340.0
+3         45  '2020/12/04'    109       175     282.4
+4         45  '2020/12/05'    117       148     406.0
+5         60  '2020/12/06'    102       127     300.0
+6         60  '2020/12/07'    110       136     374.0
+7         45  '2020/12/08'    104       134     253.3
+8         30  '2020/12/09'    109       133     195.1
+9         60  '2020/12/10'     98       124     269.0
+10        60  '2020/12/11'    103       147     329.3
+11        60  '2020/12/12'    100       120     250.7
+12        60  '2020/12/12'    100       120     250.7
+>>>
+```
+
 [^^^](#PANDAS)
 
 ---
