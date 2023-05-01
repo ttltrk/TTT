@@ -1487,6 +1487,76 @@ Duration          Date  Pulse  Maxpulse  Calories
 >>>
 ```
 
+For small data sets you might be able to replace the wrong data one by one, but not for big data sets.
+
+To replace wrong data for larger data sets you can create some rules, e.g. set some boundaries for legal values, and replace any values that are outside of the boundaries.
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+for x in df.index:
+  if df.loc[x, "Duration"] > 120:
+    df.loc[x, "Duration"] = 120
+
+print(df.to_string())
+
+>>>
+Duration          Date  Pulse  Maxpulse  Calories
+0         60  '2020/12/01'    110       130     409.1
+1         60  '2020/12/02'    117       145     479.0
+2         60  '2020/12/03'    103       135     340.0
+3         45  '2020/12/04'    109       175     282.4
+4         45  '2020/12/05'    117       148     406.0
+5         60  '2020/12/06'    102       127     300.0
+6         60  '2020/12/07'    110       136     374.0
+7        120  '2020/12/08'    104       134     253.3
+8         30  '2020/12/09'    109       133     195.1
+9         60  '2020/12/10'     98       124     269.0
+10        60  '2020/12/11'    103       147     329.3
+11        60  '2020/12/12'    100       120     250.7
+>>>
+```
+
+##### REMOVING_ROWS
+
+Another way of handling wrong data is to remove the rows that contains wrong data.
+
+This way you do not have to find out what to replace them with, and there is a good chance you do not need them to do your analyses.
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+
+for x in df.index:
+  if df.loc[x, "Duration"] > 120:
+    df.drop(x, inplace = True)
+
+#remember to include the 'inplace = True' argument to make the changes in the original DataFrame object instead of returning a copy
+
+print(df.to_string())
+
+>>>
+Duration          Date  Pulse  Maxpulse  Calories
+0         60  '2020/12/01'    110       130     409.1
+1         60  '2020/12/02'    117       145     479.0
+2         60  '2020/12/03'    103       135     340.0
+3         45  '2020/12/04'    109       175     282.4
+4         45  '2020/12/05'    117       148     406.0
+5         60  '2020/12/06'    102       127     300.0
+6         60  '2020/12/07'    110       136     374.0
+8         30  '2020/12/09'    109       133     195.1
+9         60  '2020/12/10'     98       124     269.0
+10        60  '2020/12/11'    103       147     329.3
+11        60  '2020/12/12'    100       120     250.7
+12        60  '2020/12/12'    100       120     250.7
+13        60  '2020/12/13'    106       128     345.3
+14        60  '2020/12/14'    104       132     379.3
+>>>
+```
+
 [^^^](#PANDAS)
 
 ---
