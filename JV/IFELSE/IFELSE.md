@@ -10,7 +10,7 @@
 ---
 
 * [IF](#IF)
-* [](#)
+* [ELSE](#ELSE)
 * [](#)
 * [](#)
 
@@ -83,6 +83,29 @@ x is greater than y
 [^^^](#IF_ELSE)
 
 ---
+
+#### ELSE
+
+Use the else statement to specify a block of code to be executed if the condition is false.
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int time = 20;
+
+        if (time < 18) {
+            System.out.println("Good day.");
+        } else {
+            System.out.println("Good evening.");
+        }
+
+    }
+}
+
+>>>
+Good evening.
+>>>
+```
 
 [^^^](#IF_ELSE)
 
