@@ -11,7 +11,7 @@
 
 * [IF](#IF)
 * [ELSE](#ELSE)
-* [](#)
+* [ELSE_IF](#ELSE_IF)
 * [](#)
 
 ---
@@ -110,6 +110,31 @@ Good evening.
 [^^^](#IF_ELSE)
 
 ---
+
+#### ELSE_IF
+
+Use the else if statement to specify a new condition if the first condition is false.
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        int time = 22;
+
+        if (time < 10) {
+            System.out.println("Good morning.");
+        } else if (time < 18) {
+            System.out.println("Good day.");
+        } else {
+            System.out.println("Good evening.");
+        }
+
+    }
+}
+
+>>>
+Good evening.
+>>>
+```
 
 [^^^](#IF_ELSE)
 
