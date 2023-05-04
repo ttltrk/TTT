@@ -23,7 +23,7 @@
 * [](#)
 * [NUMPY](#NUMPY)
 * [PANDAS](#PANDAS)
-* [](#)
+* [MATPLOTLIB](#MATPLOTLIB)
 * [](#)
 * [](#)
 * [](#)
@@ -836,7 +836,32 @@ dtype: int64
 
 ---
 
-####
+#### MATPLOTLIB
+
+##### PLT_PYPLOT
+
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+
+xpoints = np.array([0, 10])
+ypoints = np.array([0, 250])
+
+plt.plot(xpoints, ypoints)
+plt.show()
+```
+
+#####
+
+```py
+
+```
+
+#####
+
+```py
+
+```
 
 #####
 
