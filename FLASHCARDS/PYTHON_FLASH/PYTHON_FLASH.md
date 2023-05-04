@@ -21,6 +21,9 @@
 * [SLICING_STRINGS](#SLICING_STRINGS)
 * [](#)
 * [](#)
+* [LAMBDA](#LAMBDA)
+* [](#)
+* [](#)
 * [NUMPY](#NUMPY)
 * [PANDAS](#PANDAS)
 * [MATPLOTLIB](#MATPLOTLIB)
@@ -633,6 +636,48 @@ print(b[-5:-2])
 
 >>>
 orl
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+#####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### LAMBDA
+
+```py
+def heyho(s):
+    return 'hey'+s
+
+heyho('ho')
+
+>>>
+heyho
+>>>
+
+--------------
+
+def heyho(s): return 'hey'+s
+heyho('ho')
+
+>>>
+heyho
+>>>
+--------------
+
+res = lambda s: 'hey'+s
+print(res('ho'))
+
+>>>
+heyho
 >>>
 ```
 
