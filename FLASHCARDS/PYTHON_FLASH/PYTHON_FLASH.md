@@ -21,7 +21,7 @@
 * [SLICING_STRINGS](#SLICING_STRINGS)
 * [](#)
 * [](#)
-* [](#)
+* [NUMPY](#NUMPY)
 * [PANDAS](#PANDAS)
 * [](#)
 * [](#)
@@ -640,12 +640,93 @@ orl
 
 ---
 
-####
+#### NUMPY
 
-#####
+##### NP_ARRAY
 
 ```py
+import numpy as np
 
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+>>>
+[1 2 3 4 5]
+>>>
+```
+
+```py
+import numpy as np
+
+arr = np.array((1, 2, 3, 4, 5))
+
+print(arr)
+
+>>>
+[1 2 3 4 5]
+>>>
+```
+
+##### NP_0D_ARR
+
+```py
+import numpy as np
+
+arr = np.array(42)
+
+print(arr)
+
+>>>
+42
+>>>
+```
+
+##### NP_1D_ARR
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4, 5])
+
+print(arr)
+
+>>>
+[1 2 3 4 5]
+>>>
+```
+
+##### NP_2D_ARR
+
+```py
+import numpy as np
+
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+
+print(arr)
+
+>>>
+[[1 2 3]
+ [4 5 6]]
+>>>
+```
+
+##### NP_3D_ARR
+
+```py
+import numpy as np
+
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(arr)
+
+>>>
+[[[1 2 3]
+  [4 5 6]]
+
+ [[1 2 3]
+  [4 5 6]]]
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
