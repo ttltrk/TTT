@@ -654,7 +654,7 @@ orl
 
 #### PANDAS
 
-##### DATAFRAME
+##### PD_DATAFRAME
 
 ```py
 import pandas as pd
@@ -676,7 +676,7 @@ print(myvar)
 >>>
 ```
 
-##### SERIES
+##### PD_SERIES
 
 ```py
 import pandas as pd
@@ -693,6 +693,61 @@ print(res)
 2    c
 3    d
 dtype: object
+>>>
+```
+
+##### PD_SERIES_LABELS
+
+```py
+import pandas as pd
+
+a = [1, 7, 2]
+
+myvar = pd.Series(a, index = ["x", "y", "z"])
+
+print(myvar)
+
+>>>
+x    1
+y    7
+z    2
+dtype: int64
+```
+
+##### PD_SERIES_DICT
+
+```py
+import pandas as pd
+
+calories = {"day1": 420, "day2": 380, "day3": 390}
+
+myvar = pd.Series(calories)
+
+print(myvar)
+
+>>>
+day1    420
+day2    380
+day3    390
+dtype: int64
+>>>
+```
+
+##### PD_SERIES_DICT_LABELS
+
+```py
+import pandas as pd
+
+calories = {"day1": 420, "day2": 380, "day3": 390}
+
+myvar = pd.Series(calories, index = ["day1", "day2"])
+
+print(myvar)
+
+>>>
+day1    420
+day2    380
+dtype: int64
 >>>
 ```
 
