@@ -185,13 +185,7 @@ words  numbers
 4     Y        5
 5     Z        6
 >>>
-```  words  numbers
-0     A        1
-1     B        2
-2     C        3
-3     X        4
-4     Y        5
-5     Z        6
+```
 
 ##### Checking Pandas Version
 
