@@ -22,6 +22,8 @@
 * [](#)
 * [](#)
 * [LAMBDA](#LAMBDA)
+* [ARGS](#ARGS)
+* [](#)
 * [](#)
 * [](#)
 * [NUMPY](#NUMPY)
@@ -671,6 +673,7 @@ heyho('ho')
 >>>
 heyho
 >>>
+
 --------------
 
 res = lambda s: 'hey'+s
@@ -678,6 +681,23 @@ print(res('ho'))
 
 >>>
 heyho
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### ARGS
+
+```py
+def my_function(*kids):
+  print("The youngest child is " + kids[1])
+
+my_function("Emil", "Tobias", "Linus")
+
+>>>
+The youngest child is Tobias
 >>>
 ```
 
