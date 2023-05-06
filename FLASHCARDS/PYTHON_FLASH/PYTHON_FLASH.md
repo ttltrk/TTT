@@ -800,28 +800,6 @@ print(arr)
 
 #### PANDAS
 
-##### PD_DATAFRAME
-
-```py
-import pandas as pd
-
-mydataset = {
-  'cars': ["BMW", "Volvo", "Ford"],
-  'passings': [3, 7, 2]
-}
-
-myvar = pd.DataFrame(mydataset)
-
-print(myvar)
-
->>>
-    cars  passings
-0    BMW         3
-1  Volvo         7
-2   Ford         2
->>>
-```
-
 ##### PD_SERIES
 
 ```py
@@ -894,6 +872,63 @@ print(myvar)
 day1    420
 day2    380
 dtype: int64
+>>>
+```
+
+##### PD_DATAFRAME
+
+A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
+
+```py
+import pandas as pd
+
+mydataset = {
+  'cars': ["BMW", "Volvo", "Ford"],
+  'passings': [3, 7, 2]
+}
+
+myvar = pd.DataFrame(mydataset)
+
+print(myvar)
+
+>>>
+    cars  passings
+0    BMW         3
+1  Volvo         7
+2   Ford         2
+>>>
+```
+
+```py
+import pandas as pd
+
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
+
+#load data into a DataFrame object:
+df = pd.DataFrame(data)
+
+print(df)
+print(' ')
+print(df.loc[0])
+print(' ')
+print(df.loc[[0, 1]])
+
+>>>
+calories  duration
+0       420        50
+1       380        40
+2       390        45
+
+calories    420
+duration     50
+Name: 0, dtype: int64
+
+calories  duration
+0       420        50
+1       380        40
 >>>
 ```
 
