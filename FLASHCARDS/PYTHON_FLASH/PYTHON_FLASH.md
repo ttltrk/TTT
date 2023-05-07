@@ -932,6 +932,57 @@ calories  duration
 >>>
 ```
 
+##### PD_INDEXES
+
+```py
+import pandas as pd
+
+data = {
+  "calories": [420, 380, 390, 500],
+  "duration": [50, 40, 45, 55]
+}
+
+df = pd.DataFrame(data, index = ["day1", "day2", "day3", "day4"])
+
+print(df)
+
+>>>
+calories  duration
+day1       420        50
+day2       380        40
+day3       390        45
+day4       500        55
+>>>
+```
+
+##### PD_LOC_INDEXES
+
+```py
+import pandas as pd
+
+data = {
+  "calories": [420, 380, 390],
+  "duration": [50, 40, 45]
+}
+
+df = pd.DataFrame(data, index = ["day1", "day2", "day3"])
+
+print(df)
+print(' ')
+print(df.loc["day2"])
+
+>>>
+calories  duration
+day1       420        50
+day2       380        40
+day3       390        45
+
+calories    380
+duration     40
+Name: day2, dtype: int64
+>>>
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
