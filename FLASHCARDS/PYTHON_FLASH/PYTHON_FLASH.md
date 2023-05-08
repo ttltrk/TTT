@@ -985,6 +985,8 @@ Name: day2, dtype: int64
 
 ##### LOAD_FILES_INTO_DF
 
+use ```to_string()``` to print the entire DataFrame.
+
 ```py
 import pandas as pd
 
@@ -1004,6 +1006,20 @@ Duration  Pulse  Maxpulse  Calories
 7          45    104       134     253.3
 8          30    109       133     195.1
 9          60     98       124     269.0
+>>>
+```
+
+##### MAX_ROWS
+
+The number of rows returned is defined in Pandas option settings.
+
+```py
+import pandas as pd
+
+print(pd.options.display.max_rows)
+
+>>>
+60
 >>>
 ```
 
