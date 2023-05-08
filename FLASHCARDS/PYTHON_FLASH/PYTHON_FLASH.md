@@ -807,6 +807,10 @@ myvar = pd.Series({"day1": 420, "day2": 380, "day3": 390})
 myvar = pd.Series({"day1": 420, "day2": 380, "day3": 390}, index = ["day1", "day2"])
 
 myvar = pd.DataFrame({'cars': ["BMW", "Volvo", "Ford"],'passings': [3, 7, 2]})
+myvar = pd.DataFrame({"calories": [420, 380, 390],"duration": [50, 40, 45]}) print(myvar.loc[0]) - print(myvar.loc[[0, 1]])
+myvar = pd.DataFrame({"calories": [420, 380, 390, 500],"duration": [50, 40, 45, 55]}, index = ["day1", "day2", "day3", "day4"]) print(df.loc["day2"])
+
+myvar = pd.read_csv('data.csv')
 ```
 
 ##### PD_SERIES
