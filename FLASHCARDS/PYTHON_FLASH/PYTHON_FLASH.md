@@ -800,6 +800,15 @@ print(arr)
 
 #### PANDAS
 
+```py
+myvar = pd.Series(["a", "b", "c", "d"])
+myvar = pd.Series([1, 7, 2], index = ["x", "y", "z"])
+myvar = pd.Series({"day1": 420, "day2": 380, "day3": 390})
+myvar = pd.Series({"day1": 420, "day2": 380, "day3": 390}, index = ["day1", "day2"])
+
+myvar = pd.DataFrame({'cars': ["BMW", "Volvo", "Ford"],'passings': [3, 7, 2]})
+```
+
 ##### PD_SERIES
 
 ```py
