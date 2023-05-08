@@ -674,6 +674,10 @@ orl
 #### LAMBDA
 
 ```py
+res = lambda s: 'hey'+s print(res('ho')) #heyho
+```
+
+```py
 def heyho(s):
     return 'hey'+s
 
@@ -707,6 +711,10 @@ heyho
 ---
 
 #### ARGS
+
+```py
+res = lambda *kids: kids[1] print(res("Emil", "Tobias", "Linus")) #Tobias
+```
 
 ```py
 def my_function(*kids):
