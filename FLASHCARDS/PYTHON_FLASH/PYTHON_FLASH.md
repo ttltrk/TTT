@@ -39,6 +39,15 @@
 
 #### COMMENTS
 
+```py
+#This is a comment
+"""
+This is a comment
+written in
+more than just one line
+"""
+```
+
 ##### SINGLE_LINE_COMMENT
 
 ```py
@@ -74,6 +83,11 @@ Hello, World!
 
 ```py
 char_name = "John"
+char_age = 35
+```
+
+```py
+char_name = "John"
 char_age = "35"
 
 print("There once was a man named " + char_name + ", ")
@@ -86,6 +100,10 @@ he was 35 years old
 ```
 
 ##### MULTIPLE_VARIABLES
+
+```py
+x, y, z = "Orange", "Banana", "Cherry"
+```
 
 ```py
 x, y, z = "Orange", "Banana", "Cherry"
