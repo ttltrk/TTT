@@ -707,6 +707,20 @@ The youngest child is Tobias
 
 #### NUMPY
 
+```py
+arr = np.array([1, 2, 3, 4, 5])
+arr = np.array((1, 2, 3, 4, 5))
+
+arr = np.array(42)
+arr = np.array([1, 2, 3, 4, 5])
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+arr = np.array([[1, 2, 3], [4, 5, 6]]) print(arr.ndim)
+
+arr = np.array([1, 2, 3, 4], ndmin=3)
+```
+
 ##### NP_ARRAY
 
 ```py
@@ -791,6 +805,45 @@ print(arr)
 
  [[1 2 3]
   [4 5 6]]]
+>>>
+```
+
+##### NUMBER_OF_DIMENSIONS
+
+```py
+import numpy as np
+
+a = np.array(42)
+b = np.array([1, 2, 3, 4, 5])
+c = np.array([[1, 2, 3], [4, 5, 6]])
+d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])
+
+print(a.ndim)
+print(b.ndim)
+print(c.ndim)
+print(d.ndim)
+
+>>>
+0
+1
+2
+3
+>>>
+```
+
+##### DEFINE_THE DIMENSION
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4], ndmin=3)
+
+print(arr)
+print('number of dimensions :', arr.ndim)
+
+>>>
+[[[1 2 3 4]]]
+number of dimensions : 3
 >>>
 ```
 
