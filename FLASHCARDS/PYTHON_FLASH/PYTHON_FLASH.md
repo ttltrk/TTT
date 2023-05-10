@@ -913,6 +913,7 @@ myvar = pd.DataFrame({"calories": [420, 380, 390],"duration": [50, 40, 45]}) pri
 myvar = pd.DataFrame({"calories": [420, 380, 390, 500],"duration": [50, 40, 45, 55]}, index = ["day1", "day2", "day3", "day4"]) print(df.loc["day2"])
 
 myvar = pd.read_csv('data.csv')
+myvar = pd.read_json('data.json') print(myvar.to_string())
 ```
 
 ##### PD_SERIES
@@ -1135,6 +1136,87 @@ print(pd.options.display.max_rows)
 
 >>>
 60
+>>>
+```
+
+##### READ_JSON
+
+```py
+import pandas as pd
+
+df = pd.read_json('data.json')
+
+print(df.to_string())
+
+>>>
+Duration  Pulse  Maxpulse  Calories
+0          60    110       130     409.1
+1          60    117       145     479.0
+2          60    103       135     340.0
+3          45    109       175     282.4
+4          45    117       148     406.0
+5          60    102       127     300.5
+6          60    110       136     374.0
+7          45    104       134     253.3
+8          30    109       133     195.1
+9          60     98       124     269.0
+10         60    103       147     329.3
+11         60    100       120     250.7
+>>>
+```
+
+##### DISCT_AS_JSON
+
+```py
+import pandas as pd
+
+data = {
+  "Duration":{
+    "0":60,
+    "1":60,
+    "2":60,
+    "3":45,
+    "4":45,
+    "5":60
+  },
+  "Pulse":{
+    "0":110,
+    "1":117,
+    "2":103,
+    "3":109,
+    "4":117,
+    "5":102
+  },
+  "Maxpulse":{
+    "0":130,
+    "1":145,
+    "2":135,
+    "3":175,
+    "4":148,
+    "5":127
+  },
+  "Calories":{
+    "0":409.1,
+    "1":479.0,
+    "2":340.0,
+    "3":282.4,
+    "4":406.0,
+    "5":300.5
+  }
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+>>>
+Duration  Pulse  Maxpulse  Calories
+0        60    110       130     409.1
+1        60    117       145     479.0
+2        60    103       135     340.0
+3        45    109       175     282.4
+4        45    117       148     406.0
+5        60    102       127     300.5
 >>>
 ```
 
