@@ -35,7 +35,7 @@
 * [](#)
 * [](#)
 * [](#)
-* [](#)
+* [PY_MONGO](#PY_MONGO)
 * [](#)
 
 ---
@@ -1179,7 +1179,29 @@ plt.show()
 
 ---
 
-####
+#### PY_MONGO
+
+##### CREATE_DB
+
+```py
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+mydb = myclient["testDB"]  
+```
+
+##### CHECK_DB
+
+```py
+
+```
+
+#####
+
+```py
+
+```
 
 #####
 
