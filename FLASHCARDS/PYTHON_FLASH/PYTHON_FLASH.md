@@ -27,7 +27,7 @@
 * [LAMBDA](#LAMBDA)
 * [ARGS](#ARGS)
 * [](#)
-* [](#)
+* [CLASS](#CLASS)
 * [](#)
 * [NUMPY](#NUMPY)
 * [PANDAS](#PANDAS)
@@ -747,6 +747,39 @@ my_function("Emil", "Tobias", "Linus")
 
 >>>
 The youngest child is Tobias
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### CLASS
+
+##### CREATE_A_CLASS
+
+```py
+class MyClass:
+  x = 5
+
+print(MyClass)
+
+>>>
+<class '__main__.MyClass'>
+>>>
+```
+
+##### CREATE_OBJECT
+
+```py
+class MyClass:
+  x = 5
+
+p1 = MyClass()
+print(p1.x)
+
+>>>
+5
 >>>
 ```
 
