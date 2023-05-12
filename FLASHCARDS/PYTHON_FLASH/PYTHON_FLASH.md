@@ -721,6 +721,66 @@ update()	Updates the dictionary with the specified key-value pairs
 values()	Returns a list of all the values in the dictionary
 ```
 
+```py
+----------------------------------------
+car =	{"brand": "Ford","model": "Mustang","year": 1964}
+car.clear()
+print(car)
+#{}
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+x = car.copy()
+print(x)
+#{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+----------------------------------------
+x = ('key1', 'key2', 'key3')
+y = 0
+thisdict = dict.fromkeys(x, y)
+print(thisdict)
+#{'key1': 0, 'key2': 0, 'key3': 0}
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+x = car.get("model")
+print(x)
+#Mustang
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+x = car.items()
+print(x)
+#dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+x = car.keys()
+print(x)
+#dict_keys(['brand', 'model', 'year'])
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+car.pop("model")
+print(car)
+#{'brand': 'Ford', 'year': 1964}
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+car.popitem()
+print(car)
+#{'brand': 'Ford', 'model': 'Mustang'}
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+x = car.setdefault("model", "Bronco")
+print(x)
+#Mustang
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+car.update({"color": "White"})
+print(car)
+#{'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
+----------------------------------------
+car = {"brand": "Ford","model": "Mustang","year": 1964}
+x = car.values()
+print(x)
+#dict_values(['Ford', 'Mustang', 1964])
+----------------------------------------
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
