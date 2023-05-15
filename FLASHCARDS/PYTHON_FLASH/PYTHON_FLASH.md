@@ -1075,6 +1075,46 @@ John(36)
 >>>
 ```
 
+##### OBJECT_METHODS
+
+Objects can also contain methods. Methods in objects are functions that belong to the object.
+Let us create a method in the Person class:
+
+```py
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+p1.myfunc()
+
+>>>
+Hello my name is John
+>>>
+```
+
+```py
+class Person:
+  def __init__(self, name, age, address):
+    self.name = name
+    self.age = age
+    self.address = address
+
+  def myfunc(self):
+    print("Hello my name is " + self.name + " and I come from " + self.address)
+
+p1 = Person("John", 36, "DS")
+p1.myfunc()
+
+>>>
+Hello my name is John and I come from DS
+>>>
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
