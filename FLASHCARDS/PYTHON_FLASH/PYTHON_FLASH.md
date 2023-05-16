@@ -918,6 +918,19 @@ An exception occurred
 >>>
 ```
 
+```py
+try:
+  print(x)
+except NameError:
+  print("Variable x is not defined")
+except:
+  print("Something else went wrong")
+
+>>>
+Variable x is not defined
+>>>
+```
+
 #####
 
 [^^^](#PYTHON_FLASH)
