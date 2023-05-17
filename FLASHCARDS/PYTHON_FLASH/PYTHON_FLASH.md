@@ -1709,6 +1709,77 @@ None
 >>>
 ```
 
+##### CLEANING_DATA
+
+Data cleaning means fixing bad data in your data set.
+
+Bad data could be:
+
+- Empty cells
+- Data in wrong format
+- Wrong data
+- Duplicates
+
+##### CLEANING_EMPTY_CELLS
+
+Empty cells can potentially give you a wrong result when you analyze data.
+One way to deal with empty cells is to remove rows that contain empty cells.
+This is usually OK, since data sets can be very big, and removing a few rows will not have a big impact on the result.
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+new_df = df.dropna()
+
+print(new_df.to_string())
+
+>>>
+Duration          Date  Pulse  Maxpulse  Calories
+0         60  '2020/12/01'    110       130     409.1
+1         60  '2020/12/02'    117       145     479.0
+2         60  '2020/12/03'    103       135     340.0
+3         45  '2020/12/04'    109       175     282.4
+4         45  '2020/12/05'    117       148     406.0
+5         60  '2020/12/06'    102       127     300.0
+6         60  '2020/12/07'    110       136     374.0
+7        450  '2020/12/08'    104       134     253.3
+8         30  '2020/12/09'    109       133     195.1
+9         60  '2020/12/10'     98       124     269.0
+10        60  '2020/12/11'    103       147     329.3
+11        60  '2020/12/12'    100       120     250.7
+12        60  '2020/12/12'    100       120     250.7
+13        60  '2020/12/13'    106       128     345.3
+>>>
+```
+
+By default, the ```dropna()``` method returns a new DataFrame, and will not change the original.
+If you want to change the original DataFrame, use the ```inplace = True``` argument:
+
+```py
+import pandas as pd
+
+df = pd.read_csv('data.csv')
+df.dropna(inplace = True)
+
+print(df.to_string())
+
+>>>
+Duration          Date  Pulse  Maxpulse  Calories
+0         60  '2020/12/01'    110       130     409.1
+1         60  '2020/12/02'    117       145     479.0
+2         60  '2020/12/03'    103       135     340.0
+3         45  '2020/12/04'    109       175     282.4
+4         45  '2020/12/05'    117       148     406.0
+5         60  '2020/12/06'    102       127     300.0
+6         60  '2020/12/07'    110       136     374.0
+7        450  '2020/12/08'    104       134     253.3
+8         30  '2020/12/09'    109       133     195.1
+9         60  '2020/12/10'     98       124     269.0
+10        60  '2020/12/11'    103       147     329.3
+>>>
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
