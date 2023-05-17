@@ -1326,6 +1326,11 @@ myvar = pd.DataFrame({"calories": [420, 380, 390, 500],"duration": [50, 40, 45, 
 
 myvar = pd.read_csv('data.csv')
 myvar = pd.read_json('data.json') print(myvar.to_string())
+
+myvar = pd.read_csv('data.csv') print(myvar.head(10))
+myvar = pd.read_csv('data.csv') print(myvar.head())
+myvar = pd.read_csv('data.csv') print(myvar.tail())
+myvar = pd.read_csv('data.csv') print(myvar.info())
 ```
 
 ##### PD_SERIES
@@ -1630,6 +1635,20 @@ Duration  Pulse  Maxpulse  Calories
 4        45    117       148     406.0
 5        60    102       127     300.5
 >>>
+```
+
+##### ANALYZING_DATA
+
+```py
+
+```
+
+```py
+
+```
+
+```py
+
 ```
 
 [^^^](#PYTHON_FLASH)
