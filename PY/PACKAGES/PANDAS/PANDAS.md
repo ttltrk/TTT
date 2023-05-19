@@ -221,50 +221,99 @@ rooms.plot.scatter('total_bedrooms', 'total_rooms')
 ```
 
 ```py
-
-
->>>
-
->>>
-```
-
-```py
-
+rooms.corr()
 
 >>>
 
+total_bedrooms	total_rooms
+total_bedrooms	1.000000	0.928403
+total_rooms	0.928403	1.000000
 >>>
 ```
 
 ```py
-
-
->>>
+df.corr()
 
 >>>
-```
-
-```py
-
-
->>>
-
->>>
-```
-
-```py
-
-
->>>
-
+longitude	latitude	housing_median_age	total_rooms	total_bedrooms	population	households	median_income	median_house_value
+longitude	1.000000	-0.925208	-0.114250	0.047010	0.071802	0.101674	0.059628	-0.015485	-0.044982
+latitude	-0.925208	1.000000	0.016454	-0.038773	-0.069373	-0.111261	-0.074902	-0.080303	-0.144917
+housing_median_age	-0.114250	0.016454	1.000000	-0.360984	-0.320434	-0.295890	-0.302754	-0.115932	0.106758
+total_rooms	0.047010	-0.038773	-0.360984	1.000000	0.928403	0.860170	0.919018	0.195383	0.130991
+total_bedrooms	0.071802	-0.069373	-0.320434	0.928403	1.000000	0.881169	0.980920	-0.013495	0.045783
+population	0.101674	-0.111261	-0.295890	0.860170	0.881169	1.000000	0.909247	-0.000638	-0.027850
+households	0.059628	-0.074902	-0.302754	0.919018	0.980920	0.909247	1.000000	0.007644	0.061031
+median_income	-0.015485	-0.080303	-0.115932	0.195383	-0.013495	-0.000638	0.007644	1.000000	0.691871
+median_house_value	-0.044982	-0.144917	0.106758	0.130991	0.045783	-0.027850	0.061031	0.691871	1.000000
 >>>
 ```
 
 ```py
-
+rooms.loc[3]
 
 >>>
+total_bedrooms     337.0
+total_rooms       1501.0
+Name: 3, dtype: float64
+>>>
+```
 
+```py
+total_bedrooms = rooms['total_bedrooms']
+total_bedrooms
+
+>>>
+0        1283.0
+1        1901.0
+2         174.0
+3         337.0
+4         326.0
+          ...  
+16995     394.0
+16996     528.0
+16997     531.0
+16998     552.0
+16999     300.0
+Name: total_bedrooms, Length: 17000, dtype: float64
+>>>
+```
+
+```py
+total_bedrooms > 325
+
+>>>
+0         True
+1         True
+2        False
+3         True
+4         True
+         ...  
+16995     True
+16996     True
+16997     True
+16998     True
+16999    False
+Name: total_bedrooms, Length: 17000, dtype: bool
+>>>
+```
+
+```py
+rooms[total_bedrooms>325]
+
+>>>
+total_bedrooms	total_rooms
+0	1283.0	5612.0
+1	1901.0	7650.0
+3	337.0	1501.0
+4	326.0	1454.0
+6	680.0	2907.0
+...	...	...
+16994	419.0	1430.0
+16995	394.0	2217.0
+16996	528.0	2349.0
+16997	531.0	2677.0
+16998	552.0	2672.0
+11835 rows × 2 columns
 >>>
 ```
 
