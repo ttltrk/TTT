@@ -1331,6 +1331,10 @@ myvar = pd.read_csv('data.csv') print(myvar.head(10))
 myvar = pd.read_csv('data.csv') print(myvar.head())
 myvar = pd.read_csv('data.csv') print(myvar.tail())
 myvar = pd.read_csv('data.csv') print(myvar.info())
+
+new_df = df.dropna() #the dropna() method returns a new DataFrame, and will not change the original.
+df.dropna(inplace = True) #will NOT return a new DataFrame, but it will remove all rows containing NULL values from the original DataFrame.
+df.fillna(130, inplace = True) #The fillna() method allows us to replace empty cells with a value:
 ```
 
 ##### PD_SERIES
