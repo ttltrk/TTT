@@ -318,6 +318,93 @@ total_bedrooms	total_rooms
 ```
 
 ```py
+rooms.dtypes
+
+>>>
+total_bedrooms    float64
+total_rooms       float64
+dtype: object
+>>>
+```
+
+```py
+df.dtypes
+
+>>>
+longitude             float64
+latitude              float64
+housing_median_age    float64
+total_rooms           float64
+total_bedrooms        float64
+population            float64
+households            float64
+median_income         float64
+median_house_value    float64
+dtype: object
+>>>
+```
+
+```py
+import names
+names.get_full_name()
+
+>>>
+Donald Ruiz
+>>>
+```
+
+```py
+df.apply(lambda row: names.get_full_name(), axis=1)
+
+>>>
+0           Susan Perry
+1        Robert Daniels
+2             Sean Beck
+3         Charles Lewis
+4         Kenneth Roach
+              ...      
+16995     Russell Duran
+16996    Bonnie Mcgriff
+16997       John Graham
+16998     Delores Tovar
+16999    Joseph Frazier
+Length: 17000, dtype: object
+>>>
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+```py
+
+
+>>>
+
+>>>
+```
+
+```py
 
 
 >>>
