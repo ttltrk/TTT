@@ -70,6 +70,34 @@
 
 ---
 
+#### DID_SHE_SAY_HELLO - INP
+
+```py
+#INP - https://www.codewars.com/kata/56a4addbfd4a55694100001f/train/python
+def validate_hello(greetings):
+
+    l=["hello","ciao","salut","hallo","hola","ahoj","czesc"]
+
+    cl_greetings = greetings.replace('!', '').replace(':','').replace(';','')
+    lg = cl_greetings.split()
+
+    res = l+lg
+
+    print(res)
+
+    lres_1 = [vals.lower() for vals in res]
+    print(lres_1)
+    dup = [x for i, x in enumerate(lres_1) if i != lres_1.index(x)]
+    print(dup)
+
+
+validate_hello('Hallo, wie geht\'s dir?')
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### reverse_letter
 
 ```py
