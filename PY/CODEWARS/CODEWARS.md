@@ -73,25 +73,35 @@
 #### DID_SHE_SAY_HELLO - INP
 
 ```py
-#INP - https://www.codewars.com/kata/56a4addbfd4a55694100001f/train/python
+#DONE - https://www.codewars.com/kata/56a4addbfd4a55694100001f/train/python
+
 def validate_hello(greetings):
 
     l=["hello","ciao","salut","hallo","hola","ahoj","czesc"]
 
-    cl_greetings = greetings.replace('!', '').replace(':','').replace(';','')
+    cl_greetings = greetings.replace('!', '').replace(':','').replace(';','').replace(',','').replace('?', '').replace('.', '')
     lg = cl_greetings.split()
 
-    res = l+lg
 
-    print(res)
-
-    lres_1 = [vals.lower() for vals in res]
+    lres_1 = [vals.lower() for vals in lg]
     print(lres_1)
-    dup = [x for i, x in enumerate(lres_1) if i != lres_1.index(x)]
-    print(dup)
+
+
+    x = [vals for vals in lres_1 if vals in l]
+
+    if len(x) != 0:
+        return True
+    else:
+        return False
+
 
 
 validate_hello('Hallo, wie geht\'s dir?')
+
+>>>
+['hallo', 'wie', "geht's", 'dir']
+True
+>>>
 ```
 
 [^^^](#CODEWARS)
