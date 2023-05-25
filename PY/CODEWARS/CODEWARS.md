@@ -9,6 +9,8 @@
 
 ---
 
+* [NAME_SHUFFLER](#NAME_SHUFFLER)
+* [DID_SHE_SAY_HELLO](#DID_SHE_SAY_HELLO)
 * [reverse_letter](#reverse_letter)
 * [get_sum](#get_sum)
 * [stray](#stray)
@@ -67,6 +69,28 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### NAME_SHUFFLER
+
+```py
+#DONE - https://www.codewars.com/kata/559ac78160f0be07c200005a/train/python
+
+def name_shuffler(str_):
+    name = str_.split()
+    x = name[::-1]
+    str1 = ' '.join(x)
+    return str1
+
+name_shuffler('attila torok')
+
+>>>
+'torok attila'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
