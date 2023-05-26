@@ -9,6 +9,7 @@
 
 ---
 
+* [INDEX_OF_AN_ELEMENT](#INDEX_OF_AN_ELEMENT)
 * [NAME_SHUFFLER](#NAME_SHUFFLER)
 * [DID_SHE_SAY_HELLO](#DID_SHE_SAY_HELLO)
 * [reverse_letter](#reverse_letter)
@@ -69,6 +70,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### INDEX_OF_AN_ELEMENT
+
+```py
+#DONE - https://www.codewars.com/kata/5703c093022cd1aae90012c9/train/python
+
+def find(a, e):
+    return a.index(e) if e in a else 'Not found'
+
+find([2,3,5,7,11], 5)
+
+>>>
+2
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
