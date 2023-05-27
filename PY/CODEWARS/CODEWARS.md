@@ -9,6 +9,7 @@
 
 ---
 
+* [product_of_largest_num](#product_of_largest_num)
 * [INDEX_OF_AN_ELEMENT](#INDEX_OF_AN_ELEMENT)
 * [NAME_SHUFFLER](#NAME_SHUFFLER)
 * [DID_SHE_SAY_HELLO](#DID_SHE_SAY_HELLO)
@@ -70,6 +71,40 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### product_of_largest_num
+
+```py
+#DONE - https://www.codewars.com/kata/5784c89be5553370e000061b/train/python
+
+def max_product(a):
+    l = []
+    first = max(a)
+    l.append(first)
+    a.remove(first)
+
+    print(l)
+    print(a)
+
+    second = max(a)
+    l.append(second)
+
+    print(l)
+
+    return l[0]*l[1]
+max_product([2, 1, 5, 0, 4, 3])
+
+>>>
+[5]
+[2, 1, 0, 4, 3]
+[5, 4]
+20
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
