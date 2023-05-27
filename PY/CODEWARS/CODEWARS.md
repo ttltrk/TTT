@@ -76,6 +76,11 @@
 
 #### product_of_largest_num
 
+```
+- find the largest and the second largest number in the list
+- you can also use sort() function 
+```
+
 ```py
 #DONE - https://www.codewars.com/kata/5784c89be5553370e000061b/train/python
 
