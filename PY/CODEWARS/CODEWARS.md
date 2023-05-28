@@ -9,6 +9,7 @@
 
 ---
 
+* [digitize](#digitize)
 * [product_of_largest_num](#product_of_largest_num)
 * [INDEX_OF_AN_ELEMENT](#INDEX_OF_AN_ELEMENT)
 * [NAME_SHUFFLER](#NAME_SHUFFLER)
@@ -74,11 +75,31 @@
 
 ---
 
+#### digitize
+
+```py
+#DONE - https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/python
+
+def digitize(n):
+    l = [int(nums) for nums in str(n)]
+    return l[::-1]
+
+digitize(123)
+
+>>>
+[3, 2, 1]
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### product_of_largest_num
 
 ```
 - find the largest and the second largest number in the list
-- you can also use sort() function 
+- you can also use sort() function
 ```
 
 ```py
