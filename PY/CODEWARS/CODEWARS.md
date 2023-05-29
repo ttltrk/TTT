@@ -9,6 +9,7 @@
 
 ---
 
+* [compare](#compare)
 * [sequence_sum](#sequence_sum)
 * [digitize](#digitize)
 * [product_of_largest_num](#product_of_largest_num)
@@ -73,6 +74,38 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### compare
+
+```py
+#DONE - https://www.codewars.com/kata/63f3c61dd27f3c07cc7978de/train/python
+
+def compare(a, b):
+    la = [int(nums) for nums in str(a)]
+    lb = [int(nums) for nums in str(b)]
+    rlb = [lb[1], lb[0]]
+
+    if la == lb:
+        return '100%'
+    elif la != lb and la == rlb:
+        return '100%'
+    elif la[0] == lb[0] or la[1] == lb[1]:
+        return '50%'
+    elif la[0] == rlb[0] or la[1] == rlb[1]:
+        return '50%'
+    else:
+        return '0%'
+
+compare(23,31)
+
+>>>
+'50%'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
