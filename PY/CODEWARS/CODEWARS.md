@@ -83,8 +83,12 @@
 #DONE - https://www.codewars.com/kata/63f3c61dd27f3c07cc7978de/train/python
 
 def compare(a, b):
+
+    #int into the list
     la = [int(nums) for nums in str(a)]
     lb = [int(nums) for nums in str(b)]
+
+    #reverse the list 
     rlb = [lb[1], lb[0]]
 
     if la == lb:
