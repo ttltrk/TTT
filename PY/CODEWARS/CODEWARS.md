@@ -9,6 +9,7 @@
 
 ---
 
+* [alternate](#alternate)
 * [compare](#compare)
 * [sequence_sum](#sequence_sum)
 * [digitize](#digitize)
@@ -77,6 +78,38 @@
 
 ---
 
+#### alternate
+
+```py
+#DONE - https://www.codewars.com/kata/62a611067274990047f431a8/train/python
+
+def alternate(n, first_value, second_value):
+    l = []
+    x = 0
+    while x < n//2:
+        l.append(first_value)
+        l.append(second_value)
+        x+=1
+
+    if n%2 == 0:
+        return l
+    else:
+        l.append(first_value)
+        return l
+
+
+
+alternate(5, True, False)
+
+>>>
+[True, False, True, False, True]
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### compare
 
 ```py
@@ -88,7 +121,7 @@ def compare(a, b):
     la = [int(nums) for nums in str(a)]
     lb = [int(nums) for nums in str(b)]
 
-    #reverse the list 
+    #reverse the list
     rlb = [lb[1], lb[0]]
 
     if la == lb:
