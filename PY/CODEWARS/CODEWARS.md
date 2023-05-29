@@ -9,6 +9,7 @@
 
 ---
 
+* [sequence_sum](#sequence_sum)
 * [digitize](#digitize)
 * [product_of_largest_num](#product_of_largest_num)
 * [INDEX_OF_AN_ELEMENT](#INDEX_OF_AN_ELEMENT)
@@ -72,6 +73,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### sequence_sum
+
+```py
+#DONE - https://www.codewars.com/kata/586f6741c66d18c22800010a/train/python
+
+def sequence_sum(begin_number, end_number, step):
+    return sum([nums for nums in range(begin_number, end_number+1, step)])
+
+sequence_sum(2, 6, 2)
+
+>>>
+12
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
