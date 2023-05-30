@@ -34,6 +34,8 @@
 * [](#)
 * [TRY_EXCEPT](#TRY_EXCEPT)
 * [](#)
+* [MAP](#MAP)
+* [](#)
 * [LAMBDA](#LAMBDA)
 * [ARGS](#ARGS)
 * [](#)
@@ -932,6 +934,40 @@ Variable x is not defined
 ```
 
 #####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+##### MAP
+
+The ```map()``` function executes a specified function for each item in an iterable. The item is sent to the function as a parameter.
+
+```py
+def myfunc(a):
+  return len(a)
+
+x = map(myfunc, ('apple', 'banana', 'cherry'))
+
+print(x)
+
+>>>
+[5, 6, 6]
+>>>
+```
+
+```py
+def myfunc(a, b):
+  return a + b
+
+x = map(myfunc, ('apple', 'banana', 'cherry'), ('orange', 'lemon', 'pineapple'))
+
+print(x)
+
+>>>
+['appleorange', 'bananalemon', 'cherrypineapple']
+>>>
+```
 
 [^^^](#PYTHON_FLASH)
 
