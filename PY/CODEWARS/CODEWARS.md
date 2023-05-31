@@ -14,7 +14,7 @@
 * [sequence_sum](#sequence_sum)
 * [digitize](#digitize)
 * [product_of_largest_num](#product_of_largest_num)
-* [INDEX_OF_AN_ELEMENT](#INDEX_OF_AN_ELEMENT)
+* [index_of_an_element](#index_of_an_element)
 * [NAME_SHUFFLER](#NAME_SHUFFLER)
 * [DID_SHE_SAY_HELLO](#DID_SHE_SAY_HELLO)
 * [reverse_letter](#reverse_letter)
@@ -224,7 +224,7 @@ max_product([2, 1, 5, 0, 4, 3])
 
 ---
 
-#### INDEX_OF_AN_ELEMENT
+#### index_of_an_element
 
 ```py
 #DONE - https://www.codewars.com/kata/5703c093022cd1aae90012c9/train/python
