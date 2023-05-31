@@ -9,6 +9,7 @@
 
 ---
 
+* [is_pangram](#is_pangram)
 * [alternate](#alternate)
 * [compare](#compare)
 * [sequence_sum](#sequence_sum)
@@ -75,6 +76,41 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### is_pangram
+
+```py
+#DONE - https://www.codewars.com/kata/545cedaa9943f7fe7b000048/train/python
+
+def is_pangram(s):
+    abc = 'abcdefghijklmnopqrstuvwxyz'
+
+    c = s.replace(' ', '').replace(',','').replace('!','').replace('.','')
+    cc = c.replace('1','').replace('2','').replace('3','').replace('4','').replace('5','').replace('6','').replace('7','').replace('8','').replace('9','').replace('0','')
+    cc = cc.lower()
+
+    l = []
+    for chars in abc:
+        if chars not in cc:
+            l.append(chars)
+
+
+    if len(l) > 0:
+        return False
+    else:
+        return True
+
+
+is_pangram("The quick, brown fox jumps over the lazy dog!")
+
+>>>
+True
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
