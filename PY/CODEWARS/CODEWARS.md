@@ -16,7 +16,7 @@
 * [digitize](#digitize)
 * [product_of_largest_num](#product_of_largest_num)
 * [index_of_an_element](#index_of_an_element)
-* [NAME_SHUFFLER](#NAME_SHUFFLER)
+* [name_shuffler](#name_shuffler)
 * [DID_SHE_SAY_HELLO](#DID_SHE_SAY_HELLO)
 * [reverse_letter](#reverse_letter)
 * [get_sum](#get_sum)
@@ -279,7 +279,7 @@ find([2,3,5,7,11], 5)
 
 ---
 
-#### NAME_SHUFFLER
+#### name_shuffler
 
 ```py
 #DONE - https://www.codewars.com/kata/559ac78160f0be07c200005a/train/python
