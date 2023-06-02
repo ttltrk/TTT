@@ -18,7 +18,7 @@
 * [product_of_largest_num](#product_of_largest_num)
 * [index_of_an_element](#index_of_an_element)
 * [name_shuffler](#name_shuffler)
-* [DID_SHE_SAY_HELLO](#DID_SHE_SAY_HELLO)
+* [did_she_say_hello](#did_she_say_hello)
 * [reverse_letter](#reverse_letter)
 * [get_sum](#get_sum)
 * [stray](#stray)
@@ -328,7 +328,7 @@ name_shuffler('attila torok')
 
 ---
 
-#### DID_SHE_SAY_HELLO - INP
+#### did_she_say_hello - INP
 
 ```py
 #DONE - https://www.codewars.com/kata/56a4addbfd4a55694100001f/train/python
