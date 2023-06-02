@@ -9,6 +9,7 @@
 
 ---
 
+* [multiplication_table](#multiplication_table)
 * [is_pangram](#is_pangram)
 * [alternate](#alternate)
 * [compare](#compare)
@@ -76,6 +77,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### multiplication_table
+
+```py
+def multiplication_table(size):    
+    ns = size+1
+    res = []
+    x = 1
+    while x < ns:
+        lx = [nums for nums in range(x,ns*x,x)]
+        res.append(lx)
+        x += 1
+    return res
+
+multiplication_table(3)
+
+>>>
+[[1, 2, 3], [2, 4, 6], [3, 6, 9]]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
