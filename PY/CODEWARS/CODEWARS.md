@@ -95,10 +95,42 @@ def multiplication_table(size):
         x += 1
     return res
 
+multiplication_table(2)
+
+>>>
+[[1, 2], [2, 4]]
+>>>
+
+def multiplication_table(size):    
+    ns = size+1
+    res = []
+    x = 1
+    while x < ns:
+        lx = [nums for nums in range(x,ns*x,x)]
+        res.append(lx)
+        x += 1
+    return res
+
 multiplication_table(3)
 
 >>>
 [[1, 2, 3], [2, 4, 6], [3, 6, 9]]
+>>>
+
+def multiplication_table(size):    
+    ns = size+1
+    res = []
+    x = 1
+    while x < ns:
+        lx = [nums for nums in range(x,ns*x,x)]
+        res.append(lx)
+        x += 1
+    return res
+
+multiplication_table(4)
+
+>>>
+[[1, 2, 3, 4], [2, 4, 6, 8], [3, 6, 9, 12], [4, 8, 12, 16]]
 >>>
 ```
 
