@@ -9,6 +9,8 @@
 
 ---
 
+* [greet](#greet)
+* [reverse_sequence](#reverse_sequence)
 * [multiplication_table](#multiplication_table)
 * [is_pangram](#is_pangram)
 * [alternate](#alternate)
@@ -77,6 +79,47 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### greet
+
+```py
+#DONE - https://www.codewars.com/kata/55225023e1be1ec8bc000390/train/python
+
+def greet(name):
+    if name == 'Johnny':
+        return 'Hello, my love!'
+    else:
+        return "Hello, " +name+"!"
+
+greet('Jim')
+
+>>>
+'Hello, Jim!'
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### reverse_sequence
+
+```py
+#DONE - https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/python
+
+def reverse_seq(n):
+    return [nums for nums in range(1,n+1)][::-1]
+
+reverse_seq(5)
+
+>>>
+[5, 4, 3, 2, 1]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
