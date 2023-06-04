@@ -9,6 +9,7 @@
 
 ---
 
+* [split_and_merge](#split_and_merge)
 * [greet](#greet)
 * [reverse_sequence](#reverse_sequence)
 * [multiplication_table](#multiplication_table)
@@ -79,6 +80,34 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### split_and_merge  
+
+```py
+#DONE - https://www.codewars.com/kata/57280481e8118511f7000ffa/train/python
+
+def split_and_merge(string_, separator):
+    l = []
+
+    #convert the words to list elements
+    inpL = string_.split()
+
+    for chars in inpL:
+        str1 = separator.join(chars)
+        l.append(str1)
+    str2 = ' '.join(l)
+    return str2
+
+split_and_merge("My name is John","-")
+
+>>>
+'M-y n-a-m-e i-s J-o-h-n'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
