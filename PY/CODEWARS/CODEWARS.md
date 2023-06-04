@@ -9,6 +9,7 @@
 
 ---
 
+* [shorten_to_date](#shorten_to_date)
 * [split_and_merge](#split_and_merge)
 * [greet](#greet)
 * [reverse_sequence](#reverse_sequence)
@@ -74,12 +75,37 @@
 * [contamination](#contamination)
 * [tower_builder](#tower_builder)
 * [second_symbol](#second_symbol)
-* [](#)
-* [](#)
 * [powers_of_two](#powers_of_two)
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### shorten_to_date
+
+```py
+#INP - https://www.codewars.com/kata/56b0ff16d4aa33e5bb00008e/train/python
+
+def shorten_to_date(long_date):
+    s = long_date.replace(',','')
+    l = s.split()
+
+    l.pop(-1)
+    print(l)
+
+    str1 = ' '.join(l)
+    return str1
+
+shorten_to_date("Monday February 2, 8pm")
+
+>>>
+['Monday', 'February', '2']
+'Monday February 2'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
