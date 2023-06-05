@@ -9,6 +9,7 @@
 
 ---
 
+* [sum_the_strings](#sum_the_strings)
 * [shorten_to_date](#shorten_to_date)
 * [split_and_merge](#split_and_merge)
 * [greet](#greet)
@@ -79,6 +80,34 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### sum_the_strings
+
+```py
+#DONE - https://www.codewars.com/kata/5966e33c4e686b508700002d/train/python
+
+def sum_str(a, b):
+    # happy coding !
+    if len(a) == 0  and len(b) == 0:
+        return str(0)
+    elif len(a) == 0:
+        return b
+    elif len(b) == 0:
+        return a
+    else:
+        f = int(a)+int(b)
+        return str(f)
+
+sum_str("4","5")
+
+>>>
+'9'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
