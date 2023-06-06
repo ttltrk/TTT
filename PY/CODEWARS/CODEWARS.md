@@ -9,6 +9,7 @@
 
 ---
 
+* [count_squares](#count_squares)
 * [sum_the_strings](#sum_the_strings)
 * [shorten_to_date](#shorten_to_date)
 * [split_and_merge](#split_and_merge)
@@ -80,6 +81,100 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### count_squares
+
+```py
+#DONE - https://www.codewars.com/kata/5763bb0af716cad8fb000580/train/python
+
+def count_squares(cuts):
+    #a1 = (2x4) = 8
+    #a2 = (2x9+(1x8)) = 26
+    #a3 = (2x16+(2x12)) = 32+24 = 56
+    #a4 = (2x25+(3x16)) = 50+48 = 98
+    #a5 = (2x36+(4x20)) = 72+80 = 152
+
+    a = 1+cuts
+    b1 = cuts-1
+    b2 = cuts*4
+
+    return (2*(a*a))+(b1*b2)
+
+count_squares(23)
+
+>>>
+3176
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
