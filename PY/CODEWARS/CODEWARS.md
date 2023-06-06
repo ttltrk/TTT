@@ -9,6 +9,7 @@
 
 ---
 
+* [is_divisble](#is_divisble)
 * [factorial](#factorial)
 * [count_squares](#count_squares)
 * [sum_the_strings](#sum_the_strings)
@@ -85,6 +86,34 @@
 
 ---
 
+#### is_divisble
+
+```py
+#DONE - https://www.codewars.com/kata/5545f109004975ea66000086/train/python
+
+#
+# BS
+#
+# return n % x == 0 and n % y == 0
+#
+
+def is_divisible(n,x,y):
+    if n%x == 0 and n%y == 0:
+        return True
+    else:
+        return False
+
+is_divisible(12,3,4)
+
+>>>
+True
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### factorial
 
 ```py
@@ -101,7 +130,7 @@ def factorial(n):
 factorial(5)
 
 >>>
-120 
+120
 >>>
 ```
 
