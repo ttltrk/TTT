@@ -9,6 +9,7 @@
 
 ---
 
+* [factorial](#factorial)
 * [count_squares](#count_squares)
 * [sum_the_strings](#sum_the_strings)
 * [shorten_to_date](#shorten_to_date)
@@ -84,6 +85,31 @@
 
 ---
 
+#### factorial
+
+```py
+def factorial(n):
+
+    # 4 = (4*3*2*1)
+    #how to count factorial
+    fact = 1
+    for i in range(1,n + 1):
+        fact = fact*i
+    print(fact)
+
+
+factorial(5)
+
+>>>
+120 
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+
 #### count_squares
 
 ```py
@@ -106,71 +132,6 @@ count_squares(23)
 
 >>>
 3176
->>>
-```
-
-[^^^](#CODEWARS)
-
----
-
-####
-
-```py
-
->>>
-
->>>
-```
-
-[^^^](#CODEWARS)
-
----
-
-####
-
-```py
-
->>>
-
->>>
-```
-
-[^^^](#CODEWARS)
-
----
-
-####
-
-```py
-
->>>
-
->>>
-```
-
-[^^^](#CODEWARS)
-
----
-
-####
-
-```py
-
->>>
-
->>>
-```
-
-[^^^](#CODEWARS)
-
----
-
-####
-
-```py
-
->>>
-
 >>>
 ```
 
