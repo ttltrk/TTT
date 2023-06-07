@@ -9,6 +9,7 @@
 
 ---
 
+* [mouth_size](#mouth_size)
 * [is_divisble](#is_divisble)
 * [factorial](#factorial)
 * [count_squares](#count_squares)
@@ -83,6 +84,29 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### mouth_size
+
+```py
+#DONE - https://www.codewars.com/kata/57ec8bd8f670e9a47a000f89/train/python
+
+def mouth_size(animal):
+    cor = animal.lower()
+    if cor == 'alligator':
+        return 'small'
+    else:
+        return 'wide'
+
+mouth_size('alliGator')
+
+>>>
+'small'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
