@@ -174,7 +174,6 @@ count_squares(23)
 #DONE - https://www.codewars.com/kata/5966e33c4e686b508700002d/train/python
 
 def sum_str(a, b):
-    # happy coding !
     if len(a) == 0  and len(b) == 0:
         return str(0)
     elif len(a) == 0:
