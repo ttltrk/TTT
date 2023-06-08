@@ -9,6 +9,7 @@
 
 ---
 
+* [last](#last)
 * [mouth_size](#mouth_size)
 * [is_divisble](#is_divisble)
 * [factorial](#factorial)
@@ -84,6 +85,26 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### last
+
+```py
+def last(lst):
+    if len(lst) == 0:
+        return None
+    else:
+        return lst[-1]
+
+last([1,2,3])
+
+>>>
+3
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
