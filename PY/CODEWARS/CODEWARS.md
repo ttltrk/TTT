@@ -9,6 +9,7 @@
 
 ---
 
+* [to_acronym](#to_acronym)
 * [last](#last)
 * [mouth_size](#mouth_size)
 * [is_divisble](#is_divisble)
@@ -85,6 +86,28 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### to_acronym
+
+```py
+#DONE - https://www.codewars.com/kata/57a60bad72292d3e93000a5a/train/python
+
+def to_acronym(inp):
+    inpL = inp.split()
+    r = [chars[0] for chars in inpL]
+    str1 = ''.join(r)
+    return str1.upper()
+
+to_acronym("hyper text markup language")
+
+>>>
+'HTML'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
