@@ -9,6 +9,7 @@
 
 ---
 
+* [alternate_case](#alternate_case)
 * [to_acronym](#to_acronym)
 * [last](#last)
 * [mouth_size](#mouth_size)
@@ -86,6 +87,36 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### alternate_case
+
+```py
+#DONE - https://www.codewars.com/kata/57a62154cf1fa5b25200031e/train/python
+
+def alternate_case(s):
+    l = []
+    for chars in s:
+        if chars.isupper() == True:
+            x = chars.lower()
+            l.append(x)
+        elif chars.islower() == True:
+            x = chars.upper()
+            l.append(x)
+        else:
+            l.append(chars)
+    str1 = ''.join(l)
+    return str1
+
+alternate_case('Hello World')
+
+>>>
+'hELLO wORLD'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
