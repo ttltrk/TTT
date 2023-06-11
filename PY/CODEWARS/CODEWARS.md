@@ -9,6 +9,7 @@
 
 ---
 
+* [switcheroo](#switcheroo)
 * [alternate_case](#alternate_case)
 * [to_acronym](#to_acronym)
 * [last](#last)
@@ -87,6 +88,41 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### switcheroo
+
+```py
+#DONE - https://www.codewars.com/kata/57f759bb664021a30300007d/train/python
+#
+# BS
+#
+# return ((string.replace('a','x')).replace('b','a')).replace('x','b')
+#
+
+def switcheroo(s):
+    l = []
+    for chars in s:
+        if chars == 'a':
+            x = chars.replace('a','b')
+            l.append(x)
+        elif chars == 'b':
+            x = chars.replace('b','a')
+            l.append(x)
+        else:
+            l.append(chars)
+    str1 = ''.join(l)
+    return str1
+
+switcheroo('abc')
+
+>>>
+'bac'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
