@@ -94,6 +94,11 @@
 
 ```py
 #DONE - https://www.codewars.com/kata/57a62154cf1fa5b25200031e/train/python
+#
+# BS
+#
+# return s.swapcase()
+#
 
 def alternate_case(s):
     l = []
