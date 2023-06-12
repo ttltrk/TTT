@@ -9,6 +9,7 @@
 
 ---
 
+* [accum](#accum)
 * [switcheroo](#switcheroo)
 * [alternate_case](#alternate_case)
 * [to_acronym](#to_acronym)
@@ -88,6 +89,38 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### accum
+
+```py
+#DONE - https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/python
+
+def accum(s):
+    ss = s.lower()
+    ls = len(s)
+    l, res = [],[]
+    l.append(ss[0].upper())
+
+    x = 1
+    while x < ls:
+        chars = (x)*ss[x]
+        ch = chars[0].upper()
+        l.append(ch+chars)
+        x += 1
+
+    str1 = '-'.join(l)
+    return str1
+
+accum('ZpglnRxqenU')
+
+>>>
+'Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
