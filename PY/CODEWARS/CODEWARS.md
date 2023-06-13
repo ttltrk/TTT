@@ -9,6 +9,7 @@
 
 ---
 
+* [tap_code_translation](#tap_code_translation)
 * [accum](#accum)
 * [switcheroo](#switcheroo)
 * [alternate_case](#alternate_case)
@@ -89,6 +90,39 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### tap_code_translation
+
+```py
+#DONE - https://www.codewars.com/kata/605f5d33f38ca800322cb18f/train/python
+
+def tap_code_translation(text):
+    repo = {'a':'. .', 'b':'. ..', 'c':'. ...', 'd':'. ....', 'e':'. .....',
+            'f':'.. .', 'g':'.. ..', 'h':'.. ...', 'i':'.. ....', 'j':'.. .....', 'k':'. ...',
+            'l':'... .', 'm':'... ..', 'n':'... ...', 'o':'... ....', 'p' : '... .....',
+            'q':'.... .', 'r':'.... ..', 's' : '.... ...', 't':'.... ....', 'u':'.... .....',
+            'v':'..... .', 'w':'..... ..', 'x':'..... ...', 'y':'..... ....', 'z':'..... .....'}
+
+    l = []
+    for ch in text:
+        for chars in repo.keys():
+            if ch == chars:
+                l.append(repo[ch])
+
+    str1 = ' '.join(l)
+    return str1
+
+
+tap_code_translation('taps')
+
+>>>
+'.... .... . . ... ..... .... ...'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
