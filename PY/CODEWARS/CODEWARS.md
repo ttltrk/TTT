@@ -9,6 +9,7 @@
 
 ---
 
+* [two_oldest_ages](#two_oldest_ages)
 * [tap_code_translation](#tap_code_translation)
 * [accum](#accum)
 * [switcheroo](#switcheroo)
@@ -90,6 +91,29 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### two_oldest_ages
+
+```py
+#DONE - https://www.codewars.com/kata/511f11d355fe575d2c000001/train/python
+
+def two_oldest_ages(ages):
+    r = []
+    ages.sort()
+    ages.reverse()
+    r = ages[:2]
+    r.reverse()
+    return r
+two_oldest_ages([1, 5, 87, 45, 8, 8])
+
+>>>
+[45, 87]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
