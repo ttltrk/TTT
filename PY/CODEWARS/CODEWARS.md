@@ -9,6 +9,7 @@
 
 ---
 
+* [find_array](#find_array)
 * [two_oldest_ages](#two_oldest_ages)
 * [tap_code_translation](#tap_code_translation)
 * [accum](#accum)
@@ -91,6 +92,37 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### find_array
+
+```py
+#DONE - https://www.codewars.com/kata/59a2a3ba5eb5d4e609000055/train/python
+
+def find_array(arr1, arr2):
+    l = []  
+    if len(arr1) == 0 or len(arr2) == 0:
+        return l
+    elif arr2[-1] > len(arr1):
+        l.append(arr1[arr2[-2]])
+        return l
+    else:
+        x = 0
+        while x < len(arr2):
+            l.append(arr1[arr2[x]])
+            x+=1
+
+    return l
+
+find_array([0, 3, 4], [1,2])
+
+>>>
+[3, 4]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
