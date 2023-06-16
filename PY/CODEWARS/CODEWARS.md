@@ -383,7 +383,7 @@ True
 def factorial(n):
 
     # 4 = (4*3*2*1)
-    #how to count factorial
+    # how to count factorial
     fact = 1
     for i in range(1,n + 1):
         fact = fact*i
