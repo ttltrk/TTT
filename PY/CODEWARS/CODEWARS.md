@@ -9,6 +9,7 @@
 
 ---
 
+* [xor](#xor)
 * [find_array](#find_array)
 * [two_oldest_ages](#two_oldest_ages)
 * [tap_code_translation](#tap_code_translation)
@@ -92,6 +93,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### xor
+
+```py
+def xor(a,b):
+    if a == True and b == True:
+        return False
+    elif a == False and b == True:
+        return True
+    elif a == True and b == False:
+        return True
+    else:
+        return False
+
+xor(False, False)
+
+>>>
+False
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
