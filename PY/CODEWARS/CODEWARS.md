@@ -100,6 +100,8 @@
 #### alphabet_war
 
 ```py
+#DONE - https://www.codewars.com/kata/59377c53e66267c8f6000027/train/python
+
 def alphabet_war(fight):
     d1 = {'w': 4, 'p': 3, 'b': 2, 's': 1}
     d2 = {'m': 4, 'q': 3, 'd': 2, 'z': 1}
