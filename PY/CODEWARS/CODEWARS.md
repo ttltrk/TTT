@@ -9,6 +9,7 @@
 
 ---
 
+* [alphabet_war](#alphabet_war)
 * [xor](#xor)
 * [find_array](#find_array)
 * [two_oldest_ages](#two_oldest_ages)
@@ -93,6 +94,44 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### alphabet_war
+
+```py
+def alphabet_war(fight):
+    d1 = {'w': 4, 'p': 3, 'b': 2, 's': 1}
+    d2 = {'m': 4, 'q': 3, 'd': 2, 'z': 1}
+
+    l1, l2 = [],[]
+    for ch in fight:
+        for chars in d1.keys():
+            if ch == chars:
+                l1.append(d1[ch])
+    left = sum(l1)
+
+    for ch in fight:
+        for chars in d2.keys():
+            if ch == chars:
+                l2.append(d2[ch])
+    right = sum(l2)
+
+    if left > right:
+        return "Left side wins!"
+    elif right > left:
+        return "Right side wins!"
+    else:
+        return "Let's fight again!"
+
+alphabet_war('wq')
+
+>>>
+'Left side wins!'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
