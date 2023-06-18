@@ -9,6 +9,7 @@
 
 ---
 
+* [remove](#remove)
 * [alphabet_war](#alphabet_war)
 * [xor](#xor)
 * [find_array](#find_array)
@@ -94,6 +95,36 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### remove
+
+```py
+#DONE - https://www.codewars.com/kata/57fafb6d2b5314c839000195/train/python
+
+def remove(s):
+    inpL = s.split()
+    l = [chars for chars in inpL]
+    
+    ll = []
+    for chars in l:
+        if '!' not in chars:
+            ll.append(chars)
+        elif chars.count('!') > 1:
+            ll.append(chars)
+
+    str1 = ' '.join(ll)
+    return str1
+
+remove("Hi Hi! Hi!! Hi")
+
+>>>
+'Hi Hi!! Hi'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
