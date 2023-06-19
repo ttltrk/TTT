@@ -86,3 +86,69 @@
 - D23 - 2021-12-08 (WE): Django for Everybody
 
 ---
+
+#### TAKEDA
+
+```
+- Experience with one of the following languages:  Java, Scala, or Python
+- Understanding of Web Services as well as JSON formats
+- Working knowledge of SQL and Relational Databases
+- Experience with one of the following NoSQL datastores (Cassandra, MongoDB, Neo4J, …)
+- Experience with concepts of Hadoop and Spark
+- Understanding of AWS (S3, EC2, Redshift, EMR, Athena) - desired
+- Experience with a Rapid UI tools:  EX: Tableau – desired
+```
+
+##### WHY
+
+```
+- Im more or less 40, rather more than less :)
+- I have to choose, what I want to be in life, still dont know, but I try to Working
+  on my skills on daily basis
+- mental and physical jelth
+```
+
+##### PYTHON
+
+  - IBM
+    - rowcounts
+    - ssh_logins
+    - stg_checks
+
+  - OWN
+    - tiny etl
+    - codewars
+
+  - PACKAGES
+    - numpy
+    - pandas
+    - matplotlib
+
+
+##### WEB_SEVICES
+
+  - REST_API >> https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md
+  - FLASK >> https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_BASICS/FLASK_BASICS.md
+  - OWN PROJECT >>
+
+##### SQL
+
+  - POSTGRES >> https://github.com/ttltrk/TTT/blob/master/PSQ/PSQ.md
+  - SQL >> https://github.com/ttltrk/TTT/blob/master/SQL/SQL.md
+
+##### MONGODB
+
+  - YTB >> https://www.youtube.com/watch?v=E-1xI85Zog8
+  - W3 >> https://www.w3schools.com/python/python_mongodb_getstarted.asp
+
+##### HADOOP_SPARK
+
+  - SPARK >> https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/SPARK/SPARK.md
+
+##### AWS
+
+  - AWS >> https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP/CCP.md
+
+##### TABLEU
+
+---
