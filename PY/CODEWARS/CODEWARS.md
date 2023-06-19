@@ -9,6 +9,7 @@
 
 ---
 
+* [friend](#friend)
 * [remove](#remove)
 * [alphabet_war](#alphabet_war)
 * [xor](#xor)
@@ -98,6 +99,26 @@
 
 ---
 
+#### friend
+
+```py
+#DONE - https://www.codewars.com/kata/55b42574ff091733d900002f/train/python
+
+def friend(x):
+    res = [chars for chars in x if len(chars) == 4]
+    return res
+
+friend(["Ryan", "Kieran", "Mark"])
+
+>>>
+['Ryan', 'Mark']
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### remove
 
 ```py
@@ -106,7 +127,7 @@
 def remove(s):
     inpL = s.split()
     l = [chars for chars in inpL]
-    
+
     ll = []
     for chars in l:
         if '!' not in chars:
