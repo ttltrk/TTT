@@ -120,9 +120,9 @@
     - codewars
 
   - PACKAGES
-    - numpy
-    - pandas
-    - matplotlib
+    - [numpy](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md#numpy)
+    - [pandas](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md#pandas)
+    - [matplotlib](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md#matplotlib)
 
 
 ##### WEB_SEVICES
