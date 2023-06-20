@@ -136,6 +136,28 @@
   - POSTGRES >> https://github.com/ttltrk/TTT/blob/master/PSQ/PSQ.md
   - SQL >> https://github.com/ttltrk/TTT/blob/master/SQL/SQL.md
 
+  ```
+  DDL – Data Definition Language.
+    CREATE, ALTER, DROP, TRUNCATE, RENAME are the DDL commands
+
+  DML – Data Manipulation Language.
+    INSERT, UPDATE, DELETE, MERGE are the DML commands.
+
+  DRL/DQL – Data Retrieval Language/Data Query Language.
+    SELECT, WHERE, AND OR NOT, ORDER BY, LIMIT, MIN MAX, COUNT AVG SUM, BETWEEN, IN, LIKE, JOIN,
+    UNION, GROUP BY
+
+  TCL – Transaction Query Language.
+    COMMIT, ROLLBACK, SAVEPOINT, ROLLBACK TO are the TCL commands.
+
+  DCL – Data Control Language.
+    GRANT, REVOKE, AUDIT, COMMENT, ANALYZE are the DCL commands.
+
+  SCL – Session Control Language.
+    ALTER SESSION,SET ROLL are the SCL commands.
+  ```
+
+
 ##### MONGODB
 
   - YTB >> https://www.youtube.com/watch?v=E-1xI85Zog8
