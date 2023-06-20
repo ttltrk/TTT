@@ -31,7 +31,37 @@
 
 ---
 
-####
+#### COMMAND_LINE
+
+```
+C:\Users\ZZ01SD693>mongosh
+Current Mongosh Log ID: 64918abb815573a2c8e28284
+Connecting to:          mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.10.0
+Using MongoDB:          6.0.6
+Using Mongosh:          1.10.0
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+------
+   The server generated these startup warnings when booting
+   2023-06-20T11:17:08.366+02:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+test> show dbs
+admin       40.00 KiB
+config      72.00 KiB
+gigigi      72.00 KiB
+local       40.00 KiB
+mydatabase  40.00 KiB
+trkdb       40.00 KiB
+test> use cmd_db
+switched to db cmd_db
+
+```
 
 ```py
 
