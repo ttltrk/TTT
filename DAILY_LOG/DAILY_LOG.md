@@ -70,23 +70,37 @@
 
 ##### 03_WEB_SEVICES
 
-    - REST_API >> https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md
-    - FLASK >> https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_BASICS/FLASK_BASICS.md
+    - [REST_API](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md)
+    - [FLASK](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_BASICS/FLASK_BASICS.md)
     - OWN PROJECT >>
+
+    ```
+    @app.route('/most_exps', methods=["GET", "POST"])
+    def most_exps():
+      return render_template('most_exps.html',most_exps=db.get_most_expensive())
+
+    def get_most_expensive():
+      cur = conn.cursor()
+      cur.execute("select price, company, symbol from us_div order by price desc limit 10")
+      most_exps = cur.fetchall()
+      #cur.close()
+      #conn.close()
+      return most_exps
+    ```
 
 
 ##### 04_MONGODB
 
-  - YTB >> https://www.youtube.com/watch?v=E-1xI85Zog8
-  - W3 >> https://www.w3schools.com/python/python_mongodb_getstarted.asp
+  - [YTB](https://www.youtube.com/watch?v=E-1xI85Zog8)
+  - [W3](https://www.w3schools.com/python/python_mongodb_getstarted.asp)
 
 ##### 05_HADOOP_SPARK
 
-  - SPARK >> https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/SPARK/SPARK.md
+  - [SPARK](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/SPARK/SPARK.md)
 
 ##### 06_AWS
 
-  - AWS >> https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP/CCP.md
+  - [AWS](https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP/CCP.md)
 
 ##### 07_TABLEU
 
