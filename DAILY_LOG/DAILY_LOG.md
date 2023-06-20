@@ -93,7 +93,7 @@
 
   - [YTB](https://www.youtube.com/watch?v=E-1xI85Zog8)
   - [W3](https://www.w3schools.com/python/python_mongodb_getstarted.asp)
-
+  - [OWN](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/MONGO/MONGO.md)
   ```
   version: 6.06
   mdb shell: 1.10

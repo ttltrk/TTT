@@ -19,11 +19,17 @@
 * [COMMAND_LINE](#COMMAND_LINE)
 * [CREATE_DB](#CREATE_DB)
 * [CHECK_DBS](#CHECK_DBS)
+* [CREATE_COLLECTION](#CREATE_COLLECTION)
 * []()
 * []()
 * []()
 * []()
-* []()
+
+---
+
+```
+MongoDB stores data in JSON-like documents, which makes the database very flexible and scalable.
+```
 
 ---
 
@@ -64,18 +70,18 @@ mydatabase  40.00 KiB
 trkdb       40.00 KiB
 test> use cmd_db
 switched to db cmd_db
-
 ```
 
-```py
+In MongoDB, a database is not created until it gets content!
 
-```
 
 [^^^](#MONGO)
 
 ---
 
 #### CREATE_DB
+
+To create a database in MongoDB, start by creating a MongoClient object, then specify a connection URL with the correct ip address and the name of the database you want to create.
 
 ```py
 import pymongo
@@ -107,10 +113,36 @@ print(myclient.list_database_names())
 
 ---
 
-####
+#### CREATE_COLLECTION
 
 ```py
+### td
 
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+#create db
+mydb = myclient["takeda"]
+
+#create collection
+mycol = mydb["chances"]
+
+#insert data into collection
+mydict = { "name": "John", "address": "Highway 37" }
+x = mycol.insert_one(mydict)
+
+#check the collection
+print(mydb.list_collection_names())
+
+#find the content
+x = mycol.find_one()
+print(x)
+
+>>>
+['chances']
+{'_id': ObjectId('64918edcf77e7a943f53f5e4'), 'name': 'John', 'address': 'Highway 37'}
+>>>
 ```
 
 [^^^](#MONGO)
