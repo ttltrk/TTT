@@ -16,6 +16,10 @@
 ---
 
 * [LINKS](#LINKS)
+* [COMMAND_LINE](#COMMAND_LINE)
+* [CREATE_DB](#CREATE_DB)
+* [CHECK_DBS](#CHECK_DBS)
+* []()
 * []()
 * []()
 * []()
@@ -62,6 +66,78 @@ test> use cmd_db
 switched to db cmd_db
 
 ```
+
+```py
+
+```
+
+[^^^](#MONGO)
+
+---
+
+#### CREATE_DB
+
+```py
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+mydb = myclient["test_db"]
+```
+
+[^^^](#MONGO)
+
+---
+
+#### CHECK_DBS
+
+```py
+import pymongo
+
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+print(myclient.list_database_names())
+
+>>>
+['admin', 'config', 'gigigi', 'local', 'mydatabase', 'trkdb']
+>>>
+```
+
+[^^^](#MONGO)
+
+---
+
+####
+
+```py
+
+```
+
+[^^^](#MONGO)
+
+---
+
+####
+
+```py
+
+```
+
+[^^^](#MONGO)
+
+---
+
+####
+
+```py
+
+```
+
+[^^^](#MONGO)
+
+---
+
+####
 
 ```py
 
