@@ -102,7 +102,11 @@
 ##### 05_HADOOP_SPARK
 
   - [SPARK](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/SPARK/SPARK.md)
-
+  - SPARK
+    - load the csv into a dataframe
+    - using selects
+    - how to use sql easly with pyspark >> createOrReplaceTempView
+    
 ##### 06_AWS
 
   - [AWS](https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP/CCP.md)

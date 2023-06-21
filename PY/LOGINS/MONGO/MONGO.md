@@ -22,9 +22,9 @@
 * [CREATE_COLLECTION](#CREATE_COLLECTION)
 * [INSERT_MULTIPLE_DOCU](#INSERT_MULTIPLE_DOCU)
 * [INSERT_MULTIPLE_DOCU_SPEC_ID](#INSERT_MULTIPLE_DOCU_SPEC_ID)
-* [|FIND_ONE](#FIND_ONE)
+* [FIND_ONE](#FIND_ONE)
 * [FIND_ALL](#FIND_ALL)
-* []()
+* [QUERY](#QUERY)
 * []()
 * []()
 * []()
@@ -293,10 +293,25 @@ for x in mycol.find():
 
 ---
 
-####
+#### QUERY
 
 ```py
+import pymongo
 
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["multipledb_spec"]
+mycol = mydb["customers"]
+
+myquery = {'address': 'Apple st 652'}
+
+mydoc = mycol.find(myquery)
+
+for x in mydoc:
+  print(x)
+
+>>>
+{'_id': 3, 'name': 'Amy', 'address': 'Apple st 652'}
+>>>
 ```
 
 [^^^](#MONGO)
