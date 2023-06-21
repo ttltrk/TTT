@@ -88,6 +88,9 @@
     - [REST_API](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md)
     - [FLASK](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_BASICS/FLASK_BASICS.md)
     - OWN PROJECT
+    - [W3_JSON](https://www.w3schools.com/js/js_json_intro.asp)
+
+    - [DICT_TO_JSON](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/CONVERT/CONVERT.md)
 
     - what I know:
       - using rest with flask and postman, send back info using rest
