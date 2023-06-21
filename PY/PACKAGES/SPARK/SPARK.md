@@ -179,6 +179,54 @@ df_pyspark.dtypes
 >>>
 ```
 
+##### CHECKING_DESCRIBE_OPTION
+
+```py
+#checking describe option
+
+df_pyspark.describe()
+
+>>>
+summary	name	age
+count	3	3
+mean	null	34.333333333333336
+stddev	null	11.930353445448855
+min	edc	21
+max	trk	44
+>>>
+```
+
+##### ADD_NEW_COLUMN_WITH_COPY_OLD
+
+```py
+#adding column into a DF
+
+df_pyspark.withColumn('Age After 2 years',df_pyspark['Age']+2)
+
+>>>
+name	age	Age After 2 years
+trk	38	40
+edc	21	23
+ijb	44	46
+>>>
+```
+
+##### DROP_COLUMN
+
+```py
+#drop column
+
+df_pyspark.drop('Age After 2 years')
+
+>>>
+name	age
+trk	38
+edc	21
+ijb	44
+>>>
+```
+
+
 [^^^](#SPARK)
 
 ---
