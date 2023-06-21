@@ -44,10 +44,9 @@
 * [NUMPY](#NUMPY)
 * [PANDAS](#PANDAS)
 * [MATPLOTLIB](#MATPLOTLIB)
-* [MONGO](#MONGO)
+* [PY_MONGO](#PY_MONGO)
 * [SPARK](#SPARK)
 * [](#)
-* [PY_MONGO](#PY_MONGO)
 * [](#)
 
 ---
@@ -2249,40 +2248,38 @@ df_pyspark.na.drop(how='any',thresh=2)
 # drop with subset
 df_pyspark.na.drop(how='any',subset=['age'])
 
-```
+#filling the missing value
+from pyspark.ml.feature import Imputer
+imputer = Imputer(
+    inputCols = 'age',
+    outputCols = ["{}_imputed".format(c) for c in 'age']).setStrategy("mean")
 
-#####
+#salary of the people less than 1999
+df_pyspark.filter("Salary<=1999")
 
-```py
+#salary of the people less than 1999 only name and age
+df_pyspark.filter("Salary<=1999").select(['name', 'age'])
 
-```
+#salary of the people less than 1999
+df_pyspark.filter(df_pyspark["Salary"]<=1999)
 
-[^^^](#PYTHON_FLASH)
+#salary between
+df_pyspark.filter((df_pyspark["Salary"]<=1999) & (df_pyspark["Salary"]>=1000))
 
----
+#salary of the people everything above 1999
+df_pyspark.filter(~(df_pyspark["Salary"]<=1999))
 
-#### PY_MONGO
+#grouped to find the maximum salary
+df_pyspark.groupby('Name').max()
 
-##### CREATE_DB
+#groupby departments which gives maxmium salary
+df_pyspark.groupby('Departments').max()
 
-```py
-import pymongo
+#groupby departments which gives mean salary
+df_pyspark.groupby('Departments').mean()
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-
-mydb = myclient["testDB"]  
-```
-
-##### CHECK_DB
-
-```py
-
-```
-
-#####
-
-```py
-
+#how many employer working in the department
+df_pyspark.groupby('Departments').count()
 ```
 
 #####
