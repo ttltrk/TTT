@@ -18,5 +18,6 @@
 * [COPY_DICT](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/COPY_DICT/COPY_DICT.md)
 * [NESTED_DICT](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/NESTED_DICT/NESTED_DICT.md)
 * [DICTIONARY_METHODS](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/DICT_METH/DICT_METH.md)
+* [CONVERT](https://github.com/ttltrk/TTT/blob/master/PY/ARRAYS/DICT/CONVERT/CONVERT.md)
 
 ---
