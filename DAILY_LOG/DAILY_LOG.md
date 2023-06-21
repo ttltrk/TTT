@@ -42,6 +42,9 @@
     - [pandas](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md#pandas)
     - [matplotlib](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md#matplotlib)
 
+  - FWK:
+    - flask
+
 ##### 02_SQL
 
   - POSTGRES >> https://github.com/ttltrk/TTT/blob/master/PSQ/PSQ.md
@@ -72,7 +75,12 @@
 
     - [REST_API](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md)
     - [FLASK](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_BASICS/FLASK_BASICS.md)
-    - OWN PROJECT >>
+    - OWN PROJECT
+
+    - what I know:
+      - using rest with flask and postman, send back info using rest
+    - how I used:
+      - sending info via api and handled by postman
 
     ```
     @app.route('/most_exps', methods=["GET", "POST"])
@@ -94,6 +102,7 @@
   - [YTB](https://www.youtube.com/watch?v=E-1xI85Zog8)
   - [W3](https://www.w3schools.com/python/python_mongodb_getstarted.asp)
   - [OWN](https://github.com/ttltrk/TTT/blob/master/PY/LOGINS/MONGO/MONGO.md)
+
   ```
   version: 6.06
   mdb shell: 1.10
@@ -102,14 +111,23 @@
 ##### 05_HADOOP_SPARK
 
   - [SPARK](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/SPARK/SPARK.md)
+  - [SPARK_RDD](https://github.com/ttltrk/TTT/blob/master/PY/PACKAGES/BIG_DATA/BIG_DATA.md)
+
   - SPARK
+
+    - using via google collab
+    - installed via aws s3 to jupyter notebook
+
     - load the csv into a dataframe
     - using selects
     - how to use sql easly with pyspark >> createOrReplaceTempView
-    
+
 ##### 06_AWS
 
   - [AWS](https://github.com/ttltrk/TTT/blob/master/CLOUD/AWS/CCP/CCP.md)
+
+  - working on my AWS certification
+  - installed spark via aws s3
 
 ##### 07_TABLEU
 
