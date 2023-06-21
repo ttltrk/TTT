@@ -26,6 +26,10 @@
 - mental and physical jelth
 ```
 
+```
+- Experience with one of the following languages:  Java, Scala, or Python
+```
+
 ##### 01_PYTHON
 
   - IBM
@@ -44,6 +48,10 @@
 
   - FWK:
     - flask
+
+```
+- Working knowledge of SQL and Relational Databases
+```
 
 ##### 02_SQL
 
@@ -71,6 +79,10 @@
     ALTER SESSION,SET ROLL are the SCL commands.
   ```
 
+```
+- Understanding of Web Services as well as JSON formats
+```
+
 ##### 03_WEB_SEVICES
 
     - [REST_API](https://github.com/ttltrk/TTT/blob/master/PY/WEB/REST_API/REST_API.md)
@@ -96,6 +108,9 @@
       return most_exps
     ```
 
+```
+- Experience with one of the following NoSQL datastores (Cassandra, MongoDB, Neo4J, …)
+```
 
 ##### 04_MONGODB
 
@@ -107,6 +122,10 @@
   version: 6.06
   mdb shell: 1.10
   ```
+
+```
+- Experience with concepts of Hadoop and Spark
+```
 
 ##### 05_HADOOP_SPARK
 
@@ -121,6 +140,10 @@
     - load the csv into a dataframe
     - using selects
     - how to use sql easly with pyspark >> createOrReplaceTempView
+
+```
+- Understanding of AWS (S3, EC2, Redshift, EMR, Athena) - desired
+```
 
 ##### 06_AWS
 
