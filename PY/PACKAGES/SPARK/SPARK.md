@@ -226,6 +226,132 @@ ijb	44
 >>>
 ```
 
+##### RENAME_COLUMN
+
+```py
+#rename column
+
+df_pyspark.withColumnRenamed('Name','New Name')
+
+>>>
+New Name	age
+trk	38
+edc	21
+ijb	44
+>>>
+```
+
+##### READ_THE_CSV
+
+```py
+#read the csv
+
+df_pyspark = spark.read.csv('test2.csv', header=True, inferSchema=True)
+df_pyspark
+
+>>>
+name	age	experience	salary
+trk	38	4	1000
+edc	21	5	1000
+ijb	44	6	1000
+kkk	10	6	1200
+hhh	22	5	400
+fff	33	10	3000
+ddd	50	11	2000
+sss	21	1	1200
+ttt	null	2	null
+null	10	null	null
+null	4	5	1000
+>>>
+```
+
+##### DROP_COLUMN
+
+```py
+#drop the columns
+
+df_pyspark.drop('Name')
+
+>>>
+age	experience	salary
+38	4	1000
+21	5	1000
+44	6	1000
+10	6	1200
+22	5	400
+33	10	3000
+50	11	2000
+21	1	1200
+null	2	null
+10	null	null
+4	5	1000
+
+>>>
+```
+
+##### DROPPING_NULL_VALUES
+
+```py
+#dropping all null values
+
+df_pyspark.na.drop()
+
+>>>
+name	age	experience	salary
+trk	38	4	1000
+edc	21	5	1000
+ijb	44	6	1000
+kkk	10	6	1200
+hhh	22	5	400
+fff	33	10	3000
+ddd	50	11	2000
+sss	21	1	1200
+>>>
+```
+
+##### DROP_WITH_THRESHOLD
+
+```py
+# drop with threshold
+
+df_pyspark.na.drop(how='any',thresh=2)
+
+>>>
+name	age	experience	salary
+trk	38	4	1000
+edc	21	5	1000
+ijb	44	6	1000
+kkk	10	6	1200
+hhh	22	5	400
+fff	33	10	3000
+ddd	50	11	2000
+sss	21	1	1200
+ttt	null	2	null
+null	4	5	1000
+>>>
+```
+
+##### DROP_WITH_SUBSET
+
+```py
+# drop with subset
+
+df_pyspark.na.drop(how='any',subset=['age'])
+
+>>>
+name	age	experience	salary
+trk	38	4	1000
+edc	21	5	1000
+ijb	44	6	1000
+kkk	10	6	1200
+hhh	22	5	400
+fff	33	10	3000
+ddd	50	11	2000
+sss	21	1	1200
+null	10	null	null
+null	4	5	1000
+>>>
+```
 
 [^^^](#SPARK)
 
