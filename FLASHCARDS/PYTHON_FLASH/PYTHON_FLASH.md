@@ -44,8 +44,8 @@
 * [NUMPY](#NUMPY)
 * [PANDAS](#PANDAS)
 * [MATPLOTLIB](#MATPLOTLIB)
-* [](#)
-* [](#)
+* [MONGO](#MONGO)
+* [SPARK](#SPARK)
 * [](#)
 * [PY_MONGO](#PY_MONGO)
 * [](#)
@@ -1991,15 +1991,263 @@ plt.plot(xpoints, ypoints)
 plt.show()
 ```
 
-#####
+##### MONGO
 
 ```py
+#-----------------------------------------------------------------------------
+#CREATE
 
+#create db
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+
+#check if db exists
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+print(myclient.list_database_names())
+
+#create collection
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+
+#check if collection exists
+myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+mydb = myclient['mydatabase']
+mycol = mydb["customers"]
+print(mydb.list_collection_names())
+
+#-----------------------------------------------------------------------------
+#INSERT
+
+#insert into collection
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+mydict = { "name": "John", "address": "Highway 37" }
+x = mycol.insert_one(mydict)
+
+#return the id field
+myclient = pymongo.MongoClient('mongodb://localhost:27017/')
+mydb = myclient['mydatabase']
+mycol = mydb["customers"]
+mydict = { "name": "Peter", "address": "Lowstreet 27" }
+x = mycol.insert_one(mydict)
+print(x.inserted_id)
+
+#insert multiple docu
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+mylist = [
+  { "name": "Amy", "address": "Apple st 652"},
+  { "name": "Hannah", "address": "Mountain 21"},
+  { "name": "Michael", "address": "Valley 345"}
+]
+x = mycol.insert_many(mylist)
+print(x.inserted_ids)
+
+#insert multiple docu with special ids
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+mylist = [
+  { "_id": 1, "name": "John", "address": "Highway 37"},
+  { "_id": 2, "name": "Peter", "address": "Lowstreet 27"},
+  { "_id": 3, "name": "Amy", "address": "Apple st 652"}
+]
+x = mycol.insert_many(mylist)
+print(x.inserted_ids)
+
+#-----------------------------------------------------------------------------
+# FIND
+
+#Find the first document in the customers collection
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+x = mycol.find_one()
+print(x)
+
+#Return all documents in the "customers" collection
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+for x in mycol.find():
+  print(x)
+
+#Return only the names and addresses
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+for x in mycol.find({},{ "_id": 0, "name": 1, "address": 1 }):
+  print(x)
+
+#exclude "address" from the result
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+for x in mycol.find({},{ "address": 0 }):
+  print(x)
+
+#Find document(s) with the address "Park Lane 38"
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": "Park Lane 38" }
+mydoc = mycol.find(myquery)
+for x in mydoc:
+  print(x)
+
+#Find documents where the address starts with the letter "S" or higher
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": { "$gt": "S" } }
+mydoc = mycol.find(myquery)
+for x in mydoc:
+  print(x)
+
+#Find documents where the address starts with the letter "S"
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": { "$regex": "^S" } }
+mydoc = mycol.find(myquery)
+for x in mydoc:
+  print(x)
+
+#-----------------------------------------------------------------------------
+#SORT
+
+#Sort the result alphabetically by name
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+mydoc = mycol.find().sort("name")
+for x in mydoc:
+  print(x)
+
+#Sort the result reverse alphabetically by name
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+mydoc = mycol.find().sort("name", -1)
+for x in mydoc:
+  print(x)
+
+#-----------------------------------------------------------------------------
+#DELETE
+
+#Delete the document with the address "Mountain 21"
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": "Mountain 21" }
+mycol.delete_one(myquery)
+
+#Delete all documents were the address starts with the letter S
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": {"$regex": "^S"} }
+x = mycol.delete_many(myquery)
+print(x.deleted_count, " documents deleted.")
+
+#Delete all documents in the "customers" collection
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+x = mycol.delete_many({})
+print(x.deleted_count, " documents deleted.")
+
+#-----------------------------------------------------------------------------
+#DROP COLLECTION
+
+#Delete the "customers" collection
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+mycol.drop()
+
+#-----------------------------------------------------------------------------
+#UPDATE
+
+#Change the address from "Valley 345" to "Canyon 123"
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": "Valley 345" }
+newvalues = { "$set": { "address": "Canyon 123" } }
+mycol.update_one(myquery, newvalues)
+for x in mycol.find():
+  print(x)
+
+#Update all documents where the address starts with the letter "S"
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myquery = { "address": { "$regex": "^S" } }
+newvalues = { "$set": { "name": "Minnie" } }
+x = mycol.update_many(myquery, newvalues)
+print(x.modified_count, "documents updated.")
+
+#-----------------------------------------------------------------------------
+#LIMIT
+
+#Limit the result to only return 5 documents
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["mydatabase"]
+mycol = mydb["customers"]
+myresult = mycol.find().limit(5)
+for x in myresult:
+  print(x)
 ```
 
-#####
+##### SPARK
 
 ```py
+#reading csv with spark
+df_pyspark = spark.read.csv('test1.csv')
+
+#type of the dataframe
+df_pyspark = spark.read.option('header', 'true').csv('test1.csv')
+type(df_pyspark)
+
+#check the schema
+df_pyspark.printSchema()
+
+#check the columns
+df_pyspark.columns
+
+#pickup only one column
+df_pyspark.select('Name')
+
+#pickup more columns
+df_pyspark.select(['Name', 'Age'])
+
+#checking datatypes
+df_pyspark.dtypes
+
+#checking describe option
+df_pyspark.describe()
+
+#adding column into a DF
+df_pyspark.withColumn('Age After 2 years',df_pyspark['Age']+2)
+
+#drop column
+df_pyspark.drop('Age After 2 years')
+
+#rename column
+df_pyspark.withColumnRenamed('Name','New Name')
+
+#dropping all null values
+df_pyspark.na.drop()
+
+#drop with threshold
+df_pyspark.na.drop(how='any',thresh=2)
+
+# drop with subset
+df_pyspark.na.drop(how='any',subset=['age'])
 
 ```
 
