@@ -1990,7 +1990,30 @@ plt.plot(xpoints, ypoints)
 plt.show()
 ```
 
-##### MONGO
+##### PY_MONGO
+
+```
+print(myclient.list_database_names())
+print(mydb.list_collection_names())
+
+x = mycol.insert_one(mydict) >> print(x.inserted_id)
+x = mycol.insert_many(mylist) >> print(x.inserted_ids)
+
+x = mycol.find_one()
+find_all = [x for x in mycol.find()]
+
+mydoc = mycol.find().sort("name") >> atoz = [x for x in mydoc]
+mydoc = mycol.find().sort("name", -1) >> ztoa = [x for x in mydoc]
+
+x = mycol.delete_many({}) >> print(x.deleted_count, " documents deleted.")
+
+mycol = mydb["customers"] >> mycol.drop()
+
+mycol.update_one(myquery, newvalues)
+x = mycol.update_many(myquery, newvalues) >> print(x.modified_count, "documents updated.")
+
+myresult = mycol.find().limit(5)
+```
 
 ```py
 #-----------------------------------------------------------------------------
