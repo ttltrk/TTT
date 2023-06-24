@@ -9,6 +9,7 @@
 
 ---
 
+* [get_middle](#get_middle)
 * [friend](#friend)
 * [remove](#remove)
 * [alphabet_war](#alphabet_war)
@@ -96,6 +97,33 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### get_middle
+
+```py
+#DONE - https://www.codewars.com/kata/56747fd5cb988479af000028/train/python
+
+def get_middle(s):
+    x = len(s)%2
+    y = int(len(s)/2)
+
+
+    if x == 0:
+        return s[y-1]+s[y]
+    else:
+        return s[y]
+
+
+get_middle('testing')
+
+>>>
+'t'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
