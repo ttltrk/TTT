@@ -9,6 +9,7 @@
 
 ---
 
+* [position](#position)
 * [get_middle](#get_middle)
 * [friend](#friend)
 * [remove](#remove)
@@ -97,6 +98,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### position
+
+```py
+#DONE - https://www.codewars.com/kata/5808e2006b65bff35500008f/train/python
+
+def position(alphabet):
+
+    abc = 'abcdefghijklmnopqrstuvwxyz'
+
+    l = [chars for chars in abc]
+    res = l.index(alphabet)+1
+    return 'Position of alphabet: '+ str(res)
+
+position('a')
+
+>>>
+'Position of alphabet: 1'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
