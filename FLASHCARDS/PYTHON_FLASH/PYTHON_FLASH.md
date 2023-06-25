@@ -681,6 +681,7 @@ orl
 
 ```
 -----------------------------------------------------------
+
 List
 
 - Lists are used to store multiple items in a single variable.
@@ -693,6 +694,7 @@ the other 3 are Tuple, Set, and Dictionary, all with different qualities and usa
 - If you add new items to a list, the new items will be placed at the end of the list.
 
 -----------------------------------------------------------
+
 Tuples
 
 - Tuples are used to store multiple items in a single variable.
@@ -707,6 +709,7 @@ the other 3 are List, Set, and Dictionary, all with different qualities and usag
 - Since tuples are indexed, they can have items with the same value
 
 -----------------------------------------------------------
+
 Dictionary
 
 - Dictionaries are used to store data values in key:value pairs.
