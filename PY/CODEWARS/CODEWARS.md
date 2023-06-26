@@ -9,6 +9,7 @@
 
 ---
 
+* [sum_digits](#sum_digits)
 * [position](#position)
 * [get_middle](#get_middle)
 * [friend](#friend)
@@ -98,6 +99,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### sum_digits
+
+```py
+def sum_digits(number):
+    x = str(number)
+    if number < 0:
+        res = x[1::]
+        l = [int(nums) for nums in res]
+        return sum(l)
+    else:
+        l = [int(nums) for nums in str(number)]
+        return sum(l)
+
+sum_digits(-10)
+
+>>>
+1
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
