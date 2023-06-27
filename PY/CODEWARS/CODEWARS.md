@@ -9,6 +9,7 @@
 
 ---
 
+* [odd_or_even](#odd_or_even)
 * [sum_digits](#sum_digits)
 * [position](#position)
 * [get_middle](#get_middle)
@@ -99,6 +100,27 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+#### odd_or_even
+
+```py
+#DONE - https://www.codewars.com/kata/5949481f86420f59480000e7/train/python
+
+def odd_or_even(arr):
+    if sum(arr)%2 == 0:
+        return 'even'
+    else:
+        return 'odd'
+
+odd_or_even([1,-2,3])
+
+>>>
+even 
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
