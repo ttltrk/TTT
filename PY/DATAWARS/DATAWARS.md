@@ -46,12 +46,15 @@ df.shape
 >>>
 ```
 
-####
+#### What is the value of the word `microspectrophotometries`?
 
 ```py
+df.loc['microspectrophotometries']
 
 >>>
-
+Char Count     24
+Value         317
+Name: microspectrophotometries, dtype: int64
 >>>
 ```
 
