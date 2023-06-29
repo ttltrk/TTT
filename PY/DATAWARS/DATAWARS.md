@@ -374,30 +374,53 @@ df.query('Ratio == 10').shape
 
 [^^^](#DATAWARS)
 
-####
+#### What is the maximum Value of all the words with a Ratio of 10?
 
 ```py
+df.query('Ratio == 10').sort_values(by="Value", ascending=False)
 
 >>>
-
+Char Count	Value	Ratio
+Word			
+electrocardiographically	24	240	10.0
+electroencephalographies	24	240	10.0
+electroencephalographer	23	230	10.0
+phonocardiographic	18	180	10.0
+inconceivabilities	18	180	10.0
+...	...	...	...
+web	3	30	10.0
+bug	3	30	10.0
+elm	3	30	10.0
+as	2	20	10.0
+oe	2	20	10.0
+2604 rows × 3 columns
 >>>
 ```
 
-####
-
 ```py
+df.loc[df['Ratio'] == 10, 'Value'].max()
 
 >>>
-
+240
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### Of those words with a `Value` of `260`, what is the lowest `Char Count` found?
 
 ```py
+df.query('Value == 260').sort_values(by='Char Count')
 
 >>>
-
+Char Count	Value	Ratio
+Word			
+hydroxytryptamine	17	260	15.294118
+neuropsychologists	18	260	14.444444
+psychophysiologist	18	260	14.444444
+revolutionarinesses	19	260	13.684211
+countermobilizations	20	260	13.000000
+underrepresentations	20	260	13.000000
 >>>
 ```
 
