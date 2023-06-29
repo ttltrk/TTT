@@ -9,7 +9,11 @@
 
 ---
 
+* [WORKING_WITH_ENGLISH_WORDS](#WORKING_WITH_ENGLISH_WORDS)
+
 ---
+
+#### WORKING_WITH_ENGLISH_WORDS
 
 #### head
 
@@ -27,6 +31,8 @@ aahing	6	40
 aahs	4	29
 >>>
 ```
+
+[^^^](#DATAWARS)
 
 ---
 
@@ -56,6 +62,8 @@ df.shape
 >>>
 ```
 
+[^^^](#DATAWARS)
+
 #### What is the value of the word `microspectrophotometries`?
 
 ```py
@@ -75,6 +83,8 @@ df.loc['microspectrophotometries', 'Value']
 317
 >>>
 ```
+
+[^^^](#DATAWARS)
 
 #### What is the highest possible value of a word?
 
@@ -132,6 +142,8 @@ max	28.000000	319.000000
 >>>
 ```
 
+[^^^](#DATAWARS)
+
 #### Which of the following words have a Char Count of `7` and a Value of `87`?
 #### 'pinfish','enfold','microbrew','superheterodyne','glowing'
 
@@ -149,32 +161,62 @@ glowing	7	87
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### What is the highest possible length of a word?
 
 ```py
+df.describe()
 
 >>>
-
+Char Count	Value
+count	172821.000000	172821.000000
+mean	9.087628	107.754179
+std	2.818285	39.317452
+min	2.000000	2.000000
+25%	7.000000	80.000000
+50%	9.000000	103.000000
+75%	11.000000	131.000000
+max	28.000000	319.000000
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### What is the word with the value of 319?
 
 ```py
+df.sort_values(by=['Value'],ascending=False)
 
 >>>
-
+Char Count	Value
+Word		
+reinstitutionalizations	23	319
+microspectrophotometries	24	317
+microspectrophotometry	22	309
+microspectrophotometers	23	308
+immunoelectrophoretically	25	307
+...	...	...
+aba	3	4
+baa	3	4
+ab	2	3
+ba	2	3
+aa	2	2
+172821 rows × 2 columns
 >>>
 ```
 
-####
-
 ```py
+df.loc[df['Value']==319]
 
 >>>
-
+Char Count	Value
+Word		
+reinstitutionalizations	23	319
 >>>
 ```
+
+[^^^](#DATAWARS)
 
 ####
 
