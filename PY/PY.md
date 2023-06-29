@@ -15,6 +15,7 @@
 
 * [SOLOLEARN](https://github.com/ttltrk/TTT/blob/master/PY/SOLOLEARN/SOLOLEARN.md)
 * [CODEWARS](https://github.com/ttltrk/TTT/blob/master/PY/CODEWARS/CODEWARS.md)
+* [DATAWARS](https://github.com/ttltrk/TTT/blob/master/PY/DATAWARS/DATAWARS.md)
 
 ---
 

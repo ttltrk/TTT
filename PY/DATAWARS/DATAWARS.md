@@ -1,6 +1,16 @@
 
 ---
 
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [PY](https://github.com/ttltrk/TTT/blob/master/PY/PY.md)
+
+---
+
+### DATAWARS
+
+---
+
+---
+
 #### head
 
 ```py
@@ -122,12 +132,20 @@ max	28.000000	319.000000
 >>>
 ```
 
-####
+#### Which of the following words have a Char Count of `7` and a Value of `87`?
+#### 'pinfish','enfold','microbrew','superheterodyne','glowing'
 
 ```py
+df.loc[['pinfish','enfold','microbrew','superheterodyne','glowing']]
 
 >>>
-
+Char Count	Value
+Word		
+pinfish	7	81
+enfold	6	56
+microbrew	9	106
+superheterodyne	15	198
+glowing	7	87
 >>>
 ```
 
