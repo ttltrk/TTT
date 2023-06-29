@@ -15,6 +15,10 @@
 
 #### WORKING_WITH_ENGLISH_WORDS
 
+```
+
+```
+
 #### head
 
 ```py
@@ -252,68 +256,123 @@ Name: count, dtype: int64
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### What is the shortest word with value 274?
 
 ```py
+df.loc[df['Value'] == 274].sort_values(by="Char Count")
 
 >>>
-
+Char Count	Value
+Word		
+overprotectivenesses	20	274
+countercountermeasure	21	274
+psychophysiologically	21	274
 >>>
 ```
 
-####
-
 ```py
+df.loc[df['Value'] == 274, 'Char Count'].min()
 
 >>>
-
+20
 >>>
 ```
 
-####
-
 ```py
+df.loc[
+    (df['Value'] == 274) &
+    (df['Char Count'] == 20)
+]
 
 >>>
-
+Char Count	Value
+Word		
+overprotectivenesses	20	274
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### Create a column Ratio which represents the 'Value Ratio' of a word
 
 ```py
+df['Ratio'] = df['Value'] / df['Char Count']
+df.head()
 
 >>>
-
+Char Count	Value	Ratio
+Word			
+aa	2	2	1.000000
+aah	3	10	3.333333
+aahed	5	19	3.800000
+aahing	6	40	6.666667
+aahs	4	29	7.250000
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### What is the maximum value of Ratio?
 
 ```py
+df['Ratio'].max()
 
 >>>
-
+22.5
 >>>
 ```
 
-####
+[^^^](#DATAWARS)
+
+#### What word is the one with the highest Ratio?
 
 ```py
+df.sort_values(by='Ratio', ascending=False).head()
 
 >>>
-
+Char Count	Value	Ratio
+Word			
+xu	2	45	22.500000
+muzzy	5	111	22.200000
+wry	3	66	22.000000
+xyst	4	88	22.000000
+pyx	3	65	21.666667
 >>>
 ```
 
-####
-
 ```py
+df.loc[df['Ratio'] == df['Ratio'].max()]
 
 >>>
-
+Char Count	Value	Ratio
+Word			
+xu	2	45	22.5
 >>>
 ```
+
+[^^^](#DATAWARS)
+
+#### How many words have a Ratio of 10?
+
+```py
+df.loc[df["Ratio"] == 10].shape
+
+>>>
+(2604, 3)
+>>>
+```
+
+```py
+df.query('Ratio == 10').shape
+
+>>>
+(2604, 3)
+>>>
+```
+
+[^^^](#DATAWARS)
 
 ####
 
