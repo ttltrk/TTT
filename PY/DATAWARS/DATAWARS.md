@@ -34,8 +34,6 @@ aahs	4	29
 
 [^^^](#DATAWARS)
 
----
-
 #### How many elements does this dataframe have?
 
 ```py
@@ -207,6 +205,26 @@ aa	2	2
 ```
 
 ```py
+df['Value']==319
+
+>>>
+Word
+aa           False
+aah          False
+aahed        False
+aahing       False
+aahs         False
+             ...  
+zymotic      False
+zymurgies    False
+zymurgy      False
+zyzzyva      False
+zyzzyvas     False
+Name: Value, Length: 172821, dtype: bool
+>>>
+```
+
+```py
 df.loc[df['Value']==319]
 
 >>>
@@ -217,6 +235,121 @@ reinstitutionalizations	23	319
 ```
 
 [^^^](#DATAWARS)
+
+#### What is the most common value?
+
+```py
+df['Value'].value_counts().head()
+
+>>>
+Value
+93     1965
+100    1921
+95     1915
+99     1907
+92     1902
+Name: count, dtype: int64
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
+
+####
+
+```py
+
+>>>
+
+>>>
+```
 
 ####
 
