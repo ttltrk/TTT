@@ -478,12 +478,33 @@ underrepresentations	20	260	13.000000
 >>>
 ```
 
-####
+#### Find all words with Char Count > avg Char Count
 
 ```py
+mean_char_count = df['Char Count'].mean()
+mean_char_count
 
 >>>
+9.087628239623657
+>>>
 
+df.query('`Char Count` > @mean_char_count')
+
+>>>
+Char Count	Value
+Word		
+aardwolves	10	120
+abacterial	10	72
+abandoners	10	93
+abandoning	10	81
+abandonment	11	103
+...	...	...
+zygomorphies	12	176
+zygomorphy	10	168
+zygosities	10	154
+zygospores	10	165
+zymologies	10	146
+67582 rows × 2 columns
 >>>
 ```
 
