@@ -71,6 +71,10 @@ df.loc[df['Ratio'] == 10, 'Value'].max()
 
 - Of those words with a Value of 260, what is the lowest Char Count found?
 df.query('Value == 260').sort_values(by='Char Count')
+
+- Find all words with Char Count > avg Char Count
+mean_char_count = df['Char Count'].mean()
+df.query('`Char Count` > @mean_char_count')
 ```
 
 #### head
