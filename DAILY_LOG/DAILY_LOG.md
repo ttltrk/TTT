@@ -49,6 +49,32 @@
   - FWK:
     - flask
 
+```py
+def takeda(l,n):
+
+    items = len(l)
+    junk = items%n
+    pure_list = l[:-junk]
+
+    print(pure_list)
+
+
+    ll,res = [],[]
+    x = 0
+
+    while x < n:
+        ll.append(pure_list[:n])
+        print(ll)
+        res.append(ll)
+        print(res)
+        ll.clear()
+        x+=1
+
+
+
+takeda([1,2,3,4,5,6,7,8,9,10],3)
+```
+
 ```
 - Working knowledge of SQL and Relational Databases
 ```
