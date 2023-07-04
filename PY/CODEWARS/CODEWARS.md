@@ -9,6 +9,7 @@
 
 ---
 
+* [pipe_fix](#pipe_fix)
 * [odd_or_even](#odd_or_even)
 * [sum_digits](#sum_digits)
 * [position](#position)
@@ -102,6 +103,26 @@
 * [Vowel_remover](#Vowel_remover)
 
 ---
+
+#### pipe_fix
+
+```py
+#INP - https://www.codewars.com/kata/56b29582461215098d00000f/train/python
+
+def pipe_fix(nums):
+    return [num for num in range(nums[0],nums[-1]+1)]
+
+pipe_fix([-1, 4])
+
+>>>
+[-1, 0, 1, 2, 3, 4]
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### odd_or_even
 
 ```py
@@ -116,7 +137,7 @@ def odd_or_even(arr):
 odd_or_even([1,-2,3])
 
 >>>
-even 
+even
 >>>
 ```
 
