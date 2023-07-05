@@ -9,6 +9,7 @@
 
 ---
 
+* [string_to_array](#string_to_array)
 * [pipe_fix](#pipe_fix)
 * [odd_or_even](#odd_or_even)
 * [sum_digits](#sum_digits)
@@ -101,6 +102,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### string_to_array
+
+```py
+#DONE - https://www.codewars.com/kata/57e76bc428d6fbc2d500036d/train/python
+
+def string_to_array(s):
+    l = ['']
+    if len(s) == 0:
+        return l
+    else:
+        z = s.split()
+        return z
+
+string_to_array("Robin Singh")
+
+>>>
+['Robin', 'Singh']
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
