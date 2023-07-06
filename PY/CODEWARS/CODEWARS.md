@@ -9,6 +9,7 @@
 
 ---
 
+* [chromosome_check](#chromosome_check)
 * [string_to_array](#string_to_array)
 * [pipe_fix](#pipe_fix)
 * [odd_or_even](#odd_or_even)
@@ -102,6 +103,28 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### chromosome_check
+
+```py
+#DONE - https://www.codewars.com/kata/56530b444e831334c0000020/train/python
+
+def chromosome_check(sperm):
+    if sperm == 'XY':
+        return "Congratulations! You\'re going to have a son."
+    else:
+        return "Congratulations! You\'re going to have a daughter."
+
+chromosome_check("XY")
+
+>>>
+"Congratulations! You're going to have a son."
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
