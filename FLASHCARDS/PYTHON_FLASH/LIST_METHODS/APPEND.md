@@ -19,10 +19,26 @@
 
 ---
 
+The ```append()``` method appends an element to the end of the list.
+
 ```py
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits)
 
 >>>
+['apple', 'banana', 'cherry', 'orange']
+>>>
+```
 
+```py
+a = ["apple", "banana", "cherry"]
+b = ["Ford", "BMW", "Volvo"]
+a.append(b)
+print(a)
+
+>>>
+['apple', 'banana', 'cherry', ["Ford", "BMW", "Volvo"]]
 >>>
 ```
 
