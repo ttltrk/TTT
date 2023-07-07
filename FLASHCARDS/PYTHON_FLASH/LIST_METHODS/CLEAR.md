@@ -19,10 +19,15 @@
 
 ---
 
+The ```clear()``` method removes all the elements from a list.
+
 ```py
+fruits = ["apple", "banana", "cherry"]
+fruits.clear()
+print(fruits)
 
 >>>
-
+[]
 >>>
 ```
 
