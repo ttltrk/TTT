@@ -9,7 +9,7 @@
 
 ---
 
-#### [APPEND](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/APPEND.md) -
+[APPEND](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/APPEND.md) -
 [CLEAR](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/CLEAR.md) -
 [COPY](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/COPY.md) -
 [COUNT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/COUNT.md) -
