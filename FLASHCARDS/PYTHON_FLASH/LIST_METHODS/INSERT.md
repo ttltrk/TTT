@@ -19,10 +19,15 @@
 
 ---
 
+The ```insert()``` method inserts the specified value at the specified position.
+
 ```py
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange")
+print(fruits)
 
 >>>
-
+['apple', 'orange', 'banana', 'cherry']
 >>>
 ```
 

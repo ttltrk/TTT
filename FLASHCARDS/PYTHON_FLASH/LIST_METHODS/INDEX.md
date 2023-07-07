@@ -19,10 +19,26 @@
 
 ---
 
+The ```index()``` method returns the position at the first occurrence of the specified value.
+The ```index()``` method only returns the first occurrence of the value.
+
 ```py
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.index("cherry")
+print(x)
 
 >>>
+2
+>>>
+```
 
+```py
+fruits = [4, 55, 64, 32, 16, 32]
+
+x = fruits.index(32)
+
+>>>
+3
 >>>
 ```
 

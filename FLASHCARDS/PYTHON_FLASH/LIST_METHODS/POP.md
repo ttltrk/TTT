@@ -19,10 +19,27 @@
 
 ---
 
+The ```pop()``` method removes the element at the specified position.
+
 ```py
+fruits = ['apple', 'banana', 'cherry']
+fruits.pop(1)
+print(fruits)
 
 >>>
+['apple', 'cherry']
+>>>
+```
 
+Return the removed element
+
+```py
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.pop(1)
+print(x)
+
+>>>
+banana
 >>>
 ```
 
