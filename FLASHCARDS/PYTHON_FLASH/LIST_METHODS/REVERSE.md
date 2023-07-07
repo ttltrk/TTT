@@ -19,10 +19,15 @@
 
 ---
 
+The ```reverse()``` method reverses the sorting order of the elements.
+
 ```py
+fruits = ['apple', 'banana', 'cherry']
+fruits.reverse()
+print(fruits)
 
 >>>
-
+['cherry', 'banana', 'apple']
 >>>
 ```
 

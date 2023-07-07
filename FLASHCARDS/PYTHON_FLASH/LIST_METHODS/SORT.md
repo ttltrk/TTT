@@ -1,7 +1,7 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/FLASHCARDS.md) - [PYTHON_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md) - [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/LIST_METHODS.md) - SORT 
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/FLASHCARDS.md) - [PYTHON_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md) - [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/LIST_METHODS.md) - SORT
 
 ---
 
@@ -19,10 +19,39 @@
 
 ---
 
+The ```sort()``` method sorts the list ascending by default.
+
 ```py
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort()
+print(cars)
 
 >>>
+['BMW', 'Ford', 'Volvo']
+>>>
+```
 
+```py
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort(reverse=True)
+print(cars)
+
+>>>
+['Volvo', 'Ford', 'BMW']
+>>>
+```
+
+```py
+# A function that returns the length of the value:
+def myFunc(e):
+  return len(e)
+
+cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
+cars.sort(key=myFunc)
+print(cars)
+
+>>>
+['VW', 'BMW', 'Ford', 'Mitsubishi']
 >>>
 ```
 
