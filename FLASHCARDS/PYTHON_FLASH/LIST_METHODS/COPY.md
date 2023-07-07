@@ -19,10 +19,15 @@
 
 ---
 
+The ```copy()``` method returns a copy of the specified list.
+
 ```py
+fruits = ["apple", "banana", "cherry"]
+x = fruits.copy()
+print(x)
 
 >>>
-
+['apple', 'banana', 'cherry']
 >>>
 ```
 

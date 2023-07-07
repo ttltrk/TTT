@@ -19,10 +19,25 @@
 
 ---
 
+The ```count()``` method returns the number of elements with the specified value.
+
 ```py
+fruits = ["apple", "banana", "cherry"]
+x = fruits.count("cherry")
+print(x)
 
 >>>
+1
+>>>
+```
 
+```py
+points = [1, 4, 2, 9, 7, 8, 9, 3, 1, 9]
+x = points.count(9)
+print(x)
+
+>>>
+3
 >>>
 ```
 

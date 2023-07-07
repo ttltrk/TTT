@@ -19,10 +19,27 @@
 
 ---
 
+The ```extend()``` method adds the specified list elements (or any iterable) to the end of the current list.
+
 ```py
+fruits = ['apple', 'banana', 'cherry']
+cars = ['Ford', 'BMW', 'Volvo']
+fruits.extend(cars)
+print(fruits)
 
 >>>
+['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+>>>
+```
 
+```py
+fruits = ['apple', 'banana', 'cherry']
+points = (1, 4, 5, 9)
+fruits.extend(points)
+print(fruits)
+
+>>>
+['apple', 'banana', 'cherry', 1, 4, 5, 9]
 >>>
 ```
 
