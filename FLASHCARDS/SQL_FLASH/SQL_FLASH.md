@@ -46,7 +46,7 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 
 ELSE
 
-* [JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
+* [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
 * [](#)
 * [](#)
 * [](#)
