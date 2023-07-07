@@ -5,11 +5,7 @@
 
 ---
 
-### PYTHON_FLASH
-
----
-
-#### LIST_METHODS
+### PYTHON_FLASH - LIST_METHODS
 
 ---
 
