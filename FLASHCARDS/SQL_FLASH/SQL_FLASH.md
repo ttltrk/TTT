@@ -46,6 +46,9 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 
 ELSE
 
+* [INSERT_INTO](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INSERT/INSERT.md)
+* [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
+* [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
 * [](#)
 * [](#)
@@ -370,129 +373,6 @@ select * from trk_test_xx ttx;
 
 personid|lastname|firstname|address|city|
 --------+--------+---------+-------+----+
-```
-
-[^^^](#SQL_FLASH)
-
----
-
-#### INSERT_INTO
-
-The INSERT INTO statement is used to insert new records in a table.
-
-```sql
-select * from trk_test_01 order by personid;
-
->>>
-personid|lastname|firstname|address |city   |
---------|--------|---------|--------|-------|
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       6|kawhi   |leo      |canada  |toronto|
->>>
-
-INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
-VALUES(7, 'ray', 'brent', 'still', 'GER');
-
-select * from trk_test_01 order by personid;
-
->>>
-personid|lastname|firstname|address |city   |
---------|--------|---------|--------|-------|
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       6|kawhi   |leo      |canada  |toronto|
-       7|ray     |brent    |still   |GER    |
->>>
-```
-
-[^^^](#SQL_FLASH)
-
----
-
-#### UPDATE
-
-The UPDATE statement is used to modify the existing records in a table.
-
-```sql
-select * from trk_test_01 order by personid;
-
->>>
-personid|lastname|firstname|address |city   |
---------|--------|---------|--------|-------|
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       6|kawhi   |leo      |canada  |toronto|
-       7|ray     |brent    |still   |GER    |
->>>
-
-UPDATE public.trk_test_01
-SET lastname='jockey', firstname='brent', address='still', city='GER'
-WHERE personid=7;
-
-select * from trk_test_01 order by personid;
-
->>>
-personid|lastname|firstname|address |city   |
---------|--------|---------|--------|-------|
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       6|kawhi   |leo      |canada  |toronto|
-       7|jockey  |brent    |still   |GER    |
->>>
-```
-
-[^^^](#SQL_FLASH)
-
----
-
-#### DELETE
-
-The DELETE statement is used to delete existing records in a table.
-
-```sql
-SELECT * FROM trk_test_01;
-
->>>
-personid|lastname|firstname|address |city   |
---------|--------|---------|--------|-------|
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       6|kawhi   |leo      |canada  |toronto|
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       7|jockey  |brent    |still   |GER    |
-       8|aaa     |bbbb     |cccc    |ddddd  |
->>>
-
-DELETE FROM trk_test_01 WHERE firstname ='bbbb';
-
-SELECT * FROM trk_test_01;
-
->>>
-personid|lastname|firstname|address |city   |
---------|--------|---------|--------|-------|
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       6|kawhi   |leo      |canada  |toronto|
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       7|jockey  |brent    |still   |GER    |
->>>
 ```
 
 [^^^](#SQL_FLASH)
