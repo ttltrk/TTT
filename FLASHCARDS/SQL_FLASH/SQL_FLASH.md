@@ -1,11 +1,7 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/FLASHCARDS.md)
-
----
-
-### SQL_FLASH
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/FLASHCARDS.md) - SQL_FLASH
 
 ---
 
@@ -50,7 +46,7 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 
 ELSE
 
-* [](#)
+* [JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
 * [](#)
 * [](#)
 * [](#)
