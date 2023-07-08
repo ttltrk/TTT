@@ -1,7 +1,7 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/FLASHCARDS.md) - [PYTHON_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md) - [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/DICT_METHODS/DICT_METHODS.md) - COPY
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/FLASHCARDS.md) - [PYTHON_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md) - [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/DICT_METHODS/DICT_METHODS.md) - SETDEFAULT
 
 ---
 
@@ -21,11 +21,11 @@
 
 ```py
 car = {"brand": "Ford","model": "Mustang","year": 1964}
-x = car.copy()
+x = car.setdefault("model", "Bronco")
 print(x)
 
 >>>
-{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+Mustang
 >>>
 ```
 
