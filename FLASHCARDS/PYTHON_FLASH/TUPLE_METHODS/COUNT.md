@@ -6,7 +6,7 @@
 ---
 
 [COUNT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/TUPLE_METHODS/COUNT.md) -
-[INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/TUPLE_METHODS/INDEX.md) -
+[INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/TUPLE_METHODS/INDEX.md)
 
 ---
 
