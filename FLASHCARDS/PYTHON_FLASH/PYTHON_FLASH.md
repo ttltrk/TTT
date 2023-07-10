@@ -27,7 +27,7 @@
 * [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/LIST_METHODS.md)
 * [DICT_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/DICT_METHODS/DICT_METHODS.md)
 * [TUPLE_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/TUPLE_METHODS/TUPLE_METHODS.md)
-* [SET_METHODS](#SET_METHODS)
+* [SET_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/SET_METHODS/SET_METHODS.md)
 
 ---
 
