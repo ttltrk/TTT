@@ -25,10 +25,26 @@
 
 ---
 
+The ```add()``` method adds an element to the set.
+If the element already exists, the ```add()``` method does not add the element.
+
 ```py
+thisset = {"apple", "banana", "cherry"}
+thisset.add("orange")
+print(thisset)
 
 >>>
+{'banana', 'orange', 'apple', 'cherry'}
+>>>
+```
 
+```py
+thisset = {"apple", "banana", "cherry"}
+thisset.add("apple")
+print(thisset)
+
+>>>
+{'banana', 'apple', 'cherry'}
 >>>
 ```
 
