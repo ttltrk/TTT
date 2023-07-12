@@ -36,7 +36,7 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 * [SELECT_DISTINCT_DIFFERENCE](#SELECT_DISTINCT_DIFFERENCE)
 * [](#)
 * [](#)
-* [](#)
+* [COUNT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/COUNT/COUNT.md)
 * [](#)
 * [](#)
 * [](#)
