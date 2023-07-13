@@ -11,7 +11,7 @@
 DDL – Data Definition Language
 
 * [CREATE_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_DB/CREATE_DB.md)
-* [CREATE_TABLE](#CREATE_TABLE)
+* [CREATE_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_TABLE/CREATE_TABLE.md)
 * [CREATE_INDEX](#CREATE_INDEX)
 * [CREATE_VIEW](#CREATE_VIEW)
 * [ALTER](#ALTER)
@@ -55,35 +55,6 @@ ELSE
 * [](#)
 * [](#)
 
-
----
-
-
-#### CREATE_TABLE
-
-DDL – Data Definition Language
-
-```
-The CREATE TABLE statement is used to create a new table in a database.
-```
-
-```sql
-CREATE TABLE trk (
-    PersonID int,
-    LastName varchar(255),
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255)
-);
-```
-
-##### CREATE TABLE USING ANOTHER TABLE
-
-```sql
-create table trk_test_xx as select * from trk_test_01;
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
