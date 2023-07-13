@@ -10,7 +10,7 @@
 
 DDL – Data Definition Language
 
-* [CREATE_DB](#CREATE_DB)
+* [CREATE_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_DB/CREATE_DB.md)
 * [CREATE_TABLE](#CREATE_TABLE)
 * [CREATE_INDEX](#CREATE_INDEX)
 * [CREATE_VIEW](#CREATE_VIEW)
@@ -58,48 +58,6 @@ ELSE
 
 ---
 
-#### CREATE_DB
-
-DDL – Data Definition Language
-
-```
-The CREATE DATABASE statement is used to create a new SQL database.
-```
-
-```sql
---create db in postgresql
-CREATE DATABASE testDB_01;
-
---list out all the dbs
-SELECT datname FROM pg_database
-WHERE datistemplate = false;
-
-datname  |
----------+
-postgres |
-test     |
-for_rec  |
-testdb   |
-testdb_01|
-
-CREATE DATABASE testDB_02;
-
-SELECT datname FROM pg_database
-WHERE datistemplate = false;
-
-datname  |
----------+
-postgres |
-test     |
-for_rec  |
-testdb   |
-testdb_01|
-testdb_02|
-```
-
-[^^^](#SQL_FLASH)
-
----
 
 #### CREATE_TABLE
 
