@@ -6,7 +6,7 @@
 ---
 
 * [WHAT_IS_SQL](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/WHATIS/WHATIS.md)
-* [RDBMS](#RDBMS)
+* [RDBMS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/RDBMS/RDBMS.md)
 
 DDL – Data Definition Language
 
