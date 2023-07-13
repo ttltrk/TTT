@@ -12,7 +12,7 @@ DDL – Data Definition Language
 
 * [CREATE_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_DB/CREATE_DB.md)
 * [CREATE_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_TABLE/CREATE_TABLE.md)
-* [CREATE_INDEX](#CREATE_INDEX)
+* [CREATE_INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_INDEX/CREATE_INDEX.md)
 * [CREATE_VIEW](#CREATE_VIEW)
 * [ALTER](#ALTER)
 * [DROP_DB](#DROP_DB)
@@ -50,36 +50,8 @@ ELSE
 * [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
 
 
----
-
-#### CREATE_INDEX
-
-Indexes are used to retrieve data from the database more quickly than otherwise.
-The users cannot see the indexes, they are just used to speed up searches/queries.
-
-The SQL statement below creates an index named "idx_lastname"
-on the "LastName" column in the "Persons" table:
-
-```sql
-CREATE INDEX idx_lastname
-ON Persons (LastName);
-```
-
-If you want to create an index on a combination of columns, you can list the column names
-within the parentheses, separated by commas:
-
-```sql
-CREATE INDEX idx_pname
-ON Persons (LastName, FirstName);
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
