@@ -16,7 +16,7 @@ DDL – Data Definition Language
 * [SHOW_TABLES](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SHOW_TABLE/SHOW_TABLE.md)
 * [CREATE_INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_INDEX/CREATE_INDEX.md)
 * [SHOW_INDEXS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SHOW_INDEX/SHOW_INDEX.md)
-* [CREATE_VIEW](#CREATE_VIEW)
+* [CREATE_VIEW](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_VIEW/CREATE_VIEW.md)
 * [ALTER](#ALTER)
 * [DROP_DB](#DROP_DB)
 * [DROP_TABLE](#DROP_TABLE)
@@ -53,41 +53,6 @@ ELSE
 * [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
-
-
-
----
-
-#### CREATE_VIEW
-
-view = virtual table
-
-In SQL, a view is a virtual table based on the result-set of an SQL statement.
-A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database.
-You can add SQL functions, WHERE, and JOIN statements to a view and present the data as if the data were coming from one single table.
-
-The following SQL creates a view that shows all customers from Brazil:
-
-```sql
-CREATE VIEW [Brazil Customers] AS
-SELECT CustomerName, ContactName
-FROM Customers
-WHERE Country = 'Brazil';
-```
-
-- check views in postgre
-
-```sql
-select table_name from INFORMATION_SCHEMA.views;
-```
-
-- If you don't want the system views is your result, try this:
-
-```sql
-select table_name from INFORMATION_SCHEMA.views WHERE table_schema = ANY (current_schemas(false))
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
