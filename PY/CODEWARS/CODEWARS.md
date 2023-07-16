@@ -9,6 +9,7 @@
 
 ---
 
+* [to24hourtime](#to24hourtime)
 * [chromosome_check](#chromosome_check)
 * [string_to_array](#string_to_array)
 * [pipe_fix](#pipe_fix)
@@ -103,6 +104,56 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### to24hourtime
+
+```py
+#DONE - https://www.codewars.com/kata/59b0a6da44a4b7080300008a/train/python
+
+def to24hourtime(hour, minute, period):
+    if period[0] == 'a':
+        if hour == 12 and minute == 0:
+            return f'000{minute}'
+        elif hour == 12 and len(str(minute)) < 2:
+            return f'000{minute}'
+        elif hour == 12 and len(str(minute)) == 2:
+            return f'00{minute}'
+        elif hour == 12 and minute != 0:
+            return f'00{minute}'
+        elif len(str(hour)) < 2 and len(str(minute)) < 2:
+            return f'0{hour}0{minute}'
+        elif len(str(hour)) < 2 and len(str(minute)) == 2:
+            return f'0{hour}{minute}'
+        elif len(str(hour)) > 1 and len(str(minute)) < 2:
+            return f'{hour}0{minute}'
+        else:
+            return f'{hour}{minute}'
+    else:
+        if hour == 12 and len(str(minute)) < 2:
+            return f'{hour}0{minute}'
+        elif hour == 12 and len(str(minute)) == 2:
+            return f'{hour}{minute}'
+        elif hour == 12 and minute != 0:
+            return f'00{minute}'
+        elif len(str(hour)) < 2 and len(str(minute)) < 2:
+            return f'{12+hour}0{minute}'
+        elif len(str(hour)) < 2 and len(str(minute)) == 2:
+            return f'{12+hour}{minute}'
+        elif len(str(hour)) > 1 and len(str(minute)) < 2:
+            return f'{12+hour}0{minute}'
+        else:
+            return f'{12+hour}{minute}'
+
+to24hourtime( 12,  8, 'pm')
+
+>>>
+'1208'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
