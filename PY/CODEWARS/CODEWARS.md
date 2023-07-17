@@ -9,6 +9,7 @@
 
 ---
 
+* [who_is_paying](#who_is_paying)
 * [to24hourtime](#to24hourtime)
 * [chromosome_check](#chromosome_check)
 * [string_to_array](#string_to_array)
@@ -104,6 +105,32 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### who_is_paying
+
+```py
+#DONE - https://www.codewars.com/kata/58bf9bd943fadb2a980000a7/train/python
+
+def who_is_paying(name):
+    l = []
+    l.append(name)
+
+    if len(name) >= 2:
+        l.append(name[:2])
+        return l
+    else:
+        return l
+
+who_is_paying("Mexico")
+
+>>>
+['Mexico', 'Me']
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
