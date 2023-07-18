@@ -9,6 +9,7 @@
 
 ---
 
+* [fix_syntax](#fix_syntax)
 * [who_is_paying](#who_is_paying)
 * [to24hourtime](#to24hourtime)
 * [chromosome_check](#chromosome_check)
@@ -105,6 +106,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### fix_syntax
+
+```py
+#DONE - https://www.codewars.com/kata/56dae9dc54c0acd29d00109a/train/python
+
+def main(verb, noun):
+    return verb + noun
+
+main('hello ', 'world')
+
+>>>
+'hello world'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
