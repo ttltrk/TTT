@@ -29,7 +29,7 @@ ALTER TABLE
 
 ---
 
-* [DROP_DB](#DROP_DB)
+* [DROP_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_DB/DROP_DB.md)
 * [DROP_TABLE](#DROP_TABLE)
 * [DROP_INDEX](#DROP_INDEX)
 * [TRUNCATE_TABLE](#TRUNCATE_TABLE)
@@ -64,90 +64,6 @@ ELSE
 * [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
-
----
-
-#### ALTER
-
-The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
-
-##### ADD_COLUMN
-
-To add a column in a table, use the following syntax
-
-```sql
-ALTER TABLE trk_test_02
-ADD city varchar(255);
-```
-
-##### DROP_COLUMN
-
-To delete a column in a table, use the following syntax
-
-```sql
-ALTER TABLE Customers
-DROP COLUMN Email;
-```
-
-##### MODIFY_RENAME_COLUMN
-
-To change a column name use the following syntax
-
-```sql
-ALTER TABLE trk_test_02
-RENAME COLUMN department TO dep;
-```
-
-##### MODIFY_RENAME_TABLENAME
-
-To change a table name use the following syntax
-
-```sql
-ALTER TABLE trk_test
-RENAME TO trk_test_01;
-```
-
-[^^^](#SQL_FLASH)
-
----
-
-#### DROP_DB
-
-The DROP DATABASE statement is used to drop an existing SQL database.
-
-```sql
-DROP DATABASE databasename;
-```
-
-```sql
---list out all the dbs
-SELECT datname FROM pg_database
-WHERE datistemplate = false;
-
-datname  |
----------+
-postgres |
-test     |
-for_rec  |
-testdb   |
-testdb_01|
-testdb_02|
-
-drop database testdb_02;
-
-SELECT datname FROM pg_database
-WHERE datistemplate = false;
-
-datname  |
----------+
-postgres |
-test     |
-for_rec  |
-testdb   |
-testdb_01|
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
