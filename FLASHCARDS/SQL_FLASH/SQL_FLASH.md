@@ -31,7 +31,7 @@ ALTER TABLE
 
 * [DROP_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_DB/DROP_DB.md)
 * [DROP_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_TABLE/DROP_TABLE.md)
-* [DROP_INDEX](#DROP_INDEX)
+* [DROP_INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_INDEX/DROP_INDEX.md)
 * [TRUNCATE_TABLE](#TRUNCATE_TABLE)
 
 DML – Data Manipulation Language
@@ -64,20 +64,6 @@ ELSE
 * [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
-
----
-
-#### DROP_INDEX
-
-The DROP INDEX statement is used to delete an index in a table.
-
-- DB2
-
-```sql
-DROP INDEX index_name;
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
