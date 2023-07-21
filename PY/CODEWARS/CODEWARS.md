@@ -9,6 +9,7 @@
 
 ---
 
+* [capitals](#capitals)
 * [fix_syntax](#fix_syntax)
 * [who_is_paying](#who_is_paying)
 * [to24hourtime](#to24hourtime)
@@ -106,6 +107,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### capitals
+
+```py
+#DONE - https://www.codewars.com/kata/539ee3b6757843632d00026b/train/python
+
+def capitals(word):
+    l = []
+    k = [chars for chars in word]
+
+    for count, ele in enumerate(k):
+        if ele.isupper():
+            l.append(count)
+    return l
+capitals('CodEWaRsC')
+
+>>>
+[0, 3, 4, 6, 8]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
