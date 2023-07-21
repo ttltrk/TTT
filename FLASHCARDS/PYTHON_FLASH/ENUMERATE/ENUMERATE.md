@@ -29,6 +29,27 @@ print(' ')
 for count, ele in enumerate(l1):
     print(count)
     print(ele)
+
+>>>
+(0, 'eat')
+(1, 'sleep')
+(2, 'repeat')
+(3, 'eat')
+
+100 eat
+101 sleep
+102 repeat
+103 eat
+
+0
+eat
+1
+sleep
+2
+repeat
+3
+eat
+>>>
 ```
 
 ---
