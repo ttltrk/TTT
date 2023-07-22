@@ -32,7 +32,7 @@ ALTER TABLE
 * [DROP_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_DB/DROP_DB.md)
 * [DROP_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_TABLE/DROP_TABLE.md)
 * [DROP_INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_INDEX/DROP_INDEX.md)
-* [TRUNCATE_TABLE](#TRUNCATE_TABLE)
+* [TRUNCATE_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/TRUNCATE_TABLE/TRUNCATE_TABLE.md)
 
 DML – Data Manipulation Language
 
@@ -64,39 +64,6 @@ ELSE
 * [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
-
----
-
-#### TRUNCATE_TABLE
-
-The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself.
-
-```sql
-TRUNCATE TABLE table_name;
-```
-
-```sql
-select * from trk_test_xx ttx;
-
-personid|lastname|firstname|address |city   |
---------+--------+---------+--------+-------+
-       1|trk     |ttl      |Hlavna 5|TNO    |
-       2|doe     |jon      |CA      |GS     |
-       3|ewong   |samatha  |SFR     |Dallas |
-       6|kawhi   |leo      |canada  |toronto|
-       4|bbking  |bbe      |hemp    |ams    |
-       5|petofi  |alex     |var     |BP     |
-       7|jockey  |brent    |still   |GER    |
-
-truncate table trk_test_xx;
-
-select * from trk_test_xx ttx;
-
-personid|lastname|firstname|address|city|
---------+--------+---------+-------+----+
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
