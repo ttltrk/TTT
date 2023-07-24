@@ -51,3 +51,36 @@ view2 = (ID, MAIL)
 [^^^](#DATABASE_DESIGN)
 
 ---
+---
+---
+
+#### DB_DESIGN
+
+- [link](https://ibm-learning.udemy.com/course/relational-database-design/learn/lecture/1674884#overview)
+
+
+- an alternative to a database is a flat file
+- another option is a spreadsheet
+
+two type of databases:
+  - rdbms (common, used for updating)
+  - data warehouse (used for reporting, separate)
+
+---
+---
+---
+
+#### FUNDAMENTALS_DB_ENGINEERING
+
+[link](https://ibm-learning.udemy.com/course/database-engines-crash-course/learn/lecture/30094294#overview)
+
+---
+
+#### ACID
+
+- ATOMICITY
+- CONSISTENCY
+- ISOLATION
+- DURABILITY
+
+---
