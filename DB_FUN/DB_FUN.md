@@ -84,3 +84,15 @@ two type of databases:
 - DURABILITY
 
 ---
+
+#### DB_TRANSACTION
+
+- TRANSACTION
+
+```
+- a collection of queries
+- one unit of work
+- (SELECT UPDATE UPDATE)
+```
+
+---
