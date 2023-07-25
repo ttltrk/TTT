@@ -58,13 +58,37 @@ view2 = (ID, MAIL)
 
 - [link](https://ibm-learning.udemy.com/course/relational-database-design/learn/lecture/1674884#overview)
 
-
+```
 - an alternative to a database is a flat file
 - another option is a spreadsheet
+```
 
+```
 two type of databases:
   - rdbms (common, used for updating)
   - data warehouse (used for reporting, separate)
+```
+
+```
+- what is datamodeling
+  - process of analysing data requirements and identifying the objects
+  to be used for a database
+  - a data model is created
+```  
+
+```
+- data model types
+  - conceptual >> logical >> physical
+
+  - conceptual
+    - high level
+    - relationships between objects
+    - usuallyt just names or concepts
+
+    teacher --- class 
+
+```
+
 
 ---
 ---
