@@ -153,12 +153,42 @@ two type of databases:
 
 #### DB_TRANSACTION
 
+```
 - TRANSACTION
 
+  - a collection of queries
+  - one unit of work
+  - (SELECT UPDATE UPDATE)
 ```
-- a collection of queries
-- one unit of work
-- (SELECT UPDATE UPDATE)
+
+```
+- Transaction lifespan
+
+  - Transaction BEGIN  
+  - Transaction COMMIT
+  - Transaction ROLLBACK
+  - Transaction unexpected ending = ROLLBACK (e.g. crash)
+```
+
+```
+- Nature of Transactions
+
+  - Usually Transactions are used to change and modify data
+  - However it is perfectly normal to have a read only transaction
+```
+
+```sql
+--Send $100 frim acc1 to acc2
+
+
+BEGIN TX1
+
+  SELECT BALANCE FROM ACCOUNT WHERE ID = 1
+  BALANCE > 100
+      UPDATE ACCOUNT SET BALANCE = BALANCE -100 WHERE ID = 1
+      UPDATE ACCOUNT SET BALANCE = BALANCE +100 WHERE ID = 2
+
+COMMIT TX1     
 ```
 
 ---
