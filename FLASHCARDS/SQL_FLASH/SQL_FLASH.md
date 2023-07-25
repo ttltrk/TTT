@@ -35,7 +35,7 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 
 * [SELECT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SELECT/SELECT.md)
 * [SELECT_FROM_SELECT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SELECT_FROM_SELECT/SELECT_FROM_SELECT.md)
-* [SELECT_DISTINCT](#SELECT_DISTINCT)
+* [SELECT_DISTINCT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SELECT_DISTINCT/SELECT_DISTINCT.md)
 * [SELECT_DISTINCT_ONLY_EVENS](#SELECT_DISTINCT_ONLY_EVENS)
 * [SELECT_DISTINCT_ONLY_ODD_NUMS](#SELECT_DISTINCT_ONLY_ODD_NUMS)
 * [SELECT_DISTINCT_DIFFERENCE](#SELECT_DISTINCT_DIFFERENCE)
@@ -55,47 +55,6 @@ ELSE
 * [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
-
----
-
-#### SELECT_DISTINCT
-
-The SELECT DISTINCT statement is used to return only distinct (different) values.
-Inside a table, a column often contains many duplicate values;
-and sometimes you only want to list the different (distinct) values.
-
-```sql
-SELECT DISTINCT city FROM trk_test_02;
-
->>>
-city|
-----|
-LA  |
-SF  |
-LN  |
-BA  |
-NYC |
-BP  |
->>>
-
-SELECT COUNT(DISTINCT city) FROM trk_test_02;
-
->>>
-count|
------|
-    6|
->>>
-
-SELECT COUNT(city) FROM trk_test_02;
-
->>>
-count|
------|
-    7|
->>>
-```
-
-[^^^](#SQL_FLASH)
 
 ---
 
