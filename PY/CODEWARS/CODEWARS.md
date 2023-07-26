@@ -9,6 +9,7 @@
 
 ---
 
+* [multi_table](#multi_table)
 * [capitals](#capitals)
 * [fix_syntax](#fix_syntax)
 * [who_is_paying](#who_is_paying)
@@ -107,6 +108,44 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### multi_table
+
+```py
+#DONE - https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/python
+
+def multi_table(number):
+    r1 = 1 * number
+    r2 = 2 * number
+    r3 = 3 * number
+    r4 = 4 * number
+    r5 = 5 * number
+    r6 = 6 * number
+    r7 = 7 * number
+    r8 = 8 * number
+    r9 = 9 * number
+    r10 = 10 * number
+    print(f'1 * {number} = {r1}\n2 * {number} = {r2}\n3 * {number} = {r3}\n4 * {number} = {r4}\n5 * {number} = {r5}\n6 * {number} = {r6}\n7 * {number} = {r7}\n8 * {number} = {r8}\n9 * {number} = {r9}\n10 * {number} = {r10}')
+
+multi_table(10)
+
+>>>
+1 * 10 = 10
+2 * 10 = 20
+3 * 10 = 30
+4 * 10 = 40
+5 * 10 = 50
+6 * 10 = 60
+7 * 10 = 70
+8 * 10 = 80
+9 * 10 = 90
+10 * 10 = 100
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
