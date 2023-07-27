@@ -9,6 +9,7 @@
 
 ---
 
+* [battle](#battle)
 * [multi_table](#multi_table)
 * [capitals](#capitals)
 * [fix_syntax](#fix_syntax)
@@ -108,6 +109,42 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### battle
+
+```py
+#DONE - https://www.codewars.com/kata/595519279be6c575b5000016/train/python
+
+def battle(x, y):
+    ABC = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    l1, l2 = [], []
+
+    for chars in x:
+        for count, ele in enumerate(ABC,1):
+            if chars == ele:
+                l1.append(count)
+
+    for chars in y:
+        for count, ele in enumerate(ABC,1):
+            if chars == ele:
+                l2.append(count)
+    if sum(l1) > sum(l2):
+        return x
+    elif sum(l1) < sum(l2):
+        return y
+    else:
+        return "Tie!"
+
+battle('ABC','EFG')
+
+>>>
+'EFG'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
