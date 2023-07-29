@@ -9,6 +9,7 @@
 
 ---
 
+* [get_min_max](#get_min_max)
 * [battle](#battle)
 * [multi_table](#multi_table)
 * [capitals](#capitals)
@@ -109,6 +110,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### get_min_max
+
+```py
+#DONE - https://www.codewars.com/kata/57a1ae8c7cb1f31e4e000130/train/python
+
+def get_min_max(seq):
+    return min(seq), max(seq)
+
+get_min_max([2,1])
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
