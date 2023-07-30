@@ -9,6 +9,7 @@
 
 ---
 
+* [lowercase_count](#lowercase_count)
 * [get_min_max](#get_min_max)
 * [battle](#battle)
 * [multi_table](#multi_table)
@@ -113,6 +114,25 @@
 
 ---
 
+#### lowercase_count
+
+```py
+#DONE - https://www.codewars.com/kata/56a946cd7bd95ccab2000055/train/python
+
+def lowercase_count(strng):
+    return len([chars for chars in strng if chars.islower()])
+
+lowercase_count("abcDEf")
+
+>>>
+4
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### get_min_max
 
 ```py
@@ -124,7 +144,7 @@ def get_min_max(seq):
 get_min_max([2,1])
 
 >>>
-
+(1, 2)
 >>>
 ```
 
