@@ -9,6 +9,7 @@
 
 ---
 
+* [explode](#explode)
 * [lowercase_count](#lowercase_count)
 * [get_min_max](#get_min_max)
 * [battle](#battle)
@@ -111,6 +112,27 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### explode
+
+```py
+#DONE - https://www.codewars.com/kata/585b1fafe08bae9988000314/train/python
+
+def explode(s):
+    l = [int(nums)*nums for nums in s]
+    str1 = ''.join(l)
+    return str1
+
+explode('312')
+
+>>>
+'333122'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
