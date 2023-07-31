@@ -117,6 +117,10 @@
 
 #### explode
 
+```
+multiply the all the numbers with their own value
+```
+
 ```py
 #DONE - https://www.codewars.com/kata/585b1fafe08bae9988000314/train/python
 
@@ -138,6 +142,10 @@ explode('312')
 
 #### lowercase_count
 
+```
+count the lowercase characters in the string
+```
+
 ```py
 #DONE - https://www.codewars.com/kata/56a946cd7bd95ccab2000055/train/python
 
@@ -156,6 +164,10 @@ lowercase_count("abcDEf")
 ---
 
 #### get_min_max
+
+```
+get the minimum and maximum value from the list 
+```
 
 ```py
 #DONE - https://www.codewars.com/kata/57a1ae8c7cb1f31e4e000130/train/python
