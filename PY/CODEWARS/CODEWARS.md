@@ -9,6 +9,7 @@
 
 ---
 
+* [to_jaden_case](#to_jaden_case)
 * [explode](#explode)
 * [lowercase_count](#lowercase_count)
 * [get_min_max](#get_min_max)
@@ -115,6 +116,32 @@
 
 ---
 
+#### to_jaden_case
+
+```
+convert the first character into uppercase
+```
+
+```py
+#DONE - https://www.codewars.com/kata/5390bac347d09b7da40006f6/train/python
+
+def to_jaden_case(string):
+    inpL = string.split()
+    l = [chars.capitalize() for chars in inpL]
+    str1 = ' '.join(l)
+    return str1
+
+to_jaden_case("How can mirrors be real if our eyes aren't real")
+
+>>>
+"How Can Mirrors Be Real If Our Eyes Aren't Real"
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### explode
 
 ```
@@ -166,7 +193,7 @@ lowercase_count("abcDEf")
 #### get_min_max
 
 ```
-get the minimum and maximum value from the list 
+get the minimum and maximum value from the list
 ```
 
 ```py
