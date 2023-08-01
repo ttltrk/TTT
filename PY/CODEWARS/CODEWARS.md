@@ -9,6 +9,7 @@
 
 ---
 
+* [triangular](#triangular)
 * [to_jaden_case](#to_jaden_case)
 * [explode](#explode)
 * [lowercase_count](#lowercase_count)
@@ -113,6 +114,34 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### triangular
+
+```
+1st (1)   2nd (3)    3rd (6)
+*          **        ***
+           *         **
+                     *
+```
+
+```py
+#INP - https://www.codewars.com/kata/525e5a1cb735154b320002c8/train/python
+
+def triangular(n):
+    l = [nums for nums in range(1,n+1)]
+    l.reverse()
+    return sum(l)
+
+triangular(10)
+
+>>>
+55
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
