@@ -135,6 +135,195 @@ When you convert from Python to JSON, Python objects are converted into the JSON
 
 ---
 
+```py
+import json
+
+json_string = '''
+    {
+        "students": [
+            {
+                "id":1,
+                "name":"Tim",
+                "age":21,
+                "full-time":true
+            },
+            {
+                "id":2,
+                "name":"Joe",
+                "age":33,
+                "full-time":false
+            }
+        ]
+    }
+'''
+
+data = json.loads(json_string)
+
+print(data)
+print(' ')
+print(data['students'])
+print(' ')
+print(data['students'][0])
+
+>>>
+{'students': [{'id': 1, 'name': 'Tim', 'age': 21, 'full-time': True}, {'id': 2, 'name': 'Joe', 'age': 33, 'full-time': False}]}
+
+[{'id': 1, 'name': 'Tim', 'age': 21, 'full-time': True}, {'id': 2, 'name': 'Joe', 'age': 33, 'full-time': False}]
+
+{'id': 1, 'name': 'Tim', 'age': 21, 'full-time': True}
+>>>
+```
+
+[^^^](#JSON)
+
+---
+
+```py
+import json
+
+json_string = '''
+    {
+        "students": [
+            {
+                "id":1,
+                "name":"Tim",
+                "age":21,
+                "full-time":true
+            },
+            {
+                "id":2,
+                "name":"Joe",
+                "age":33,
+                "full-time":false
+            }
+        ]
+    }
+'''
+
+data = json.loads(json_string)
+
+data['test'] = True
+
+new_json = json.dumps(data)
+print(new_json)
+
+>>>
+{"students": [{"id": 1, "name": "Tim", "age": 21, "full-time": true}, {"id": 2, "name": "Joe", "age": 33, "full-time": false}], "test": true}
+>>>
+```
+
+[^^^](#JSON)
+
+---
+
+```py
+import json
+
+json_string = '''
+    {
+        "students": [
+            {
+                "id":1,
+                "name":"Tim",
+                "age":21,
+                "full-time":true
+            },
+            {
+                "id":2,
+                "name":"Joe",
+                "age":33,
+                "full-time":false
+            }
+        ]
+    }
+'''
+
+data = json.loads(json_string)
+
+data['test'] = True
+
+new_json = json.dumps(data, indent=2)
+print(new_json)
+
+>>>
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Tim",
+      "age": 21,
+      "full-time": true
+    },
+    {
+      "id": 2,
+      "name": "Joe",
+      "age": 33,
+      "full-time": false
+    }
+  ],
+  "test": true
+}
+>>>
+```
+
+[^^^](#JSON)
+
+---
+
+```py
+import json
+
+json_string = '''
+    {
+        "students": [
+            {
+                "id":1,
+                "name":"Tim",
+                "age":21,
+                "full-time":true
+            },
+            {
+                "id":2,
+                "name":"Joe",
+                "age":33,
+                "full-time":false
+            }
+        ]
+    }
+'''
+
+data = json.loads(json_string)
+
+data['test'] = True
+
+new_json = json.dumps(data, indent=2, sort_keys=True)
+print(new_json)
+
+>>>
+{
+  "students": [
+    {
+      "age": 21,
+      "full-time": true,
+      "id": 1,
+      "name": "Tim"
+    },
+    {
+      "age": 33,
+      "full-time": false,
+      "id": 2,
+      "name": "Joe"
+    }
+  ],
+  "test": true
+}
+>>>
+```
+
+[^^^](#JSON)
+
+---
+
 [^^^](#JSON)
 
 ---
