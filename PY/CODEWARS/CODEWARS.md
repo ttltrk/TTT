@@ -9,6 +9,7 @@
 
 ---
 
+* [what_time_is_it](#what_time_is_it)
 * [solution](#solution)
 * [triangular](#triangular)
 * [to_jaden_case](#to_jaden_case)
@@ -115,6 +116,45 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### what_time_is_it
+
+```py
+#DONE - https://www.codewars.com/kata/59752e1f064d1261cb0000ec/train/python
+
+def what_time_is_it(angle):
+
+    kh = 30
+    km = 2
+
+    hour = int(angle//kh)
+    minutes = int((angle%kh)*km)
+
+    if angle == 0 or angle == 360:
+        return '12:00'
+    elif str(hour)[0] == '0' and len(str(minutes)) == 2:
+        return f'12:{minutes}'
+    elif str(hour)[0] == '0' and len(str(minutes)) == 1:
+        return f'12:0{minutes}'
+    elif len(str(hour)) == 2 and len(str(minutes)) == 2:
+        return f'{hour}:{minutes}'
+    elif len(str(hour)) == 2 and len(str(minutes)) == 1:
+        return f'{hour}:0{minutes}'
+    elif len(str(hour)) == 1 and len(str(minutes)) == 2:
+        return f'0{hour}:{minutes}'
+    else:
+        return f'0{hour}:0{minutes}'
+
+what_time_is_it(27.1710)
+
+>>>
+'12:54'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
