@@ -9,6 +9,7 @@
 
 ---
 
+* [solution](#solution)
 * [triangular](#triangular)
 * [to_jaden_case](#to_jaden_case)
 * [explode](#explode)
@@ -114,6 +115,26 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### solution
+
+```py
+#DONE - https://www.codewars.com/kata/5143d157ceb46d6a61000001/train/python
+
+def solution(n):
+
+    return float('%.2f' % n)
+
+solution(5.678)
+
+>>>
+5.68
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
