@@ -126,6 +126,9 @@
 
 def what_time_is_it(angle):
 
+    #every hour is 30 degr.
+    #every min is 2 degr.
+
     kh = 30
     km = 2
 
