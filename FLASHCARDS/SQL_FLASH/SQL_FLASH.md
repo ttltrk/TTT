@@ -58,44 +58,6 @@ ELSE
 
 ---
 
-#### SELECT_DISTINCT_ONLY_EVENS
-
-```sql
---only even numbers
-SELECT DISTINCT personid FROM trk_test_01 WHERE Mod(personid,2)=0;
-
->>>
-personid|
---------|
-       2|
-       4|
-       6|
->>>
-```
-
-[^^^](#SQL_FLASH)
-
----
-
-#### SELECT_DISTINCT_ONLY_ODD_NUMS
-
-```sql
---only odd numbers
-SELECT DISTINCT personid FROM trk_test_01 WHERE Mod(personid,2)=1;
-
->>>
-personid|
---------|
-       1|
-       3|
-       5|
->>>
-```
-
-[^^^](#SQL_FLASH)
-
----
-
 #### SELECT_DISTINCT_DIFFERENCE
 
 ```sql
