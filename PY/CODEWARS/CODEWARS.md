@@ -9,6 +9,7 @@
 
 ---
 
+* [area_code](#area_code)
 * [what_time_is_it](#what_time_is_it)
 * [solution](#solution)
 * [triangular](#triangular)
@@ -116,6 +117,29 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### area_code
+
+```py
+#DONE - https://www.codewars.com/kata/585a36b445376cbc22000072/train/python
+
+def area_code(text):
+    l = [chars for chars in text]
+    k1 = l.index('(')
+    k2 = l.index(')')
+    str1 = ''.join(l[k1+1:k2])
+    return str1
+
+area_code("The supplier's phone number is (555) 867-5309")
+
+>>>
+'555'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
