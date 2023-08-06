@@ -122,6 +122,10 @@
 
 #### area_code
 
+```
+how find a part of the string
+```
+
 ```py
 #DONE - https://www.codewars.com/kata/585a36b445376cbc22000072/train/python
 
@@ -131,6 +135,18 @@ def area_code(text):
     k2 = l.index(')')
     str1 = ''.join(l[k1+1:k2])
     return str1
+
+area_code("The supplier's phone number is (555) 867-5309")
+
+>>>
+'555'
+>>>
+```
+
+```py
+def area_code(text):
+    l = [chars for chars in text]
+    return ''.join(l[l.index('(')+1:l.index(')')])
 
 area_code("The supplier's phone number is (555) 867-5309")
 
