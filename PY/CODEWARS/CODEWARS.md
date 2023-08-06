@@ -123,7 +123,7 @@
 #### area_code
 
 ```
-how find a part of the string
+how to find a part of the string
 ```
 
 ```py
