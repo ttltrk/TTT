@@ -9,6 +9,7 @@
 
 ---
 
+* [is_opposite](#is_opposite)
 * [area_code](#area_code)
 * [what_time_is_it](#what_time_is_it)
 * [solution](#solution)
@@ -117,6 +118,37 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### is_opposite
+
+```py
+#DONE - https://www.codewars.com/kata/574b1916a3ebd6e4fa0012e7/train/python
+
+def is_opposite(s1,s2):
+
+    l1 = [chars for chars in s1]
+    l2 = [chars for chars in s2]
+
+    if len(l1) == 0 or len(l2) == 0:
+        return False
+    else:
+        for chs1 in s1:
+            for chs2 in s2:
+                if chs1 == chs2:
+                    return False
+                else:
+                    return True
+
+is_opposite('aB','Ab')
+
+>>>
+True 
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
