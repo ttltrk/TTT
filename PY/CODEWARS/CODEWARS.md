@@ -124,6 +124,10 @@
 
 #### process_data
 
+```
+Multiply all numbers in the list
+```
+
 ```py
 #DONE - https://www.codewars.com/kata/586e1d458cb711f0a800033b/train/python
 
