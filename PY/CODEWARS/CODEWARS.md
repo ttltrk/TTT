@@ -9,6 +9,7 @@
 
 ---
 
+* [process_data](#process_data)
 * [is_opposite](#is_opposite)
 * [area_code](#area_code)
 * [what_time_is_it](#what_time_is_it)
@@ -121,6 +122,30 @@
 
 ---
 
+#### process_data
+
+```py
+#DONE - https://www.codewars.com/kata/586e1d458cb711f0a800033b/train/python
+
+def process_data(data):
+    l = [nums[0]-nums[-1] for nums in data]
+    #Multiply all numbers in the list
+    result = 1
+    for x in l:
+        result = result * x
+    return result
+
+process_data([[2, 9], [2, 4], [7, 5]])
+
+>>>
+28
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### is_opposite
 
 ```py
@@ -144,7 +169,7 @@ def is_opposite(s1,s2):
 is_opposite('aB','Ab')
 
 >>>
-True 
+True
 >>>
 ```
 
