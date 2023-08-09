@@ -9,6 +9,7 @@
 
 ---
 
+* [vowel_2_index](#vowel_2_index)
 * [process_data](#process_data)
 * [is_opposite](#is_opposite)
 * [area_code](#area_code)
@@ -119,6 +120,36 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### vowel_2_index
+
+```py
+#DONE - https://www.codewars.com/kata/55d410c492e6ed767000004f/train/python
+
+def vowel_2_index(string):
+    vow = 'aeiouAEIOU'
+    fin = []
+
+    l = [chars for chars in string]
+
+    for vals,ele in enumerate(l):
+        if ele in vow:
+            fin.append(str(vals+1))
+        else:
+            fin.append(ele)
+
+    str1 = ''.join(fin)
+    return str1
+vowel_2_index('this is my string')
+
+>>>
+'th3s 6s my str15ng'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
