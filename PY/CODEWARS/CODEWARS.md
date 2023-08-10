@@ -9,6 +9,7 @@
 
 ---
 
+* [filter_string](#filter_string)
 * [vowel_2_index](#vowel_2_index)
 * [process_data](#process_data)
 * [is_opposite](#is_opposite)
@@ -120,6 +121,26 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### filter_string
+
+```py
+#DONE - https://www.codewars.com/kata/55b051fac50a3292a9000025/train/python
+
+def filter_string(string):    
+    return int(''.join([n for n in string if n in '1234567890']))
+
+
+filter_string('a1b2c3')
+
+>>>
+123 
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
