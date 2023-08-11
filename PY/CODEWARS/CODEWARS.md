@@ -9,6 +9,7 @@
 
 ---
 
+* [is_divisible](#is_divisible)
 * [filter_string](#filter_string)
 * [vowel_2_index](#vowel_2_index)
 * [process_data](#process_data)
@@ -124,6 +125,37 @@
 
 ---
 
+#### is_divisble
+
+```py
+#INP - https://www.codewars.com/kata/558ee8415872565824000007/train/python
+
+def is_divisible(*args):
+
+    l = [nums for nums in args]
+    res = []
+
+    for nums in l[1:]:
+        if args[0]%nums != 0:
+            res.append('x')
+        
+    if len(res) != 0:
+        return False
+    else:
+        return True
+
+
+is_divisible(3,3,4)
+
+>>>
+False
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### filter_string
 
 ```py
@@ -136,7 +168,7 @@ def filter_string(string):
 filter_string('a1b2c3')
 
 >>>
-123 
+123
 >>>
 ```
 
