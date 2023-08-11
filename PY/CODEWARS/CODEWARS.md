@@ -125,7 +125,7 @@
 
 ---
 
-#### is_divisble
+#### is_divisible
 
 ```py
 #INP - https://www.codewars.com/kata/558ee8415872565824000007/train/python
@@ -138,7 +138,7 @@ def is_divisible(*args):
     for nums in l[1:]:
         if args[0]%nums != 0:
             res.append('x')
-        
+
     if len(res) != 0:
         return False
     else:
