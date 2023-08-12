@@ -127,6 +127,10 @@
 
 #### is_divisible
 
+```
+the first num is divisble wit the rest
+```
+
 ```py
 #INP - https://www.codewars.com/kata/558ee8415872565824000007/train/python
 
