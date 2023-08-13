@@ -9,6 +9,7 @@
 
 ---
 
+* [drop_cap](#drop_cap)
 * [is_divisible](#is_divisible)
 * [filter_string](#filter_string)
 * [vowel_2_index](#vowel_2_index)
@@ -122,6 +123,43 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### drop_cap
+
+```
+DropCaps means that the first letter of the starting word of the paragraph should be in caps and the remaining lowercase, just like you see in the newspaper.
+
+But for a change, let"s do that for each and every word of the given String. Your task is to capitalize every word that has length greater than 2, leaving smaller words as they are.
+
+*should work also on Leading and Trailing Spaces and caps.
+```
+
+```py
+#DONE - https://www.codewars.com/kata/559e5b717dd758a3eb00005a/train/python
+
+def drop_cap(words):
+
+    inpL = words.split(' ')
+
+    l = []
+    for chars in inpL:
+        if len(chars) > 2:
+            l.append(chars.capitalize())
+        else:
+            l.append(chars)
+    str1 = ' '.join(l)
+    return str1
+
+drop_cap('one  a  space')
+
+>>>
+'One  a  Space'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
