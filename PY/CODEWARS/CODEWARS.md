@@ -141,6 +141,7 @@ But for a change, let"s do that for each and every word of the given String. You
 
 def drop_cap(words):
 
+    #the below mentioned split will append all the whitespaces into the list
     inpL = words.split(' ')
 
     l = []
