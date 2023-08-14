@@ -9,6 +9,7 @@
 
 ---
 
+* [print_array](#print_array)
 * [get_military_time](#get_military_time)
 * [drop_cap](#drop_cap)
 * [is_divisible](#is_divisible)
@@ -124,6 +125,23 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### print_array
+
+```py
+def print_array(arr):
+    l = [str(nums) for nums in arr]
+    str1 = ','.join(l)
+    return str1
+
+>>>
+'2,4,5,2'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
