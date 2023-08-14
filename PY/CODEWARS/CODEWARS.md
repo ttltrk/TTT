@@ -9,6 +9,7 @@
 
 ---
 
+* [get_military_time](#get_military_time)
 * [drop_cap](#drop_cap)
 * [is_divisible](#is_divisible)
 * [filter_string](#filter_string)
@@ -123,6 +124,38 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### get_military_time
+
+```py
+#DONE - https://www.codewars.com/kata/57729a09914da60e17000329/train/python
+
+def get_military_time(time):
+    l = [chars for chars in time]
+    k = l[:2]
+    str1 = ''.join(k)
+    i_str1 = int(str1)
+
+    if i_str1 == 12 and 'A' in l:
+        return '00'+time[2:-2]
+    elif i_str1 == 12 and 'P' in l:
+        return time[:-2]
+    elif 'P' in l:
+        a = 12+i_str1
+        return str(a)+time[2:-2]
+    else:
+        return time[:-2]
+
+get_military_time('12:46:47PM')
+
+>>>
+'12:46:47'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
