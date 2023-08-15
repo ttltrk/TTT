@@ -9,6 +9,7 @@
 
 ---
 
+* [max_diff](#max_diff)
 * [print_array](#print_array)
 * [get_military_time](#get_military_time)
 * [drop_cap](#drop_cap)
@@ -125,6 +126,28 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### max_diff
+
+```py
+#INP - https://www.codewars.com/kata/588a3c3ef0fbc9c8e1000095/train/python
+
+def max_diff(lst):
+    if len(lst) <= 1:
+        return 0
+    else:
+        return max(lst)-min(lst)
+
+max_diff([0, 1, 2, 3, 4, 5, 6])
+
+>>>
+6
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
