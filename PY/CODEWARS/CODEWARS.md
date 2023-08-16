@@ -9,6 +9,7 @@
 
 ---
 
+* [two_are_positive](#two_are_positive)
 * [max_diff](#max_diff)
 * [print_array](#print_array)
 * [get_military_time](#get_military_time)
@@ -126,6 +127,39 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### two_are_positive
+
+```py
+#DONE - https://www.codewars.com/kata/602db3215c22df000e8544f0/train/python
+
+def two_are_positive(a, b, c):
+    l,ll, lx = [],[],[]
+    l.append(a)
+    l.append(b)
+    l.append(c)
+
+    for nums in l:
+        if nums <= 0:
+            ll.append('x')
+        elif nums > 0:
+            lx.append('x')
+
+    if len(ll) > 1 or len(lx) == 3:
+        return False
+    else:
+        return True
+
+two_are_positive(97, 63, 0)
+
+>>>
+True 
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
