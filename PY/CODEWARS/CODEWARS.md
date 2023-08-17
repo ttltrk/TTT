@@ -9,6 +9,7 @@
 
 ---
 
+* [tail_swap](#tail_swap)
 * [two_are_positive](#two_are_positive)
 * [max_diff](#max_diff)
 * [print_array](#print_array)
@@ -130,6 +131,34 @@
 
 ---
 
+#### tail_swap
+
+```py
+def tail_swap(strings):   
+    k1 = strings[0].index(':')
+    k2 = strings[1].index(':')    
+    b1 = strings[0][:k1+1]
+    b2 = strings[1][:k2+1]
+    e1 = strings[0][k1+1:]
+    e2 = strings[1][k2+1:]    
+    f1 = b1+e2
+    f2 = b2+e1    
+    l = []
+    l.append(f1)
+    l.append(f2)    
+    return l
+
+tail_swap(['abc:123', 'cde:456'])
+
+>>>
+['abc:456', 'cde:123']
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### two_are_positive
 
 ```py
@@ -155,7 +184,7 @@ def two_are_positive(a, b, c):
 two_are_positive(97, 63, 0)
 
 >>>
-True 
+True
 >>>
 ```
 
