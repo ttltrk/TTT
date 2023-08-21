@@ -9,6 +9,7 @@
 
 ---
 
+* [nato](#nato)
 * [tail_swap](#tail_swap)
 * [two_are_positive](#two_are_positive)
 * [max_diff](#max_diff)
@@ -128,6 +129,42 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### nato
+
+```py
+#DONE - https://www.codewars.com/kata/54530f75699b53e558002076/train/python
+
+def nato(word):
+    nato = {'a':'Alpha', 'b':'Bravo', 'c':'Charlie', 'd':'Delta', 'e':'Echo',
+            'f':'Foxtrot', 'g':'Golf', 'h':'Hotel', 'i':'India', 'j':'Juliett',
+            'k':'Kilo', 'l':'Lima', 'm':'Mike', 'n':'November', 'o':'Oscar', 'p':'Papa',
+            'q':'Quebec', 'r':'Romeo', 's':'Sierra', 't':'Tango', 'u':'Uniform',
+            'v':'Victor', 'w':'Whiskey', 'x':'X-ray', 'y':'Yankee', 'z':'Zulu'}
+
+    l = [chars.lower() for chars in word]
+
+    #iterate trough list and dictionary
+    l1 = []
+    for ch in l:
+        for chars in nato.keys():
+            if ch == chars:
+                l1.append(nato[ch])
+
+    str1 = ' '.join(l1)
+    return str1
+
+
+nato('hi')
+
+>>>
+'Hotel India'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
