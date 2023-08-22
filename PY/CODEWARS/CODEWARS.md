@@ -9,6 +9,7 @@
 
 ---
 
+* [am_I_afraid](#am_I_afraid)
 * [nato](#nato)
 * [tail_swap](#tail_swap)
 * [two_are_positive](#two_are_positive)
@@ -129,6 +130,41 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### am_I_afraid
+
+```py
+#DONE - https://www.codewars.com/kata/55b1fd84a24ad00b32000075/train/python
+
+def am_I_afraid(day,num):
+    res = True
+    if day == 'Monday' and num == 12:
+        return res
+    elif day == 'Tuesday' and num > 95:
+        return res
+    elif day == 'Wednesday' and num == 34:
+        return res
+    elif day == 'Thursday' and num == 0:
+        return res
+    elif day == 'Friday' and num%2 == 0:
+        return res
+    elif day == 'Saturday' and num == 56 :
+        return res
+    elif day == 'Sunday' and (num == 666 or num == -666):
+        return res
+    else:
+        return False
+
+am_I_afraid('Monday',   13)
+
+>>>
+False
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
