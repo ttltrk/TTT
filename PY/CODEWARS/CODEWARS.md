@@ -9,6 +9,7 @@
 
 ---
 
+* [encode](#encode)
 * [am_I_afraid](#am_I_afraid)
 * [nato](#nato)
 * [tail_swap](#tail_swap)
@@ -130,6 +131,18 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### encode
+
+```py
+
+```
+
+```
+inp
+```
 
 ---
 
