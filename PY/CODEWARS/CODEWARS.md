@@ -134,15 +134,24 @@
 
 ---
 
-#### encode
+#### break_chocolate
 
 ```py
+def break_chocolate(n, m):
+    res = (n*m)-1
+    if res < 0:
+        return 0
+    else:
+        return res
 
+break_chocolate(5,5)
+
+>>>
+24
+>>>
 ```
 
-```
-inp - enumerate
-```
+[^^^](#CODEWARS)
 
 ---
 
