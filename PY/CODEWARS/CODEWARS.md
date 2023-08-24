@@ -141,7 +141,7 @@
 ```
 
 ```
-inp
+inp - enumerate
 ```
 
 ---
