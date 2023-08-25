@@ -9,6 +9,7 @@
 
 ---
 
+* [double_char](#double_char)
 * [encode](#encode)
 * [am_I_afraid](#am_I_afraid)
 * [nato](#nato)
@@ -131,6 +132,27 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### double_char    
+
+```py
+def double_char(s):
+    #l = [chars+chars for chars in s]
+    #str1 = ''.join(l)
+    #return str1
+
+    return ''.join([chars+chars for chars in s])
+
+double_char('hello')
+
+>>>
+hheelllloo
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
