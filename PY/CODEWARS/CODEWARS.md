@@ -9,6 +9,7 @@
 
 ---
 
+* [max_multiple](#max_multiple)
 * [double_char](#double_char)
 * [encode](#encode)
 * [am_I_afraid](#am_I_afraid)
@@ -132,6 +133,22 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### max_multiple
+
+```py
+def max_multiple(divisor, bound):
+    l = [nums for nums in range(divisor,bound+1,divisor)]
+    return max(l)
+
+max_multiple(10,50)
+
+>>>
+50
+>>>
+```
 
 ---
 
