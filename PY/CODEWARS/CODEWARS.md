@@ -9,6 +9,7 @@
 
 ---
 
+* [maskify](#maskify)
 * [who_took_the_car_key](#who_took_the_car_key)
 * [max_multiple](#max_multiple)
 * [double_char](#double_char)
@@ -134,6 +135,37 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### maskify
+
+```py
+#DONE - https://www.codewars.com/kata/5412509bd436bd33920011bc/train/python
+
+# return masked string
+def maskify(cc):
+    l = [chars for chars in cc]
+    lx = [chars.replace(chars,'#') for chars in cc]
+
+    if len(cc) < 4:
+        return cc
+    else:
+        lx = lx[:-4]
+        l = l[-4:]
+        str1 = ''.join(l)
+        lx.append(str1)
+        str2 = ''.join(lx)
+        return str2    
+
+maskify('12356789')
+
+>>>
+'####6789'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
