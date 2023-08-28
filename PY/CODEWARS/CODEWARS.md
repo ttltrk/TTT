@@ -9,6 +9,7 @@
 
 ---
 
+* [greet_jedi](#greet_jedi)
 * [maskify](#maskify)
 * [who_took_the_car_key](#who_took_the_car_key)
 * [max_multiple](#max_multiple)
@@ -135,6 +136,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### greet_jedi
+
+```py
+#DONE - https://www.codewars.com/kata/585a29183d357b31f700023f/train/python
+
+def greet_jedi(first, last):  
+    return f'Greetings, master {last[:3].title()}{first[:2].title()}'
+
+greet_jedi('beyonce', 'knowles')
+
+>>>
+'Greetings, master KnoBe'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
