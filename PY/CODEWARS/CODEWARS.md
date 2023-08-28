@@ -9,6 +9,7 @@
 
 ---
 
+* [converter](#converter)
 * [billboard](#billboard)
 * [greet_jedi](#greet_jedi)
 * [maskify](#maskify)
@@ -137,6 +138,26 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### converter  
+
+```py
+#DONE - https://www.codewars.com/kata/557b5e0bddf29d861400005d/train/python
+
+def converter(mpg):
+    n = mpg*(1.609344/4.54609188)
+    return float('%.2f' % n)
+
+converter(24)
+
+>>>
+8.5
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
