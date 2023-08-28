@@ -9,6 +9,7 @@
 
 ---
 
+* [billboard](#billboard)
 * [greet_jedi](#greet_jedi)
 * [maskify](#maskify)
 * [who_took_the_car_key](#who_took_the_car_key)
@@ -136,6 +137,25 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### billboard
+
+```py
+#DONE - https://www.codewars.com/kata/570e8ec4127ad143660001fd/train/python
+
+def billboard(name, price=30):    
+    return sum([price for chars in name])
+
+billboard('Jeong-Ho Aristotelis')
+
+>>>
+600
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
