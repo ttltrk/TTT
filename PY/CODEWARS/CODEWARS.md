@@ -141,6 +141,19 @@
 #### maskify
 
 ```py
+#BS
+
+word = list(cc)
+#loop through the list except the last 4 index's this will also prevent
+#the loop from running for anything less than 5 index's long
+for i in range(len(word) - 4):
+  word[i] = '#'
+# join and return the list
+return ''.join(word)
+
+```
+
+```py
 #DONE - https://www.codewars.com/kata/5412509bd436bd33920011bc/train/python
 
 # return masked string
