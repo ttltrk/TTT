@@ -9,6 +9,7 @@
 
 ---
 
+* [tiy_fizz_buzz](#tiy_fizz_buzz)
 * [converter](#converter)
 * [billboard](#billboard)
 * [greet_jedi](#greet_jedi)
@@ -138,6 +139,41 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+####
+
+```py
+#DONE - https://www.codewars.com/kata/5889177bf148eddd150002cc/train/python
+
+def tiy_fizz_buzz(string):
+    VOW = 'AEOUI'
+    vow = 'aeoui'
+    l = []
+    for chars in string:
+        if chars in VOW:
+            x = chars.replace(chars,'Iron Yard')
+            l.append(x)
+        elif chars in vow:
+            x = chars.replace(chars,'Yard')
+            l.append(x)
+        elif chars.isupper() == True:
+            l.append('Iron')
+        else:
+            l.append(chars)
+
+    str1 = ''.join(l)
+    return str1
+
+tiy_fizz_buzz('AaGGg9')
+
+>>>
+'Iron YardYardIronIrong9'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
