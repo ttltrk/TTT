@@ -9,6 +9,7 @@
 
 ---
 
+* [range_bit_count](#range_bit_count)
 * [tiy_fizz_buzz](#tiy_fizz_buzz)
 * [converter](#converter)
 * [billboard](#billboard)
@@ -139,6 +140,44 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### range_bit_count
+
+```py
+#INP - https://www.codewars.com/kata/58845748bd5733f1b300001f/train/python
+
+'''
+00 - 0000
+01 - 0001
+02 - 0010
+03 - 0011
+
+04 - 0100
+05 - 0101
+06 - 0110
+07 - 0111
+
+08  - 1000
+09  - 1001
+10 - 1010
+11 - 1011
+
+12 - 1100
+13 - 1101
+14 - 1110
+15 - 1111
+'''
+
+def range_bit_count(a, b):
+    l = [chars for chars in range(a,b+1)]
+    return l
+
+range_bit_count(2,7)
+```
+
+[^^^](#CODEWARS)
 
 ---
 
