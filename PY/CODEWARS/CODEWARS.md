@@ -9,6 +9,7 @@
 
 ---
 
+* [owl_pic](#owl_pic)
 * [range_bit_count](#range_bit_count)
 * [tiy_fizz_buzz](#tiy_fizz_buzz)
 * [converter](#converter)
@@ -140,6 +141,41 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### owl_pic
+
+```py
+#DONE - https://www.codewars.com/kata/55aa7acc42216b3dd6000022/train/python
+
+def owl_pic(text):
+    keys = '8WwTtYyUuIiOoAaHhXxVvMm'
+
+    l = [chars for chars in text]
+
+    ll = []
+
+    for chars in l:
+        if chars in keys:
+            ll.append(chars.upper())
+
+    lr = ll.copy()
+    lr.reverse()
+
+    strll = ''.join(ll)
+    strlr = ''.join(lr)
+
+    return f"{strll}''0v0''{strlr}"
+
+owl_pic('xwe')
+
+>>>
+"XW''0v0''WX"
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
