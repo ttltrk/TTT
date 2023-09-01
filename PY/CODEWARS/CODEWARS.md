@@ -9,6 +9,7 @@
 
 ---
 
+* [solution](#solution)
 * [owl_pic](#owl_pic)
 * [range_bit_count](#range_bit_count)
 * [tiy_fizz_buzz](#tiy_fizz_buzz)
@@ -141,6 +142,26 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### solution
+
+```py
+#DONE - https://www.codewars.com/kata/5168b125faced29f66000005/train/python
+
+def solution(full_text, search_text):
+    return full_text.count(search_text)
+
+
+solution('abcdeb','a')
+
+>>>
+1
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
