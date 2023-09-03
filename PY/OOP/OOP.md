@@ -114,9 +114,10 @@ Objects can also contain methods. Methods in objects are functions that belong t
 
 ```py
 class Person:
-  def __init__(self, name, age):
+  def __init__(self, name, age, feeling):
     self.name = name
     self.age = age
+    self.feeling = feeling
 
   def myName(self):
     print("Hello my name is " + self.name)
@@ -124,14 +125,19 @@ class Person:
   def myAge(self):
     print("I'm " + str(self.age) + ' years old.')
 
-p1 = Person("John", 36)
+  def myFeeling(self):
+    print("I'm feeling " + self.feeling)
+
+p1 = Person("John", 36, "fine")
 
 p1.myName()
 p1.myAge()
+p1.myFeeling()
 
 >>>
 Hello my name is John
 I'm 36 years old.
+I'm feeling fine
 >>>
 ```
 
