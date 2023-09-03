@@ -81,21 +81,24 @@ that are necessary to do when the object is being created:
 
 ```py
 class Person:
-  def __init__(self, name, age, position):
+  def __init__(self, name, age, position, feeling):
     self.name = name
     self.age = age
     self.position = position
+    self.feeling = feeling
 
-p1 = Person("John", 36, "dev")
+p1 = Person("John", 36, "dev", "ok")
 
 print(p1.name)
 print(p1.age)
 print(p1.position)
+print(p1.feeling)
 
 >>>
 John
 36
 dev
+ok
 >>>
 ```
 
