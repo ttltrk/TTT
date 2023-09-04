@@ -9,6 +9,7 @@
 
 ---
 
+* [two_highest](#two_highest)
 * [solution](#solution)
 * [owl_pic](#owl_pic)
 * [range_bit_count](#range_bit_count)
@@ -142,6 +143,42 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### two_highest
+
+```py
+#INP - https://www.codewars.com/kata/57ab3c09bb994429df000a4a/train/python
+
+def two_highest(a):
+    s = set(a)
+    c = len(s)    
+    l = []
+
+    if c == 0:
+        return l
+    elif c == 1:
+        m = max(s)
+        l.append(m)
+        return l
+    else:
+        s = set(a)
+        m = max(s)
+        l.append(m)
+        s.remove(m)
+        m2 = max(s)
+        l.append(m2)
+        return l
+
+two_highest([1, 2, 3, 4, 4, 5])
+
+>>>
+[5, 4]
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
