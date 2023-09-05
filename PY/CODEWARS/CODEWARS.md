@@ -9,6 +9,7 @@
 
 ---
 
+* [is_even](#is_even)
 * [two_highest](#two_highest)
 * [solution](#solution)
 * [owl_pic](#owl_pic)
@@ -143,6 +144,28 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### is_even
+
+```py
+#DONE - https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/python
+
+def is_even(n):
+    if float(n)%2 == 0:
+        return True
+    else:
+        return False
+
+is_even(2)
+
+>>>
+True
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
