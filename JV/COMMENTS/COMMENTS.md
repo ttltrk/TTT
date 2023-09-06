@@ -26,16 +26,19 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) {
-        //this is a comment
-        System.out.println("Hello World"); //this is another comment
-        /* Multi-line comments are here
-        and there too */
-    }
+  public static void main(String[] args) {
+      //this is a comment
+      System.out.println("1st line"); //this is another comment
+
+      /* Multi-line comments are here
+      and there too */
+      System.out.println("2nd line");
+  }
 }
 
 >>>
-Hello World
+1st line
+2nd line
 >>>
 ```
 
