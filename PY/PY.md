@@ -54,6 +54,7 @@
 * [ALGO](https://github.com/ttltrk/TTT/blob/master/PY/ALGO/ALGO.md)
 * [API](https://github.com/ttltrk/TTT/blob/master/PY/API/API.md)
 * [MATH](https://github.com/ttltrk/TTT/blob/master/PY/MATH/MATH.md)
+* [MODULES](https://github.com/ttltrk/TTT/blob/master/PY/MODULES/MODULES.md)
 
 ---
 
