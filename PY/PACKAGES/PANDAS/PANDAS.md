@@ -59,6 +59,9 @@ import pandas as pd
 import pandas as pd
 ```
 
+```
+```
+
 ```py
 df = pd.read_csv('sample_data/california_housing_train.csv')
 ```
