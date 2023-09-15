@@ -512,6 +512,27 @@ print(myvar)
 >>>
 ```
 
+```
+import pandas
+
+mydataset = {
+  'cars': ["BMW", "Volvo", "Ford", "VW"],
+  'passings': [3, 7, 2, 55]
+}
+
+myvar = pandas.DataFrame(mydataset)
+
+print(myvar)
+
+>>>
+cars  passings
+0    BMW         3
+1  Volvo         7
+2   Ford         2
+3     VW        55
+>>>
+```
+
 ```py
 import pandas
 
