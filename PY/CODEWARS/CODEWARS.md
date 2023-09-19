@@ -9,6 +9,7 @@
 
 ---
 
+* [corrections](#corrections)
 * [is_even](#is_even)
 * [two_highest](#two_highest)
 * [solution](#solution)
@@ -147,15 +148,29 @@
 
 ---
 
+#### corrections
+
+```py
+#DONE - https://www.codewars.com/kata/55a710b462afc49a540000b9/train/python
+
+def corrections(x):
+    if x > 0:
+        return f'{x} is more than zero.'
+    else:
+        return f'{x} is equal to or less than zero.'
+
+corrections(8)
+
+>>>
+'8 is more than zero.'
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
 #### is_even
-
-```
-
-```
-
-```
-
-```
 
 ```py
 #DONE - https://www.codewars.com/kata/555a67db74814aa4ee0001b5/train/python
