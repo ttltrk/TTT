@@ -9,6 +9,7 @@
 
 ---
 
+* [gimme_the_letters](#gimme_the_letters)
 * [corrections](#corrections)
 * [is_even](#is_even)
 * [two_highest](#two_highest)
@@ -145,6 +146,36 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### gimme_the_letters
+
+```py
+#DONE - https://www.codewars.com/kata/6512b3775bf8500baea77663/train/python
+
+def gimme_the_letters(sp):
+
+    ABC = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    abc = [chars.lower() for chars in ABC]
+
+    if sp[0].islower():
+        w1_i = abc.index(sp[0])
+        w2_i = abc.index(sp[2])
+        return ''.join(abc[w1_i:w2_i+1])
+    else:
+        w1_i = ABC.index(sp[0])
+        w2_i = ABC.index(sp[2])
+        return ''.join(ABC[w1_i:w2_i+1])    
+
+gimme_the_letters("F-O")
+
+>>>
+'FGHIJKLMNO'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
