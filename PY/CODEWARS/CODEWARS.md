@@ -9,6 +9,7 @@
 
 ---
 
+* [nickname_generator](#nickname_generator)
 * [gimme_the_letters](#gimme_the_letters)
 * [corrections](#corrections)
 * [is_even](#is_even)
@@ -146,6 +147,30 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### nickname_generator
+
+```py
+#DONE - https://www.codewars.com/kata/593b1909e68ff627c9000186/train/python
+
+def nickname_generator(name):
+    if len(name) <= 3:
+        return 'Error: Name too short'
+    elif name[2] in 'aeiou':
+        return name[:4]
+    else:
+        return name[:3]
+
+nickname_generator('Jeanny')
+
+>>>
+'Jean'
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
