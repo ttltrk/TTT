@@ -29,7 +29,38 @@
 A halmaz szot az osztaly, a csalad, az osszesseg, a sokasag a rendszer koznyelvi szavak szinonimajakent hasznaljuk, az elem szot
 pedig a tag, a pont, az objektum szavak helyett.
 
-A halmazokat az abece nagybetuivel, elemeit pedig kisbetuivel jeloljuk. 
+A halmazokat az abece nagybetuivel, elemeit pedig kisbetuivel jeloljuk.
+
+- URES_HALMAZ
+
+```
+Az egyetlen elemet sem tartalmazo halmazt nevezzuk ures halmaznak.
+```
+
+- VEGES_HALMAZ
+
+```
+A veges elemszamu halmazokat roviden veges halmazoknak nevezzuk.
+```
+
+- VEGTELEN_HALMAZ
+
+```
+A vegtelen sok elemet tartalmazo halmazazt (pl: pozitiv egesz szamok halmaza) pedig vegtelen halmaznak nevezzuk.
+```
+
+- EGYENLOSEG
+
+```
+Ket halmaz A es B egyenlo egymassal ha az A es a B halmaz elemei azonosak. A = B
+```
+
+- RESZHALMAZ
+
+```
+Az A halmaz a B halmaznak reszhalmaza, ha az A halmaz minden eleme a B halmaznak is eleme. 
+```
+
 
 [^^^](#HALMAZELMELET)
 
