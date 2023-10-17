@@ -58,9 +58,17 @@ Ket halmaz A es B egyenlo egymassal ha az A es a B halmaz elemei azonosak. A = B
 - RESZHALMAZ
 
 ```
-Az A halmaz a B halmaznak reszhalmaza, ha az A halmaz minden eleme a B halmaznak is eleme. 
+Az A halmaz a B halmaznak reszhalmaza, ha az A halmaz minden eleme a B halmaznak is eleme.
 ```
 
+```
+Legyen X, Y es V harom halmaz. Ha X reszhalmaza Y es Y reszhalmaza V akkor X reszhalmaza V is fennall. A reszhalmaz-relacio
+tranzitiv tulajdonsagu.
+```
+
+```
+Barmely A halmaz osszes reszhalmazanak halmazat A hatvanyhalmaznak nevezzuk es P(A)-val jeloljuk.
+```
 
 [^^^](#HALMAZELMELET)
 
