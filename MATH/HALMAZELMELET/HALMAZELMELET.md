@@ -77,7 +77,7 @@ Barmely A halmaz osszes reszhalmazanak halmazat A hatvanyhalmaznak nevezzuk es P
 #### MUVELETEK_HALMAZOKKAL
 
 ```
-
+A es B unioja azokbol es csakis azokbol az elemekbol all, amelyek A es B kozul legalabb az egyikhez hozzatartoznak. 
 ```
 
 [^^^](#HALMAZELMELET)
