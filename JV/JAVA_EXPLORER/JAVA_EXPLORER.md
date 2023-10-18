@@ -46,6 +46,9 @@
 
 #### JAVA_DESIGN
 
+- inheritation
+- polymorphism 
+
 ```
 
 ```
