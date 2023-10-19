@@ -61,8 +61,33 @@ Module
 
 #### JAVA_DESIGN
 
-- inheritation
-- polymorphism
+```
+- A class represents a type of thing or a concept.
+- An object is an instance - aspecifi example of a class.
+```
+
+- Reusing Code Through Inheritance
+
+```
+- reuse (inherit) attributes and
+behaviors across the class hierarchy.
+
+- top-level classes contain
+generic code reused by their
+descendants.
+```
+
+- Use Unified Modelling Language (UML)
+
+```
+- Analyze business requirements
+- Model code structures
+- Describe application deployment
+```
+
+---
+
+#### JAVA_APIs
 
 ```
 
