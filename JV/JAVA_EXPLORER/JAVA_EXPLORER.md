@@ -90,7 +90,17 @@ descendants.
 #### JAVA_APIs
 
 ```
+- An array is a simple group of elements.
 
+- the collection API provides more flexible
+capabilities for managing groups of elements.
+    - ArrayList
+    - LinkedList
+    - Set
+    - Stack
+    - Queue
+
+add, update, remove, search, rearrange 
 ```
 
 ---
