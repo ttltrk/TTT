@@ -100,7 +100,7 @@ capabilities for managing groups of elements.
     - Stack
     - Queue
 
-add, update, remove, search, rearrange 
+add, update, remove, search, rearrange
 ```
 
 ---
