@@ -39,7 +39,22 @@
 #### JAVA_LANGUAGE
 
 ```
+Class
+  - Basic unit of code
+  - Describe data and logic of your program
 
+Package
+  - Intermediate logical code aggregation
+  - Group of classes
+
+Module
+  - High-level physical code aggregation
+  - Group of packages
+```
+
+```
+- Java code is grouped into a classes.
+- Classes contain methods and variables that fulfill their purpose.
 ```
 
 ---
@@ -47,7 +62,7 @@
 #### JAVA_DESIGN
 
 - inheritation
-- polymorphism 
+- polymorphism
 
 ```
 
