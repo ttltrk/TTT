@@ -162,6 +162,8 @@ Du bist klug. - Okos vagy.
 #### TE
 
 ```
+Ich brauche beide Autos.
+Brauchst du dieses Foto?
 
 ```
 
