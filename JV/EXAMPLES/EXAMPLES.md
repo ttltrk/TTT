@@ -1,6 +1,33 @@
 
+#### inp_name_str
 
-#### units
+```jv
+import java.util.Scanner;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+
+        String person;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("what's your name? ");
+        person = sc.nextLine();
+
+        System.out.print("your name is...");
+        System.out.println(person);
+    }
+}
+
+>>>
+what's your name? trk
+your name is...trk
+>>>
+```
+
+---
+
+
+#### inp_units_int
 
 ```jv
 import java.util.Scanner;
