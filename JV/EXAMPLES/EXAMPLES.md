@@ -1,4 +1,22 @@
 
+---
+
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [JV](https://github.com/ttltrk/TTT/tree/master/JV/JV.md)
+
+---
+
+### JAVA_EXPLORER
+
+---
+
+* [inp_name_str](#inp_name_str)
+* [inp_units_int](#inp_units_int)
+* []()
+* []()
+* []()
+
+---
+
 #### inp_name_str
 
 ```jv
