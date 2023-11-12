@@ -51,3 +51,61 @@ if __name__ == "__main__":
 ---
 
 #### 02_HTML_TEMPLATES
+
+- 01
+
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Home page</title>
+</head>
+<body>
+	<h1>Home page!</h1>
+	<p>Hello!</p>
+</body>
+</html>
+```
+
+```py
+from flask import Flask, redirect, url_for, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    #load the below mentioned html file
+    return render_template("twt_index.html")
+
+if __name__ == "__main__":
+    app.run()
+```
+
+- 02
+
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Home page</title>
+</head>
+<body>
+	<h1>Home page!</h1>
+	<p>{{content}}</p>
+</body>
+</html>
+```
+
+```py
+from flask import Flask, redirect, url_for, render_template
+
+app = Flask(__name__)
+
+@app.route("/<name>")
+def home():
+    #load the below mentioned html file
+    return render_template("twt_name_index.html", content=name)
+
+if __name__ == "__main__":
+    app.run()
+```
