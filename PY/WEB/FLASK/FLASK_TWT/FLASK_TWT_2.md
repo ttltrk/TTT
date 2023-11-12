@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 #### 02_HTML_TEMPLATES
 
-- 01
+- 01 - without content
 
 ```html
 <!doctype html>
@@ -81,7 +81,7 @@ if __name__ == "__main__":
     app.run()
 ```
 
-- 02
+- 02 with content 
 
 ```html
 <!doctype html>
@@ -102,9 +102,9 @@ from flask import Flask, redirect, url_for, render_template
 app = Flask(__name__)
 
 @app.route("/<name>")
-def home():
+def home(name):
     #load the below mentioned html file
-    return render_template("twt_name_index.html", content=name)
+    return render_template("twt_index.html", content=name)
 
 if __name__ == "__main__":
     app.run()
