@@ -81,7 +81,7 @@ if __name__ == "__main__":
     app.run()
 ```
 
-- 02 with content 
+- 02 with content
 
 ```html
 <!doctype html>
@@ -109,3 +109,35 @@ def home(name):
 if __name__ == "__main__":
     app.run()
 ```
+
+- 03 with more variable
+
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Home page</title>
+</head>
+<body>
+	<h1>Home page!</h1>
+	<p>{{content}}</p>
+	<p>{{r}}</p>
+</body>
+</html>
+```
+
+```py
+from flask import Flask, redirect, url_for, render_template
+
+app = Flask(__name__)
+
+@app.route("/<name>")
+def home(name):
+    #load the below mentioned html file
+    return render_template("twt_index.html", content=name, r=2)
+
+if __name__ == "__main__":
+    app.run()
+```
+
+---
