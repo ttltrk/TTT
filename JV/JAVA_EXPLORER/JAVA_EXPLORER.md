@@ -35,9 +35,33 @@ We'll examine some of the more common Application Programming Interfaces, APIs, 
 
 I hope my experience and enthusiasm for Java is contagious, and you leave feeling entertained, enlightened, and eager to get started programming with Java. Let's get started.
 
-
-
 [^^^](#JAVA_EXPLORER)
+
+##### 1.2 - Java Origins and Ecosystem
+
+Explain the Java origins and ecosystem. Java was created at Sun Microsystems as a general-purpose programming language, similar to C and C++. It is object-oriented and platform-independent. And we'll talk more about what that actually means.
+
+It was originally designed in 1995 for use in consumer electronics. Modern uses include things like writing applications for the Internet of Things, cloud computing, and so on. It's widely adopted across billions of devices, ranging from smart cards, and watches, and phones, and tablets, up through computers, all the way up to supercomputers.
+
+The Java ecosystem has a number of different Java additions that make up the ecosystem. First is the Java Card, which is the smart card addition and can be used with SIM cards. Next is the Java ME Micro-Edition, which can work with things like smart TVs, and set-top boxes, and embedded devices.
+
+Java SE Standard-Edition is where you start learning the Java programming language, because it contains both the tools, like compilers and Java virtual machines, to run your code, but also the structures necessary to support the code that you're creating-- libraries of very, very useful classes and functionality.
+
+Java MP Micro-Profile is used with micro services and allows you to define, for a server, how your application should be deployed and run as a microservice. And lastly, Java EE Enterprise-Edition supports creating applications for the enterprise. This includes web services, passing messages through Java messaging asynchronously, and enterprise JavaBeans for sharing code.
+
+Also, for user interface, you can also create servlets, Java server pages, and Java server faces applications, although we're seeing that being used less and less. Mostly, we're seeing Java used in the enterprise, in what we call the back end of the enterprise, to create reusable, shareable code that can be used by many different applications. This can take the form of web services and is typically how we see Java being used today.
+
+I mentioned earlier that Java is platform-independent. So Java is cross-platform because each Java program only needs to be written and compiled once. Now, what this means is, when you have a Java program, you write the logic in English, as you see here-- number one. You see the public class MyApp, and you have some program logic. And as the course goes along, we'll talk about what this code means and what it does. But this is basically creating a class called MyApp that would have some programming logic.
+
+We'd write that and then compile it. We cannot run English language on computers. We have to convert the actual code that we're writing-- our source code-- into a form the computer can execute-- binary 1s and 0s that it can execute. So what the compile does is convert the code that we write-- the source code that we write-- into a form that the computer can execute.
+
+Now, it actually doesn't go all the way directly down to what's called machine code, which is the actual executable code for the computer. It goes to an intermediate form of code called bytecode. So the bytecode, then, can be deployed to any computer that runs a Java virtual machine and can be executed there.
+
+So this is why we say it can be written once and compiled once, and then it can run in many different environments. So for example, I can write a Java program on my Macintosh and compile it into a Java class, take that Java class over to a Windows machine, and I can run that Java class on that machine. And it'll look and work the same as it did on my Mac.
+
+The Java programs themselves are executed inside of a piece of software called a Java virtual machine. The Java virtual machine emulates the actual CPU and the computer that the software is running on, and translates the bytecodes that were created by the compiler into the actual executable code necessary for that computer.
+
+So Java is cross-platform, and we only have to write the code once. And this is where you've heard, maybe, that Java is "write once, run anywhere."
 
 ---
 
