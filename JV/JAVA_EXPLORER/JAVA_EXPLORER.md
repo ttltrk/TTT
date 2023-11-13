@@ -39,6 +39,14 @@ I hope my experience and enthusiasm for Java is contagious, and you leave feelin
 
 ##### 1.2 - Java Origins and Ecosystem
 
+```
+- Java Card
+- Java ME Micro-Edition
+- Java SE Standard-Edition
+- Java MP Micro-Profile
+- Java EE Enterprise-Edition
+```
+
 Explain the Java origins and ecosystem. Java was created at Sun Microsystems as a general-purpose programming language, similar to C and C++. It is object-oriented and platform-independent. And we'll talk more about what that actually means.
 
 It was originally designed in 1995 for use in consumer electronics. Modern uses include things like writing applications for the Internet of Things, cloud computing, and so on. It's widely adopted across billions of devices, ranging from smart cards, and watches, and phones, and tablets, up through computers, all the way up to supercomputers.
@@ -62,18 +70,6 @@ So this is why we say it can be written once and compiled once, and then it can 
 The Java programs themselves are executed inside of a piece of software called a Java virtual machine. The Java virtual machine emulates the actual CPU and the computer that the software is running on, and translates the bytecodes that were created by the compiler into the actual executable code necessary for that computer.
 
 So Java is cross-platform, and we only have to write the code once. And this is where you've heard, maybe, that Java is "write once, run anywhere."
-
----
-
-#### JAVA_ECOSYSTEM
-
-```
-- Java Card
-- Java ME Micro-Edition
-- Java SE Standard-Edition
-- Java MP Micro-Profile
-- Java EE Enterprise-Edition
-```
 
 ---
 
