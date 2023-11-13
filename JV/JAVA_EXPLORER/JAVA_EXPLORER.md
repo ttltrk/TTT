@@ -13,9 +13,13 @@
 
 ---
 
-#### 1. OVERVIEW
+- [1_OVERVIEW](#1_OVERVIEW)
 
-##### Title and Objectives
+---
+
+#### 1_OVERVIEW
+
+##### 1.1 - Title and Objectives
 
 Welcome to the Java Basics learning path, where we introduce the world of Java and the fundamentals of Java programming. My name is Joe Greenwald. I'm a senior principal instructor and learning solution architect with Oracle University. My background is in model-based development, case tools, and object-oriented analysis and design programming.
 
