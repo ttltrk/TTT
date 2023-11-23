@@ -47,7 +47,12 @@ se2 = ["Software Engineer", "Lisa", 25, "Senior", 7000]
 
 #class
 class SoftwareEngineer:
-    pass
+
+    def __init__(self, name, age, level, salary):
+        self.name = name
+        self.age = age
+        self.level = level
+        self.salary = salary
 
 #instance
 se1 = SoftwareEngineer()
