@@ -37,9 +37,21 @@
 1. Inheritance
 2. Polymorphism
 3. Encapsulation
-4. Abstraction 
+4. Abstraction
 ```
 
+```PY
+# position, name, age, level, salary
+se1 = ["Software Engineer", "Max", 20, "Junior", 5000]
+se2 = ["Software Engineer", "Lisa", 25, "Senior", 7000]
+
+#class
+class SoftwareEngineer:
+    pass
+
+#instance
+se1 = SoftwareEngineer()
+```
 
 
 ---
