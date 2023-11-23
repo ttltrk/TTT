@@ -44,20 +44,86 @@
 # position, name, age, level, salary
 se1 = ["Software Engineer", "Max", 20, "Junior", 5000]
 se2 = ["Software Engineer", "Lisa", 25, "Senior", 7000]
+```
 
+```py
 #class
 class SoftwareEngineer:
 
     def __init__(self, name, age, level, salary):
+        #instance attributes
         self.name = name
         self.age = age
         self.level = level
         self.salary = salary
 
 #instance
-se1 = SoftwareEngineer()
+se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
+print(se1.name, se1.age)
+
+>>>
+Max 20
+>>>
 ```
 
+```py
+#class
+class SoftwareEngineer:
+
+    #class attribute
+    alias = "Keyboard Magician"
+
+    def __init__(self, name, age, level, salary):
+        #instance attributes
+        self.name = name
+        self.age = age
+        self.level = level
+        self.salary = salary
+
+#instance
+se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
+
+print(se1.alias)
+print(SoftwareEngineer.alias)
+
+>>>
+Keyboard Magician
+Keyboard Magician
+>>>
+```
+
+- Function in Classes
+
+```py
+#class
+class SoftwareEngineer:
+
+    #class attribute
+    alias = "Keyboard Magician"
+
+    def __init__(self, name, age, level, salary):
+        #instance attributes
+        self.name = name
+        self.age = age
+        self.level = level
+        self.salary = salary
+
+    #instance method
+    def code(self):
+        print(f'{self.name} is writing code...')
+
+#instance
+se1 = SoftwareEngineer("Max", 20, "Junior", 5000)
+se2 = SoftwareEngineer("Lisa", 25, "Senior", 7000)
+
+se1.code()
+se2.code()
+
+>>>
+Max is writing code...
+Lisa is writing code...
+>>>
+```
 
 ---
 
