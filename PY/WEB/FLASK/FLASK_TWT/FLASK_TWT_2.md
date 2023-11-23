@@ -140,4 +140,37 @@ if __name__ == "__main__":
     app.run()
 ```
 
+- 04 with for loop
+
+```html
+<!doctype html>
+<html>
+<head>
+	<title>Home page</title>
+</head>
+<body>
+	<h1>Home page!</h1>
+	{% for _ in range(0,10) %}
+		<p>Hello</p>
+	{% endfor %}
+</body>
+</html>
+```
+
+```py
+#02_03
+
+from flask import Flask, redirect, url_for, render_template
+
+app = Flask(__name__)
+
+@app.route("/<name>")
+def home(name):
+    #load the below mentioned html file
+    return render_template("twt_index_loop.html", content=name, r=2)
+
+if __name__ == "__main__":
+    app.run()
+```
+
 ---
