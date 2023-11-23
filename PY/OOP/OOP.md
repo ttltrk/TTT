@@ -21,6 +21,27 @@
 
 * [Object Oriented Programming (OOP) In Python - Beginner Crash Course](https://www.youtube.com/watch?v=-pEs-Bss8Wc)
 
+```
+1. Create Classes:
+  - why, HOW
+  - Class vs instance
+2. Functions Inside Classes
+3. Inheritance (Base + Child class)
+4. Encapsulation (Private / Public)
+5. properties (Getter / Setter)
+```
+
+```
+4 principles of OOP
+
+1. Inheritance
+2. Polymorphism
+3. Encapsulation
+4. Abstraction 
+```
+
+
+
 ---
 
 ```
