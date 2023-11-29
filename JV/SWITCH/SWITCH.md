@@ -48,3 +48,29 @@ switch (day) {
 ```
 
 ---
+
+#### The default Keyword
+
+The default keyword specifies some code to run if there is no case match:
+
+```jv
+int day = 4;
+switch (day) {
+  case 6:
+    System.out.println("Today is Saturday");
+    break;
+  case 7:
+    System.out.println("Today is Sunday");
+    break;
+  default:
+    System.out.println("Looking forward to the Weekend");
+}
+
+>>>
+"Looking forward to the Weekend"
+>>>
+```
+
+Note that if the default statement is used as the last statement in a switch block, it does not need a break.
+
+---
