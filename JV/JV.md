@@ -24,7 +24,7 @@
 * [MATH](https://github.com/ttltrk/TTT/tree/master/JV/MATH/MATH.md)
 * [BOOLEANS](https://github.com/ttltrk/TTT/tree/master/JV/BOOLEANS/BOOLEANS.md)
 * [IF_ELSE](https://github.com/ttltrk/TTT/tree/master/JV/IFELSE/IFELSE.md)
-* [SWITCH]()
+* [SWITCH](https://github.com/ttltrk/TTT/tree/master/JV/SWITCH/SWITCH.md)
 * [WHILE_LOOP]()
 * [FOR_LOOP]()
 * [BREAK_CONTINUE]()
