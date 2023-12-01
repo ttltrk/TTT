@@ -152,16 +152,19 @@ d = Designer('Phil', 27, 7000)
 
 #-----------------------------------------------------
 
-print(se.debug())
-print(d.draw())
+se.work()
+se.debug()
+
+d.work()
+d.draw()
 
 #-----------------------------------------------------
 
 >>>
+Max is working...
 Max is debugging ...
-None
-Phil is drawing ...
-None
+Phil is working...
+Phil is drawing ... 
 >>>
 ```
 
