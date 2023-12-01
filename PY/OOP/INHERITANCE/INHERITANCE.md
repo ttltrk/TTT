@@ -103,6 +103,7 @@ class Designer(Employee):
 
 se = SoftwareEngineer('Max', 25, 6000, 'Junior')
 print(se.level)
+print(se.salary)
 
 d = Designer('Phil', 27, 7000)
 print(d.salary)
@@ -111,7 +112,56 @@ print(d.salary)
 
 >>>
 Junior
+6000
 7000
+>>>
+```
+
+```py
+#-----------------------------------------------------
+
+# inherits, extend, override
+class Employee:
+
+    def __init__(self, name, age, salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+
+    def work(self):
+        print(f'{self.name} is working...')        
+
+class SoftwareEngineer(Employee):
+
+    def __init__(self, name, age, salary, level):
+        super().__init__(name, age, salary)
+        self.level = level
+
+    def debug(self):
+        print(f'{self.name} is debugging ... ')
+
+class Designer(Employee):
+
+    def draw(self):
+        print(f'{self.name} is drawing ... ')
+
+#-----------------------------------------------------
+
+se = SoftwareEngineer('Max', 25, 6000, 'Junior')
+d = Designer('Phil', 27, 7000)
+
+#-----------------------------------------------------
+
+print(se.debug())
+print(d.draw())
+
+#-----------------------------------------------------
+
+>>>
+Max is debugging ...
+None
+Phil is drawing ...
+None
 >>>
 ```
 
