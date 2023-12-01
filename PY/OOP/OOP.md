@@ -31,6 +31,12 @@
 5. properties (Getter / Setter)
 ```
 
+* [CREATE_CLASSES](https://github.com/ttltrk/TTT/blob/master/PY/OOP/CREATE_CLASSES/CREATE_CLASSES.md)
+* [FUNCTIONS_IN_CLASSES](https://github.com/ttltrk/TTT/blob/master/PY/OOP/FUNCTIONS_IN_CLASSES/FUNCTIONS_IN_CLASSES.md)
+* [INHERITANCE](https://github.com/ttltrk/TTT/blob/master/PY/OOP/INHERITANCE/INHERITANCE.md)
+* [ENCAPSULATION]()
+* [PROPERTIES]()
+
 ```
 4 principles of OOP
 
