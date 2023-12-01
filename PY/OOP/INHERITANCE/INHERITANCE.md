@@ -28,9 +28,11 @@ class Designer(Employee):
 #-----------------------------------------------------
 
 se = SoftwareEngineer('Max', 25)
-print(se.name, se.age)
-
 d = Designer('Phil', 27)
+
+#-----------------------------------------------------
+
+print(se.name, se.age)
 print(d.name, d.age)
 
 #-----------------------------------------------------
@@ -63,9 +65,11 @@ class Designer(Employee):
 #-----------------------------------------------------
 
 se = SoftwareEngineer('Max', 25)
-se.work()
-
 d = Designer('Phil', 27)
+
+#-----------------------------------------------------
+
+se.work()
 d.work()
 
 #-----------------------------------------------------
@@ -102,10 +106,12 @@ class Designer(Employee):
 #-----------------------------------------------------
 
 se = SoftwareEngineer('Max', 25, 6000, 'Junior')
+d = Designer('Phil', 27, 7000)
+
+#-----------------------------------------------------
+
 print(se.level)
 print(se.salary)
-
-d = Designer('Phil', 27, 7000)
 print(d.salary)
 
 #-----------------------------------------------------
@@ -164,7 +170,7 @@ d.draw()
 Max is working...
 Max is debugging ...
 Phil is working...
-Phil is drawing ... 
+Phil is drawing ...
 >>>
 ```
 
