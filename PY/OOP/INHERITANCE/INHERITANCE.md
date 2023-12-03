@@ -174,4 +174,56 @@ Phil is drawing ...
 >>>
 ```
 
+```py
+#-----------------------------------------------------
+
+# inherits, extend, override
+class Employee:
+
+    def __init__(self, name, age, salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+
+    def work(self):
+        print(f'{self.name} is working...')        
+
+class SoftwareEngineer(Employee):
+
+    def __init__(self, name, age, salary, level):
+        super().__init__(name, age, salary)
+        self.level = level
+
+    def work(self):
+        print(f'{self.name} is coding...')    
+
+    def debug(self):
+        print(f'{self.name} is debugging ... ')
+
+class Designer(Employee):
+
+    def work(self):
+        print(f'{self.name} is designing...')
+
+    def draw(self):
+        print(f'{self.name} is drawing ... ')
+
+#-----------------------------------------------------
+
+se = SoftwareEngineer('Max', 25, 6000, 'Junior')
+d = Designer('Phil', 27, 7000)
+
+#-----------------------------------------------------
+
+se.work()
+d.work()
+
+#-----------------------------------------------------
+
+>>>
+Max is coding...
+Phil is designing...
+>>>
+```
+
 ---
