@@ -15,15 +15,33 @@ class SoftwareEngineer:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-        self._salary = None
+        self._salary = 5000
         self._num_bugs_solved = 0
 
 se = SoftwareEngineer('Max', 25)
 
-print(se.name, se.age)
+print(se.name, se.age, se._salary)
 
 >>>
-Max 25
+Max 25 5000
+>>>
+```
+
+```py
+class SoftwareEngineer:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.__salary = 5000
+        self._num_bugs_solved = 0
+
+se = SoftwareEngineer('Max', 25)
+
+print(se.name, se.age, se.__salary)
+
+>>>
+AttributeError: 'SoftwareEngineer' object has no attribute '__salary'
 >>>
 ```
 
