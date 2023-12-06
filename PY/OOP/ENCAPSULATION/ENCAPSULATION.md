@@ -45,4 +45,41 @@ AttributeError: 'SoftwareEngineer' object has no attribute '__salary'
 >>>
 ```
 
+```py
+#-----------------------------------------------------
+
+class SoftwareEngineer:
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self._salary = None
+        self._num_bugs_solved = 0
+
+    #getter
+    def get_salary(self):
+        return self._salary
+
+    #setter
+    def set_salary(self, value):
+        self._salary = value
+
+#-----------------------------------------------------        
+
+se = SoftwareEngineer('Max', 25)
+se.set_salary(6000)
+
+#-----------------------------------------------------
+
+print(se.name, se.age)
+print(se.get_salary())
+
+#-----------------------------------------------------
+
+>>>
+Max 25
+6000
+>>>
+```
+
 ---
