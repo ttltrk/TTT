@@ -21,6 +21,11 @@
 
 #### TYPES_OF_NATURAL_LANGUAGE_PROCESSING
 
+DNLP:
+  - NLP
+  - Deep Learning
+  - Seq2Seq  
+
 [^^^](#DEEP_LEARNING)
 
 ---
