@@ -34,7 +34,9 @@ DNLP:
 
 - if/else rules (chatbot)
 - audio frequency components analysis (speech recognition)
-- bag-of-words model (classification)
+- bag-of-words model (Classification)
+- CNN for text recognition (Classification)
+- Seq2Seq (many applications) 
 
 [^^^](#DEEP_LEARNING)
 
