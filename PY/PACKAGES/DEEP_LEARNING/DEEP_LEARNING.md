@@ -32,6 +32,10 @@ DNLP:
 
 #### CLASSICAL_VS_DEEP_LEARNING_MODELS
 
+- if/else rules (chatbot)
+- audio frequency components analysis (speech recognition)
+- bag-of-words model (classification)
+
 [^^^](#DEEP_LEARNING)
 
 ---
