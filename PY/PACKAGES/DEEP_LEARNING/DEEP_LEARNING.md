@@ -36,7 +36,13 @@ DNLP:
 - audio frequency components analysis (speech recognition)
 - bag-of-words model (Classification)
 - CNN for text recognition (Classification)
-- Seq2Seq (many applications) 
+- Seq2Seq (many applications)
+
+[^^^](#DEEP_LEARNING)
+
+---
+
+#### END_TO_END_DEEP_LEARNING_MODELS 
 
 [^^^](#DEEP_LEARNING)
 
