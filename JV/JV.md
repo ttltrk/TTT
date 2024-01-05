@@ -11,7 +11,7 @@
 
 * [EXAMPLES](https://github.com/ttltrk/TTT/tree/master/JV/EXAMPLES/EXAMPLES.md)
 * [JAVA_EXPLORER](https://github.com/ttltrk/TTT/tree/master/JV/JAVA_EXPLORER/JAVA_EXPLORER.md)
-* [SYNTAX](#SYNTAX)
+* [SYNTAX](https://github.com/ttltrk/TTT/tree/master/JV/SYNTAX/SYNTAX.md)
 * [COMMENTS](https://github.com/ttltrk/TTT/tree/master/JV/COMMENTS/COMMENTS.md)
 * [HELLO_WORLD](https://github.com/ttltrk/TTT/tree/master/JV/HELLO_WORLD/HELLO_WORLD.md)
 * [VARIABLES](https://github.com/ttltrk/TTT/tree/master/JV/VARIABLES/VARIABLES.md)
