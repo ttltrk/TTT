@@ -7,12 +7,19 @@
 
 ---
 
-* [SL_COMMENTS](#SL_COMMENTS)
-* [ML_COMMENTS](#ML_COMMENTS)
+* [01_COMMENTS](#01_COMMENTS)
+* [02_](#)
+* [03_](#)
+* [04_](#)
+* [05_](#)
+* [06_](#)
+* [07_](#)
 
 ---
 
-#### SL_COMMENTS
+#### 01_COMMENTS
+
+##### 01.01 - Single line comments
 
 ```java
 public class Main {
@@ -27,11 +34,7 @@ Hello World
 >>>
 ```
 
-[^^^](#JAVA_FLASH)
-
----
-
-#### ML_COMMENTS
+##### 01.02 - Multi line comments
 
 ```java
 public class Main {
@@ -46,6 +49,42 @@ public class Main {
 Hello World
 >>>
 ```
+
+[^^^](#JAVA_FLASH)
+
+---
+
+#### 02_
+
+[^^^](#JAVA_FLASH)
+
+---
+
+#### 03_
+
+[^^^](#JAVA_FLASH)
+
+---
+
+#### 04_
+
+[^^^](#JAVA_FLASH)
+
+---
+
+#### 05_
+
+[^^^](#JAVA_FLASH)
+
+---
+
+#### 06_
+
+[^^^](#JAVA_FLASH)
+
+---
+
+#### 07_
 
 [^^^](#JAVA_FLASH)
 
