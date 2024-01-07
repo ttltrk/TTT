@@ -8,7 +8,7 @@
 ---
 
 * [01_COMMENTS](#01_COMMENTS)
-* [02_](#)
+* [02_VARIABLES](#02_VARIABLES)
 * [03_](#)
 * [04_](#)
 * [05_](#)
@@ -54,7 +54,34 @@ Hello World
 
 ---
 
-#### 02_
+#### 02_VARIABLES
+
+Variables are containers for storing data values.
+In Java, there are different types of variables, for example.
+
+- Primitive data types - includes byte, short, int, long, float, double, boolean and char
+- Non-primitive data types - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+
+##### 02.01 Declaring (Creating) Variables
+
+To create a variable, you must specify the type and assign it a value.
+
+```jv
+type variableName = value;
+```
+
+```jv
+public class Main {
+  public static void main(String[] args) {
+    String name = "John";
+    System.out.println(name);
+  }
+}
+
+>>>
+John 
+>>>
+```
 
 [^^^](#JAVA_FLASH)
 
