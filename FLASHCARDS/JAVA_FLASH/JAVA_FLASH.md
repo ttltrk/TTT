@@ -7,19 +7,24 @@
 
 ---
 
-* [01_COMMENTS](#01_COMMENTS)
-* [02_VARIABLES](#02_VARIABLES)
-* [03_](#)
-* [04_](#)
-* [05_](#)
-* [06_](#)
-* [07_](#)
+* [COMMENTS](#COMMENTS)
+* [VARIABLES](#VARIABLES)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [METHODS](#METHODS)
 
 ---
 
-#### 01_COMMENTS
+#### COMMENTS
 
-##### 01.01 - Single line comments
+##### Single line comments
 
 ```java
 public class Main {
@@ -34,7 +39,7 @@ Hello World
 >>>
 ```
 
-##### 01.02 - Multi line comments
+##### Multi line comments
 
 ```java
 public class Main {
@@ -54,7 +59,7 @@ Hello World
 
 ---
 
-#### 02_VARIABLES
+#### VARIABLES
 
 Variables are containers for storing data values.
 In Java, there are different types of variables, for example.
@@ -62,7 +67,7 @@ In Java, there are different types of variables, for example.
 - **Primitive data types** - byte, short, int, long, float, double, boolean, char
 - **Non-primitive data types** - String, Arrays, Classes
 
-##### 02.01 Declaring (Creating) Variables
+##### Declaring (Creating) Variables
 
 To create a variable, you must specify the type and assign it a value.
 
@@ -96,7 +101,7 @@ John
 >>>
 ```
 
-##### 02.02 Final variables
+##### Final variables
 
 If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only).
 
@@ -121,31 +126,95 @@ Main.java:4: error: cannot assign a value to final variable myNum
 
 ---
 
-#### 03_
+####
 
 [^^^](#JAVA_FLASH)
 
 ---
 
-#### 04_
+####
 
 [^^^](#JAVA_FLASH)
 
 ---
 
-#### 05_
+####
 
 [^^^](#JAVA_FLASH)
 
 ---
 
-#### 06_
+#### METHODS
+
+A method is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a method.
+Methods are used to perform certain actions, and they are also known as functions.
+Why use methods? To reuse code: define the code once, and use it many times.
+
+##### Create a Method
+
+A method must be declared within a class. It is defined with the name of the method, followed by parentheses (). Java provides some pre-defined methods, such as System.out.println(), but you can also create your own methods to perform certain actions:
+
+```jv
+public class Main {
+  static void myMethod() {
+    // code to be executed
+  }
+}
+```
+
+- myMethod() is the name of the method
+- static means that the method belongs to the Main class and not an object of the Main class. You will learn more about objects and how to access methods through objects later in this tutorial.
+- void means that this method does not have a return value. You will learn more about return values later in this chapter
+
+##### Call a Method
+
+To call a method in Java, write the method's name followed by two parentheses () and a semicolon;
+In the following example, ```myMethod()``` is used to print a text (the action), when it is called:
+
+```jv
+public class Main {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+  }
+}
+
+>>>
+I just got executed!
+>>>
+```
+
+A method can also be called multiple times.
+
+```jv
+public class Main {
+  static void myMethod() {
+    System.out.println("I just got executed!");
+  }
+
+  public static void main(String[] args) {
+    myMethod();
+    myMethod();
+    myMethod();
+  }
+}
+
+>>>
+I just got executed!
+I just got executed!
+I just got executed!
+>>>
+```
 
 [^^^](#JAVA_FLASH)
 
 ---
 
-#### 07_
+####
 
 [^^^](#JAVA_FLASH)
 
