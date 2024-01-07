@@ -59,8 +59,8 @@ Hello World
 Variables are containers for storing data values.
 In Java, there are different types of variables, for example.
 
-- **Primitive data types** - includes byte, short, int, long, float, double, boolean and char
-- **Non-primitive data types** - such as String, Arrays and Classes (you will learn more about these in a later chapter)
+- **Primitive data types** - byte, short, int, long, float, double, boolean, char
+- **Non-primitive data types** - String, Arrays, Classes
 
 ##### 02.01 Declaring (Creating) Variables
 
