@@ -75,15 +75,45 @@ public class Main {
   public static void main(String[] args) {
     String name = "John";
     int myNum = 15;
+    int hisNum = 20;
+    int yourNum;
+
+    hisNum = 22;
+    yourNum = 25;
 
     System.out.println(name);
     System.out.println(myNum);
+    System.out.println(hisNum);
+    System.out.println(yourNum);
   }
 }
 
 >>>
 John
 15
+22
+25
+>>>
+```
+
+##### 02.02 Final variables
+
+If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only).
+
+```jv
+public class Main {
+  public static void main(String[] args) {
+    final int myNum = 15;
+    myNum = 20; // will generate an error
+    System.out.println(myNum);
+  }
+}
+
+>>>
+Main.java:4: error: cannot assign a value to final variable myNum
+    myNum = 20;
+         ^
+1 error
 >>>
 ```
 
