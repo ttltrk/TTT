@@ -295,6 +295,92 @@ Anja is 31
 
 Note that when you are working with multiple parameters, the method call must have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
 
+##### Return Values
+
+The void keyword, used in the examples above, indicates that the method should not return a value. If you want the method to return a value, you can use a primitive data type (such as int, char, etc.) instead of void, and use the return keyword inside the method.
+
+```jv
+public class Main {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+
+>>>
+8
+>>>
+```
+
+```jv
+public class Main {
+  static int myMethod(int x, int y) {
+    return x + y;
+  }
+
+  public static void main(String[] args) {
+    System.out.println(myMethod(5, 3));
+  }
+}
+
+>>>
+8
+>>>
+```
+
+You can also store the result in a variable (recommended, as it is easier to read and maintain).
+
+```jv
+public class Main {
+  static int myMethod(int x, int y) {
+    return x + y;
+  }
+
+  public static void main(String[] args) {
+    int z = myMethod(5, 3);
+    System.out.println(z);
+  }
+}
+
+>>>
+8
+>>>
+```
+
+##### A Method with If...Else
+
+It is common to use if...else statements inside methods.
+
+```jv
+public class Main {
+
+  // Create a checkAge() method with an integer parameter called age
+  static void checkAge(int age) {
+
+    // If age is less than 18, print "access denied"
+    if (age < 18) {
+      System.out.println("Access denied - You are not old enough!");
+
+    // If age is greater than, or equal to, 18, print "access granted"
+    } else {
+      System.out.println("Access granted - You are old enough!");
+    }
+
+  }
+
+  public static void main(String[] args) {
+    checkAge(20); // Call the checkAge method and pass along an age of 20
+  }
+}
+
+>>>
+Access granted - You are old enough!
+>>>
+```
+
 [^^^](#JAVA_FLASH)
 
 ---
