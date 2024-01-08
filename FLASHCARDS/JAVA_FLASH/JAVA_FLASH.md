@@ -212,6 +212,28 @@ I just got executed!
 >>>
 ```
 
+```jv
+public class Main {
+    static void firstMethod() {
+        System.out.println("I just got executed!");
+    }
+
+    static void secondMethod() {
+        System.out.println("the second one");
+    }
+
+    public static void main(String[] args) {
+        firstMethod();
+        secondMethod();
+    }
+}
+
+>>>
+I just got executed!
+the second one
+>>>
+```
+
 [^^^](#JAVA_FLASH)
 
 ---
