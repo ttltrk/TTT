@@ -15,6 +15,7 @@
 * [FLASK_TEMP_CONTROL_FLOW](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_TEMP_CONTROL_FLOW/FLASK_TEMP_CONTROL_FLOW.md)
 * [FLASK_TEMP_INHERITANCE](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_TEMP_INHERITANCE/FLASK_TEMP_INHERITANCE.md)
 * [FLASK_TWT](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_TWT/FLASK_TWT.md)
+* [FLASK_TWT_2](https://github.com/ttltrk/TTT/blob/master/PY/WEB/FLASK/FLASK_TWT_2/FLASK_TWT_2.md)
 
 ---
 
