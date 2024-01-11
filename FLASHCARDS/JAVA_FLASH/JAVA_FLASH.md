@@ -24,7 +24,7 @@
 * [](#)
 * [](#)
 * [JAVA_SCOPE](#JAVA_SCOPE)
-* [](#)
+* [RECURSION](#RECURSION)
 * [](#)
 * [](#)
 * [OOP](#OOP)
@@ -523,7 +523,32 @@ public class Main {
 
 ---
 
-####
+#### RECURSION
+
+Recursion is the technique of making a function call itself. This technique provides a way to break complicated problems down into simple problems which are easier to solve.
+Recursion may be a bit difficult to understand. The best way to figure out how it works is to experiment with it.
+
+Adding two numbers together is easy to do, but adding a range of numbers is more complicated. In the following example, recursion is used to add a range of numbers together by breaking it down into the simple task of adding two numbers.
+
+```jv
+public class Main {
+  public static void main(String[] args) {
+    int result = sum(10);
+    System.out.println(result);
+  }
+  public static int sum(int k) {
+    if (k > 0) {
+      return k + sum(k - 1);
+    } else {
+      return 0;
+    }
+  }
+}
+
+>>>
+55
+>>>
+```
 
 [^^^](#JAVA_FLASH)
 
