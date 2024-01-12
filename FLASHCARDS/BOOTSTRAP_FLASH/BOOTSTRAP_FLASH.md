@@ -10,7 +10,7 @@
 ---
 
 * [WHAT_IS_BOOTSTRAP](#WHAT_IS_BOOTSTRAP)
-* [](#)
+* [CONTAINERS](#CONTAINERS)
 * [](#)
 * [](#)
 * [](#)
@@ -34,7 +34,14 @@ Responsive web design is about creating web sites which automatically adjust the
 
 ---
 
-####
+#### CONTAINERS
+
+Bootstrap requires a containing element to wrap site contents.
+
+Containers are used to pad the content inside of them, and there are two container classes available:
+
+- The ```.container class``` provides a responsive fixed width container
+- The ```.container-fluid``` class provides a full width container, spanning the entire width of the viewport
 
 [^^^](#BOOTSTRAP_FLASH)
 
