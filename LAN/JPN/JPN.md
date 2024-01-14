@@ -9,14 +9,20 @@
 
 ---
 
-- [INTRO](#INTRO)
+- [UNIT_1](#UNIT_1)
 
 ---
 
-#### INTRO
+#### UNIT_1
 
 ```
-
+mizu - water
+o cha - green tea
+go ha n - rice
+ku da sa i - please
+de su - it is
+to - and
+su shi - sushi
 ```
 
 [^^^](#JPN)
