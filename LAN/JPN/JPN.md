@@ -30,3 +30,129 @@ su shi - sushi
 [^^^](#JPN)
 
 ---
+
+##### 1.2
+
+```
+su shi to go han de su. - Its sushi and rice.
+o cha to mi zu ku da sai. - Green tea and water please.
+```
+
+[^^^](#JPN)
+
+---
+
+##### 1.3
+
+```
+ka kko i i - cool
+ya sa shi i - nice
+hi to - person
+se n se i - teacher
+ga ku se i - student
+i sha - doctor
+be n go shi - lawyer
+```
+
+[^^^](#JPN)
+
+---
+
+##### 1.4
+
+[^^^](#JPN)
+
+---
+
+##### 1.5
+
+[^^^](#JPN)
+
+---
+
+##### 1.6
+
+[^^^](#JPN)
+
+---
+
+
+#### UNIT_2
+
+##### 2.1
+
+[^^^](#JPN)
+
+---
+
+##### 2.2
+
+[^^^](#JPN)
+
+---
+
+##### 2.3
+
+```
+so re - that
+ko re - this
+pi za - pizza
+kee ki - cake
+ka ree - curry
+raa me n - ramen
+o i shi i - tasty
+ha i - yes
+i i e - no
+```
+
+```
+o i shi i de su ka? - Is it tasty?
+pi za de su ka? - Is it pizza?
+ka ree de su ka? - Is it curry?
+ko re wa raa me n de su ka? - Is this ramen?
+
+ha i o i shi de su. - Yes it is tasty.
+ha i kee ki de su. - Yes its a cake.
+
+ko re wa su shi de su ka? - Is this shushi?
+so re wa raa me n de su ka. - Is that raamen?
+
+so re wa o i shi i de su ka? - Is that tasty?
+ko re wa o i shi i de su ka? - Is this tasty?
+
+i i e mi zu de su. - No its water.
+i i e so re wa pi za de su. - No that's pizza.
+i i e ka ree de su. - No, its curry.
+```
+
+```
+kee ki wa o i shi i de su. - Cake is tasty.
+```
+
+[^^^](#JPN)
+
+---
+
+#####
+
+[^^^](#JPN)
+
+---
+
+#####
+
+[^^^](#JPN)
+
+---
+
+#####
+
+[^^^](#JPN)
+
+---
+
+#####
+
+[^^^](#JPN)
+
+---
