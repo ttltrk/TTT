@@ -99,6 +99,7 @@ ko n ni chi wa - hello
 ja a ne - bye
 ko n ba n wa - good evening
 do u zo you ro shi ku - nice to meet you
+```
 
 ```
 ko n ba n wa ke n de su. - Good evening I'm ken.
