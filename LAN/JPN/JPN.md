@@ -60,17 +60,30 @@ be n go shi - lawyer
 
 ##### 1.4
 
+```
+same as 1.3
+```
+
 [^^^](#JPN)
 
 ---
 
 ##### 1.5
 
+```
+ka kko i i be n go shi de su. - He is a cool lawyer.
+ya sa shi i i sha ya sa shi i se n se i. - a nice dcotor, a nice teacher
+```
+
 [^^^](#JPN)
 
 ---
 
 ##### 1.6
+
+```
+same as 1.3/4/5
+```
 
 [^^^](#JPN)
 
@@ -80,6 +93,18 @@ be n go shi - lawyer
 #### UNIT_2
 
 ##### 2.1
+
+```
+ko n ni chi wa - hello
+ja a ne - bye
+ko n ba n wa - good evening
+do u zo you ro shi ku - nice to meet you
+
+```
+ko n ba n wa ke n de su. - Good evening I'm ken.
+```
+
+```
 
 [^^^](#JPN)
 
