@@ -52,6 +52,48 @@ aktior i doktor. - an actor and a doctor.
 
 ---
 
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+#### UNIT_7
+
+##### 7.6
+
+```
+Tvoj put. - Your path.
+Moj put. - My path.
+Tvoja ves. - Your thing.
+Nase vese. - Our things.
+Nas gost uze zdes. - Our guest is already here.
+Moj parin sicas doma. - My boyfriend is now at home.
+I Boris i Mark moj goste. - Both Boris and Mark are my guests.
+```
+
 [^^^](#RUS)
 
 ---
