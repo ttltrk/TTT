@@ -114,7 +114,7 @@ ko n ba n wa ke n de su. - Good evening I'm ken.
 ##### 2.2
 
 ```
-ma ta a shi ta - see you tomorrow 
+ma ta a shi ta - see you tomorrow
 ```
 
 [^^^](#JPN)
@@ -161,6 +161,12 @@ kee ki wa o i shi i de su. - Cake is tasty.
 
 [^^^](#JPN)
 
+##### 2.4
+
+[^^^](#JPN)
+
+---
+ko n ni chi wa do u zo you ro shi ku - hello, nice to meet you
 ---
 
 #####
