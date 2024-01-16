@@ -113,6 +113,10 @@ ko n ba n wa ke n de su. - Good evening I'm ken.
 
 ##### 2.2
 
+```
+ma ta a shi ta - see you tomorrow 
+```
+
 [^^^](#JPN)
 
 ---
