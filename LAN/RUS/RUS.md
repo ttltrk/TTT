@@ -43,24 +43,46 @@ aktior i doktor. - an actor and a doctor.
 ##### 1.2
 
 ```
-
+privjet - hi
 ```
 
 ```
-
+ja inzinier - i am an engineer
+tanya zdes - tanya is here
 ```
 
 [^^^](#RUS)
 
 ---
 
+##### 1.3
+
+```
+psycholog - psycholgist
+muzykant - musician
+pilot - pilot
+povar - cook
+```
+
+```
+da svetlana zdes - yes svetlana is here
+on ne kapitan - he is not a captain
+da moj druk trenyer - yes, my friend is a coach
+ty povar - are you a cook?
+```
+
 [^^^](#RUS)
 
 ---
 
-[^^^](#RUS)
+##### 1.4
 
----
+```
+dobro pazalovat maria - welcome maria
+pryvjet ja ucitel - hi i am an engineer
+```
+
+[^^^](#RUS)
 
 ---
 
