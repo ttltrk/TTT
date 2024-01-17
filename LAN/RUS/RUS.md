@@ -40,6 +40,16 @@ aktior i doktor. - an actor and a doctor.
 
 ---
 
+##### 1.2
+
+```
+
+```
+
+```
+
+```
+
 [^^^](#RUS)
 
 ---

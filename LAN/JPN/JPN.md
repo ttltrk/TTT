@@ -161,13 +161,13 @@ kee ki wa o i shi i de su. - Cake is tasty.
 
 [^^^](#JPN)
 
+---
+
 ##### 2.4
 
-[^^^](#JPN)
-
----
+```
 ko n ni chi wa do u zo you ro shi ku - hello, nice to meet you
----
+```
 
 #####
 
