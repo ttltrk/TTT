@@ -165,9 +165,15 @@ kee ki wa o i shi i de su. - Cake is tasty.
 
 ```
 ko n ni chi wa do u zo you ro shi ku - hello, nice to meet you
+ko n ni chi wa na o mi - hello naomi
+ko n ba n wa do zo yo ro shi ku - good evening, nice to meet you
 ```
 
-#####
+##### 2.5
+
+```
+
+```
 
 [^^^](#JPN)
 

@@ -184,3 +184,93 @@ balsoje spasiba mark - thank you very much mark
 [^^^](#RUS)
 
 ---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+#### 8
+
+##### 8.1
+
+```
+caska - cup
+```
+
+```
+ja vyzo mamy - i see mom
+net, ja ne vyzo mamy - no i do not see mom
+ja chacu jablka - i want an apple
+net ja chacu sok - no i want juice
+ja chacu vody a vy? - I want water, and you?
+dajte mne velocyped - give me a bicycle
+dajte mne cok, pazalsta - give me juice please
+ja vyzu jecho papu - i see his dad
+```
+
+```
+ja chacu tarielku - I want a plate
+ty choces cok? - do you want juice?
+dajte tarielku, pazalsta - give me a plate please
+ja piju z casky - I drink from a cup
+ja nevyzu tarielku - I do not see the plate
+ja chacu ris i utku - I want a rice and duck
+da ja uze vyzu utku - yes i already see the duck
+jetot ciloviek ne chocet utku - this person does not want duck
+```
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
+
+[^^^](#RUS)
+
+---
