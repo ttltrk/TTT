@@ -239,7 +239,9 @@ on znaet tu devocku - he knows this girl
 ```
 
 ```
-mama citaet - mom is reading 
+mama citaet - mom is reading
+ja vas ne znajem - I do not know you  
+ja vizu nasu mamu - I see our mom 
 ```
 
 [^^^](#RUS)
