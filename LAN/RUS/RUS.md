@@ -207,6 +207,7 @@ balsoje spasiba mark - thank you very much mark
 
 ```
 caska - cup
+lozka - spoon
 ```
 
 ```
@@ -229,6 +230,16 @@ ja nevyzu tarielku - I do not see the plate
 ja chacu ris i utku - I want a rice and duck
 da ja uze vyzu utku - yes i already see the duck
 jetot ciloviek ne chocet utku - this person does not want duck
+```
+
+```
+ja vyze zdes kocku - i see a cat here
+cto on znaet? what does he know?
+on znaet tu devocku - he knows this girl
+```
+
+```
+mama citaet - mom is reading 
 ```
 
 [^^^](#RUS)
