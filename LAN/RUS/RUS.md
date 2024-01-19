@@ -241,7 +241,8 @@ on znaet tu devocku - he knows this girl
 ```
 mama citaet - mom is reading
 ja vas ne znajem - I do not know you  
-ja vizu nasu mamu - I see our mom 
+ja vizu nasu mamu - I see our mom
+kak zavut vasu cabaku? - what is your dogs name? 
 ```
 
 [^^^](#RUS)
