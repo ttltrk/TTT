@@ -172,7 +172,7 @@ ko n ba n wa do zo yo ro shi ku - good evening, nice to meet you
 ##### 2.5
 
 ```
-
+ko re wa o i shi i raa me n de su - this is tasty ramen
 ```
 
 [^^^](#JPN)

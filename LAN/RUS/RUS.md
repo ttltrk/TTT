@@ -245,7 +245,13 @@ ja vizu nasu mamu - I see our mom
 kak zavut vasu cabaku? - what is your dogs name?
 dima ty choces zmeu? - dimna do you want a snake?
 u mena net jeho knigy - i don't have his book
-cto on citaet? - what is he reading? 
+cto on citaet? - what is he reading?
+```
+
+```
+konecna ja znaeju jeto  - of course, i know this
+kak zavut vaso mamo - what is your mothers name?
+ja ne znaet nicivo - i do not know anything
 ```
 
 [^^^](#RUS)
