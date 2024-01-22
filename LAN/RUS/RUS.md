@@ -242,7 +242,10 @@ on znaet tu devocku - he knows this girl
 mama citaet - mom is reading
 ja vas ne znajem - I do not know you  
 ja vizu nasu mamu - I see our mom
-kak zavut vasu cabaku? - what is your dogs name? 
+kak zavut vasu cabaku? - what is your dogs name?
+dima ty choces zmeu? - dimna do you want a snake?
+u mena net jeho knigy - i don't have his book
+cto on citaet? - what is he reading? 
 ```
 
 [^^^](#RUS)
