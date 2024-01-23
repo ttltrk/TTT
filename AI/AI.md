@@ -55,3 +55,110 @@ we already see more and more AI involved in the decisions we make every day.
 Over the years, AI has proven to be useful in different domains, impacting the lives of people and our society in meaningful ways.
 
 ---
+
+##### 02
+
+There's a lot of talk about artificial intelligence
+these days. How do you define or what does AI mean for you? There is a lot of talk and
+there's a lot of definitions for what artificial intelligence says. So one of them is about
+teaching the machines to learn, and act, and think as humans would. Another dimension is
+really about how do we get the machines to- how do we impart more of a cognitive capabilities
+on the machines and sensory capabilities. So
+it's about analyzing images and videos about natural language processing and understanding
+speech. It's about pattern recognition, and so on, and so forth. So the third axis
+is more around creating a technology that's able to,
+in some cases, replace what humans do. I'd like to think of this as augment what humans
+do. To me personally, the most important part of definition for artificial intelligence
+is about imparting the ability to think and learn on the machines. To me that's what defines
+artificial intelligence. AI is the application of computing to solve
+problems in an intelligent way using algorithms. So what is an intelligent way? Well, an intelligent
+way may be something that mimics human intelligence. Or it may be a purely computational approach
+and optimization approach but something that manipulates data in a way to
+get not obvious results out, I think, is what I would classify
+as being artificially intelligent. I would define AI as a tool that uses computer to
+complete a task automatically with very little to no human intervention.
+To me AI is really a complex series of layers of algorithms that
+do something with the information that's coming into it.
+Artificial intelligence is a set of technologies that
+allows us to extract knowledge from data. So it's any kind of system that learns or
+understands patterns within that data, and can identify them, and then reproduce them
+on new information. Artificial intelligence is not the kind of
+simulating human intelligence that people think it is.
+It's really not about intelligence at all. But I think another word that describes AI
+more accurately today is machine learning. The reason I say that is because machine learning
+technology is all about using essentially mathematics on computers in order to find
+patterns in data. Now this data can be structured or unstructured.
+The only difference between machine learning and
+the technologies that came before it is instead of us, as humans, having to manually hard
+code these patterns, and these conditions into computers. They're
+able to find these patterns on their own by using math. That's really the only difference
+here. So what I'd say artificial intelligence is, is it's a set of mathematical algorithms
+that enable us to have computers find, very deep and patterns that we may not have even
+known exist, without us having to hard code them manually.
+
+---
+
+##### 03
+
+Define Generative AI and describe its significance, and
+Explain different use cases of Generative AI.
+Artificial Intelligence (AI) is defined as Augmented Intelligence that enables experts
+to scale their capabilities while machines handle time-consuming tasks like recognizing
+speech, playing games, and making decisions.
+On the other hand, Generative Artificial Intelligence, or GenAI, is an AI technique capable of creating
+new and unique data, ranging from images and music to text and entire virtual worlds.
+Unlike conventional AI models that rely on pre-defined rules and patterns, Generative
+AI models use deep learning techniques and rely on vast datasets to generate entirely
+new data with various applications.
+A Generative AI model can also use LLM, Large Language Model, a type of artificial intelligence
+based on deep learning techniques designed to process and generate natural language.
+For instance, Generative AI can develop new and more powerful LLM algorithms or architectures,
+resulting in more accurate or efficient natural language processing and generation capabilities.
+Alternatively, a Generative AI can design and incorporate LLM into a larger, more advanced
+AI system to perform various advanced tasks, such as decision-making, problem-solving,
+and creative work.
+Generative AI encompasses various AI technologies and the idea of developing AI systems.
+Although more about Generative AI will soon unfold, the following benefits already make
+Generative AI a strategic technology:
+Creativity and innovation,
+Cost and time savings,
+Personalization,
+Scalability,
+Robustness, and
+Exploration of new possibilities.
+Let us look at some diverse use cases of Generative AI.
+In the field of healthcare and precision medicine, Generative AI can support physicians in identifying
+genetic mutations responsible for patients' illnesses and providing tailored treatments.
+It can also produce medical images, simulate surgeries, and predict new drug properties
+to aid doctors in practicing procedures and developing treatments.
+In agriculture, Generative AI can optimize crop yields and create more robust plant varieties
+that can withstand environmental stressors, pests, and diseases.
+In biotechnology, Generative AI can aid in the development of new therapies and drugs
+by identifying potential drug targets, simulating drug interactions, and forecasting drug efficacy.
+In forensics, Generative AI can help solve crimes by analyzing DNA evidence and identifying
+suspects.
+In environmental conservation, Generative AI can support the protection of endangered
+species by analyzing their genetic data and suggesting breeding and conservation strategies.
+In creative fields, Generative AI can produce unique digital art, music, and video content
+for advertising and marketing campaigns, and generate soundtracks for films or video games.
+In gaming, Generative AI can create interactive game worlds by generating new levels, characters,
+and objects that adapt to player behavior.
+In fashion, Generative AI can design and produce virtual try-on experiences for customers and
+recommend personalized fashion choices based on customer behavior and preferences.
+In robotics, Generative AI can design new robot movements and adapt them to changing
+environments, enabling them to perform complex tasks.
+In education, Generative AI can create customized learning materials and interactive learning
+environments that adjust to students' learning styles and paces.
+In data augmentation, Generative AI can produce new training data for machine learning models,
+enhancing their accuracy and performance.
+In this video, you learned that:
+Generative AI is an AI technique capable of creating new and unique data.
+It outperforms traditional AI models in terms of creativity, cost and time savings, personalization,
+scalability, robustness, and exploration of new possibilities.
+Generative AI has the potential to transform various industries and improve people's lives
+and generate newer and impossible data and experiences, and
+It can be used to perform a wide range of tasks, similar to the flexibility and adaptability
+of human intelligence.
+
+
+---
