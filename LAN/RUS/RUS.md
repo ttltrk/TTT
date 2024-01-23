@@ -238,6 +238,8 @@ cto on znaet? what does he know?
 on znaet tu devocku - he knows this girl
 ```
 
+##### 8.2
+
 ```
 mama citaet - mom is reading
 ja vas ne znajem - I do not know you  
@@ -252,6 +254,33 @@ cto on citaet? - what is he reading?
 konecna ja znaeju jeto  - of course, i know this
 kak zavut vaso mamo - what is your mothers name?
 ja ne znaet nicivo - i do not know anything
+```
+
+```
+dajte mne velocyped - give me a bicycle.
+```
+
+##### 8.3
+
+```
+adin - one
+dva - two
+adin cas - one hour
+cas ili dva - an hour or two
+odna ves - one thing
+```
+
+```
+tri - three
+cetie - four
+dva raza - two times
+dva casa noce - two in the morning
+v moskve sicas cetiri casa - It is four o'clock in Moscow now.
+```
+
+```
+tri vaprosa - three questions
+
 ```
 
 [^^^](#RUS)
