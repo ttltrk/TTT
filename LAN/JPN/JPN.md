@@ -179,7 +179,15 @@ ko re wa o i shi i raa me n de su - this is tasty ramen
 
 ---
 
-#####
+#### 3
+
+##### 3.1
+
+```
+nihon - japan
+o o  ki i - big
+chi i sa i - small
+```
 
 [^^^](#JPN)
 
