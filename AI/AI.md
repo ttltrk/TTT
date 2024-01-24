@@ -162,7 +162,7 @@ of human intelligence.
 
 ---
 
-#### 04
+##### 04
 
 AI is here to stay, with the promise of transforming the way the world works.
 According to a study by PWC, $16 trillion of GDP will
@@ -220,5 +220,17 @@ also making operational processes less expensive.
 AI has the potential to access enormous amounts of information, imitate humans,
 even specific humans, make life-changing recommendations about health and
 finances, correlate data that may invade privacy, and much more.
+
+---
+
+##### 05
+
+---
+
+##### 06
+
+---
+
+##### 07
 
 ---
