@@ -160,5 +160,65 @@ and generate newer and impossible data and experiences, and
 It can be used to perform a wide range of tasks, similar to the flexibility and adaptability
 of human intelligence.
 
+---
+
+#### 04
+
+AI is here to stay, with the promise of transforming the way the world works.
+According to a study by PWC, $16 trillion of GDP will
+be added between now and 2030 on the basis of AI.
+This is a never before seen scale of economic impact, and it is not just
+in the IT industry, it impacts virtually every industry and aspect of our lives.
+AI means different things to different people.
+For a videogame designer, AI means writing the code that affects how bots play,
+and how the environment reacts to the player.
+For a screenwriter, AI means a character that acts like a human,
+with some trope of computer features mixed in.
+For a data scientist, AI is a way of exploring and
+classifying data to meet specific goals.
+AI algorithms that learn by example are the reason we can talk to Watson,
+Alexa, Siri, Cortana, and Google Assistant, and they can talk back to us.
+The natural language processing and
+natural language generation capabilities of AI are not only enabling machines and
+humans to understand and interact with each other, but
+are creating new opportunities and new ways of doing business.
+Chatbots powered by natural language processing capabilities, are being used in
+healthcare to question patients and run basic diagnoses like real doctors.
+In education, they are providing students with
+easy to learn conversational interfaces and on-demand online tutors.
+Customer service chatbots are improving customer experience by resolving
+queries on the spot and freeing up agents time for conversations that add value.
+AI-powered advances in speech-to-text technology have made real time
+transcription a reality.
+Advances in speech synthesis are the reason companies are using AI-powered
+voice to enhance customer experience, and give their brand its unique voice.
+In the field of medicine, it's helping patients with Lou Gehrig's disease,
+for example, to regain their real voice in place of using a computerized voice.
+It is due to advances in AI that the field of computer vision has been able to
+surpass humans in tasks related to detecting and labeling objects.
+Computer vision is one of the reasons why cars can steer their way on streets and
+highways and avoid hitting obstacles.
+Computer vision algorithms detect facial features and images and
+compare them with databases of face profiles.
+This is what allows consumer devices to authenticate the identities of their
+owners through facial recognition, social media apps to detect and tag users, and
+law enforcement agencies to identify criminals in video feeds.
+Computer vision algorithms are helping automate tasks.
+Such as detecting cancerous moles in skin images or
+finding symptoms in x-ray and MRI scan.
+AI is impacting the quality of our lives on a daily basis.
+There's AI in our Netflix queue, our navigation apps,
+keeping spam out of our inboxes and reminding us of important events.
+AI is working behind the scenes
+monitoring our investments, detecting fraudulent transactions,
+identifying credit card fraud, and preventing financial crimes.
+AI is impacting healthcare in significant ways,
+by helping doctors arrive at more accurate preliminary diagnoses,
+reading medical imaging, finding appropriate clinical trials for patients.
+It is not just influencing patient outcomes But
+also making operational processes less expensive.
+AI has the potential to access enormous amounts of information, imitate humans,
+even specific humans, make life-changing recommendations about health and
+finances, correlate data that may invade privacy, and much more.
 
 ---
