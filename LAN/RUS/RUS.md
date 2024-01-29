@@ -268,6 +268,7 @@ dva - two
 adin cas - one hour
 cas ili dva - an hour or two
 odna ves - one thing
+vaprosa - question
 ```
 
 ```
