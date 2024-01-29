@@ -299,7 +299,29 @@ on znaet cto delaet. - he knows what he is doing.
 da ja gatovlo. - yes Im cooking
 Ivan ne ponimaet - I van does not understand
 tanya riadka gatoviet - tanya rarely cooks  
-ty haraso gatovies - do you cook well 
+ty haraso gatovies - do you cook well
+```
+
+```
+ja ne kuriu - I dont smoke
+lisa padet - the fox is falling
+ti isso zdes - are you still here?
+ja isso nicivo ne ponemaet - i still dont understand anything
+ja smatriu na dom - I am looking at the house
+ja smatriu i vizo - I look and see
+ty na nich smotries - you are looking at them
+ja riedka padaju - I rarely fall
+
+casto - often
+```
+
+```
+mnogo vody - a lot of water
+dumao, ona citaet - I think she is reading
+otkuda ty jeho znaes - where do you know him from ?
+cti dumaes cto on doktor? - do you think that he is a doctor?
+ne dumaeu cto papa na robote - I do not think that dad is at work
+ty dumaes cto ja vse znaju? - do you think I know everything?
 ```
 
 [^^^](#RUS)
