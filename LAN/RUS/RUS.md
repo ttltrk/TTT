@@ -288,6 +288,20 @@ tri vaprosa - three questions
 
 ---
 
+#### 9
+
+##### 9.1
+
+```
+cto on vidiet? - what does he see?
+cto on delaet? - what is he doing?
+on znaet cto delaet. - he knows what he is doing.
+da ja gatovlo. - yes Im cooking
+Ivan ne ponimaet - I van does not understand
+tanya riadka gatoviet - tanya rarely cooks  
+ty haraso gatovies - do you cook well 
+```
+
 [^^^](#RUS)
 
 ---
