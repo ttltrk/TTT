@@ -324,6 +324,8 @@ ne dumaeu cto papa na robote - I do not think that dad is at work
 ty dumaes cto ja vse znaju? - do you think I know everything?
 ```
 
+##### 9.2
+
 [^^^](#RUS)
 
 ---

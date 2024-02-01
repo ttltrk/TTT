@@ -189,6 +189,14 @@ o o  ki i - big
 chi i sa i - small
 ```
 
+```
+ni ho n ji n - japanese
+ko re wa ka na da de su - this is canada
+i i e bu ra ji ru ji n de su - no she is brazilian
+igirisu wa chisai desu - britain is small
+burajiru wa ooki desu - brazil is big
+```
+
 [^^^](#JPN)
 
 ---
