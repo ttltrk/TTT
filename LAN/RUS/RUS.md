@@ -324,7 +324,17 @@ ne dumaeu cto papa na robote - I do not think that dad is at work
 ty dumaes cto ja vse znaju? - do you think I know everything?
 ```
 
-##### 9.2
+##### 9.3
+
+```
+ja rabatuju mnoga - i work a lot
+ty uze rabotujes? - are you already working?
+ty znaes jeto slova? - do you know this word?
+ja citaju doma - I read at home
+ty uze rabotujes? - are you already working?
+dumoju moj sestra y mamy -  I think my sister is at Mom's place.
+dumoju jeto ne nase dela - i think it is not our business
+```
 
 [^^^](#RUS)
 
