@@ -339,9 +339,15 @@ dumoju jeto ne nase dela - i think it is not our business
 ```
 Izvinite ja ne ponemajo - excuse me i dont understand
 ja ne ponimajo jiho - I do not understand her
-ty mena ponimajes - do you understand me? 
+ty mena ponimajes - do you understand me?
 ty dumujes vsi charaso - do you think everything is fine?
 ty dumujes cto on doktor? - do you think that is a doctor
+```
+
+```
+da ja gatovl - yes im cooking
+on znaet cto delat - he knows what he is doing
+ivan ne ponemaet - ivan does not understand 
 ```
 
 [^^^](#RUS)
