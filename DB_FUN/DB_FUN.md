@@ -21,6 +21,8 @@
 - DB stores data.
 - RDBMS = Relational Database Management System
 
+making relations in RDBMS between attributes and entity
+
 - entity - is anything we store data about - (person, row)
 - attribute - are the things we are store - (name, column)
 
