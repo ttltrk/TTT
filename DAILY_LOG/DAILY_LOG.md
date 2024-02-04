@@ -5,8 +5,8 @@
 
 ---
 
-- 03 - 2024-FEB-03 - IBM CLOUD, drawing c (D1)
-- 02 - 2024-FEB-02 - DB Fundamentals, IBM CLOUD intro  
+- 03 - 2024-FEB-03 - IBM CLOUD (D2), DRAWING C (D1)
+- 02 - 2024-FEB-02 - DB FUND (D1), IBM CLOUD (D1)  
 - 01 - 2024-FEB-01 - Docker, Github, Java, DEVOPS basics
 
 ---
