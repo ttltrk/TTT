@@ -124,6 +124,60 @@ It is worth mentioning that container as a service (CaaS) is another cloud servi
 
 ---
 
+#### Emergent Cloud Deployment Models
+
+```
+In Distributed Cloud, you should have learned that:
+
+- Distributed cloud allows users to run public cloud services in multiple locations.
+- IBM Cloud Satellite is a distributed cloud solution.
+- Users can run workloads close to where the data is created using edge computing.
+- Distributed cloud enables the processing of data, such as personal data, in a specific location, which helps meet regulatory compliance.
+
+In Multicloud, you should have learned that:
+
+- Multicloud users can use cloud services from more than one cloud vendor.
+- Users choose a combination of pricing, performance, security, and compliance requirements from different cloud providers.
+- When there is an outage on one cloud, it may not impact services offered on another cloud.
+- Many organizations use a hybrid multicloud.
+```
+
+##### Distributed Cloud
+
+Distributed cloud is a cloud computing model that enables users to run public cloud services in multiple locations. Locations can be on premises, in a cloud provider's data center, in third-party, or colocation centers. Everything can be managed in a single control plane.
+
+IBM offers a distributed cloud solution with IBM Cloud® Satellite. It helps users deploy and run applications across on premises, edge computing, and public cloud environments.
+
+##### Edge Computing
+
+Edge Computing is the process of running workloads close to where the data is created. Data does not have to be moved to a central cloud data center for processing and then back to where process automation occurs. As a result, applications can process large amounts of data very quickly, in real time.
+
+##### Multicloud
+
+Multicloud is a cloud computing model that refers to using cloud services from more than one cloud vendor. Businesses often use platform as a service (PaaS) or infrastructure as a service (IaaS) from multiple cloud service providers, such as IBM Cloud and Microsoft Azure. They may even use software as a service (SaaS) from different cloud providers, such as Salesforce and Workday.
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
 ####
 
 ---
