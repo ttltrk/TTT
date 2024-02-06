@@ -347,7 +347,11 @@ ty dumujes cto on doktor? - do you think that is a doctor
 ```
 da ja gatovl - yes im cooking
 on znaet cto delat - he knows what he is doing
-ivan ne ponemaet - ivan does not understand 
+ivan ne ponemaet - ivan does not understand
+```
+
+```
+ty smotris na mena? - are you looking at me?
 ```
 
 [^^^](#RUS)

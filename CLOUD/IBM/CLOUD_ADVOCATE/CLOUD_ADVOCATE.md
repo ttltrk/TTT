@@ -158,7 +158,15 @@ Multicloud is a cloud computing model that refers to using cloud services from m
 
 ---
 
-####
+#### IBM Cloud Interface
+
+##### IBM Cloud Console
+
+The IBM Cloud console is an interface where users can access, reference, and manage cloud resources. The cloud console also provides access to the IBM Cloud catalog, cloud documents, IBM support center, the cost estimator tool, IBM Cloud shell, and account management tools.
+
+When a user has an account and is logged into IBM Cloud, the cloud console provides the means to create resources from the dashboard. From the dashboard, users can easily access documentation, the cloud services catalog, see billing information, and seek support.
+
+
 
 ---
 
