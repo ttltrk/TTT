@@ -166,11 +166,29 @@ The IBM Cloud console is an interface where users can access, reference, and man
 
 When a user has an account and is logged into IBM Cloud, the cloud console provides the means to create resources from the dashboard. From the dashboard, users can easily access documentation, the cloud services catalog, see billing information, and seek support.
 
-
-
 ---
 
 #### The Structure of IBM Cloud
+
+```
+In Single-Zone Regions, you should have learned that:
+- SZRs provide only one availability zone for a region.
+- Resources remain in the same zone where a cluster is deployed.
+- Resources in an SZR cannot be spread across zones.
+- SZR locations are in India and South Korea.
+
+In Multizone Regions, you should have learned that:
+- Three or more zones form a multizone region.
+- Cloud services are consistent across zones.
+- If a network failure occurs, data is automatically redirected to an alternative zone.
+- Services in MZRs have better resiliency and connection speed.
+
+In Data Centers, you should have learned that:
+- Data centers are large warehouses or rooms.
+- Each data center contains a pod of infrastructure equipment.
+- Data center locations are not isolated from multizone regions.
+- Each data center contains infrastructure resources used for services and apps.
+```
 
 ##### Single-Zone Regions
 
@@ -187,7 +205,53 @@ Many IBM Cloud services are deployed into multizone regions to provide high avai
 
 ##### Data Centers
 
-Within a region, one or more data centers are found in a metropolitan city. These sites support classic infrastructure. Each data center is a large warehouse or room that contains pods which are standardized containers of infrastructure equipment. This includes the power, cooling, compute, network, and storage resources used for services and apps. 
+Within a region, one or more data centers are found in a metropolitan city. These sites support classic infrastructure. Each data center is a large warehouse or room that contains pods which are standardized containers of infrastructure equipment. This includes the power, cooling, compute, network, and storage resources used for services and apps.
+
+---
+
+#### Security Measures and Security Options
+
+```
+In How IBM Cloud Ensures Security Readiness, you should have learned that:
+- The cloud platform provides layers of security controls.
+- IBM security policies are driven by best practices for systems, networking, and secure engineering.
+- Third party security firms are also used to assess the cloud platform security and compliance.
+- Customers can conduct their own security testing for their resources.
+- IBM Cloud adheres to industry standards such as CSA, FISA, and MTCS.
+
+In Encryption and IBM Cloud, you should have learned that:
+- All data is encrypted in transit.
+- Encryption options include BYOK and KYOK.
+- Encryption key life cycle events are monitored using the IBM Cloud activity tracker.
+- IBM owned keys are used in most services.
+
+In Shared Responsibility, you should have learned that:
+- Responsibility for managing and securing products in IBM Cloud is shared by IBM and customers.
+- Identity and access management tasks include access control policies.
+- Customers are responsible for all data and applications when tasks are completed for products.
+```
+
+##### Compliance Programs
+
+IBM shows commitment to protecting customer data and applications through compliance and trust certifications. Some of the industry standards that IBM Cloud adheres to are:
+
+- The Cloud Security Alliance (CSA) promotes security assurance best practices in cloud computing by providing the Security, Trust, and Assurance Registry (STAR). STAR documents security controls provided by cloud compute resources. IBM Cloud platform services have a level 1 CSA STAR registration.
+
+- The Federal Information Security Management Act of 2002 (FISMA) ensures federal government data is secure by requiring programs to conduct annual reviews of information security programs. IBM Cloud for Government holds a FISMA Impact Level High certification.
+
+- The Multi-Tier Cloud Security (MTCS), Singapore Standard SS 584, is a regional compliance standard that IBM Cloud platform services help meet. Cloud service providers operating in Singapore must adhere to this security standard.
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
 
 ---
 
