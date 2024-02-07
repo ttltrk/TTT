@@ -170,7 +170,24 @@ When a user has an account and is logged into IBM Cloud, the cloud console provi
 
 ---
 
-####
+#### The Structure of IBM Cloud
+
+##### Single-Zone Regions
+
+A single-zone region (SZR), as its name implies, is a region made up of one availability zone. While resources in this zone are highly available, an SZR does not provide fault tolerance during failure events when the entire zone is affected. Cloud resources deployed from an SZR are unavailable during a failure event because resources cannot be spread across zones.
+
+SZR locations are:
+
+- Seoul, South Korea
+- Chennai, India
+
+##### Multizone Regions
+
+Many IBM Cloud services are deployed into multizone regions to provide high availability. Three or more zones form a multizone region (MZR). Each zone is independent from the others and the network links between have low latency and high bandwidth. Spreading workloads across three zones increases availability to 99.99% compared to single zone deployment.
+
+##### Data Centers
+
+Within a region, one or more data centers are found in a metropolitan city. These sites support classic infrastructure. Each data center is a large warehouse or room that contains pods which are standardized containers of infrastructure equipment. This includes the power, cooling, compute, network, and storage resources used for services and apps. 
 
 ---
 
