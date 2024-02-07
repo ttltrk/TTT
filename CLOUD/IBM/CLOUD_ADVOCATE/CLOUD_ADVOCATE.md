@@ -243,7 +243,12 @@ IBM shows commitment to protecting customer data and applications through compli
 
 ---
 
-####
+#### Industry Compliance Standards
+
+- The IBM Cloud platform and services are built to be secure, trustworthy, and meet the needs of industry standards.
+- The cloud is designed with secure engineering practices and layered security.
+- Cloud users can enable additional layers of security on their cloud to meet compliance regulations.
+- Enabling EU support on a cloud account ensures support tickets are sent to IBM support teams in Europe.
 
 ---
 
