@@ -252,7 +252,39 @@ IBM shows commitment to protecting customer data and applications through compli
 
 ---
 
-####
+#### Account types
+
+```
+IBM Cloud account types include Pay-Go, Subscription, and Enterprise:
+
+- Pay-As-You-Go, sometimes called just Pay-Go, lets users explore the full catalog of IBM Cloud services and pay for only the ones they wish to use, such as cloud object storage, cloud databases, and artificial intelligence (AI) services.
+
+- With subscription accounts, customers commit to pay a minimum amount per month for a specific duration. The longer the duration, the greater the discount.
+
+- IBM Cloud Enterprise accounts are designed for organizations that need to centrally manage billing and usage across multiple accounts.
+```
+
+IBM manages its services via accounts, comprised of systems and components that define the relationship among the resources each user and user group can access.
+
+##### Pay-go accounts are best for users who:
+
+- Want to explore IBM Cloud for free.
+- Do not want to make a long-term commitment.
+- Do not use traditional severities or require a response within a specific time.
+
+##### Subscription
+
+Subscription accounts offer all of the IBM Cloud services as Pay-go, but add predictability and discounts for platform services. Customers commit to pay a minimum amount per month for a specific duration. The longer the duration, the greater the discount.
+
+##### Enterprise
+
+An Enterprise account is a type of subscription account, which gathers multiple accounts into a single entity to centrally manage billing and usage across an organization.  As such, it’s not technically an "account type," but a construct designed to simplify account management.
+
+Users with Enterprise accounts can:
+
+- Create nested, multi-tiered hierarchies of accounts, broken out by geography, department or whatever structure best fits the organization.
+- View invoicing and payment across the enterprise, with a shared subscription credit pool.
+- View details about usage and costs.
 
 ---
 
