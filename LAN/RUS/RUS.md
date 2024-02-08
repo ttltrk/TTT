@@ -354,6 +354,14 @@ ivan ne ponemaet - ivan does not understand
 ty smotris na mena? - are you looking at me?
 ```
 
+##### 9.4
+
+```
+stakan - glass
+isso caj pazalsta - more tea please
+stakan vody pazalsta - a glass of water please
+```
+
 [^^^](#RUS)
 
 ---

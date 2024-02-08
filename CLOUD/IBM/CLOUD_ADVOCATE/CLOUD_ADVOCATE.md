@@ -288,7 +288,15 @@ Users with Enterprise accounts can:
 
 ---
 
-####
+#### Support Plans
+
+```
+The three kinds of support plans (basic, advanced, and premium) all have different levels of service.
+
+- Basic: for non-production environments that do not require short response times.
+- Advanced: for environments with a limited number of business-critical applications.
+- Premium: for mission-critical environments that have a strategic dependency on IBM Cloud.
+```
 
 ---
 
