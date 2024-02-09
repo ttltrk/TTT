@@ -300,7 +300,41 @@ The three kinds of support plans (basic, advanced, and premium) all have differe
 
 ---
 
-####
+#### Identify and Access Management !!!
+
+```
+In IAM Defined, you should have learned that:
+- Identity and Access Management (IAM) enables customers to securely authenticate users for platform services and control access to resources across the IBM Cloud platform.
+- IAM uses access policies to assign users and service IDs access to the resources within an enterprise account.
+- Access policies are how users, service IDs, and access groups in an account are given permission to access and take actions on account resources. Policies include a subject, target, and role.
+- The value of using a single resource group and a single access group containing all the users that need the resources in the resource group, is a single policy can be configured that grants access to all resources in the resource group.  
+- Customers requiring enhanced security can require multifactor authentication (MFA) to add an extra layer of security to an account by requiring all users to authenticate using an additional authentication factor beyond an ID and password.
+
+In Assigning Access to Resources, you should have learned that:
+- To assign access to resources in IAM, the account administrator must identify or create access groups, invite users to the account, and then manage the user access.
+
+In Service and Platform Roles, you should have learned that:
+- Service access roles define a user or service’s ability to perform actions on a service instance, such as accessing the console or performing API calls. There are three possible service access roles: manager, writer, and reader.
+- Platform management roles cover a range of actions, including the ability to create and delete instances, manage aliases, bindings, and credentials, and manage access. These roles, as the name suggests, enable management of the platform itself. Through them, users are granted a number of privileges, including the ability to create instances, manage service IDs, manage users and permissions, and create resource groups.
+
+In IAM Scenario: Three Teams Working on Three Projects, you should have learned that:
+- Account administrators require account to All Identity and Access services and the specific platform access role for administrators.
+- The recommendation for naming resource groups is to use names that allow for easy identification, such as the Group_TaskType convention.
+- Account users (developers in the scenario) require the editor and/or manager roles if they need to create and management services.
+```
+
+IAM provides security and consistent access control. It enables customers to securely authenticate users for platform services and control access to resources across the IBM Cloud® platform. IAM can be better understood by considering its two major aspects: identity and access management.
+
+##### Access Control Models
+
+There are two common access control models:
+
+- attribute-based access control (ABAC) and
+- role-based access control (RBAC).
+
+##### IAM Roles
+
+With  IAM, enterprises can manage and define access for users and resources in their account. The available role types are service and platform roles.
 
 ---
 
