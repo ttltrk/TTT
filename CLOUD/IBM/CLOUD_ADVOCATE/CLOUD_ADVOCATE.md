@@ -338,6 +338,46 @@ With  IAM, enterprises can manage and define access for users and resources in t
 
 ---
 
+#### Virtual Private Cloud (VPC)
+
+```
+In IBM VPC Defined, you should have learned that a VPC allows an enterprise to establish its own private cloud-linked computing environment.
+
+In Key Features of IBM VPC, you should have learned that the key features of IBM VPC are its agility, availability, security, and affordability.
+
+In Key Features of IBM VPC, you should have learned that the main business benefits of IBM VPC are flexible business growth, reduced risk across the entire data lifecycle, and its features and functionality allow businesses to channel more resources towards innovation.
+```
+
+A virtual private cloud (VPC) allows an enterprise to establish its own private cloud-linked computing environment. A VPC lives on a shared public cloud infrastructure.
+
+A primary defining feature of the VPC is it allows an enterprise to define and control a virtual network that is logically isolated from all other public cloud tenants. This creates a private and secure place on the public cloud.
+
+##### VPC Architecture
+
+VPCs allow users to deploy cloud resources into their own isolated virtual network. The cloud resources are in three categories: Compute, Storage, and Networking.
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
 ####
 
 ---
