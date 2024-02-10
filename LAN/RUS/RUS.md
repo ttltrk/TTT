@@ -362,6 +362,15 @@ isso caj pazalsta - more tea please
 stakan vody pazalsta - a glass of water please
 ```
 
+```
+packi - package
+butulka - bottle
+sachr - sugar
+je to moj stakan piva - this is my glass of beer
+kupi chleb pazalsta - buy bread please
+choces mysku supa? - do you want a bowl of soup?
+```
+
 [^^^](#RUS)
 
 ---
