@@ -358,11 +358,75 @@ VPCs allow users to deploy cloud resources into their own isolated virtual netwo
 
 ---
 
-####
+#### Core Services
 
 ---
 
-####
+#### Common Storage Options
+
+Cloud storage is a computer model where data and files are stored in digital format in the cloud. Block, object, file, and direct attached are the four types of cloud storage that have many features.
+
+- block storage
+
+```
+Suitable for databases and other applications where disk speed is important
+Suitable for workloads that need low-latency storage to work effectively
+Infinite in size and a great repository for unstructured data types
+Includes data encryption at rest and in transit
+Provisioned in 'volumes' that can be mounted onto a computer node
+
+Handles high-intensity workloads
+Provides encryption for data
+May be provisioned in any IBM Cloud Data Center
+Provides for snapshot creations and advanced scheduling
+Typically used for database workloads
+```
+
+- object storage
+
+```
+Not attached to a computer node. Accessed with an application program interface (API)
+Uses buckets and objects that are stored within these buckets in a structurally flat way
+Used to store files that are static
+Slowest in terms of read and write speeds
+Least expensive out of all storage options
+Files are stored in three locations when saved causing this to be the most resilience storage option
+
+Manages policies for accessing and modifying objects on IBM Cloud
+All objects stored in IBM Cloud object storage are encrypted by default
+Offers SQL query support
+High-Speed Transfer allows data to be uploaded quickly
+Objects can be accessed via Software Development Kits (SDKs) and Application Programming Interfaces (APIs)
+```
+
+- file storage
+
+```
+Presented as a network file system (NFS)
+Can be mounted or used on multiple servers at once
+Involves less disk management and maintenance
+Can be slower than Direct Attached or block storage
+Works well for organizing data in a hierarchical folder structure
+
+Backs up data daily, weekly, or on a custom schedule
+Includes a browser-based portal that allows scheduling jobs, setting retention, policy, and performing one click restores
+Includes end-to-end data encryption that protects the data at its source
+Protects data across geographically dispersed sources
+```
+
+- direct attached storage
+
+```
+Known as local storage
+Storage is fast and normally used to store a server's operating system
+Presented to a cloud-based server
+Cannot be shared with other computer nodes
+
+Fast storage
+Able to store a server’s operating system
+Operating system only lasts while attached to a computer resource
+Redundant array of independent disk techniques can be used
+```
 
 ---
 
