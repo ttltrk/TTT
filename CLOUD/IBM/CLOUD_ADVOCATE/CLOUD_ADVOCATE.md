@@ -360,6 +360,71 @@ VPCs allow users to deploy cloud resources into their own isolated virtual netwo
 
 #### Core Services
 
+##### IBM Virtual Servers for Classic
+
+A virtual server shares hardware and software resources with other operating systems. Virtual servers for Classic are scalable and purchased with cores and memory allocations. They are key factors when considering compute resources that can be added quickly.
+
+- Seamless integration
+
+```
+Due to virtual servers being deployed to network as bare metal servers and network appliances, a user has the flexibility to use top technology for each workload. If multiple virtual servers are being used, they are commonly deployed behind a load balancer.
+```
+
+- Fully customizable
+
+```
+Workloads and applications are highly available due to redundant resources and highly fault-tolerant zone architectures.
+```
+
+- Rapid provisioning
+
+```
+There is a five minute or less wait time between order and provisioning.
+```
+
+- Remote management
+
+```
+A server can be managed remotely using the IBM Cloud console or classic networking API.
+```
+
+- Easily scalable
+
+```
+A user can quickly and easily scale instances, up or down, and add or remove on demand.
+```
+
+When creating a virtual server in the classic infrastructure, the user can choose between a public (multi-tenancy) environment or a dedicated (single-tenancy) environment. Then, depending on the chosen environment, the user must also select hourly, monthly, or transient virtual servers. With public virtual servers, a user can also choose to use either SAN-based storage or local storage.
+
+- Public Virtual Servers
+- Transient Virtual Servers
+- Reserved Virtual Servers
+- Dedicated Virtual Servers
+
+##### Bare Metal Servers Defined
+
+An IBM Cloud bare metal server is a single-tenant server that isn’t shared with any other customer. It provides horsepower for intensive processing and disk input/output (I/O) intensive workloads. Billing options range from hourly, monthly, or a one-year or three-year contract.
+
+##### What is VMware?
+
+VMware develops virtualization software that allows computer hardware to be divided into multiple virtual computers or virtual machines (VMs). Each virtual machine acts as its own computer and runs its own operating system.
+
+##### Kubernetes and Containers
+
+```
+Containers are application components that combine source code with all the required libraries that are required to run the code in any environment. Operating System virtualization allows containers to isolate processes and control the amount of CPU, memory, and disk those processes can access.   
+The main advantage of containers is providing a level of abstraction that makes them portable and lightweight. The chart below shows the benefits of containers.
+```
+
+```
+Kubernetes is an orchestration tool that allows users to run and manage their container-based workloads. The primary goals of Kubernetes are to:
+
+- Automate rollouts and rollbacks.
+- Make everything associated with deploying and managing containers easier.
+- Scale services up or down automatically, depending on utilization.
+- Ensure users are only running what is needed.
+```
+
 ---
 
 #### Common Storage Options
