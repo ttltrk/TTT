@@ -5,6 +5,7 @@
 
 ---
 
+- 12 - 2024-FEB-12 - IBM CLOUD  
 - 11 - 2024-FEB-11 - IBM CLOUD, Python fundamentals, Cyber Security  
 - 10 - 2024-FEB-10 - IBM CLOUD
 - 09 - 2024-FEB-09 - IBM CLOUD
