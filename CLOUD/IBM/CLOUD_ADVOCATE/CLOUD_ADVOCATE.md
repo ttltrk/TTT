@@ -360,6 +360,22 @@ VPCs allow users to deploy cloud resources into their own isolated virtual netwo
 
 #### Core Services
 
+```
+In Key Features of Virtual Servers Classic, you should have learned that a virtual server shares hardware and software resources with other operating systems.
+
+In Using Public, Transient, Reserved, or Dedicated Classic Virtual Servers, you should have learned that there are four types of virtual servers on IBM Cloud: public, dedicated, transient, and reserved.
+
+In Bare Metal Servers, you should have learned that bare metal servers are single-tenant servers that aren't shared with any other customer.
+
+In Business Benefits of IBM Cloud for VMware, you should have learned that IBM offers VMware based services. VMware develops virtualization software.
+
+In IBM Kubernetes Service, you should have learned that Cloud Kubernetes is an orchestration tool that is used for deploying, managing, and scaling containers.
+
+In Red Hat OpenShift on IBM Cloud, you should have learned that OpenShift is an open source development platform that allows users to focus on managing and developing applications.
+
+In Code Engine and Its Benefits, you should have learned that IBM Cloud Code Engine is a fully managed serverless platform that runs containerized workloads.
+```
+
 ##### IBM Virtual Servers for Classic
 
 A virtual server shares hardware and software resources with other operating systems. Virtual servers for Classic are scalable and purchased with cores and memory allocations. They are key factors when considering compute resources that can be added quickly.
@@ -424,6 +440,27 @@ Kubernetes is an orchestration tool that allows users to run and manage their co
 - Scale services up or down automatically, depending on utilization.
 - Ensure users are only running what is needed.
 ```
+
+##### Red Hat OpenShift and Its Benefits
+
+Developers use Red Hat OpenShift in order to have a fast and secure way to containerize and deploy enterprise workloads in Kubernetes clusters. Red Hat Openshift is used to simplify various difficult tasks, like deploying applications and doing day-to-day administrative operations, by extended Kubernetes. It is deployable on premises or in a cloud.
+
+Red Hat OpenShift, which is based on Kubernetes, is an open source development platform that allows users to focus on managing and developing applications. The purpose of Red Hat OpenShift is to create an OpenShift cluster of compute hosts to deploy and manage containerized apps on IBM Cloud. OpenShift is a hybrid cloud, Kubernetes container platform that provides a trusted environment to run enterprise workloads.
+
+The benefits of using Red Hat OpenShift are:
+
+- Choice of container platform provider
+- Single-tenant Kubernetes clusters with compute, network, and storage infrastructure isolation
+- Multizone clusters to increase high availability
+- High available masters
+- Image security compliance with Vulnerability Advisor
+- Continuous monitoring of cluster health
+- Secure exposure of apps to the public
+- IBM Cloud service integration
+
+##### What is Code Engine?
+
+IBM Cloud Code Engine is a fully managed serverless platform that runs containerized workloads. It automatically scales workloads up and down, and even down to zero when no requests are active. Users pay for only resources they consume.  It allows users to write code, while not having to focus on managing the infrastructure. The Code Engine can manage container images, batch jobs, or source code.
 
 ---
 
