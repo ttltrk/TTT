@@ -532,7 +532,11 @@ Redundant array of independent disk techniques can be used
 
 ---
 
-####
+#### DB as a service
+
+##### What is Database-as-a-Service?
+
+Database-as-a-Service (DBaaS) is a cloud computing service that allows users to access and use a cloud database system without purchasing and setting up their hardware, installing their own database software, or managing the database themselves.
 
 ---
 
