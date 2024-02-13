@@ -538,6 +538,65 @@ Redundant array of independent disk techniques can be used
 
 Database-as-a-Service (DBaaS) is a cloud computing service that allows users to access and use a cloud database system without purchasing and setting up their hardware, installing their own database software, or managing the database themselves.
 
+##### What is Hyper Protect Crypto Services?
+
+Hyper Protect Crypto Services is a dedicated key management system and hardware security module (HSM) based on IBM Cloud.
+
+It is a single-tenant key management service with key vaulting that is provided by dedicated customer-controlled HSMs and helps customers easily create and manage their encryption keys. Alternatively, customers can bring their own encryption keys to the cloud. Hyper Protect Crypto Services provides both key management and cloud HSM functions.
+
+---
+
+#### WATSON AI
+
+```
+In Explore IBM Watson Studio, you learned that:
+
+- Watson AI models can be trained using IBM Watson Studio.
+
+In Explore IBM Watson Speech-to-Text Service, you learned that:
+
+- Custom language models allow you to define domain-specific words for your model.
+- Custom acoustic models allow you to create an acoustic model that is tuned for your specific environment or speakers.
+- Grammars allow you to restrict phrases that can be used which results in faster transcription.
+
+In Explore IBM Watson Text-to-Speech Service, you learned that:
+
+- Voices are designed to be natural sounding.
+- Custom voices can be created using as little as an hour of recordings.
+- Word pronunciations can be customized for the user's needs.
+- Speech attributes can be customized using Speech Synthesis Markup Language.
+
+In Explore IBM Watson Assistant, you learned that:
+
+- IBM Watson Assistant integrates with a wide variety of channels.
+- Setup is made easier using a drag-and-drop interface.
+
+In Explore IBM Watson Knowledge Catalog, you learned that:
+
+- You can assign roles that maintain control over the actions of users.
+- Metadata and AI are used to provide valuable search results.
+```
+
+IBM Watson Studio includes a variety of tools for working with data. Using these tools, users can analyze, visualize, cleanse, and shape data as well as build machine learning models.
+
+One of the main roles of Watson Studio is to create and train machine learning models.
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
+
 ---
 
 ####
