@@ -583,7 +583,73 @@ One of the main roles of Watson Studio is to create and train machine learning m
 
 ---
 
-####
+#### Services on IBM Cloud
+
+```
+In Explore IBM Cloud API Connect, you learned that:
+
+- Large numbers of APIs can be managed from a central location.
+- API Connect can run either in the cloud, on-premises, or as a hybrid application.
+- APIs can be bundled into products you can monetize.
+- An intuitive management console allows you to manage the entire API lifecycle.
+- Developer portals can be used to create and share APIs as well as deploy associated applications.
+
+In Explore IBM App Connect, you learned that:
+
+- Workflows can be automated to increase productivity and reduce the chance of errors.
+- There are 75 connectors and 50+ workflow templates to choose from.
+- Flows can be exposed using REST APIs.
+
+In Explore IBM MQ, you learned that:
+
+- MQ allows for the storage and sequential processing of messages between applications.
+- Messages coming in to MQ can be received either synchronously or asynchronously.
+
+In Explore IBM Cloud Continuous Delivery, you learned that:
+
+- DevOps and DevSecOps relies on Continuous Delivery to push incremental updates and patches.
+- Repeatable templates make automating the build and deployment process easier.
+- Instrumentation in Continuous Delivery makes it easier to see the status of the team's development.
+
+In Explore IBM Event Streams, you learned that:
+
+- Messages are created by a producer, stored in partitions that are grouped by topic, and distributed to consumer groups.
+- IBM Event Streams is designed to be highly available and resilient.
+```
+
+APIs are a convenient way to access applications but it can be difficult to manage a large number of them. API Connect for IBM Cloud allows users to create and manage all of their APIs from one central location.
+
+- API Connect Administrator
+
+API Connect Adminstrators manage API Connect provider organizations and users. They also configure services such as gateways that control customer access to APIs.
+
+- API Developer
+
+Developers create new APIs and update existing ones as needed. They are also able to configure security restrictions, logging rules, and access control quotas.
+
+- API Administrator
+
+API Administrators create groups of APIs called distributions that are made available to end users. They also define and implement plans that determine the different access levels that customers will be able to purchase.
+
+- Product Manager
+
+Product Managers are responsible for access to the Developer Portal. Product Managers create a portal for each group of customers which controls access to the developer portal.
+
+- Consumer
+
+Consumers are customers that are outside the organization. Consumers can subscribe to published APIs so they will be able to use them in their applications.
+
+##### IBM App Connect Overview
+
+When developing solutions for customers, users will often have multiple systems that will have to be connected together. This is not always the easiest task to accomplish. IBM App Connect is a cloud-based, fully managed solution that allows users to connect multiple applications such as Salesforce, SAP, and Marketo.
+
+##### IBM MQ
+
+(which stands for Message Queue) works by accepting transactions from various applications, either synchronously or asynchronously, and queuing them for sequential processing. This ensures that every transaction is received and processed.
+
+##### IBM Event Streams
+
+There are a number of ways to communicate between applications but for solutions where high throughput is needed, IBM Event Streams is especially suited. IBM Event Streams is an event streaming platform built on Apache Kafka. It gives apps the ability to react to events as they happen.
 
 ---
 
