@@ -653,7 +653,45 @@ There are a number of ways to communicate between applications but for solutions
 
 ---
 
-####
+#### Cloud security
+
+```
+In IBM Cloud Monitoring, you learned that:
+
+- Real-time monitoring is available.
+- A suite of tools can be used to visualize monitoring data.
+- Alerts and multichannel notifications can be used to reduce the impact of issues.
+
+In IBM Log Analysis, you learned that:
+
+- Log data can be collected in a central location.
+
+In IBM Cloud Activity Tracker, you learned that:
+
+- All activities within an IBM Cloud account can be monitored including who initiated the action.
+
+In IBM Cloud Security and Compliance Center, you learned that:
+
+- Configuration Governance allows the creation of rules and templates to prevent misconfiguration of resources.
+- Posture Management allows components to be scanned on a set schedule to ensure regulatory compliance.
+-Security Insights continuously monitors the system to aid in the identification of potential risks.
+```
+
+##### IBM Cloud Monitoring
+
+Monitoring all the moving parts within a cloud-native application can be complicated since all of these parts operate independently of each other. IBM Cloud Monitoring is a cloud-native and container-intelligence management system that allows users to gain operational visibility into the health of applications, services, and platforms. It also provides a suite of advanced features to gain deeper insights into the performance of their systems.
+
+##### IBM Log Analysis
+
+Because of the distributed nature of cloud systems, error logs can come from a number of independent sources. IBM Log Analysis collects log entries from a variety of sources and concentrates them in one central location. It also gives DevOps teams the ability to analyze the data and export it for compliance auditing requirements.
+
+##### IBM Cloud Activity Tracker
+
+IBM Cloud Activity Tracker is used to track all activity within your IBM Cloud account. This data can be used to investigate abnormal activity and critical actions as well as ensure compliance with regulatory audit requirements.
+
+##### IBM Cloud Security and Compliance
+
+IBM Cloud Security and Compliance Center provides templates and automations that act to prevent catastrophic mistakes and compliance incidents. The components within Security and Compliance Center help ensure that a client's environment is continuously monitored and in compliance with applicable standards.
 
 ---
 
