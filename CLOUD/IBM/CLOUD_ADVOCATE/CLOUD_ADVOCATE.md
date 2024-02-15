@@ -15,6 +15,54 @@
 
 #### The Cloud and why people use it
 
+```
+In The Cloud, you should have learned:
+
+- Cloud computing is on-demand network access to shared resources.
+- The cloud deployment models are public, private, and hybrid.
+
+In Characteristics and Benefits of Cloud Computing, you should have learned:
+
+- The five characteristics of cloud computing are on-demand self-service, broad network access, resource pooling, rapid elasticity, and measured service.
+- One of the benefits of cloud computing is cost-effectiveness.
+- It is also efficient and flexible since there are prebuilt tools and storage options available for the clients. Cloud computing allows users to collaborate and quickly get their products out to the public.
+- Concepts like virtual private cloud, encryption, and API keys can ensure data is secure. Data loss does not occur because of backups in the cloud.
+```
+
+##### What is cloud computing?
+
+The US National Institute of Standards and Technology (NIST) defines cloud computing as "a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction." Examples of computing resources include networks, servers, storage, applications, and services. Cloud computing also includes three types of cloud deployment models: public, private, and hybrid.
+
+##### Why People Use Cloud Computing
+
+People use cloud computing because of its convenience, reliability, affordability, and accessibility. It helps facilitate the management of data, security, storage, compliance, and applications, to name a few.  In addition, the transformational technology associated with the cloud enables new and emerging trends to materialize further expanding its usage. One way users can take advantage of cloud computing is using the agility that the cloud provides to react more quickly to changing business demands. Cloud computing gives rapid access to IT resources compared to more traditional IT approaches allowing new or additional IT services to be provisioned on-demand.
+
+##### Characteristics of Cloud Computing
+
+```
+On Demand Self-Service
+- Provisioning or de-provisioning computing resources as needed through a simple interface without any human intervention.
+
+Broad Network Access
+– Access computing facilities from anywhere over a network by using mechanisms and platforms such as smartphones, tablets, laptops, and workstations.
+
+Resource Pooling
+– Resources are dynamically assigned and/or allocated to meet the client's demands. Typically the client is not concerned about the physical location of the resources but may specify the country or region if that is a requirement.
+
+Rapid Elasticity
+– Allow access for more resources when there is a surge of traffic in the cloud and scale back and release the resources when it is not needed.  
+
+Measured Service
+– The client only pays for the resources that they use.
+```
+
+##### Benefits of Cloud Computing
+
+- cost
+- flexible
+- efficient
+- secure
+
 ---
 
 #### The History and Evolution of the Cloud
