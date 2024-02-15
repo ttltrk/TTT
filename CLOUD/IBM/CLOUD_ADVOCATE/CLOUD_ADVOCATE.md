@@ -9,19 +9,19 @@
 
 ---
 
-####
+#### Intro to the IBM Cloud Advocate
 
 ---
 
-####
+#### The Cloud and why people use it
 
 ---
 
-####
+#### The History and Evolution of the Cloud
 
 ---
 
-####
+#### Cloud Adoption and Migration
 
 ---
 
