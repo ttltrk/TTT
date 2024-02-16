@@ -82,8 +82,30 @@ Network Virtualization uses software to create an overview of the network that a
 
 Application virtualization runs application software without needing it to be installed in the OS, so users can access an application on a separate computer than on the one that the application was originally installed on. There are three types of application virtualization, local application virtualization, application streaming, and server-based application virtualization.
 
-Server virtualization allows multiple virtual 'guest' servers to share the same physical hardware. This works by installing software called a hypervisor, which then controls shared access for each virtual guest to the physical components of the server, including CPU, memory, disk, and networking. 
+Server virtualization allows multiple virtual 'guest' servers to share the same physical hardware. This works by installing software called a hypervisor, which then controls shared access for each virtual guest to the physical components of the server, including CPU, memory, disk, and networking.
 ```
+
+##### Benefits of Virtualization
+
+- Resource Efficiency
+- Easier Management
+- Minimal Downtime
+- Faster Provisioning
+
+##### What are containers?
+
+A container is an executable unit of software that packages up all application code and necessary libraries it needs so that it can run reliably in different computing environments. This allows developers to create containerized applications and deploy them simply, with zero changes, in multiple locations. Containers inherit much of their functionality from the underlying platform on which they are running.
+
+##### Benefits of Containers
+
+- Portable, lightweight, and scalable.
+- Continuous Integration and Delivery, which is a set of processes that help software development teams deliver code changes more frequently and reliably.
+- Streamline development and deployment of cloud-native applications.
+- Includes application's code, system tools and libraries, runtime, and settings.
+
+##### What is serverless computing?
+
+As cloud computing evolves, new models of service delivery have evolved, particularly in the compute space. For example, Serverless is a cloud execution model that offloads management responsibility, such as patching, provisioning, scheduling, and scaling to cloud providers while developers can spend their time and effort on coding or building their applications. Serverless automatically provisions the computing resources required to run application code on-demand and automatically scales resources up or down in response to demand and scales resources to zero when the application stops running. 
 
 ---
 
