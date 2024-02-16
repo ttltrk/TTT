@@ -63,6 +63,36 @@ Measured Service
 
 #### The History and Evolution of the Cloud
 
+```
+In History of the Cloud, you should have learned:
+
+- The foundation for cloud computing started in the 1950s.
+- IBM invented virtualization in the 1960s.
+- The Intel 4004 chip was mass-produced in the 1970s.
+- IBM invented the PC in the 1980s.
+- Over a million people were connected to the internet in the early 1990s.
+- Server virtualization became common in the 2000s.
+- Edge and Fog computing are emerging technologies made possible by cloud.
+
+In Virtualization and Containers, you should have learned:
+
+- Virtualization allows a single, physical, host computer to support a number of virtual 'guests' that have their own, independent, operating system.
+- Some types of virtualization are:
+
+    - Desktop virtualization, which includes virtual desktop infrastructure (VDI) and local desktop virtualization.
+    - Network virtualization, which includes software-defined networking (SDN) and network function virtualization (NFV).
+    - Application virtualization, which includes local application virtualization, application streaming, and server-based application virtualization.
+    - Server virtualization, which allows for multiple virtual servers to share the same hardware via a hypervisor.
+
+- The benefits of virtualization are resource efficiency, easier management, minimal downtime, and faster provisioning.
+- Containers are software that contains the necessary components to run in any environment without the need for physical components. It is portable and lightweight and streamlined to work in any environment.
+
+In Serverless, you should have learned:
+
+- Serverless environments are built on a server infrastructure, however, they are invisible in the sense that the clients do not see, manage, or interact with the servers.
+- Serverless allows developers to focus on their apps instead of having to focus on managing servers.
+```
+
 ##### A Brief History of the Cloud
 
 Cloud computing is an evolution of technology that dates back to the 1950s. Cloud computing would not exist without utilizing computer hardware and virtualization, a concept that was pioneered by IBM. Virtualization uses software that divides the hardware elements of a single computer into multiple virtual computers, also known as virtual machines (VMs). Cloud computing has also undergone many phases including grid, utility, and on-demand computing.
@@ -105,7 +135,7 @@ A container is an executable unit of software that packages up all application c
 
 ##### What is serverless computing?
 
-As cloud computing evolves, new models of service delivery have evolved, particularly in the compute space. For example, Serverless is a cloud execution model that offloads management responsibility, such as patching, provisioning, scheduling, and scaling to cloud providers while developers can spend their time and effort on coding or building their applications. Serverless automatically provisions the computing resources required to run application code on-demand and automatically scales resources up or down in response to demand and scales resources to zero when the application stops running. 
+As cloud computing evolves, new models of service delivery have evolved, particularly in the compute space. For example, Serverless is a cloud execution model that offloads management responsibility, such as patching, provisioning, scheduling, and scaling to cloud providers while developers can spend their time and effort on coding or building their applications. Serverless automatically provisions the computing resources required to run application code on-demand and automatically scales resources up or down in response to demand and scales resources to zero when the application stops running.
 
 ---
 
