@@ -5,6 +5,7 @@
 
 ---
 
+- 16 - 2024-FEB-16 - IBM CLOUD, Blockchain
 - 15 - 2024-FEB-15 - IBM CLOUD, Blockchain
 - 14 - 2024-FEB-14 - IBM CLOUD, Blockchain
 - 13 - 2024-FEB-13 - IBM CLOUD, Python fundamentals, Cyber Security   

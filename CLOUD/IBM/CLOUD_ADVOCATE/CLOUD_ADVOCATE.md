@@ -9,10 +9,6 @@
 
 ---
 
-#### Intro to the IBM Cloud Advocate
-
----
-
 #### The Cloud and why people use it
 
 ```
@@ -66,6 +62,28 @@ Measured Service
 ---
 
 #### The History and Evolution of the Cloud
+
+##### A Brief History of the Cloud
+
+Cloud computing is an evolution of technology that dates back to the 1950s. Cloud computing would not exist without utilizing computer hardware and virtualization, a concept that was pioneered by IBM. Virtualization uses software that divides the hardware elements of a single computer into multiple virtual computers, also known as virtual machines (VMs). Cloud computing has also undergone many phases including grid, utility, and on-demand computing.
+
+##### What is virtualization?
+
+Virtualization is the foundation for cloud computing. It is the process of creating a software version of a physical computing resource. Virtualization uses software to create a layer over computer hardware that allows the hardware elements of a computer, such as processors, memory, storage, etc., to be divided into multiple computers, or virtual machines (VMs), which are virtual environments that use software to mimic a physical computer.
+
+##### Types of Virtualization
+
+There are different types of virtualization, some of them include desktop, network, application, and server virtualization.
+
+```
+Desktop virtualization allows for running multiple desktop operating systems on the same computer in their own VM. There are two types of desktop virtualization: virtual desktop infrastructure (VDI) and local desktop virtualization.
+
+Network Virtualization uses software to create an overview of the network that an administrator can use to manage it without needing access to the physical components. It takes the hardware elements and functions and abstracts them into the software. There are two types of network virtualization: software-defined networking (SDN) and network function virtualization (NFV).
+
+Application virtualization runs application software without needing it to be installed in the OS, so users can access an application on a separate computer than on the one that the application was originally installed on. There are three types of application virtualization, local application virtualization, application streaming, and server-based application virtualization.
+
+Server virtualization allows multiple virtual 'guest' servers to share the same physical hardware. This works by installing software called a hypervisor, which then controls shared access for each virtual guest to the physical components of the server, including CPU, memory, disk, and networking. 
+```
 
 ---
 
