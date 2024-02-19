@@ -5,6 +5,9 @@
 
 ---
 
+- 19 - 2024-FEB-19 - Blockchain
+- 18 - 2024-FEB-18 - Blockchain
+- 17 - 2024-FEB-17 - Blockchain
 - 16 - 2024-FEB-16 - IBM CLOUD, Blockchain
 - 15 - 2024-FEB-15 - IBM CLOUD, Blockchain
 - 14 - 2024-FEB-14 - IBM CLOUD, Blockchain
