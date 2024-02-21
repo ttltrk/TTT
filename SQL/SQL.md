@@ -26,6 +26,19 @@ CREATE, ALTER, DROP, TRUNCATE, RENAME are the DDL commands
 * [TRUNCATE](https://github.com/ttltrk/TTT/blob/master/SQL/TRUNCATE/TRUNCATE.md)
 * [RENAME]()
 
+```
+- The CREATE DATABASE statement is used to create a new SQL database.
+- The CREATE TABLE statement is used to create a new table in a database.
+
+- The ALTER TABLE statement is used to add, delete, or modify columns in an existing table.
+
+- The DROP DATABASE statement is used to drop an existing SQL database.
+- The DROP TABLE statement is used to drop an existing table in a database.
+- The DROP INDEX statement is used to delete an index in a table.
+
+- The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself.
+```
+
 ---
 
 #### DML – Data Manipulation Language.
