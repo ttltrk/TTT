@@ -137,6 +137,9 @@ HASH:
   8899WE00SER0E
 ```
 
+hash = block number + nonce + data + previous hash
+!!! with the nonce we can manipulate the hash - we need the smallest hash !!!
+
 a hash is a number
 
 miners trying to hit the smallest nonce (from the all possible hashes) below the target 0000
