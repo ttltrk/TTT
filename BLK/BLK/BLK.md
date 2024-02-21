@@ -138,7 +138,7 @@ HASH:
 ```
 
 hash = block number + nonce + data + previous hash
-!!! with the nonce we can manipulate the hash - we need the smallest hash !!!
+!!! with the nonce we can manipulate the hash - we need the smallest hash (smallest size = bit)!!!
 
 a hash is a number
 
