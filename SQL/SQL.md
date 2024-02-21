@@ -51,6 +51,12 @@ INSERT, UPDATE, DELETE, MERGE are the DML commands.
 * [UPDATE](https://github.com/ttltrk/TTT/blob/master/SQL/UPDATE/UPDATE.md)
 * [DELETE](https://github.com/ttltrk/TTT/blob/master/SQL/DELETE/DELETE.md)
 
+```
+- The INSERT INTO statement is used to insert new records in a table.
+- The UPDATE statement is used to modify the existing records in a table.
+- The DELETE statement is used to delete existing records in a table.
+```
+
 ---
 
 #### DRL/DQL – Data Retrieval Language/Data Query Language.
