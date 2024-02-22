@@ -9,6 +9,25 @@
 
 ---
 
+- What is SSH and why is it used?
+
+The Secure Shell (SSH) protocol is a method for securely sending commands to a computer over an unsecured network. SSH uses cryptography to authenticate and encrypt connections between devices.
+
+- What is SSL and why it is used?
+SSL: Secure Sockets Layer
+
+SSL is standard technology for securing an internet connection by encrypting data sent between a website and a browser (or between two servers). It prevents hackers from seeing or stealing any information transferred, including personal or financial data.
+
+- What is SSO and how it works?
+
+What is single sign-on (SSO)? Single sign-on (SSO) is a technology which combines several different application login screens into one. With SSO, a user only has to enter their login credentials (username, password, etc.) one time on a single page to access all of their SaaS applications.
+
+- What is SFTP and why it is used?
+
+SFTP, or Secure File Transfer Protocol, is a secure file transfer protocol that uses secure shell encryption to provide a high level of security for sending and receiving file transfers.
+
+---
+
 * [NETWORK_FLASH](https://github.com/ttltrk/TTT/tree/master/NETWORK/NETWORK_FLASH/NETWORK_FLASH.md)
 
 ---
