@@ -5,7 +5,8 @@
 
 ---
 
-- 21 - 2024-FEB-21 - Blockchain, sql fundamentals 
+- 22 - 2024-FEB-22 - Blockchain, sql fundamentals 
+- 21 - 2024-FEB-21 - Blockchain, sql fundamentals
 - 20 - 2024-FEB-20 - Blockchain
 - 19 - 2024-FEB-19 - Blockchain
 - 18 - 2024-FEB-18 - Blockchain

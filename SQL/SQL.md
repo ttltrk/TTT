@@ -123,5 +123,6 @@ ALTER SESSION,SET ROLL are the SCL commands.
 * [FUNCTIONS](https://github.com/ttltrk/TTT/blob/master/SQL/FUNCTIONS/FUNCTIONS.md)
 * [CASE](https://github.com/ttltrk/TTT/blob/master/SQL/CASE/CASE.md)
 * [CTE](https://github.com/ttltrk/TTT/blob/master/SQL/CTE/CTE.md)
+* [SCHEMA](https://github.com/ttltrk/TTT/blob/master/SQL/SCHEMA/SCHEMA.md)
 
 ---
