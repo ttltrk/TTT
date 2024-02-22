@@ -27,15 +27,26 @@ While the term schema is broadly used, it is commonly referring to three differe
 - Logical database schemas are less abstract, compared to conceptual schemas. They clearly define schema objects with information, such as table names, field names, entity relationships, and integrity constraints—i.e. any rules that govern the database. However, they do not typically include any technical requirements.
 - Physical database schemas provide the technical information that the logical database schema type lacks in addition to the contextual information, such as table names, field names, entity relationships, et cetera. That is, it also includes the syntax that will be used to create these data structures within disk storage.
 
-##### Star schema vs. snowflake schema
+##### What is a star schema?
 
-In both logical schemas and physical schemas, database tables will have a primary key or a foreign key, which will act as unique identifiers for individual entries in a table. These keys are used in SQL statements to join tables together, creating a unified view of information. Schema diagrams are particularly helpful in showing these relationships between tables, and they enable analysts to understand the keys that they should join on. There are two additional types of schemas are also commonly referenced in the context of relational database management systems (RDBMS); these are known as star schemas and snowflake schemas.
+A star schema is a database schema used to store data in a star format. This schema consists of a central table, called the "fact table," and a number of directly connected other tables, called "dimension tables." The fact table contains information about metrics or measures, while the dimension tables contain information about descriptive attributes. The star schema is very simple and easy to understand, making it ideal for cloud data warehousing and business intelligence applications.
 
-While conceptual, logical, and physical schemas contain different levels of information about databases in their diagrams, star and snowflake schemas represent those relationships between entities differently. More specifically, a star schema is a type of relational database schema that is composed of a single, central fact table that is surrounded by dimension tables. This tends to be considered a simpler schema compared to the snowflake schema.
+##### What is a snowflake schema?
 
-A snowflake schema consists of one fact table that is connected to many dimension tables, which can be connected to other dimension tables through a many-to-one relationship. This schema offers the advantage of low levels of data redundancy but is not as effective when it comes to query performance.
+A snowflake schema is a type of database schema that is used to store data in a more complex format than the star schema. The snowflake schema consists of a central table, which is called the "fact table," and a number of other tables, which are called "dimension tables." As with other schemas, the fact table contains information about events or facts, while the dimension tables contain information about the dimensions of those events or facts.
 
-As the name implies, a star schema tends to look like a star whereas a snowflake schema tends to resemble a snowflake.
+##### 6 key differences between star schema and snowflake schema
+
+- A star schema has denormalized dimension tables, while a snowflake schema has normalized dimension tables.
+- A star schema is easier to design and implement than a snowflake schema.
+- A star schema can be more efficient to query than a snowflake schema, because there are fewer JOINs between tables.
+- A star schema can require more storage space than a snowflake schema, because of the denormalized data.
+- A star schema can be more difficult to update than a snowflake schema, because of the denormalized data.
+- A star schema can be more difficult to troubleshoot than a snowflake schema, because of the denormalized data
+
+##### Which schema is right for you?
+
+The answer depends on your specific needs and requirements. If you’re looking for a simple, efficient cloud data warehouse solution, a star schema might be the best option. But if you need more flexibility to accommodate changing data requirements, a snowflake schema may be a better choice.
 
 ---
 
