@@ -5,6 +5,10 @@
 
 ---
 
+* [source](https://www.thoughtspot.com/data-trends/data-storage/what-is-a-cloud-data-warehouse)
+
+---
+
 #### SCHEMA
 
 A database schema defines how data is organized within a relational database; this is inclusive of logical constraints such as, table names, fields, data types, and the relationships between these entities. Schemas commonly use visual representations to communicate the architecture of the database, becoming the foundation for an organization’s data management discipline. This process of database schema design is also known as data modeling.
