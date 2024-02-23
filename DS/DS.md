@@ -235,7 +235,7 @@ A Módosítás alkalmazása szakasz egy feldolgozási szakasz. A változásrögz
 
 ---
 
-#### Difference stage
+#### Difference stage - record-by-record
 
 The Difference stage is a processing stage. It performs a record-by-record comparison of two input data sets, which are different versions of the same data set designated the before and after data sets.
 
@@ -243,7 +243,7 @@ A különbség szakasz egy feldolgozási szakasz. Rekordonként összehasonlítj
 
 ---
 
-#### Compare stage
+#### Compare stage - column-by-column
 
 The Compare stage is a processing stage. This stage performs a column-by-column comparison of records in two presorted input data sets.
 
