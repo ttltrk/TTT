@@ -231,6 +231,8 @@ A Change Capture szakasz két bemeneti adatkészletet vesz fel, amelyeket előtt
 
 The Change Apply stage is a processing stage. It takes the change data set, that contains the changes in the before and after data sets, from the Change Capture stage and applies the encoded change operations to a before data set to compute an after data set.
 
+A Módosítás alkalmazása szakasz egy feldolgozási szakasz. A változásrögzítési szakaszból átveszi a változási adatkészletet, amely tartalmazza az előtte és utána adatkészletekben bekövetkezett változásokat, és a kódolt módosítási műveleteket alkalmazza a megelőző adatkészletre, hogy kiszámítson egy utáni adatkészletet.
+
 ---
 
 #### Difference stage
