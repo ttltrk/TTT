@@ -93,6 +93,8 @@ A Join szakasz egy feldolgozási szakasz. Összekapcsolási műveleteket hajt v�
 Keresési szakasz
 Merge Stage
 
+---
+
 #### Merge Stage
 
 The Merge stage is a processing stage. It can have any number of input links, a single output link, and the same number of reject links as there are update input links. The Merge stage combines a master data set with one or more update data sets.
@@ -110,6 +112,8 @@ Az Egyesítés szakasz egyike annak a három szakasznak, amelyek a kulcsoszlopok
 Csatlakozz a színpadhoz
 Keresési szakasz
 A három szakasz főként az általuk használt memóriában, az össze nem illő kulcsokkal rendelkező sorok kezelésében, valamint a bevitt adatokkal szemben támasztott követelményekben (például rendezve) tér el.
+
+---
 
 #### Lookup Stage
 
@@ -138,6 +142,8 @@ A rendezési szakasz egy olyan feldolgozási szakasz, amely bonyolultabb rendez�
 
 Használhatja a Rendezés szakaszt is egy kifejezettebb, egyszerű rendezési művelet beszúrására, ahol könnyebben érthetővé szeretné tenni a munkáját. A Rendezés szakasznak egyetlen bemeneti kapcsolata van, amely a rendezendő adatokat szállítja, és egyetlen kimeneti kapcsolat, amely a rendezett adatokat hordozza.
 
+---
+
 #### Funnel Stage
 
 The Funnel stage is a processing stage that copies multiple input data sets to a single output data set. You can use this operation for combining separate data sets into a single large data set.
@@ -145,6 +151,8 @@ The Funnel stage is a processing stage that copies multiple input data sets to a
 A tölcsér szakasz egy olyan feldolgozási szakasz, amely több bemeneti adatkészletet másol egyetlen kimeneti adatkészletbe. Ezzel a művelettel különálló adatkészleteket egyetlen nagy adatkészletté kombinálhat.
 
 A tölcsér szakasz egy feldolgozási szakasz. Több bemeneti adatkészletet másol egyetlen kimeneti adatkészletbe. Ez a művelet akkor hasznos, ha külön adatkészleteket egyetlen nagy adathalmazba egyesít. A színpad tetszőleges számú bemeneti kapcsolattal és egyetlen kimeneti kapcsolattal rendelkezhet.
+
+---
 
 #### Remove Duplicates Stage
 
@@ -175,6 +183,8 @@ The Expand stage is a processing stage that converts a previously compressed dat
 
 The Copy stage is a processing stage. The Copy stage copies a single input data set to a number of output data sets. Some SMP systems allow scalability of disk I/O.
 
+---
+
 #### Modify stage
 
 The Modify stage alters the record schema of its input data set. The modified data set is then output. You can drop or keep columns from the schema, or change the type of a column.
@@ -184,6 +194,8 @@ A Módosítás szakasz megváltoztatja bemeneti adatkészletének rekordsémáj�
 A Módosítás szakasz egy feldolgozási szakasz. Egyetlen bemeneti és egyetlen kimeneti kapcsolattal rendelkezhet.
 
 A Módosítás szakasz megváltoztatja bemeneti adatkészletének rekordsémáját. A módosított adatkészlet ezután kerül kiadásra. Eldobhat vagy megtarthat oszlopokat a sémából, vagy módosíthatja az oszlop típusát.
+
+---
 
 #### Filter Stage
 
@@ -195,9 +207,13 @@ A szűrő szakasz egy feldolgozási szakasz. Egyetlen bemeneti hivatkozással é
 
 A Szűrő szakasz módosítatlanul továbbítja a bemenő adatkészletnek a meghatározott követelményeknek megfelelő rekordjait, és kiszűri az összes többi rekordot. Különböző követelményeket határozhat meg a sorok különböző kimeneti hivatkozásokon történő leirányításához. A kiszűrt rekordok szükség esetén visszautasítási hivatkozásra irányíthatók.
 
+---
+
 #### External Filter stage
 
 The External Filter stage is a processing stage that allows you to specify a UNIX command that acts as a filter on the data you are processing.
+
+---
 
 #### Change Capture stage
 
@@ -209,15 +225,21 @@ A Change Capture Stage egy feldolgozási szakasz. A szakasz összehasonlít két
 
 A Change Capture szakasz két bemeneti adatkészletet vesz fel, amelyeket előtte és utána jelöl, és egyetlen adatkészletet ad ki, amelynek rekordjai az előző adatkészleten végrehajtott módosításokat reprezentálják, hogy megkapják az utóadatkészletet. A szakasz egy változási adatkészletet állít elő, amelynek tábladefiníciója az adathalmaz tábladefiníciójából egy oszlop hozzáadásával kerül átadásra: egy változtatási kód a négy műveletet kódoló értékekkel: beszúrás, törlés, másolás és szerkesztés. A particionálás megőrzése jelző a változási adatkészleten van beállítva.
 
+---
+
 #### Change Apply stage
 
 The Change Apply stage is a processing stage. It takes the change data set, that contains the changes in the before and after data sets, from the Change Capture stage and applies the encoded change operations to a before data set to compute an after data set.
+
+---
 
 #### Difference stage
 
 The Difference stage is a processing stage. It performs a record-by-record comparison of two input data sets, which are different versions of the same data set designated the before and after data sets.
 
 A különbség szakasz egy feldolgozási szakasz. Rekordonként összehasonlítja két bemeneti adatkészletet, amelyek ugyanannak az adathalmaznak a különböző verziói, amelyeket az előtte és utána adatkészletként jelöltek meg.
+
+---
 
 #### Compare stage
 
@@ -233,10 +255,14 @@ Az Összehasonlítás szakasz nem módosítja a tábladefiníciót, a particion�
 
 Ebben a szakaszban használhatja a futásidejű oszlopterjesztést, és engedélyezheti az InfoSphere® DataStage® számára, hogy futás közben határozza meg a kimeneti oszlopsémát. A szakasz egy három oszlopból álló adatkészletet ad ki:
 
+---
+
 #### Encode Stage
 
 The Encode stage is a processing stage. It encodes a data set using a UNIX encoding command, such as gzip, that you supply.
 ../topics/c_deeref_Decode_Stage.html
+
+---
 
 #### Switch stage
 
@@ -248,6 +274,8 @@ A kapcsoló fokozat egyetlen bemeneti kapcsolattal, legfeljebb 128 kimeneti kapc
 
 A Switch szakasz a C switch utasításhoz hasonló műveletet hajt végre, aminek következtében a C programban a vezérlés folyamata egy választóváltozó értéke alapján több eset valamelyikére ágazik el. Azok a sorok, amelyek egyik esetnek sem felelnek meg, a visszautasítási hivatkozáson jelennek meg.
 
+---
+
 #### FTP Enterprise Stage
 
 The FTP Enterprise stage transfers multiple files in parallel. This stage invokes an FTP client and transfers the files to and from a remote host.
@@ -256,21 +284,31 @@ Az FTP Enterprise szakasz több fájlt párhuzamosan továbbít. Ez a szakasz me
 
 Az FTP Enterprise szakasz több fájlt párhuzamosan továbbít. Ezek egy vagy több FTP-kiszolgálóról az InfoSphere® DataStage®-be vagy az InfoSphere DataStage-ről egy vagy több FTP-kiszolgálóra átvitt fájlkészletek. A fájl forrását vagy célját egy URI (Universal Resource Identifier) azonosítja. Az FTP Enterprise szakasz meghív egy FTP-kliens programot, és az FTP-protokoll használatával fájlokat továbbít egy távoli gazdagépre vagy onnan.
 
+---
+
 #### Generic stage
 
 The Generic stage is a processing stage that allows you to call an Orchestrate® operator from within a stage and pass it options as required.
+
+---
 
 #### Surrogate Key Generator stage
 
 The Surrogate Key Generator stage is a processing stage that generates surrogate key columns and maintains the key source.
 
+---
+
 #### Slowly Changing Dimension stage
 
 The Slowly Changing Dimension (SCD) stage is a processing stage that works within the context of a star schema database. The SCD stage has a single input link, a single output link, a dimension reference link, and a dimension update link.
 
+---
+
 #### Pivot Enterprise stage
 
 The Pivot Enterprise stage is a processing stage that pivots data horizontally and vertically.
+
+---
 
 #### Checksum stage
 
@@ -283,6 +321,8 @@ Az ellenőrző összeg értékkel ellenőrizheti az egyes sorok érvényességé
 Általában az ellenőrző összeg szakaszt egy jobban hozza létre az ellenőrző összeg oszlop hozzáadásához, majd egy másik jobban egy Ellenőrző összeg szakaszt használ az adatok érvényességének ellenőrzésére.
 
 Az Ellenőrző összeg szakasz a paletta Feldolgozás részében található.
+
+---
 
 #### Column Import Stage
 
@@ -297,6 +337,8 @@ Az oszlopimportálási szakasz egy szerkezetátalakítási szakasz. Ez a szakasz
 Az oszlopimportálási szakasz egy szerkezetátalakítási szakasz. Lehet egyetlen bemeneti kapcsolattal, egyetlen kimeneti hivatkozással és egyetlen elutasító hivatkozással. Ennek a szakasznak a kiegészítése az Oszlopexportálási szakasz, amelyet az Oszlopexport szakaszban ismertetünk.
 
 Az Oszlopimportálás szakasz egyetlen oszlopból importálja az adatokat, és egy vagy több oszlopba adja ki. Általában arra használja, hogy az egyetlen oszlopban érkező adatokat több oszlopra ossza fel. Az adatok fix szélességűek vagy valamilyen módon elhatárolhatók, hogy az oszlopimportálási szakaszban megmondják, hol kell felosztani. A bemeneti oszlopnak karakterláncnak vagy bináris adatnak kell lennie, a kimeneti oszlopok bármilyen adattípusúak lehetnek.
+
+---
 
 #### Column Export stage
 
@@ -315,6 +357,8 @@ Az Oszlopexport szakasz egy szerkezetátalakítási szakasz. Lehet egyetlen beme
 Az Oszlopexportálás szakasz számos különböző adattípusú oszlopból exportálja az adatokat egyetlen adattípusú ustring, karakterlánc vagy bináris oszlopba. Ez az oszlopimportálás kiegészítő szakasza (lásd: Oszlopimportálási szakasz).
 
 A bemeneti adatok oszlopdefiníciói határozzák meg az oszlopok egyetlen kimeneti oszlopba történő exportálásának sorrendjét. Az exportált egyetlen oszlop elhatárolásával kapcsolatos információk a Bemenet oldal Formátumok lapján találhatók. Opcionálisan elmentheti az elutasított rekordokat, vagyis azokat a rekordokat, amelyek exportálása elutasításra került.
+
+---
 
 #### Make Vector stage
 
@@ -340,6 +384,8 @@ A számoknak eggyel kell növekedniük.
 Az oszlopokat oszlopnév0 és oszlopnév között kell elnevezni, ahol az oszlopnév az oszlop nevét kezdi, a 0 és az n pedig az első és az utolsó egymást követő szám.
 Az oszlopoknak nem kell egymást követő sorrendben lenniük.
 
+---
+
 #### Make Subrecord stage
 
 The Make Subrecord stage combines specified vectors in an input data set into a vector of subrecords whose columns have the names and data types of the original vectors. The Split Subrecord stage performs the inverse operation.
@@ -354,4 +400,22 @@ Az Alrekord készítése szakasz egy átstrukturálási szakasz. Egyetlen bemene
 
 Az Alrekord létrehozása szakasz egy bemeneti adathalmazban meghatározott vektorokat egyesíti alrekordok vektorává, amelynek oszlopai az eredeti vektorok neveivel és adattípusaival rendelkeznek. Megadhatja az alrekordok vektorává alakítandó vektoroszlopokat és az új részrekord nevét. A vektorok és részrekordok magyarázatához lásd a "Komplex adattípusok" részt.
 
-####
+---
+
+#### Table definition
+
+A table definition is a set of related columns definitions that are stored in the Repository.
+
+These can be loaded into stages as and when required.
+
+You can import a table definition from a data source via the Designer. You can also edit and define new table definitions in the Designer (see Defining your data). If you want, you can edit individual column definitions once you have loaded them into your stage.
+
+You can also simply type in your own column definition from scratch on the Outputs or Input page Column tab of your stage editor. When you have entered a set of column definitions you can save them as a new table definition in the Repository for subsequent reuse in another job.
+
+A tábladefiníció a tárban tárolt kapcsolódó oszlopdefiníciók halmaza.
+
+Ezeket igény szerint szakaszokra lehet tölteni.
+
+Tábladefiníciót importálhat adatforrásból a Tervezőn keresztül. A Tervezőben szerkesztheti és új tábladefiníciókat is megadhat (lásd: Adatok meghatározása). Ha szeretné, szerkesztheti az egyes oszlopdefiníciókat, miután betöltötte őket a szakaszba.
+
+Egyszerűen beírhatja saját oszlopdefinícióját a semmiből a színpadszerkesztő Kimenetek vagy Bemenet oldal Oszlop lapján. Ha megadta az oszlopdefiníciók készletét, elmentheti őket új tábladefinícióként a Repository-ba, hogy később felhasználhassa őket egy másik jobban.
