@@ -5,6 +5,7 @@
 
 ---
 
+- 24 - 2024-FEB-24 - Blockchain, sql fundamentals
 - 23 - 2024-FEB-23 - Blockchain, sql fundamentals, datastage + interview
 - 22 - 2024-FEB-22 - Blockchain, sql fundamentals, datastage + interview
 - 21 - 2024-FEB-21 - Blockchain, sql fundamentals
