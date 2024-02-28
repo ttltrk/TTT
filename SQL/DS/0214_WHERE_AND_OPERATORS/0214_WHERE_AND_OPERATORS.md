@@ -7,9 +7,7 @@
 
 ### 0214_WHERE_AND_OPERATORS
 
----
-
----         
+---     
 
 ```sql         
 select *
