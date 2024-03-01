@@ -5,6 +5,7 @@
 
 ---
 
+- 30 - 2024-MRC-01 - sql fundamentals
 - 29 - 2024-FEB-29 - sql fundamentals
 - 28 - 2024-FEB-28 - sql fundamentals
 - 27 - 2024-FEB-27 - sql fundamentals
