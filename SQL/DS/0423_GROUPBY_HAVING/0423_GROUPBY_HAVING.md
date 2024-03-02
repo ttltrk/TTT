@@ -9,28 +9,28 @@
 
 ---
 
-```sql    
--- department salary pair first 10 rows
+```sql
+-- each employee with dep-sal-region limit 10
 
-select department, salary
+select employee_id, department, salary, region_id
 from employees
 order by department
 limit 10;
 ```
 
 ```
-department|salary|
-----------+------+
-Automotive|111775|
-Automotive| 75978|
-Automotive|160039|
-Automotive|119959|
-Automotive|137393|
-Automotive|160783|
-Automotive|157260|
-Automotive|103570|
-Automotive| 56095|
-Automotive|106046|
+employee_id|department|salary|region_id|
+-----------+----------+------+---------+
+        305|Automotive|111775|        2|
+        367|Automotive| 75978|        6|
+        247|Automotive|160039|        5|
+        274|Automotive|119959|        7|
+         97|Automotive|137393|        3|
+         90|Automotive|160783|        1|
+        126|Automotive|157260|        1|
+         23|Automotive|103570|        4|
+        249|Automotive| 56095|        7|
+        385|Automotive|106046|        1|
 ```
 
 ```sql
