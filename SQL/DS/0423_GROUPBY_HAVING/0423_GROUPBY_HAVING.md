@@ -237,8 +237,8 @@ Children Clothing|M     |   26|
 ---
 
 ```sql
--- without HAVING 
--- give the departments were are working less then 35 people
+-- without HAVING
+-- return departments were working less then 35 people
 
 select department, count(*) < 35
 from employees
@@ -264,7 +264,7 @@ Device Repair    |false   |
 
 ```sql
 -- with HAVING
--- give the departments were are working less then 35 people
+-- return departments were working less then 35 people
 
 select department, count(*)
 from employees
