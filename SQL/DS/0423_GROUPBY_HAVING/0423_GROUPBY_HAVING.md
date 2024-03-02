@@ -156,7 +156,12 @@ Jewelry          |   41|
 ---
 
 ```sql
-select department, count(*) total_number_employees, round(avg(salary)) avg_sal, min(salary) min_sal, max(salary) max_sal
+select
+	department,
+	count(*) total_number_employees,
+	round(avg(salary)) avg_sal,
+	min(salary) min_sal,
+	max(salary) max_sal
 from employees
 where 1=1
 group by department
@@ -184,7 +189,12 @@ Jewelry          |                    41|  80576|  26876| 163794|
 ```sql
 -- return total_number_employees, avg_sal, min_sal, max_sal per department where salary > 70000
 
-select department, count(*) total_number_employees, round(avg(salary)) avg_sal, min(salary) min_sal, max(salary) max_sal
+select
+	department,
+	count(*) total_number_employees,
+	round(avg(salary)) avg_sal,
+	min(salary) min_sal,
+	max(salary) max_sal
 from employees
 where salary > 70000
 group by department
