@@ -237,7 +237,33 @@ Children Clothing|M     |   26|
 ---
 
 ```sql
---HAVING
+-- without HAVING 
+-- give the departments were are working less then 35 people
+
+select department, count(*) < 35
+from employees
+group by department
+order by department asc
+limit 10;
+```
+
+```
+department       |?column?|
+-----------------+--------+
+Automotive       |true    |
+Beauty           |false   |
+Books            |false   |
+Camping          |false   |
+Children Clothing|false   |
+Clothing         |false   |
+Computers        |false   |
+Cosmetics        |true    |
+Decor            |false   |
+Device Repair    |false   |
+```
+
+```sql
+-- with HAVING
 -- give the departments were are working less then 35 people
 
 select department, count(*)
