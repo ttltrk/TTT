@@ -31,6 +31,17 @@ TOYOTA|
 ```
 
 ```sql
+select count(*)
+from cars;
+```
+
+```
+count|
+-----+
+   10|
+```
+
+```sql
 select count(*), make
 from cars
 group by make
