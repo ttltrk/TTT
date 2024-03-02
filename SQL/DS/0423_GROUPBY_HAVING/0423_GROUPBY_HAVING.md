@@ -60,3 +60,55 @@ Cosmetics        |3684978|
 ```
 
 ---
+
+```sql
+-- department salary pair where region_id is in (4, 5, 6, 7) first 10 rows
+
+select department, region_id, salary
+from employees
+where region_id in (4,5,6,7)
+limit 10;
+```
+
+```
+department      |region_id|salary|
+----------------+---------+------+
+Sports          |        4|154864|
+Clothing        |        4| 95313|
+Phones & Tablets|        7|119674|
+Computers       |        5| 55307|
+Clothing        |        7| 28995|
+Clothing        |        7| 72225|
+Jewelry         |        7|126333|
+Furniture       |        6| 61256|
+Movies          |        7| 78141|
+Toys            |        5| 75283|
+```
+
+```sql
+-- return the sum amount per department where region_id is in (4, 5, 6, 7) first 10 rows
+
+select department, sum(salary)
+from employees
+where region_id in (4,5,6,7)
+group by department
+order by sum(salary) desc
+limit 10;
+```
+
+```
+department   |sum    |
+-------------+-------+
+Movies       |3065892|
+Toys         |2915453|
+Furniture    |2754459|
+Computers    |2629856|
+First Aid    |2598148|
+Clothing     |2582568|
+Device Repair|2280756|
+Cosmetics    |2275778|
+Camping      |2225814|
+Games        |2219045|
+```
+
+---
