@@ -124,3 +124,33 @@ zdnet.com      |    5|
 ```
 
 ---
+
+```sql
+--find the salary statistics (min, max, avg) in the separate regions per gender
+
+select
+	gender,
+	region_id,
+	min(salary) min_sal,
+	max(salary) max_sal,
+	round(avg(salary)) avg_sal
+from employees
+group by gender, region_id
+order by gender, region_id
+limit 10;
+```
+
+```
+gender|region_id|min_sal|max_sal|avg_sal|
+------|---------|-------|-------|-------|
+F     |        1|  21024| 163361|  86087|
+F     |        2|  21931| 166765|  91431|
+F     |        3|  24614| 158268|  91831|
+F     |        4|  25037| 166976|  90030|
+F     |        5|  20613| 161532|  91242|
+F     |        6|  20776| 164588|  90435|
+F     |        7|  23582| 166016|  97803|
+M     |        1|  25602| 157861|  93855|
+M     |        2|  21735| 163794|  95498|
+M     |        3|  21626| 164470|  94328|
+```
