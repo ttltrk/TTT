@@ -30,6 +30,6 @@
 ---
 
 * [0526_ALIASING_SOURCE](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0526_ALIASING_SOURCE/0526_ALIASING_SOURCE.md)
-* []()
+* [0527_INTRO_SUBQUERIES](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0527_INTRO_SUBQUERIES/0527_INTRO_SUBQUERIES.md)
 * []()
 * []()
