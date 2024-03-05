@@ -5,6 +5,7 @@
 
 ---
 
+- 34 - 2024-MRC-05 - sql fundamentals
 - 33 - 2024-MRC-04 - sql fundamentals
 - 32 - 2024-MRC-03 - sql fundamentals
 - 31 - 2024-MRC-02 - sql fundamentals
