@@ -45,3 +45,26 @@ Computers |
 ```
 
 ---
+
+```sql
+select first_name, last_name, salary, (select first_name from employees limit 1) a
+from employees
+limit 10;
+```
+
+```
+first_name|last_name|salary|a     |
+----------+---------+------+------+
+Berrie    |Manueau  |154864|Berrie|
+Aeriell   |McNee    | 56752|Berrie|
+Sydney    |Symonds  | 95313|Berrie|
+Avrom     |Rowantree|119674|Berrie|
+Feliks    |Morffew  | 55307|Berrie|
+Bethena   |Trow     |134501|Berrie|
+Ardeen    |Curwood  | 28995|Berrie|
+Seline    |Dubber   |101066|Berrie|
+Dayle     |Trail    | 82753|Berrie|
+Redford   |Roberti  | 72225|Berrie|
+```
+
+---
