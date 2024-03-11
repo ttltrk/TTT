@@ -221,3 +221,34 @@ employee_id|first_name|last_name|email                     |hire_date |departmen
 ```       
 
 ---
+
+```sql
+-- what is the difference between the max salary and the emp salary         
+
+select
+	first_name,
+	department,
+	salary as emp_salary,
+	(select max(salary) from employees) as max_salary,  
+	(select max(salary) from employees) - salary as diff
+from employees
+where region_id in (select region_id from regions where country in ('Asia', 'Canada'))
+limit 10;  
+```
+
+```
+first_name|department      |emp_salary|max_salary|diff  |
+----------+----------------+----------+----------+------+
+Berrie    |Sports          |    154864|    166976| 12112|
+Sydney    |Clothing        |     95313|    166976| 71663|
+Avrom     |Phones & Tablets|    119674|    166976| 47302|
+Feliks    |Computers       |     55307|    166976|111669|
+Ardeen    |Clothing        |     28995|    166976|137981|
+Redford   |Clothing        |     72225|    166976| 94751|
+Nickey    |Jewelry         |    126333|    166976| 40643|
+Alyson    |Furniture       |     61256|    166976|105720|
+Merell    |Movies          |     78141|    166976| 88835|
+Annora    |Toys            |     75283|    166976| 91693|
+```
+
+---
