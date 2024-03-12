@@ -32,4 +32,7 @@
 * [0526_ALIASING_SOURCE](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0526_ALIASING_SOURCE/0526_ALIASING_SOURCE.md)
 * [0527_INTRO_SUBQUERIES](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0527_INTRO_SUBQUERIES/0527_INTRO_SUBQUERIES.md)
 * [0528_SUBQUERIES_CONTINUED](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0528_SUBQUERIES_CONTINUED/0528_SUBQUERIES_CONTINUED.md)
+* [0529_SUB_ANY_ALL](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0529_SUB_ANY_ALL/0529_SUB_ANY_ALL.md)
+* []()
+* []()
 * []()
