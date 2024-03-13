@@ -136,4 +136,84 @@ employee_id|first_name|last_name  |email                   |hire_date |departmen
          17|Annora    |Bendelow   |abendelowg@google.com.hk|2009-06-12|Toys            |F     | 75283|        5|
 ```
 
----         
+---   
+
+```sql          
+--give the employees from kids division and the hired dates is greather than all of the hire_dates of
+--employees who work in the maintenance department
+
+select *
+from employees
+where department in (select department from departments where division = 'Kids')
+and hire_date > all (select hire_date from employees where department = 'Maintenance')
+limit 10;
+```    
+
+```
+employee_id|first_name|last_name |email                      |hire_date |department       |gender|salary|region_id|
+-----------+----------+----------+---------------------------+----------+-----------------+------+------+---------+
+        280|Timotheus |Curbishley|tcurbishley7r@free.fr      |2015-05-14|Children Clothing|M     | 23159|        5|
+        346|Taite     |Oats      |toats9l@google.com.hk      |2016-06-08|Children Clothing|M     | 82106|        3|
+        470|Hallsy    |McBrier   |                           |2015-12-31|Children Clothing|M     | 98649|        5|
+        771|Berti     |Randerson |brandersonle@opensource.org|2016-10-06|Children Clothing|M     |150740|        3|
+        955|Rodrique  |Fowlston  |rfowlstonqi@diigo.com      |2016-01-04|Children Clothing|M     | 95051|        7|
+        128|Archibald |Pavey     |                           |2015-04-27|Toys             |M     | 59860|        1|
+        364|Conrad    |Brognot   |cbrognota3@latimes.com     |2016-04-21|Toys             |M     |154205|        1|
+        753|Adelaide  |Gubbin    |agubbinkw@hc360.com        |2016-12-01|Toys             |F     | 27578|        7|
+        804|Annie     |Denge     |adengemb@jigsy.com         |2015-02-01|Toys             |F     |149161|        3|
+        912|Ardelia   |Dunkley   |adunkleypb@toplist.cz      |2015-10-18|Toys             |F     | 99819|        7|
+```
+
+---        
+
+```sql        
+-- give me the salary which is the most popular
+
+select salary, count(salary) as mof
+from employees
+where 1=1
+group by salary
+order by mof desc
+limit 10;
+```
+
+```
+salary|mof|
+------+---+
+158546|  2|
+121211|  2|
+118649|  2|
+ 54434|  2|
+103570|  2|
+ 37206|  2|
+ 20613|  1|
+ 33544|  1|
+ 78047|  1|
+121054|  1|
+```
+
+```sql
+select salary, count(salary) > 1 as mof
+from employees
+where 1=1
+group by salary
+order by mof desc
+limit 10;
+```
+
+```
+salary|mof  |
+------+-----+
+158546|true |
+121211|true |
+118649|true |
+ 54434|true |
+103570|true |
+ 37206|true |
+ 20613|false|
+ 33544|false|
+ 78047|false|
+121054|false|
+```
+
+---      
