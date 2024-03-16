@@ -38,7 +38,10 @@
 ---
 
 * [0632_CASE](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0632_CASE/0632_CASE.md)
-* []()
+* [0633_TRANSPOSING_DATA_WITH_CASE](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0633_TRANSPOSING_DATA_WITH_CASE/0633_TRANSPOSING_DATA_WITH_CASE.md)
+
+---
+
 * []()
 * []()
 * []()
