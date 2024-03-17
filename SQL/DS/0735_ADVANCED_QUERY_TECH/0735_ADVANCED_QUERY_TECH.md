@@ -34,3 +34,28 @@ round|
 ```
 
 ---
+
+```sql
+select first_name, salary
+from employees
+where salary > (select round(AVG(salary)) from employees)
+order by salary desc
+limit 10;
+```
+
+```
+first_name|salary|
+----------+------+
+Jacklyn   |166976|
+Carissa   |166765|
+Riley     |166569|
+Lauren    |166016|
+Lucy      |165660|
+Barby     |164588|
+Ev        |164582|
+Sherwynd  |164470|
+Michail   |164355|
+Hermione  |164219|
+```
+
+---
