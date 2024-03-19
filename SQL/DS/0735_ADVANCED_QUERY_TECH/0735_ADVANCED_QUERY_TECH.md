@@ -169,3 +169,34 @@ Decor            |          39|
 ```
 
 ---
+
+```sql
+--department names where > 38 emp working and the highest salary of the departments
+
+select
+	department,
+	(select max(salary) from employees where department = d.department) as max_salary
+from departments d
+where 38 < (select count(*) from employees e where e.department = d.department)
+order by max_salary desc;
+```
+
+```		
+department       |max_salary|
+-----------------+----------+
+Clothing         |    166976|
+Device Repair    |    164355|
+First Aid        |    164011|
+Jewelry          |    163794|
+Toys             |    163688|
+Computers        |    163512|
+Garden           |    163361|
+Beauty           |    162845|
+Furniture        |    160170|
+Movies           |    159463|
+Children Clothing|    158546|
+Tools            |    156672|
+Decor            |    153849|
+```
+
+---
