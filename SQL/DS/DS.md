@@ -42,7 +42,10 @@
 
 ---
 
-* []()
+* [0735_ADVANCED_QUERY_TECH](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0735_ADVANCED_QUERY_TECH/0735_ADVANCED_QUERY_TECH.md)
+
+---
+
 * []()
 * []()
 * []()
