@@ -1,0 +1,18 @@
+
+---
+
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [SQL](https://github.com/ttltrk/TTT/blob/master/SQL/SQL.md)
+
+---
+
+### SQL_EXPLORER
+
+---
+
+* [link](https://mylearn.oracle.com/ou/learning-path/oracle-sql-explorer/79918)
+
+---
+
+* [01_OVERVIEW](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/01_OVERVIEW/01_OVERVIEW.md)
+
+---
