@@ -22,6 +22,25 @@ attribute - singular name, lowercase, mandatory marked with *, optional marked w
 UID - unique identifier - primary marked with #, secondary marked with '#'
 ```
 
+```
+Relating multiple tables
+
+- each row of data in a table can be uniquely identified by a primary key
+- you can logically relate data from multiple tables using foreign keys
+
+EMPLOYEES
+- EMPLOYEE_ID - PRIMARY KEY
+- FIRST_NAME
+- last_name
+- DEPARTMENT_ID - FOREIGN KEY
+
+DEPARTMENTS
+- DEPARTMENT_ID - PRIMARY KEY
+- DEPARTMENT_NAME
+- MANAGER_ID
+- LOCATION_ID  
+```
+
 Well, our next area of discovery in our Explorer learning path is going to be on relational database management system concepts. Objectives on this one is to describe the RDBMS concepts. And stepping into this one here, every organization has information that it must store and manage to meet its various requirements.
 
 In our situation here, we may want to store information about all employees within our company. That, in turn, here, of course, then delivers here a need here for an employees table, a departments table, possibly even a salary table, and so forth. Which takes us to, then, the definition of a relational database. And it is a collection of relations or two dimensional tables controlled by server processes.
