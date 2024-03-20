@@ -9,8 +9,6 @@
 
 ---
 
----
-
 ```sql
 select AVG(salary)
 from employees;
