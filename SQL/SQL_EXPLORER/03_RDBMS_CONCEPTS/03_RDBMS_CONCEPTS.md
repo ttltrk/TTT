@@ -41,6 +41,12 @@ DEPARTMENTS
 - LOCATION_ID  
 ```
 
+```sql
+select employee_id, last_name, department_name 
+from employee join deprtments
+using (department_id);
+```
+
 Well, our next area of discovery in our Explorer learning path is going to be on relational database management system concepts. Objectives on this one is to describe the RDBMS concepts. And stepping into this one here, every organization has information that it must store and manage to meet its various requirements.
 
 In our situation here, we may want to store information about all employees within our company. That, in turn, here, of course, then delivers here a need here for an employees table, a departments table, possibly even a salary table, and so forth. Which takes us to, then, the definition of a relational database. And it is a collection of relations or two dimensional tables controlled by server processes.
