@@ -9,6 +9,23 @@
 
 ---
 
+```
+- how sql works
+
+- sql is adata sublanguage
+- works with data at the logical level
+- common language for all rdbms
+```
+
+```
+- SQL statement types
+
+- data manipulation language (DML) - select, insert, update, delete, merge
+- data definition language (DDL) - create, alter, drop, rename, truncate, comment
+- data control language (DCL) - grant, revoke
+- transaction control language (TCL) - commit, rollback, savepoint
+```
+
 Well, welcome to our first topic or, here a, discussion in our getting started with SQL. This one is titled, of course, Introduction to SQL. And, first, of course, our objectives on this is going to be, well, how does SQL work.
 
 Secondly, of course, here what are the various statement types that we can see within SQL? And, finally, what we want to cover, of course, is Oracle's SQL Development environments that are available to utilize and the interaction of our data with our systems.
