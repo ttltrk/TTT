@@ -27,6 +27,14 @@ dual - is a table automatically created by Oracle Database
      - has one column called DUMMY of data type VARCHAR(1), and contains one row a value x
 ```
 
+```
+SELECT *
+FROM dual;
+
+SELECT SYSDATE
+FROM dual; 
+```
+
 Well, in our path here to complete our Oracle Database Explorer badge, we can now begin to investigate here what it takes to write SQL statements. And the objective on this one is we want to describe our SQL statements. And, of course, then, in turn, at the end of this, we'll show you a nice demo of writing some SQL statements.
 
 So, in working with SQL, what are the things we need to understand here? And these are some of the recommendations. One, first and foremost, what we need to understand is SQL statements are not case sensitive. Provide cohesion and standardization, we would certainly recommend that you use some formatting here, but understand here, if you want to do it all uppercase, wonderful. If you want to do it lowercase, wonderful, the statements are not case sensitive.

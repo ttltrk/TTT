@@ -17,7 +17,7 @@
 * [02_INTRO](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/02_INTRO/02_INTRO.md)
 * [03_RDBMS_CONCEPTS](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/03_RDBMS_CONCEPTS/03_RDBMS_CONCEPTS.md)
 * [04_HR_SCHEMA](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/04_HR_SCHEMA/04_HR_SCHEMA.md)
-* []()
+* [05_WRITING_SQL](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/05_WRITING_SQL/05_WRITING_SQL.md)
 * []()
 * []()
 * []()
