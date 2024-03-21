@@ -32,7 +32,13 @@ SELECT *
 FROM dual;
 
 SELECT SYSDATE
-FROM dual; 
+FROM dual;
+```
+
+```
+sqlplus login
+
+sqlplus ora21/pra21@pdboracl
 ```
 
 Well, in our path here to complete our Oracle Database Explorer badge, we can now begin to investigate here what it takes to write SQL statements. And the objective on this one is we want to describe our SQL statements. And, of course, then, in turn, at the end of this, we'll show you a nice demo of writing some SQL statements.
