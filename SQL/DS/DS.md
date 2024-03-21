@@ -47,6 +47,9 @@
 
 ---
 
+* [0838_INTRO_JOIN](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0838_INTRO_JOIN/0838_INTRO_JOIN.md)
+* []()
+* []()
+* []()
 
-* []()
-* []()
+---
