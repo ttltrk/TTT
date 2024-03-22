@@ -9,9 +9,26 @@
 
 ---
 
-```sql 
-SELECT last_name, salary, salary+300
+```sql
+SELECT last_name, salary, salary + 300
 FROM employees;
+```
+
+```sql
+SELECT last_name, salary, 12*salary+100
+FROM employees;
+
+SELECT last_name, salary, 12*(salary+100)
+FROM employees;
+```
+
+```
+Defining a Null Value
+
+- Null is a value that us unavailable, unassigned, unknown, or inappicable.
+- Null is not the same as zero or a blank space.
+
+Arithmetic expressions containing a null value evaluate to null.
 ```
 
 
