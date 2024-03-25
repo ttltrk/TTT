@@ -19,6 +19,9 @@
 * [04_HR_SCHEMA](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/04_HR_SCHEMA/04_HR_SCHEMA.md)
 * [05_WRITING_SQL](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/05_WRITING_SQL/05_WRITING_SQL.md)
 * [06_ARITHMETIC_SQL_STATEMENT](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/06_ARITHMETIC_SQL_STATEMENT/06_ARITHMETIC_SQL_STATEMENT.md)
+* [07_ALIASES_CONCAT_OP](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/07_ALIASES_CONCAT_OP/07_ALIASES_CONCAT_OP.md)
+* [08_LITERAL_CHAR_STRING](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/08_LITERAL_CHAR_STRING/08_LITERAL_CHAR_STRING.md)
+* []()
 * []()
 * []()
 
