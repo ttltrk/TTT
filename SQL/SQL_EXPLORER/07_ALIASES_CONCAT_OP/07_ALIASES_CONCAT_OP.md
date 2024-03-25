@@ -14,6 +14,11 @@ SELECT last_name AS name, comission_pct comm
 FROM employees;
 ```
 
+```
+SELECT last_name || job_id AS "Employee"
+FROM employees;
+```
+
 Our next area of discovery is going to be, and dovetails nicely against the arithmetic expressions, is column aliases and concatenation operator. In this one, you're going to see that we're going to investigate column aliases and then the concatenation operator.
 
 Well, to define a column alias, the reason why we use it is it allows us to rename the column headings, either for clarity here or just to add a little bit more distinction. But most importantly, it's very useful in calculations. A column alias, of course, is going to immediately follow the column name. And you can also, for clarity, and the optional keyword AS, or A-S, between the column name and its alias.
