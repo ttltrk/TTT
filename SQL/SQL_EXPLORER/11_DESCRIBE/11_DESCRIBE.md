@@ -9,6 +9,15 @@
 
 ---
 
+```
+Displaying table structure by using the DESCRIBE command.
+Use the DECRIBE command to display the structure of a table. 
+```
+
+```sql
+DESCRIBE employees
+```
+
 Our next area we're going to investigate is the DESCRIBE command. And do note here that we say DESCRIBE command here. This is not a keyword here. This is actually a command here, and it's actually a SQL*PLUS command that is also interpreted here, or is understood by, the SQL Developer utility or tool as well.
 
 In working with the DESCRIBE command here, we want to certainly, of course, explain it to you. And it truly is important to note here that this is a command here that you can use within SQL statements, but it is part of the SQL*PLUS syntax, in that it is one of the few times here where you can actually abbreviate things. And I'll demonstrate this for you.

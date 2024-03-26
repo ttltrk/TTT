@@ -23,8 +23,8 @@
 * [08_LITERAL_CHAR_STRING](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/08_LITERAL_CHAR_STRING/08_LITERAL_CHAR_STRING.md)
 * [09_ALTERNATIVE_QUOTE_OP](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/09_ALTERNATIVE_QUOTE_OP/09_ALTERNATIVE_QUOTE_OP.md)
 * [10_DISTINCT](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/10_DISTINCT/10_DISTINCT.md)
-* []()
-* []()
+* [11_DESCRIBE](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/11_DESCRIBE/11_DESCRIBE.md)
+* [12_SQL_DEVELOPER](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/12_SQL_DEVELOPER/12_SQL_DEVELOPER.md)
 * []()
 * []()
 
