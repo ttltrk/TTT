@@ -9,6 +9,11 @@
 
 ---
 
+```
+SELECT department_name || q' [ Department's Manager Id: ] ' || magaer_id AS "Department and Manager"
+FROM departments;
+```
+
 And our next area in review in our Explorer path is looking at the alternate quote operator. And this really kind of could have been included within our literal character section, but, sometimes, if you combine them too fast here, they don't sink in. So we're going to look at those situations when you actually want to use a single quote, and we already know here to include then a literal character string. The single code is the delineator here from that character string into this SELECT statement.
 
 So objectives on this one is to describe an alternate quote operator here to be utilized when the situations where you need a single quote here, in essence, an apostrophe or possibly something else, and you don't want it to be interpreted as a literal character string, or you want it to be part of a literal character string.
