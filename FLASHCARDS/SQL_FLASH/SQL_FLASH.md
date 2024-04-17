@@ -27,6 +27,20 @@ ALTER TABLE - [ALTER_ADD_COLUMN](https://github.com/ttltrk/TTT/tree/master/FLASH
 
 DML – Data Manipulation Language
 
+```sql
+--INSERT INTO
+INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
+VALUES(7, 'ray', 'brent', 'still', 'GER');
+
+--UPDATE
+UPDATE public.trk_test_01
+SET lastname='jockey', firstname='brent', address='still', city='GER'
+WHERE personid=7;
+
+--DELETE 
+DELETE FROM trk_test_01 WHERE firstname ='bbbb';
+```
+
 * [INSERT_INTO](#INSERT_INTO)
 * [UPDATE](#UPDATE)
 * [DELETE](#DELETE)
