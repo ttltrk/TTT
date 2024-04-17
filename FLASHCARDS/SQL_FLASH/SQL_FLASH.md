@@ -25,6 +25,8 @@ ALTER TABLE - [ALTER_ADD_COLUMN](https://github.com/ttltrk/TTT/tree/master/FLASH
 * [DROP_INDEX](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DROP_INDEX/DROP_INDEX.md)
 * [TRUNCATE_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/TRUNCATE_TABLE/TRUNCATE_TABLE.md)
 
+---
+
 DML – Data Manipulation Language
 
 ```sql
@@ -37,7 +39,7 @@ UPDATE public.trk_test_01
 SET lastname='jockey', firstname='brent', address='still', city='GER'
 WHERE personid=7;
 
---DELETE 
+--DELETE
 DELETE FROM trk_test_01 WHERE firstname ='bbbb';
 ```
 
@@ -45,7 +47,54 @@ DELETE FROM trk_test_01 WHERE firstname ='bbbb';
 * [UPDATE](#UPDATE)
 * [DELETE](#DELETE)
 
+---
+
 DRL/DQL – Data Retrieval Language/Data Query Language
+
+```sql
+--SELECT
+SELECT * FROM trk_test_01;
+
+--SELECT DISTINCT
+SELECT DISTINCT city FROM trk_test_02;
+
+--SELECT TOP
+SELECT TOP 3 * FROM trk_test_01;
+
+--WHERE
+SELECT * FROM trk_test_01 WHERE lastname='kawhi';
+
+--AND
+SELECT * FROM trk_test_02 WHERE city='BP' AND dep='DEVOPS';
+
+--OR
+SELECT * FROM trk_test_02 WHERE city='BP' OR city='BA';
+
+--NOT
+SELECT * FROM trk_test_02 WHERE NOT city='BP';
+
+--ORDER BY
+SELECT * FROM trk_test_01 ORDER BY city ASC;
+
+--LIMIT
+SELECT * FROM trk_test_01 LIMIT 3;
+
+--MIN
+--MAX
+--COUNT
+--AVG
+--SUM
+--BETWEEN
+--IN
+--LIKE
+
+--INER JOIN
+SELECT trk_test_01.personid AS ID, trk_test_01.lastname, trk_test_02.dep, trk_test_02.city
+FROM trk_test_01
+INNER JOIN trk_test_02
+ON trk_test_01.personid=trk_test_02.systemid;
+
+```
 
 * [SELECT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SELECT/SELECT.md)
 * [SELECT_FROM_SELECT](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SELECT_FROM_SELECT/SELECT_FROM_SELECT.md)
@@ -63,11 +112,6 @@ DRL/DQL – Data Retrieval Language/Data Query Language
 * [](#)
 * [](#)
 
-ELSE
-
-* [INSERT_INTO](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INSERT/INSERT.md)
-* [UPDATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/UPDATE/UPDATE.md)
-* [DELETE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/DELETE/DELETE.md)
 * [INNER_JOIN](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/INNER_JOIN/INNER_JOIN.md)
 
 ---
