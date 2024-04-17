@@ -80,19 +80,43 @@ SELECT * FROM trk_test_01 ORDER BY city ASC;
 SELECT * FROM trk_test_01 LIMIT 3;
 
 --MIN
+SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
+
 --MAX
+SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
+
 --COUNT
+SELECT COUNT(city) FROM trk_test_02;
+SELECT COUNT(DISTINCT city) FROM trk_test_02;
+
 --AVG
+SELECT AVG(personid) FROM trk_test_01;
+
 --SUM
+SELECT SUM(personid) as sum_of_personid FROM trk_test_01;
+
 --BETWEEN
+SELECT * FROM trk_test_01 WHERE personid BETWEEN 2 AND 4;   
+
 --IN
+SELECT city, address FROM trk_test_01 WHERE city IN ('GS', 'Dallas', 'toronto');
+SELECT city, address FROM trk_test_01 WHERE city NOT IN ('GS', 'Dallas', 'toronto');
+
 --LIKE
+SELECT lastname FROM trk_test_01 WHERE lastname LIKE '%i';
 
 --INER JOIN
 SELECT trk_test_01.personid AS ID, trk_test_01.lastname, trk_test_02.dep, trk_test_02.city
 FROM trk_test_01
 INNER JOIN trk_test_02
 ON trk_test_01.personid=trk_test_02.systemid;
+
+--UNION (UNION ALL select all values)
+select * from temp1 UNION select * from temp2;
+select * from temp1 UNION ALL select * from temp2;
+
+--GROUP BY
+select department, sum(salary) from employees where 1=1 group by department limit 5;
 
 ```
 
