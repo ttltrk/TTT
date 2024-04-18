@@ -10,6 +10,55 @@
 
 DDL – Data Definition Language
 
+```sql
+--CREATE DB
+CREATE DATABASE testDB_01;
+
+--SHOWS DB
+SELECT datname FROM pg_database WHERE datistemplate = false;
+
+--CREATE TABLE
+CREATE TABLE trk (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+--CREATE TABLE USING ANOTHER TABLE
+create table trk_test_xx as select * from trk_test_01;
+
+--SHOW TABLES
+SELECT *
+FROM pg_catalog.pg_tables
+WHERE schemaname != 'pg_catalog' AND
+    schemaname != 'information_schema';
+
+--CREATE INDEX
+CREATE INDEX idx_lastname
+ON Persons (LastName);
+
+--CREATE INDEX (COMBINATION OF COLUMNS)
+CREATE INDEX idx_pname
+ON Persons (LastName, FirstName);      
+
+--SHOW INDEXES
+select indexname, indexdef
+from pg_indexes
+where tablename = 'trk_test_01';
+
+--CREATE VIEW
+CREATE VIEW [Brazil Customers] AS
+SELECT CustomerName, ContactName
+FROM Customers
+WHERE Country = 'Brazil';
+
+--SHOW VIEW
+select table_name from INFORMATION_SCHEMA.views;
+
+```
+
 * [CREATE_DB](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_DB/CREATE_DB.md)
 * [SHOW_DBS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SHOW_DB/SHOW_DB.md)
 * [CREATE_TABLE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/CREATE_TABLE/CREATE_TABLE.md)
