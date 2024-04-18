@@ -32,10 +32,6 @@
 * [DICT_METH](#DICT_METH)
 * [TUPLE_METH](#TUPLE_METH)
 * [SET_METH](#SET_METH)
-* [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/LIST_METHODS.md)
-* [DICT_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/DICT_METHODS/DICT_METHODS.md)
-* [TUPLE_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/TUPLE_METHODS/TUPLE_METHODS.md)
-* [SET_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/SET_METHODS/SET_METHODS.md)
 
 ---
 
@@ -756,6 +752,101 @@ cars.sort() #['BMW', 'Ford', 'Volvo']
 #### DICT_METH
 
 ```py
+#clear()
+#Removes all the elements from the dictionary
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.clear() # {}
+
+#copy()
+#Returns a copy of the dictionary
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.copy() #{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+
+#fromkeys()
+#Returns a dictionary with the specified keys and value
+x = ('key1', 'key2', 'key3')
+y = 33
+thisdict = dict.fromkeys(x, y) #{'key1': 33, 'key2': 33, 'key3': 33}
+
+#get()
+#Returns the value of the specified key
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.get("model") #Mustang
+
+#items()
+#Returns a list containing a tuple for each key value pair
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.items() #dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+
+#keys()
+#Returns a list containing the dictionary's keys
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.keys() #dict_keys(['brand', 'model', 'year'])
+
+#pop()
+#Removes the element with the specified key
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.pop("model") #{'brand': 'Ford', 'year': 1964}
+
+#popitem()
+#Removes the last inserted key-value pair
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.popitem() #{'brand': 'Ford', 'model': 'Mustang'}
+
+#setdefault()
+#Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.setdefault("model", "Bronco") #Mustang
+
+#update()
+#Updates the dictionary with the specified key-value pairs
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car.update({"color": "White"}) #{'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
+
+#values()
+#Returns a list of all the values in the dictionary
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+x = car.values() #dict_values(['Ford', 'Mustang', 1964])
 
 ```
 
