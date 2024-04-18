@@ -24,6 +24,10 @@
 
 ---
 
+* [LIST_METH](#LIST_METH)
+* [DICT_METH](#DICT_METH)
+* [TUPLE_METH](#TUPLE_METH)
+* [SET_METH](#SET_METH)
 * [LIST_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/LIST_METHODS/LIST_METHODS.md)
 * [DICT_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/DICT_METHODS/DICT_METHODS.md)
 * [TUPLE_METHODS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/TUPLE_METHODS/TUPLE_METHODS.md)
@@ -679,7 +683,83 @@ orl
 
 ---
 
-#### TUPLE_METHODS
+#### LIST_METH
+
+```py
+#append()
+#Adds an element at the end of the list
+fruits = ['apple', 'banana', 'cherry']
+fruits.append("orange") #['apple', 'banana', 'cherry', 'orange']
+
+#clear()
+#Removes all the elements from the list
+fruits = ['apple', 'banana', 'cherry', 'orange']
+fruits.clear() #[]
+
+#copy()
+#Returns a copy of the list
+fruits = ['apple', 'banana', 'cherry', 'orange']
+x = fruits.copy()
+print(x) #['apple', 'banana', 'cherry']
+
+#count()
+#Returns the number of elements with the specified value
+fruits = ["apple", "banana", "cherry", "cherry"]
+x = fruits.count("cherry") #2
+
+#extend()
+#Add the elements of a list (or any iterable), to the end of the current list
+fruits = ['apple', 'banana', 'cherry']
+cars = ['Ford', 'BMW', 'Volvo']
+fruits.extend(cars) #['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
+
+#index()
+#Returns the index of the first element with the specified value
+fruits = ['apple', 'banana', 'cherry']
+x = fruits.index("cherry") #2
+
+#insert()
+#Adds an element at the specified position
+fruits = ['apple', 'banana', 'cherry']
+fruits.insert(1, "orange") #['apple', 'orange', 'banana', 'cherry']
+
+#pop()
+#Removes the element at the specified position
+fruits = ['apple', 'banana', 'cherry']
+fruits.pop(1) #['apple', 'cherry']
+
+#remove()
+#Removes the item with the specified value
+fruits = ['apple', 'banana', 'cherry']
+fruits.remove("banana") #['apple', 'cherry']
+
+#reverse()
+#Reverses the order of the list
+fruits = ['apple', 'banana', 'cherry']
+fruits.reverse() #['cherry', 'banana', 'apple']
+
+#sort()
+#Sorts the list
+cars = ['Ford', 'BMW', 'Volvo']
+cars.sort() #['BMW', 'Ford', 'Volvo']
+
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### DICT_METH
+
+```py
+
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### TUPLE_METH
 
 ```
 count()	Returns the number of times a specified value occurs in a tuple
@@ -704,7 +784,7 @@ print(x)
 
 ---
 
-#### SET_METHODS
+#### SET_METH
 
 ```
 add()	Adds an element to the set
