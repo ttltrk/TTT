@@ -686,15 +686,22 @@ orl
 #### LIST_METH
 
 ```py
+
+----------------------------------------------------------------
+
 #append()
 #Adds an element at the end of the list
 fruits = ['apple', 'banana', 'cherry']
 fruits.append("orange") #['apple', 'banana', 'cherry', 'orange']
 
+----------------------------------------------------------------
+
 #clear()
 #Removes all the elements from the list
 fruits = ['apple', 'banana', 'cherry', 'orange']
 fruits.clear() #[]
+
+----------------------------------------------------------------
 
 #copy()
 #Returns a copy of the list
@@ -702,10 +709,14 @@ fruits = ['apple', 'banana', 'cherry', 'orange']
 x = fruits.copy()
 print(x) #['apple', 'banana', 'cherry']
 
+----------------------------------------------------------------
+
 #count()
 #Returns the number of elements with the specified value
 fruits = ["apple", "banana", "cherry", "cherry"]
 x = fruits.count("cherry") #2
+
+----------------------------------------------------------------
 
 #extend()
 #Add the elements of a list (or any iterable), to the end of the current list
@@ -713,35 +724,49 @@ fruits = ['apple', 'banana', 'cherry']
 cars = ['Ford', 'BMW', 'Volvo']
 fruits.extend(cars) #['apple', 'banana', 'cherry', 'Ford', 'BMW', 'Volvo']
 
+----------------------------------------------------------------
+
 #index()
 #Returns the index of the first element with the specified value
 fruits = ['apple', 'banana', 'cherry']
 x = fruits.index("cherry") #2
+
+----------------------------------------------------------------
 
 #insert()
 #Adds an element at the specified position
 fruits = ['apple', 'banana', 'cherry']
 fruits.insert(1, "orange") #['apple', 'orange', 'banana', 'cherry']
 
+----------------------------------------------------------------
+
 #pop()
 #Removes the element at the specified position
 fruits = ['apple', 'banana', 'cherry']
 fruits.pop(1) #['apple', 'cherry']
+
+----------------------------------------------------------------
 
 #remove()
 #Removes the item with the specified value
 fruits = ['apple', 'banana', 'cherry']
 fruits.remove("banana") #['apple', 'cherry']
 
+----------------------------------------------------------------
+
 #reverse()
 #Reverses the order of the list
 fruits = ['apple', 'banana', 'cherry']
 fruits.reverse() #['cherry', 'banana', 'apple']
 
+----------------------------------------------------------------
+
 #sort()
 #Sorts the list
 cars = ['Ford', 'BMW', 'Volvo']
 cars.sort() #['BMW', 'Ford', 'Volvo']
+
+----------------------------------------------------------------
 
 ```
 
@@ -752,6 +777,9 @@ cars.sort() #['BMW', 'Ford', 'Volvo']
 #### DICT_METH
 
 ```py
+
+----------------------------------------------------------------
+
 #clear()
 #Removes all the elements from the dictionary
 car =	{
@@ -760,6 +788,8 @@ car =	{
   "year": 1964
 }
 car.clear() # {}
+
+----------------------------------------------------------------
 
 #copy()
 #Returns a copy of the dictionary
@@ -770,11 +800,15 @@ car = {
 }
 x = car.copy() #{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 
+----------------------------------------------------------------
+
 #fromkeys()
 #Returns a dictionary with the specified keys and value
 x = ('key1', 'key2', 'key3')
 y = 33
 thisdict = dict.fromkeys(x, y) #{'key1': 33, 'key2': 33, 'key3': 33}
+
+----------------------------------------------------------------
 
 #get()
 #Returns the value of the specified key
@@ -785,6 +819,8 @@ car = {
 }
 x = car.get("model") #Mustang
 
+----------------------------------------------------------------
+
 #items()
 #Returns a list containing a tuple for each key value pair
 car = {
@@ -793,6 +829,8 @@ car = {
   "year": 1964
 }
 x = car.items() #dict_items([('brand', 'Ford'), ('model', 'Mustang'), ('year', 1964)])
+
+----------------------------------------------------------------
 
 #keys()
 #Returns a list containing the dictionary's keys
@@ -803,6 +841,8 @@ car = {
 }
 x = car.keys() #dict_keys(['brand', 'model', 'year'])
 
+----------------------------------------------------------------
+
 #pop()
 #Removes the element with the specified key
 car = {
@@ -811,6 +851,8 @@ car = {
   "year": 1964
 }
 car.pop("model") #{'brand': 'Ford', 'year': 1964}
+
+----------------------------------------------------------------
 
 #popitem()
 #Removes the last inserted key-value pair
@@ -821,6 +863,8 @@ car = {
 }
 car.popitem() #{'brand': 'Ford', 'model': 'Mustang'}
 
+----------------------------------------------------------------
+
 #setdefault()
 #Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
 car = {
@@ -829,6 +873,8 @@ car = {
   "year": 1964
 }
 x = car.setdefault("model", "Bronco") #Mustang
+
+----------------------------------------------------------------
 
 #update()
 #Updates the dictionary with the specified key-value pairs
@@ -839,6 +885,8 @@ car = {
 }
 car.update({"color": "White"}) #{'brand': 'Ford', 'model': 'Mustang', 'year': 1964, 'color': 'White'}
 
+----------------------------------------------------------------
+
 #values()
 #Returns a list of all the values in the dictionary
 car = {
@@ -848,6 +896,8 @@ car = {
 }
 x = car.values() #dict_values(['Ford', 'Mustang', 1964])
 
+----------------------------------------------------------------
+
 ```
 
 [^^^](#PYTHON_FLASH)
@@ -856,23 +906,24 @@ x = car.values() #dict_values(['Ford', 'Mustang', 1964])
 
 #### TUPLE_METH
 
-```
-count()	Returns the number of times a specified value occurs in a tuple
-index()	Searches the tuple for a specified value and returns the position of where it was found
-```
-
 ```py
-----------------------------------------
+
+----------------------------------------------------------------
+
+#count()
+#Returns the number of times a specified value occurs in a tuple
 thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
-x = thistuple.count(5)
-print(x)
-#2
-----------------------------------------
+x = thistuple.count(5) #2
+
+----------------------------------------------------------------
+
+#index()
+#Searches the tuple for a specified value and returns the position of where it was found
 thistuple = (1, 3, 7, 8, 7, 5, 4, 6, 8, 5)
-x = thistuple.index(8)
-print(x)
-#3
-----------------------------------------
+x = thistuple.index(8) #3
+
+----------------------------------------------------------------
+
 ```
 
 [^^^](#PYTHON_FLASH)
@@ -881,24 +932,95 @@ print(x)
 
 #### SET_METH
 
-```
-add()	Adds an element to the set
-clear()	Removes all the elements from the set
-copy()	Returns a copy of the set
-difference()	Returns a set containing the difference between two or more sets
-difference_update()	Removes the items in this set that are also included in another, specified set
-discard()	Remove the specified item
-intersection()	Returns a set, that is the intersection of two or more sets
-intersection_update()	Removes the items in this set that are not present in other, specified set(s)
-isdisjoint()	Returns whether two sets have a intersection or not
-issubset()	Returns whether another set contains this set or not
-issuperset()	Returns whether this set contains another set or not
-pop()	Removes an element from the set
-remove()	Removes the specified element
-symmetric_difference()	Returns a set with the symmetric differences of two sets
-symmetric_difference_update()	inserts the symmetric differences from this set and another
-union()	Return a set containing the union of sets
-update()	Update the set with another set, or any other iterable
+```py
+
+----------------------------------------------------------------
+
+#add()
+#Adds an element to the set
+
+----------------------------------------------------------------
+
+#clear()
+#Removes all the elements from the set
+
+----------------------------------------------------------------
+
+#copy()
+#Returns a copy of the set
+
+----------------------------------------------------------------
+
+#difference()
+#Returns a set containing the difference between two or more sets
+
+----------------------------------------------------------------
+
+#difference_update()
+#Removes the items in this set that are also included in another, specified set
+
+----------------------------------------------------------------
+
+#discard()
+#Remove the specified item
+
+----------------------------------------------------------------
+
+#intersection()
+#Returns a set, that is the intersection of two or more sets
+
+----------------------------------------------------------------
+
+#intersection_update()
+#Removes the items in this set that are not present in other, specified set(s)
+
+----------------------------------------------------------------
+
+#isdisjoint()
+#Returns whether two sets have a intersection or not
+
+----------------------------------------------------------------
+
+#issubset()
+#Returns whether another set contains this set or not
+
+----------------------------------------------------------------
+
+#issuperset()
+#Returns whether this set contains another set or not
+
+----------------------------------------------------------------
+
+#pop()
+#Removes an element from the set
+
+----------------------------------------------------------------
+
+#remove()
+#Removes the specified element
+
+----------------------------------------------------------------
+
+#symmetric_difference()
+#Returns a set with the symmetric differences of two sets
+
+----------------------------------------------------------------
+
+#symmetric_difference_update()
+#inserts the symmetric differences from this set and another
+
+----------------------------------------------------------------
+
+#union()
+#Return a set containing the union of sets
+
+----------------------------------------------------------------
+
+#update()
+#Update the set with another set, or any other iterable
+
+----------------------------------------------------------------
+
 ```
 
 [^^^](#PYTHON_FLASH)
