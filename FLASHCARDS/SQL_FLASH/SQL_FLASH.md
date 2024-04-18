@@ -51,8 +51,6 @@ select indexname, indexdef
 from pg_indexes
 where tablename = 'trk_test_01';
 
-----------------------------------------------------------------
-
 --CREATE VIEW
 CREATE VIEW [Brazil Customers] AS
 SELECT CustomerName, ContactName
