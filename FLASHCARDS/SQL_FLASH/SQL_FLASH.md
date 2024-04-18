@@ -20,8 +20,6 @@ CREATE DATABASE testDB_01;
 --SHOWS DB
 SELECT datname FROM pg_database WHERE datistemplate = false;
 
-----------------------------------------------------------------
-
 --CREATE TABLE
 CREATE TABLE trk (
     PersonID int,
@@ -39,8 +37,6 @@ SELECT *
 FROM pg_catalog.pg_tables
 WHERE schemaname != 'pg_catalog' AND
     schemaname != 'information_schema';
-
-----------------------------------------------------------------
 
 --CREATE INDEX
 CREATE INDEX idx_lastname
@@ -128,17 +124,27 @@ ALTER TABLE - [ALTER_ADD_COLUMN](https://github.com/ttltrk/TTT/tree/master/FLASH
 DML – Data Manipulation Language
 
 ```sql
+
+----------------------------------------------------------------
+
 --INSERT INTO
 INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
 VALUES(7, 'ray', 'brent', 'still', 'GER');
+
+----------------------------------------------------------------
 
 --UPDATE
 UPDATE public.trk_test_01
 SET lastname='jockey', firstname='brent', address='still', city='GER'
 WHERE personid=7;
 
+----------------------------------------------------------------
+
 --DELETE
 DELETE FROM trk_test_01 WHERE firstname ='bbbb';
+
+----------------------------------------------------------------
+
 ```
 
 * [INSERT_INTO](#INSERT_INTO)
@@ -150,6 +156,9 @@ DELETE FROM trk_test_01 WHERE firstname ='bbbb';
 DRL/DQL – Data Retrieval Language/Data Query Language
 
 ```sql
+
+----------------------------------------------------------------
+
 --SELECT
 SELECT * FROM trk_test_01;
 
@@ -162,6 +171,8 @@ SELECT TOP 3 * FROM trk_test_01;
 --WHERE
 SELECT * FROM trk_test_01 WHERE lastname='kawhi';
 
+----------------------------------------------------------------
+
 --AND
 SELECT * FROM trk_test_02 WHERE city='BP' AND dep='DEVOPS';
 
@@ -171,11 +182,15 @@ SELECT * FROM trk_test_02 WHERE city='BP' OR city='BA';
 --NOT
 SELECT * FROM trk_test_02 WHERE NOT city='BP';
 
+----------------------------------------------------------------
+
 --ORDER BY
 SELECT * FROM trk_test_01 ORDER BY city ASC;
 
 --LIMIT
 SELECT * FROM trk_test_01 LIMIT 3;
+
+----------------------------------------------------------------
 
 --MIN
 SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
@@ -183,15 +198,21 @@ SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
 --MAX
 SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
 
+----------------------------------------------------------------
+
 --COUNT
 SELECT COUNT(city) FROM trk_test_02;
 SELECT COUNT(DISTINCT city) FROM trk_test_02;
+
+----------------------------------------------------------------
 
 --AVG
 SELECT AVG(personid) FROM trk_test_01;
 
 --SUM
 SELECT SUM(personid) as sum_of_personid FROM trk_test_01;
+
+----------------------------------------------------------------
 
 --BETWEEN
 SELECT * FROM trk_test_01 WHERE personid BETWEEN 2 AND 4;   
@@ -203,18 +224,26 @@ SELECT city, address FROM trk_test_01 WHERE city NOT IN ('GS', 'Dallas', 'toront
 --LIKE
 SELECT lastname FROM trk_test_01 WHERE lastname LIKE '%i';
 
+----------------------------------------------------------------
+
 --INER JOIN
 SELECT trk_test_01.personid AS ID, trk_test_01.lastname, trk_test_02.dep, trk_test_02.city
 FROM trk_test_01
 INNER JOIN trk_test_02
 ON trk_test_01.personid=trk_test_02.systemid;
 
+----------------------------------------------------------------
+
 --UNION (UNION ALL select all values)
 select * from temp1 UNION select * from temp2;
 select * from temp1 UNION ALL select * from temp2;
 
+----------------------------------------------------------------
+
 --GROUP BY
 select department, sum(salary) from employees where 1=1 group by department limit 5;
+
+----------------------------------------------------------------
 
 ```
 
