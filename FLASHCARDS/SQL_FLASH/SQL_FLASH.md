@@ -11,11 +11,16 @@
 DDL – Data Definition Language
 
 ```sql
+
+----------------------------------------------------------------
+
 --CREATE DB
 CREATE DATABASE testDB_01;
 
 --SHOWS DB
 SELECT datname FROM pg_database WHERE datistemplate = false;
+
+----------------------------------------------------------------
 
 --CREATE TABLE
 CREATE TABLE trk (
@@ -35,6 +40,8 @@ FROM pg_catalog.pg_tables
 WHERE schemaname != 'pg_catalog' AND
     schemaname != 'information_schema';
 
+----------------------------------------------------------------
+
 --CREATE INDEX
 CREATE INDEX idx_lastname
 ON Persons (LastName);
@@ -48,6 +55,8 @@ select indexname, indexdef
 from pg_indexes
 where tablename = 'trk_test_01';
 
+----------------------------------------------------------------
+
 --CREATE VIEW
 CREATE VIEW [Brazil Customers] AS
 SELECT CustomerName, ContactName
@@ -56,6 +65,46 @@ WHERE Country = 'Brazil';
 
 --SHOW VIEW
 select table_name from INFORMATION_SCHEMA.views;
+
+----------------------------------------------------------------
+
+--ADD COLUMN
+ALTER TABLE trk_test_02
+ADD city varchar(255);
+
+--DROP COLUMN
+ALTER TABLE Customers
+DROP COLUMN Email;
+
+--RENAME COLUMN
+ALTER TABLE trk_test_02
+RENAME COLUMN department TO dep;
+
+--RENAME TABLE
+ALTER TABLE trk_test
+RENAME TO trk_test_01;
+
+--MODIFY COLUMN
+ALTER TABLE Persons
+ALTER COLUMN DateOfBirth year;
+
+----------------------------------------------------------------
+
+--DROP DB
+drop database testdb_02;
+
+--DROP TABLE
+drop table trk_test_xx;
+
+--DROP INDEX
+DROP INDEX index_name;
+
+----------------------------------------------------------------
+
+--TRUNCATE TABLE
+truncate table trk_test_xx;
+
+----------------------------------------------------------------
 
 ```
 
