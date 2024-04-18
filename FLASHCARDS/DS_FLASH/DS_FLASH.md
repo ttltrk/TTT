@@ -7,6 +7,16 @@
 
 ---
 
+* [Transformer_stage](#Transformer_stage)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 
@@ -41,3 +51,55 @@
 - 26 - Pivot Enterprise stage
 - 27 - Checksum stage
 ```
+
+---
+
+#### Transformer_stage
+
+```
+Transformer stages allow you to create transformations to apply to your data. These transformations can be simple or complex and can be applied to individual columns in your data. Transformations are specified using a set of functions. For more information, see Parallel transform functions.
+```
+
+```
+Transformer stages can have a single input and any number of outputs. It can also have a reject link that takes any rows which have not been written to any of the outputs links by reason of a write failure or expression evaluation failure.
+```
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
