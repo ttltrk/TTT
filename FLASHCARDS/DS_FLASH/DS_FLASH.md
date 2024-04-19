@@ -7,8 +7,12 @@
 
 ---
 
+* [source](https://www.ibm.com/docs/en/iis/11.5?topic=jobs-processing-data)
+
+---
+
 * [Transformer_stage](#Transformer_stage)
-* [](#)
+* [Aggregator stage](#Aggregator stage)
 * [](#)
 * [](#)
 * [](#)
@@ -56,24 +60,25 @@
 
 #### Transformer_stage
 
-```
 Transformer stages allow you to create transformations to apply to your data.
 These transformations can be simple or complex and can be applied to individual columns in your data. Transformations are specified using a set of functions. For more information,
 see Parallel transform functions.
-```
 
-```
 Transformer stages can have a single input and any number of outputs.
 It can also have a reject link that takes any rows which have not been written
 to any of the outputs links by reason of a write failure
 or expression evaluation failure.
-```
+
 
 [^^^](#DS_FLASH)
 
 ---
 
-####
+#### Aggregator stage
+
+The Aggregator stage is a processing stage. It classifies data rows from a single input link into groups and computes totals or other aggregate functions for each group. The aggregator stage gives you access to grouping and summary operations.
+
+The Aggregator stage is a processing stage. It classifies data rows from a single input link into groups and computes totals or other aggregate functions for each group. The summed totals for each group are output from the stage via an output link.
 
 [^^^](#DS_FLASH)
 
