@@ -12,7 +12,7 @@
 ---
 
 * [Transformer_stage](#Transformer_stage)
-* [Aggregator stage](#Aggregator stage)
+* [Aggregator stage](#Aggregator_stage)
 * [](#)
 * [](#)
 * [](#)
@@ -74,7 +74,7 @@ or expression evaluation failure.
 
 ---
 
-#### Aggregator stage
+#### Aggregator_stage
 
 The Aggregator stage is a processing stage. It classifies data rows from a single input link into groups and computes totals or other aggregate functions for each group. The aggregator stage gives you access to grouping and summary operations.
 
