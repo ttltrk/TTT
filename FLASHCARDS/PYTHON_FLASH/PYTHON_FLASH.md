@@ -35,7 +35,7 @@
 
 ---
 
-* [ENUMERATE](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/ENUMERATE/ENUMERATE.md)
+* [ENUMERATE](#ENUMERATE)
 * [](#)
 * [](#)
 * [TRY_EXCEPT](#TRY_EXCEPT)
@@ -1021,6 +1021,58 @@ x = thistuple.index(8) #3
 
 ----------------------------------------------------------------
 
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### ENUMERATE
+
+The ```enumerate()``` function takes a collection (e.g. a tuple) and returns it as an enumerate object. The ```enumerate()``` function adds a counter as the key of the enumerate object.
+
+```py
+# Python program to illustrate
+# enumerate function in loops
+l1 = ["eat", "sleep", "repeat", "eat"]
+
+# printing the tuples in object directly
+for ele in enumerate(l1):
+    print(ele)
+
+print(' ')
+
+# changing index and printing separately
+for count, ele in enumerate(l1, 100):
+    print(count, ele)
+
+print(' ')
+
+    # getting desired output from tuple
+for count, ele in enumerate(l1):
+    print(count)
+    print(ele)
+
+>>>
+(0, 'eat')
+(1, 'sleep')
+(2, 'repeat')
+(3, 'eat')
+
+100 eat
+101 sleep
+102 repeat
+103 eat
+
+0
+eat
+1
+sleep
+2
+repeat
+3
+eat
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
