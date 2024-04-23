@@ -171,6 +171,12 @@ SELECT * FROM trk_test_01 WHERE lastname='kawhi';
 
 ----------------------------------------------------------------
 
+--COUNT
+SELECT COUNT(city) FROM trk_test_02;
+SELECT COUNT(DISTINCT city) FROM trk_test_02;
+
+----------------------------------------------------------------
+
 --AND
 SELECT * FROM trk_test_02 WHERE city='BP' AND dep='DEVOPS';
 
@@ -182,25 +188,11 @@ SELECT * FROM trk_test_02 WHERE NOT city='BP';
 
 ----------------------------------------------------------------
 
---ORDER BY
-SELECT * FROM trk_test_01 ORDER BY city ASC;
-
---LIMIT
-SELECT * FROM trk_test_01 LIMIT 3;
-
-----------------------------------------------------------------
-
 --MIN
 SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
 
 --MAX
 SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
-
-----------------------------------------------------------------
-
---COUNT
-SELECT COUNT(city) FROM trk_test_02;
-SELECT COUNT(DISTINCT city) FROM trk_test_02;
 
 ----------------------------------------------------------------
 
@@ -224,6 +216,14 @@ SELECT lastname FROM trk_test_01 WHERE lastname LIKE '%i';
 
 ----------------------------------------------------------------
 
+--ORDER BY
+SELECT * FROM trk_test_01 ORDER BY city ASC;
+
+--LIMIT
+SELECT * FROM trk_test_01 LIMIT 3;
+
+----------------------------------------------------------------
+
 --INER JOIN
 SELECT trk_test_01.personid AS ID, trk_test_01.lastname, trk_test_02.dep, trk_test_02.city
 FROM trk_test_01
@@ -233,13 +233,42 @@ ON trk_test_01.personid=trk_test_02.systemid;
 ----------------------------------------------------------------
 
 --UNION (UNION ALL select all values)
-select * from temp1 UNION select * from temp2;
-select * from temp1 UNION ALL select * from temp2;
+select * from temp1
+UNION
+select * from temp2;
+
+select * from temp1
+UNION ALL
+select * from temp2;
 
 ----------------------------------------------------------------
 
 --GROUP BY
 select department, sum(salary) from employees where 1=1 group by department limit 5;
+
+----------------------------------------------------------------
+
+--HAVING
+--The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+
+----------------------------------------------------------------
+
+--STORED PROCEDURES
+--A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.
+CREATE PROCEDURE SelectAllCustomers
+AS
+SELECT * FROM Customers
+GO;
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
 
 ----------------------------------------------------------------
 
