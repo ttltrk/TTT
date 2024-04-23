@@ -1031,26 +1031,40 @@ fruits.pop() # {'banana', 'apple'}
 
 #remove()
 #Removes the specified element
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana") # {'cherry', 'apple'}
 
 ----------------------------------------------------------------
 
 #symmetric_difference()
 #Returns a set with the symmetric differences of two sets
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.symmetric_difference(y) # {'google', 'microsoft', 'banana', 'cherry'}
 
 ----------------------------------------------------------------
 
 #symmetric_difference_update()
 #inserts the symmetric differences from this set and another
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.symmetric_difference_update(y) # {'cherry', 'google', 'banana', 'microsoft'}
 
 ----------------------------------------------------------------
 
 #union()
 #Return a set containing the union of sets
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.union(y) # {'banana', 'apple', 'microsoft', 'google', 'cherry'}
 
 ----------------------------------------------------------------
 
 #update()
 #Update the set with another set, or any other iterable
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.update(y) # {'apple', 'cherry', 'google', 'microsoft', 'banana'}
 
 ----------------------------------------------------------------
 
