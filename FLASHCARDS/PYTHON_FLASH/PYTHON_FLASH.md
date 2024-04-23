@@ -932,37 +932,53 @@ x = thistuple.index(8) #3
 
 #### SET_METH
 
+Set items are unchangeable, but you can remove items and add new items.
+
 ```py
 
 ----------------------------------------------------------------
 
 #add()
 #Adds an element to the set
+thisset = {"apple", "banana", "cherry"}
+thisset.add("orange") # {'cherry', 'banana', 'apple', 'orange'}
 
 ----------------------------------------------------------------
 
 #clear()
 #Removes all the elements from the set
+thisset = {"apple", "banana", "cherry"}
+thisset.clear() # set()
 
 ----------------------------------------------------------------
 
 #copy()
 #Returns a copy of the set
+fruits = {"apple", "banana", "cherry"}
+x = fruits.copy() # {'apple', 'banana', 'cherry'}
 
 ----------------------------------------------------------------
 
 #difference()
 #Returns a set containing the difference between two or more sets
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.difference(y) # {'cherry', 'banana'}
 
 ----------------------------------------------------------------
 
 #difference_update()
 #Removes the items in this set that are also included in another, specified set
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.difference_update(y) # {'banana', 'cherry'}
 
 ----------------------------------------------------------------
 
 #discard()
 #Remove the specified item
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana") #{'apple', 'cherry'}
 
 ----------------------------------------------------------------
 
