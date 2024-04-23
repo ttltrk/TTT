@@ -984,31 +984,48 @@ thisset.discard("banana") #{'apple', 'cherry'}
 
 #intersection()
 #Returns a set, that is the intersection of two or more sets
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = x.intersection(y) # {'apple'}
 
 ----------------------------------------------------------------
 
 #intersection_update()
 #Removes the items in this set that are not present in other, specified set(s)
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+x.intersection_update(y) # {'apple'}
 
 ----------------------------------------------------------------
 
 #isdisjoint()
 #Returns whether two sets have a intersection or not
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "facebook"}
+z = x.isdisjoint(y) # True
 
 ----------------------------------------------------------------
 
 #issubset()
 #Returns whether another set contains this set or not
+x = {"a", "b", "c"}
+y = {"f", "e", "d", "c", "b", "a"}
+z = x.issubset(y) # True
 
 ----------------------------------------------------------------
 
 #issuperset()
 #Returns whether this set contains another set or not
+x = {"f", "e", "d", "c", "b", "a"}
+y = {"a", "b", "c"}
+z = x.issuperset(y) # True
 
 ----------------------------------------------------------------
 
 #pop()
 #Removes an element from the set
+fruits = {"apple", "banana", "cherry"}
+fruits.pop() # {'banana', 'apple'}
 
 ----------------------------------------------------------------
 
