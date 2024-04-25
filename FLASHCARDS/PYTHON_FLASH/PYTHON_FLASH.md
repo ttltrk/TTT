@@ -2631,6 +2631,44 @@ print(x)
 >>>
 ```
 
+If there are two numbers in the middle, divide the sum of those numbers by two.
+
+```
+77, 78, 85, 86, 86, 86, 87, 87, 94, 98, 99, 103
+(86 + 87) / 2 = 86.5
+```
+
+```py
+import numpy
+speed = [99,86,87,88,86,103,87,94,78,77,85,86]
+x = numpy.median(speed)
+print(x)
+>>>
+86.5
+>>>
+```
+
+- Mode
+
+The Mode value is the value that appears the most number of times:
+
+```
+99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86
+86 = 3x
+```
+
+Use the SciPy mode() method to find the number that appears the most:
+
+```py
+from scipy import stats
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+x = stats.mode(speed)
+print(x)
+>>>
+ModeResult(mode=array([86]), count=array([3]))
+>>>
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
