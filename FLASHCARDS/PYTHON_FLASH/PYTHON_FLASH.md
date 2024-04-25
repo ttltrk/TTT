@@ -52,7 +52,15 @@
 * [MATPLOTLIB](#MATPLOTLIB)
 * [PY_MONGO](#PY_MONGO)
 * [SPARK](#SPARK)
+
+---
+
 * [MACHINE_LEARNING](#MACHINE_LEARNING)
+* [ML_ME_ME_MO](#ML_ME_ME_MO)
+* [ML_STD_DEV](#ML_STD_DEV)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 
 ---
@@ -2594,6 +2602,12 @@ Example: school grades where A is better than B and so on.
 
 ```
 
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### ML_ME_ME_MO
+
 - Mean
 
 The mean value is the average value.
@@ -2675,7 +2689,7 @@ ModeResult(mode=array([86]), count=array([3]))
 
 ---
 
-####
+#### ML_STD_DEV
 
 #####
 
