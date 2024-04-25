@@ -2592,6 +2592,8 @@ Example: school grades where A is better than B and so on.
 
 -----------------------------------------------------------------------------
 
+```
+
 - Mean
 
 The mean value is the average value.
