@@ -2770,7 +2770,7 @@ Percentiles are used in statistics to give you a number that describes the value
 
 ```py
 import numpy
-ages = [5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31]
+ages = [2, 5, 6, 7, 8, 11, 15, 25, 27, 31, 31, 32, 36, 39, 41, 43, 48, 50, 61, 80, 82]
 x = numpy.percentile(ages, 75)
 print(x)
 >>>
