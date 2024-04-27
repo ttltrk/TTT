@@ -59,6 +59,9 @@
 * [ML_ME_ME_MO](#ML_ME_ME_MO)
 * [ML_STD_DEV](#ML_STD_DEV)
 * [ML_PERCENTILES](#ML_PERCENTILES)
+* [ML_DATA_DISTRIB](#ML_DATA_DISTRIB)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -2784,12 +2787,38 @@ What is the 75. percentile? The answer is 43, meaning that 75% of the people are
 
 ---
 
-####
+#### ML_DATA_DISTRIB
 
-#####
+To create big data sets for testing, we use the Python module NumPy, which comes with a number of methods to create random data sets, of any size.
+
+Create an array containing 250 random floats between 0 and 5:
 
 ```py
+import numpy
 
+x = numpy.random.uniform(0.0, 5.0, 250)
+
+print(x)
+```
+
+To visualize the data set we can draw a histogram with the data we collected.
+
+```py
+import numpy
+import matplotlib.pyplot as plt
+
+x = numpy.random.uniform(0.0, 5.0, 250)
+
+plt.hist(x, 5)
+plt.show()
+```
+
+```
+52 values are between 0 and 1
+48 values are between 1 and 2
+49 values are between 2 and 3
+51 values are between 3 and 4
+50 values are between 4 and 5
 ```
 
 [^^^](#PYTHON_FLASH)
