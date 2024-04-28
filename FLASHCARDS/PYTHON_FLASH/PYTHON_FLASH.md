@@ -2562,6 +2562,30 @@ df_pyspark.groupby('Departments').count()
 
 ##### MACHINE_LEARNING
 
+```py
+#mean
+numpy.mean(name_of_the_list)
+
+#median
+numpy.median(name_of_the_list)
+
+#mode
+from scipy import stats
+stats.mode(name_of_the_list)
+
+#std deviation
+numpy.std(name_of_the_list)
+
+#percentile
+numpy.percentile(name_of_the_list, 75)
+
+#data distribution
+numpy.random.uniform(0.0, 5.0, 250)
+
+#normal data distribution
+numpy.random.normal(5.0, 1.0, 100000)
+```
+
 Machine Learning is making the computer learn from studying data and statistics.
 Machine Learning is a step into the direction of artificial intelligence (AI).
 Machine Learning is a program that analyses data and learns to predict the outcome.
