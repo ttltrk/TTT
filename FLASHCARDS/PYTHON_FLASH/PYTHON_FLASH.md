@@ -71,6 +71,10 @@
 * [DATA_SCIENCE](#DATA_SCIENCE)
 * [](#)
 * [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 
 #### COMMENTS
 
@@ -2884,6 +2888,25 @@ A normal distribution graph is also known as the bell curve because of it's char
 ---
 
 #### DATA_SCIENCE
+
+A Data Scientist helps companies with data-driven decisions, to make their business better.
+
+By using Data Science, companies are able to make:
+
+- Better decisions (should we choose A or B)
+- Predictive analysis (what will happen next?)
+- Pattern discoveries (find pattern, or maybe hidden information in the data)
+
+Here is how a Data Scientist works:
+
+- 1. Ask the right questions - To understand the business problem.
+- 2. Explore and collect data - From database, web logs, customer feedback, etc.
+- 3. Extract the data - Transform the data to a standardized format.
+- 4. Clean the data - Remove erroneous values from the data.
+- 5. Find and replace missing values - Check for missing values and replace them with a suitable value (e.g. an average value).
+- 6. Normalize data - Scale the values in a practical range (e.g. 140 cm is smaller than 1,8 m. However, the number 140 is larger than 1,8. - so scaling is important).
+- 7. Analyze data, find patterns and make future predictions.
+- 8. Represent the result - Present the result with useful insights in a way the "company" can understand.
 
 [^^^](#PYTHON_FLASH)
 
