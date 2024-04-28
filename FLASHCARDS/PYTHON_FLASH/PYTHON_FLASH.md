@@ -60,7 +60,7 @@
 * [ML_STD_DEV](#ML_STD_DEV)
 * [ML_PERCENTILES](#ML_PERCENTILES)
 * [ML_DATA_DISTRIB](#ML_DATA_DISTRIB)
-* [](#)
+* [ML_NORM_DATA_DISTRIB](#ML_NORM_DATA_DISTRIB)
 * [](#)
 * [](#)
 * [](#)
@@ -2825,13 +2825,19 @@ plt.show()
 
 ---
 
-####
-
-#####
+#### ML_NORM_DATA_DISTRIB
 
 ```py
+import numpy
+import matplotlib.pyplot as plt
 
+x = numpy.random.normal(5.0, 1.0, 100000)
+
+plt.hist(x, 100)
+plt.show()
 ```
+
+A normal distribution graph is also known as the bell curve because of it's characteristic shape of a bell.
 
 [^^^](#PYTHON_FLASH)
 
