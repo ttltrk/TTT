@@ -69,7 +69,7 @@
 ---
 
 * [DATA_SCIENCE](#DATA_SCIENCE)
-* [](#)
+* [DATA](#DATA)
 * [](#)
 * [](#)
 * [](#)
@@ -2912,7 +2912,23 @@ Here is how a Data Scientist works:
 
 ---
 
-####
+#### DATA
+
+Data is a collection of information.
+Data can be categorized into two groups:
+
+- Unstructured data is not organized. We must organize the data for analysis purposes.
+- Structured data is organized and easier to work with.
+
+We can use an array or a database table to structure or present data.
+
+```py
+Array = [80, 85, 90, 95, 100, 105, 110, 115, 120, 125]
+print(Array)
+>>>
+[80, 85, 90, 95, 100, 105, 110, 115, 120, 125]
+>>>
+```
 
 [^^^](#PYTHON_FLASH)
 
