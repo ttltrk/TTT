@@ -70,7 +70,7 @@
 
 * [DATA_SCIENCE](#DATA_SCIENCE)
 * [DATA](#DATA)
-* [](#)
+* [DB_TABLE](#DB_TABLE)
 * [](#)
 * [](#)
 * [](#)
@@ -2929,6 +2929,38 @@ print(Array)
 [80, 85, 90, 95, 100, 105, 110, 115, 120, 125]
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### DB_TABLE
+
+A database table is a table with structured data.
+A database table consists of column(s) and row(s).
+
+- A row is a horizontal representation of data.
+- A column is a vertical representation of data.
+
+A variable is defined as something that can be measured or counted.
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
 
 [^^^](#PYTHON_FLASH)
 
