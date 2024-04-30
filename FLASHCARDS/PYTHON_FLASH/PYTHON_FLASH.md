@@ -71,8 +71,8 @@
 * [DATA_SCIENCE](#DATA_SCIENCE)
 * [DATA](#DATA)
 * [DB_TABLE](#DB_TABLE)
-* [](#)
-* [](#)
+* [PY_LIBRARIES](#PY_LIBRARIES)
+* [DF_PANDAS](#DF_PANDAS)
 * [](#)
 * [](#)
 
@@ -2948,13 +2948,81 @@ A variable is defined as something that can be measured or counted.
 
 ---
 
-####
+#### PY_LIBRARIES
+
+Python has libraries with large collections of mathematical functions and analytical tools.
+
+- Pandas - This library is used for structured data operations, like import CSV files, create dataframes, and data preparation
+- Numpy - This is a mathematical library. Has a powerful N-dimensional array object, linear algebra, Fourier transform, etc.
+- Matplotlib - This library is used for visualization of data.
+- SciPy - This library has linear algebra modules
 
 [^^^](#PYTHON_FLASH)
 
 ---
 
-####
+#### DF_PANDAS
+
+A data frame is a structured representation of data.
+
+```py
+import pandas as pd
+
+d = {'col1': [1, 2, 3, 4, 7],
+     'col2': [4, 5, 6, 9, 5],  
+     'col3': [7, 8, 12, 1, 11]}
+
+df = pd.DataFrame(data=d)
+
+print(df)
+
+>>>
+col1  col2  col3
+0     1     4     7
+1     2     5     8
+2     3     6    12
+3     4     9     1
+4     7     5    11
+>>>
+```
+
+count the number of columns
+
+```py
+import pandas as pd
+
+d = {'col1': [1, 2, 3, 4, 7], 'col2': [4, 5, 6, 9, 5], 'col3': [7, 8, 12, 1, 11]}
+
+df = pd.DataFrame(data=d)
+count_column = df.shape[1]
+
+print("Number of columns:")
+print(count_column)
+
+>>>
+Number of columns:
+3
+>>>
+```
+
+count the number of rows
+
+```py
+import pandas as pd
+
+d = {'col1': [1, 2, 3, 4, 7], 'col2': [4, 5, 6, 9, 5], 'col3': [7, 8, 12, 1, 11]}
+
+df = pd.DataFrame(data=d)
+count_row = df.shape[0]
+
+print("Number of rows:")
+print(count_row)
+
+>>>
+Number of rows:
+5
+>>>
+```
 
 [^^^](#PYTHON_FLASH)
 
