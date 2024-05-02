@@ -2915,6 +2915,22 @@ The x-axis represents ages, and the y-axis represents speeds.
 What we can read from the diagram is that the two fastest cars were both 2 years old, and the slowest car was 12 years old.
 Note: It seems that the newer the car, the faster it drives, but that could be a coincidence, after all we only registered 13 cars.
 
+In Machine Learning the data sets can contain thousands-, or even millions, of values.
+You might not have real world data when you are testing an algorithm, you might have to use randomly generated values.
+As we have learned in the previous chapter, the NumPy module can help us with that!
+Let us create two arrays that are both filled with 1000 random numbers from a normal data distribution.
+
+```py
+import numpy
+import matplotlib.pyplot as plt
+
+x = numpy.random.normal(5.0, 1.0, 1000)
+y = numpy.random.normal(10.0, 2.0, 1000)
+
+plt.scatter(x, y)
+plt.show()
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
