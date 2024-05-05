@@ -5,6 +5,8 @@
 
 ---
 
+- 2024-05-05 - scipy intro
+
 - 34 - 2024-MRC-05 - sql fundamentals
 - 33 - 2024-MRC-04 - sql fundamentals
 - 32 - 2024-MRC-03 - sql fundamentals
