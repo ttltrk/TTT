@@ -52,6 +52,7 @@
 ---
 
 * [SCIPY](#SCIPY)
+* [SP_CONSTANTS](#SP_CONSTANTS)
 
 ---
 
@@ -1634,6 +1635,34 @@ SciPy is a scientific computation library that uses NumPy underneath.
 SciPy stands for Scientific Python.
 It provides more utility functions for optimization, stats and signal processing.
 Like NumPy, SciPy is open source so we can use it freely.
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### SP_CONSTANTS
+
+```py
+from scipy import constants
+
+print(constants.pi)
+
+>>>
+3.141592653589793
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+[^^^](#PYTHON_FLASH)
+
+---
 
 [^^^](#PYTHON_FLASH)
 
