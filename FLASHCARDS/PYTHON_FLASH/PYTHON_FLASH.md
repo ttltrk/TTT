@@ -48,6 +48,13 @@
 * [CLASS](#CLASS)
 * [](#)
 * [NUMPY](#NUMPY)
+
+---
+
+* [SCIPY](#SCIPY)
+
+---
+
 * [PANDAS](#PANDAS)
 * [MATPLOTLIB](#MATPLOTLIB)
 * [PY_MONGO](#PY_MONGO)
@@ -77,6 +84,8 @@
 * [DF_PANDAS](#DF_PANDAS)
 * [](#)
 * [](#)
+
+---
 
 #### COMMENTS
 
@@ -1612,6 +1621,19 @@ print('number of dimensions :', arr.ndim)
 number of dimensions : 3
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### SCIPY
+
+- What is SciPy?
+
+SciPy is a scientific computation library that uses NumPy underneath.
+SciPy stands for Scientific Python.
+It provides more utility functions for optimization, stats and signal processing.
+Like NumPy, SciPy is open source so we can use it freely.
 
 [^^^](#PYTHON_FLASH)
 
