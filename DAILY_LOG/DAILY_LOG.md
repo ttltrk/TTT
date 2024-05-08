@@ -5,6 +5,10 @@
 
 ---
 
+- 01 - 2024-MAY-08 - CS, C, GIT
+
+---
+
 - 2024-05-05 - scipy intro
 
 - 34 - 2024-MRC-05 - sql fundamentals
