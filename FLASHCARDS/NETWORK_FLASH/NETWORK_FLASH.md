@@ -25,6 +25,10 @@
 
 ---
 
+[link](https://www.youtube.com/watch?v=qiQR5rTSshw&t=911s)
+
+---
+
 #### OSI_REFERENCE_MODEL
 
 OSI = Open System Interconnection  
