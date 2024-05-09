@@ -47,7 +47,12 @@
 * [](#)
 * [CLASS](#CLASS)
 * [](#)
+
+---
+
 * [NUMPY](#NUMPY)
+* [NP_ARRAY](#NP_ARRAY)
+* [NP_NUMBER_OF_DIMENSIONS](#NP_NUMBER_OF_DIMENSIONS)
 
 ---
 
@@ -1497,6 +1502,10 @@ NumPy arrays are stored at one continuous place in memory unlike lists, so proce
 This behavior is called locality of reference in computer science.
 This is the main reason why NumPy is faster than lists. Also it is optimized to work with latest CPU architectures.
 
+[^^^](#PYTHON_FLASH)
+
+---
+
 ##### NP_ARRAY
 
 ```py
@@ -1584,7 +1593,11 @@ print(arr)
 >>>
 ```
 
-##### NUMBER_OF_DIMENSIONS
+[^^^](#PYTHON_FLASH)
+
+---
+
+##### NP_NUMBER_OF_DIMENSIONS
 
 ```py
 import numpy as np
@@ -1606,6 +1619,10 @@ print(d.ndim)
 3
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
 
 ##### DEFINE_THE DIMENSION
 
