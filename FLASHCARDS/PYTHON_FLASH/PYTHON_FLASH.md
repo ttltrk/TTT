@@ -53,6 +53,7 @@
 * [NUMPY](#NUMPY)
 * [NP_ARRAY](#NP_ARRAY)
 * [NP_NUMBER_OF_DIMENSIONS](#NP_NUMBER_OF_DIMENSIONS)
+* [NP_ACCESS_ARRAY_ELEMENTS](#NP_ACCESS_ARRAY_ELEMENTS)
 
 ---
 
@@ -1639,6 +1640,70 @@ print('number of dimensions :', arr.ndim)
 number of dimensions : 3
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NP_ACCESS_ARRAY_ELEMENTS
+
+Array indexing is the same as accessing an array element.
+You can access an array element by referring to its index number.
+The indexes in NumPy arrays start with 0, meaning that the first element has index 0, and the second has index 1 etc
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr[0])
+
+>>>
+1
+>>>
+```
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr[1])
+
+>>>
+2
+>>>
+```
+
+```py
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+
+print(arr[1])
+
+>>>
+7
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
 
 [^^^](#PYTHON_FLASH)
 
