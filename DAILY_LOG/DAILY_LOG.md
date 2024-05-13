@@ -5,6 +5,7 @@
 
 ---
 
+- mob - numpy, pandas 2024-05-12
 - 01 - 2024-MAY-08 - CS, C, GIT
 
 ---
