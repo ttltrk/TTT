@@ -54,6 +54,15 @@
 * [NP_ARRAY](#NP_ARRAY)
 * [NP_NUMBER_OF_DIMENSIONS](#NP_NUMBER_OF_DIMENSIONS)
 * [NP_ACCESS_ARRAY_ELEMENTS](#NP_ACCESS_ARRAY_ELEMENTS)
+* [NP_ACCESS_2D_ARRAYS](#NP_ACCESS_2D_ARRAYS)
+
+---
+
+* [PANDAS](#PANDAS)
+
+---
+
+* [MATPLOTLIB](#MATPLOTLIB)
 
 ---
 
@@ -62,9 +71,10 @@
 
 ---
 
-* [PANDAS](#PANDAS)
-* [MATPLOTLIB](#MATPLOTLIB)
 * [PY_MONGO](#PY_MONGO)
+
+---
+
 * [SPARK](#SPARK)
 
 ---
@@ -1736,57 +1746,31 @@ print('5th element on 2nd row: ', arr[1, 4])
 
 ---
 
-#### SCIPY
-
-- What is SciPy?
-
-SciPy is a scientific computation library that uses NumPy underneath.
-SciPy stands for Scientific Python.
-It provides more utility functions for optimization, stats and signal processing.
-Like NumPy, SciPy is open source so we can use it freely.
+####
 
 [^^^](#PYTHON_FLASH)
 
 ---
 
-#### SP_CONSTANTS
-
-```py
-from scipy import constants
-
-print(constants.pi)
-
->>>
-3.141592653589793
->>>
-```
-
-- Constant Units
-
-A list of all units under the constants module can be seen using the ```dir()``` function.
-
-```py
-['Avogadro', 'Boltzmann', 'Btu', 'Btu_IT', 'Btu_th', 'ConstantWarning', 'G', 'Julian_year', 'N_A', 'Planck', 'R', 'Rydberg', 'Stefan_Boltzmann', 'Wien', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '_codata', '_constants', '_obsolete_constants', 'acre', 'alpha', 'angstrom', 'arcmin', 'arcminute', 'arcsec', 'arcsecond', 'astronomical_unit', 'atm', 'atmosphere', 'atomic_mass', 'atto', 'au', 'bar', 'barrel', 'bbl', 'blob', 'c', 'calorie', 'calorie_IT', 'calorie_th', 'carat', 'centi', 'codata', 'constants', 'convert_temperature', 'day', 'deci', 'degree', 'degree_Fahrenheit', 'deka', 'dyn', 'dyne', 'e', 'eV', 'electron_mass', 'electron_volt', 'elementary_charge', 'epsilon_0', 'erg', 'exa', 'exbi', 'femto', 'fermi', 'find', 'fine_structure', 'fluid_ounce', 'fluid_ounce_US', 'fluid_ounce_imp', 'foot', 'g', 'gallon', 'gallon_US', 'gallon_imp', 'gas_constant', 'gibi', 'giga', 'golden', 'golden_ratio', 'grain', 'gram', 'gravitational_constant', 'h', 'hbar', 'hectare', 'hecto', 'horsepower', 'hour', 'hp', 'inch', 'k', 'kgf', 'kibi', 'kilo', 'kilogram_force', 'kmh', 'knot', 'lambda2nu', 'lb', 'lbf', 'light_year', 'liter', 'litre', 'long_ton', 'm_e', 'm_n', 'm_p', 'm_u', 'mach', 'mebi', 'mega', 'metric_ton', 'micro', 'micron', 'mil', 'mile', 'milli', 'minute', 'mmHg', 'mph', 'mu_0', 'nano', 'nautical_mile', 'neutron_mass', 'nu2lambda', 'ounce', 'oz', 'parsec', 'pebi', 'peta', 'physical_constants', 'pi', 'pico', 'point', 'pound', 'pound_force', 'precision', 'proton_mass', 'psi', 'pt', 'quecto', 'quetta', 'ronna', 'ronto', 'short_ton', 'sigma', 'slinch', 'slug', 'speed_of_light', 'speed_of_sound', 'stone', 'survey_foot', 'survey_mile', 'tebi', 'tera', 'test', 'ton_TNT', 'torr', 'troy_ounce', 'troy_pound', 'u', 'unit', 'value', 'week', 'yard', 'year', 'yobi', 'yocto', 'yotta', 'zebi', 'zepto', 'zero_Celsius', 'zetta']
-
-```
+####
 
 [^^^](#PYTHON_FLASH)
 
 ---
 
-[^^^](#PYTHON_FLASH)
-
----
-
-[^^^](#PYTHON_FLASH)
-
----
+####
 
 [^^^](#PYTHON_FLASH)
 
 ---
 
 #### PANDAS
+
+What is Pandas?
+
+- Pandas is a Python library used for working with data sets.
+- It has functions for analyzing, cleaning, exploring, and manipulating data.
+- The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008.
 
 ```py
 myvar = pd.Series(["a", "b", "c", "d"])
@@ -1811,15 +1795,13 @@ df.dropna(inplace = True) #will NOT return a new DataFrame, but it will remove a
 df.fillna(130, inplace = True) #The fillna() method allows us to replace empty cells with a value:
 ```
 
-#### What is Pandas?
+[^^^](#PYTHON_FLASH)
 
-- Pandas is a Python library used for working with data sets.
-- It has functions for analyzing, cleaning, exploring, and manipulating data.
-- The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008.
+---
 
-##### PD_SERIES
+#### PD_SERIES
 
-#### What is a Series?
+What is a Series?
 
 - A Pandas Series is like a column in a table.
 - It is a one-dimensional array holding data of any type.
@@ -1842,7 +1824,11 @@ dtype: object
 >>>
 ```
 
-##### PD_SERIES_LABELS
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_SERIES_LABELS
 
 ```py
 import pandas as pd
@@ -1860,7 +1846,11 @@ z    2
 dtype: int64
 ```
 
-##### PD_SERIES_DICT
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_SERIES_DICT
 
 ```py
 import pandas as pd
@@ -1879,7 +1869,11 @@ dtype: int64
 >>>
 ```
 
-##### PD_SERIES_DICT_LABELS
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_SERIES_DICT_LABELS
 
 ```py
 import pandas as pd
@@ -1897,7 +1891,11 @@ dtype: int64
 >>>
 ```
 
-##### PD_DATAFRAME
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_DATAFRAME
 
 A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
 
@@ -1954,7 +1952,11 @@ calories  duration
 >>>
 ```
 
-##### PD_INDEXES
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_INDEXES
 
 ```py
 import pandas as pd
@@ -1977,7 +1979,11 @@ day4       500        55
 >>>
 ```
 
-##### PD_LOC_INDEXES
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_LOC_INDEXES
 
 ```py
 import pandas as pd
@@ -2005,7 +2011,11 @@ Name: day2, dtype: int64
 >>>
 ```
 
-##### LOAD_FILES_INTO_DF
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_LOAD_FILES_INTO_DF
 
 use ```to_string()``` to print the entire DataFrame.
 
@@ -2031,7 +2041,11 @@ Duration  Pulse  Maxpulse  Calories
 >>>
 ```
 
-##### MAX_ROWS
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_MAX_ROWS
 
 The number of rows returned is defined in Pandas option settings.
 
@@ -2045,7 +2059,11 @@ print(pd.options.display.max_rows)
 >>>
 ```
 
-##### READ_JSON
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_READ_JSON
 
 ```py
 import pandas as pd
@@ -2071,7 +2089,11 @@ Duration  Pulse  Maxpulse  Calories
 >>>
 ```
 
-##### DISCT_AS_JSON
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_DICT_AS_JSON
 
 ```py
 import pandas as pd
@@ -2126,7 +2148,11 @@ Duration  Pulse  Maxpulse  Calories
 >>>
 ```
 
-##### ANALYZING_DATA
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_ANALYZING_DATA
 
 One of the most used method for getting a quick overview of the DataFrame, is the ```head()``` method.
 The ```head()``` method returns the headers and a specified number of rows, starting from the top.
@@ -2198,7 +2224,11 @@ None
 >>>
 ```
 
-##### CLEANING_DATA
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_CLEANING_DATA
 
 Data cleaning means fixing bad data in your data set.
 
@@ -2209,7 +2239,11 @@ Bad data could be:
 - Wrong data
 - Duplicates
 
-##### CLEANING_EMPTY_CELLS
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_CLEANING_EMPTY_CELLS
 
 Empty cells can potentially give you a wrong result when you analyze data.
 One way to deal with empty cells is to remove rows that contain empty cells.
@@ -2269,7 +2303,11 @@ Duration          Date  Pulse  Maxpulse  Calories
 >>>
 ```
 
-##### REPLACE_EMPTY_CELLS
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### PD_REPLACE_EMPTY_CELLS
 
 ```
 Mean = the average value (the sum of all values divided by number of values).
@@ -2439,6 +2477,52 @@ ypoints = np.array([0, 250])
 plt.plot(xpoints, ypoints)
 plt.show()
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### SCIPY
+
+- What is SciPy?
+
+SciPy is a scientific computation library that uses NumPy underneath.
+SciPy stands for Scientific Python.
+It provides more utility functions for optimization, stats and signal processing.
+Like NumPy, SciPy is open source so we can use it freely.
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### SP_CONSTANTS
+
+```py
+from scipy import constants
+
+print(constants.pi)
+
+>>>
+3.141592653589793
+>>>
+```
+
+- Constant Units
+
+A list of all units under the constants module can be seen using the ```dir()``` function.
+
+```py
+['Avogadro', 'Boltzmann', 'Btu', 'Btu_IT', 'Btu_th', 'ConstantWarning', 'G', 'Julian_year', 'N_A', 'Planck', 'R', 'Rydberg', 'Stefan_Boltzmann', 'Wien', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__path__', '__spec__', '_codata', '_constants', '_obsolete_constants', 'acre', 'alpha', 'angstrom', 'arcmin', 'arcminute', 'arcsec', 'arcsecond', 'astronomical_unit', 'atm', 'atmosphere', 'atomic_mass', 'atto', 'au', 'bar', 'barrel', 'bbl', 'blob', 'c', 'calorie', 'calorie_IT', 'calorie_th', 'carat', 'centi', 'codata', 'constants', 'convert_temperature', 'day', 'deci', 'degree', 'degree_Fahrenheit', 'deka', 'dyn', 'dyne', 'e', 'eV', 'electron_mass', 'electron_volt', 'elementary_charge', 'epsilon_0', 'erg', 'exa', 'exbi', 'femto', 'fermi', 'find', 'fine_structure', 'fluid_ounce', 'fluid_ounce_US', 'fluid_ounce_imp', 'foot', 'g', 'gallon', 'gallon_US', 'gallon_imp', 'gas_constant', 'gibi', 'giga', 'golden', 'golden_ratio', 'grain', 'gram', 'gravitational_constant', 'h', 'hbar', 'hectare', 'hecto', 'horsepower', 'hour', 'hp', 'inch', 'k', 'kgf', 'kibi', 'kilo', 'kilogram_force', 'kmh', 'knot', 'lambda2nu', 'lb', 'lbf', 'light_year', 'liter', 'litre', 'long_ton', 'm_e', 'm_n', 'm_p', 'm_u', 'mach', 'mebi', 'mega', 'metric_ton', 'micro', 'micron', 'mil', 'mile', 'milli', 'minute', 'mmHg', 'mph', 'mu_0', 'nano', 'nautical_mile', 'neutron_mass', 'nu2lambda', 'ounce', 'oz', 'parsec', 'pebi', 'peta', 'physical_constants', 'pi', 'pico', 'point', 'pound', 'pound_force', 'precision', 'proton_mass', 'psi', 'pt', 'quecto', 'quetta', 'ronna', 'ronto', 'short_ton', 'sigma', 'slinch', 'slug', 'speed_of_light', 'speed_of_sound', 'stone', 'survey_foot', 'survey_mile', 'tebi', 'tera', 'test', 'ton_TNT', 'torr', 'troy_ounce', 'troy_pound', 'u', 'unit', 'value', 'week', 'yard', 'year', 'yobi', 'yocto', 'yotta', 'zebi', 'zepto', 'zero_Celsius', 'zetta']
+
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+[^^^](#PYTHON_FLASH)
+
+---
 
 ##### PY_MONGO
 
