@@ -55,6 +55,7 @@
 * [NP_NUMBER_OF_DIMENSIONS](#NP_NUMBER_OF_DIMENSIONS)
 * [NP_ACCESS_ARRAY_ELEMENTS](#NP_ACCESS_ARRAY_ELEMENTS)
 * [NP_ACCESS_2D_ARRAYS](#NP_ACCESS_2D_ARRAYS)
+* [NP_ACCESS_3D_ARRAYS](#NP_ACCESS_3D_ARRAYS)
 
 ---
 
@@ -1749,7 +1750,25 @@ print('5th element on 2nd row: ', arr[1, 4])
 
 ---
 
-####
+#### NP_ACCESS_3D_ARRAYS
+
+To access elements from 3-D arrays we can use comma separated integers representing the dimensions and the index of the element.
+
+```py
+import numpy as np
+
+# --------------------------------------------------------------
+
+arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+
+print(arr[0, 1, 2])
+print(arr[1, 1, 1])
+
+>>>
+6
+11
+>>>
+```
 
 [^^^](#PYTHON_FLASH)
 
