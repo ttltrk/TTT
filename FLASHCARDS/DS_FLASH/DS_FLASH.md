@@ -73,10 +73,15 @@ to any of the outputs links by reason of a write failure
 or expression evaluation failure.
 
 ![image](trans1.png)
+
 ![image](trans2.png)
+
 ![image](trans3.png)
+
 ![image](trans4.png)
+
 ![image](trans5.png)
+
 ![image](trans6.png)
 
 [^^^](#DS_FLASH)
