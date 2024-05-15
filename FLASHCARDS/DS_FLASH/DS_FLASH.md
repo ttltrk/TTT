@@ -15,7 +15,7 @@
 * [Aggregator_stage](#Aggregator_stage)
 * [Join_stage](#Join_stage)
 * [](#)
-* [](#)
+* [Lookup_stage](#Lookup_stage)
 * [](#)
 * [](#)
 * [Filter_stage](#Filter_stage)
@@ -87,6 +87,12 @@ or expression evaluation failure.
 
 ![image](trans6.png)
 
+![image](trans8.png)
+
+![image](trans9.png)
+
+![image](trans7.png)
+
 [^^^](#DS_FLASH)
 
 ---
@@ -115,6 +121,34 @@ The three stages differ mainly in the memory they use, the treatment of rows wit
 In the Join stage, the input data sets are notionally identified as the "right" set and the "left" set, and "intermediate" sets. You can specify which is which. It has any number of input links and a single output link.
 
 ![image](join1.png)
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+#### Lookup_stage
+
+![image](lookup1.png)
+
+![image](lookup2.png)
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
 
 [^^^](#DS_FLASH)
 
