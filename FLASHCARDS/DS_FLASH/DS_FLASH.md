@@ -18,6 +18,9 @@
 * [](#)
 * [](#)
 * [](#)
+* [Filter_stage](#Filter_stage)
+* [](#)
+* [](#)
 * [Change_capture_stage](#Change_capture_stage)
 * [](#)
 * [](#)
@@ -118,6 +121,28 @@ In the Join stage, the input data sets are notionally identified as the "right" 
 ---
 
 ####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+#### Filter_stage
+
+[source](https://www.ibm.com/docs/en/iis/11.7?topic=data-filter-stage)
+
+The Filter stage is a processing stage. This stage transfers, unmodified, the records of the input data set which satisfy the specified requirements and filters out all other records.
+
+The Filter stage is a processing stage. It can have a single input link and a any number of output links and, optionally, a single reject link.
+
+![image](filter2.png)
+
+![image](filter1.png)
 
 [^^^](#DS_FLASH)
 
