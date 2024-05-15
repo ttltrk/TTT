@@ -13,7 +13,7 @@
 
 * [Transformer_stage](#Transformer_stage)
 * [Aggregator_stage](#Aggregator_stage)
-* [](#)
+* [Join_stage](#Join_stage)
 * [](#)
 * [](#)
 * [](#)
@@ -23,6 +23,9 @@
 * [](#)
 * [](#)
 * [](#)
+* [](#)
+* [](#)
+* [Checksum_stage](#Checksum_stage)
 
 ---
 
@@ -84,7 +87,20 @@ The Aggregator stage is a processing stage. It classifies data rows from a singl
 
 ---
 
-####
+#### Join_stage
+
+[source](https://www.ibm.com/docs/en/iis/11.7?topic=data-join-stage)
+
+The Join stage is a processing stage that performs join operations on two or more data sets input to the stage and then outputs the resulting data set.
+The Join stage is one of three stages that join tables based on the values of key columns. The other two are:
+
+- Lookup Stage
+- Merge Stage
+
+The three stages differ mainly in the memory they use, the treatment of rows with unmatched keys, and their requirements for data being input (for example, whether it is sorted). 
+In the Join stage, the input data sets are notionally identified as the "right" set and the "left" set, and "intermediate" sets. You can specify which is which. It has any number of input links and a single output link.
+
+![image](join1.png)
 
 [^^^](#DS_FLASH)
 
@@ -136,6 +152,36 @@ The stage assumes that the incoming data is key-partitioned and sorted in ascend
 ---
 
 ####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+#### Checksum_stage
+
+[source](https://www.ibm.com/docs/en/iis/11.5?topic=data-checksum-stage)
+
+You can use the checksum value to check the validity of each row when it is written to the data target. If the checksum value does not equate to the columns from which it was generated, then the data is corrupt and is no longer valid.
+
+Typically you create the Checksum stage in one job to add the checksum column, and then use a Checksum stage in another job to check the validity of the data.
 
 [^^^](#DS_FLASH)
 
