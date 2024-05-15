@@ -12,13 +12,13 @@
 ---
 
 * [Transformer_stage](#Transformer_stage)
-* [Aggregator stage](#Aggregator_stage)
+* [Aggregator_stage](#Aggregator_stage)
 * [](#)
 * [](#)
 * [](#)
 * [](#)
 * [](#)
-* [](#)
+* [Change_capture_stage](#Change_capture_stage)
 * [](#)
 * [](#)
 * [](#)
@@ -85,6 +85,33 @@ The Aggregator stage is a processing stage. It classifies data rows from a singl
 ---
 
 ####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+####
+
+[^^^](#DS_FLASH)
+
+---
+
+#### Change_capture_stage
+
+[source](#https://www.ibm.com/docs/en/iis/11.5?topic=data-change-capture-stage)
+
+The Change Capture stage is a processing stage that compares two data sets and makes a record of the differences.
+The Change Capture Stage is a processing stage. The stage compares two data sets and makes a record of the differences.
+
+The stage assumes that the incoming data is key-partitioned and sorted in ascending order.
+
+![image](cc1.png)
 
 [^^^](#DS_FLASH)
 
