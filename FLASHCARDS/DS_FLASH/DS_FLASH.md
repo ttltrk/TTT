@@ -134,6 +134,14 @@ In the Join stage, the input data sets are notionally identified as the "right" 
 
 #### Lookup_stage
 
+[source](https://www.ibm.com/docs/en/iis/11.7?topic=data-lookup-stage)
+
+The Lookup stage is a processing stage that is used to perform lookup operations on a data set read into memory from any other Parallel job stage that can output data. The most common use for a lookup is to map short codes in the input data set onto expanded information from a lookup table which is then joined to the incoming data and output.
+
+The most common use for a lookup is to map short codes in the input data set onto expanded information from a lookup table which is then joined to the incoming data and output. For example, you could have an input data set carrying names and addresses of your U.S. customers. The data as presented identifies state as a two letter U. S. state postal code, but you want the data to carry the full name of the state. You could define a lookup table that carries a list of codes matched to states, defining the code as the key column. As the Lookup stage reads each line, it uses the key to look up the state in the lookup table. It adds the state to a new column defined for the output link, and so the full state name is added to each address. If any state codes have been incorrectly entered in the data set, the code will not be found in the lookup table, and so that record will be rejected.
+
+Lookups can also be used for validation of a row. If there is no corresponding entry in a lookup table to the key's values, the row is rejected.
+
 ![image](lookup1.png)
 
 ![image](lookup2.png)
