@@ -17,7 +17,7 @@
 * [](#)
 * [Lookup_stage](#Lookup_stage)
 * [](#)
-* [](#)
+* [Remove_duplicate_stage](#Remove_duplicate_stage)
 * [Filter_stage](#Filter_stage)
 * [](#)
 * [](#)
@@ -170,7 +170,13 @@ Lookups can also be used for validation of a row. If there is no corresponding e
 
 ---
 
-####
+#### Remove_duplicate_stage
+
+The Remove Duplicates stage is a processing stage. It can have a single input link and a single output link.
+
+The Remove Duplicates stage takes a single sorted data set as input, removes all duplicate rows, and writes the results to an output data set.
+
+![image](remdup1.png)
 
 [^^^](#DS_FLASH)
 
