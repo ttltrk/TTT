@@ -1774,7 +1774,23 @@ print(arr[1, 1, 1])
 
 ---
 
-####
+#### NP_NEGATIVE_INDEXING
+
+Use negative indexing to access an array from the end.
+
+```py
+import numpy as np
+
+arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+
+print('Last element from 2nd dim: ', arr[1, -1])
+print('Last element from 1st dim: ', arr[0, -1])
+
+>>>
+Last element from 2nd dim:  10
+Last element from 1st dim:  5
+>>>
+```
 
 [^^^](#PYTHON_FLASH)
 
