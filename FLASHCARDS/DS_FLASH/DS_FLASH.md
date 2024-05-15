@@ -103,6 +103,8 @@ The Aggregator stage is a processing stage. It classifies data rows from a singl
 
 The Aggregator stage is a processing stage. It classifies data rows from a single input link into groups and computes totals or other aggregate functions for each group. The summed totals for each group are output from the stage via an output link.
 
+![image](agg1.png)
+
 [^^^](#DS_FLASH)
 
 ---
