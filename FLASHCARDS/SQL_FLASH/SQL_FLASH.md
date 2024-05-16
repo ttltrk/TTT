@@ -167,7 +167,13 @@ SELECT * FROM trk_test_01;
 SELECT DISTINCT city FROM trk_test_02;
 
 --SELECT TOP
+--The SELECT TOP clause is used to specify the number of records to return.
+--The SELECT TOP clause is useful on large tables with thousands of records
 SELECT TOP 3 * FROM trk_test_01;
+
+--LIMIT
+--Select the first 3 records of the Customers table:
+SELECT * FROM Customers LIMIT 3;
 
 --WHERE
 SELECT * FROM trk_test_01 WHERE lastname='kawhi';
@@ -177,12 +183,6 @@ SELECT * FROM trk_test_01 WHERE lastname='kawhi';
 --IS NULL
 --A field with a NULL value is one that has been left blank during record creation!
 SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NULL;
-
-----------------------------------------------------------------
-
---COUNT
-SELECT COUNT(city) FROM trk_test_02;
-SELECT COUNT(DISTINCT city) FROM trk_test_02;
 
 ----------------------------------------------------------------
 
@@ -197,19 +197,29 @@ SELECT * FROM trk_test_02 WHERE NOT city='BP';
 
 ----------------------------------------------------------------
 
+-- AGGREGATE FUNCTIONS
+--An aggregate function is a function that performs a calculation on a set of values, and returns a single value.
+
 --MIN
+--returns the smallest value within the selected column
 SELECT MIN(systemid) AS SmallestSysid FROM trk_test_02;
 
 --MAX
+--returns the largest value within the selected column
 SELECT MAX(systemid) AS LargestSysid FROM trk_test_02;
 
-----------------------------------------------------------------
+--SUM
+--returns the total sum of a numerical column
+SELECT SUM(personid) as sum_of_personid FROM trk_test_01;
 
 --AVG
+--returns the average value of a numerical column
 SELECT AVG(personid) FROM trk_test_01;
 
---SUM
-SELECT SUM(personid) as sum_of_personid FROM trk_test_01;
+--COUNT
+--returns the number of rows in a set
+SELECT COUNT(city) FROM trk_test_02;
+SELECT COUNT(DISTINCT city) FROM trk_test_02;
 
 ----------------------------------------------------------------
 
