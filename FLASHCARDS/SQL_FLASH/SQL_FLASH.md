@@ -88,6 +88,7 @@ ALTER COLUMN DateOfBirth year;
 drop database testdb_02;
 
 --DROP TABLE
+--The DROP TABLE statement is used to drop an existing table in a database.
 drop table trk_test_xx;
 
 --DROP INDEX
@@ -96,6 +97,7 @@ DROP INDEX index_name;
 ----------------------------------------------------------------
 
 --TRUNCATE TABLE
+--The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself.
 truncate table trk_test_xx;
 
 ----------------------------------------------------------------
@@ -215,6 +217,8 @@ SELECT SUM(personid) as sum_of_personid FROM trk_test_01;
 --AVG
 --returns the average value of a numerical column
 SELECT AVG(personid) FROM trk_test_01;
+--higher than average
+SELECT * FROM Products WHERE price > (SELECT AVG(price) FROM Products);
 
 --COUNT
 --returns the number of rows in a set
@@ -232,6 +236,20 @@ SELECT city, address FROM trk_test_01 WHERE city NOT IN ('GS', 'Dallas', 'toront
 
 --LIKE
 SELECT lastname FROM trk_test_01 WHERE lastname LIKE '%i';
+
+----------------------------------------------------------------
+
+--WILDCARDS 
+--A wildcard character is used to substitute one or more characters in a string.
+--Wildcard characters are used with the LIKE operator. 
+--The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+%  - Represents zero or more characters
+_  - Represents a single character
+[] - Represents any single character within the brackets *
+^  - Represents any character not in the brackets *
+-  - Represents any single character within the specified range *
+{} - Represents any escaped character **
 
 ----------------------------------------------------------------
 
