@@ -235,6 +235,7 @@ SELECT city, address FROM trk_test_01 WHERE city IN ('GS', 'Dallas', 'toronto');
 SELECT city, address FROM trk_test_01 WHERE city NOT IN ('GS', 'Dallas', 'toronto');
 
 --LIKE
+--The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 SELECT lastname FROM trk_test_01 WHERE lastname LIKE '%i';
 
 ----------------------------------------------------------------
