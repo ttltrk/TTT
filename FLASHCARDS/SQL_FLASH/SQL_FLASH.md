@@ -126,12 +126,14 @@ DML – Data Manipulation Language
 ----------------------------------------------------------------
 
 --INSERT INTO
+--The INSERT INTO statement is used to insert new records in a table.
 INSERT INTO public.trk_test_01 (personid, lastname, firstname, address, city)
 VALUES(7, 'ray', 'brent', 'still', 'GER');
 
 ----------------------------------------------------------------
 
 --UPDATE
+--The UPDATE statement is used to modify the existing records in a table.
 UPDATE public.trk_test_01
 SET lastname='jockey', firstname='brent', address='still', city='GER'
 WHERE personid=7;
@@ -139,6 +141,7 @@ WHERE personid=7;
 ----------------------------------------------------------------
 
 --DELETE
+--The DELETE statement is used to delete existing records in a table.
 DELETE FROM trk_test_01 WHERE firstname ='bbbb';
 
 ----------------------------------------------------------------
