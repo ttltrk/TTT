@@ -171,6 +171,12 @@ SELECT * FROM trk_test_01 WHERE lastname='kawhi';
 
 ----------------------------------------------------------------
 
+--IS NULL
+--A field with a NULL value is one that has been left blank during record creation!
+SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NULL;
+
+----------------------------------------------------------------
+
 --COUNT
 SELECT COUNT(city) FROM trk_test_02;
 SELECT COUNT(DISTINCT city) FROM trk_test_02;
