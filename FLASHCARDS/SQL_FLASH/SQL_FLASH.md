@@ -98,7 +98,7 @@ DROP INDEX index_name;
 
 --TRUNCATE TABLE
 --The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself.
-truncate table trk_test_xx;
+TRUNCATE table trk_test_xx;
 
 ----------------------------------------------------------------
 
@@ -228,11 +228,18 @@ SELECT COUNT(DISTINCT city) FROM trk_test_02;
 ----------------------------------------------------------------
 
 --BETWEEN
+--The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates.
+--The BETWEEN operator is inclusive: begin and end values are included. 
 SELECT * FROM trk_test_01 WHERE personid BETWEEN 2 AND 4;   
+SELECT * FROM Products WHERE Price NOT BETWEEN 10 AND 20;
+SELECT * FROM Products WHERE Price BETWEEN 10 AND 20 AND CategoryID IN (1,2,3);
 
 --IN
+--The IN operator allows you to specify multiple values in a WHERE clause.
 SELECT city, address FROM trk_test_01 WHERE city IN ('GS', 'Dallas', 'toronto');
 SELECT city, address FROM trk_test_01 WHERE city NOT IN ('GS', 'Dallas', 'toronto');
+SELECT * FROM Customers WHERE CustomerID IN (SELECT CustomerID FROM Orders);
+SELECT * FROM Customers WHERE CustomerID NOT IN (SELECT CustomerID FROM Orders);
 
 --LIKE
 --The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
@@ -245,20 +252,39 @@ SELECT lastname FROM trk_test_01 WHERE lastname LIKE '%i';
 --Wildcard characters are used with the LIKE operator. 
 --The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
 
-%  - Represents zero or more characters
-_  - Represents a single character
-[] - Represents any single character within the brackets *
-^  - Represents any character not in the brackets *
--  - Represents any single character within the specified range *
-{} - Represents any escaped character **
+%  -- Represents zero or more characters
+_  -- Represents a single character
+[] -- Represents any single character within the brackets *
+^  -- Represents any character not in the brackets *
+-  -- Represents any single character within the specified range *
+{} -- Represents any escaped character **
+
+----------------------------------------------------------------
+
+--ALIASES
+--SQL aliases are used to give a table, or a column in a table, a temporary name.
+--Aliases are often used to make column names more readable.
+SELECT CustomerID AS ID FROM Customers;
+SELECT CustomerID ID FROM Customers;
+SELECT CustomerID AS ID, CustomerName AS Customer FROM Customers;
+
+--CONCATENATE
+--The following SQL statement creates an alias named "Address" that combine four columns (Address, PostalCode, City and Country)
+SELECT CustomerName, Address + ', ' + PostalCode + ' ' + City + ', ' + Country AS Address FROM Customers;
+SELECT CustomerName, (Address || ', ' || PostalCode || ' ' || City || ', ' || Country) AS Address FROM Customers;
+
+SELECT o.OrderID, o.OrderDate, c.CustomerName
+FROM Customers AS c, Orders AS o
+WHERE c.CustomerName='Around the Horn' AND c.CustomerID=o.CustomerID;
+
+SELECT Orders.OrderID, Orders.OrderDate, Customers.CustomerName
+FROM Customers, Orders
+WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.CustomerID;
 
 ----------------------------------------------------------------
 
 --ORDER BY
 SELECT * FROM trk_test_01 ORDER BY city ASC;
-
---LIMIT
-SELECT * FROM trk_test_01 LIMIT 3;
 
 ----------------------------------------------------------------
 
