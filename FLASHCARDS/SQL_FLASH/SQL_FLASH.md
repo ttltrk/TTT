@@ -180,6 +180,9 @@ SELECT * FROM Customers LIMIT 3;
 --WHERE
 SELECT * FROM trk_test_01 WHERE lastname='kawhi';
 
+--ORDER BY
+SELECT * FROM trk_test_01 ORDER BY city ASC || DESC;
+
 ----------------------------------------------------------------
 
 --IS NULL
@@ -283,12 +286,20 @@ WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.C
 
 ----------------------------------------------------------------
 
---ORDER BY
-SELECT * FROM trk_test_01 ORDER BY city ASC;
+--JOIN
+--A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+--(INNER) JOIN: Returns records that have matching values in both tables
+--LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+--RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+--FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
 
 ----------------------------------------------------------------
 
---INER JOIN
+--INNER JOIN
+--The INNER JOIN keyword selects records that have matching values in both tables.
+--JOIN and INNER JOIN will return the same result.
+--INNER is the default join type for JOIN, so when you write JOIN the parser actually writes INNER JOIN.
 SELECT trk_test_01.personid AS ID, trk_test_01.lastname, trk_test_02.dep, trk_test_02.city
 FROM trk_test_01
 INNER JOIN trk_test_02
