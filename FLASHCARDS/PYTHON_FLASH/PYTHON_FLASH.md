@@ -57,6 +57,7 @@
 * [NP_ACCESS_2D_ARRAYS](#NP_ACCESS_2D_ARRAYS)
 * [NP_ACCESS_3D_ARRAYS](#NP_ACCESS_3D_ARRAYS)
 * [NP_NEGATIVE_INDEXING](#NP_NEGATIVE_INDEXING)
+* [NP_SLICING_ARRAYS](#NP_SLICING_ARRAYS)
 
 ---
 
@@ -1797,7 +1798,41 @@ Last element from 1st dim:  5
 
 ---
 
-####
+#### NP_SLICING_ARRAYS
+
+Slicing in python means taking elements from one given index to another given index.
+We pass slice instead of index like this: ```[start:end]```.
+We can also define the step, like this: ```[start:end:step]```.
+
+```py
+import numpy as np
+
+# --------------------------------------------------------------
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[1:5], '\n')
+
+# --------------------------------------------------------------
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[4:], '\n')
+
+# --------------------------------------------------------------
+
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+
+print(arr[:4], '\n')
+
+>>>
+[2 3 4 5] 
+
+[5 6 7] 
+
+[1 2 3 4] 
+>>>
+```
 
 [^^^](#PYTHON_FLASH)
 
