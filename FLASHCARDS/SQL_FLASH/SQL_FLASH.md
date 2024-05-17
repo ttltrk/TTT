@@ -98,6 +98,7 @@ DROP INDEX index_name;
 
 --TRUNCATE TABLE
 --The TRUNCATE TABLE statement is used to delete the data inside a table, but not the table itself.
+--The DELETE command is used to delete particular records from a table. The TRUNCATE command is used to delete the complete data from the table.
 TRUNCATE table trk_test_xx;
 
 ----------------------------------------------------------------
@@ -144,6 +145,7 @@ WHERE personid=7;
 
 --DELETE
 --The DELETE statement is used to delete existing records in a table.
+--The DELETE command is used to delete particular records from a table. The TRUNCATE command is used to delete the complete data from the table.
 DELETE FROM trk_test_01 WHERE firstname ='bbbb';
 
 ----------------------------------------------------------------
@@ -304,6 +306,31 @@ SELECT trk_test_01.personid AS ID, trk_test_01.lastname, trk_test_02.dep, trk_te
 FROM trk_test_01
 INNER JOIN trk_test_02
 ON trk_test_01.personid=trk_test_02.systemid;
+
+----------------------------------------------------------------
+
+--LEFT JOIN
+--The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2). 
+--The result is 0 records from the right side, if there is no match.
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders
+ON Customers.CustomerID = Orders.CustomerID
+ORDER BY Customers.CustomerName;
+
+----------------------------------------------------------------
+
+--RIGHT JOIN
+--The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). 
+--The result is 0 records from the left side, if there is no match.
+SELECT Orders.OrderID, Employees.LastName, Employees.FirstName
+FROM Orders
+RIGHT JOIN Employees 
+ON Orders.EmployeeID = Employees.EmployeeID
+ORDER BY Orders.OrderID;
+
+
+----------------------------------------------------------------
 
 ----------------------------------------------------------------
 
