@@ -342,7 +342,22 @@ ORDER BY Customers.CustomerName;
 
 ----------------------------------------------------------------
 
---UNION (UNION ALL select all values)
+--SELF JOIN
+--A self join is a regular join, but the table is joined with itself.
+SELECT A.CustomerName AS CustomerName1, B.CustomerName AS CustomerName2, A.City
+FROM Customers A, Customers B
+WHERE A.CustomerID <> B.CustomerID
+AND A.City = B.City
+ORDER BY A.City;
+
+----------------------------------------------------------------
+
+--UNION/UNION ALL
+--The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL:
+--The UNION operator is used to combine the result-set of two or more SELECT statements.
+--Every SELECT statement within UNION must have the same number of columns
+--The columns must also have similar data types
+--The columns in every SELECT statement must also be in the same order
 select * from temp1
 UNION
 select * from temp2;
@@ -354,7 +369,13 @@ select * from temp2;
 ----------------------------------------------------------------
 
 --GROUP BY
-select department, sum(salary) from employees where 1=1 group by department limit 5;
+--The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country".
+--The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+select department, sum(salary) 
+from employees 
+where 1=1 
+group by department 
+limit 5;
 
 ----------------------------------------------------------------
 
