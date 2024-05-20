@@ -38,3 +38,9 @@ For example, a marketing team may use data marts to analyze consumer behaviors, 
 A data warehouse is an enterprise system used for the analysis and reporting of structured and semi-structured data from multiple sources, such as point-of-sale transactions, marketing automation, customer relationship management, and more. 
 
 ---
+
+#### DATA_LAKE
+
+A data lake is a centralized repository that ingests, stores, and allows for processing of large volumes of data in its original form. It can accommodate all types of data, which is then used to power big data analytics, machine learning, and other forms of intelligent action.
+
+---
