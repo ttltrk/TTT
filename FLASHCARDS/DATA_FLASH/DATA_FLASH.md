@@ -44,3 +44,15 @@ A data warehouse is an enterprise system used for the analysis and reporting of 
 A data lake is a centralized repository that ingests, stores, and allows for processing of large volumes of data in its original form. It can accommodate all types of data, which is then used to power big data analytics, machine learning, and other forms of intelligent action.
 
 ---
+
+#### DATA_MAPPING
+
+Data mapping is the process of matching fields from one database to another. It's the first step to facilitate data migration, data integration, and other data management tasks. Before data can be analyzed for business insights, it must be homogenized in a way that makes it accessible to decision makers.
+
+---
+
+#### DATA_INTEGRATION
+
+Data integration refers to the process of bringing together data from multiple sources across an organization to provide a complete, accurate, and up-to-date dataset for BI, data analysis and other applications and business processes.
+
+---
