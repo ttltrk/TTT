@@ -5,6 +5,7 @@
 
 ---
 
+- xml in python 2024-05-21
 - mob - osi, sql 2024-05-18
 - mob - numpy, pandas 2024-05-12
 - 01 - 2024-MAY-08 - CS, C, GIT
