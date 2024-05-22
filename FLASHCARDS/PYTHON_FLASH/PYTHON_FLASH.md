@@ -47,6 +47,10 @@
 * [](#)
 * [CLASS](#CLASS)
 * [](#)
+* [](#)
+* [XML](#XML)
+* [](#)
+
 
 ---
 
@@ -1489,6 +1493,57 @@ John Doe
 ```py
 class Student(Person):
   pass
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### 
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### XML
+
+- how to create two xml files - [source](https://www.tutorialspoint.com/create-xml-documents-using-python)
+
+```py
+import xml.etree.ElementTree as ET
+
+# ----------------------------------------------------------------
+
+root = ET.Element('root')
+
+person = ET.SubElement(root, 'person')
+name = ET.SubElement(person, 'name')
+age = ET.SubElement(person, 'age')
+
+name.text = 'John Doe'
+age.text = '30'
+
+tree = ET.ElementTree(root)
+tree.write('person.xml')
+
+# ----------------------------------------------------------------
+
+root = ET.Element('order')
+
+customer = ET.SubElement(root, 'customer', name='John Doe', address='123 Main St')
+order = ET.SubElement(root, 'order', date='2020-01-01', id='12345')
+
+# ----------------------------------------------------------------
+
+items = ET.SubElement(order, 'items')
+
+item1 = ET.SubElement(items, 'item', code='A100', description='Product A', quantity='5')
+item2 = ET.SubElement(items, 'item', code='B200', description='Product B', quantity='10')
+
+tree = ET.ElementTree(root)
+tree.write('order.xml')
+
+# ----------------------------------------------------------------
 ```
 
 [^^^](#PYTHON_FLASH)
