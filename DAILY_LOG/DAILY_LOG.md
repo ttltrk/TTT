@@ -5,6 +5,7 @@
 
 ---
 
+- cyber - 2024-05-25
 - numpy - 2024-05-24
 - xml in python 2024-05-21
 - mob - osi, sql 2024-05-18
