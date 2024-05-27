@@ -353,6 +353,41 @@ RSI (Relative Strength Index)
 
 ![image](fx_5.png)
 
+```
+Warning RSI can hurt you
+A market can stay overbought or ovsersold for a long time
+Price can continue up after hitting 70
+Price can continue down after hitting 30
+Best to be used as a momentum indicator
+Above or below 50 level
+```
+
+3 types of analysis
+
+```
+Types of market analysis: Technical, Fundamental and Market Sentiment
+
+Technical analysis is the method in which traders study price movement.
+
+Fundamental analysis is analyzing social, economic, and political factors
+that affect currency supply and demand.
+
+Sentiment analysis is not just about the numbers, but how market players
+feel to determine whether the market is bullish or bearish on an asset.
+```
+
+Putting it all together
+
+```
+Placing a trade start to finish
+Find a broker > Deposit funds
+Download MT4 and login
+Open TradingView and do analysis
+Open MT4 and place a trade with stop loss and take profit
+Let it play out
+Repeat
+```
+
 [^^^](#FX)
 
 ---
