@@ -179,6 +179,13 @@ Total dollar value would be 114 437$ dollars
 if the price went up 20 pips. 0.00200 to 1.14637
 it would be a total dollar value of 114637$
 netting you a total profit of 200$ from your trade.
+
+114637 - 114437 = 200
+
+So from this you can calculate how much you could earn with a large or smaller size trade.
+
+10 000 lots = 2 000$
+0.01 lots = 2$
 ```
 
 [^^^](#FX)
