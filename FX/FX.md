@@ -335,7 +335,23 @@ towards the 200 is most likely
 
 above the 200 we are in an up trend
 below the 200 we are in a down trend
+
+Using multiple moving averages at different ranges is common.
+
+21, 50, 100, 200
+
+During a strong trend, price is likely to reject off the 21 moving average
+
+As the trend weakens it will go to the bigger moving averages.
+
+the GDP is wants to be at 200 MA, but the buyers always pushing it up 
 ```
+
+![image](fx_4.png)
+
+RSI (Relative Strength Index)
+
+![image](fx_5.png)
 
 [^^^](#FX)
 
