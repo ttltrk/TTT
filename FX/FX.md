@@ -21,6 +21,18 @@
 
 #### STEP_01
 
+What is forex?
+
+```
+Forex = Foreign exchange
+
+Most international airports have a currency exchange kiosk available to travelers.
+
+Trading one currency for a different currency.
+
+ex: Traveling to Mexico from US exchange rate is 20:1, 6.6 trillion dollars day in volume.
+```
+
 ##### BEGINNER_FX_EDU
 
 [^^^](#FX)
