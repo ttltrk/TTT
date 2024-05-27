@@ -21,6 +21,8 @@
 4. always wait for the backtest
 5. sma + rsi
 
+1. 100eur/day | 500eur/week | 2000eur/month
+
 ---
 
 #### STEP_01
