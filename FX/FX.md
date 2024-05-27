@@ -295,6 +295,21 @@ You will see certain price points where the price always reverses.
 These are known as support and resistance
 ```
 
+Popular chart indicators
+
+```
+Moving Averages
+
+RSI (relative strength index) or stochastic rsi
+
+VWAP (volume weighted average price)
+```
+Sessions
+
+```
+3 main sessions (New York, London, Tokyo)
+```
+
 [^^^](#FX)
 
 ---
