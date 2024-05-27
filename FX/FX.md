@@ -169,7 +169,7 @@ At a price of 1.14437 x 100 000 units you would need 114 437$ USD to place that 
 Thats where margin/leverage trading comes into play.
 ```
 
-Lots continued:
+Lots continued
 
 ```
 if you trade 1 standard lot (1.00)
@@ -203,6 +203,43 @@ you can not go down below a 1000$ loss because your broker will margin call acco
 This is why proper risk management is essential when day trading.
 
 Recommended risk per trade is 1% of your account balance (10$) on a 1000$ account.
+```
+
+Margin/Leverage continued
+
+```
+Margin requirement for each currency pair are different.
+
+ex: EUR/USD is 2% and GB/USD is 5%
+
+Additionally each broker has different margin requirements.
+
+To buy or sell a 100 000 of EUR/USD without leverage would requeire you to put up
+100 000$ in your account, the full value of the position.
+
+But with a margin requirement of 2% only 2000$ of your funds would be required to open 
+that same position.
+
+1 Standard lot 1.00 (100 000 units) = 2000$ Margin
+1 Mini lot 0.1 (10 000 units) = 200$ Margin
+1 Micro lot 0.01 (1000 units) = 20$ Margin
+
+All of these examples are with a 2% margin requirement.
+
+But if your trade falls below your margin requirement, your broker will execute a margin call
+on your trade, automatically closing your position as you don't have enough funds to cover 
+the trade.
+
+This is known as BLOWING your account.
+```
+
+Forex brokers 101
+
+```
+The middle man
+Place trades through them
+You will deposit money into your trading account with them...then
+They will give you a username and password to access mt4 mt5 and/or ctrader
 ```
 
 [^^^](#FX)
