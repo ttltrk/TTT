@@ -262,6 +262,12 @@ Japanese candlesticks
 
 ![image](fx_1.png)
 
+```
+Time frames: 1m, 3m, 5m, 15m, 1h, 4h, 1d, 1w
+Each candles is made of candles from a smaller time frame
+3 5m candles make up a 15m candle 
+```
+
 [^^^](#FX)
 
 ---
