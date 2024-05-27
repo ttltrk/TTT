@@ -188,6 +188,23 @@ So from this you can calculate how much you could earn with a large or smaller s
 0.01 lots = 2$
 ```
 
+Margin/Leverage trading basics
+
+```
+Understanding how your margin account works 
+
+Initial deposit into your brokerage account multiplied by the leverage that your borker offers.
+USA standard is 1:30 leverage but there are some brokers that give 1:500. Don't go higher.
+So..a 1000$ deposit with 1:500 would give you buying power of 500 000$.
+
+So if your account is 1000$ but you have buying power of 500 000$ and you are in a losing position,
+you can not go down below a 1000$ loss because your broker will margin call account.
+
+This is why proper risk management is essential when day trading.
+
+Recommended risk per trade is 1% of your account balance (10$) on a 1000$ account.
+```
+
 [^^^](#FX)
 
 ---
