@@ -21,6 +21,8 @@
 
 #### STEP_01
 
+##### BEGINNER_FX_EDU
+
 What is forex?
 
 ```
@@ -53,7 +55,46 @@ Major pairs:
 EUR/USD, USD/JPY, GBP/USD, USD/CAD, USD/CHF, AUD/USD, NZD/USD
 ```
 
-##### BEGINNER_FX_EDU
+Buying and selling
+
+```
+Buying: Purchasing EUR/USD at 1.3 and then selling it at a higher price, for example 1.4
+
+Selling: Also know as a short. Basically you borrow EUR/USD at the Current Price 1.3 and then return the amount
+you borrowed at a lower price 1.2. Making a profit from the difference.
+```
+
+Selling or Shorting
+
+```
+1.
+Borrowed a Bag of sugar from your friend Greg.
+Current value is 3$
+Winter Time
+
+2.
+SOLD
+Value at 3$
+Wait a few months Until sugar is cheaper in summer 
+
+3.
+Returned a bag of sugar to your friend Greg
+Current values is 1$
+Summer Time 
+
+final = 2.00$ Profit
+```
+
+Who trades forex?
+
+```
+A majority of the trading Volume is Banks and financial instituions.
+Total 6.6$ Trillion
+
+Day traders (Normal people) less than 3% (200 billion)
+
+Logically you want to trade with the banks (advanced)
+```
 
 [^^^](#FX)
 
