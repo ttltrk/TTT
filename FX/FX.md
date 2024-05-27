@@ -126,6 +126,43 @@ Buying and selling
 Broker gives access to mt4 platform for placing trades
 ```
 
+Pips and how to calculate them
+
+```
+Pips in forex trading is a unit of measure used to determine how much the price has gone up or down.
+
+A single pip is based on the 4th decimal point of the price in the currency pair.
+
+Ex: EUR/USD price is currently 1.14437, if the price went up 1 pip the price would be 1.14447
+```
+
+Pips and how to calculate them
+
+```
+Pips continued:
+
+current price of EUR/USD: 	1.14437
+10 pip movement:			1.14537
+20 pip movement:			1.14637
+100 pip movement:			1.15437
+1000 pip movement: 			1.24437
+```
+
+Lots explained:
+
+```
+Lots are basically the size of you trade
+
+For example with stocks like tesla or facebook you would buy 1 share at the current price
+and sell it at a higher price.
+
+Lots in forex are also units of measure.
+
+micro lot = 1 000 units
+mini lot = 10 000 units
+standard lot = 100 000 units
+```
+
 [^^^](#FX)
 
 ---
