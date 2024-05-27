@@ -47,13 +47,13 @@
 
 #### STEP_02
 
-#####
+##### INTERMEDIATE_TRADING_EDU
 
 [^^^](#FX)
 
 ---
 
-#####
+##### STEP_02_QUIZ
 
 [^^^](#FX)
 
