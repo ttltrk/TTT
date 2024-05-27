@@ -33,6 +33,26 @@ Trading one currency for a different currency.
 ex: Traveling to Mexico from US exchange rate is 20:1, 6.6 trillion dollars day in volume.
 ```
 
+Major currencies:
+
+```
+USD, EUR, GBP, JPY, NZD, CHF, CAD
+```
+
+How do you trade forex?
+
+```
+Intro to trading forex happens at the airport.
+Daytrading happens once you get a broker. 
+When trading you buy or sell in currency pairs (EUR/USD)
+```
+
+Major pairs:
+
+```
+EUR/USD, USD/JPY, GBP/USD, USD/CAD, USD/CHF, AUD/USD, NZD/USD
+```
+
 ##### BEGINNER_FX_EDU
 
 [^^^](#FX)
