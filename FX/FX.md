@@ -268,6 +268,33 @@ Each candles is made of candles from a smaller time frame
 3 5m candles make up a 15m candle 
 ```
 
+![image](fx_2.png)
+
+![image](fx_3.png)
+
+Identifying a trend line
+
+```
+As price moves up to create higher lows and higher highs you will begin
+to see that the lows can be connected using a trend line.
+
+Conversely
+
+As price moves down to create lower highs and lower lows you will begin
+to see that the highs can be connected using a trend line.
+```
+
+Support and resistance levels
+
+```
+Zooming out the chart even more and on a higher
+time frame (1H or 1D) recommended
+
+You will see certain price points where the price always reverses.
+
+These are known as support and resistance
+```
+
 [^^^](#FX)
 
 ---
