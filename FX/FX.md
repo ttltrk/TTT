@@ -249,6 +249,15 @@ You won't be spending too much time on your brokers website.
 Only while transferring or withdrawing.
 ```
 
+Type of charts
+
+```
+All of which you can find on the most popular website for looking at
+charts which is TradingView
+
+TradingView.com
+```
+
 [^^^](#FX)
 
 ---
