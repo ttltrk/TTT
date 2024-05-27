@@ -19,6 +19,106 @@
 
 ---
 
+#### STEP_01
+
+##### BEGINNER_FX_EDU
+
+[^^^](#FX)
+
+---
+
+##### TRADING_VIEW_TUTORIAL
+
+[^^^](#FX)
+
+---
+
+##### ARTYS_BROKER_OF_CHOICE
+
+[^^^](#FX)
+
+---
+
+##### STEP_01_QUIZ
+
+[^^^](#FX)
+
+---
+
+#### STEP_02
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#### STEP_03
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+#####
+
+[^^^](#FX)
+
+---
+
+---
+
+####
+
+[^^^](#FX)
+
+---
+
+---
+
 ```
 1. What is the function of an Oscillator Indicator?
 - Identify when something is overbought or oversold
