@@ -240,6 +240,13 @@ The middle man
 Place trades through them
 You will deposit money into your trading account with them...then
 They will give you a username and password to access mt4 mt5 and/or ctrader
+
+Basic functions of a broker are as follows:
+
+Deposit/withdraw your money to/from them
+They give you access to trading with that money via mt4
+You won't be spending too much time on your brokers website.
+Only while transferring or withdrawing.
 ```
 
 [^^^](#FX)
