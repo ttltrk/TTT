@@ -11,6 +11,10 @@
 
 - RULES
 
+1. no manager, no corp
+2. own time, make faster make more
+3. no tech between, directly make money
+
 1. TP: 20 / SL: 10
 2. TP: 2% / SL: 1%
 3. daily 10 pip min
@@ -308,6 +312,29 @@ Sessions
 
 ```
 3 main sessions (New York, London, Tokyo)
+```
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Moving averages
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+```
+There are 4 types of moving averages
+
+Simple, Exponential, Smoothed, Weighted
+
+Basically it is the average that the price of the asset should be at!!
+
+200 Moving average is most important!!
+
+If the price of the asset you are trading is too far away from the 200
+moving average, the probability that it will go the opposite direction
+towards the 200 is most likely
+
+200 can also be used as a trend line
+
+above the 200 we are in an up trend
+below the 200 we are in a down trend
 ```
 
 [^^^](#FX)
