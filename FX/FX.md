@@ -109,16 +109,6 @@
 
 ---
 
----
-
-####
-
-[^^^](#FX)
-
----
-
----
-
 ```
 1. What is the function of an Oscillator Indicator?
 - Identify when something is overbought or oversold
