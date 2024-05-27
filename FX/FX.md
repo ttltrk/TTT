@@ -258,6 +258,10 @@ charts which is TradingView
 TradingView.com
 ```
 
+Japanese candlesticks
+
+![image](fx1.png)
+
 [^^^](#FX)
 
 ---
