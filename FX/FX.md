@@ -96,6 +96,36 @@ Day traders (Normal people) less than 3% (200 billion)
 Logically you want to trade with the banks (advanced)
 ```
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Why trade forex?
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+```
+Day trading forex allows you to analyse charts from home and make trades
+based on where you think the price will go.
+
+This allows you to make money for yourself instead of working a regular 9-5 job 
+where you exchange your time for a paycheck.
+
+The amount you can earn is exponentially more than normal careers.
+```
+
+Getting started INFO OVERLOAD
+
+```
+You need a broker (the middle man)
+
+Allows you to trade any asset (forex, crypto, stocks)
+
+Trading lots and sizes of positions
+
+In pips units of measure
+
+Buying and selling
+
+Broker gives access to mt4 platform for placing trades
+```
+
 [^^^](#FX)
 
 ---
