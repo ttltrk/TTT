@@ -260,7 +260,7 @@ TradingView.com
 
 Japanese candlesticks
 
-![image](fx1.png)
+![image](fx_1.png)
 
 [^^^](#FX)
 
