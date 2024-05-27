@@ -161,6 +161,24 @@ Lots in forex are also units of measure.
 micro lot = 1 000 units
 mini lot = 10 000 units
 standard lot = 100 000 units
+
+1 standard lot of EUR/USD in 100 000 units
+
+At a price of 1.14437 x 100 000 units you would need 114 437$ USD to place that trade.
+
+Thats where margin/leverage trading comes into play.
+```
+
+Lots continued:
+
+```
+if you trade 1 standard lot (1.00)
+
+Of EUR/USD at 1.14437 which is 100 000 units.
+Total dollar value would be 114 437$ dollars
+if the price went up 20 pips. 0.00200 to 1.14637
+it would be a total dollar value of 114637$
+netting you a total profit of 200$ from your trade.
 ```
 
 [^^^](#FX)
