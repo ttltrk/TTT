@@ -446,6 +446,11 @@ Reversal Chart Patterns
 
 ![image](fx_10.png)
 
+Important candlestick patterns
+
+![image](fx_11.png)
+
+
 [^^^](#FX)
 
 ---
