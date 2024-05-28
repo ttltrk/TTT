@@ -462,6 +462,13 @@ Elliott wave theory
 
 ![image](fx_14.png)
 
+Harmonic price patterns
+
+![image](fx_15.png)
+
+Divergences
+
+![image](fx_16.png)
 
 
 [^^^](#FX)
