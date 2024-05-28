@@ -432,6 +432,10 @@ MACD - Moving Average Convergence Divergence
 Stochastic Oscillator
 ```
 
+![image](fx_6.png)
+
+![image](fx_7.png)
+
 [^^^](#FX)
 
 ---
