@@ -450,6 +450,9 @@ Important candlestick patterns
 
 ![image](fx_11.png)
 
+Pivot points
+
+![image](fx_12.png)
 
 [^^^](#FX)
 
