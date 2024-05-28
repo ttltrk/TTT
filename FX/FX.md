@@ -416,6 +416,22 @@ Repeat
 
 ##### INTERMEDIATE_TRADING_EDU
 
+Oscillator Indicators
+
+```
+Identifying Overbought and Oversold conditions
+Recognizing divergence
+Confirming trend strength
+```
+
+Commonly used oscillator indicators
+
+```
+RSI - Relative Strength Index
+MACD - Moving Average Convergence Divergence
+Stochastic Oscillator
+```
+
 [^^^](#FX)
 
 ---
