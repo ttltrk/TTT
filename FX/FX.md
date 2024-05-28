@@ -438,6 +438,8 @@ Stochastic Oscillator
 
 ![image](fx_8.png)
 
+![image](fx_9.png)
+
 [^^^](#FX)
 
 ---
