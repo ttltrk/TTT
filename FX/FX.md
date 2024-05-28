@@ -454,6 +454,16 @@ Pivot points
 
 ![image](fx_12.png)
 
+Heikin-Ashi candles
+
+![image](fx_13.png)
+
+Elliott wave theory
+
+![image](fx_14.png)
+
+
+
 [^^^](#FX)
 
 ---
