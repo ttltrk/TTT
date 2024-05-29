@@ -470,6 +470,24 @@ Divergences
 
 ![image](fx_16.png)
 
+Market environments
+
+![image](fx_17.png)
+
+Breakout trading
+
+```
+always wait for the re-test
+```
+
+![image](fx_18.png)
+
+Fake breakout
+
+![image](fx_19.png)
+
+
+
 
 [^^^](#FX)
 
