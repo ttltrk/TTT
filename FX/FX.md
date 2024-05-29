@@ -486,6 +486,14 @@ Fake breakout
 
 ![image](fx_19.png)
 
+Fundamental analysis
+
+![image](fx_20.png)
+
+Multiple timeframe analysis
+
+![image](fx_20.png)
+
 
 
 
