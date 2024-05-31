@@ -494,9 +494,6 @@ Multiple timeframe analysis
 
 ![image](fx_20.png)
 
-
-
-
 [^^^](#FX)
 
 ---
@@ -507,7 +504,26 @@ Multiple timeframe analysis
 
 ---
 
-#####
+#### STEP_03
+
+##### ADVANCED_TRADING
+
+Determing Market Sentiment
+
+```
+- Is it a bear or bull market? Who knows?
+
+Every trader develops their own opinion of the market direction (market sentiment).
+Market sentiment is the compilation of ALL trader's market views.
+
+- A Market Sentiment Approach
+
+Your job is to determine the market's sentiment or flow, but how?
+Find the market's flow: Forex traders use indicators and technical analysis to build their
+market sentiment.
+
+To Go with the Flow or Not? That is the question.
+```
 
 [^^^](#FX)
 
