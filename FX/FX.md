@@ -22,7 +22,7 @@
 5. sma + rsi
 
 1. 100eur/day | 500eur/week | 2000eur/month
-x
+xxx
 ---
 
 #### STEP_01
