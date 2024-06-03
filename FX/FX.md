@@ -579,6 +579,19 @@ meats: feeder cattle, live cattle, lean hogs
 other: lumber, dairy products
 ```
 
+How to trade commoditites
+
+```
+spot and futures markets through an exchange
+
+Spot market (ETFs and Stocks): purchase/invest in commodities directly (immediate delivery)
+Futures market: secure a price at a future data for a commodity through fixed contracts
+
+ex: purchase a futures on the CME exchange for Crude oil at 91.50 that expires in March of 2022.
+You secured the right to a set quantity of oil at that price at a future date in March when the 
+contracts expires.
+```
+
 [^^^](#FX)
 
 ---
