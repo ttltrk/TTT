@@ -61,6 +61,8 @@ SAP system is one DB and one or more instances
 
 #### MAIN_TRANSACTIONS
 
+use it with ```/n``` like ```/nsm37```
+
 SM04 / AL08 - user overview/list
 SE16
 SM50 / SM66 - work processes
@@ -235,6 +237,14 @@ Client >> Cross-client customizing >> Repository
 
 ```
 DEV - QAS - PROD
+```
+
+```
+tp addtobuffer EG3KT02778 EG3 u1 client500 pf=/usr/sap/trans/bin/TP_DOMAIN_PE1.PFL
+
+tp import EG3KT02778 EG3 u1 client500 pf=/usr/sap/trans/bin/TP_DOMAIN_PE1.PFL
+
+in se01 - logs - you can monitor the transport
 ```
 
 [^^^](#SAP)
