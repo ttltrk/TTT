@@ -573,10 +573,10 @@ Tradable commodities
 hard (extracted) commodities: 
 	energy (crude oil, gasoline, heating oil, natural gas)
 	metals (gold, silver, copper, platinum, palladium)
-soft (grown) commodities:
-grains/oilseeds:
-meats:
-other:
+soft (grown) commodities: cocoa, coffee, cotton, orange juice, sugar
+grains/oilseeds: soybeans, wheat, corn
+meats: feeder cattle, live cattle, lean hogs
+other: lumber, dairy products
 ```
 
 [^^^](#FX)
