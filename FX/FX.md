@@ -525,6 +525,22 @@ market sentiment.
 To Go with the Flow or Not? That is the question.
 ```
 
+Currency Correlation
+
+```
+The study and measure of pairs relational movements:
+Same direction : Opposite direction : random
+
+Understanding how pairs correlate with each other allows for better risk management when
+choosing currency pairs to trade.
+
+ex: 
+GBP/JPY has a strong positive correlation to CAD/JPY 91.4% they will move in the same direction.
+USD/CAD has a strong negative correlation to CAD/JPY -83.4% it will move in an opposite direction.
+```
+
+Currency correlation chart available >> [link](https://www.myfxbook.com/forex-market/correlation)
+
 [^^^](#FX)
 
 ---
