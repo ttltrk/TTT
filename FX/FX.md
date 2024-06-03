@@ -541,6 +541,42 @@ USD/CAD has a strong negative correlation to CAD/JPY -83.4% it will move in an o
 
 Currency correlation chart available >> [link](https://www.myfxbook.com/forex-market/correlation)
 
+Commoditites market
+
+```
+Gold, Crude oil and grains are part of what is called commodities market or the marketplace for buying 
+and selling raw materials.
+```
+
+Type of commodities:
+
+```
+1. hard commodities - things extracted from the earth: gold, silver, crude oil
+2. soft commodities - agricultural/seasonal products: meats, grains, lumber
+
+In order to trade in the commodities market, a good has to be interchangeable (fungible), 
+no matter where extracted or grown it is the same.
+```
+
+Where to trade commodities
+
+```
+CME group
+Intercontinental exchange
+london metal exchange
+forex market
+```
+
+Tradable commodities
+
+```
+hard (extracted) commodities:
+soft (grown) commodities:
+grains/oilseeds:
+meats:
+other:
+```
+
 [^^^](#FX)
 
 ---
