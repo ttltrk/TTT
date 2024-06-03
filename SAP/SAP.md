@@ -14,7 +14,14 @@
 
 #### SAP_WORK_PROCESSES
 
-
+|Type|Use|Profile_param|
+|----|---|-------------|
+|DIA|dialogue requests|  |
+|UPD|updates| |
+|UPD2|less time critical update| |
+|BGD|background jobs| |
+|SPO|output requests| |
+|ENQ|locks| |
 
 ---
 
