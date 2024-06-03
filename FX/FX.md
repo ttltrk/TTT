@@ -570,7 +570,9 @@ forex market
 Tradable commodities
 
 ```
-hard (extracted) commodities:
+hard (extracted) commodities: 
+	energy (crude oil, gasoline, heating oil, natural gas)
+	metals (gold, silver, copper, platinum, palladium)
 soft (grown) commodities:
 grains/oilseeds:
 meats:
