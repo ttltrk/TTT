@@ -24,7 +24,7 @@
 * [SCHEDULING](#SCHEDULING)
 * [](#)
 * [](#)
-* [](#)
+* [CLIENT_COPY](#CLIENT_COPY)
 * [](#)
 * [](#)
 
@@ -279,7 +279,11 @@ local, remote
 
 ---
 
-####
+#### CLIENT_COPY
+
+scc3, scc8
+
+[link](https://drive.google.com/drive/u/1/folders/1KOvCfmQA2IdzWMxdQUfBCbnlcJE3Le2R)
 
 [^^^](#SAP)
 
