@@ -22,6 +22,9 @@
 * [SUPPORT_PACKAGES](#SUPPORT_PACKAGES)
 * [PRINTERS](#PRINTERS)
 * [SCHEDULING](#SCHEDULING)
+* [ARCHIVING](#ARCHIVING)
+* [SYSTEM_MONITORING](#SYSTEM_MONITORING)
+* [](#)
 * [](#)
 * [](#)
 * [CLIENT_COPY](#CLIENT_COPY)
@@ -81,7 +84,8 @@ use it with ```/n``` like ```/nsm37```
 |STMS|transport management system|
 |SPAM|Import support packages|
 |SAINT|Industry solution Install + upgrade|
-|SPAD| | 
+|SPAD|Printer config| 
+|SU01|User maintenance|
 
 [^^^](#SAP)
 
@@ -293,6 +297,93 @@ A
 B
 C
 ```
+
+Status
+
+```
+Scheduled >> Released >> Ready >> Active >> Finished/Canceled
+```
+
+[^^^](#SAP)
+
+---
+
+#### ARCHIVING
+
+```
+Consistent removal of data objects from database tables of the SAP system database, where all table entries
+that characterize a data object are written to an archive file outside the database. Business consitency 
+is ensured by SAP archiving programs that store all relevant table entries together on the basis of archiving
+objects.
+```
+
+Steps
+
+```
+- Reorganization
+- Backup / restore
+- document storage (using SAP ArchiveLink)
+- deletion of test data
+```
+
+Process
+
+```
+SAP DB >> Archiving object >> Archive files >> Offline storage
+```
+
+Archiving run
+
+```
+via transaction SARA
+
+- Create an archiving variant
+- Specify the execution user
+- Specify the start time
+- Define the spool parameters
+```
+
+[^^^](#SAP)
+
+---
+
+#### SYSTEM_MONITORING
+
+[^^^](#SAP)
+
+---
+
+####
+
+[^^^](#SAP)
+
+---
+
+####
+
+[^^^](#SAP)
+
+---
+
+####
+
+[^^^](#SAP)
+
+---
+
+####
+
+[^^^](#SAP)
+
+---
+
+####
+
+[^^^](#SAP)
+
+---
+
+####
 
 [^^^](#SAP)
 
