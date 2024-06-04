@@ -28,7 +28,7 @@
 * [](#)
 * [](#)
 * [CLIENT_COPY](#CLIENT_COPY)
-* [](#)
+* [IXOS](#IXOS)
 * [](#)
 
 ---
@@ -412,3 +412,38 @@ scc3, scc8
 [^^^](#SAP)
 
 ---
+
+#### IXOS
+
+```
+mstsc ---> nts-admin / ---> LiveLink ---> dsadmin / ixosadm 
+
+spawncmd stopall
+ixos spawner - disable - stop
+sql server (MSSQLSERVER, agent, fultext search, VSS writer) - stop
+
+sql server start
+ixos spawner - automatic - start
+spawncmd statusall ---> if it is needed
+```
+
+```
+spawncmd status
+spawncmd -----> stopall
+IXOS spawner - disabled - apply
+check web
+
+IXOS spawner - automatic - apply
+spawncmd status
+
+if it is possible
+spawncmd ------> startall
+
+check web
+dbtest
+```
+
+[^^^](#SAP)
+
+---
+
