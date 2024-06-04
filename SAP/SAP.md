@@ -63,26 +63,25 @@ SAP system is one DB and one or more instances
 
 use it with ```/n``` like ```/nsm37```
 
-SM04 / AL08 - user overview/list
-SE16
-SM50 / SM66 - work processes
-SM51 - display application servers
-SM37 - background job overview
-SU01 - user roles/lock management
-SM12 - lock entries
-SM13 - update records
-SM21 - system log
-SM02 - send system messages
-RZ20 - profile maintenance/cross-system monitoring
-
-SM59 - rfc destinations
-
-STMS - transport management system
-
-SPAM - Import support packages
-SAINT - Industry solution Install + upgrade
-
-SPAD - 
+|transaction|description|
+|-----------|-----------|
+|SM04 / AL08|user overview/list|
+|SE16| |
+|SM50 / SM66|work processes|
+|SM51|display application servers|
+|SM36|define new jobs|
+|SM37|background job overview|
+|SU01|user roles/lock management|
+|SM12|lock entries|
+|SM13|update records|
+|SM21|system log|
+|SM02|send system messages|
+|RZ20|profile maintenance/cross-system monitoring|
+|SM59|rfc destinations|
+|STMS|transport management system|
+|SPAM|Import support packages|
+|SAINT|Industry solution Install + upgrade|
+|SPAD| | 
 
 [^^^](#SAP)
 
@@ -272,6 +271,28 @@ local, remote
 ---
 
 #### SCHEDULING
+
+sm36
+
+```
+Reports to be run regularly and long-running programs are scheduled as background jobs in the SAP.
+```
+
+Step
+
+```
+ABAP program
+external command
+external program
+```
+
+Prio
+
+```
+A
+B
+C
+```
 
 [^^^](#SAP)
 
