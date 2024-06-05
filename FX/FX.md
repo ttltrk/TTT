@@ -594,6 +594,27 @@ contracts expires.
 
 ![image](fx_22.png)
 
+Stock Market Index
+
+```
+US Indices: 
+
+S&P 500 (US500)
+Nasdaq (NAS100)
+Dow Jones (US30)
+
+An index is a managed, tradable product that tracks the performance of a group of stocks.
+Indices are managed through a weight-based model, such as market-cap, equal or price weighted.
+
+ex:
+
+The Nasdaq is a market-cap weighted index of the 100 largest stocks is the NYSE. This makes it a mix
+of different industries, but typically tech companies.
+
+The DIJA is a price-weighted index made up of just 30 blue chip (historically strong) stocks.
+Being price weighted, each companies share price affects how much influence it has on the overall index. 
+``` 
+
 [^^^](#FX)
 
 ---
