@@ -492,7 +492,7 @@ Fundamental analysis
 
 Multiple timeframe analysis
 
-![image](fx_20.png)
+![image](fx_21.png)
 
 [^^^](#FX)
 
@@ -591,6 +591,8 @@ ex: purchase a futures on the CME exchange for Crude oil at 91.50 that expires i
 You secured the right to a set quantity of oil at that price at a future date in March when the 
 contracts expires.
 ```
+
+![image](fx_22.png)
 
 [^^^](#FX)
 
