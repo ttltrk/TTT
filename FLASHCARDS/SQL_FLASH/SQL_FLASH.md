@@ -397,6 +397,18 @@ GO;
 
 ----------------------------------------------------------------
 
+--CAST() Function
+--The CAST() function converts a value (of any type) into a specified datatype.
+
+--Convert a value to an int datatype:
+SELECT CAST(25.65 AS int);
+
+--Convert a value to a varchar datatype:
+SELECT CAST(25.65 AS varchar);
+
+--Convert a value to a datetime datatype:
+SELECT CAST('2017-08-25' AS datetime);
+
 ----------------------------------------------------------------
 
 ----------------------------------------------------------------
