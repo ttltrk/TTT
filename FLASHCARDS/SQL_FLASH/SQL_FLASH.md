@@ -52,6 +52,7 @@ from pg_indexes
 where tablename = 'trk_test_01';
 
 --CREATE VIEW
+--In SQL, a view is a virtual table based on the result-set of an SQL statement.
 CREATE VIEW [Brazil Customers] AS
 SELECT CustomerName, ContactName
 FROM Customers
