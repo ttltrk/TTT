@@ -9,6 +9,10 @@
 
 ---
 
+* [FX_DAILY_CHECK](https://github.com/ttltrk/TTT/blob/master/FX/FX_DAILY_CHECK/FX_DAILY_CHECK.md)
+
+---
+
 - RULES
 
 1. no manager, no corp
