@@ -5,6 +5,7 @@
 
 ---
 
+- solo sql
 - fx, crypto
 - dba fun - 2024-06-02
 - fx - 2024-06-01
