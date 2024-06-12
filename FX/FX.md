@@ -619,6 +619,34 @@ The DIJA is a price-weighted index made up of just 30 blue chip (historically st
 Being price weighted, each companies share price affects how much influence it has on the overall index. 
 ``` 
 
+What is a news day?
+
+```
+Important events affecting a countrys economy or a geopolitical event. Forex market: each country has news
+events that regularly affect their currency like interest rate decisions, inflation and employment data.
+
+Major US news events: NFP, FOMC, CPI, Unemployment claims
+```
+
+Why trade the news?
+
+```
+Upside: Big potential to make a large amount of money quickly with the increased volatility
+if you call the direction correctly.
+
+Downside: Big potential for large losses if the market moves quickly against your chosen direction.
+Large slippage, increased spreads, unfilled market orders.
+```
+
+Should you trade the news?
+
+```
+All of trading involves risk management, and news days have increased risk.
+Altough it can potentially be very profitable, news days are more dangerous because of increased slippage/volatility and 
+larger spreads.
+More experienced traders can trade news, but should a newbie?
+```
+
 [^^^](#FX)
 
 ---
