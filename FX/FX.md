@@ -647,6 +647,14 @@ larger spreads.
 More experienced traders can trade news, but should a newbie?
 ```
 
+How to trade the news?
+
+```
+One option, develop a strategy specific to news trading.
+Considerations: Use larger stop losses, trade major currency pairs EX: EUR/USD, AUD/USD), use smaller position
+sizes to decrease risk
+```
+
 [^^^](#FX)
 
 ---
