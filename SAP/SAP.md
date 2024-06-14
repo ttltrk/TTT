@@ -35,18 +35,17 @@
 
 #### SAP
 
-The SAP (comapny = SAP SE) is a large company which is producing a large software (SAP ERP) to managing companies. Leader in ERP.
+The SAP (comapny = SAP SE, Waldorf Germany) is a large company which is producing a large software (SAP ERP) and 
+creates solutions that help to managing other companies more effectively. SAP is Leader in ERP.
 
 - the company is SAP SE
-- the product is SAP ERP 
+- the product is SAP ERP, SAP CRM, SAP PLM, SAP BI 
 
 SAP = Systems Applications and Products in data processing
 
 ERP = ENterprise resource planning
 
 [^^^](#SAP)
-
----
 
 ---
 
