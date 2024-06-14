@@ -35,9 +35,14 @@
 
 #### SAP
 
-SAP is a large company which is producing a large software for managing companies.
+The SAP (comapny = SAP SE) is a large company which is producing a large software (SAP ERP) to managing companies. Leader in ERP.
 
-System Application Products
+- the company is SAP SE
+- the product is SAP ERP 
+
+SAP = Systems Applications and Products in data processing
+
+ERP = ENterprise resource planning
 
 [^^^](#SAP)
 
