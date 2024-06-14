@@ -33,6 +33,18 @@
 
 ---
 
+#### SAP
+
+SAP is a large company which is producing a large software for managing companies.
+
+System Application Products
+
+[^^^](#SAP)
+
+---
+
+---
+
 #### BASICS
 
 SAP system is one DB and one or more instances
