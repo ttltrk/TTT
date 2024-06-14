@@ -110,6 +110,10 @@ Type of clients
 - client 001 = client where config and program development are made
 - client 100 = unit test client
 
+000 - 999
+
+more clients, means more hw resources
+
 [^^^](#SAP)
 
 ---
