@@ -59,7 +59,9 @@ SAP system is one DB and one or more instances
 
 #### SAP_ARCHITECTURE
 
-DB LAYER >> APPLICATION LAYER (ASCS and Application Server) >> PRESENTATION LAYER (users with SAP logon client, SAP business client)
+DB LAYER >> APPLICATION LAYER (ABAP or an ASCS and Application Server is located) >> PRESENTATION LAYER (users with SAP logon client, SAP business client)
+
+![image](sap_01.png)
 
 [^^^](#SAP)
 
