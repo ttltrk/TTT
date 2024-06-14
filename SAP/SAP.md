@@ -90,6 +90,30 @@ RFC = remote fucntion call
 
 ---
 
+#### SAP_CLIENT
+
+SAP client is a separate entity within a SAP system with its own master data,
+transactional data and user master.
+
+Data
+
+- master data - data required by the business, to perform business (info about custmers, info about employees)
+- transactional data - created and changed on the day to day basis, due to business operation (purchase orders, and sales orders)
+- user master data - record the contains important user master data (name, email, groups, etd)
+
+those data are client specific, only the dedicated clients can read and write
+the above mentioned data
+
+Type of clients 
+
+- client 000 = golden client, which is used only for reference
+- client 001 = client where config and program development are made
+- client 100 = unit test client
+
+[^^^](#SAP)
+
+---
+
 #### SAP_WORK_PROCESSES
 
 |Type|Use|Profile_param|
