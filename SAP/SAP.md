@@ -59,6 +59,8 @@ SAP system is one DB and one or more instances
 
 #### SAP_ARCHITECTURE
 
+* [link](https://www.youtube.com/watch?v=xiWeo9rT2rU)
+
 DB LAYER >> APPLICATION LAYER (ABAP or an ASCS and Application Server is located) >> PRESENTATION LAYER (users with SAP logon client, SAP business client)
 
 ![image](sap_01.png)
@@ -68,6 +70,15 @@ ASCS = Central services systems
 ![image](sap_02.png)
 
 ![image](sap_03.png)
+
+enque server is responsible for managing locks 
+
+![image](sap_04.png)
+
+ICM = Internet communication manager (smtp and https)
+via Gateway SAP is able to communicate with other SAPs or non SAPs with RFC
+RFC = remote fucntion call 
+
 
 [^^^](#SAP)
 
