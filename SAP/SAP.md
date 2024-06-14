@@ -75,9 +75,9 @@ enque server is responsible for managing locks
 
 ![image](sap_04.png)
 
-ICM = Internet communication manager (smtp and https)
-via Gateway SAP is able to communicate with other SAPs or non SAPs with RFC
-RFC = remote fucntion call 
+- ICM = Internet communication manager (smtp and https)
+- via Gateway SAP is able to communicate with other SAPs or non SAPs with RFC
+- RFC = remote fucntion call 
 
 
 [^^^](#SAP)
