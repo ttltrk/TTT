@@ -63,6 +63,12 @@ DB LAYER >> APPLICATION LAYER (ABAP or an ASCS and Application Server is located
 
 ![image](sap_01.png)
 
+ASCS = Central services systems 
+
+![image](sap_02.png)
+
+![image](sap_03.png)
+
 [^^^](#SAP)
 
 ---
