@@ -79,23 +79,26 @@ enque server is responsible for managing locks
 - via Gateway SAP is able to communicate with other SAPs or non SAPs with RFC
 - RFC = remote fucntion call 
 
-Tranzakcio
+##### Tranzakcio
 
 Altalaban a tranzakcio olyan muvelet amelynek segitsegevel a felhasznalo valtozasokat vihet vegbe az adatbazisban.
 Az egesz adatfolyam ami alkalmazasi modulokon fut keresztul, tranzakciok hasznalataval kerul feldolgozasra.
 Egy tranzakcio feladata annak az infonak a modositasa amely vegul bekerul az adatbazisokba.
 
-Dialoguslepes
+##### Dialoguslepes
 
 Egy dialoguslepes egy SAP kepernyo amelyet egy dynpro reprezental. Egy dynpro vagyis dinamikus program, egy kepernyobol es
 a hozzatartozo vegrehajtasi logikabol tevodik ossze.
 
-LUW (Logical Unit of Work)
+##### LUW (Logical Unit of Work)
 
 Egy luw nem mas mint egy tranzakcion beluli dialogus lepesek halmaza. Ezen lepeseknek helyesen vegre kell hajtodniuk hogy 
 a tranzakcio tovabb haladhasson. Letezik DB tranzakcio, frissitesi tranzakcio, sap tranzakcio.
 
-Kliensek
+##### Kliensek
+
+Definicioja szerint a kleins egy jogilag es szervezetileg is fuggetlen egyseg a SAPon belul. Ez lehet peldaul egy vallalati 
+csoport, egy uzleti egyseg vagy testulet.
 
 
 
