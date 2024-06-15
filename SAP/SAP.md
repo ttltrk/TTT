@@ -43,7 +43,7 @@ creates solutions that help to managing other companies more effectively. SAP is
 
 SAP = Systems Applications and Products in data processing
 
-ERP = ENterprise resource planning
+ERP = ENterprise resource planning - vallalati eroforras tervezo. Kissebb koltseg nagyobb hatekonysag.
 
 [^^^](#SAP)
 
@@ -78,6 +78,20 @@ enque server is responsible for managing locks
 - ICM = Internet communication manager (smtp and https)
 - via Gateway SAP is able to communicate with other SAPs or non SAPs with RFC
 - RFC = remote fucntion call 
+
+Tranzakcio
+
+Altalaban a tranzakcio olyan muvelet amelynek segitsegevel a felhasznalo valtozasokat vihet vegbe az adatbazisban.
+Az egesz adatfolyam ami alkalmazasi modulokon fut keresztul, tranzakciok hasznalataval kerul feldolgozasra.
+Egy tranzakcio feladata annak az infonak a modositasa amely vegul bekerul az adatbazisokba.
+
+Dialoguslepes
+
+Egy dialoguslepes egy SAP kepernyo amelyet egy dynpro reprezental. Egy dynpro vagyis dinamikus program, egy kepernyobol es
+a hozzatartozo vegrehajtasi logikabol tevodik ossze.
+
+LUW (Logical Unit of Work)
+
 
 
 [^^^](#SAP)
