@@ -92,6 +92,11 @@ a hozzatartozo vegrehajtasi logikabol tevodik ossze.
 
 LUW (Logical Unit of Work)
 
+Egy luw nem mas mint egy tranzakcion beluli dialogus lepesek halmaza. Ezen lepeseknek helyesen vegre kell hajtodniuk hogy 
+a tranzakcio tovabb haladhasson. Letezik DB tranzakcio, frissitesi tranzakcio, sap tranzakcio.
+
+Kliensek
+
 
 
 [^^^](#SAP)
