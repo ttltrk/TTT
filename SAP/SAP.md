@@ -143,7 +143,8 @@ CPIC protokollt. KOzismert neve SAP atjarok (gateway)
 
 - CPIC = Common Programming Interface Communication
 - RFC = Remote Function Call - tavoli fuggveny hivas, egy szabvanyos programozasi interfesz amely a kulonbozo rendszerekben elhelyezkedo 
-programok kozotti tavoli fuggvenyhivasok lebonyolitasara szolgal. Az RFC a CPIC-nel magasabb szintu logikai interfesz.
+programok kozotti tavoli fuggvenyhivasok lebonyolitasara szolgal. Az RFC a CPIC-nel magasabb szintu logikai interfesz. Az SAP regota
+ezt a programozasi interfeszt hasznalja a megegyezo vagy kulonbozo rendszerekben elhelyezkedo programok kozotti tavoli fuggvenyhivasra.
 
 ##### Prezentacios interfesz
 
@@ -154,6 +155,36 @@ programok kozotti tavoli fuggvenyhivasok lebonyolitasara szolgal. Az RFC a CPIC-
 - Van a szolgaltatast kinalo (szerver) es a szolgaltatast igenylo (kliens) fogalmak. Egy program egyben lehet egyszerre szerver es kliens is.
 Igy peldaul a SAP WEB AS tipikus alkalmazas szervere szolgaltatast nyujt a felhasznaloknak (SAP GUI) viszont az DB szervertol szolgaltatast
 igenyel.
+
+##### ITS = Internet Transaction Server
+
+Az ITS koztes reteg lehetove teszi SAP Web AS forgatokonyvek bongeszobol torteno elereset, valamint fuggvenymodulok meghivasat URL-en
+keresztul.
+
+##### ICM = Internet Communication Manager
+
+AZ ICM http, https es smtp protokollok hasznalataval biztositja a kommunikaciot az sap rendszer es a kulso vilag kozott. Szerver szerepkorben
+fel tudja dolgozni az internet felol erkezo ezerver/port kombinacio hivo url-t tartalmazo kereseket amelyeket az ICM valosit meg. 
+
+##### Profil
+
+Az SAP rendszerekben a profil egy OS allomany amely egy peldany parametereit es konfig infoit tartalmazza. Lehet beloluk tobb. A profilok
+a rendszer technikai es alapbeallitasanak alapveto reszei. Ertekeinek foleg a rendszer hangolasa eseten van hatalmas jelentoseguk.
+
+```/usr/sap/<SID>/SYS/profile```
+
+```/sapmnt/<SID>/profile ```
+
+- inditasi profil
+- alapertelmezett profil
+- peldanyprofil
+
+##### SAP NEWEAVER
+
+- SN nyujtja as SAP uzleti megoldasok infrastrukturajahoz szukseges fo funkciokat. Az SN nyujtja a technikai keretrendszert a a mySAP ERP
+komponense, a mySAP business suite es az xAppskent hivatkozott SAP osszetett alkalmazasi szamara. 
+
+![image](sap_05.png)
 
 #####
 
@@ -249,6 +280,10 @@ use it with ```/n``` like ```/nsm37```
 
 #### STOP/START/CHECK
 
+WIN
+
+from the Sap Service manager 
+
 start: DB >> Central instance >> Other instances
 stop: Other instances >> Central instance >> DB
 
@@ -264,8 +299,8 @@ CMD
 ```
 as <sid>adm
 
-startsap <sid>
-stopsap <sid>
+startsap <sid> [r3] [db] [all]
+stopsap <sid>  [db] [r3] [all]
 ```
 
 [^^^](#SAP)
