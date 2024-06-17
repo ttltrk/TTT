@@ -100,6 +100,37 @@ a tranzakcio tovabb haladhasson. Letezik DB tranzakcio, frissitesi tranzakcio, s
 Definicioja szerint a kleins egy jogilag es szervezetileg is fuggetlen egyseg a SAPon belul. Ez lehet peldaul egy vallalati 
 csoport, egy uzleti egyseg vagy testulet.
 
+##### Rendszer kozponti interfeszei
+
+- interfesz az OShez
+- interfesz a DBhez
+- prezentacios interfesz
+- kommunikacios interfesz
+
+##### Diszpecserfolyamat
+
+A SAP dispatcher egy vezerlo program a WEB AS alkalmazasok eroforrasait kezeli. Tipikus tranzakcio-monitorkent mukodik. Kepernyoket
+es adatokat kap a prezentacios szolgaltatoktol es azokat megfelelo munkafolyamatok fele tovabbitja.
+
+##### Munkafolyamat 
+
+Egy munkafolyamat egy szerver alatal nyujtott es egy kliens altal igenyelt szolgaltatas
+
+feladatkezelo :
+	- abap processzor
+	- dialogus ertelmezo
+	- db interfesz
+
+##### MUnkafolyamatok tipusai
+
+	
+
+#####
+
+#####
+
+#####
+
 
 
 [^^^](#SAP)
