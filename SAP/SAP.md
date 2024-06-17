@@ -148,6 +148,11 @@ ezt a programozasi interfeszt hasznalja a megegyezo vagy kulonbozo rendszerekben
 
 ##### Prezentacios interfesz
 
+A PI hivatott annak biztostasara hogy a WEB AS megjelenitese es kezelese a hasznalt front endtol fuggetlenul egyseges legyen. Minden
+felhasznaloi munkament szamara rendelkezesre all egy SAP munkafolyamat (SAP GUI).
+A SAP GUIk es a SAP dispatcherek kozotti kapcsolat kiepitese a DIAG nevu optimalizalt protokoll segitsegevel tortenik, amely lehetove
+teszi kismeretu adatcsomagok tovabbitasat halozaton keresztul.
+
 ##### Adatbazis interfesz
 
 ##### Kliens szerver
