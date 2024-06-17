@@ -127,7 +127,33 @@ Egy munkafolyamat egy szerver alatal nyujtott es egy kliens altal igenyelt szolg
 szabad munkafolyamatokhoz rendelodnek.
 - hatterben futo mf: A hatterfeldolgozasra szant abap programokat a hatter munkafolyamatok tervezett idoben hajtjak vegre. fokent este
 - spool mf: smf vegzi az adatok nyomtatas elotti formazasat valamint az adatok tovabbkuldeset a host-spoolrendszerre.
+- sorkezelo mf (enque): a smf amelyeket a zartabla kozvetlen elerese miatt zarolasi mf-nek is neveznek a zarkezelo szerepet tolti be.
+Biztositjak tobb alkalmazasszerver biztonsagos egyuttmukodeset: az adatbazi-eleres szinkronizalasat es az adatkonzistenciat megorzeset.
+- frissitesi mf: feladata az adatbazis valtozasainak vegrehajtasa a hatter es dialogus mf igenyei szerint.
 
+##### Uzenetszerver
+
+Az uzenetszervert a kulonbozo alkalmazaszerverek hasznaljak adat es uzenetcserere. Nem rendelkezik a tipikus mf korabban leirt szerkezetevel,
+sokkal inkabb hasonlit egy szolgaltatashoz.
+
+##### Atjaroszerver
+
+Az atjaroszerver teszi lehetove a web AS kulso alkalmazasok kozotti kommunikaciot. Ez a szolgaltatas egy CPIC kezelo amely implementalja a 
+CPIC protokollt. KOzismert neve SAP atjarok (gateway)
+
+- CPIC = Common Programming Interface Communication
+- RFC = Remote Function Call - tavoli fuggveny hivas, egy szabvanyos programozasi interfesz amely a kulonbozo rendszerekben elhelyezkedo 
+programok kozotti tavoli fuggvenyhivasok lebonyolitasara szolgal. Az RFC a CPIC-nel magasabb szintu logikai interfesz.
+
+##### Prezentacios interfesz
+
+##### Adatbazis interfesz
+
+##### Kliens szerver
+
+- Van a szolgaltatast kinalo (szerver) es a szolgaltatast igenylo (kliens) fogalmak. Egy program egyben lehet egyszerre szerver es kliens is.
+Igy peldaul a SAP WEB AS tipikus alkalmazas szervere szolgaltatast nyujt a felhasznaloknak (SAP GUI) viszont az DB szervertol szolgaltatast
+igenyel.
 
 #####
 
