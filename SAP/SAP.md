@@ -116,14 +116,18 @@ es adatokat kap a prezentacios szolgaltatoktol es azokat megfelelo munkafolyamat
 
 Egy munkafolyamat egy szerver alatal nyujtott es egy kliens altal igenyelt szolgaltatas
 
-feladatkezelo :
+- feladatkezelo :
 	- abap processzor
 	- dialogus ertelmezo
 	- db interfesz
 
-##### MUnkafolyamatok tipusai
+##### Munkafolyamatok tipusai
 
-	
+- dialogus mf: interaktiv feladatokat vegeznek el, a felhasznaloi input utan a dispatcher altal keresi sorokban tarolt jobok a kovetkezo
+szabad munkafolyamatokhoz rendelodnek.
+- hatterben futo mf: A hatterfeldolgozasra szant abap programokat a hatter munkafolyamatok tervezett idoben hajtjak vegre. fokent este
+- spool mf: smf vegzi az adatok nyomtatas elotti formazasat valamint az adatok tovabbkuldeset a host-spoolrendszerre.
+
 
 #####
 
