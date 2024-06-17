@@ -204,6 +204,8 @@ SAP Netweaver komponens.
 - SAP WEB AS ABAP + JAVA = Ebben a rendszerben mind az abap mind a j2ee engine hasznalhato egy rendszeren belul
 - SAP WEB AS ABAP + SAP WEB AS JAVA = ugyanugy mint az elozonel csak itt a 2 motor ket kulon SAP SID-el rendelkezo rendszeren fut
 
+![image](sap_06.png)
+
 #####
 
 #####
