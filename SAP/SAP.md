@@ -439,6 +439,8 @@ but does not replace it.
 
 stms
 
+ABAP porgoram fileokat importalunk a rendszerbe egy bizonyos celzott valtoztatas erdekeben
+
 Data Structure
 
 ```
@@ -455,6 +457,15 @@ tp addtobuffer EG3KT02778 EG3 u1 client500 pf=/usr/sap/trans/bin/TP_DOMAIN_PE1.P
 tp import EG3KT02778 EG3 u1 client500 pf=/usr/sap/trans/bin/TP_DOMAIN_PE1.PFL
 
 in se01 - logs - you can monitor the transport
+```
+
+```
+open - uj keresek kerultek hozzadasra
+closed - uj kereseket nem importaljuk a kovetkezo teljes importnal
+running - futo
+errors occured during import - hiba lepett fel import kozben
+import terminated - az import megszakadt
+import q could not be read az import sor nem olvashato
 ```
 
 [^^^](#SAP)
@@ -484,6 +495,9 @@ local, remote
 #### SCHEDULING
 
 sm36
+
+A hatterben futo jobok olyan program definiciok, nyomtatasi munkak es inditasi idok amelyet a hatterfeldolgozo 
+rendszer hajt vegre. 
 
 ```
 Reports to be run regularly and long-running programs are scheduled as background jobs in the SAP.
