@@ -186,7 +186,23 @@ komponense, a mySAP business suite es az xAppskent hivatkozott SAP osszetett alk
 
 ![image](sap_05.png)
 
-#####
+##### SAP Enterprise portal
+
+Arra terveztek hogy szabvanyositott szerepkoralapu hozzaferest biztositson minden lenyeges infohoz es funkciohoz vilagszerte.
+
+##### SAP Business Information Warehouse
+
+##### SAP Master Data Management
+
+SAP MDM a torzsadatok tarolasaert, minosegenek felugyeleteert es a rendszer alkalmazasai kozotti harmonizalasert felelos 
+SAP Netweaver komponens.
+
+##### SAP WEB AS valtozatai
+
+- SAP WEB AS ABAP = ez a valtozato csak egy ABAP enginet tartalmaz
+- SAP WEB AS JAVA = ez a valtozat csak egy J2EE enginet tartalmaz
+- SAP WEB AS ABAP + JAVA = Ebben a rendszerben mind az abap mind a j2ee engine hasznalhato egy rendszeren belul
+- SAP WEB AS ABAP + SAP WEB AS JAVA = ugyanugy mint az elozonel csak itt a 2 motor ket kulon SAP SID-el rendelkezo rendszeren fut
 
 #####
 
