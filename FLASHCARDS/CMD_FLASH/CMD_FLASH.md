@@ -92,6 +92,27 @@ grep hello <file> : osszes sor egy fileban ami tartalmazza a hellot
 cat /etc/passwd | grep "/bin/bash" : userek akiknek az alapertelmezett shelljuk a /bin/bash
 | : ket parancsot kapcsol ossze
 
+tulajdonos - csoport - mindenki mas
+421 - 421 - 421
+rwx - rwx - rwx
+111 - 111 - 111
+
+/etc/passwd : userekkel kapcsolatos adatok (csoportok)
+
+chmod 754 shell
+rwx - r-x - r--
+
+chown user:group filename
+
+ps -ef | grep ssh : kiirja a futo ssh folyamatokat, fontos a PID
+
+df -h : lemezterulet allapot
+df -g : aixra
+df -h . : aktualis konyvtar
+
+mounted on : az adott file rendszer mely konyvtarhoz van csatolva a rendszerben 
+
+
 -------------------------------------------------------
 
 -------------------------------------------------------
