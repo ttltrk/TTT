@@ -19,6 +19,14 @@
 
 -------------------------------------------------------
 
+ux - 1969 - AT&T
+lx - 1991 - LT
+
+- mindketto ux filozofiat kovet
+- parancsai hasaonlok 
+
+-------------------------------------------------------
+
 - minden egy fajl
 - kis programok
 - programok osszekapcsolasa
@@ -34,6 +42,7 @@
 -------------------------------------------------------
 
 - shell: <user>@<host><actual dir>
+- bash : bourne-again shell
 
 -------------------------------------------------------
 
@@ -88,6 +97,7 @@ more /etc/passwd : nagy mennyisegu adatot tolt be
 head : elso 10 sor
 tail : utolso 10 sor
 
+grep (global regular expression print)
 grep hello <file> : osszes sor egy fileban ami tartalmazza a hellot
 cat /etc/passwd | grep "/bin/bash" : userek akiknek az alapertelmezett shelljuk a /bin/bash
 | : ket parancsot kapcsol ossze
