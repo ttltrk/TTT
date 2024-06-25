@@ -19,8 +19,8 @@
 
 -------------------------------------------------------
 
-ux - 1969 - AT&T
-lx - 1991 - LT
+ux - 1969 - AT&T - multiuser multitask os
+lx - 1991 - LT - unix szeru de ujrairt kernel, nyilt forraskodu
 
 - mindketto ux filozofiat kovet
 - parancsai hasaonlok 
