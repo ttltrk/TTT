@@ -60,6 +60,46 @@ who - bejelentkezett userek
 
 -------------------------------------------------------
 
+pwd : aktualis konyvtar kiirasa
+ls : aktualis konyvtar fajljai
+ls -l : tobb info a fajlokrol az aktualis konyvtarbol
+ls -la : rejtett fajlok
+cd /dev/shm : change directory to /dev/shm
+cd .. : egy szinttel feljebb lep
+
+touch info.txt : ures file letrehozasa
+mkdir SAP : sap konyvtar letrehozasa
+mkdir -p files/local/user/documents : szulokonyvtar hozzaadasa
+tree . : struktur megtekintese
+rm : fajl torlese
+rmdir files/local/user/documents : konyvtar torlese
+mv file path : masolas
+mv name new_name : atnevezes
+
+vi test.txt
+esc >> i >> szoveg.
+esc >> : >> wq!
+cat test.txt : test.tx kiiratasa
+u : undo
+/keresett_szoveg 
+
+less /etc/passwd : aktualis oldal
+more /etc/passwd : nagy mennyisegu adatot tolt be
+head : elso 10 sor
+tail : utolso 10 sor
+
+grep hello <file> : osszes sor egy fileban ami tartalmazza a hellot
+cat /etc/passwd | grep "/bin/bash" : userek akiknek az alapertelmezett shelljuk a /bin/bash
+| : ket parancsot kapcsol ossze
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
 -------------------------------------------------------
 
 -------------------------------------------------------
