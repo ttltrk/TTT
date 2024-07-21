@@ -20,11 +20,19 @@
 2. 
 
 ```html
-
+<h1>CatPhotoApp</h1>
+<h2>Cat Photos</h2>
+<h3>Cat Photos</h3>
+<h4>Cat Photos</h4>
+<h5>Cat Photos</h5>
+<h6>Cat Photos</h6>
 ```
 
-```html
+3.
 
+```html
+<h2>Cat Photos</h2>
+    <p>See more cat photos in our gallery.</p>
 ```
 
 ```html
