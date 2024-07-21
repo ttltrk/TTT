@@ -35,12 +35,24 @@
     <p>See more cat photos in our gallery.</p>
 ```
 
-```html
+4.
 
+```html
+<!-- TODO: Add link to cat photos -->
+<p>See more cat photos in our gallery.</p>
 ```
 
-```html
+5.
 
+The main element is used to represent the main content of the body of an HTML document. Content inside the main element should be unique to the document and should not be repeated in other parts of the document.
+
+```html
+<main>  
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <!-- TODO: Add link to cat photos -->
+    <p>See more cat photos in our gallery.</p>
+</main>   
 ```
 
 ```html
