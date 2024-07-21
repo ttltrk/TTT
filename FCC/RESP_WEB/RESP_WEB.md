@@ -55,6 +55,52 @@ The main element is used to represent the main content of the body of an HTML do
 </main>   
 ```
 
+6.
+
+```html
+    <main>
+      <h1>CatPhotoApp</h1>
+      <h2>Cat Photos</h2>
+      <!-- TODO: Add link to cat photos -->
+      <p>See more cat photos in our gallery.</p>
+    </main>
+```
+
+7.
+
+```html
+      <p>See more cat photos in our gallery.</p>
+      <img>
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
 ```html
 
 ```
