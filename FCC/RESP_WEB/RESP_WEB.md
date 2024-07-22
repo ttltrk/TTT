@@ -73,24 +73,35 @@ The main element is used to represent the main content of the body of an HTML do
 <img>
 ```
 
-```html
+8.
 
+```html
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">
 ```
 
-```html
+9.
 
+```html
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
 ```
 
-```html
+10.
 
+```html
+<p>See more cat photos in our gallery.</p>
+<a href="https://freecatphotoapp.com"></a>
 ```
 
-```html
+11.
 
+```html
+<a href="https://freecatphotoapp.com">link to cat pictures</a>
 ```
 
-```html
+12.
 
+```html
+<p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
 ```
 
 ```html
