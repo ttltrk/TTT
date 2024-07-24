@@ -110,12 +110,18 @@ The main element is used to represent the main content of the body of an HTML do
 <p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
 ```
 
-```html
+14.
 
+```html
+<p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
 ```
 
-```html
+15.
 
+```html
+<a href="https://freecatphotoapp.com">  
+      <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back.">
+</a>
 ```
 
 ```html
