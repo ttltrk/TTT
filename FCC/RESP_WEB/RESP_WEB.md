@@ -173,6 +173,67 @@ The main element is used to represent the main content of the body of an HTML do
 <ul></ul>
 ```
 
+21.
+
+```html
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+```
+
+22.
+
+```html
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
+```html
+
+```
+
 ```html
 
 ```
