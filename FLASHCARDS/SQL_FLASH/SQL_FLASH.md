@@ -437,6 +437,34 @@ SELECT CAST('2017-08-25' AS datetime);
 
 ----------------------------------------------------------------
 
+--AUTO-INCREMENT
+CREATE TABLE reg (
+    region_id SERIAL PRIMARY KEY,
+    region VARCHAR(20),
+    country VARCHAR(20)
+);
+
+INSERT INTO reg (region, country) VALUES ('Southwest', 'United States');
+INSERT INTO reg (region, country) VALUES ('Northeast', 'United States');
+INSERT INTO reg (region, country) VALUES ('Northwest', 'United States');
+INSERT INTO reg (region, country) VALUES ('Central', 'Asia');
+INSERT INTO reg (region, country) VALUES ('East Asia', 'Asia');
+INSERT INTO reg (region, country) VALUES ('Quebec', 'Canada');
+INSERT INTO reg (region, country) VALUES ('Nova Scotia', 'Canada');
+INSERT INTO reg (region, country) VALUES ('Nova Scotia', 'Canada');
+
+region_id|region     |country      |
+---------+-----------+-------------+
+        1|Southwest  |United States|
+        2|Northeast  |United States|
+        3|Northwest  |United States|
+        4|Central    |Asia         |
+        5|East Asia  |Asia         |
+        6|Quebec     |Canada       |
+        7|Nova Scotia|Canada       |
+        8|Nova Scotia|Canada       |
+
+
 ----------------------------------------------------------------
 
 ----------------------------------------------------------------
