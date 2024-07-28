@@ -12,8 +12,8 @@
 * [BLOCKS](#BLOCKS)
 * [COMMENTS](#COMMENTS)
 * [DDL_VS_DML](#DDL_VS_DML)
-* []()
-* []()
+* [DECLARE_CLAUSE](#DECLARE_CLAUSE)
+* [DECLARE_CLAUSE_OBJECTS](#DECLARE_CLAUSE_OBJECTS)
 * []()
 * []()
 * []()
@@ -125,5 +125,48 @@ SQL DDL - Data Definition Language
 	- Statements cannot be used within PL/SQL, so are
 	outside the scope of this course
 ```
+
+---
+
+#### DECLARE_CLAUSE
+
+```
+- DECLARE Clause Objects
+- Available Data Types
+- Declare SImple Types
+- Declare Complex Types:
+	- %TYPE
+	- %ROWTYPE
+	- TYPE...TABLE
+	- TYPE...RECORD
+	- User-Defined Types
+```
+
+---
+
+#### DECLARE_CLAUSE_OBJECTS
+
+```
+The DECLARE Clause is used to define (declare) 
+internal program objects, such as variables.
+
+- Variable: An element internal to the program that can hold and modify values.
+- Boolean: A simple type containing TRUE/FALSE/NULL
+- Constant: Similar to a variable, but cannot be changed.
+- Record: Complex object that matches the structure of a table
+	within the database yet holds a single record.
+```
+
+---
+
+####
+
+---
+
+####
+
+---
+
+####
 
 ---

@@ -67,3 +67,28 @@ Redford   |Canada       |
 ```
 
 ---
+
+```sql
+--first_name, email, division
+
+select first_name, email, division 
+from employees, departments
+where employees.department = departments.department
+and email is not null
+limit 10;
+
+first_name|email                   |division   |
+----------|------------------------|-----------|
+Berrie    |bmanueau0@dion.ne.jp    |Outdoors   |
+Aeriell   |amcnee1@google.es       |Hardware   |
+Sydney    |ssymonds2@hhs.gov       |Home       |
+Feliks    |fmorffew4@a8.net        |Electronics|
+Bethena   |btrow5@technorati.com   |Outdoors   |
+Ardeen    |acurwood6@1und1.de      |Home       |
+Seline    |sdubber7@t-online.de    |Electronics|
+Dayle     |dtrail8@tamu.edu        |Health     |
+Nickey    |npointona@vistaprint.com|Fashion    |
+Leonora   |lcasarolib@plala.or.jp  |Fashion    |
+```
+
+---
