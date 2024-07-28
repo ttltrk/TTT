@@ -109,8 +109,6 @@ employee_id|first_name  |last_name     |email                             |hire_
           8|Seline      |Dubber        |sdubber7@t-online.de              |2012-05-28|Phones & Tablets |F     |101066|        3|
 ```
 
---- 
-
 ```sql
 select * from departments;
 department       |division     |
