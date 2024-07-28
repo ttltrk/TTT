@@ -22,8 +22,6 @@ employee_id|first_name  |last_name     |email                             |hire_
           4|Avrom       |Rowantree     |                                  |2014-08-02|Phones & Tablets |M     |119674|        7|
 ```
 
----
-
 ```sql          
 select * from departments;        
 
