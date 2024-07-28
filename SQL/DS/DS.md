@@ -48,8 +48,10 @@
 ---
 
 * [0838_INTRO_JOIN](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0838_INTRO_JOIN/0838_INTRO_JOIN.md)
-* []()
-* []()
-* []()
+* [0839_INNER_OUTER_JOIN](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0839_INNER_OUTER_JOIN/0839_INNER_OUTER_JOIN.md)
+* [0840_UNION_ALL](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0840_UNION_ALL/0840_UNION_ALL.md)
+* [0841_CARTESIAN_CROSS_JOIN](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0841_CARTESIAN_CROSS_JOIN/0841_CARTESIAN_CROSS_JOIN.md)
+* [0842_JOIN_AND_SUB](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0842_JOIN_AND_SUB/0842_JOIN_AND_SUB.md)
+* [0843_VIEWS](https://github.com/ttltrk/TTT/blob/master/SQL/DS/0843_VIEWS/0843_VIEWS.md)
 
 ---
