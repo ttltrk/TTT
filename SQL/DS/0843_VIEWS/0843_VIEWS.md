@@ -59,6 +59,8 @@ Dayle     |dtrail8@tamu.edu     |First Aid       | 82753|Health     |Southwest  
 Redford   |                     |Clothing        | 72225|Home       |Nova Scotia|Canada       |
 ```
 
+---
+
 ```sql
 --you can't insert data into it
 
@@ -76,3 +78,5 @@ Decor     |Home       |
 Furniture |Home       |
 Computers |Electronics|
 ```
+
+---

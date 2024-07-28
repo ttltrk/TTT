@@ -22,6 +22,8 @@ employee_id|first_name  |last_name     |email                             |hire_
           4|Avrom       |Rowantree     |                                  |2014-08-02|Phones & Tablets |M     |119674|        7|
 ```
 
+---
+
 ```sql          
 select * from departments;        
 
@@ -65,6 +67,8 @@ Cassandra |Beauty    |2003-01-01|Canada |
 Norbie    |First Aid |2003-01-01|Canada |
 ```
 
+---
+
 ```sql
 (select first_name, department, hire_date, country
 from employees e inner join regions r 
@@ -82,6 +86,8 @@ first_name|department|hire_date |country|
 Barby     |Clothing  |2016-12-26|Canada |
 Norbie    |First Aid |2003-01-01|Canada |
 ```
+
+---
 
 ```sql
 --show the sum of the salary of every 90 days
@@ -104,6 +110,8 @@ Dayle     |      2002-12-01|2003-03-01|       2003-05-30|
 Redford   |      2008-04-22|2008-07-21|       2008-10-19|
 ```
 
+---
+
 ```sql
 select hire_date, salary, 
 (select sum(salary) from employees e2
@@ -125,3 +133,5 @@ hire_date |salary|spending_pattern|
 2003-02-24| 57309|          791877|
 2003-02-27| 46062|          837939|
 ```
+
+---
