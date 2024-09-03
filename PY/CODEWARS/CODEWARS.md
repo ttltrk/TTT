@@ -9,11 +9,11 @@
 
 ---
 
-* [reverse](#)
-* [multiply](#)
-* [sleigh]()
-* [remove](#)
-* [whose_move](#)
+* [reverse](#reverse)
+* [multiply](#multiply)
+* [sleigh](#sleigh)
+* [remove](#remove)
+* [whose_move](#whose_move)
 * [nickname_generator](#nickname_generator)
 * [gimme_the_letters](#gimme_the_letters)
 * [corrections](#corrections)
