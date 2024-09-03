@@ -155,12 +155,19 @@
 
 ---
 
-#### revere
+#### reverse
 
 ```py
+def reverse(st):
+    res = st.split()
+    res.reverse()
+    s = ' '.join(res)
+    return s
+
+reverse('Hello World')
 
 >>>
-
+World Hello
 >>>
 ```
 
@@ -171,6 +178,14 @@
 #### multiply
 
 ```py
+def multiply(n):
+    x = len(str(n))
+    if n >= 0:
+        return n*(5**x)
+    else:
+        return n*(5**(x-1))
+    
+multiply(10)
 
 >>>
 
