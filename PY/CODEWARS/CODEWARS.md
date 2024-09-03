@@ -9,6 +9,11 @@
 
 ---
 
+* [reverse](#)
+* [multiply](#)
+* [sleigh]()
+* [remove](#)
+* [whose_move](#)
 * [nickname_generator](#nickname_generator)
 * [gimme_the_letters](#gimme_the_letters)
 * [corrections](#corrections)
@@ -147,6 +152,71 @@
 * [Replace_all_dots](#Replace_all_dots)
 * [String_Templates_BugFixing5](#String_Templates_BugFixing5)
 * [Vowel_remover](#Vowel_remover)
+
+---
+
+#### revere
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### multiply
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### sleigh
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### remove
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
+
+---
+
+#### whose_move
+
+```py
+
+>>>
+
+>>>
+```
+
+[^^^](#CODEWARS)
 
 ---
 
