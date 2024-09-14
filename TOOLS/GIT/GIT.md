@@ -24,9 +24,8 @@ git checkout "ticket-id"
 git branch --delete "ticket-id"
 
 --how to logon
-PS D:\airflow-prod> git config --global user.name "atorok"
-PS D:\airflow-prod> git config --global user.email "atorok@lenovo.com"
-
+PS D:\airflow-prod> git config --global user.name "your_user"
+PS D:\airflow-prod> git config --global user.email "your_mail"
 --going to stg area
 git add .
 comment
