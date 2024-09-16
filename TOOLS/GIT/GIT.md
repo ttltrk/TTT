@@ -24,12 +24,16 @@ git push >>
   github
 ```
 
+---
+
 ```
 git add testone.txt
 
 # -m is a message
 git commit -m "add file one" 
 ```
+
+---
 
 ```
 git checkout main
