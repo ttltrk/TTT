@@ -31,8 +31,9 @@ git status
 git add testone.txt
 
 git status
-# -m is a message
-git commit -m "add file one" 
+git commit -m "add file one"  # -m is a message
+
+git log
 ```
 
 ---
