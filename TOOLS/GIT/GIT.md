@@ -27,8 +27,10 @@ git push >>
 ---
 
 ```
+git status
 git add testone.txt
 
+git status
 # -m is a message
 git commit -m "add file one" 
 ```
