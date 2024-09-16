@@ -1,7 +1,7 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) | [TOOLS](https://github.com/ttltrk/TTT/tree/master/TOOLS/TOOLS.md)
 
 ---
 
