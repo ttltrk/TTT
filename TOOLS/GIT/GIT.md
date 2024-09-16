@@ -12,7 +12,9 @@ git status == check the status
 git init == once per project
 
 commit == checkpoint
+```
 
+```
   working dir >>
 git add >>
   staging area >>
