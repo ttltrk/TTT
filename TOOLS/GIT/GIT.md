@@ -10,6 +10,8 @@ git repository
 git --version == check the version of the git
 git status == check the status
 git init == once per project
+
+commit == checkpoint
 ```
 
 ```
