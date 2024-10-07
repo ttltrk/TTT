@@ -467,6 +467,64 @@ region_id|region     |country      |
 
 ----------------------------------------------------------------
 
+WITH department_employees AS (
+    SELECT employee_id, first_name, last_name, department
+    FROM employees
+    WHERE department = 'Sales'
+)
+SELECT *
+FROM department_employees;
+
+--cte
+WITH CTE_NAME (column_name) AS (query)
+SELECT * FROM CTE_NAME;
+
+--cte1 (common table expression)
+WITH
+   CTE_NAME1 (column_name) AS (query),
+   CTE_NAME2 (column_name) AS (query)
+SELECT * FROM CTE_NAME1
+UNION ALL
+SELECT * FROM CTE_NAME2;
+
+--cte2
+WITH recursive_cust (ID, NAME, ADDRESS, AGE) AS (
+   SELECT ID, NAME, ADDRESS, AGE
+   FROM CUSTOMERS
+   WHERE SALARY > 3000
+   UNION ALL
+   SELECT ID, NAME, ADDRESS, AGE
+   FROM CUSTOMERS
+   WHERE AGE > 25
+)
+SELECT * FROM recursive_cust;
+
+----------------------------------------------------------------
+
+--case when
+
+CASE                  
+    When mn.bg IN ('DCG', 'ISG') THEN 'ISG'
+    Else 'IDG'
+END as "Business Group"
+
+case
+    when mn.bg like '%SSG%' then 'SSG'
+    else mn.bg
+end as "Business Group",
+case 
+    when mn.bg like '%IDG%' then 'IDG'
+    when mn.bg like '%ISG%' then 'ISG'
+end as "IDG/ISG",
+
+,case when nullif(isu_solution,'') is not null then 'yes' else 'no' end as ISU
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
+----------------------------------------------------------------
+
 ----------------------------------------------------------------
 
 ```
