@@ -34,3 +34,11 @@
 * [Scikit-Learn Course - Machine Learning in Python Tutorial](https://www.youtube.com/watch?v=pqNCD_5r0IU)
 
 ---
+
+#### AI Foundations Course – Python, Machine Learning, Deep Learning, Data Science
+
+```
+
+```
+
+---
