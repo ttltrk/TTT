@@ -38,7 +38,9 @@
 #### AI Foundations Course – Python, Machine Learning, Deep Learning, Data Science
 
 ```
-
+- mathematics
+- python
+- statistics
 ```
 
 ```
