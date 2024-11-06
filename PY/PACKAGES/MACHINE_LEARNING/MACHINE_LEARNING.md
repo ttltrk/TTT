@@ -41,6 +41,8 @@
 - mathematics
 - python
 - statistics
+- machine learning
+- nlp
 ```
 
 ```
