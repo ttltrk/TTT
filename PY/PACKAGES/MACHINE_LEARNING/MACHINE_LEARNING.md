@@ -55,4 +55,14 @@ regression vs classification
 training & evaluating models
 ```
 
+- Supervised
+
+```
+required training data with independent & dependent variables (labelled data)
+need labelled data to supervise the algorithm when learning from data
+
+- regression models
+- classification models
+```
+
 ---
