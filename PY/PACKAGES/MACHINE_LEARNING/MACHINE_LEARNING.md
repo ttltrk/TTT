@@ -65,4 +65,11 @@ need labelled data to supervise the algorithm when learning from data
 - classification models
 ```
 
+- Unsupervised
+
+```
+required training data with independent variables only
+no need labelled data can supervise the algorithm when learning from the data 
+```
+
 ---
