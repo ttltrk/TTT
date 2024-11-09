@@ -50,7 +50,9 @@
 ##### Machine learning basics
 
 ```
-
+supervised vs unsupervised
+regression vs classification
+training & evaluating models
 ```
 
 ---
