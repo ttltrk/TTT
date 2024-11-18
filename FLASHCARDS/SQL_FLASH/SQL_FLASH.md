@@ -14,6 +14,7 @@
 | AND | The AND operator displays a record if all the conditions are TRUE. |
 | OR | The OR operator displays a record if any of the conditions are TRUE. | 
 | NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | 
+| INSERT INTO | The INSERT INTO statement is used to insert new records in a table. | 
 
 ---
 
