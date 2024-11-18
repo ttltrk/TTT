@@ -9,6 +9,7 @@
 |---------|-----------|
 | SELECT | The SELECT statement is used to select data from a database. |
 | SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. |
+| WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. |
 
 ---
 
