@@ -5,9 +5,10 @@
 
 ---
 
-```
-
-```
+| Statement | Description |
+|---------|-----------|
+| SELECT | The SELECT statement is used to select data from a database. |
+| SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. |
 
 ---
 
