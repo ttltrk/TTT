@@ -15,7 +15,7 @@
 | OR | The OR operator displays a record if any of the conditions are TRUE. | 
 | NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | 
 | INSERT INTO | The INSERT INTO statement is used to insert new records in a table. It is also possible to only insert data in specific columns and multiple rows. | 
-| NULL VALUES | A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. |
+| NULL VALUES | A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation! |
 
 ---
 
