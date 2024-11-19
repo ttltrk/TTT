@@ -17,7 +17,8 @@
 | INSERT INTO | The INSERT INTO statement is used to insert new records in a table. It is also possible to only insert data in specific columns and multiple rows. | 
 | NULL VALUES | A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation! |
 | UPDATE | The UPDATE statement is used to modify the existing records in a table. It is the WHERE clause that determines how many records will be updated. |
-
+| DELETE | The DELETE statement is used to delete existing records in a table. It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact |
+| SELECT TOP | The SELECT TOP clause is used to specify the number of records to return. |
 
 ---
 
