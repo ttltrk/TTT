@@ -5,89 +5,31 @@
 
 ---
 
-### SQL_FLASH
+### SQL_HR
 
 ---
-
-* [CREATE_DB](#CREATE_DB)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-
----
-
-#### CREATE_DB
 
 ```
-The CREATE DATABASE statement is used to create a new SQL database.
+Query the two cities in STATION with the shortest and longest CITY names, as well as their respective lengths
+(i.e.: number of characters in the name). If there is more than one smallest or largest city,
+choose the one that comes first when ordered alphabetically.
 ```
 
 ```sql
---create db in postgresql
-CREATE DATABASE testDB_01;
+(SELECT CITY, LENGTH(CITY) AS CityLength
+ FROM STATION
+ WHERE LENGTH(CITY) = (SELECT MIN(LENGTH(CITY)) FROM STATION)
+ ORDER BY CITY
+ FETCH FIRST 1 ROW ONLY)
+UNION ALL
+(SELECT CITY, LENGTH(CITY) AS CityLength
+ FROM STATION
+ WHERE LENGTH(CITY) = (SELECT MAX(LENGTH(CITY)) FROM STATION)
+ ORDER BY CITY
+ FETCH FIRST 1 ROW ONLY);
 
---list out all the dbs
-SELECT datname FROM pg_database
-WHERE datistemplate = false;
-
-datname  |
----------+
-postgres |
-test     |
-for_rec  |
-testdb   |
-testdb_01|
-
-CREATE DATABASE testDB_02;
-
-SELECT datname FROM pg_database
-WHERE datistemplate = false;
-
-datname  |
----------+
-postgres |
-test     |
-for_rec  |
-testdb   |
-testdb_01|
-testdb_02|
+>>>
+Amo 3
+Marine On Saint Croix 21
+>>>
 ```
-
-[^^^](#SQL_FLASH)
-
----
-
-#### CREATE_TABLE
-
-```
-The CREATE TABLE statement is used to create a new table in a database.
-```
-
-```sql
-CREATE TABLE trk (
-    PersonID int,
-    LastName varchar(255),
-    FirstName varchar(255),
-    Address varchar(255),
-    City varchar(255)
-);
-```
-
-##### CREATE TABLE USING ANOTHER TABLE
-
-```sql
-create table trk_test_xx as select * from trk_test_01;
-```
-
-[^^^](#SQL_FLASH)
-
----
