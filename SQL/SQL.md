@@ -11,7 +11,7 @@
 
 * [SQL_EXPLORER](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_EXPLORER/SQL_EXPLORER.md)
 * [DATA_SCIENCE](https://github.com/ttltrk/TTT/blob/master/SQL/DS/DS.md)
-* [SQL_FLASH](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_FLASH/SQL_FLASH.md)
+* [SQL_FLASH](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_FLASH/SQL_HR.md)
 * [SQL_AND_RDB](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_AND_RDB/SQL_AND_RDB.md)
 
 ---
