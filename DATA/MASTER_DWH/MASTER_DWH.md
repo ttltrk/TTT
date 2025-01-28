@@ -37,7 +37,23 @@
 
 ---
 
-####
+#### 02_05_WHY_DWH
+
+```
+Wy do we need a DWH?
+
+OLTP - Online Transactional Processing
+- 1st purpos - Operational data keeping - turn the wheel
+  - Receive orders
+  - React to complaints
+  - Fill up to stock
+
+OLAP - Online Analytical Processing
+- 2nd purpos - Analytical decision making - evaluate performance, decision making
+  - what is the best category?
+  - how many sales compared to last month?
+  - what can be improved?
+```
 
 [^^^](#Master_Data_Warehousing)
 
