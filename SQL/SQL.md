@@ -16,6 +16,10 @@
 
 ---
 
+* [SQL_DATA_ANALYSIS](https://github.com/ttltrk/TTT/blob/master/SQL/SQL_DATA_ANALYSIS/SQL_DATA_ANALYSIS.md)
+
+---
+
 #### DDL – Data Definition Language.
 
 ```
