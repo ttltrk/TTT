@@ -5,6 +5,14 @@
 
 ---
 
+#### DATA
+
+---
+
+* [MASTER_DWH](https://github.com/ttltrk/TTT/blob/master/DATA/MASTER_DWH/MASTER_DWH.md)
+
+---
+
 - [link](https://www.thoughtspot.com/data-trends/data-integration/what-is-a-data-pipeline-and-how-do-you-build-one)
 
 ---
