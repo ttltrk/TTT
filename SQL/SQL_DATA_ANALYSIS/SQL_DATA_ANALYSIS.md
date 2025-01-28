@@ -75,6 +75,29 @@ grade_level|avg_gpa|
 >>>
 ```
 
+```sql
+-- common sql keywords
+
+-- distinct return unique values
+select distinct grade_level
+from students;
+
+grade_level|
+-----------+
+         10|
+         11|
+         12|
+          9|
+
+-- count, sum, avg, min, max are used ti make calculation
+select count(distinct grade_level)
+from students;
+
+count(distinct grade_level)|
+---------------------------+
+                          4|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
