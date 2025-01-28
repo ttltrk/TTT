@@ -98,6 +98,16 @@ count(distinct grade_level)|
                           4|
 ```
 
+```sql
+select max(gpa) - min(gpa)
+from students s 
+
+max(gpa) - min(gpa)|
+-------------------+
+                1.3|
+```
+
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
