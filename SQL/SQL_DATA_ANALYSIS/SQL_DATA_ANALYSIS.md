@@ -56,3 +56,26 @@ id|student_name   |grade_level|gpa|school_lunch|birthday  |email                
 
 ---
 
+#### 03
+
+```sql
+select s.grade_level,
+avg(s.gpa) as avg_gpa
+from students s 
+where school_lunch = 'Yes'
+group by grade_level 
+having avg_gpa < 3.3
+order by grade_level;
+
+>>>
+grade_level|avg_gpa|
+-----------+-------+
+         11|2.90000|
+         12|3.16667|
+>>>
+```
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
