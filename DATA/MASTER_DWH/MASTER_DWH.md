@@ -42,6 +42,8 @@
 ```
 Wy do we need a DWH?
 
+- Two purposes
+
 OLTP - Online Transactional Processing
 - 1st purpos - Operational data keeping - turn the wheel
   - Receive orders
@@ -53,6 +55,17 @@ OLAP - Online Analytical Processing
   - what is the best category?
   - how many sales compared to last month?
   - what can be improved?
+
+- Two requirements
+
+- 1st req
+  - One record at a time
+  - Data input
+  - No long history
+
+- 2nd req
+  - Thousands of records at a time
+
 ```
 
 [^^^](#Master_Data_Warehousing)
