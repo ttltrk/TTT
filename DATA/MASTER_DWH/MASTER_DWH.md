@@ -65,7 +65,11 @@ OLAP - Online Analytical Processing
 
 - 2nd req
   - Thousands of records at a time
+  - Fast query performance
+  - Historical context
+  - Usibility
 
+sum: Used for reporting and data analysis
 ```
 
 [^^^](#Master_Data_Warehousing)
