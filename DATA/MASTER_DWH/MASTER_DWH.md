@@ -87,20 +87,29 @@ DWH is a db used and optimized for analytical purposes.
 ```
 
 ```
-DWH
+DWH - (centralized location for data)
 
 ^^^                  ^^^          ^^^
 Other data sources | Sales data | CRM system 
 
 
-DWH
+DWH - (centralized location for data)
               ^^^
               ETL
 
 ^^^                  ^^^          ^^^
 Other data sources | Sales data | CRM system 
+```
 
+```
+ETL = Extract, Transform, Load
+```
 
+```
+Goals of a DWH
+
+- centralized and consistent location for data
+- data must be accessible fast (query performance)
 ```
 
 [^^^](#Master_Data_Warehousing)
