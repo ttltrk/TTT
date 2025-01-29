@@ -112,6 +112,7 @@ Goals of a DWH
 - data must be accessible fast (query performance)
 - user-friendly (easy to understand)
 - must load data consistenty and repeatedly (ETL)
+- reporting and data visualization built on top
 ```
 
 [^^^](#Master_Data_Warehousing)
