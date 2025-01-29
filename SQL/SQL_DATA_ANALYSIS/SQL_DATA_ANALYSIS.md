@@ -12,7 +12,7 @@
 ---
 
 * [01_INTRO](#01_INTRO)
-* [03](#03)
+* [03_BASICS](#03_BASICS)
 * []()
 * []()
 * []()
@@ -56,7 +56,7 @@ id|student_name   |grade_level|gpa|school_lunch|birthday  |email                
 
 ---
 
-#### 03
+#### 03_BASICS
 
 ```sql
 select s.grade_level,
