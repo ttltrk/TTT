@@ -213,7 +213,7 @@ id|student_name   |grade_level|gpa|school_lunch|birthday  |email                
  4|Daniel Brown   |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu   |
  5|Eva Martinez   |         10|2.7|No          |2008-02-05|eva.martinez@mavenhighschool.com   |
 >>>
-``
+```
 
 ```sql
 select student_name, grade_level,
