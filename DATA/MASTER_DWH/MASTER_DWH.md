@@ -87,11 +87,20 @@ DWH is a db used and optimized for analytical purposes.
 ```
 
 ```
-Other data sources >>>
-Sales data >>>
-CRM system >>>
+DWH
+
+^^^                  ^^^          ^^^
+Other data sources | Sales data | CRM system 
+
 
 DWH
+              ^^^
+              ETL
+
+^^^                  ^^^          ^^^
+Other data sources | Sales data | CRM system 
+
+
 ```
 
 [^^^](#Master_Data_Warehousing)
