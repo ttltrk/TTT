@@ -110,6 +110,8 @@ Goals of a DWH
 
 - centralized and consistent location for data
 - data must be accessible fast (query performance)
+- user-friendly (easy to understand)
+- must load data consistenty and repeatedly (ETL)
 ```
 
 [^^^](#Master_Data_Warehousing)
