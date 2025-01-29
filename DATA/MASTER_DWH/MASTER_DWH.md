@@ -13,7 +13,7 @@
 
 * [01_INTRO](#01_INTRO)
 * [02_05_WHY_DWH](#02_05_WHY_DWH)
-* []()
+* [02_06_WHAT_IS_DWH](#02_06_WHAT_IS_DWH)
 * []()
 * []()
 * []()
@@ -76,7 +76,7 @@ sum: Used for reporting and data analysis
 
 ---
 
-####
+#### 02_06_WHAT_IS_DWH
 
 [^^^](#Master_Data_Warehousing)
 
