@@ -86,6 +86,14 @@ DWH is a db used and optimized for analytical purposes.
 - enbling data analysis
 ```
 
+```
+Other data sources >>>
+Sales data >>>
+CRM system >>>
+
+DWH
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
