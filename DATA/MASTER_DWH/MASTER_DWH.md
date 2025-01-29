@@ -78,6 +78,14 @@ sum: Used for reporting and data analysis
 
 #### 02_06_WHAT_IS_DWH
 
+```
+DWH is a db used and optimized for analytical purposes.
+
+- user friendly
+- fast query performance
+- enbling data analysis
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
