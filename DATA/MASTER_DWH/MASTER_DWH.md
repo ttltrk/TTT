@@ -160,6 +160,7 @@ DL and DWH are both used as centralized data storage
 |Technologies|Big Data       | Database              |
 |Structure   |Unstructured   |Structured             |
 |Usage       |Not defined yet|Specific & ready to use|
+|Users       |Data Scientists|Business users & IT    |
 
 [^^^](#Master_Data_Warehousing)
 
