@@ -14,7 +14,7 @@
 * [01_INTRO](#01_INTRO)
 * [02_05_WHY_DWH](#02_05_WHY_DWH)
 * [02_06_WHAT_IS_DWH](#02_06_WHAT_IS_DWH)
-* []()
+* [02_07_WHAT_IS_BI](#02_07_WHAT_IS_BI)
 * []()
 * []()
 * []()
@@ -119,7 +119,26 @@ Goals of a DWH
 
 ---
 
-####
+#### 02_07_WHAT_IS_BI
+
+```
+BI = Business Intelligence
+
+- Strategies
+- Technologies
+- Infrastructures
+```
+
+```
+Data Analysis
+
+- data gathering
+- data storing
+- reporting
+- data visualisation
+- data mining
+- predictive analysis
+```
 
 [^^^](#Master_Data_Warehousing)
 
