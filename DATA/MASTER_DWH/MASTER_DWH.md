@@ -150,6 +150,10 @@ raw data >> transform >> meaningful insights and better decisions (DWH part)
 
 #### 02_08_DATA_LAKE_VS_DWH
 
+```
+DL and DWH are both used as centralized data storage
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
