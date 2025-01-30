@@ -15,7 +15,7 @@
 * [02_05_WHY_DWH](#02_05_WHY_DWH)
 * [02_06_WHAT_IS_DWH](#02_06_WHAT_IS_DWH)
 * [02_07_WHAT_IS_BI](#02_07_WHAT_IS_BI)
-* []()
+* [02_08_DATA_LAKE_VS_DWH](#02_08_DATA_LAKE_VS_DWH)
 * []()
 * []()
 * []()
@@ -148,7 +148,7 @@ raw data >> transform >> meaningful insights and better decisions (DWH part)
 
 ---
 
-####
+#### 02_08_DATA_LAKE_VS_DWH
 
 [^^^](#Master_Data_Warehousing)
 
