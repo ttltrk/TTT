@@ -241,7 +241,75 @@ Jack Thompson  |         11|Junior       |
 >>>
 ```	
 
+```sql
+select *
+from students 
+where school_lunch = 'Yes'
+order by grade_level 
 
+id|student_name   |grade_level|gpa|school_lunch|birthday  |email                              |
+--+---------------+-----------+---+------------+----------+-----------------------------------+
+ 4|Daniel Brown   |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu   |
+ 8|Henry Taylor   |          9|3.0|Yes         |2009-06-08|                                   |
+15|Olivia Adams   |          9|3.7|Yes         |2009-12-11|olivia.adams@mavenhighschool.edu   |
+ 1|Abby Johnson   |         10|3.1|Yes         |2008-05-14|abby.johnson@mavenhighschool.com   |
+ 9|Isabella Moore |         10|2.8|Yes         |2008-01-19|isabella.moore@mavenhighschool.com |
+12|Liam Green     |         10|4.0|Yes         |2008-08-03|liam.green@mavenhighschool.com     |
+10|Jack Thompson  |         11|2.9|Yes         |2007-04-25|jack.thompson@mavenhighschool.com  |
+ 3|Catherine Davis|         12|3.6|Yes         |2006-11-21|catherine.davis@mavenhighschool.com|
+ 7|Grace Lee      |         12|3.0|Yes         |2006-12-02|grace.lee@mavenhighschool.com      |
+16|Peter Park     |         12|2.9|Yes         |2006-02-11|peter.park@mavenhighschool.com     |
+
+select grade_level, AVG(gpa)
+from students 
+where school_lunch = 'Yes'
+group by grade_level
+order by grade_level 
+
+grade_level|AVG(gpa)|
+-----------+--------+
+          9| 3.40000|
+         10| 3.30000|
+         11| 2.90000|
+         12| 3.16667|
+         
+select grade_level, AVG(gpa) as avg_gpa
+from students 
+where school_lunch = 'Yes'
+group by grade_level
+having avg_gpa < 3.3
+order by grade_level 
+
+grade_level|avg_gpa|
+-----------+-------+
+         11|2.90000|
+         12|3.16667|
+```
+
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
 
 [^^^](#SQL_for_Data_Analysis)
 
