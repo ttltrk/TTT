@@ -154,9 +154,12 @@ raw data >> transform >> meaningful insights and better decisions (DWH part)
 DL and DWH are both used as centralized data storage
 ```
 
-|    | Data Lake |     DWH |
-|----|-----------|---------|
-|Data|Raw        |Processed|
+|            | Data Lake     |      DWH              |
+|------------|---------------|-----------------------|
+|Data        |Raw            | Processed             |
+|Technologies|Big Data       | Database              |
+|Structure   |Unstructured   |Structured             |
+|Usage       |Not defined yet|Specific & ready to use|
 
 [^^^](#Master_Data_Warehousing)
 
