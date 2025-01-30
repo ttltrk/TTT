@@ -286,6 +286,173 @@ grade_level|avg_gpa|
          12|3.16667|
 ```
 
+```sql
+select distinct grade_level
+from students s 
+         
+grade_level|
+-----------+
+         11|
+          9|
+         10|
+         12|
+
+select count(distinct grade_level)
+from students s 
+
+count|
+-----+
+    4|
+    
+select MAX(gpa), MIN(gpa)
+from students s 
+
+max|min|
+---+---+
+4.0|2.7|
+
+select MAX(gpa) - MIN(gpa) as gpa_range
+from students s 
+
+gpa_range|
+---------+
+      1.3|
+```
+
+```sql      
+-- AND
+select * 
+from students s 
+where grade_level < 12
+
+id|student_name  |grade_level|gpa|school_lunch|birthday  |email                             |
+--+--------------+-----------+---+------------+----------+----------------------------------+
+ 1|Abby Johnson  |         10|3.1|Yes         |2008-05-14|abby.johnson@mavenhighschool.com  |
+ 2|Bob Smith     |         11|3.1|No          |2007-09-30|bob.smith@mavenhighschool.com     |
+ 4|Daniel Brown  |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu  |
+ 5|Eva Martinez  |         10|2.7|No          |2008-02-05|eva.martinez@mavenhighschool.com  |
+ 6|Frank Wilson  |         11|3.2|No          |2007-07-17|frank.wilson@mavenhighschool.com  |
+ 8|Henry Taylor  |          9|3.0|Yes         |2009-06-08|                                  |
+ 9|Isabella Moore|         10|2.8|Yes         |2008-01-19|isabella.moore@mavenhighschool.com|
+ 
+select * 
+from students s 
+where grade_level < 12 and school_lunch = 'Yes'
+
+id|student_name  |grade_level|gpa|school_lunch|birthday  |email                             |
+--+--------------+-----------+---+------------+----------+----------------------------------+
+ 1|Abby Johnson  |         10|3.1|Yes         |2008-05-14|abby.johnson@mavenhighschool.com  |
+ 4|Daniel Brown  |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu  |
+ 8|Henry Taylor  |          9|3.0|Yes         |2009-06-08|                                  |
+ 9|Isabella Moore|         10|2.8|Yes         |2008-01-19|isabella.moore@mavenhighschool.com|
+10|Jack Thompson |         11|2.9|Yes         |2007-04-25|jack.thompson@mavenhighschool.com |
+12|Liam Green    |         10|4.0|Yes         |2008-08-03|liam.green@mavenhighschool.com    |
+15|Olivia Adams  |          9|3.7|Yes         |2009-12-11|olivia.adams@mavenhighschool.edu  |
+```
+
+```sql
+-- IN
+select * 
+from students s 
+where grade_level in (9, 10, 11)
+
+id|student_name  |grade_level|gpa|school_lunch|birthday  |email                             |
+--+--------------+-----------+---+------------+----------+----------------------------------+
+ 1|Abby Johnson  |         10|3.1|Yes         |2008-05-14|abby.johnson@mavenhighschool.com  |
+ 2|Bob Smith     |         11|3.1|No          |2007-09-30|bob.smith@mavenhighschool.com     |
+ 4|Daniel Brown  |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu  |
+ 5|Eva Martinez  |         10|2.7|No          |2008-02-05|eva.martinez@mavenhighschool.com  |
+ 6|Frank Wilson  |         11|3.2|No          |2007-07-17|frank.wilson@mavenhighschool.com  |
+ 8|Henry Taylor  |          9|3.0|Yes         |2009-06-08|                                  |
+ 9|Isabella Moore|         10|2.8|Yes         |2008-01-19|isabella.moore@mavenhighschool.com|
+```
+
+```sql
+-- IS NULL
+select * 
+from students s 
+where email is  null
+
+id|student_name|grade_level|gpa|school_lunch|birthday  |email|
+--+------------+-----------+---+------------+----------+-----+
+ 8|Henry Taylor|          9|3.0|Yes         |2009-06-08|     |
+ 
+select * 
+from students s 
+where email is not null
+
+id|student_name   |grade_level|gpa|school_lunch|birthday  |email                              |
+--+---------------+-----------+---+------------+----------+-----------------------------------+
+ 1|Abby Johnson   |         10|3.1|Yes         |2008-05-14|abby.johnson@mavenhighschool.com   |
+ 2|Bob Smith      |         11|3.1|No          |2007-09-30|bob.smith@mavenhighschool.com      |
+ 3|Catherine Davis|         12|3.6|Yes         |2006-11-21|catherine.davis@mavenhighschool.com|
+ 4|Daniel Brown   |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu   |
+ 5|Eva Martinez   |         10|2.7|No          |2008-02-05|eva.martinez@mavenhighschool.com   |
+ 6|Frank Wilson   |         11|3.2|No          |2007-07-17|frank.wilson@mavenhighschool.com   |
+ 7|Grace Lee      |         12|3.0|Yes         |2006-12-02|grace.lee@mavenhighschool.com      |
+```
+
+```sql
+-- LIKE
+select * 
+from students s 
+where email like '%.edu'
+
+id|student_name|grade_level|gpa|school_lunch|birthday  |email                           |
+--+------------+-----------+---+------------+----------+--------------------------------+
+ 4|Daniel Brown|          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu|
+11|Karen White |          9|3.4|No          |2009-09-10|karen.white@mavenhighschool.edu |
+15|Olivia Adams|          9|3.7|Yes         |2009-12-11|olivia.adams@mavenhighschool.edu|
+```
+
+```sql
+-- ORDER BY
+select * 
+from students s 
+order by gpa 
+
+id|student_name   |grade_level|gpa|school_lunch|birthday  |email                              |
+--+---------------+-----------+---+------------+----------+-----------------------------------+
+ 5|Eva Martinez   |         10|2.7|No          |2008-02-05|eva.martinez@mavenhighschool.com   |
+ 9|Isabella Moore |         10|2.8|Yes         |2008-01-19|isabella.moore@mavenhighschool.com |
+10|Jack Thompson  |         11|2.9|Yes         |2007-04-25|jack.thompson@mavenhighschool.com  |
+16|Peter Park     |         12|2.9|Yes         |2006-02-11|peter.park@mavenhighschool.com     |
+13|Mia Harris     |         11|3.0|No          |2007-02-28|mia.harris@mavenhighschool.com     |
+
+select * 
+from students s 
+order by gpa desc 
+
+id|student_name   |grade_level|gpa|school_lunch|birthday  |email                              |
+--+---------------+-----------+---+------------+----------+-----------------------------------+
+12|Liam Green     |         10|4.0|Yes         |2008-08-03|liam.green@mavenhighschool.com     |
+15|Olivia Adams   |          9|3.7|Yes         |2009-12-11|olivia.adams@mavenhighschool.edu   |
+ 3|Catherine Davis|         12|3.6|Yes         |2006-11-21|catherine.davis@mavenhighschool.com|
+ 4|Daniel Brown   |          9|3.5|Yes         |2009-03-10|daniel.brown@mavenhighschool.edu   |
+11|Karen White    |          9|3.4|No          |2009-09-10|karen.white@mavenhighschool.edu    |
+```
+
+```sql
+-- CASE
+select student_name, grade_level,
+	case
+		when grade_level = 9 then 'Freshman'
+		when grade_level = 10 then 'Sophmore'
+		when grade_level = 11 then 'Junior'
+		else 'Senior'
+	end as student_class
+from students; 
+
+student_name   |grade_level|student_class|
+---------------+-----------+-------------+
+Abby Johnson   |         10|Sophmore     |
+Bob Smith      |         11|Junior       |
+Catherine Davis|         12|Senior       |
+Daniel Brown   |          9|Freshman     |
+Eva Martinez   |         10|Sophmore     |
+Frank Wilson   |         11|Junior       |
+```
+
 
 [^^^](#SQL_for_Data_Analysis)
 
