@@ -140,6 +140,10 @@ Data Analysis
 - predictive analysis
 ```
 
+```
+raw data >> transform >> meaningful insights and better decisions (DWH part)
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
