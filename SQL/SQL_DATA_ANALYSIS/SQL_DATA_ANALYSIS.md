@@ -13,7 +13,7 @@
 
 * [01_INTRO](#01_INTRO)
 * [03_BASICS](#03_BASICS)
-* []()
+* [04_MULTI_TABLE_ANALYSIS](#04_MULTI_TABLE_ANALYSIS)
 * []()
 * []()
 * []()
@@ -457,6 +457,47 @@ Frank Wilson   |         11|Junior       |
 [^^^](#SQL_for_Data_Analysis)
 
 ---
+
+#### 04_MULTI_TABLE_ANALYSIS
+
+```sql
+select * from happiness_scores hs limit 5
+
+year|country    |region                      |happiness_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+----+-----------+----------------------------+---------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+2015|Afghanistan|South Asia                  |          3.575|       0.31982|       0.30285|                0.30335|                     0.23414|   0.36510|                  0.09719|
+2015|Albania    |Central and Eastern Europe  |          4.959|       0.87867|       0.80434|                0.81325|                     0.35733|   0.14272|                  0.06413|
+2015|Algeria    |Middle East and North Africa|          5.605|       0.93929|       1.07772|                0.61766|                     0.28579|   0.07822|                  0.17383|
+2015|Angola     |Sub-Saharan Africa          |          4.033|       0.75778|       0.86040|                0.16683|                     0.10384|   0.12344|                  0.07122|
+2015|Argentina  |Latin America and Caribbean |          6.574|       1.05351|       1.24823|                0.78723|                     0.44974|   0.11451|                  0.08484|
+
+select * from country_stats cs limit 5
+
+country    |continent|population|urban_population|land_area_km2|unemployment_rate|fertility_rate|infant_mortality|life_expectancy|physicians_per_thousand|
+-----------+---------+----------+----------------+-------------+-----------------+--------------+----------------+---------------+-----------------------+
+Afghanistan|Asia     |  38041754|         9797273|       652230|             0.11|          4.47|           47.90|          64.50|                   0.28|
+Albania    |Europe   |   2854191|         1747593|        28748|             0.12|          1.62|            7.80|          78.50|                   1.20|
+Algeria    |Africa   |  43053054|        31510100|      2381741|             0.12|          3.02|           20.10|          76.70|                   1.72|
+Andorra    |Europe   |     77142|           67873|          468|                 |          1.27|            2.70|               |                   3.33|
+Angola     |Africa   |  31825295|        21061025|      1246700|             0.07|          5.52|           51.60|          60.80|                   0.21|
+```
+
+```sql
+-- LEFT JOIN
+select hs.year, hs.country, hs.happiness_score, cs.continent, cs.population 
+from happiness_scores hs 
+left join country_stats cs 
+on hs.country = cs.country
+limit 5
+
+year|country    |happiness_score|continent    |population|
+----+-----------+---------------+-------------+----------+
+2015|Afghanistan|          3.575|Asia         |  38041754|
+2015|Albania    |          4.959|Europe       |   2854191|
+2015|Algeria    |          5.605|Africa       |  43053054|
+2015|Angola     |          4.033|Africa       |  31825295|
+2015|Argentina  |          6.574|South America|  44938712|
+```
 
 [^^^](#SQL_for_Data_Analysis)
 
