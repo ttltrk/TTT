@@ -179,7 +179,7 @@ DL and DWH are both used as centralized data storage
 #### 03_13_3_LAYERS_OF_DWH
 
 ```
-
+data sources >> Staging layer (STG) - (raw data in tables) >> core / DWH (ODS) >> Data Mart 1 / Data Mart 2 >> Predictive Analytics
 ```
 
 [^^^](#Master_Data_Warehousing)
