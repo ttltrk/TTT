@@ -16,6 +16,16 @@
 * [02_06_WHAT_IS_DWH](#02_06_WHAT_IS_DWH)
 * [02_07_WHAT_IS_BI](#02_07_WHAT_IS_BI)
 * [02_08_DATA_LAKE_VS_DWH](#02_08_DATA_LAKE_VS_DWH)
+* [03_13_3_LAYERS_OF_DWH](#03_13_3_LAYERS_OF_DWH)
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
 * []()
 * []()
 * []()
@@ -166,7 +176,11 @@ DL and DWH are both used as centralized data storage
 
 ---
 
-####
+#### 03_13_3_LAYERS_OF_DWH
+
+```
+
+```
 
 [^^^](#Master_Data_Warehousing)
 
