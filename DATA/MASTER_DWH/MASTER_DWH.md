@@ -208,6 +208,11 @@ using delta loads, just extracting the new values
 date column is a more or less the delta column, load everything after the mentioned date
 ```
 
+```
+in persistant stg layer we never truncating the layer
+the roll-back is working there easly
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
