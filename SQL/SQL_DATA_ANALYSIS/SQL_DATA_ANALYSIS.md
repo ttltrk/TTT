@@ -499,6 +499,15 @@ year|country    |happiness_score|continent    |population|
 2015|Argentina  |          6.574|South America|  44938712|
 ```
 
+```sql
+/*
+ * INNER JOIN - returns records that exist in BOTH tables, and excludes unmatched records from either table
+ * LEFT JOIN - return all records from the left table , and any matching records from the right table
+ * RIGHT JOIN - return all records from the right table , and any matching records from the left table
+ * FULL OUTER JOIN - returns all records from both tables, including non-matching records
+ */
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
