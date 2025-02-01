@@ -213,6 +213,15 @@ in persistant stg layer we never truncating the layer
 the roll-back is working there easly
 ```
 
+```
+SUM:
+  - stg layer is the landing zone extracted data
+  - data in tables and on a separate database
+  - as little touching as possible
+  - we don't charge the source systems
+  - temporay or persistant staging layers
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
