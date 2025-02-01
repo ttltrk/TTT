@@ -203,6 +203,9 @@ data sources >>
 
 ```
 this is just a temporary layer, we need to truncate this layer before every run
+using delta loads, just extracting the new values
+
+date column is a more or less the delta column, load everything after the mentioned date
 ```
 
 [^^^](#Master_Data_Warehousing)
