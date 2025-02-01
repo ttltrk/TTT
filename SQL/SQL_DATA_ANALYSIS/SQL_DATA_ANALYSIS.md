@@ -528,6 +528,8 @@ year|country    |happiness_score|country    |continent        |
 2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
 2015|Bahrain    |          5.960|Bahrain    |Asia             |
 
+-----------------------------------------------------------------------------
+
 select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
 from happiness_scores hs 
 left join country_stats cs 
@@ -587,6 +589,7 @@ Ivory Coast              |
 Kosovo                   |
 North Cyprus             |
 
+-----------------------------------------------------------------------------
 
 select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
 from happiness_scores hs 
@@ -646,6 +649,8 @@ Democratic Republic of the Congo|
 Dominica                        |
 East Timor                      |
 Equatorial Guinea               |
+
+-----------------------------------------------------------------------------
 
 select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
 from happiness_scores hs 
