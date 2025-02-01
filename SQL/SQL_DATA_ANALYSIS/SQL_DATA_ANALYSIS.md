@@ -508,6 +508,165 @@ year|country    |happiness_score|continent    |population|
  */
 ```
 
+```sql
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+inner join country_stats cs 
+on hs.country = cs.country
+limit 10
+
+year|country    |happiness_score|country    |continent        |
+----+-----------+---------------+-----------+-----------------+
+2015|Afghanistan|          3.575|Afghanistan|Asia             |
+2015|Albania    |          4.959|Albania    |Europe           |
+2015|Algeria    |          5.605|Algeria    |Africa           |
+2015|Angola     |          4.033|Angola     |Africa           |
+2015|Argentina  |          6.574|Argentina  |South America    |
+2015|Armenia    |          4.350|Armenia    |Asia             |
+2015|Australia  |          7.284|Australia  |Australia/Oceania|
+2015|Austria    |          7.200|Austria    |Europe           |
+2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
+2015|Bahrain    |          5.960|Bahrain    |Asia             |
+
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+left join country_stats cs 
+on hs.country = cs.country
+limit 10
+
+year|country    |happiness_score|country    |continent        |
+----+-----------+---------------+-----------+-----------------+
+2015|Afghanistan|          3.575|Afghanistan|Asia             |
+2015|Albania    |          4.959|Albania    |Europe           |
+2015|Algeria    |          5.605|Algeria    |Africa           |
+2015|Angola     |          4.033|Angola     |Africa           |
+2015|Argentina  |          6.574|Argentina  |South America    |
+2015|Armenia    |          4.350|Armenia    |Asia             |
+2015|Australia  |          7.284|Australia  |Australia/Oceania|
+2015|Austria    |          7.200|Austria    |Europe           |
+2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
+2015|Bahrain    |          5.960|Bahrain    |Asia             |
+
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+left join country_stats cs 
+on hs.country = cs.country
+where cs.country is null
+limit 10
+
+year|country                  |happiness_score|country|continent|
+----+-------------------------+---------------+-------+---------+
+2015|Congo (Brazzaville)      |          3.989|       |         |
+2015|Congo (Kinshasa)         |          4.517|       |         |
+2015|Hong Kong S.A.R. of China|          5.474|       |         |
+2015|Ireland                  |          6.940|       |         |
+2015|Ivory Coast              |          3.655|       |         |
+2015|Kosovo                   |          5.589|       |         |
+2015|North Cyprus             |          5.695|       |         |
+2015|Palestinian Territories  |          4.715|       |         |
+2015|Somaliland region        |          5.057|       |         |
+2015|Swaziland                |          4.867|       |         |
+
+select distinct hs.country
+from happiness_scores hs 
+left join country_stats cs 
+on hs.country = cs.country
+where cs.country is null
+limit 10
+
+country                  |
+-------------------------+
+Congo                    |
+Congo (Brazzaville)      |
+Congo (Kinshasa)         |
+Czechia                  |
+Gambia                   |
+Hong Kong S.A.R. of China|
+Ireland                  |
+Ivory Coast              |
+Kosovo                   |
+North Cyprus             |
+
+
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+right join country_stats cs 
+on hs.country = cs.country
+limit 10
+
+year|country    |happiness_score|country    |continent        |
+----+-----------+---------------+-----------+-----------------+
+2015|Afghanistan|          3.575|Afghanistan|Asia             |
+2015|Albania    |          4.959|Albania    |Europe           |
+2015|Algeria    |          5.605|Algeria    |Africa           |
+2015|Angola     |          4.033|Angola     |Africa           |
+2015|Argentina  |          6.574|Argentina  |South America    |
+2015|Armenia    |          4.350|Armenia    |Asia             |
+2015|Australia  |          7.284|Australia  |Australia/Oceania|
+2015|Austria    |          7.200|Austria    |Europe           |
+2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
+2015|Bahrain    |          5.960|Bahrain    |Asia             |
+
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+right join country_stats cs 
+on hs.country = cs.country
+where hs.country is null
+limit 10
+
+year|country|happiness_score|country         |continent        |
+----+-------+---------------+----------------+-----------------+
+    |       |               |Eritrea         |Africa           |
+    |       |               |Samoa           |Australia/Oceania|
+    |       |               |Cape Verde      |Africa           |
+    |       |               |Guinea-Bissau   |Africa           |
+    |       |               |Liechtenstein   |Europe           |
+    |       |               |Marshall Islands|Australia/Oceania|
+    |       |               |San Marino      |Europe           |
+    |       |               |Solomon Islands |Australia/Oceania|
+    |       |               |Nauru           |Australia/Oceania|
+    |       |               |Dominica        |North America    |
+    
+select distinct cs.country
+from happiness_scores hs 
+right join country_stats cs 
+on hs.country = cs.country
+where hs.country is null
+limit 10
+
+country                         |
+--------------------------------+
+Andorra                         |
+Antigua and Barbuda             |
+Barbados                        |
+Brunei                          |
+Cape Verde                      |
+Cuba                            |
+Democratic Republic of the Congo|
+Dominica                        |
+East Timor                      |
+Equatorial Guinea               |
+
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+full outer join country_stats cs 
+on hs.country = cs.country
+limit 10
+
+year|country    |happiness_score|country    |continent        |
+----+-----------+---------------+-----------+-----------------+
+2015|Afghanistan|          3.575|Afghanistan|Asia             |
+2015|Albania    |          4.959|Albania    |Europe           |
+2015|Algeria    |          5.605|Algeria    |Africa           |
+2015|Angola     |          4.033|Angola     |Africa           |
+2015|Argentina  |          6.574|Argentina  |South America    |
+2015|Armenia    |          4.350|Armenia    |Asia             |
+2015|Australia  |          7.284|Australia  |Australia/Oceania|
+2015|Austria    |          7.200|Austria    |Europe           |
+2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
+2015|Bahrain    |          5.960|Bahrain    |Asia             |
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
