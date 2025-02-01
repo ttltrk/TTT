@@ -523,3 +523,27 @@ year|country    |happiness_score|continent    |population|
 
 ---
 
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
