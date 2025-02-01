@@ -17,7 +17,7 @@
 * [02_07_WHAT_IS_BI](#02_07_WHAT_IS_BI)
 * [02_08_DATA_LAKE_VS_DWH](#02_08_DATA_LAKE_VS_DWH)
 * [03_13_3_LAYERS_OF_DWH](#03_13_3_LAYERS_OF_DWH)
-* []()
+* [03_14_STAGING_AREA](#03_14_STAGING_AREA)
 * []()
 * []()
 * []()
@@ -191,7 +191,19 @@ data sources >>
 
 ---
 
-####
+#### 03_14_STAGING_AREA
+
+```
+- why do we need it?
+  - short time on the source systems
+  - quickly extract
+  - move the data into a relational database
+  - start transformation from there
+```
+
+```
+this is just a temporary layer, we need to truncate this layer before every run
+```
 
 [^^^](#Master_Data_Warehousing)
 
