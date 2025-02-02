@@ -18,7 +18,7 @@
 * [02_08_DATA_LAKE_VS_DWH](#02_08_DATA_LAKE_VS_DWH)
 * [03_13_3_LAYERS_OF_DWH](#03_13_3_LAYERS_OF_DWH)
 * [03_14_STAGING_AREA](#03_14_STAGING_AREA)
-* []()
+* [03_16_DATA_MARTS](#03_16_DATA_MARTS)
 * []()
 * []()
 * []()
@@ -226,7 +226,11 @@ SUM:
 
 ---
 
-####
+#### 03_16_DATA_MARTS
+
+```
+
+```
 
 [^^^](#Master_Data_Warehousing)
 
