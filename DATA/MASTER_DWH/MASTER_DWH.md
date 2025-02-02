@@ -236,6 +236,20 @@ Data Marts
   - Just the relevant tables for a use-vase
 ```
 
+```
+Why are we need DM?
+  - usability and acceptance
+  - performance
+```
+
+```
+Use cases
+  - tools
+  - departments
+  - region
+  - different use-cases
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
