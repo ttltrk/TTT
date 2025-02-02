@@ -250,6 +250,12 @@ Use cases
   - different use-cases
 ```
 
+```
+SUM:
+  - Data Mart = Small scale DWH
+  - focus on the business problem 
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
