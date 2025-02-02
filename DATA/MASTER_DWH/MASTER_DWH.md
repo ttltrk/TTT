@@ -229,7 +229,11 @@ SUM:
 #### 03_16_DATA_MARTS
 
 ```
-
+Data Marts
+  - after the dwh layer you can find the DM as the subset of a DWH
+  - Dimensional Model
+  - can be furthe aggregated
+  - Just the relevant tables for a use-vase
 ```
 
 [^^^](#Master_Data_Warehousing)
