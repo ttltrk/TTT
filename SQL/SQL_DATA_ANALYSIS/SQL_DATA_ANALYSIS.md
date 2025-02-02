@@ -672,6 +672,20 @@ year|country    |happiness_score|country    |continent        |
 2015|Bahrain    |          5.960|Bahrain    |Asia             |
 ```
 
+```sql
+select p.product_id, p.product_name, o.product_id as product_id_in_orders 
+from products p 
+left join orders o 
+on p.product_id = o.product_id 
+where o.product_id is null 
+
+product_id   |product_name   |product_id_in_orders|
+-------------+---------------+--------------------+
+SUG-PIX-62000|Pixy Stix      |                    |
+SUG-LOO-45000|Loopy Lollipops|                    |
+SUG-NER-92001|Tropical Nerds |                    |
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
