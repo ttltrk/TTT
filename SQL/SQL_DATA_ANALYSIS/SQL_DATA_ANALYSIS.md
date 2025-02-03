@@ -686,6 +686,90 @@ SUG-LOO-45000|Loopy Lollipops|                    |
 SUG-NER-92001|Tropical Nerds |                    |
 ```
 
+```sql
+-- JOINING MULTIPLE COLUMNS
+
+SELECT year, country, happiness_score
+from happiness_scores hs 
+
+year|country                  |happiness_score|
+----+-------------------------+---------------+
+2015|Afghanistan              |          3.575|
+2015|Albania                  |          4.959|
+2015|Algeria                  |          5.605|
+2015|Angola                   |          4.033|
+2015|Argentina                |          6.574|
+2015|Armenia                  |          4.350|
+
+select year, country_name, inflation_rate
+from inflation_rates
+
+year|country_name  |inflation_rate|
+----+--------------+--------------+
+2015|China         |           1.4|
+2015|India         |           4.9|
+2015|United States |           0.1|
+2015|Indonesia     |           6.4|
+2015|Pakistan      |           4.5|
+2015|Brazil        |           9.0|
+
+select hs.year, hs.country, hs.happiness_score, ir.inflation_rate 
+from happiness_scores hs 
+inner join inflation_rates ir 
+on hs.year = ir.year and hs.country = ir.country_name 
+
+year|country       |happiness_score|inflation_rate|
+----+--------------+---------------+--------------+
+2015|China         |          5.140|           1.4|
+2015|India         |          4.565|           4.9|
+2015|United States |          7.119|           0.1|
+2015|Indonesia     |          5.399|           6.4|
+2015|Pakistan      |          5.194|           4.5|
+2015|Brazil        |          6.983|           9.0|
+```
+
+```sql
+-- JOINING MULTIPLE COLUMNS
+SELECT * from happiness_scores hs 
+
+year|country                  |region                            |happiness_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+----+-------------------------+----------------------------------+---------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+2015|Afghanistan              |South Asia                        |          3.575|       0.31982|       0.30285|                0.30335|                     0.23414|   0.36510|                  0.09719|
+2015|Albania                  |Central and Eastern Europe        |          4.959|       0.87867|       0.80434|                0.81325|                     0.35733|   0.14272|                  0.06413|
+2015|Algeria                  |Middle East and North Africa      |          5.605|       0.93929|       1.07772|                0.61766|                     0.28579|   0.07822|                  0.17383|
+
+select * from inflation_rates ir
+
+year|country_name  |inflation_rate|
+----+--------------+--------------+
+2015|China         |           1.4|
+2015|India         |           4.9|
+2015|United States |           0.1|
+2015|Indonesia     |           6.4|
+
+select * from country_stats cs 
+
+country                         |continent        |population|urban_population|land_area_km2|unemployment_rate|fertility_rate|infant_mortality|life_expectancy|physicians_per_thousand|
+--------------------------------+-----------------+----------+----------------+-------------+-----------------+--------------+----------------+---------------+-----------------------+
+Afghanistan                     |Asia             |  38041754|         9797273|       652230|             0.11|          4.47|           47.90|          64.50|                   0.28|
+Albania                         |Europe           |   2854191|         1747593|        28748|             0.12|          1.62|            7.80|          78.50|                   1.20|
+Algeria                         |Africa           |  43053054|        31510100|      2381741|             0.12|          3.02|           20.10|          76.70|                   1.72|
+Andorra                         |Europe           |     77142|           67873|          468|                 |          1.27|            2.70|               |                   3.33|
+
+select * 
+from happiness_scores hs 
+	inner join inflation_rates ir 
+	on hs.country = ir.country_name and hs.year = ir.year
+
+year|country       |region                      |happiness_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|year|country_name  |inflation_rate|
+----+--------------+----------------------------+---------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+----+--------------+--------------+
+2015|China         |East Asia                   |          5.140|       0.89012|       0.94675|                0.81658|                     0.51697|   0.08185|                  0.02781|2015|China         |           1.4|
+2015|India         |South Asia                  |          4.565|       0.64499|       0.38174|                0.51529|                     0.39786|   0.26475|                  0.08492|2015|India         |           4.9|
+2015|United States |North America and ANZ       |          7.119|       1.39451|       1.24711|                0.86179|                     0.54604|   0.40105|                  0.15890|2015|United States |           0.1|
+2015|Indonesia     |Southeast Asia              |          5.399|       0.82827|       1.08708|                0.63793|                     0.46611|   0.51535|                         |2015|Indonesia     |           6.4|
+2015|Pakistan      |South Asia                  |          5.194|       0.59543|       0.41411|                0.51466|                     0.12102|   0.33671|                  0.10464|2015|Pakistan      |           4.5|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
