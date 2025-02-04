@@ -19,7 +19,7 @@
 * [03_13_3_LAYERS_OF_DWH](#03_13_3_LAYERS_OF_DWH)
 * [03_14_STAGING_AREA](#03_14_STAGING_AREA)
 * [03_16_DATA_MARTS](#03_16_DATA_MARTS)
-* []()
+* [03_17_RELATIONAL_DBS](#03_17_RELATIONAL_DBS)
 * []()
 * []()
 * []()
@@ -260,7 +260,16 @@ SUM:
 
 ---
 
-####
+#### RELATIONAL_DBS
+
+```
+- Relational database management system (RDMS)
+  - Oracle
+  - Microsoft SQL Server
+  - PostgreSQL
+  - MySQL
+  - Amazon Relational Database Service (RDS)
+```
 
 [^^^](#Master_Data_Warehousing)
 
