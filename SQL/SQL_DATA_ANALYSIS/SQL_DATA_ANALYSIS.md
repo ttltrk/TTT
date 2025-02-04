@@ -770,6 +770,60 @@ year|country       |region                      |happiness_score|gdp_per_capita|
 2015|Pakistan      |South Asia                  |          5.194|       0.59543|       0.41411|                0.51466|                     0.12102|   0.33671|                  0.10464|2015|Pakistan      |           4.5|
 ```
 
+```sql
+-- JOINING MULTIPLE TABLES
+	
+SELECT * from happiness_scores hs 
+
+year|country                  |region                            |happiness_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+----+-------------------------+----------------------------------+---------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+2015|Afghanistan              |South Asia                        |          3.575|       0.31982|       0.30285|                0.30335|                     0.23414|   0.36510|                  0.09719|
+2015|Albania                  |Central and Eastern Europe        |          4.959|       0.87867|       0.80434|                0.81325|                     0.35733|   0.14272|                  0.06413|
+2015|Algeria                  |Middle East and North Africa      |          5.605|       0.93929|       1.07772|                0.61766|                     0.28579|   0.07822|                  0.17383|
+
+select * from inflation_rates ir
+
+year|country_name  |inflation_rate|
+----+--------------+--------------+
+2015|China         |           1.4|
+2015|India         |           4.9|
+2015|United States |           0.1|
+2015|Indonesia     |           6.4|
+
+select * from country_stats cs 
+
+country                         |continent        |population|urban_population|land_area_km2|unemployment_rate|fertility_rate|infant_mortality|life_expectancy|physicians_per_thousand|
+--------------------------------+-----------------+----------+----------------+-------------+-----------------+--------------+----------------+---------------+-----------------------+
+Afghanistan                     |Asia             |  38041754|         9797273|       652230|             0.11|          4.47|           47.90|          64.50|                   0.28|
+Albania                         |Europe           |   2854191|         1747593|        28748|             0.12|          1.62|            7.80|          78.50|                   1.20|
+Algeria                         |Africa           |  43053054|        31510100|      2381741|             0.12|          3.02|           20.10|          76.70|                   1.72|
+Andorra                         |Europe           |     77142|           67873|          468|                 |          1.27|            2.70|               |                   3.33|
+
+
+select hs.year, hs.country, hs.happiness_score, cs.continent, ir.inflation_rate 
+from happiness_scores hs 
+	left join country_stats cs 
+		on hs.country = cs.country 
+	left join inflation_rates ir 
+		on hs."year" = ir."year" and hs.country = ir.country_name 
+		
+year|country                  |happiness_score|continent        |inflation_rate|
+----+-------------------------+---------------+-----------------+--------------+
+2015|Afghanistan              |          3.575|Asia             |              |
+2015|Albania                  |          4.959|Europe           |              |
+2015|Algeria                  |          5.605|Africa           |              |
+2015|Angola                   |          4.033|Africa           |              |
+2015|Argentina                |          6.574|South America    |              |
+2015|Armenia                  |          4.350|Asia             |              |
+2015|Australia                |          7.284|Australia/Oceania|              |
+2015|Austria                  |          7.200|Europe           |              |
+2015|Azerbaijan               |          5.212|Asia             |              |
+2015|Bahrain                  |          5.960|Asia             |              |
+2015|Bangladesh               |          4.694|Asia             |           6.1|
+2015|Belarus                  |          5.813|Europe           |              |
+2015|Belgium                  |          6.937|Europe           |              |
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
