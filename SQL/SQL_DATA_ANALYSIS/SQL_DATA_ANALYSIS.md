@@ -824,6 +824,16 @@ year|country                  |happiness_score|continent        |inflation_rate|
 2015|Belgium                  |          6.937|Europe           |              |
 ```
 
+```sql
+-- SELF JOIN
+
+/*
+ * A self join lets you join a table with itself
+ *  - combine a table with itself based on a matching column
+ * 	- filter on the resulting rows based on some criteria 
+ */
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
