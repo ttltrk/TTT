@@ -834,6 +834,16 @@ year|country                  |happiness_score|continent        |inflation_rate|
  */
 ```
 
+```sql
+-- CROSS JOIN
+
+/*
+ * A cross join returns all combinations of rows within two or more tables
+ * 
+ * 
+ */
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
