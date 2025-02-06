@@ -861,26 +861,79 @@ id|item   |
  1|T-Shirt|
  2|Hoodie |
  
- select * from outerwear
+select * from outerwear
  
- id|item  |
+id|item  |
 --+------+
  2|Hoodie|
  3|Jacket|
  4|Coat  |
  
- select * from tops
+select * from tops
 
 union 
  
- select * from outerwear
+select * from outerwear
  
- id|item   |
+id|item   |
 --+-------+
  1|T-Shirt|
  4|Coat   |
  3|Jacket |
  2|Hoodie |
+ 
+ 
+select * from tops
+
+union all
+ 
+select * from outerwear
+
+id|item   |
+--+-------+
+ 1|T-Shirt|
+ 2|Hoodie |
+ 2|Hoodie |
+ 3|Jacket |
+ 4|Coat   |
+ 
+select * from happiness_scores hs 
+
+year|country                  |region                            |happiness_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+----+-------------------------+----------------------------------+---------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+2015|Afghanistan              |South Asia                        |          3.575|       0.31982|       0.30285|                0.30335|                     0.23414|   0.36510|                  0.09719|
+2015|Albania                  |Central and Eastern Europe        |          4.959|       0.87867|       0.80434|                0.81325|                     0.35733|   0.14272|                  0.06413|
+2015|Algeria                  |Middle East and North Africa      |          5.605|       0.93929|       1.07772|                0.61766|                     0.28579|   0.07822|                  0.17383|
+2015|Angola                   |Sub-Saharan Africa                |          4.033|       0.75778|       0.86040|                0.16683|                     0.10384|   0.12344|                  0.07122|
+2015|Argentina                |Latin America and Caribbean       |          6.574|       1.05351|       1.24823|                0.78723|                     0.44974|   0.11451|                  0.08484|
+2015|Armenia                  |Central and Eastern Europe        |          4.350|       0.76821|       0.77711|                0.72990|                     0.19847|   0.07855|                  0.03900|
+2015|Australia                |North America and ANZ             |          7.284|       1.33358|       1.30923|                0.93156|                     0.65124|   0.43562|                  0.35637|
+
+select * from happiness_scores_current hsc 
+
+country                  |ladder_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+-------------------------+------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+Finland                  |       7.741|         1.844|         1.572|                  0.695|                       0.859|     0.142|                    0.546|
+Denmark                  |       7.583|         1.908|         1.520|                  0.699|                       0.823|     0.204|                    0.548|
+Iceland                  |       7.525|         1.881|         1.617|                  0.718|                       0.819|     0.258|                    0.182|
+Sweden                   |       7.344|         1.878|         1.501|                  0.724|                       0.838|     0.221|                    0.524|
+Israel                   |       7.341|         1.803|         1.513|                  0.740|                       0.641|     0.153|                    0.193|
+Netherlands              |       7.319|         1.901|         1.462|                  0.706|                       0.725|     0.247|                    0.372|
+
+
+select year, country, happiness_score from happiness_scores hs 
+union
+select 2024, country, ladder_score from happiness_scores_current hsc 
+
+year|country                  |happiness_score|
+----+-------------------------+---------------+
+2023|Sweden                   |          7.395|
+2024|Algeria                  |          5.364|
+2018|Sierra Leone             |          4.571|
+2020|Ivory Coast              |          5.233|
+2019|Somalia                  |          4.668|
+2018|Montenegro               |          5.347|
+2015|Sri Lanka                |          4.271|
 ```
 
 [^^^](#SQL_for_Data_Analysis)
