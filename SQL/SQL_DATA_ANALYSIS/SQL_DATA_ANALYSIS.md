@@ -844,6 +844,45 @@ year|country                  |happiness_score|continent        |inflation_rate|
  */
 ```
 
+```sql
+
+-- UNION vs UNION ALL
+
+/*
+ * Use union to stack multiple tables or queries on top of one another
+ * union removes duplicate values, while union all retains them
+ * 
+ */
+
+select * from tops
+
+id|item   |
+--+-------+
+ 1|T-Shirt|
+ 2|Hoodie |
+ 
+ select * from outerwear
+ 
+ id|item  |
+--+------+
+ 2|Hoodie|
+ 3|Jacket|
+ 4|Coat  |
+ 
+ select * from tops
+
+union 
+ 
+ select * from outerwear
+ 
+ id|item   |
+--+-------+
+ 1|T-Shirt|
+ 4|Coat   |
+ 3|Jacket |
+ 2|Hoodie |
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
