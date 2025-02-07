@@ -302,6 +302,14 @@ durability added through snapshots / images
 cost-factor
 ```
 
+```
+in-memory dbs:
+  - sap hana
+  - ms sql server in-memory tables
+  - oracle in-memory
+  - amazon memoryDB
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
