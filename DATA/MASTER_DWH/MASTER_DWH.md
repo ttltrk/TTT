@@ -285,6 +285,23 @@ SUM:
 - relational and non-relational
 ```
 
+```
+traditional db >> disc >> in-memory
+in-memory db >> in-memory
+```
+
+```
+in-memory dbs are comming without disks
+eliminate the response time from disk
+good query performance
+```
+
+```
+durability: lose all info when device loses power or is reset
+durability added through snapshots / images
+cost-factor
+```
+
 [^^^](#Master_Data_Warehousing)
 
 ---
