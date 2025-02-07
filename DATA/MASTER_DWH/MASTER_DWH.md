@@ -252,6 +252,7 @@ Use cases
 
 ```
 SUM:
+  - acces layer for users
   - Data Mart = Small scale DWH
   - focus on the business problem 
 ```
@@ -281,6 +282,7 @@ SUM:
 - highly optimized for query performance
 - good for analytics / high query volume
 - usually used for data marts
+- relational and non-relational
 ```
 
 [^^^](#Master_Data_Warehousing)
