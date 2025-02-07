@@ -936,6 +936,31 @@ year|country                  |happiness_score|
 2015|Sri Lanka                |          4.271|
 ```
 
+```sql
+-- SUBQUERY BASICS
+
+select avg(happiness_score) from happiness_scores hs 
+
+avg               |
+------------------+
+5.4410877834674470|
+
+select happiness_score 
+from happiness_scores hs 
+where happiness_score > (select avg(happiness_score) from happiness_scores hs) 
+order by happiness_score 
+
+happiness_score|
+---------------+
+          5.456|
+          5.458|
+          5.459|
+          5.466|
+          5.466|
+          5.467|
+          5.467|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
