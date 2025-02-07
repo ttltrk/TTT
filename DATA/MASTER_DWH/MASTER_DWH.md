@@ -20,7 +20,7 @@
 * [03_14_STAGING_AREA](#03_14_STAGING_AREA)
 * [03_16_DATA_MARTS](#03_16_DATA_MARTS)
 * [03_17_RELATIONAL_DBS](#03_17_RELATIONAL_DBS)
-* []()
+* [03_18_IN_MEMROY_DB](#03_18_IN_MEMROY_DB)
 * []()
 * []()
 * []()
@@ -275,7 +275,13 @@ SUM:
 
 ---
 
-####
+#### 03_18_IN_MEMROY_DB
+
+```
+- highly optimized for query performance
+- good for analytics / high query volume
+- usually used for data marts
+```
 
 [^^^](#Master_Data_Warehousing)
 
