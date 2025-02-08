@@ -961,6 +961,25 @@ happiness_score|
           5.467|
 ```
 
+```sql
+-- SUBQUERIES in SELECT Clause          
+          
+select 
+	country,
+	happiness_score - (select avg(happiness_score) from happiness_scores hs) as diff_from_avg
+from happiness_scores hs 
+order by happiness_score 
+
+country                 |diff_from_avg      |
+------------------------+-------------------+
+Afghanistan             |-3.5820877834674470|
+Lebanon                 |-3.0490877834674470|
+Afghanistan             |-3.0370877834674470|
+Afghanistan             |-2.9180877834674470|
+Afghanistan             |-2.8740877834674470|
+Central African Republic|-2.7480877834674470|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
