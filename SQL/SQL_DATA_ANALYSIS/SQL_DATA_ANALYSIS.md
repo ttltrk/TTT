@@ -980,6 +980,26 @@ Afghanistan             |-2.8740877834674470|
 Central African Republic|-2.7480877834674470|
 ```
 
+```sql
+select 
+product_id,
+product_name, 
+unit_price,
+(select avg(unit_price) from products p) as avg_unit_price,
+unit_price - (select avg(unit_price) from products p) as diff_price
+from products p
+order by unit_price desc
+
+product_id   |product_name                     |unit_price|avg_unit_price    |diff_price         |
+-------------+---------------------------------+----------+------------------+-------------------+
+SUG-NER-92001|Tropical Nerds                   |          |4.1723529411764706|                   |
+OTH-LIC-15000|Lickable Wallpaper               |     20.00|4.1723529411764706|15.8276470588235294|
+SUG-EVE-47000|Everlasting Gobstopper           |     10.00|4.1723529411764706| 5.8276470588235294|
+SUG-HAI-55000|Hair Toffee                      |      4.50|4.1723529411764706| 0.3276470588235294|
+CHO-TRI-54000|Wonka Bar - Triple Dazzle Caramel|      3.75|4.1723529411764706|-0.4223529411764706|
+OTH-FIZ-56000|Fizzy Lifting Drinks             |      3.75|4.1723529411764706|-0.4223529411764706|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
