@@ -1000,6 +1000,88 @@ CHO-TRI-54000|Wonka Bar - Triple Dazzle Caramel|      3.75|4.1723529411764706|-0
 OTH-FIZ-56000|Fizzy Lifting Drinks             |      3.75|4.1723529411764706|-0.4223529411764706|
 ```
 
+```sql
+-- SUBQUERIES in the FROM clause
+
+select * from happiness_scores hs 
+
+year|country                  |region                            |happiness_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+----+-------------------------+----------------------------------+---------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+2015|Afghanistan              |South Asia                        |          3.575|       0.31982|       0.30285|                0.30335|                     0.23414|   0.36510|                  0.09719|
+2015|Albania                  |Central and Eastern Europe        |          4.959|       0.87867|       0.80434|                0.81325|                     0.35733|   0.14272|                  0.06413|
+2015|Algeria                  |Middle East and North Africa      |          5.605|       0.93929|       1.07772|                0.61766|                     0.28579|   0.07822|                  0.17383|
+2015|Angola                   |Sub-Saharan Africa                |          4.033|       0.75778|       0.86040|                0.16683|                     0.10384|   0.12344|                  0.07122|
+2015|Argentina                |Latin America and Caribbean       |          6.574|       1.05351|       1.24823|                0.78723|                     0.44974|   0.11451|                  0.08484|
+2015|Armenia                  |Central and Eastern Europe        |          4.350|       0.76821|       0.77711|                0.72990|                     0.19847|   0.07855|                  0.03900|
+2015|Australia                |North America and ANZ             |          7.284|       1.33358|       1.30923|                0.93156|                     0.65124|   0.43562|                  0.35637|
+2015|Austria                  |Western Europe                    |          7.200|       1.33723|       1.29704|                0.89042|                     0.62433|   0.33088|                  0.18676|
+
+-- avg happiness for each country
+
+select country, avg(happiness_score) as avg_hs_by_country from happiness_scores hs group by country 
+
+country                  |avg_hs_by_country |
+-------------------------+------------------+
+Indonesia                |5.2675555555555556|
+Bangladesh               |4.6884444444444444|
+Venezuela                |5.3042222222222222|
+Cameroon                 |4.8585555555555556|
+Luxembourg               |7.0971111111111111|
+Czech Republic           |6.7355714285714286|
+Sweden                   |7.3434444444444444|
+Uganda                   |4.2448888888888889|
+Montenegro               |5.4284444444444444|
+Jordan                   |4.7997777777777778|
+Dominican Republic       |5.3930000000000000|
+
+-- showe me the hs ower the years for all countries
+
+select hs.year, hs.country, hs.happiness_score, country_hs.avg_hs_by_country 
+from happiness_scores hs 
+left join (select country, avg(happiness_score) as avg_hs_by_country 
+			from happiness_scores hs group by country) as country_hs
+on hs.country = country_hs.country
+
+year|country                  |happiness_score|avg_hs_by_country |
+----+-------------------------+---------------+------------------+
+2015|Afghanistan              |          3.575|2.9907777777777778|
+2015|Albania                  |          4.959|4.8932222222222222|
+2015|Algeria                  |          5.605|5.4090000000000000|
+2015|Angola                   |          4.033|3.8722500000000000|
+2015|Argentina                |          6.574|6.2435555555555556|
+2015|Armenia                  |          4.350|4.7407777777777778|
+2015|Australia                |          7.284|7.2271111111111111|
+2015|Austria                  |          7.200|7.1702222222222222|
+2015|Azerbaijan               |          5.212|5.2068750000000000|
+2015|Bahrain                  |          5.960|6.2514444444444444|
+2015|Bangladesh               |          4.694|4.6884444444444444|
+2015|Belarus                  |          5.813|5.6106250000000000|
+2015|Belgium                  |          6.937|6.8854444444444444|
+2015|Benin                    |          3.340|4.3070000000000000|
+2015|Bhutan                   |          5.253|5.1248000000000000|
+
+-- showe me the hs for US only ower the years 
+
+select hs.year, hs.country, hs.happiness_score, country_hs.avg_hs_by_country 
+from happiness_scores hs 
+left join (select country, avg(happiness_score) as avg_hs_by_country 
+			from happiness_scores hs group by country) as country_hs
+on hs.country = country_hs.country
+where hs.country = 'United States'
+
+year|country      |happiness_score|avg_hs_by_country |
+----+-------------+---------------+------------------+
+2015|United States|          7.119|6.9728888888888889|
+2016|United States|          7.104|6.9728888888888889|
+2017|United States|          6.993|6.9728888888888889|
+2018|United States|          6.886|6.9728888888888889|
+2019|United States|          6.892|6.9728888888888889|
+2020|United States|          6.940|6.9728888888888889|
+2021|United States|          6.951|6.9728888888888889|
+2022|United States|          6.977|6.9728888888888889|
+2023|United States|          6.894|6.9728888888888889|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
