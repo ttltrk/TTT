@@ -1082,6 +1082,98 @@ year|country      |happiness_score|avg_hs_by_country |
 2023|United States|          6.894|6.9728888888888889|
 ```
 
+```sql
+-- Multiple Subqueries
+
+-- Queries can contain multiple subqueries as long as each one has a different alias
+
+-- to-do: return years where the happiness score is a whole point greater than the
+-- country's average happiness score
+
+select distinct year from happiness_scores hs 
+
+year|
+----+
+2021|
+2020|
+2015|
+2023|
+2022|
+2017|
+2019|
+2016|
+2018|
+
+select * from happiness_scores_current hsc --only for data 2024
+
+country                  |ladder_score|gdp_per_capita|social_support|healthy_life_expectancy|freedom_to_make_life_choices|generosity|perceptions_of_corruption|
+-------------------------+------------+--------------+--------------+-----------------------+----------------------------+----------+-------------------------+
+Finland                  |       7.741|         1.844|         1.572|                  0.695|                       0.859|     0.142|                    0.546|
+Denmark                  |       7.583|         1.908|         1.520|                  0.699|                       0.823|     0.204|                    0.548|
+Iceland                  |       7.525|         1.881|         1.617|                  0.718|                       0.819|     0.258|                    0.182|
+Sweden                   |       7.344|         1.878|         1.501|                  0.724|                       0.838|     0.221|                    0.524|
+Israel                   |       7.341|         1.803|         1.513|                  0.740|                       0.641|     0.153|                    0.193|
+Netherlands              |       7.319|         1.901|         1.462|                  0.706|                       0.725|     0.247|                    0.372|
+Norway                   |       7.302|         1.952|         1.517|                  0.704|                       0.835|     0.224|                    0.484|
+
+select year, country, happiness_score from happiness_scores hs 
+union all
+select 2024, country, ladder_score from happiness_scores_current hsc
+
+year|country                  |happiness_score|
+----+-------------------------+---------------+
+2015|Afghanistan              |          3.575|
+2015|Albania                  |          4.959|
+2015|Algeria                  |          5.605|
+2015|Angola                   |          4.033|
+2015|Argentina                |          6.574|
+2015|Armenia                  |          4.350|
+2015|Australia                |          7.284|
+2015|Austria                  |          7.200|
+2015|Azerbaijan               |          5.212|
+2015|Bahrain                  |          5.960|
+2015|Bangladesh               |          4.694|
+
+select hs.year, hs.country, hs.happiness_score, country_hs.avg_hs_by_country, 
+		hs.happiness_score - country_hs.avg_hs_by_country as diff 
+from 	(select year, country, happiness_score from happiness_scores hs 
+		union all
+		select 2024, country, ladder_score from happiness_scores_current hsc) hs 
+left join (select country, avg(happiness_score) as avg_hs_by_country 
+			from happiness_scores hs group by country) as country_hs
+on hs.country = country_hs.country
+where hs.country = 'Venezuela'
+
+year|country  |happiness_score|avg_hs_by_country |diff               |
+----+---------+---------------+------------------+-------------------+
+2015|Venezuela|          6.810|5.3042222222222222| 1.5057777777777778|
+2016|Venezuela|          6.084|5.3042222222222222| 0.7797777777777778|
+2017|Venezuela|          5.250|5.3042222222222222|-0.0542222222222222|
+2018|Venezuela|          4.806|5.3042222222222222|-0.4982222222222222|
+2019|Venezuela|          4.707|5.3042222222222222|-0.5972222222222222|
+2020|Venezuela|          5.053|5.3042222222222222|-0.2512222222222222|
+2021|Venezuela|          4.892|5.3042222222222222|-0.4122222222222222|
+2022|Venezuela|          4.925|5.3042222222222222|-0.3792222222222222|
+2023|Venezuela|          5.211|5.3042222222222222|-0.0932222222222222|
+2024|Venezuela|          5.607|5.3042222222222222| 0.3027777777777778|
+
+select * from 
+(select hs.year, hs.country, hs.happiness_score, country_hs.avg_hs_by_country, 
+		hs.happiness_score - country_hs.avg_hs_by_country as diff 
+from 	(select year, country, happiness_score from happiness_scores hs 
+		union all
+		select 2024, country, ladder_score from happiness_scores_current hsc) hs 
+left join (select country, avg(happiness_score) as avg_hs_by_country 
+			from happiness_scores hs group by country) as country_hs
+on hs.country = country_hs.country) as hs_country_hs
+where happiness_score > avg_hs_by_country + 1
+
+year|country  |happiness_score|avg_hs_by_country |diff              |
+----+---------+---------------+------------------+------------------+
+2015|Lesotho  |          4.898|3.8561428571428571|1.0418571428571429|
+2015|Venezuela|          6.810|5.3042222222222222|1.5057777777777778|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
