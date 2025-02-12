@@ -1174,6 +1174,44 @@ year|country  |happiness_score|avg_hs_by_country |diff              |
 2015|Venezuela|          6.810|5.3042222222222222|1.5057777777777778|
 ```
 
+```sql
+-- SUBQUERIES in the where & having clauses
+
+-- return regions with above average happiness scores
+
+select region, avg(happiness_score) as avg_hs
+from happiness_scores hs 
+group by region 
+
+region                            |avg_hs            |
+----------------------------------+------------------+
+Commonwealth of Independent States|5.6390681818181818|
+North America and ANZ             |7.1760833333333333|
+East Asia                         |5.7321296296296296|
+Sub-Saharan Africa                |4.2887952522255193|
+South Asia                        |4.4732622950819672|
+Latin America and Caribbean       |5.9938526315789474|
+Central and Eastern Europe        |5.5857616822429907|
+Middle East and North Africa      |5.2750993788819876|
+Africa                            |5.0570000000000000|
+Southeast Asia                    |5.3704250000000000|
+Western Europe                    |6.8114734042553191|
+
+select region, avg(happiness_score) as avg_hs
+from happiness_scores hs 
+group by region 
+having avg(happiness_score) > (select avg(happiness_score) from happiness_scores hs2)
+
+region                            |avg_hs            |
+----------------------------------+------------------+
+Commonwealth of Independent States|5.6390681818181818|
+North America and ANZ             |7.1760833333333333|
+East Asia                         |5.7321296296296296|
+Latin America and Caribbean       |5.9938526315789474|
+Central and Eastern Europe        |5.5857616822429907|
+Western Europe                    |6.8114734042553191|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
