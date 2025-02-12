@@ -64,6 +64,8 @@ count(distinct grade_level)|
 
 ---
 
+##### MAX_MIN
+
 ```sql
 select max(gpa) - min(gpa)
 from students s 
@@ -72,6 +74,12 @@ max(gpa) - min(gpa)|
 -------------------+
                 1.3|
 ```
+
+[^^^](#03_BASICS)
+
+---
+
+##### IN
 
 ```sql
 select *
@@ -109,7 +117,15 @@ id|student_name   |grade_level|gpa|school_lunch|birthday  |email                
 13|Mia Harris     |         11|3.0|No          |2007-02-28|mia.harris@mavenhighschool.com     |
 14|Noah Scott     |         12|3.3|No          |2006-10-15|noah.scott@mavenparkdistrict.com   |
 >>>
+```
 
+[^^^](#03_BASICS)
+
+---
+
+##### LIKE
+
+```sql
 select *
 from students 
 where email like '%.com'
@@ -128,6 +144,12 @@ id|student_name   |grade_level|gpa|school_lunch|birthday  |email                
 12|Liam Green     |         10|4.0|Yes         |2008-08-03|liam.green@mavenhighschool.com     |
 >>>
 ```
+
+[^^^](#03_BASICS)
+
+---
+
+##### ORDER_BY
 
 ```sql
 select student_name, gpa
@@ -164,7 +186,15 @@ Mia Harris     |3.0|
 Abby Johnson   |3.1|
 Bob Smith      |3.1|
 >>>
+```
 
+[^^^](#03_BASICS)
+
+---
+
+##### LIMIT
+
+```sql
 -- only five rows 
 select * 
 from students 
@@ -180,6 +210,12 @@ id|student_name   |grade_level|gpa|school_lunch|birthday  |email                
  5|Eva Martinez   |         10|2.7|No          |2008-02-05|eva.martinez@mavenhighschool.com   |
 >>>
 ```
+
+[^^^](#03_BASICS)
+
+---
+
+##### CASE_WHEN
 
 ```sql
 select student_name, grade_level,
@@ -205,7 +241,11 @@ Henry Taylor   |          9|Freshman     |
 Isabella Moore |         10|Sophmore     |
 Jack Thompson  |         11|Junior       |
 >>>
-```	
+```
+
+[^^^](#03_BASICS)
+
+---
 
 ```sql
 select *
