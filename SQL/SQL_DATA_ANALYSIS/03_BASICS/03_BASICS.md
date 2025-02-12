@@ -9,7 +9,7 @@
 
 ---
 
-* []()
+* [COMMON_KEYWORDS](#COMMON_KEYWORDS)
 * []()
 * []()
 * []()
@@ -33,6 +33,10 @@ grade_level|avg_gpa|
 >>>
 ```
 
+---
+
+##### COMMON_KEYWORDS
+
 ```sql
 -- common sql keywords
 
@@ -55,6 +59,10 @@ count(distinct grade_level)|
 ---------------------------+
                           4|
 ```
+
+[^^^](#03_BASICS)
+
+---
 
 ```sql
 select max(gpa) - min(gpa)
