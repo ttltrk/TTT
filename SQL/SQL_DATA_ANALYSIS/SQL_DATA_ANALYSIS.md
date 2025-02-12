@@ -1212,6 +1212,44 @@ Central and Eastern Europe        |5.5857616822429907|
 Western Europe                    |6.8114734042553191|
 ```
 
+```sql
+-- ANY / ALL
+
+-- scores that are greater than any 2024 scores
+select year, region, happiness_score 
+from happiness_scores hs 
+where happiness_score > any (select ladder_score from happiness_scores_current hsc)
+
+year|region                            |happiness_score|
+----+----------------------------------+---------------+
+2015|South Asia                        |          3.575|
+2015|Central and Eastern Europe        |          4.959|
+2015|Middle East and North Africa      |          5.605|
+2015|Sub-Saharan Africa                |          4.033|
+2015|Latin America and Caribbean       |          6.574|
+2015|Central and Eastern Europe        |          4.350|
+2015|North America and ANZ             |          7.284|
+2015|Western Europe                    |          7.200|
+2015|Central and Eastern Europe        |          5.212|
+2015|Middle East and North Africa      |          5.960|
+2015|South Asia                        |          4.694|
+2015|Central and Eastern Europe        |          5.813|
+2015|Western Europe                    |          6.937|
+
+-- scores that are greater than all 2024 scores
+select year, region, happiness_score 
+from happiness_scores hs 
+where happiness_score > all (select ladder_score from happiness_scores_current hsc)
+
+year|region        |happiness_score|
+----+--------------+---------------+
+2019|Western Europe|          7.769|
+2020|Western Europe|          7.809|
+2021|Western Europe|          7.842|
+2022|Western Europe|          7.821|
+2023|Western Europe|          7.804|
+```
+
 [^^^](#SQL_for_Data_Analysis)
 
 ---
