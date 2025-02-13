@@ -38,6 +38,12 @@ Andorra    |Europe   |     77142|           67873|          468|                
 Angola     |Africa   |  31825295|        21061025|      1246700|             0.07|          5.52|           51.60|          60.80|                   0.21|
 ```
 
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### LEFT_JOIN
+
 ```sql
 -- LEFT JOIN
 select hs.year, hs.country, hs.happiness_score, cs.continent, cs.population 
