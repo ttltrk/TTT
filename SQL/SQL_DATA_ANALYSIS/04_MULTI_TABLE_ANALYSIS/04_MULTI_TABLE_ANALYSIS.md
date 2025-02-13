@@ -14,11 +14,11 @@
 * [LEFT_JOIN](#LEFT_JOIN)
 * [RIGHT_JOIN](#RIGHT_JOIN)
 * [FULL_OUTER_JOIN](#FULL_OUTER_JOIN)
-* []()
-* []()
-* []()
-* []()
-* []()
+* [JOIN_MULTI_COLUMNS](#JOIN_MULTI_COLUMNS)
+* [JOIN_MULTI_TABLES](#JOIN_MULTI_TABLES)
+* [CROSS_JOIN](#CROSS_JOIN)
+* [SELF_JOIN](#SELF_JOIN)
+* [UNION_UNION_ALL](#UNION_UNION_ALL)
 * []()
 * []()
 * []()
@@ -321,6 +321,12 @@ year|country       |happiness_score|inflation_rate|
 2015|Brazil        |          6.983|           9.0|
 ```
 
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### JOIN_MULTI_COLUMNS
+
 ```sql
 -- JOINING MULTIPLE COLUMNS
 SELECT * from happiness_scores hs 
@@ -362,6 +368,12 @@ year|country       |region                      |happiness_score|gdp_per_capita|
 2015|Indonesia     |Southeast Asia              |          5.399|       0.82827|       1.08708|                0.63793|                     0.46611|   0.51535|                         |2015|Indonesia     |           6.4|
 2015|Pakistan      |South Asia                  |          5.194|       0.59543|       0.41411|                0.51466|                     0.12102|   0.33671|                  0.10464|2015|Pakistan      |           4.5|
 ```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### JOIN_MULTI_TABLES
 
 ```sql
 -- JOINING MULTIPLE TABLES
@@ -417,6 +429,12 @@ year|country                  |happiness_score|continent        |inflation_rate|
 2015|Belgium                  |          6.937|Europe           |              |
 ```
 
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### SELF_JOIN
+
 ```sql
 -- SELF JOIN
 
@@ -427,6 +445,12 @@ year|country                  |happiness_score|continent        |inflation_rate|
  */
 ```
 
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### CROSS_JOIN
+
 ```sql
 -- CROSS JOIN
 
@@ -436,6 +460,12 @@ year|country                  |happiness_score|continent        |inflation_rate|
  * 
  */
 ```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### UNION_UNION_ALL
 
 ```sql
 
@@ -528,6 +558,10 @@ year|country                  |happiness_score|
 2018|Montenegro               |          5.347|
 2015|Sri Lanka                |          4.271|
 ```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
 
 ```sql
 -- SUBQUERY BASICS
