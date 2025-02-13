@@ -9,6 +9,8 @@
 
 ---
 
+* [JOINS](#JOINS)
+* [INNER_JOIN](#INNER_JOIN)
 * [LEFT_JOIN](#LEFT_JOIN)
 * [RIGHT_JOIN](#RIGHT_JOIN)
 * [FULL_OUTER_JOIN](#FULL_OUTER_JOIN)
@@ -24,6 +26,50 @@
 * []()
 * 
 ---
+
+##### JOINS
+
+```sql
+/*
+ * INNER JOIN - returns records that exist in BOTH tables, and excludes unmatched records from either table
+ * LEFT JOIN - return all records from the left table , and any matching records from the right table
+ * RIGHT JOIN - return all records from the right table , and any matching records from the left table
+ * FULL OUTER JOIN - returns all records from both tables, including non-matching records
+ */
+```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### INNER_JOIN
+
+```sql
+select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
+from happiness_scores hs 
+inner join country_stats cs 
+on hs.country = cs.country
+limit 10
+
+year|country    |happiness_score|country    |continent        |
+----+-----------+---------------+-----------+-----------------+
+2015|Afghanistan|          3.575|Afghanistan|Asia             |
+2015|Albania    |          4.959|Albania    |Europe           |
+2015|Algeria    |          5.605|Algeria    |Africa           |
+2015|Angola     |          4.033|Angola     |Africa           |
+2015|Argentina  |          6.574|Argentina  |South America    |
+2015|Armenia    |          4.350|Armenia    |Asia             |
+2015|Australia  |          7.284|Australia  |Australia/Oceania|
+2015|Austria    |          7.200|Austria    |Europe           |
+2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
+2015|Bahrain    |          5.960|Bahrain    |Asia             |
+```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### LEFT_JOIN
 
 ```sql
 select * from happiness_scores hs limit 5
@@ -47,12 +93,6 @@ Andorra    |Europe   |     77142|           67873|          468|                
 Angola     |Africa   |  31825295|        21061025|      1246700|             0.07|          5.52|           51.60|          60.80|                   0.21|
 ```
 
-[^^^](#04_MULTI_TABLE_ANALYSIS)
-
----
-
-##### LEFT_JOIN
-
 ```sql
 -- LEFT JOIN
 select hs.year, hs.country, hs.happiness_score, cs.continent, cs.population 
@@ -71,36 +111,6 @@ year|country    |happiness_score|continent    |population|
 ```
 
 ```sql
-/*
- * INNER JOIN - returns records that exist in BOTH tables, and excludes unmatched records from either table
- * LEFT JOIN - return all records from the left table , and any matching records from the right table
- * RIGHT JOIN - return all records from the right table , and any matching records from the left table
- * FULL OUTER JOIN - returns all records from both tables, including non-matching records
- */
-```
-
-```sql
-select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
-from happiness_scores hs 
-inner join country_stats cs 
-on hs.country = cs.country
-limit 10
-
-year|country    |happiness_score|country    |continent        |
-----+-----------+---------------+-----------+-----------------+
-2015|Afghanistan|          3.575|Afghanistan|Asia             |
-2015|Albania    |          4.959|Albania    |Europe           |
-2015|Algeria    |          5.605|Algeria    |Africa           |
-2015|Angola     |          4.033|Angola     |Africa           |
-2015|Argentina  |          6.574|Argentina  |South America    |
-2015|Armenia    |          4.350|Armenia    |Asia             |
-2015|Australia  |          7.284|Australia  |Australia/Oceania|
-2015|Austria    |          7.200|Austria    |Europe           |
-2015|Azerbaijan |          5.212|Azerbaijan |Asia             |
-2015|Bahrain    |          5.960|Bahrain    |Asia             |
-
------------------------------------------------------------------------------
-
 select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
 from happiness_scores hs 
 left join country_stats cs 
