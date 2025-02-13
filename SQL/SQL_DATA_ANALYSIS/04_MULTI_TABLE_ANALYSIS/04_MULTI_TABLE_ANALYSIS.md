@@ -19,12 +19,16 @@
 * [SELF_JOIN](#SELF_JOIN)
 * [CROSS_JOIN](#CROSS_JOIN)
 * [UNION_UNION_ALL](#UNION_UNION_ALL)
+* [SUBQUERY_BASICS](#SUBQUERY_BASICS)
+* [SUBQUERY_IN_SELECT](#SUBQUERY_IN_SELECT)
+* [SUBQUERY_IN_FROM](#SUBQUERY_IN_FROM)
+* [MULTI_SUBQUERIES](#MULTI_SUBQUERIES)
+* [SUBQUERY_IN_WHERE_HAVING](#SUBQUERY_IN_WHERE_HAVING)
+* [ANY_ALL](#ANY_ALL)
 * []()
 * []()
 * []()
 * []()
-* []()
-* 
 ---
 
 ##### JOINS
@@ -563,6 +567,8 @@ year|country                  |happiness_score|
 
 ---
 
+##### SUBQUERY_BASICS
+
 ```sql
 -- SUBQUERY BASICS
 
@@ -587,6 +593,12 @@ happiness_score|
           5.467|
           5.467|
 ```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### SUBQUERY_IN_SELECT
 
 ```sql
 -- SUBQUERIES in SELECT Clause          
@@ -626,6 +638,12 @@ SUG-HAI-55000|Hair Toffee                      |      4.50|4.1723529411764706| 0
 CHO-TRI-54000|Wonka Bar - Triple Dazzle Caramel|      3.75|4.1723529411764706|-0.4223529411764706|
 OTH-FIZ-56000|Fizzy Lifting Drinks             |      3.75|4.1723529411764706|-0.4223529411764706|
 ```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### SUBQUERY_IN_FROM
 
 ```sql
 -- SUBQUERIES in the FROM clause
@@ -708,6 +726,12 @@ year|country      |happiness_score|avg_hs_by_country |
 2022|United States|          6.977|6.9728888888888889|
 2023|United States|          6.894|6.9728888888888889|
 ```
+
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### MULTI_SUBQUERIES
 
 ```sql
 -- Multiple Subqueries
@@ -801,6 +825,12 @@ year|country  |happiness_score|avg_hs_by_country |diff              |
 2015|Venezuela|          6.810|5.3042222222222222|1.5057777777777778|
 ```
 
+[^^^](#04_MULTI_TABLE_ANALYSIS)
+
+---
+
+##### SUBQUERY_IN_WHERE_HAVING
+
 ```sql
 -- SUBQUERIES in the where & having clauses
 
@@ -838,6 +868,8 @@ Latin America and Caribbean       |5.9938526315789474|
 Central and Eastern Europe        |5.5857616822429907|
 Western Europe                    |6.8114734042553191|
 ```
+
+##### ANY_ALL
 
 ```sql
 -- ANY / ALL
