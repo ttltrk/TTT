@@ -10,8 +10,8 @@
 ---
 
 * [LEFT_JOIN](#LEFT_JOIN)
-* []()
-* []()
+* [RIGHT_JOIN](#RIGHT_JOIN)
+* [FULL_OUTER_JOIN](#FULL_OUTER_JOIN)
 * []()
 * []()
 * []()
@@ -159,9 +159,15 @@ Ireland                  |
 Ivory Coast              |
 Kosovo                   |
 North Cyprus             |
+```
 
------------------------------------------------------------------------------
+[^^^](#04_MULTI_TABLE_ANALYSIS)
 
+---
+
+##### RIGHT_JOIN
+
+```sql
 select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
 from happiness_scores hs 
 right join country_stats cs 
@@ -220,9 +226,15 @@ Democratic Republic of the Congo|
 Dominica                        |
 East Timor                      |
 Equatorial Guinea               |
+```
 
------------------------------------------------------------------------------
+[^^^](#04_MULTI_TABLE_ANALYSIS)
 
+---
+
+##### FULL_OUTER_JOIN
+
+```sql
 select hs.year, hs.country, hs.happiness_score, cs.country, cs.continent
 from happiness_scores hs 
 full outer join country_stats cs 
