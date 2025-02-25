@@ -25,7 +25,7 @@
 * [MULTI_SUBQUERIES](#MULTI_SUBQUERIES)
 * [SUBQUERY_IN_WHERE_HAVING](#SUBQUERY_IN_WHERE_HAVING)
 * [ANY_ALL](#ANY_ALL)
-* []()
+* [CTE](#CTE)
 * []()
 * []()
 * []()
@@ -908,6 +908,66 @@ year|region        |happiness_score|
 2022|Western Europe|          7.821|
 2023|Western Europe|          7.804|
 ```
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+##### CTE
+
+```
+-- CTE - a common table expression creates a named temporary output that can 
+-- be refrenced within another query
+```
+
+```sql
+-- return each countrys happiness score for the year alongside the countrys average happiness score
+
+with country_hs as (select 
+					country, 
+					avg(happiness_score) as avg_hs_by_country 
+					from happiness_scores
+					group by country)
+select 	hs.year,
+		hs.country, 
+		hs.happiness_score,
+		country_hs.avg_hs_by_country
+from happiness_scores hs
+		left join country_hs on hs.country = country_hs.country  
+
+year|country                  |happiness_score|avg_hs_by_country |
+----+-------------------------+---------------+------------------+
+2015|Afghanistan              |          3.575|2.9907777777777778|
+2015|Albania                  |          4.959|4.8932222222222222|
+2015|Algeria                  |          5.605|5.4090000000000000|
+2015|Angola                   |          4.033|3.8722500000000000|
+2015|Argentina                |          6.574|6.2435555555555556|
+2015|Armenia                  |          4.350|4.7407777777777778|
+2015|Australia                |          7.284|7.2271111111111111|
+2015|Austria                  |          7.200|7.1702222222222222|
+2015|Azerbaijan               |          5.212|5.2068750000000000|
+2015|Bahrain                  |          5.960|6.2514444444444444|
+
+/* 
+ * 	why use cte?
+ * - readability: complex queries with ctes are much easier to read
+ * - reusability: ctes can be referenced multiple times within a query
+ * - recursiveness: ctes can handle recursive queries
+ * 
+ */
+```
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
+
+[^^^](#SQL_for_Data_Analysis)
+
+---
 
 [^^^](#SQL_for_Data_Analysis)
 
