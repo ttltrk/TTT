@@ -155,6 +155,68 @@
 
 ---
 
+#### sr
+
+```py
+# process_claims.py
+
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col, udf, substring_index, lit, when, concat_ws, regexp_extract
+from pyspark.sql.types import StringType
+import hashlib
+
+# Initialize Spark
+spark = SparkSession.builder.appName("ClaimsTransformation").getOrCreate()
+
+# Load input CSVs
+claims_df = spark.read.option("header", True).csv("claims_data.csv", inferSchema=True)
+policyholders_df = spark.read.option("header", True).csv("policyholder_data.csv", inferSchema=True)
+
+# Join claims with policyholders
+df = claims_df.join(policyholders_df, on="policyholder_id", how="left")
+
+# Derive claim_type from claim_id prefix
+df = df.withColumn(
+    "claim_type",
+    when(col("claim_id").startswith("CL"), "Coinsurance")
+    .when(col("claim_id").startswith("RX"), "Reinsurance")
+    .otherwise("Unknown")
+)
+
+# Derive claim_priority
+df = df.withColumn(
+    "claim_priority",
+    when(col("claim_amount") > 4000, "Urgent").otherwise("Normal")
+)
+
+# Derive claim_period (YYYY-MM)
+df = df.withColumn("claim_period", col("claim_date").substr(1, 7))
+
+# Extract source_system_id (numbers from claim_id)
+df = df.withColumn("source_system_id", regexp_extract(col("claim_id"), r"(\d+)", 1))
+
+# Hash function using MD4
+def md4_hash(value):
+    return hashlib.new('md4', value.encode('utf-8')).hexdigest()
+
+hash_udf = udf(md4_hash, StringType())
+df = df.withColumn("hash_id", hash_udf(col("claim_id")))
+
+# Select final columns
+final_df = df.select(
+    "claim_id", "policyholder_name", "region", "claim_type", "claim_priority",
+    "claim_amount", "claim_period", "source_system_id", "hash_id"
+)
+
+# Save to CSV
+final_df.coalesce(1).write.option("header", True).csv("processed_claims.csv", mode="overwrite")
+
+print("✅ Processed claims saved to 'processed_claims.csv'")
+
+```
+
+---
+
 #### reverse
 
 ```py
