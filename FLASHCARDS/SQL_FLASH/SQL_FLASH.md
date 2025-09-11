@@ -19,6 +19,9 @@
 | UPDATE | The UPDATE statement is used to modify the existing records in a table. It is the WHERE clause that determines how many records will be updated. |
 | DELETE | The DELETE statement is used to delete existing records in a table. It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact |
 | SELECT TOP | The SELECT TOP clause is used to specify the number of records to return. |
+| AGG FUNC | An aggregate function is a function that performs a calculation on a set of values, and returns a single value. MIN(), MAX(), COUNT(), SUM(), AVG() | 
+| MIN() | The MIN() function returns the smallest value of the selected column. |
+| MAX() | The MAX() function returns the largest value of the selected column. |
 
 ---
 
