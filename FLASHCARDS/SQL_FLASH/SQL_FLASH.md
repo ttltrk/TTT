@@ -31,6 +31,13 @@
 * [WHAT_IS_SQL](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/WHATIS/WHATIS.md)
 * [RDBMS](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/RDBMS/RDBMS.md)
 
+
+| shortenings | meanings | commands |
+| ----------- | -------- | -------- |
+| DDL | Data Definition Language | CREATE/SHOW/ADD/DROP DB/TABLE/INDEX/VIEW TRUNCATE ALTER |
+| DML | Data Manipulation Language | INSERT UPDATE DELETE |
+
+
 DDL – Data Definition Language
 
 ```sql
