@@ -9,9 +9,8 @@
 |---------|-----------|----------|
 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
 | SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | SELECT DISTINCT Country FROM Customers; |
-| WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers
-WHERE Country='Mexico'; |
-| ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | |
+| WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers WHERE Country='Mexico'; |
+| ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | SELECT * FROM Products ORDER BY Price DESC; |
 | AND | The AND operator displays a record if all the conditions are TRUE. | |
 | OR | The OR operator displays a record if any of the conditions are TRUE. |  |
 | NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | | 
