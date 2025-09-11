@@ -22,7 +22,7 @@
 | AGG FUNC | An aggregate function is a function that performs a calculation on a set of values, and returns a single value. MIN(), MAX(), COUNT(), SUM(), AVG() | | 
 | MIN() | The MIN() function returns the smallest value of the selected column. | |
 | MAX() | The MAX() function returns the largest value of the selected column. | |
-| COUNT() | The COUNT() function returns the number of rows that matches a specified criterion. |SELECT COUNT(*) FROM Products; |
+| COUNT() | The COUNT() function returns the number of rows that matches a specified criterion. | SELECT COUNT(*) FROM Products; |
 
 
 
