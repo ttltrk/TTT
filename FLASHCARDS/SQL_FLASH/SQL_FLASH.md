@@ -8,8 +8,9 @@
 | Statement | Description | Query |
 |---------|-----------|----------|
 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
-| SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | |
-| WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | |
+| SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | SELECT DISTINCT Country FROM Customers; |
+| WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers
+WHERE Country='Mexico'; |
 | ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | |
 | AND | The AND operator displays a record if all the conditions are TRUE. | |
 | OR | The OR operator displays a record if any of the conditions are TRUE. |  |
