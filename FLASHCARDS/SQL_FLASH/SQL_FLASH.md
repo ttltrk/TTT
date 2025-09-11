@@ -34,7 +34,7 @@
 
 | shortenings | meanings | commands |
 | ----------- | -------- | -------- |
-| DDL | Data Definition Language | CREATE/SHOW/ADD/DROP DB/TABLE/INDEX/VIEW TRUNCATE ALTER |
+| DDL | Data Definition Language | CREATE, ALTER, DROP, TRUNCATE, COMMENT, and RENAME |
 | DML | Data Manipulation Language | INSERT UPDATE DELETE |
 
 
