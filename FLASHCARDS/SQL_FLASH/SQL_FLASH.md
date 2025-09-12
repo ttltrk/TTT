@@ -53,7 +53,7 @@
 | 44 | DROP DB | | |
 | 45 | BACKUP DB | | |
 | 46 | CREATE TABLE | | |
-| 47 | DROP TABLE | | |
+| 47 | DROP TABLE | The DROP TABLE statement is used to drop an existing table in a database. | DROP TABLE Shippers; |
 | 48 | ALTER TABLE | | |
 | 49 | CONSTRAINTS | | |
 | 50 | NOT NULL | | |
