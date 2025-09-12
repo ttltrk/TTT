@@ -5,27 +5,27 @@
 
 ---
 
-| Statement | Description | Query |
-|---------|-----------|----------|
-| SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
-| SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | SELECT DISTINCT Country FROM Customers; |
-| WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers WHERE Country='Mexico'; |
-| ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | SELECT * FROM Products ORDER BY Price DESC; |
-| AND | The AND operator displays a record if all the conditions are TRUE. | SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%'; |
-| OR | The OR operator displays a record if any of the conditions are TRUE. | SELECT * FROM Customers WHERE Country = 'Spain' OR CustomerName LIKE 'G%'; |
-| NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | SELECT * FROM Customers WHERE NOT Country = 'Spain'; | 
-| INSERT INTO | The INSERT INTO statement is used to insert new records in a table. It is also possible to only insert data in specific columns and multiple rows. | INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stavanger', 'Norway'); |
-| NULL VALUES | A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation! | SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NOT NULL; |
-| UPDATE | The UPDATE statement is used to modify the existing records in a table. It is the WHERE clause that determines how many records will be updated. | UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1; |
-| DELETE | The DELETE statement is used to delete existing records in a table. It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact | DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste'; |
-| SELECT TOP | The SELECT TOP clause is used to specify the number of records to return. | SELECT TOP 3 * FROM Customers; |
-| AGG FUNC | An aggregate function is a function that performs a calculation on a set of values, and returns a single value. MIN(), MAX(), COUNT(), SUM(), AVG() | | 
-| MIN() | The MIN() function returns the smallest value of the selected column. | SELECT MIN(Price) FROM Products; |
-| MAX() | The MAX() function returns the largest value of the selected column. | SELECT MAX(Price) FROM Products; |
-| COUNT() | The COUNT() function returns the number of rows that matches a specified criterion. | SELECT COUNT(*) FROM Products; |
-| SUM() | The SUM() function returns the total sum of a numeric column. | SELECT SUM(Quantity) FROM OrderDetails; |
-| AVG() | The AVG() function returns the average value of a numeric column. |SELECT AVG(Price) FROM Products; |
-| LIKE | The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. | SELECT * FROM Customers WHERE CustomerName LIKE 'a%'; |
+| Rank | Statement | Description | Query |
+|-------|--------|-----------|----------|
+| 01 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
+| 02 | SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | SELECT DISTINCT Country FROM Customers; |
+| 03 | WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers WHERE Country='Mexico'; |
+| 04 | ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | SELECT * FROM Products ORDER BY Price DESC; |
+| 05 | AND | The AND operator displays a record if all the conditions are TRUE. | SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%'; |
+| 06 | OR | The OR operator displays a record if any of the conditions are TRUE. | SELECT * FROM Customers WHERE Country = 'Spain' OR CustomerName LIKE 'G%'; |
+| 07 | NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | SELECT * FROM Customers WHERE NOT Country = 'Spain'; | 
+| 08 | INSERT INTO | The INSERT INTO statement is used to insert new records in a table. It is also possible to only insert data in specific columns and multiple rows. | INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stavanger', 'Norway'); |
+| 09 | NULL VALUES | A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation! | SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NOT NULL; |
+| 10 | UPDATE | The UPDATE statement is used to modify the existing records in a table. It is the WHERE clause that determines how many records will be updated. | UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1; |
+| 11 | DELETE | The DELETE statement is used to delete existing records in a table. It is possible to delete all rows in a table without deleting the table. This means that the table structure, attributes, and indexes will be intact | DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste'; |
+| 12 | SELECT TOP | The SELECT TOP clause is used to specify the number of records to return. | SELECT TOP 3 * FROM Customers; |
+| 13 | AGG FUNC | An aggregate function is a function that performs a calculation on a set of values, and returns a single value. MIN(), MAX(), COUNT(), SUM(), AVG() | | 
+| 14 | MIN() | The MIN() function returns the smallest value of the selected column. | SELECT MIN(Price) FROM Products; |
+| 15 | MAX() | The MAX() function returns the largest value of the selected column. | SELECT MAX(Price) FROM Products; |
+| 16 | COUNT() | The COUNT() function returns the number of rows that matches a specified criterion. | SELECT COUNT(*) FROM Products; |
+| 17 | SUM() | The SUM() function returns the total sum of a numeric column. | SELECT SUM(Quantity) FROM OrderDetails; |
+| 18 | AVG() | The AVG() function returns the average value of a numeric column. |SELECT AVG(Price) FROM Products; |
+| 19 | LIKE | The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. | SELECT * FROM Customers WHERE CustomerName LIKE 'a%'; |
 
 
 
