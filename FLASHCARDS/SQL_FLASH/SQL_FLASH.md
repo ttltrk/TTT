@@ -26,6 +26,19 @@
 | 17 | SUM() | The SUM() function returns the total sum of a numeric column. | SELECT SUM(Quantity) FROM OrderDetails; |
 | 18 | AVG() | The AVG() function returns the average value of a numeric column. |SELECT AVG(Price) FROM Products; |
 | 19 | LIKE | The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. | SELECT * FROM Customers WHERE CustomerName LIKE 'a%'; |
+| 20 | WILDCARDS | | |
+| 21 | IN | | |
+| 22 | BETWEEN | | |
+| 23 | ALIASES | | |
+| 24 | INNER JOIN | | |
+| 25 | LEFT JOIN | | |
+| 26 | RIGHT JOIN | | |
+| 27 | FULL JOIN | | |
+| 28 | SELF JOIN | | |
+| 29 | UNION | | |
+| 30 | UNION ALL | | |
+| 31 | GROUP BY | | |
+| 32 | HAVING | | |
 
 
 
