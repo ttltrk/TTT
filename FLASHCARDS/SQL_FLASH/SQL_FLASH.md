@@ -38,7 +38,7 @@
 | 29 | UNION | | |
 | 30 | UNION ALL | | |
 | 31 | GROUP BY | The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country". | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;|
-| 32 | HAVING | The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions. | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; |
+| 32 | HAVING | The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions. The following SQL statement lists the number of customers in each country. Only include countries with more than 5 customers: | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; |
 | 33 | EXISTS | | |
 | 34 | ANY | | |
 | 35 | ALL | | |
