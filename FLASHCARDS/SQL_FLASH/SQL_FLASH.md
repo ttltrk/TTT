@@ -38,7 +38,7 @@
 | 29 | UNION | | |
 | 30 | UNION ALL | | |
 | 31 | GROUP BY | | |
-| 32 | HAVING | | |
+| 32 | HAVING | The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions. | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; |
 | 33 | EXISTS | | |
 | 34 | ANY | | |
 | 35 | ALL | | |
