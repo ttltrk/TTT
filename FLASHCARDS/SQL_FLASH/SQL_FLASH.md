@@ -31,7 +31,7 @@
 | 22 | BETWEEN | | |
 | 23 | ALIASES | | |
 | 24 | INNER JOIN | | |
-| 25 | LEFT JOIN | | |
+| 25 | LEFT JOIN | The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2).  | SELECT Customers.CustomerName, Orders.OrderID FROM Customers LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID |
 | 26 | RIGHT JOIN | | |
 | 27 | FULL JOIN | | |
 | 28 | SELF JOIN | | |
