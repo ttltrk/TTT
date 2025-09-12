@@ -39,7 +39,27 @@
 | 30 | UNION ALL | | |
 | 31 | GROUP BY | | |
 | 32 | HAVING | | |
-
+| 33 | EXISTS | | |
+| 34 | ANY | | |
+| 35 | ALL | | |
+| 36 | SELECT INTO | | |
+| 37 | INSERT INTO SELECT | | |
+| 38 | CASE | | |
+| 39 | NULL FUNCTIONS | | |
+| 40 | STORED PRROCEDURES | | |
+| 41 | COMMENTS | | |
+| 42 | OPERATORS | | |
+| 43 | CREATE DB | | |
+| 44 | DROP DB | | |
+| 45 | BACKUP DB | | |
+| 46 | CREATE TABLE | | |
+| 47 | DROP TABLE | | |
+| 48 | ALTER TABLE | | |
+| 49 | CONSTRAINTS | | |
+| 50 | NOT NULL | | |
+| 51 | UNIQUE | | |
+| 52 | PRIMARY KEY | | |
+| 53 | FOREIGN KEY | | |
 
 
 ---
