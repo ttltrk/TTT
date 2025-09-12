@@ -25,6 +25,7 @@
 | COUNT() | The COUNT() function returns the number of rows that matches a specified criterion. | SELECT COUNT(*) FROM Products; |
 | SUM() | The SUM() function returns the total sum of a numeric column. | SELECT SUM(Quantity) FROM OrderDetails; |
 | AVG() | The AVG() function returns the average value of a numeric column. |SELECT AVG(Price) FROM Products; |
+| LIKE | The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. | SELECT * FROM Customers WHERE CustomerName LIKE 'a%'; |
 
 
 
