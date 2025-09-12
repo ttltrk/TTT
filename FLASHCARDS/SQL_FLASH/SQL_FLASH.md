@@ -11,9 +11,9 @@
 | SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | SELECT DISTINCT Country FROM Customers; |
 | WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers WHERE Country='Mexico'; |
 | ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | SELECT * FROM Products ORDER BY Price DESC; |
-| AND | The AND operator displays a record if all the conditions are TRUE. | |
-| OR | The OR operator displays a record if any of the conditions are TRUE. |  |
-| NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | | 
+| AND | The AND operator displays a record if all the conditions are TRUE. | SELECT * FROM Customers WHERE Country = 'Spain' AND CustomerName LIKE 'G%'; |
+| OR | The OR operator displays a record if any of the conditions are TRUE. | SELECT * FROM Customers WHERE Country = 'Spain' OR CustomerName LIKE 'G%'; |
+| NOT | The NOT operator is used in combination with other operators to give the opposite result, also called the negative result. eg: NOT IN, NOT LIKE, NOT BETWEEN | SELECT * FROM Customers WHERE NOT Country = 'Spain'; | 
 | INSERT INTO | The INSERT INTO statement is used to insert new records in a table. It is also possible to only insert data in specific columns and multiple rows. | INSERT INTO Customers (CustomerName, City, Country) VALUES ('Cardinal', 'Stavanger', 'Norway'); |
 | NULL VALUES | A field with a NULL value is a field with no value. If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value. A NULL value is different from a zero value or a field that contains spaces. A field with a NULL value is one that has been left blank during record creation! | SELECT CustomerName, ContactName, Address FROM Customers WHERE Address IS NOT NULL; |
 | UPDATE | The UPDATE statement is used to modify the existing records in a table. It is the WHERE clause that determines how many records will be updated. | UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1; |
