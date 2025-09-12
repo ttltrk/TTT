@@ -30,9 +30,9 @@
 | 21 | IN | | |
 | 22 | BETWEEN | | |
 | 23 | ALIASES | | |
-| 24 | INNER JOIN | | |
+| 24 | INNER JOIN | The INNER JOIN keyword selects records that have matching values in both tables. | SELECT c.CustomerName, o.OrderID FROM Customers c INNER JOIN Orders o ON c.CustomerID = o.CustomerID |
 | 25 | LEFT JOIN | The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2).  | SELECT c.CustomerName, o.OrderID FROM Customers c LEFT JOIN Orders o ON c.CustomerID = o.CustomerID |
-| 26 | RIGHT JOIN | | |
+| 26 | RIGHT JOIN | The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). | SELECT c.CustomerName, o.OrderID FROM Customers c RIGHT JOIN Orders o ON c.CustomerID = o.CustomerID |
 | 27 | FULL JOIN | | |
 | 28 | SELF JOIN | | |
 | 29 | UNION | | |
