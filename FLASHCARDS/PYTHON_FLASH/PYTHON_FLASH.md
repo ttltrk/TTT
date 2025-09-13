@@ -9,23 +9,9 @@
 
 ---
 
-```
-IF ELSE
-
-a = 200
-b = 33
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
-else:
-  print("a is greater than b")
-
-```
-
----
-
 * [COMMENTS](#COMMENTS)
+* [COMMENTS_SINGLE_LINE](#COMMENTS_SINGLE_LINE)
+* [COMMENTS_MULTI_LINE](#COMMENTS_MULTI_LINE)
 * [VARIABLES](#VARIABLES)
 * [DATA_TYPES](#DATA_TYPES)
 * [NUMBERS](#NUMBERS)
@@ -153,7 +139,11 @@ more than just one line
 """
 ```
 
-##### SINGLE_LINE_COMMENT
+[^^^](#PYTHON_FLASH)
+
+---
+
+##### COMMENTS_SINGLE_LINE
 
 ```py
 #This is a comment
@@ -164,7 +154,11 @@ Hello, World!
 >>>
 ```
 
-##### MULTI_LINE_COMMENTS
+[^^^](#PYTHON_FLASH)
+
+---
+
+##### COMMENTS_MULTI_LINE
 
 ```py
 """
