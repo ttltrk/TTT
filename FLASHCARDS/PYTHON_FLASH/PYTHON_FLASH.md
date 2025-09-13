@@ -197,7 +197,7 @@ Variables are containers for storing data values.
 
 ---
 
-#### VARIABLES_CREATING
+#### CREATING_VARIABLES
 
 ```py
 x = 5
