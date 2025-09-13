@@ -60,6 +60,15 @@
 | 51 | UNIQUE | | |
 | 52 | PRIMARY KEY | | |
 | 53 | FOREIGN KEY | | |
+| 54 | CHECK | | |
+| 55 | DEFAULT | | |
+| 56 | INDEX | | |
+| 57 | AUTO INCREMENT | Auto-increment allows a unique number to be generated automatically when a new record is inserted into a table. Often this is the primary key field that we would like to be created automatically every time a new record is inserted. | CREATE TABLE Persons (Personid int NOT NULL AUTO_INCREMENT, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, PRIMARY KEY (Personid)); |
+| 58 | DATES | | |
+| 59 | VIEWS | | |
+| 60 | INJECTION | | |
+| 61 | HOSTING | | |
+| 62 | DATA TYPES | | |
 
 
 ---
