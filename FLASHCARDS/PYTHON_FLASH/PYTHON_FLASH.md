@@ -188,6 +188,24 @@ he was 35 years old
 >>>
 ```
 
+##### VARIABLES_CAMEL_CASE
+
+```py
+myVariableName = "John"
+```
+
+##### VARIABLES_PASCAL_CASE
+
+```py
+MyVariableName = "John"
+```
+
+##### VARIABLES_SNAKE_CASE
+
+```py
+my_variable_name = "John"
+```
+
 ##### MULTIPLE_VARIABLES
 
 ```py
