@@ -180,23 +180,32 @@ Hello, World!
 
 #### VARIABLES
 
-```py
-char_name = "John"
-char_age = 35
+```
+Variables are containers for storing data values.
 ```
 
-```py
-char_name = "John"
-char_age = "35"
+[^^^](#PYTHON_FLASH)
 
-print("There once was a man named " + char_name + ", ")
-print("he was " + char_age + " years old")
+---
+
+#### VARIABLES_CREATING
+
+```py
+x = 5
+y = "John"
+
+print(x)
+print(y)
 
 >>>
-There once was a man named John,
-he was 35 years old
+5
+John
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
 
 ##### VARIABLES_CAMEL_CASE
 
