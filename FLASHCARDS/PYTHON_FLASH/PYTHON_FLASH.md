@@ -12,7 +12,16 @@
 * [COMMENTS](#COMMENTS)
 * [COMMENTS_SINGLE_LINE](#COMMENTS_SINGLE_LINE)
 * [COMMENTS_MULTI_LINE](#COMMENTS_MULTI_LINE)
+
+---
+
 * [VARIABLES](#VARIABLES)
+* [CREATING_VARIABLES](#CREATING_VARIABLES)
+* [CASTING_VARIABLES](#CASTING_VARIABLES)
+* [](#)
+* [](#)   
+---
+
 * [DATA_TYPES](#DATA_TYPES)
 * [NUMBERS](#NUMBERS)
 * [NUMBER_TYPE_CONVERSION](#NUMBER_TYPE_CONVERSION)
@@ -200,6 +209,28 @@ print(y)
 >>>
 5
 John
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### CASTING_VARIABLES
+
+```py
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
+
+print(x)
+print(y)
+print(z)  
+
+>>>
+3
+3
+3.0
 >>>
 ```
 
