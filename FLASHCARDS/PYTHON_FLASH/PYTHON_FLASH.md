@@ -152,7 +152,7 @@ more than just one line
 
 ---
 
-##### COMMENTS_SINGLE_LINE
+##### SINGLE_LINE_COMMENTS
 
 ```py
 #This is a comment
@@ -167,7 +167,7 @@ Hello, World!
 
 ---
 
-##### COMMENTS_MULTI_LINE
+##### MULTI_LINE_COMMENTS
 
 ```py
 """
