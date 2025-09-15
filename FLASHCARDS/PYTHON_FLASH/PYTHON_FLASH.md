@@ -20,7 +20,7 @@
 * [CASTING_VARIABLES](#CASTING_VARIABLES)
 * [GET_THE_TYPE_VARIABLES](#GET_THE_TYPE_VARIABLES)
 * [SINGLE_DOUBLE_QUOTES_VARIABLES](#SINGLE_DOUBLE_QUOTES_VARIABLES)
-* [](#)
+* [CASE_SENSITIVE_VARIABLES](#CASE_SENSITIVE_VARIABLES)
 * [](#)
 * [](#)
 * [](#)
@@ -276,6 +276,23 @@ print(x, y)
 
 >>>
 John John
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### CASE_SENSITIVE_VARIABLES
+
+```py
+a = 4
+A = "Sally"
+
+print(a, A)
+
+>>>
+4 Sally
 >>>
 ```
 
