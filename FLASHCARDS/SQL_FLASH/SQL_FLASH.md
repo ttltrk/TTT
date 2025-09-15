@@ -58,7 +58,8 @@
 | 49 | CONSTRAINTS | | |
 | 50 | NOT NULL | | |
 | 51 | UNIQUE | | |
-| 52 | PRIMARY KEY | | |
+| 52 | PRIMARY KEY | The PRIMARY KEY constraint is used to uniquely identify each record in a table. Primary keys must contain unique values, and cannot contain NULL values. | CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255),
+Age int, CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)); |
 | 53 | FOREIGN KEY | | |
 | 54 | CHECK | | |
 | 55 | DEFAULT | | |
