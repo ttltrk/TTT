@@ -54,7 +54,7 @@
 | 45 | BACKUP DB | | |
 | 46 | CREATE TABLE | | |
 | 47 | DROP TABLE | The DROP TABLE statement is used to drop an existing table in a database. | DROP TABLE Shippers; |
-| 48 | ALTER TABLE | | |
+| 48 | ALTER TABLE | The ALTER TABLE statement is used to add, delete, or modify columns in an existing table. | ALTER TABLE Customers ADD Email varchar(255); |
 | 49 | CONSTRAINTS | | |
 | 50 | NOT NULL | | |
 | 51 | UNIQUE | | |
@@ -65,7 +65,7 @@
 | 56 | INDEX | Indexes are used to retrieve data from the database more quickly than otherwise. The users cannot see the indexes, they are just used to speed up searches/queries. | CREATE INDEX idx_lastname ON Persons (LastName); |
 | 57 | AUTO INCREMENT | Auto-increment allows a unique number to be generated automatically when a new record is inserted into a table. Often this is the primary key field that we would like to be created automatically every time a new record is inserted. | CREATE TABLE Persons (Personid int NOT NULL AUTO_INCREMENT, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, PRIMARY KEY (Personid)); |
 | 58 | DATES | | |
-| 59 | VIEWS | | |
+| 59 | VIEWS | In SQL, a view is a virtual table based on the result-set of an SQL statement. A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database. | CREATE VIEW [Brazil Customers] AS SELECT CustomerName, ContactName FROM Customers WHERE Country = 'Brazil'; |
 | 60 | INJECTION | | |
 | 61 | HOSTING | | |
 | 62 | DATA TYPES | | |
