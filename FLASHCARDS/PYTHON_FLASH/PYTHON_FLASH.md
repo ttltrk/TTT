@@ -18,7 +18,7 @@
 * [VARIABLES](#VARIABLES)
 * [CREATING_VARIABLES](#CREATING_VARIABLES)
 * [CASTING_VARIABLES](#CASTING_VARIABLES)
-* [](#)
+* [GET_THE_TYPE_VARIABLES](#GET_THE_TYPE_VARIABLES)
 * [](#)   
 ---
 
@@ -238,25 +238,40 @@ print(z)
 
 ---
 
-##### VARIABLES_CAMEL_CASE
+#### GET_THE_TYPE_VARIABLES
+
+```py
+x = 5
+y = "John"
+
+print(type(x))
+print(type(y))
+
+>>>
+<class 'int'>
+<class 'str'>
+>>>
+```
+
+#### VARIABLES_CAMEL_CASE
 
 ```py
 myVariableName = "John"
 ```
 
-##### VARIABLES_PASCAL_CASE
+#### VARIABLES_PASCAL_CASE
 
 ```py
 MyVariableName = "John"
 ```
 
-##### VARIABLES_SNAKE_CASE
+#### VARIABLES_SNAKE_CASE
 
 ```py
 my_variable_name = "John"
 ```
 
-##### MULTIPLE_VARIABLES
+#### MULTIPLE_VARIABLES
 
 ```py
 x, y, z = "Orange", "Banana", "Cherry"
