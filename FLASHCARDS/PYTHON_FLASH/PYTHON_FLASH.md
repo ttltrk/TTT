@@ -19,7 +19,16 @@
 * [CREATING_VARIABLES](#CREATING_VARIABLES)
 * [CASTING_VARIABLES](#CASTING_VARIABLES)
 * [GET_THE_TYPE_VARIABLES](#GET_THE_TYPE_VARIABLES)
-* [](#)   
+* [SINGLE_DOUBLE_QUOTES_VARIABLES](#SINGLE_DOUBLE_QUOTES_VARIABLES)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+    
 ---
 
 * [DATA_TYPES](#DATA_TYPES)
@@ -252,6 +261,27 @@ print(type(y))
 <class 'str'>
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### SINGLE_DOUBLE_QUOTES_VARIABLES
+
+```py
+x = "John"
+y = 'John'
+
+print(x, y)
+
+>>>
+John John
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
 
 #### VARIABLES_CAMEL_CASE
 
