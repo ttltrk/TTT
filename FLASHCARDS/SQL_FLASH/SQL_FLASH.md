@@ -59,7 +59,7 @@
 | 50 | NOT NULL | | |
 | 51 | UNIQUE | | |
 | 52 | PRIMARY KEY | The PRIMARY KEY constraint is used to uniquely identify each record in a table. Primary keys must contain unique values, and cannot contain NULL values. | CREATE TABLE Persons (ID int NOT NULL, LastName varchar(255) NOT NULL, FirstName varchar(255), Age int, CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)); |
-| 53 | FOREIGN KEY | | |
+| 53 | FOREIGN KEY | The FOREIGN KEY constraint is used to prevent actions that would destroy links between tables. A FOREIGN KEY is a field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table. The table with the foreign key is called the child table, and the table with the primary key is called the referenced or parent table. | |
 | 54 | CHECK | | |
 | 55 | DEFAULT | | |
 | 56 | INDEX | Indexes are used to retrieve data from the database more quickly than otherwise. The users cannot see the indexes, they are just used to speed up searches/queries. | CREATE INDEX idx_lastname ON Persons (LastName); |
