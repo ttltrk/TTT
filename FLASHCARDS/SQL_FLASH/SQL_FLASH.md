@@ -27,9 +27,9 @@
 | 18 | AVG() | The AVG() function returns the average value of a numeric column. |SELECT AVG(Price) FROM Products; |
 | 19 | LIKE | The LIKE operator is used in a WHERE clause to search for a specified pattern in a column. | SELECT * FROM Customers WHERE CustomerName LIKE 'a%'; |
 | 20 | WILDCARDS | | |
-| 21 | IN | | |
-| 22 | BETWEEN | | |
-| 23 | ALIASES | | |
+| 21 | IN | The IN operator allows you to specify multiple values in a WHERE clause. | SELECT * FROM Customers WHERE Country IN ('Germany', 'France', 'UK'); |
+| 22 | BETWEEN | The BETWEEN operator selects values within a given range. The values can be numbers, text, or dates. The BETWEEN operator is inclusive: begin and end values are included.  | SELECT * FROM Products WHERE Price NOT BETWEEN 10 AND 20; |
+| 23 | ALIASES | SQL aliases are used to give a table, or a column in a table, a temporary name. | SELECT CustomerID ID FROM Customers; |
 | 24 | INNER JOIN | The INNER JOIN keyword selects records that have matching values in both tables. | SELECT c.CustomerName, o.OrderID FROM Customers c INNER JOIN Orders o ON c.CustomerID = o.CustomerID |
 | 25 | LEFT JOIN | The LEFT JOIN keyword returns all records from the left table (table1), and the matching records from the right table (table2).  | SELECT c.CustomerName, o.OrderID FROM Customers c LEFT JOIN Orders o ON c.CustomerID = o.CustomerID |
 | 26 | RIGHT JOIN | The RIGHT JOIN keyword returns all records from the right table (table2), and the matching records from the left table (table1). | SELECT c.CustomerName, o.OrderID FROM Customers c RIGHT JOIN Orders o ON c.CustomerID = o.CustomerID |
