@@ -26,9 +26,15 @@
 * [SNAKE_CASE_VARIABLES](#SNAKE_CASE_VARIABLES)
 * [MANY_VALUES_MULTI_VARIABLES](#MANY_VALUES_MULTI_VARIABLES)
 * [ONE_VALUE_MULTI_VARIABLES](#ONE_VALUE_MULTI_VARIABLES)
+* [UNPACK_A_COLLECTION](#UNPACK_A_COLLECTION)
 * [](#)
 * [](#)
-    
+* [](#)    
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* 
 ---
 
 * [DATA_TYPES](#DATA_TYPES)
@@ -364,6 +370,67 @@ Orange
 Orange
 Orange
 >>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### UNPACK_A_COLLECTION
+
+```py
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+
+print(x)
+print(y)
+print(z)
+
+>>>
+apple
+banana
+cherry
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+```py
+
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+```py
+
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+```py
+
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+```py
+
 ```
 
 [^^^](#PYTHON_FLASH)
