@@ -24,8 +24,8 @@
 * [CAMEL_CASE_VARIABLES](#CAMEL_CASE_VARIABLES)
 * [PASCAL_CASE_VARIABLES](#PASCAL_CASE_VARIABLES)
 * [SNAKE_CASE_VARIABLES](#SNAKE_CASE_VARIABLES)
-* [](#)
-* [](#)
+* [MANY_VALUES_MULTI_VARIABLES](#MANY_VALUES_MULTI_VARIABLES)
+* [ONE_VALUE_MULTI_VARIABLES](#ONE_VALUE_MULTI_VARIABLES)
 * [](#)
 * [](#)
     
@@ -330,11 +330,7 @@ my_variable_name = "John"
 
 ---
 
-#### MULTIPLE_VARIABLES
-
-```py
-x, y, z = "Orange", "Banana", "Cherry"
-```
+#### MANY_VALUES_MULTI_VARIABLES
 
 ```py
 x, y, z = "Orange", "Banana", "Cherry"
@@ -347,6 +343,26 @@ print(z)
 Orange
 Banana
 Cherry
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### ONE_VALUE_MULTI_VARIABLES
+
+```py
+x = y = z = "Orange"
+
+print(x)
+print(y)
+print(z)
+
+>>>
+Orange
+Orange
+Orange
 >>>
 ```
 
