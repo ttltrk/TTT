@@ -29,12 +29,8 @@
 * [UNPACK_A_COLLECTION](#UNPACK_A_COLLECTION)
 * [OUTPUT_VARIABLES](#OUTPUT_VARIABLES)
 * [GLOBAL_VARIABLES](#GLOBAL_VARIABLES)
-* [](#)    
-* [](#)
-* [](#)
-* [](#)
-* [](#)
-* 
+* [GLOBAL_KEYWORDS](#GLOBAL_KEYWORDS)    
+
 ---
 
 * [DATA_TYPES](#DATA_TYPES)
@@ -467,10 +463,36 @@ Python is awesome
 
 ---
 
-####
+#### GLOBAL_KEYWORDS
 
 ```py
+def myfunc():
+  global x
+  x = "fantastic"
 
+myfunc()
+
+print("Python is " + x)
+
+>>>
+Python is fantastic
+>>>
+```
+
+```py
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+>>>
+Python is fantastic
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
