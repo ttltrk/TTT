@@ -33,7 +33,11 @@
 
 ---
 
-* [DATA_TYPES](#DATA_TYPES)
+* [BUILT_IN_DATA_TYPES](#BUILT_IN_DATA_TYPES)
+* [GETTING_DATA_TYPE](#GETTING_DATA_TYPE)
+
+---
+
 * [NUMBERS](#NUMBERS)
 * [NUMBER_TYPE_CONVERSION](#NUMBER_TYPE_CONVERSION)
 * [RANDOM_NUMBER](#RANDOM_NUMBER)
@@ -499,31 +503,40 @@ Python is fantastic
 
 ---
 
-####
+#### BUILT_IN_DATA_TYPES
 
-```py
-
+```
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
 ```
 
 [^^^](#PYTHON_FLASH)
 
 ---
 
-#### DATA_TYPES
+#### GETTING_DATA_TYPE
 
-##### BUILT_IN_DT
+```py
+x = 5
 
-```
-- Text Type: str
-- Numeric Types: int, float, complex
-- Sequence Types: list, tuple, range
-- Mapping Type: dict
-- Set Types: set, frozenset
-- Boolean Type: bool
-- Binary Types: bytes, bytearray, memoryview
+print(type(x))
+
+>>>
+<class 'int'>
+>>>
 ```
 
-##### TEXT_TYPE
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### TEXT_TYPE
 
 ```
 - Text Type: str
