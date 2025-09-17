@@ -36,8 +36,7 @@
 | 27 | FULL JOIN | | |
 | 28 | SELF JOIN | | |
 | 29 | UNION | The UNION operator is used to combine the result-set of two or more SELECT statements. The UNION operator automatically removes duplicate rows from the result set. Every SELECT statement within UNION must have the same number of columns. The columns must also have similar data types. The columns in every SELECT statement must also be in the same order | SELECT City FROM Customers UNION SELECT City FROM Suppliers ORDER BY City;|
-| 30 | UNION ALL | The UNION ALL operator is used to combine the result-set of two or more SELECT statements. The UNION ALL operator includes all rows from each statement, including any duplicates. | SELECT City FROM Customers UNION ALL SELECT City FROM Suppliers
-ORDER BY City; |
+| 30 | UNION ALL | The UNION ALL operator is used to combine the result-set of two or more SELECT statements. The UNION ALL operator includes all rows from each statement, including any duplicates. | SELECT City FROM Customers UNION ALL SELECT City FROM Suppliers ORDER BY City; |
 | 31 | GROUP BY | The GROUP BY statement groups rows that have the same values into summary rows, like "find the number of customers in each country". | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country;|
 | 32 | HAVING | The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions. The following SQL statement lists the number of customers in each country. Only include countries with more than 5 customers: | SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5; |
 | 33 | EXISTS | | |
