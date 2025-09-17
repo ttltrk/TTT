@@ -27,7 +27,7 @@
 * [MANY_VALUES_MULTI_VARIABLES](#MANY_VALUES_MULTI_VARIABLES)
 * [ONE_VALUE_MULTI_VARIABLES](#ONE_VALUE_MULTI_VARIABLES)
 * [UNPACK_A_COLLECTION](#UNPACK_A_COLLECTION)
-* [](#)
+* [OUTPUT_VARIABLES](#OUTPUT_VARIABLES)
 * [](#)
 * [](#)    
 * [](#)
@@ -397,10 +397,20 @@ cherry
 
 ---
 
-####
+#### OUTPUT_VARIABLES
 
 ```py
+x = "Python"
+y = "is"
+z = "awesome"
 
+print(x, y, z)
+print(x + y + z)
+
+>>>
+Python is awesome
+Pythonisawesome
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
