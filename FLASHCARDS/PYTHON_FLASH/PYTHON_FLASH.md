@@ -28,7 +28,7 @@
 * [ONE_VALUE_MULTI_VARIABLES](#ONE_VALUE_MULTI_VARIABLES)
 * [UNPACK_A_COLLECTION](#UNPACK_A_COLLECTION)
 * [OUTPUT_VARIABLES](#OUTPUT_VARIABLES)
-* [](#)
+* [GLOBAL_VARIABLES](#GLOBAL_VARIABLES)
 * [](#)    
 * [](#)
 * [](#)
@@ -417,10 +417,33 @@ Pythonisawesome
 
 ---
 
-####
+#### GLOBAL_VARIABLES
 
 ```py
+x = "awesome"
 
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+>>>
+Python is awesome
+>>>
+```
+
+```py
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+>>>
+Python is fantastic
+>>>
 ```
 
 [^^^](#PYTHON_FLASH)
