@@ -446,6 +446,23 @@ Python is fantastic
 >>>
 ```
 
+```py
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+>>>
+Python is fantastic
+Python is awesome
+>>>
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
