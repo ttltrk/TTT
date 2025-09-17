@@ -42,7 +42,7 @@
 | 33 | EXISTS | | |
 | 34 | ANY | | |
 | 35 | ALL | | |
-| 36 | SELECT INTO | | |
+| 36 | SELECT INTO | The SELECT INTO statement copies data from one table into a new table. | SELECT * INTO CustomersBackup2017 FROM Customers; |
 | 37 | INSERT INTO SELECT | | |
 | 38 | CASE | | |
 | 39 | NULL FUNCTIONS | | |
