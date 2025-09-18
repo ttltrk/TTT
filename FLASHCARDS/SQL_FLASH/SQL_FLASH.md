@@ -44,7 +44,7 @@
 | 35 | ALL | | |
 | 36 | SELECT INTO | The SELECT INTO statement copies data from one table into a new table. | SELECT * INTO CustomersBackup2017 FROM Customers; |
 | 37 | INSERT INTO SELECT | | |
-| 38 | CASE | | |
+| 38 | CASE | The CASE expression goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause. | CASE WHEN condition1 THEN result1 WHEN condition2 THEN result2 WHEN conditionN THEN resultN ELSE result END; |
 | 39 | NULL FUNCTIONS | | |
 | 40 | STORED PRROCEDURES | | |
 | 41 | COMMENTS | | |
