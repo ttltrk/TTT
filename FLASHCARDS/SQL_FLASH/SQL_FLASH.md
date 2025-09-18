@@ -46,7 +46,7 @@
 | 37 | INSERT INTO SELECT | | |
 | 38 | CASE | The CASE expression goes through conditions and returns a value when the first condition is met (like an if-then-else statement). So, once a condition is true, it will stop reading and return the result. If no conditions are true, it returns the value in the ELSE clause. | CASE WHEN condition1 THEN result1 WHEN condition2 THEN result2 WHEN conditionN THEN resultN ELSE result END; |
 | 39 | NULL FUNCTIONS | | |
-| 40 | STORED PRROCEDURES | | |
+| 40 | STORED PRROCEDURES | A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again. So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it. | CREATE PROCEDURE procedure_name AS sql_statement GO; |
 | 41 | COMMENTS | | |
 | 42 | OPERATORS | | |
 | 43 | CREATE DB | | |
