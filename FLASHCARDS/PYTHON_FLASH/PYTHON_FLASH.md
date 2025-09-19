@@ -39,7 +39,13 @@
 ---
 
 * [NUMBERS](#NUMBERS)
-* [NUMBER_TYPE_CONVERSION](#NUMBER_TYPE_CONVERSION)
+* [NUMBER_INT_TO_FLOAT](#NUMBER_INT_TO_FLOAT)
+* [NUMBER_FLOAT_TO_INT](#NUMBER_FLOAT_TO_INT)
+* [NUMBER_INT_TO_COMPLEX](#NUMBER_INT_TO_COMPLEX)
+* [NUMBER_INT_TO_STRING](#NUMBER_INT_TO_STRING)
+
+---
+
 * [RANDOM_NUMBER](#RANDOM_NUMBER)
 * [MATH](#MATH)
 * [CASTING](#CASTING)
@@ -744,7 +750,11 @@ print(type(x))
 - complex
 ```
 
-##### INT
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NUMBERS_ INT
 
 ```py
 '''
@@ -767,7 +777,11 @@ print(type(z))
 >>>
 ```
 
-##### FLOAT
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NUMBERS_FLOAT
 
 ```py
 '''
@@ -790,7 +804,11 @@ print(type(z))
 >>>
 ```
 
-##### COMPLEX
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NUMBERS_COMPLEX
 
 ```py
 #Complex numbers are written with a "j" as the imaginary part:
@@ -814,9 +832,7 @@ print(type(z))
 
 ---
 
-#### NUMBER_TYPE_CONVERSION
-
-##### INT_TO_FLOAT
+#### NUMBERS_INT_TO_FLOAT
 
 ```py
 x = 1 # int
@@ -836,7 +852,11 @@ print(type(a))
 >>>
 ```
 
-##### FLOAT_TO_INT
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NUMBERS_FLOAT_TO_INT
 
 ```py
 y = 2.8 # float
@@ -856,7 +876,11 @@ print(type(b))
 >>>
 ```
 
-##### INT_TO_COMPLEX
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NUMBERS_INT_TO_COMPLEX
 
 ```py
 x = 1 # int
@@ -876,7 +900,11 @@ print(type(c))
 >>>
 ```
 
-##### INT_TO_STRING
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### NUMBERS_INT_TO_STRING
 
 ```py
 my_num=20
