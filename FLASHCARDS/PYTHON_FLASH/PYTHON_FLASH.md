@@ -557,7 +557,7 @@ print(type(x))
 
 ---
 
-#### NUMBERS_ INT
+#### NUMBERS_INT
 
 ```py
 '''
