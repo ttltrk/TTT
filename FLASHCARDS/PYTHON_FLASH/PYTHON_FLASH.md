@@ -172,6 +172,7 @@
 #### DSA
 
 * [LISTS](#LISTS)
+* [STACKS](#STACKS)
 
 ---
 
@@ -3790,6 +3791,110 @@ Lowest value: 2
 >>>
 ```
 
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### STACKS
+
+A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle.
+Think of it like a stack of pancakes - you can only add or remove pancakes from the top.
+
+```
+Basic operations we can do on a stack are:
+
+Push: Adds a new element on the stack.
+Pop: Removes and returns the top element from the stack.
+Peek: Returns the top (last) element on the stack.
+isEmpty: Checks if the stack is empty.
+Size: Finds the number of elements in the stack.
+```
+
+```py
+stack = []
+
+# Push
+stack.append('A')
+stack.append('B')
+stack.append('C')
+print("Stack: ", stack)
+
+# Peek
+topElement = stack[-1]
+print("Peek: ", topElement)
+
+# Pop
+poppedElement = stack.pop()
+print("Pop: ", poppedElement)
+
+# Stack after Pop
+print("Stack after Pop: ", stack)
+
+# isEmpty
+isEmpty = not bool(stack)
+print("isEmpty: ", isEmpty)
+
+# Size
+print("Size: ",len(stack))
+
+>>>
+Stack:  ['A', 'B', 'C']
+Peek:  C
+Pop:  C
+Stack after Pop:  ['A', 'B']
+isEmpty:  False
+Size:  2
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+####
 
 [^^^](#PYTHON_FLASH)
 
