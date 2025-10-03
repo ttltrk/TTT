@@ -169,6 +169,12 @@
 
 ---
 
+#### DSA
+
+* [LISTS](#LISTS)
+
+---
+
 #### COMMENTS
 
 ```py
@@ -3762,7 +3768,28 @@ Number of rows:
 
 ---
 
-####
+#### LISTS
+
+In Python, lists are the built-in data structure that serves as a dynamic array.
+Lists are ordered, mutable, and can contain elements of different types.
+
+For example, an algorithm can be used to find the lowest value in a list, like in the example below
+
+```py
+my_array = [7, 12, 9, 4, 11, 8, 2]
+minVal = my_array[0]
+
+for i in my_array:
+  if i < minVal:
+    minVal = i
+
+print('Lowest value:', minVal)
+
+>>>
+Lowest value: 2
+>>>
+```
+
 
 [^^^](#PYTHON_FLASH)
 
