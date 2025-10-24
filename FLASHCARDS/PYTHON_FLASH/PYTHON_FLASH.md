@@ -908,6 +908,19 @@ orl
 
 ---
 
+#### ARRAYS
+
+```
+LIST - [] - ordered - changeable - allow dups
+DICT - {} - ordered - changeable - don't allow dupls
+TUP  - () - ordered - unchangeable
+SET  - {} - unordered - unchangeable - unindexed
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
 #### LIST_METH
 
 ```
