@@ -910,6 +910,10 @@ orl
 
 #### LIST_METH
 
+```
+List items are ordered, changeable, and allow duplicate values.
+```
+
 ```py
 
 ----------------------------------------------------------------
@@ -1000,6 +1004,11 @@ cars.sort() #['BMW', 'Ford', 'Volvo']
 ---
 
 #### DICT_METH
+
+```
+Dictionaries are used to store data values in key:value pairs.
+A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+```
 
 ```py
 
@@ -1131,6 +1140,12 @@ x = car.values() #dict_values(['Ford', 'Mustang', 1964])
 
 #### TUPLE_METH
 
+```
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets.
+```
+
 ```py
 
 ----------------------------------------------------------------
@@ -1157,7 +1172,10 @@ x = thistuple.index(8) #3
 
 #### SET_METH
 
+```
+A set is a collection which is unordered, unchangeable*, and unindexed.
 Set items are unchangeable, but you can remove items and add new items.
+```
 
 ```py
 
