@@ -927,7 +927,6 @@ SET  - {} - unordered - unchangeable - unindexed
 List items are ordered, changeable, and allow duplicate values.
 ```
 
-```
 |method name|meaning|
 |-----------|-------|
 |append()|	Adds an element at the end of the list|
@@ -941,7 +940,7 @@ List items are ordered, changeable, and allow duplicate values.
 |remove()|	Removes the item with the specified value|
 |reverse()|	Reverses the order of the list|
 |sort()|	Sorts the list|
-```
+
 
 ```py
 
