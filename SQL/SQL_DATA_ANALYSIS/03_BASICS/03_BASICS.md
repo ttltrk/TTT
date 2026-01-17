@@ -9,6 +9,7 @@
 
 ---
 
+* [THE_BIG6](#THE_BIG6)
 * [COMMON_KEYWORDS](#COMMON_KEYWORDS)
 * [MAX_MIN](#MAX_MIN)
 * [IN](#IN)
@@ -24,6 +25,17 @@
 * []()
 
 ---
+
+##### THE_BIG6
+
+```
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+```
 
 ```sql
 select s.grade_level,
