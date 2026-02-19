@@ -55,6 +55,7 @@
 | 46 | CREATE TABLE | | |
 | 47 | DROP TABLE | The DROP TABLE statement is used to drop an existing table in a database. | DROP TABLE Shippers; |
 | 48 | ALTER TABLE | The ALTER TABLE statement is used to add, delete, or modify columns in an existing table. | ALTER TABLE Customers ADD Email varchar(255); |
+| 48 | TRUNCATE TABLE | The TRUNCATE command is used to delete the complete data from the table. | TRUNCATE table trk_test_xx |
 | 49 | CONSTRAINTS | | |
 | 50 | NOT NULL | | |
 | 51 | UNIQUE | | |
