@@ -23,6 +23,8 @@
 
 ---
 
+- 2026-02-19 - Data analyst FC (youtube) + SQL Flash + PY Flash
+
 - 2024-05-05 - scipy intro
 
 - 34 - 2024-MRC-05 - sql fundamentals
