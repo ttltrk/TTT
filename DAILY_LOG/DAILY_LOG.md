@@ -23,6 +23,7 @@
 
 ---
 
+- 2026-02-20 - Data engineering yt
 - 2026-02-19 - Data analyst FC (youtube) + SQL Flash + PY Flash
 
 - 2024-05-05 - scipy intro
