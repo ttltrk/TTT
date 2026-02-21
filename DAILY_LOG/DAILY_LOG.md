@@ -23,6 +23,7 @@
 
 ---
 
+- 03 - 2026-02-21 - left joins
 - 2026-02-20 - Data engineering yt
 - 2026-02-19 - Data analyst FC (youtube) + SQL Flash + PY Flash
 
