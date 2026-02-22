@@ -1,25 +1,7 @@
 
 ---
 
-#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md)
-
----
-
-- sql / ds
-- sap
-- sap, solo sql
-- solo sql
-- fx, crypto
-- dba fun - 2024-06-02
-- fx - 2024-06-01
-- fx - 2024-05-30
-
-- cyber - 2024-05-25
-- numpy - 2024-05-24
-- xml in python 2024-05-21
-- mob - osi, sql 2024-05-18
-- mob - numpy, pandas 2024-05-12
-- 01 - 2024-MAY-08 - CS, C, GIT
+#### [M](https://github.com/ttltrk/TTT/blob/
 
 ---
 
