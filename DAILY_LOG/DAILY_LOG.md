@@ -5,8 +5,8 @@
 
 ---
 
-- 0004 - 2026-02-22 - left joins
-- 0003 - 2026-02-21 - left joins
+- 0004 - 2026-02-22 - left joins (LEN)
+- 0003 - 2026-02-21 - left joins (LEN)
 - 0002 - 2026-02-20 - Data engineering yt
 - 0001 - 2026-02-19 - Data analyst FC (youtube) + SQL Flash + PY Flash
 
