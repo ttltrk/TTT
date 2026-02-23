@@ -12,6 +12,7 @@
 * [REPLICATE_TIMESTAMPS](#REPLICATE_TIMESTAMPS)
 * [CREATE_MAPPING_TABLE](#CREATE_MAPPING_TABLE)
 * [CHECK_DUPLICATES](#CHECK_DUPLICATES)
+* [DEDUPLICATION](#DEDUPLICATION)
 
 ---
 
@@ -133,4 +134,29 @@ where coalesce(a,0)<>coalesce(b,0)
 [^^^](#SQL_ADV_FLASH)
 
 ---
-    
+
+#### DEDUPLICATION
+
+```sql
+--find duplicates
+select PN, count(*)
+from sch.CAMP_C77
+group by PN
+having count(*) > 1  
+
+--send it to the new table
+INSERT INTO sch.CAMP_NEW_CLEAN (PN, Campaign)
+SELECT PN, Campaign
+FROM (
+    SELECT 
+        PN,
+        Campaign,
+        ROW_NUMBER() OVER (PARTITION BY PN ORDER BY (SELECT NULL)) AS rn
+    FROM sch.CAMP_NEW
+) AS t
+WHERE rn = 1;
+```
+
+[^^^](#SQL_ADV_FLASH)
+
+---
