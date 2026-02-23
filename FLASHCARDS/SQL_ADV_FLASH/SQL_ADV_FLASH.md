@@ -18,12 +18,24 @@ VALUES
 --,('6700018677')
 --,('6700018678')
 
--- delete script
+-- delete part (if it is needed)
 
 DELETE v
 FROM sch.main_tab_test_20260223 v
 INNER JOIN sch.del_ordno_map m
     ON v.SO_NUMBER = m.ORDNO;
+
+-- update part (if it is needed)
+
+UPDATE sch. set CONTRACT_NUMBER = 'ZJKQP5VS' where [INVOICE NUMBER] IN ('6700018676','6700018677','6700018678');
+
+-- request after (using a mapping table)
+
+UPDATE sch.main_tab_test_20260223
+set SPECIAL_BID_NO = 'ZJKQP5VS' 
+--select top 100 data.[INVOICE NUMBER], map.[INVOICE NUMBER]
+FROM sch.main_tab_test_20260223 data  
+INNER JOIN sch.del_ordno_map map on data.[INVOICE NUMBER] = map.[INVOICE NUMBER]
 ```
 
 ---
