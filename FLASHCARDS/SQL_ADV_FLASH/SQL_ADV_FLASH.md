@@ -46,6 +46,10 @@ FROM sch.main_tab
 WHERE TIMESTAMP = '2025-04-11'
 ```
 
+[^^^](#SQL_ADV_FLASH)
+
+---
+
 ---
 
 ##### CREATE_MAPPING_TABLE
@@ -83,6 +87,8 @@ SET SPECIAL_BID_NO = 'ZJKQP5VS'
 FROM sch.main_tab_test_20260223 data  
 INNER JOIN sch.del_ordno_map map ON data.[INVOICE NUMBER] = map.[INVOICE NUMBER]
 ```
+
+[^^^](#SQL_ADV_FLASH)
 
 ---
 
