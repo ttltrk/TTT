@@ -5,6 +5,8 @@
 
 ---
 
+##### CREATE_MAPPING_TABLE
+
 ```sql
 -- create and update mapping table
 CREATE TABLE sch.del_ordno_map (
