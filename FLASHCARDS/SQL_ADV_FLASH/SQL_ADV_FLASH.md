@@ -11,6 +11,7 @@
 
 * [REPLICATE_TIMESTAMPS](#REPLICATE_TIMESTAMPS)
 * [CREATE_MAPPING_TABLE](#CREATE_MAPPING_TABLE)
+* [CHECK_DUPLICATES](#CHECK_DUPLICATES)
 
 ---
 
@@ -94,4 +95,42 @@ INNER JOIN sch.del_ordno_map map ON data.[INVOICE NUMBER] = map.[INVOICE NUMBER]
 
 ---
 
+#### CHECK_DUPLICATES
+
+```sql
+select cdate, count(*)
+from  ms.dim_calendar cal 
+group by cdate
+having count(*) > 1 ---change for channel DM - in past 2  
+
+select country, count(*)
+from ms.dim_country ctry 
+group by country
+having count(*) > 1
+
+select special_bid_number, count(*)
+from sch.fact_ms_contracts_par_imp  
+group by special_bid_number
+having count(*) > 1
+```
+
+```sql
+with original as (
+select count(*)a, [sales doc number] from sch.[vw_xxx_UNION]
+where [shipping date]>='2023-04-01'
+group by [sales doc number]
+),neww as (
+ 
+ 
+select count(*)b, [sales doc number] from sch.[vw_xxx_UNION_abc]
+ 
+group by [sales doc number])
+ 
+select * from original full outer join neww on original.[sales doc number]= neww.[sales doc number]
+where coalesce(a,0)<>coalesce(b,0)
+```
+
+[^^^](#SQL_ADV_FLASH)
+
+---
     
