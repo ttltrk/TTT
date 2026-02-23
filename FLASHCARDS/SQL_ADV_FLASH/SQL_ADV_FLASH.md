@@ -5,6 +5,44 @@
 
 ---
 
+##### REPLICATE_TIMESTAMPS
+
+```sql
+select top 100 * from sch.main_tab order by TIMESTAMP desc
+
+-- replicate data from friday 2025-04-11 to Saturday 2025-04-12, Sunday 2025-04-13, Monday 2025-04-14
+
+INSERT INTO sch.main_tab (
+    PRODUCT_ID,
+    CUSTOMER_ID,
+    BM,
+    QUANTITY_INV, 
+    QUANTITY_AGED60,
+    QUANTITY_BACKLOG,
+    QUANTITY_TRANZIT,
+    TIMESTAMP,
+    AVAIL_QTY,
+    ORD_QTY
+)
+SELECT 
+    PRODUCT_ID,
+    CUSTOMER_ID,
+    BM,
+    QUANTITY_INV, 
+    QUANTITY_AGED60,
+    QUANTITY_BACKLOG,
+    QUANTITY_TRANZIT,
+    --'2025-04-12' as TIMESTAMP,
+	--'2025-04-13' as TIMESTAMP,
+	'2025-04-14' as TIMESTAMP,
+    AVAIL_QTY,
+    ORD_QTY
+FROM sch.main_tab
+WHERE TIMESTAMP = '2025-04-11'
+```
+
+---
+
 ##### CREATE_MAPPING_TABLE
 
 ```sql
