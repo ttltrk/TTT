@@ -54,8 +54,6 @@ WHERE TIMESTAMP = '2025-04-11'
 
 ---
 
----
-
 ##### CREATE_MAPPING_TABLE
 
 ```sql
