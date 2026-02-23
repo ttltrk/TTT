@@ -27,15 +27,16 @@ INNER JOIN sch.del_ordno_map m
 
 -- update part (if it is needed)
 
-UPDATE sch. set CONTRACT_NUMBER = 'ZJKQP5VS' where [INVOICE NUMBER] IN ('6700018676','6700018677','6700018678');
+UPDATE sch.main_tab_test_20260223
+SET CONTRACT_NUMBER = 'ZJKQP5VS'
+WHERE [INVOICE NUMBER] IN ('6700018676','6700018677','6700018678');
 
 -- request after (using a mapping table)
 
 UPDATE sch.main_tab_test_20260223
-set SPECIAL_BID_NO = 'ZJKQP5VS' 
---select top 100 data.[INVOICE NUMBER], map.[INVOICE NUMBER]
+SET SPECIAL_BID_NO = 'ZJKQP5VS' 
 FROM sch.main_tab_test_20260223 data  
-INNER JOIN sch.del_ordno_map map on data.[INVOICE NUMBER] = map.[INVOICE NUMBER]
+INNER JOIN sch.del_ordno_map map ON data.[INVOICE NUMBER] = map.[INVOICE NUMBER]
 ```
 
 ---
