@@ -16,6 +16,7 @@
 ---
 
 * [SQL_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_FLASH/SQL_FLASH.md)
+* [SQL_ADV_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SQL_ADV_FLASH/SQL_ADV_FLASH.md)
 * [CMD_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/CMD_FLASH/CMD_FLASH.md)
 * [SHELL_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/SHELL_FLASH/SHELL_FLASH.md)
 * [PYTHON_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md)
