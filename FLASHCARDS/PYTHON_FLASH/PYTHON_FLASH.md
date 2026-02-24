@@ -124,6 +124,7 @@
 * [PD_CLEANING_DATA](#PD_CLEANING_DATA)
 * [PD_CLEANING_EMPTY_CELLS](#PD_CLEANING_EMPTY_CELLS)
 * [PD_REPLACE_EMPTY_CELLS](#PD_REPLACE_EMPTY_CELLS)
+* [DATA_CLEANING](#DATA_CLEANING)
 
 ---
 
@@ -2831,6 +2832,47 @@ Duration          Date  Pulse  Maxpulse  Calories
 ```
 
 [^^^](#PYTHON_FLASH)
+
+---
+
+##### DATA_CLEANING
+
+```py
+import numpy as np
+import pandas as pd
+
+df = pd.read_csv("D:\\MM\\marketing_campaign_data_messy.csv")
+
+
+#-----------------------------------------------
+
+# Number of rows and columns in the dataset
+print(f"Loaded Dataset: {df.shape[0]} rows and {df.shape[1]} columns")
+
+#[2020 rows x 12 columns]
+
+#-----------------------------------------------
+
+# 01 - Header cleaning
+
+# list of columns in the dataset
+print(df.columns.to_list())
+
+# first cleaning
+df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+
+print("FIX APPLIED: Header cleaned")
+print(df.columns.to_list())
+
+#-----------------------------------------------
+
+>>>
+Loaded Dataset: 2020 rows and 12 columns
+[' Campaign_ID ', 'Campaign_Name', 'Start_Date', 'End_Date', 'Channel', 'Impressions', 'Clicks ', 'Spend', 'Conversions', 'Active', 'Clicks', 'Campaign_Tag']
+FIX APPLIED: Header cleaned
+['campaign_id', 'campaign_name', 'start_date', 'end_date', 'channel', 'impressions', 'clicks', 'spend', 'conversions', 'active', 'clicks', 'campaign_tag'] 
+>>>
+```
 
 ---
 
