@@ -5,7 +5,7 @@
 
 ---
 
-- 0007 - 2026-02-25 - left joins + mapping tabs (LEN)
+- 0007 - 2026-02-25 - left joins + mapping tabs (LEN) + flashcards
 - 0006 - 2026-02-24 - python script - data cleaning pandas
 - 0005 - 2026-02-23 - left joins + mapping tabs (LEN)
 - 0004 - 2026-02-22 - left joins (LEN)
