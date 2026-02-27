@@ -5,15 +5,17 @@
 
 ---
 
-- 0009 - 2026-02-27 - FRI -  layers of DWH
-- 0008 - 2026-02-26 - THU - left joins + mapping tabs (LEN) + flashcards + 08 - Data Lake vs. DWH
-- 0007 - 2026-02-25 - WED - left joins + mapping tabs (LEN) + flashcards
-- 0006 - 2026-02-24 - TUE - python script - data cleaning pandas
-- 0005 - 2026-02-23 - MON - left joins + mapping tabs (LEN)
-- 0004 - 2026-02-22 - SUN - left joins (LEN)
-- 0003 - 2026-02-21 - SAT - left joins (LEN)
-- 0002 - 2026-02-20 - FRI - Data engineering yt
-- 0001 - 2026-02-19 - THU - Data analyst FC (youtube) + SQL Flash + PY Flash
+|NUM of DAYS|DATE|DAY|TOPICS|
+|----------|----|----|------|
+|0009|2026-02-27|FRI|layers of DWH|
+|0008|2026-02-26|THU|left joins + mapping tabs (LEN) + flashcards + 08 - Data Lake vs. DWH|
+|0007|2026-02-25|WED|left joins + mapping tabs (LEN) + flashcards|
+|0006|2026-02-24|TUE|python script - data cleaning pandas|
+|0005|2026-02-23|MON|left joins + mapping tabs (LEN)|
+|0004|2026-02-22|SUN|left joins (LEN)|
+|0003|2026-02-21|SAT|left joins (LEN)|
+|0002|2026-02-20|FRI|Data engineering yt|
+|0001|2026-02-19|THU|Data analyst FC (youtube) + SQL Flash + PY Flash|
 
 ---
 
