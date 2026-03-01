@@ -2274,6 +2274,27 @@ A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array
 ```py
 import pandas as pd
 
+data = {
+  "Name": ["Alice", "Bob", "Charlie"],
+  "Age": [25, 30, 35],
+  "City": ["New York", "Los Angeles", "Chicago"]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
+
+>>>
+      Name  Age         City
+0    Alice   25     New York
+1      Bob   30  Los Angeles
+2  Charlie   35      Chicago
+>>>
+```
+
+```py
+import pandas as pd
+
 mydataset = {
   'cars': ["BMW", "Volvo", "Ford"],
   'passings': [3, 7, 2]
