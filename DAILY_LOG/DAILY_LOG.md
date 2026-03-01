@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0011|2026-03-01|SUN|pandas|
 |0010|2026-02-28|SAT|indexes, sql_adv, pandas|
 |0009|2026-02-27|FRI|layers of DWH|
 |0008|2026-02-26|THU|left joins + mapping tabs (LEN) + flashcards + 08 - Data Lake vs. DWH|
