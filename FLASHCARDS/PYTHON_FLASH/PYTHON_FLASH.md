@@ -2271,6 +2271,14 @@ dtype: int64
 
 A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional array, or a table with rows and columns.
 
+```
+Loading a Dataframe
+
+1. df = pd.read_csv('data.csv')
+2. df = pd.read_excel('data.xlsx')
+3. df = pd.DataFrame(data_dict)
+```
+
 ```py
 import pandas as pd
 
