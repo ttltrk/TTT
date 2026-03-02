@@ -2363,6 +2363,35 @@ calories  duration
 >>>
 ```
 
+```py
+import numpy as np
+import pandas as pd
+
+df = pd.read_csv("D:\\MM\\marketing_campaign_data_messy.csv")
+
+print(df.head()) # first five rows
+print(df.tail()) # last five rows
+
+>>>
+   Campaign_ID   ... Campaign_Tag
+0     CMP-00001  ...           TI      
+1     CMP-00002  ...           FA      
+2     CMP-00003  ...           EM      
+3     CMP-00004  ...           TI      
+4     CMP-00005  ...           FA      
+
+[5 rows x 12 columns]
+      Campaign_ID   ... Campaign_Tag
+2015     CMP-00400  ...           TI   
+2016     CMP-01255  ...           GO   
+2017     CMP-01050  ...           IN   
+2018     CMP-01118  ...           FA   
+2019     CMP-01554  ...           EM   
+
+[5 rows x 12 columns]
+>>>
+```
+
 [^^^](#PYTHON_FLASH)
 
 ---
