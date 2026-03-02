@@ -2279,6 +2279,13 @@ Loading a Dataframe
 3. df = pd.DataFrame(data_dict)
 ```
 
+```
+df.head() - first five rows
+df.tail() - last five rows
+df.info() - info about the dataset
+df.columns - list of columns
+```
+
 ```py
 import pandas as pd
 
