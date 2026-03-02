@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0012|2026-03-02|MON|left joins + cte + case..when(LEN) + pandas|
 |0011|2026-03-01|SUN|pandas (Dataframe)|
 |0010|2026-02-28|SAT|indexes, sql_adv, pandas|
 |0009|2026-02-27|FRI|layers of DWH|
