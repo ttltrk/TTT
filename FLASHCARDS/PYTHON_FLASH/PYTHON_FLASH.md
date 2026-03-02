@@ -2288,6 +2288,32 @@ df.index()
 ```
 
 ```py
+import numpy as np
+import pandas as pd
+
+df = pd.read_csv("D:\\MM\\marketing_campaign_data_messy.csv")
+
+# print(df.columns)
+
+print(df['Channel']) # crosscheck the values in the column Channel
+
+>>>
+0           TikTok
+1         Facebook
+2            Email
+3           TikTok
+4         Facebook
+           ...
+2015        TikTok
+2016    Google Ads
+2017     Instagram
+2018      Facebook
+2019         Email
+Name: Channel, Length: 2020, dtype: object
+>>>
+```
+
+```py
 import pandas as pd
 
 data = {
