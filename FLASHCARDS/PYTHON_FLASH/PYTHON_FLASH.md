@@ -2284,6 +2284,7 @@ df.head() - first five rows
 df.tail() - last five rows
 df.info() - info about the dataset
 df.columns - list of columns
+df.index()
 ```
 
 ```py
