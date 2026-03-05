@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0015|2026-03-05|THU|left joins|
 |0014|2026-03-04|WED|left joins + codewars + py OOP |
 |0013|2026-03-03|TUE|left joins + codewars|
 |0012|2026-03-02|MON|left joins + cte + case..when(LEN) + pandas|
