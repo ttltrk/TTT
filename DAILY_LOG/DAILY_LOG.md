@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0018|2026-03-08|SUN|py oop fundamentals - self parameter|
 |0017|2026-03-07|SAT|py oop fundamentals|
 |0016|2026-03-06|FRI|dml statements|
 |0015|2026-03-05|THU|left joins|
