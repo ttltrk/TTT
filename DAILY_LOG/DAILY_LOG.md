@@ -7,7 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
-|0019|2026-03-09|MON|py oop fundamentals - self parameter|
+|0019|2026-03-09|MON|create and alter tables + py oop fundamentals - self parameter|
 |0018|2026-03-08|SUN|py oop fundamentals - self parameter|
 |0017|2026-03-07|SAT|py oop fundamentals|
 |0016|2026-03-06|FRI|dml statements|
