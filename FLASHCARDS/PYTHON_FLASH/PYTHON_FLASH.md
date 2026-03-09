@@ -97,6 +97,10 @@
 
 ---
 
+* [OOP_FUNDAMENTALS](#OOP_FUNDAMENTALS)
+
+---
+
 * [NUMPY](#NUMPY)
 * [NP_ARRAY](#NP_ARRAY)
 * [NP_NUMBER_OF_DIMENSIONS](#NP_NUMBER_OF_DIMENSIONS)
@@ -1747,6 +1751,20 @@ tree = ET.ElementTree(root)
 tree.write('order.xml')
 
 # ----------------------------------------------------------------
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### OOP_FUNDAMENTALS
+
+```
+CLASS: Fruit
+OBJECTS: Apple Banana, Mango
+
+CLASS: Car
+OBJECTS: Audi, VW, Mercedes
 ```
 
 [^^^](#PYTHON_FLASH)
