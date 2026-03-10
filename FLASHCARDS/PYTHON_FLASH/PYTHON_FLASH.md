@@ -100,7 +100,8 @@
 * [OOP_FUNDAMENTALS](#OOP_FUNDAMENTALS)
 * [OOP_INIT_METH](#OOP_INIT_METH)
 * [OOP_SELF_PARAM](#OOP_SELF_PARAM)
-
+* [OOP_SELF_PARAM_DIFF_NAME](#OOP_SELF_PARAM_DIFF_NAME)
+  
 ---
 
 * [NUMPY](#NUMPY)
@@ -1828,6 +1829,29 @@ p1.greet()
 
 >>>
 Hello, my name is Emil
+>>>
+```
+
+[^^^](#PYTHON_FLASH)
+
+---
+
+#### OOP_SELF_PARAM_DIFF_NAME
+
+```py
+class Person:
+  def __init__(myobject, name, age):
+    myobject.name = name
+    myobject.age = age
+
+  def greet(abc):
+    print("Hello, my name is " + abc.name)
+
+p1 = Person("Emil", 36)
+p1.greet()
+
+>>>
+Hello, my name is Emil.
 >>>
 ```
 
