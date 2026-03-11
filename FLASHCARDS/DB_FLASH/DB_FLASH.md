@@ -13,6 +13,7 @@
 
 ---
 
-1. step - client try to reach the DB via Network Layer
-2. step - tokenizing a query - checking if it is a valid command like (select, create, insert, etc)
-3. parser will join the tokens together (if it is make sense)
+1.1 - step - client try to reach the DB via Network Layer
+2.1 - step - tokenizing a query - checking if it is a valid command like (select, create, insert, etc)
+2.2 - parser will join the tokens together (if it is make sense)
+2.3 - using optimizer
