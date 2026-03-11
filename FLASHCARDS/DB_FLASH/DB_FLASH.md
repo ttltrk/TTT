@@ -14,11 +14,16 @@
 ---
 
 ```
-1.1 - step - client try to reach the DB via Network Layer
+1.1 - client try to reach the DB via Network Layer
 
 -- Front End --
 
-2.1 - step - tokenizing a query - checking if it is a valid command like (select, create, insert, etc)
+2.1 - tokenizing a query - checking if it is a valid command like (select, create, insert, etc)
 2.2 - parser will join the tokens together (if it is make sense)
 2.3 - using optimizer
+
+-- Execution Engine
+
+3.1 - Query executor
+
 ```
