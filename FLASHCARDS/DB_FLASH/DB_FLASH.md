@@ -14,6 +14,9 @@
 ---
 
 ```
+
+-- Network Layer --
+
 1.1 - client try to reach the DB via Network Layer
 
 -- Front End --
@@ -27,5 +30,9 @@
 3.1 - Query executor
 3.2 - Cache management
 3.3 - Utility services
+
+-- Transaction Manager --
+
+4.1 - 
 
 ```
