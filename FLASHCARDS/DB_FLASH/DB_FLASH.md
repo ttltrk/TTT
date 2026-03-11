@@ -8,3 +8,6 @@
 ### DB_FLASH
 
 ---
+
+1. step - client try to reach the DB via Network Layer
+2. step - tokenizing a query - checking if it is a valid command like (select, create, insert, etc)
