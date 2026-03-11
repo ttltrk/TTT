@@ -9,7 +9,7 @@
 
 ---
 
-* [link](#https://www.youtube.com/watch?v=pPqazMTzNOM&t=1217s)
+* [link](https://www.youtube.com/watch?v=pPqazMTzNOM&t=1217s)
 
 ---
 
