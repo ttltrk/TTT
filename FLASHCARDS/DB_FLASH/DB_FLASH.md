@@ -24,6 +24,6 @@
 
 -- Execution Engine
 
-3.1 - Query executor
+3.1 - Query executor - cache management
 
 ```
