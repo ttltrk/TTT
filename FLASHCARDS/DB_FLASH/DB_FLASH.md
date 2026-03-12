@@ -37,6 +37,8 @@
 
 5.1 - Concurrency Manager
 
-6.1 - Storage Engine
+-- Storage Engine --
+
+6.1 - Disk Storage Manager
 
 ```
