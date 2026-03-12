@@ -27,14 +27,16 @@
 
 -- Execution Engine
 
-3.1 - Query executor
+3.1 - Query Executor
 3.2 - Cache Manager
-3.3 - Utility services
+3.3 - Utility Services
 
 4.1 - Transaction Manager
 4.2 - Lock Manager
 4.3 - Recovery Manager
 
 5.1 - Concurrency Manager
+
+6.1 - Storage Engine
 
 ```
