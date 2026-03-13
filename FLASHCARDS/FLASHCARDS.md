@@ -9,9 +9,9 @@
 
 ---
 
-* [HTML_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/HTML_FLASH/HTML_FLASH.md)
-* [CSS_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/CSS_FLASH/CSS_FLASH.md)
-* [BOOTSTRAP_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/BOOTSTRAP_FLASH/BOOTSTRAP_FLASH.md)
+* [HTML_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/HTML_FLASH/HTML_FLASH.md)
+* [CSS_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/CSS_FLASH/CSS_FLASH.md)
+* [BOOTSTRAP_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/BOOTSTRAP_FLASH/BOOTSTRAP_FLASH.md)
 
 ---
 
@@ -26,12 +26,12 @@
 
 ---
 
-* [DATA_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/DATA_FLASH/DATA_FLASH.md)
-* [DS_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/DS_FLASH/DS_FLASH.md)
-* [NETWORK_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/NETWORK_FLASH/NETWORK_FLASH.md)
-* [AWS_CCP_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/AWS_CCP_FLASH/AWS_CCP_FLASH.md)
-* [BLOCKCHAIN_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/BLOCKCHAIN_FLASH/BLOCKCHAIN_FLASH.md)
-* [CYBER_SECURITY_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/CYBER_SECURITY_FLASH/CYBER_SECURITY_FLASH.md)
-* [GIT_FLASH](https://github.com/ttltrk/TTT/tree/master/FLASHCARDS/GIT_FLASH/GIT_FLASH.md)
+* [DATA_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/DATA_FLASH/DATA_FLASH.md)
+* [DS_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/DS_FLASH/DS_FLASH.md)
+* [NETWORK_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/NETWORK_FLASH/NETWORK_FLASH.md)
+* [AWS_CCP_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/AWS_CCP_FLASH/AWS_CCP_FLASH.md)
+* [BLOCKCHAIN_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/BLOCKCHAIN_FLASH/BLOCKCHAIN_FLASH.md)
+* [CYBER_SECURITY_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/CYBER_SECURITY_FLASH/CYBER_SECURITY_FLASH.md)
+* [GIT_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/GIT_FLASH/GIT_FLASH.md)
 
 ---
