@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0023|2026-03-13|FRI|pySpark fundamentals|
 |0022|2026-03-12|THU|DB fundamentals|
 |0021|2026-03-11|WED|db fundamentals|
 |0020|2026-03-10|TUE|py oop fundamentals - self parameter|
