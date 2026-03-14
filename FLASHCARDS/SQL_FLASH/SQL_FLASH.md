@@ -5,13 +5,6 @@
 
 ---
 
-
-```mermaid
-    A[Table A] & B[Table B]: Inner Join
-```
-
----
-
 | Rank | Statement | Description | Query |
 |-------|--------|-----------|----------|
 | 01 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
