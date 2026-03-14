@@ -7,12 +7,11 @@
 
 
 ```markdown
-### LEFT JOIN
-
-| A.id | A.name | B.order |
-|-----|------|------|
-| 1 | Alice | Order1 |
-| 2 | Bob | NULL |
+```mermaid
+flowchart LR
+    A((Table A))
+    B((Table B))
+    A --- B
 ```
 
 ---
