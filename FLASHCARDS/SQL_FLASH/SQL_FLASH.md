@@ -6,12 +6,10 @@
 ---
 
 
-```markdown
 ```mermaid
 flowchart LR
-    A((Table A))
-    B((Table B))
-    A --- B
+    A[Table A] -->|INNER JOIN id| C[(Result)]
+    B[Table B] -->|INNER JOIN id| C
 ```
 
 ---
