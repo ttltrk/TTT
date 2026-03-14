@@ -7,7 +7,6 @@
 
 
 ```mermaid
-venn
     A[Table A] & B[Table B]: Inner Join
 ```
 
