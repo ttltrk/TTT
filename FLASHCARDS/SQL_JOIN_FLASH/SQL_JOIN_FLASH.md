@@ -13,7 +13,7 @@
 * [LEFT_JOIN](#LEFT_JOIN)
 * [RIGHT_JOIN](#RIGHT_JOIN)
 * [FULL_OUTER_JOIN](#FULL_OUTER_JOIN)
-* 
+  
 ---
 
 #### INNER_JOIN
@@ -29,6 +29,8 @@ flowchart LR
     A -->|matching id| C[(INNER JOIN RESULT)]
     B -->|matching id| C
 ```
+
+[^^^](#SQL_JOIN_FLASH)
 
 ---
 
@@ -46,6 +48,8 @@ flowchart LR
     B -->|matching rows| C
 ```
 
+[^^^](#SQL_JOIN_FLASH)
+
 ---
 
 #### RIGHT_JOIN
@@ -62,6 +66,8 @@ flowchart LR
     B -->|all rows| C
 ```
 
+[^^^](#SQL_JOIN_FLASH)
+
 ---
 
 #### FULL_OUTER_JOIN
@@ -77,5 +83,7 @@ flowchart LR
     A -->|all rows| C[(FULL OUTER JOIN RESULT)]
     B -->|all rows| C
 ```
+
+[^^^](#SQL_JOIN_FLASH)
 
 ---
