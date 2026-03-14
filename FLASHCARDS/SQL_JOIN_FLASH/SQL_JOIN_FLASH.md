@@ -25,16 +25,8 @@ Returns only matching rows in both tables.
 ```sql
 select preferred_columns
 from tab_a a
-left join tab_b b
+inner join tab_b b
 on a.key = b.key
-```
-
-```sql
-select preferred_columns
-from tab_a a
-left join tab_b b
-on a.key = b.key
-where b.key is null
 ```
 
 ```mermaid
@@ -53,6 +45,21 @@ flowchart LR
 
 ```
 Returns all rows from A + matching rows from B.
+```
+
+```sql
+select preferred_columns
+from tab_a a
+left join tab_b b
+on a.key = b.key
+```
+
+```sql
+select preferred_columns
+from tab_a a
+left join tab_b b
+on a.key = b.key
+where b.key is null
 ```
 
 ```mermaid
