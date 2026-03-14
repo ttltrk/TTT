@@ -3,6 +3,10 @@
 
 #### INNER JOIN
 
+```
+Returns only matching rows in both tables.
+```
+
 ```mermaid
 flowchart LR
     A[(Table A)]
@@ -14,6 +18,10 @@ flowchart LR
 ---
 
 #### LEFT JOIN
+
+```
+Returns all rows from A + matching rows from B.
+```
 
 ```mermaid
 flowchart LR
@@ -27,6 +35,10 @@ flowchart LR
 
 #### RIGHT JOIN
 
+```
+Returns all rows from B + matching rows from A.
+```
+
 ```mermaid
 flowchart LR
     A[(Table A)]
@@ -38,6 +50,10 @@ flowchart LR
 ---
 
 #### FULL OUTER JOIN
+
+```
+Returns all rows from both tables, matched where possible.
+```
 
 ```mermaid
 flowchart LR
