@@ -5,6 +5,18 @@
 
 ---
 
+
+```markdown
+### LEFT JOIN
+
+| A.id | A.name | B.order |
+|-----|------|------|
+| 1 | Alice | Order1 |
+| 2 | Bob | NULL |
+```
+
+---
+
 | Rank | Statement | Description | Query |
 |-------|--------|-----------|----------|
 | 01 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
