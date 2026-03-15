@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0025|2026-03-15|SUN|SQL_JOIN_FLASH|
 |0024|2026-03-14|SAT|SQL_JOIN_FLASH|
 |0023|2026-03-13|FRI|pySpark fundamentals|
 |0022|2026-03-12|THU|DB fundamentals|
