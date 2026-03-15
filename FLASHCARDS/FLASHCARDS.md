@@ -9,12 +9,6 @@
 
 ---
 
-* [HTML_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/HTML_FLASH/HTML_FLASH.md)
-* [CSS_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/CSS_FLASH/CSS_FLASH.md)
-* [BOOTSTRAP_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/BOOTSTRAP_FLASH/BOOTSTRAP_FLASH.md)
-
----
-
 * [SQL_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_FLASH/SQL_FLASH.md)
 * [SQL_ADV_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_ADV_FLASH/SQL_ADV_FLASH.md)
 * [SQL_JOIN_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_JOIN_FLASH/SQL_JOIN_FLASH.md)
@@ -24,6 +18,12 @@
 * [PYTHON_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md)
 * [PYTHON_SPARK_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_SPARK_FLASH/PYTHON_SPARK_FLASH.md)
   
+---
+
+* [HTML_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/HTML_FLASH/HTML_FLASH.md)
+* [CSS_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/CSS_FLASH/CSS_FLASH.md)
+* [BOOTSTRAP_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/BOOTSTRAP_FLASH/BOOTSTRAP_FLASH.md)
+
 ---
 
 * [DB_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/DB_FLASH/DB_FLASH.md)
