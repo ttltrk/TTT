@@ -17,11 +17,15 @@ WITH department_employees AS (
 )
 SELECT *
 FROM department_employees;
+```
 
+```sql
 --cte
 WITH CTE_NAME (column_name) AS (query)
 SELECT * FROM CTE_NAME;
+```
 
+```sql
 --cte1 (common table expression)
 WITH
    CTE_NAME1 (column_name) AS (query),
@@ -29,7 +33,9 @@ WITH
 SELECT * FROM CTE_NAME1
 UNION ALL
 SELECT * FROM CTE_NAME2;
+```
 
+```sql
 --cte2
 WITH recursive_cust (ID, NAME, ADDRESS, AGE) AS (
    SELECT ID, NAME, ADDRESS, AGE
