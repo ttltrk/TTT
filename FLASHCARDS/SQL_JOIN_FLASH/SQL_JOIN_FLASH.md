@@ -80,6 +80,21 @@ flowchart LR
 Returns all rows from B + matching rows from A.
 ```
 
+```sql
+select preferred_columns
+from tab_a a
+right join tab_b b
+on a.key = b.key
+```
+
+```sql
+select preferred_columns
+from tab_a a
+right join tab_b b
+on a.key = b.key
+where a.key is null
+```
+
 ```mermaid
 flowchart LR
     A[(Table A)]
