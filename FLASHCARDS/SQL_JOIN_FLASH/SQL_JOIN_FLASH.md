@@ -113,6 +113,21 @@ flowchart LR
 Returns all rows from both tables, matched where possible.
 ```
 
+```sql
+select preferred_columns
+from tab_a a
+full outer join tab_b b
+on a.key = b.key
+```
+
+```sql
+select preferred_columns
+from tab_a a
+full outer join tab_b b
+on a.key = b.key
+where a.key is null or b.key is null
+```
+
 ```mermaid
 flowchart LR
     A[(Table A)]
