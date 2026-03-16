@@ -19,7 +19,7 @@
 * [PYTHON_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_FLASH/PYTHON_FLASH.md)
 * [PYTHON_OOP_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_OOP_FLASH/PYTHON_OOP_FLASH.md)
 * [PYTHON_SPARK_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_SPARK_FLASH/PYTHON_SPARK_FLASH.md)
-* [PYTHON_SPARK_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_KEYWORDS_FLASH/PYTHON_KEYWORDS_FLASH.md)
+* [PYTHON_KEYWORDS_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/PYTHON_KEYWORDS_FLASH/PYTHON_KEYWORDS_FLASH.md)
   
 ---
 
