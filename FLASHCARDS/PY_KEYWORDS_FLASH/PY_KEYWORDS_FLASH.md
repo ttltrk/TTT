@@ -11,4 +11,4 @@
 
 |Keyword|Description|Code|
 |-------|-----------|----|
-|and|A logical operator|```pyx = (5 > 3 and 5 < 10)```|
+|and|A logical operator|```x = (5 > 3 and 5 < 10)```|
