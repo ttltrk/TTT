@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0030|2026-03-20|FRI|create tables, insert, joins|
 |0029|2026-03-19|THU|update statement|
 |0028|2026-03-18|WED|Case when + create tab|
 |0027|2026-03-17|TUE|LEFT JOIN (Len) + ssh basics|
