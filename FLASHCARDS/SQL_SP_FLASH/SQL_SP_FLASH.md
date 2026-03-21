@@ -21,6 +21,15 @@ so it can act based on the parameter value(s) that is passed.
 
 ---
 
+```
+Code Reusability - The same procedure can be called from various applications
+Improved Performance - Stored procedures are precompiled and runs faster
+Database Security - You can set users permission to run a specific procedure (limits direct access to tables)
+Easy Maintenance - When updating a procedure, it automatically updates all its use
+```
+
+---
+
 ##### HOW_TO_START_SP
 
 ```sql
