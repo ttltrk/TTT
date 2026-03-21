@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0031|2026-03-21|SAT|DSA fundamentals|
 |0030|2026-03-20|FRI|create tables, insert, joins|
 |0029|2026-03-19|THU|update statement|
 |0028|2026-03-18|WED|Case when + create tab|
