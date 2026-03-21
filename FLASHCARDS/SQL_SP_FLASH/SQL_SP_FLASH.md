@@ -29,17 +29,17 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
                    
-CREATE PROCEDURE [SCH].[sp_CCC_ALL]       
-                       
-AS                      
-BEGIN                      
-                
-SET NOCOUNT ON;
+CREATE PROCEDURE [SCH].[sp_CCC_ALL]
+    @Id INT
+AS
+BEGIN
+    SET NOCOUNT ON;
 
-select * from ...
-
+    SELECT * 
+    FROM YourTable
+    WHERE Id = @Id;
 END
-GO                                
+GO                              
 ```
 
 ---
