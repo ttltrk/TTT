@@ -9,6 +9,16 @@
 
 ---
 
+* [SQL_SP_FUNDAMENTALS](#SQL_SP_FUNDAMENTALS)
+* [HOW_TO_START_SP](#HOW_TO_START_SP)
+* [HOW_TO_CREATE_A_SP](#HOW_TO_CREATE_A_SP)
+* [HOW_TO_MODIFY_A_SP](#HOW_TO_MODIFY_A_SP)
+* [EXAMPLE](#EXAMPLE)
+  
+---
+
+##### SQL_SP_FUNDAMENTALS
+
 ```
 A stored procedure is a precompiled SQL code that can be saved and reused.
 
@@ -18,11 +28,6 @@ save it as a stored procedure, and then just call it to execute it.
 A stored procedure can also have parameters,
 so it can act based on the parameter value(s) that is passed.
 ```
-
-[^^^](#SQL_SP_FLASH)
-
----
-
 
 ```
 Code Reusability - The same procedure can be called from various applications
