@@ -13,6 +13,7 @@
 * [SQL_ADV_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_ADV_FLASH/SQL_ADV_FLASH.md)
 * [SQL_JOIN_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_JOIN_FLASH/SQL_JOIN_FLASH.md)
 * [SQL_CTE_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_CTE_FLASH/SQL_CTE_FLASH.md)
+* [SQL_CTE_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/SQL_SP_FLASH/SQL_SP_FLASH.md)
 
 --- 
 
