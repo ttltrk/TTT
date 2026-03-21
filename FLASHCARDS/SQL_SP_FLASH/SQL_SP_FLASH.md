@@ -12,7 +12,8 @@
 ##### HOW_TO_START_SP
 
 ```sql
-EXEC SCH.sp_CCC_xxx  
+EXEC [SCH].[sp_CCC_ALL]
+EXEC [SCH].[sp_CCC_ALL] @Id = 1; --start with param
 ```
 
 ---
