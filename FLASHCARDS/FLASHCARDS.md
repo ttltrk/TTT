@@ -23,7 +23,7 @@
   
 ---
 
-*[DSA_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/DSA_FLASH/DSA_FLASH.md)
+* [DSA_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/DSA_FLASH/DSA_FLASH.md)
 
 ---
 
