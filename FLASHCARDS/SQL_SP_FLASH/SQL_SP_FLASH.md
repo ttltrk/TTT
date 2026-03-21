@@ -80,3 +80,22 @@ GO
 ```
 
 ---
+
+##### EXAMPLE
+
+```sql
+CREATE PROCEDURE GetCustomersByCity
+  @City nvarchar(50),
+  @PostalCode nvarchar(10)
+AS
+BEGIN
+  SELECT * FROM Customers
+  WHERE City = @City AND PostalCode = @PostalCode;
+END;
+```
+
+```sql
+EXEC GetCustomersByCity @City = 'London', @PostalCode = 'WA1 1DP';
+```
+
+---
