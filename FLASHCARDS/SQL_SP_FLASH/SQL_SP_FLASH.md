@@ -19,7 +19,10 @@ A stored procedure can also have parameters,
 so it can act based on the parameter value(s) that is passed.
 ```
 
+[^^^](#SQL_SP_FLASH)
+
 ---
+
 
 ```
 Code Reusability - The same procedure can be called from various applications
@@ -36,6 +39,8 @@ Easy Maintenance - When updating a procedure, it automatically updates all its u
 EXEC [SCH].[sp_CCC_ALL]
 EXEC [SCH].[sp_CCC_ALL] @Id = 1; --start with param
 ```
+
+[^^^](#SQL_SP_FLASH)
 
 ---
 
@@ -64,6 +69,8 @@ END
 GO                              
 ```
 
+[^^^](#SQL_SP_FLASH)
+
 ---
 
 ##### HOW_TO_MODIFY_A_SP
@@ -78,6 +85,8 @@ BEGIN
 END
 GO
 ```
+
+[^^^](#SQL_SP_FLASH)
 
 ---
 
@@ -97,5 +106,7 @@ END;
 ```sql
 EXEC GetCustomersByCity @City = 'London', @PostalCode = 'WA1 1DP';
 ```
+
+[^^^](#SQL_SP_FLASH)
 
 ---
