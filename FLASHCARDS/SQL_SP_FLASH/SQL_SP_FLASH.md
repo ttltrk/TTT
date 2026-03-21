@@ -44,3 +44,18 @@ GO
 ```
 
 ---
+
+##### HOW_TO_MODIFY_A_SP
+
+```sql
+ALTER PROCEDURE [SCH].[sp_CCC_ALL]
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT * FROM YourTable;
+END
+GO
+```
+
+---
