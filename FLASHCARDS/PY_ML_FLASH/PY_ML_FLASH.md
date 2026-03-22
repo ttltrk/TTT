@@ -9,8 +9,6 @@
 
 ---
 
-#### LINKS
-
 * [ML_FUNDAMENTALS](#ML_FUNDAMENTALS)
 
 ---
