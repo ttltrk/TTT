@@ -49,7 +49,8 @@ Cloud Practicioner Essentials
 #### CLIENT_SERVER_MODEL
 
 ```
-request between the client and server
+Cloud computing is built on the client-server model. Your device (the client)
+sends requests over the internet to remote servers, which process them and return results.
 ```
 
 [^^^](#AWS_CCP_FLASH)
@@ -57,6 +58,14 @@ request between the client and server
 ---
 
 #### CLOUD_COMPUTING
+
+```
+Cloud computing is the on-demand delivery of IT resources
+over the internet with pay-as-you-go pricing.
+
+You only pay for what you use, and you can quickly access
+and scale resources like servers, storage, and databases as needed.
+```
 
 The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer
 
