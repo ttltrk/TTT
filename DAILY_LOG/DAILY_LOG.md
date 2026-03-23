@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0033|2026-03-23|MON|AWS fundamentals|
 |0032|2026-03-22|SUN|ML fundamentals|
 |0031|2026-03-21|SAT|DSA ans SP fundamentals|
 |0030|2026-03-20|FRI|create tables, insert, joins|
