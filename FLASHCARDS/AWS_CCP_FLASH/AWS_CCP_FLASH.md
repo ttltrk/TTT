@@ -11,6 +11,7 @@
 
 * [AWS_FUNDAMETALS](#AWS_FUNDAMETALS)
 * [AWS_CPE](#AWS_CPE)
+* [CLIENT_SERVER_MODEL](#CLIENT_SERVER_MODEL)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 * [SIX_ADVANTAGES_OF_CLOUD](#SIX_ADVANTAGES_OF_CLOUD)
 * [](#)
@@ -39,6 +40,16 @@ providing online access to computing resources, storage, databases, and other IT
 
 ```
 Cloud Practicioner Essentials
+```
+
+[^^^](#AWS_CCP_FLASH)
+
+---
+
+#### CLIENT_SERVER_MODEL
+
+```
+request between the client and server
 ```
 
 [^^^](#AWS_CCP_FLASH)
