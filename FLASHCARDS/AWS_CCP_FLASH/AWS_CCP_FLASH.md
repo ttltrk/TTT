@@ -9,6 +9,7 @@
 
 ---
 
+* [AWS_FUNDAMETALS](#AWS_FUNDAMETALS)
 * [CLOUD_COMPUTING](#CLOUD_COMPUTING)
 * [SIX_ADVANTAGES_OF_CLOUD](#SIX_ADVANTAGES_OF_CLOUD)
 * [](#)
@@ -19,6 +20,17 @@
 * [](#)
 * [](#)
 * [](#)
+
+---
+
+#### AWS_FUNDAMENTALS
+
+```
+AWS (Amazon Web Services) is the world's most widely adopted cloud computing platform,
+providing online access to computing resources, storage, databases, and other IT services.
+```
+
+[^^^](#AWS_CCP_FLASH)
 
 ---
 
