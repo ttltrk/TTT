@@ -67,6 +67,14 @@ You only pay for what you use, and you can quickly access
 and scale resources like servers, storage, and databases as needed.
 ```
 
+```
+Deployment model
+
+- Cloud-based
+- On-premises
+- Hybrid
+```
+
 The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer
 
 On-Premise:
