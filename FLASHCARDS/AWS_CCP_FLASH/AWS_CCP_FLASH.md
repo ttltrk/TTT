@@ -67,28 +67,31 @@ You only pay for what you use, and you can quickly access
 and scale resources like servers, storage, and databases as needed.
 ```
 
-```
-Deployment model
+- Deployment model
 
+```
 - Cloud-based
 - On-premises
 - Hybrid
 ```
 
-The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer
+- Cloud-based
 
-On-Premise:
+```
 
-- You own the servers
-- You hire the IT people
-- You pay or rent the real-estate
-- You take all the risk
+```
 
-Cloud Providers:
+- On-premises
 
-- Someone else owns the servers
-- Someone else hires the IT people
-- Someone else pays for your config cloud services and code, someone else takes care of the rest
+```
+
+```
+
+- Hybrid
+
+```
+
+```
 
 [^^^](#AWS_CCP_FLASH)
 
