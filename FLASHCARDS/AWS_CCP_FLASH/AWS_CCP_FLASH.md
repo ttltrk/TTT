@@ -78,19 +78,33 @@ and scale resources like servers, storage, and databases as needed.
 - Cloud-based
 
 ```
+Everything runs in the cloud.
 
+You can build new applications or migrate existing ones, choosing your level of control,
+from managing virtual servers to using fully managed services.
+
+Example: An application with virtual servers, databases, and networking components
+all hosted in the cloud.
 ```
 
 - On-premises
 
 ```
+Resources run in your own data center using virtualization and management tools.
 
+Also known as private cloud deployment.
+
+Modern virtualization helps maximize hardware utilization
+and simplifies resource management.
 ```
 
 - Hybrid
 
 ```
+Connect cloud resources to on-premises infrastructure.
 
+Useful when handling sensitive data
+or meeting specific regulatory requirements.
 ```
 
 [^^^](#AWS_CCP_FLASH)
