@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0036|2026-03-26|THU|left joins|
 |0035|2026-03-25|WED|insert into|
 |0034|2026-03-24|TUE|create tables + deduplication + insert into|
 |0033|2026-03-23|MON|AWS fundamentals|
