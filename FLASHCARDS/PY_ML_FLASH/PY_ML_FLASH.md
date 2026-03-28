@@ -69,6 +69,20 @@ and divide the sum by the number of values:
 (99+86+87+88+111+86+103+87+94+78+77+85+86) / 13 = 89.77
 ```
 
+```py
+import numpy
+
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+x = numpy.mean(speed)
+
+print(x)
+
+>>>
+89.76923076923077
+>>>
+```
+
 [^^^](#PYTHON_ML_FLASH)
 
 ---
