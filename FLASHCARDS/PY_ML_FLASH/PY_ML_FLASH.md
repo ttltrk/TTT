@@ -13,6 +13,7 @@
 * [DATA_SET](#DATA_SET)
 * [MEAN](#MEAN)
 * [MEDIAN](#MEDIAN)
+* [MODE](#MODE)
 
 ---
 
@@ -131,6 +132,32 @@ print(x)
 
 >>>
 86.5
+>>>
+```
+
+[^^^](#PYTHON_ML_FLASH)
+
+---
+
+#### MODE
+
+```
+The Mode value is the value that appears the most number of times:
+
+99, 86, 87, 88, 111, 86, 103, 87, 94, 78, 77, 85, 86 = 86
+```
+
+```py
+from scipy import stats
+
+speed = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+x = stats.mode(speed)
+
+print(x)
+
+>>>
+ModeResult(mode=array([86]), count=array([3]))
 >>>
 ```
 
