@@ -11,6 +11,7 @@
 
 * [ML_FUNDAMENTALS](#ML_FUNDAMENTALS)
 * [DATA_SET](#DATA_SET)
+* [MEAN](#MEAN)
 
 ---
 
@@ -51,6 +52,21 @@ We can split the data types into three main categories:
 - Categorical data are values that cannot be measured up against each other. Example: a color value, or any yes/no values.
 
 - Ordinal data are like categorical data, but can be measured up against each other. Example: school grades where A is better than B and so on.
+```
+
+[^^^](#PYTHON_ML_FLASH)
+
+---
+
+#### MEAN
+
+```
+The mean value is the average value.
+
+To calculate the mean, find the sum of all values,
+and divide the sum by the number of values:
+
+(99+86+87+88+111+86+103+87+94+78+77+85+86) / 13 = 89.77
 ```
 
 [^^^](#PYTHON_ML_FLASH)
