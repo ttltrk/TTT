@@ -12,6 +12,7 @@
 * [ML_FUNDAMENTALS](#ML_FUNDAMENTALS)
 * [DATA_SET](#DATA_SET)
 * [MEAN](#MEAN)
+* [MEDIAN](#MEDIAN)
 
 ---
 
@@ -86,3 +87,12 @@ print(x)
 [^^^](#PYTHON_ML_FLASH)
 
 ---
+
+#### MEDIAN
+
+```
+The median value is the value in the middle,
+after you have sorted all the values:
+
+77, 78, 85, 86, 86, 86, >> 87 <<, 87, 88, 94, 99, 103, 111
+```
