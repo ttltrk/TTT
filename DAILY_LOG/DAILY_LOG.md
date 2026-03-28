@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0038|2026-03-28|SAT|Mean, Median, Mode|
 |0037|2026-03-27|FRI|create tables, insert into|
 |0036|2026-03-26|THU|left joins|
 |0035|2026-03-25|WED|insert into|
