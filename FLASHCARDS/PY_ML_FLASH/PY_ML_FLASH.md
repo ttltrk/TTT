@@ -169,7 +169,18 @@ ModeResult(mode=array([86]), count=array([3]))
 #### STANDARD_DEVIATION
 
 ```
-86,87,88,86,87,85,86 = mean (86.428)
+Standard deviation is a number that describes
+how spread out the values are.
+
+A low standard deviation means that most of the numbers
+are close to the mean (average) value.
+
+A high standard deviation means that the values
+are spread out over a wider range.
+```
+
+```
+speed = [86,87,88,86,87,85,86] = mean (86.428)
 
 86 − 86.428 = −0.428
 87 − 86.428 = 0.572
@@ -216,6 +227,45 @@ print(x)
 >>>
 0.9035079029052513
 >>>
+```
+
+```
+Why divide by 7 or 6?
+
+It depends on what your data represents:
+
+1. Divide by 7 (N) → Population standard deviation
+
+Use this when your data is the entire population.
+
+In your case, if those 7 numbers are all the values that exist, then:
+
+You divide by N = 7
+You get the true spread of that population
+2. Divide by 6 (N − 1) → Sample standard deviation
+
+Use this when your data is just a sample from a larger group.
+
+If your 7 numbers are just a subset (e.g., 7 students out of a whole class), then:
+
+You divide by N − 1 = 6
+This corrects for underestimating variability
+Why subtract 1? (the intuition)
+
+When you used the mean (86.428), it was calculated from the same data. That “locks in” one degree of freedom.
+
+So only 6 values are free to vary, not 7.
+
+This correction is called Bessel's correction.
+
+Simple way to remember
+Whole population? → divide by N
+Sample (almost always in school problems)? → divide by N − 1
+In your exercise
+
+Unless the problem explicitly says “population,” you should usually assume:
+
+Use 6 (sample standard deviation)
 ```
 
 [^^^](#PYTHON_ML_FLASH)
