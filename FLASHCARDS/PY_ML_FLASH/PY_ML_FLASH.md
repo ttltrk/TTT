@@ -14,6 +14,7 @@
 * [MEAN](#MEAN)
 * [MEDIAN](#MEDIAN)
 * [MODE](#MODE)
+* [STANDARD_DEVIATION](#STANDARD_DEVIATION)
 
 ---
 
@@ -164,3 +165,61 @@ ModeResult(mode=array([86]), count=array([3]))
 [^^^](#PYTHON_ML_FLASH)
 
 ---
+
+#### STANDARD_DEVIATION
+
+```
+86,87,88,86,87,85,86 = mean (86.428)
+
+86 − 86.428 = −0.428
+87 − 86.428 = 0.572
+88 − 86.428 = 1.572
+86 − 86.428 = −0.428
+87 − 86.428 = 0.572
+85 − 86.428 = −1.428
+86 − 86.428 = −0.428 
+
+(−0.428)² ≈ 0.183
+(0.572)² ≈ 0.327
+(1.572)² ≈ 2.471
+(−0.428)² ≈ 0.183
+(0.572)² ≈ 0.327
+(−1.428)² ≈ 2.041
+(−0.428)² ≈ 0.183
+
+Sum ≈ 0.183 + 0.327 + 2.471 + 0.183 + 0.327 + 2.041 + 0.183 ≈ 5.715
+
+Population standard deviation → divide by 7
+Sample standard deviation → divide by 6
+
+Let’s do both:
+
+Population variance = 5.715 / 7 ≈ 0.816
+Sample variance = 5.715 / 6 ≈ 0.953
+
+Population standard deviation ≈ √0.816 ≈ 0.903
+Sample standard deviation ≈ √0.953 ≈ 0.976
+
+Population SD ≈ 0.90
+Sample SD ≈ 0.98
+```
+
+```py
+import numpy
+
+speed = [86,87,88,86,87,85,86]
+
+x = numpy.std(speed)
+
+print(x)
+
+>>>
+0.9035079029052513
+>>>
+```
+
+[^^^](#PYTHON_ML_FLASH)
+
+---
+
+
