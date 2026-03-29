@@ -203,8 +203,6 @@ Sum ≈ 0.183 + 0.327 + 2.471 + 0.183 + 0.327 + 2.041 + 0.183 ≈ 5.715
 Population standard deviation → divide by 7
 Sample standard deviation → divide by 6
 
-Let’s do both:
-
 Population variance = 5.715 / 7 ≈ 0.816
 Sample variance = 5.715 / 6 ≈ 0.953
 
