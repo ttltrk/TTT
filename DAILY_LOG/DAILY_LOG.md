@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0041|2026-03-31|TUE|joins + views |
 |0040|2026-03-30|MON|power shell install + copilot|
 |0039|2026-03-29|SUN|Standard deviation|
 |0038|2026-03-28|SAT|Mean, Median, Mode|
