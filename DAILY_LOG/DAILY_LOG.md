@@ -7,7 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
-|0042|2026-04-01|WED|updates | inserts|
+|0042|2026-04-01|WED|updates + inserts|
 |0041|2026-03-31|TUE|joins + views |
 |0040|2026-03-30|MON|power shell install + copilot|
 |0039|2026-03-29|SUN|Standard deviation|
