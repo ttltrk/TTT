@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0043|2026-04-02|THU|inserts + create tabs|
 |0042|2026-04-01|WED|updates + inserts|
 |0041|2026-03-31|TUE|joins + views |
 |0040|2026-03-30|MON|power shell install + copilot|
