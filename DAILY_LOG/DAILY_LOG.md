@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0047|2026-04-06|MON|inserts + updates |
 |0046|2026-04-05|SUN|inserts + updates |
 |0045|2026-04-04|SAT|create tabs + updates|
 |0044|2026-04-03|FRI|inserts + updates + create tabs|
