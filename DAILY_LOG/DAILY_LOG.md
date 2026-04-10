@@ -7,6 +7,8 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0051|2026-04-10|FRI|inserts + updates|
+|0050|2026-04-09|THU|inserts + updates|
 |0049|2026-04-08|WED|inserts + updates|
 |0048|2026-04-07|TUE|inserts + updates + deduplication|
 |0047|2026-04-06|MON|inserts + updates |
