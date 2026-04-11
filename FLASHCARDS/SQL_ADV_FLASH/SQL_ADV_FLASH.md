@@ -110,6 +110,7 @@ Because every method answers a different question:
 ✅ Removes duplicates
 ❌ May hide real differences
 ❌ Expensive / lossy
+
 2. GROUP BY / MAX
 
 “Collapse multiple rows into one”
@@ -117,6 +118,7 @@ Because every method answers a different question:
 ✅ Ensures 1 row per key
 ❌ Arbitrary unless business logic exists
 ❌ Can corrupt meaning
+
 3. ROW_NUMBER()
 
 “Pick one row per group”
@@ -124,6 +126,7 @@ Because every method answers a different question:
 ✅ Deterministic (if ORDER BY is meaningful)
 ❌ Still discards data
 ❌ Depends on your rule being correct
+
 4. Fixing the data model
 
 “Make duplicates impossible”
@@ -131,9 +134,36 @@ Because every method answers a different question:
 ✅ Only truly “correct” solution
 ❌ Not always feasible (real-world data is messy)
 
+✅ Step 1: Understand the relationship
+
+Ask:
+
+Is this join supposed to be 1:1, 1:N, or N:N?
+
+If you don’t know → that’s the real problem.
+
+Step 2: Validate assumptions
+
+```sql
+-- Right side uniqueness check
+SELECT key, COUNT(*)
+FROM table
+GROUP BY key
+HAVING COUNT(*) > 1
 ```
 
-```
+✅ Step 3: Decide intentionally
+If duplicates are wrong → fix data or fail
+If duplicates are expected → aggregate or rank
+If duplicates are meaningful → keep them
+
+✅ Step 4: Encode the rule explicitly
+
+Examples:
+
+“latest record” → ROW_NUMBER() ORDER BY updated_at DESC
+“primary flag” → WHERE is_primary = 1
+“sum values” → GROUP BY
 
 [^^^](#SQL_ADV_FLASH)
 
