@@ -11,6 +11,7 @@
 
 * [REPLICATE_TIMESTAMPS](#REPLICATE_TIMESTAMPS)
 * [CREATE_MAPPING_TABLE](#CREATE_MAPPING_TABLE)
+* [DUPLICATE_BASICS](#DUPLICATE_BASICS)
 * [CHECK_DUPLICATES](#CHECK_DUPLICATES)
 * [DEDUPLICATION](#DEDUPLICATION)
 
@@ -90,6 +91,48 @@ UPDATE sch.main_tab_test_20260223
 SET SPECIAL_BID_NO = 'ZJKQP5VS' 
 FROM sch.main_tab_test_20260223 data  
 INNER JOIN sch.del_ordno_map map ON data.[INVOICE NUMBER] = map.[INVOICE NUMBER]
+```
+
+[^^^](#SQL_ADV_FLASH)
+
+---
+
+#### DUPLICATE_BASICS
+
+Why no “ultimate solution” exists
+
+Because every method answers a different question:
+
+1. DISTINCT
+
+“Remove duplicate rows”
+
+✅ Removes duplicates
+❌ May hide real differences
+❌ Expensive / lossy
+2. GROUP BY / MAX
+
+“Collapse multiple rows into one”
+
+✅ Ensures 1 row per key
+❌ Arbitrary unless business logic exists
+❌ Can corrupt meaning
+3. ROW_NUMBER()
+
+“Pick one row per group”
+
+✅ Deterministic (if ORDER BY is meaningful)
+❌ Still discards data
+❌ Depends on your rule being correct
+4. Fixing the data model
+
+“Make duplicates impossible”
+
+✅ Only truly “correct” solution
+❌ Not always feasible (real-world data is messy)
+
+```
+
 ```
 
 [^^^](#SQL_ADV_FLASH)
