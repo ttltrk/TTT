@@ -161,9 +161,9 @@ If duplicates are meaningful → keep them
 
 Examples:
 
-“latest record” → ROW_NUMBER() ORDER BY updated_at DESC
-“primary flag” → WHERE is_primary = 1
-“sum values” → GROUP BY
+“latest record” → ```ROW_NUMBER() ORDER BY updated_at DESC```
+“primary flag” → ```WHERE is_primary = 1```
+“sum values” → ```GROUP BY```
 
 [^^^](#SQL_ADV_FLASH)
 
