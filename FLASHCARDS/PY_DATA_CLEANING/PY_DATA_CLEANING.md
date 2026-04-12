@@ -1,6 +1,24 @@
 
 ---
 
-#### PY_DATA_CLEANING/PY_DATA_CLEANING
+#### [M](https://github.com/ttltrk/TTT/blob/master/menu.md) - [FLASHCARDS](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/FLASHCARDS.md)
+
+---
+
+### PYTHON_DATA_CLEANING
+
+---
+
+```
+Data cleaning means fixing bad data in your data set.
+
+Bad data could be:
+
+Empty cells
+Data in wrong format
+Wrong data
+Duplicates
+In this tutorial you will learn how to deal with all of them.
+```
 
 ---
