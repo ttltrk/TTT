@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0054|2026-04-13|MON|stored procedures|
 |0053|2026-04-12|SUN|PY Data cleaning|
 |0052|2026-04-11|SAT|duplicate basics|
 |0051|2026-04-10|FRI|inserts + updates|
