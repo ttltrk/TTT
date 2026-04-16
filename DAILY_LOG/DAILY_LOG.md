@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0057|2026-04-16|THU|updates + sp|
 |0056|2026-04-15|WED|updates + sp|
 |0055|2026-04-14|TUE|updates + sp|
 |0054|2026-04-13|MON|stored procedures|
