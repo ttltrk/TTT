@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0059|2026-04-18|SAT|updates + sp|
 |0058|2026-04-17|FRI|updates + sp|
 |0057|2026-04-16|THU|updates + sp|
 |0056|2026-04-15|WED|updates + sp|
