@@ -39,6 +39,6 @@ Loves value: 4
 
 |name|description|
 |----|-----------|
-|Lists and arrays| |
-|Stacks| |
-|Queues| |
+|Lists and Arrays| In Python, lists are the built-in data structure that serves as a dynamic array. Lists are ordered, mutable, and can contain elements of different types. |
+|Stacks| A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. Think of it like a stack of pancakes - you can only add or remove pancakes from the top. |
+|Queues| A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. Think of a queue as people standing in line in a supermarket. |
