@@ -36,6 +36,9 @@ Loves value: 4
 
 ---
 
-|----------|-----------|
+
 |name|description|
 |----|-----------|
+|Lists and arrays| |
+|Stacks| |
+|Queues| |
