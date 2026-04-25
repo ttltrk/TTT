@@ -33,3 +33,9 @@ print('Lowest value:',minVal)
 Loves value: 4
 >>>
 ```
+
+---
+
+|----------|-----------|
+|name|description|
+|----|-----------|
