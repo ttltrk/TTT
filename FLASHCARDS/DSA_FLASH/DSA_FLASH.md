@@ -17,7 +17,7 @@
 |04|Linked Lists| as the word implies, a list where the nodes are linked together. Each node contains data and a pointer. The way they are linked together is that each node points to where in the memory the next node is placed. |
 |05|Hash Table|A Hash Table is a data structure designed to be fast to work with.|
 |06|Binary Tree|A Binary Tree is a type of tree data structure where each node can have a maximum of two child nodes, a left child node and a right child node.|
-|07|Binary Search tree| |
+|07|Binary Search Tree| |
 |08|AVL Trees| |
 |09|Graphs| |
 
