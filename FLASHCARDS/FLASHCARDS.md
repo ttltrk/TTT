@@ -27,6 +27,7 @@
 ---
 
 * [DSA_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/DSA_FLASH/DSA_FLASH.md)
+* [ALGO_FLASH](https://github.com/ttltrk/TTT/blob/master/FLASHCARDS/ALGO_FLASH/ALGO_FLASH.md)
 
 ---
 
