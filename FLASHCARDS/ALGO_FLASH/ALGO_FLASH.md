@@ -11,7 +11,7 @@
 
 |no|name|description|
 |----|----|-----------|
-|01|Linear Search| |
+|01|Linear Search|Linear search (or sequential search) is the simplest search algorithm. It checks each element one by one.|
 |02|Binary Search| |
 |03|Bubble Sort | |
 |04|Selection Sort | |
