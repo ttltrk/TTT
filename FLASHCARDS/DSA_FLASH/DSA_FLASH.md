@@ -43,3 +43,4 @@ Loves value: 4
 |Stacks| A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle. Think of it like a stack of pancakes - you can only add or remove pancakes from the top. |
 |Queues| A queue is a linear data structure that follows the First-In-First-Out (FIFO) principle. Think of a queue as people standing in line in a supermarket. |
 |Linked Lists| as the word implies, a list where the nodes are linked together. Each node contains data and a pointer. The way they are linked together is that each node points to where in the memory the next node is placed. |
+|Hash Table|A Hash Table is a data structure designed to be fast to work with.|
