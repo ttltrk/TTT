@@ -15,7 +15,7 @@
 |02|Binary Search|The Binary Search algorithm searches through a sorted array and returns the index of the value it searches for.|
 |03|Bubble Sort |Bubble Sort is an algorithm that sorts an array from the lowest value to the highest value.|
 |04|Selection Sort |The Selection Sort algorithm finds the lowest value in an array and moves it to the front of the array.|
-|05|Insertion Sort | |
+|05|Insertion Sort |The Insertion Sort algorithm uses one part of the array to hold the sorted values, and the other part of the array to hold values that are not sorted yet.|
 |06|Quick Sort | |
 |07|Counting Sort | |
 |08|Radix Sort | |
