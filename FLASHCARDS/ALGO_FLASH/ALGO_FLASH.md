@@ -12,7 +12,7 @@
 |no|name|description|
 |----|----|-----------|
 |01|Linear Search|Linear search (or sequential search) is the simplest search algorithm. It checks each element one by one.|
-|02|Binary Search| |
+|02|Binary Search|The Binary Search algorithm searches through a sorted array and returns the index of the value it searches for.|
 |03|Bubble Sort | |
 |04|Selection Sort | |
 |05|Insertion Sort | |
