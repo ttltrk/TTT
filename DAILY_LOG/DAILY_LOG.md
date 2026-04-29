@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0070|2026-04-29|WED|updates + sp + inserts|
 |0069|2026-04-28|TUE|updates|
 |0068|2026-04-27|MON|PY DSA|
 |0067|2026-04-26|SUN|PY DSA|
