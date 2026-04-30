@@ -25,6 +25,10 @@
 
 #### LINEAR_SEARCH
 
+```
+Linear search (or sequential search) is the simplest search algorithm. It checks each element one by one.
+```
+
 ```py
 mylist = [3, 7, 2, 9, 5, 1, 8, 4, 6]
 
