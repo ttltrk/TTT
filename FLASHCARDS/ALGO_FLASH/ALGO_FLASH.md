@@ -20,3 +20,13 @@
 |07|Counting Sort | |
 |08|Radix Sort | |
 |09|Merge Sort | |
+
+---
+
+#### LINEAR_SEARCH
+
+---
+
+#### BINARY_SEARCH
+
+---
