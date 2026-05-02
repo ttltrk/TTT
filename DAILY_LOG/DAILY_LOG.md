@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0073|2026-05-02|SAT|matplotlib|
 |0072|2026-05-01|FRI|graphs|
 |0071|2026-04-30|THU|Linear search|
 |0070|2026-04-29|WED|updates + sp + inserts|
