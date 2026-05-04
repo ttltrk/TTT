@@ -175,7 +175,6 @@
 
 <details> 
 <summary>COMMENTS</summary>  
-#### COMMENTS
 
 ```py
 #This is a comment
@@ -188,11 +187,8 @@ more than just one line
 
 </details>
 
-[^^^](#PYTHON_FLASH)
-
----
-
-##### SINGLE_LINE_COMMENTS
+<details> 
+<summary>SINGLE_LINE_COMMENTS</summary>
 
 ```py
 #This is a comment
@@ -203,11 +199,10 @@ Hello, World!
 >>>
 ```
 
-[^^^](#PYTHON_FLASH)
+</details> 
 
----
-
-##### MULTI_LINE_COMMENTS
+<details> 
+<summary>MULTI_LINE_COMMENTS</summary>
 
 ```py
 """
@@ -223,9 +218,7 @@ Hello, World!
 >>>
 ```
 
-[^^^](#PYTHON_FLASH)
-
----
+</details>
 
 #### VARIABLES
 
