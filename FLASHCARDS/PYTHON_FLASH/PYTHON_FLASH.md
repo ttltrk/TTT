@@ -173,6 +173,8 @@
 
 ---
 
+<details> 
+<summary>COMMENTS</summary>  
 #### COMMENTS
 
 ```py
@@ -183,6 +185,8 @@ written in
 more than just one line
 """
 ```
+
+</details>
 
 [^^^](#PYTHON_FLASH)
 
