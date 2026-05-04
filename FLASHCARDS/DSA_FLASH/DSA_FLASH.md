@@ -19,7 +19,7 @@
 |06|Binary Tree|A Binary Tree is a type of tree data structure where each node can have a maximum of two child nodes, a left child node and a right child node.|
 |07|Binary Search Tree| |
 |08|AVL Trees| |
-|09|Graphs| |
+|09|Graphs|A Graph is a non-linear data structure that consists of vertices (nodes) and edges.|
 
 ---
 
