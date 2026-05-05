@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0076|2026-05-05|TUE|case when|
 |0075|2026-05-04|MON|py graphs|
 |0074|2026-05-03|SUN|py fundamentals|
 |0073|2026-05-02|SAT|matplotlib|
