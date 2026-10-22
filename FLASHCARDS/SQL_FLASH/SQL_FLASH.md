@@ -11,7 +11,7 @@
 
 | Rank | Statement | Description | Query |
 |-------|--------|-----------|----------|
-| 01 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City FROM Customers; |
+| 01 | SELECT | The SELECT statement is used to select data from a database. | SELECT CustomerName, City, ID, mail FROM Customers; |
 | 02 | SELECT DISTINCT | The SELECT DISTINCT statement is used to return only distinct (different) values. | SELECT DISTINCT Country FROM Customers; |
 | 03 | WHERE | The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition. | SELECT * FROM Customers WHERE Country='Mexico'; |
 | 04 | ORDER BY | The ORDER BY keyword is used to sort the result-set in ascending or descending order. | SELECT * FROM Products ORDER BY Price DESC; |
