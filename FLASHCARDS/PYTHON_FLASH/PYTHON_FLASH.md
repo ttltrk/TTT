@@ -173,8 +173,7 @@
 
 ---
 
-<details> 
-<summary>COMMENTS</summary>  
+#### COMMENTS 
 
 ```py
 #This is a comment
@@ -185,10 +184,7 @@ more than just one line
 """
 ```
 
-</details>
-
-<details> 
-<summary>SINGLE_LINE_COMMENTS</summary>
+#### SINGLE_LINE_COMMENTS 
 
 ```py
 #This is a comment
@@ -199,10 +195,7 @@ Hello, World!
 >>>
 ```
 
-</details> 
-
-<details> 
-<summary>MULTI_LINE_COMMENTS</summary>
+#### MULTI_LINE_COMMENTS 
 
 ```py
 """
@@ -217,8 +210,6 @@ print("Hello, World!")
 Hello, World!
 >>>
 ```
-
-</details>
 
 #### VARIABLES
 
