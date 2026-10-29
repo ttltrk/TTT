@@ -184,6 +184,8 @@ more than just one line
 """
 ```
 
+[^^^](#PYTHON_FLASH)
+
 #### SINGLE_LINE_COMMENTS 
 
 ```py
@@ -194,6 +196,8 @@ print("Hello, World!")
 Hello, World!
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
 
 #### MULTI_LINE_COMMENTS 
 
@@ -210,6 +214,8 @@ print("Hello, World!")
 Hello, World!
 >>>
 ```
+
+[^^^](#PYTHON_FLASH)
 
 #### VARIABLES
 
