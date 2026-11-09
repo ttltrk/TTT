@@ -7,6 +7,7 @@
 
 |NUM of DAYS|DATE|DAY|TOPICS|
 |----------|----|----|------|
+|0003|2026-11-09|MON|DSA intro |
 |0002|2026-11-08|SUN|AWS DEA C01 video check|
 |0001|2026-11-07|SAT|AWS DEA C01 video check|
 |0076|2026-05-05|TUE|case when|
